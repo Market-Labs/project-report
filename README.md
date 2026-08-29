@@ -57,7 +57,7 @@
   <tbody>
     <tr>
       <td align="center">U201923820</td>
-      <td align="left">[Cáceres Pizarro, Albino Florencio</td>
+      <td align="left">Cáceres Pizarro, Albino Florencio</td>
     </tr>
     <tr>
       <td align="center">U20231B504</td>
