@@ -52,8 +52,8 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center">U202113229</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 1]</td>
+      <td align="center">U201923820</td>
+      <td align="left">[Cáceres Pizarro, Albino Florencio</td>
     </tr>
     <tr>
       <td align="center">U20231B504</td>
