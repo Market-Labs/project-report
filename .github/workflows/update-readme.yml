@@ -1,171 +1,187 @@
+name: Build README
 
-  name: Build README
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**/*.md"
+      - "docs/*.md"
 
-  on:
-    push:
-      branches:
-        - main
-      paths:
-        - "docs/**/*.md"
-        - "docs/*.md"
+  workflow_dispatch:
 
-    workflow_dispatch:
+permissions:
+  contents: write
 
-  permissions:
-    contents: write
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
 
-  jobs:
-    update-readme:
-      runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
-          with:
-            fetch-depth: 0
+      - name: Generate README
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
 
-        - name: Generate README
-          run: |
-            python3 <<'PY'
-            from pathlib import Path
-            
-            README = Path("README.md")
-            DOCS = Path("docs")
-            
-            START = "<!-- AUTO-DOCS:START -->"
-            END = "<!-- AUTO-DOCS:END -->"
-            
-            documents = []
-            
-            # =========================
-            # FRONT MATTER
-            # =========================
-            
-            front_matter = DOCS / "front-matter"
-            
-            if front_matter.exists():
-                documents.extend(
-                    sorted(
-                        front_matter.glob("*.md")
-                    )
-                )
-            
-            # =========================
-            # DOCUMENTACIÓN
-            # =========================
-            
-            documents.extend(
-                sorted(
-                    DOCS.glob("*.md")
-                )
-            )
-            
-            # =========================
-            # GENERAR CONTENIDO
-            # =========================
-            
-            sections = []
-            
-            for file in documents:
-                print(f"Incluyendo: {file}")
-            
-                content = file.read_text(
-                    encoding="utf-8"
-                ).strip()
-            
-                if content:
-                    sections.append(content)
-            
-            generated_content = "\n\n---\n\n".join(
-                sections
-            )
-            
-            # =========================
-            # CONTENIDO AUTOMÁTICO
-            # =========================
-            
-            automatic_content = (
-                START
-                + "\n\n"
-                + generated_content
-                + "\n\n"
-                + END
-            )
-            
-            # =========================
-            # LEER README
-            # =========================
-            
-            if README.exists():
-                readme_content = README.read_text(
-                    encoding="utf-8"
-                )
-            else:
-                readme_content = "# PlantillaDA\n"
-            
-            # =========================
-            # REEMPLAZAR BLOQUE
-            # =========================
-            
-            if START in readme_content and END in readme_content:
-            
-                before = readme_content.split(
-                    START,
-                    1
-                )[0]
-            
-                after = readme_content.split(
-                    END,
-                    1
-                )[1]
-            
-                readme_content = (
-                    before
-                    + automatic_content
-                    + after
-                )
-            
-            else:
-            
-                readme_content = (
-                    readme_content.rstrip()
-                    + "\n\n"
-                    + automatic_content
-                    + "\n"
-                )
-            
-            # =========================
-            # GUARDAR README
-            # =========================
-            
-            README.write_text(
-                readme_content,
-                encoding="utf-8"
-            )
-            
-            print("")
-            print("README generado correctamente.")
-            print(
-                f"Documentos incluidos: {len(documents)}"
-            )
-            
-            PY
+          README = Path("README.md")
+          DOCS = Path("docs")
 
-        - name: Commit and push README
-          run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            
-            git add README.md
-            
-            if git diff --cached --quiet; then
-              echo "README sin cambios."
-              exit 0
-            fi
-            
-            git commit -m "docs: rebuild README"
-            
-            git pull --rebase origin main
-            
-            git push origin main
-   
+          START = "<!-- AUTO-DOCS:START -->"
+          END = "<!-- AUTO-DOCS:END -->"
+
+          documents = []
+
+          # =========================
+          # FRONT MATTER
+          # =========================
+
+          front_matter = DOCS / "front-matter"
+
+          if front_matter.exists():
+              documents.extend(
+                  sorted(
+                      front_matter.glob("*.md")
+                  )
+              )
+
+          # =========================
+          # DOCUMENTACIÓN
+          # =========================
+
+          documents.extend(
+              sorted(
+                  DOCS.glob("*.md")
+              )
+          )
+
+          # =========================
+          # GENERAR CONTENIDO
+          # =========================
+
+          sections = []
+
+          for file in documents:
+              print(f"Incluyendo: {file}")
+
+              content = file.read_text(
+                  encoding="utf-8"
+              ).strip()
+
+              # =========================
+              # AJUSTAR RUTAS DE ASSETS
+              # =========================
+              # Los capítulos utilizan rutas relativas
+              # a la carpeta docs:
+              #
+              # ./assets/chapter-01/imagen.png
+              #
+              # Pero al copiar el contenido al README,
+              # la ruta debe partir desde la raíz:
+              #
+              # docs/assets/chapter-01/imagen.png
+
+              content = content.replace(
+                  "./assets/",
+                  "docs/assets/"
+              )
+
+              if content:
+                  sections.append(content)
+
+          generated_content = "\n\n---\n\n".join(
+              sections
+          )
+
+          # =========================
+          # CONTENIDO AUTOMÁTICO
+          # =========================
+
+          automatic_content = (
+              START
+              + "\n\n"
+              + generated_content
+              + "\n\n"
+              + END
+          )
+
+          # =========================
+          # LEER README
+          # =========================
+
+          if README.exists():
+              readme_content = README.read_text(
+                  encoding="utf-8"
+              )
+          else:
+              readme_content = "# PlantillaDA\n"
+
+          # =========================
+          # REEMPLAZAR BLOQUE
+          # =========================
+
+          if START in readme_content and END in readme_content:
+
+              before = readme_content.split(
+                  START,
+                  1
+              )[0]
+
+              after = readme_content.split(
+                  END,
+                  1
+              )[1]
+
+              readme_content = (
+                  before
+                  + automatic_content
+                  + after
+              )
+
+          else:
+
+              readme_content = (
+                  readme_content.rstrip()
+                  + "\n\n"
+                  + automatic_content
+                  + "\n"
+              )
+
+          # =========================
+          # GUARDAR README
+          # =========================
+
+          README.write_text(
+              readme_content,
+              encoding="utf-8"
+          )
+
+          print("")
+          print("README generado correctamente.")
+          print(
+              f"Documentos incluidos: {len(documents)}"
+          )
+
+          PY
+
+      - name: Commit and push README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "README sin cambios."
+            exit 0
+          fi
+
+          git commit -m "docs: rebuild README"
+
+          git pull --rebase origin main
+
+          git push origin main
