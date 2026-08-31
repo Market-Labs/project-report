@@ -75,18 +75,32 @@ jobs:
               # =========================
               # AJUSTAR RUTAS DE ASSETS
               # =========================
-              # Los capítulos utilizan rutas relativas
-              # a la carpeta docs:
               #
-              # ./assets/chapter-01/imagen.png
+              # Los archivos dentro de docs/
+              # utilizan rutas relativas a su
+              # ubicación original.
               #
-              # Pero al copiar el contenido al README,
-              # la ruta debe partir desde la raíz:
+              # Al copiar el contenido al README,
+              # las rutas deben partir desde la
+              # raíz del repositorio.
               #
-              # docs/assets/chapter-01/imagen.png
+              # Ejemplo:
+              #
+              # ./assets/chapter-01/image.png
+              # ->
+              # docs/assets/chapter-01/image.png
+              #
+              # ../assets/common/logo-upc.png
+              # ->
+              # docs/assets/common/logo-upc.png
 
               content = content.replace(
                   "./assets/",
+                  "docs/assets/"
+              )
+
+              content = content.replace(
+                  "../assets/",
                   "docs/assets/"
               )
 
