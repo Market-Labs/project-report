@@ -2,7 +2,7 @@
 
 <div align="center">
 <br>
-<img src="docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<img src=".docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
