@@ -4,11 +4,11 @@
 
 ### 1.1.1. Descripción de la Startup
 
-**[NOMBRE DE LA STARTUP]** es una startup tecnológica orientada al desarrollo de soluciones digitales para la gestión eficiente de productos orgánicos. Su propuesta busca conectar a **administradores de minimarkets y proveedores** mediante una plataforma web que centraliza la gestión de inventarios, lotes, pedidos, abastecimiento y trazabilidad de los productos.
+**Market-Labs** es una startup tecnológica orientada al desarrollo de soluciones digitales para la gestión eficiente de productos orgánicos. Su propuesta busca conectar a **administradores de minimarkets y proveedores** mediante una plataforma web que centraliza la gestión de inventarios, lotes, pedidos, abastecimiento y trazabilidad de los productos.
 
 La solución aborda principalmente los problemas asociados al deterioro y pérdida de productos orgánicos, la falta de visibilidad sobre las condiciones de almacenamiento y las dificultades para mantener un abastecimiento oportuno. Para ello, la plataforma integra la gestión transaccional con capacidades de monitoreo de temperatura y humedad mediante datos simulados, permitiendo generar alertas cuando las condiciones de conservación representan un riesgo para determinados productos o lotes.
 
-La plataforma contempla **dos segmentos de negocio diferenciados: administradores de minimarkets y proveedores**. Ambos comparten una infraestructura tecnológica común, autenticación, comunicación, notificaciones y gestión de pedidos, pero cuentan con dashboards, funcionalidades y permisos específicos de acuerdo con sus necesidades operativas.
+La plataforma contempla dos segmentos de negocio diferenciados: administradores de minimarkets y proveedores. Ambos comparten una infraestructura tecnológica común, autenticación, comunicación, notificaciones y gestión de pedidos, pero cuentan con dashboards, funcionalidades y permisos específicos de acuerdo con sus necesidades operativas.
 
 Los administradores de minimarkets utilizan la plataforma principalmente para controlar sus inventarios, lotes, fechas de vencimiento, condiciones de almacenamiento, mermas, donaciones y procesos de abastecimiento. Por su parte, los proveedores utilizan la plataforma para gestionar sus productos, lotes disponibles, precios, inventario, pedidos recibidos y procesos de despacho y entrega.
 
@@ -24,7 +24,7 @@ Los administradores de minimarkets utilizan la plataforma principalmente para co
 
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
-| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_1]" alt="Foto de [NOMBRE_INTEGRANTE_1]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
+| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_1]" alt="Foto de [NOMBRE_INTEGRANTE_1]" width="120" />` | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_3]" alt="Foto de [NOMBRE_INTEGRANTE_3]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
@@ -34,7 +34,7 @@ Los administradores de minimarkets utilizan la plataforma principalmente para co
 
 ## 1.2. Solution Profile
 
-Nuestra solución, **[NOMBRE DEL PRODUCTO]**, es una plataforma web orientada a la **gestión, conservación y abastecimiento de productos orgánicos**. La solución conecta a administradores de minimarkets y proveedores dentro de un mismo ecosistema digital, permitiendo administrar inventarios, lotes, pedidos, entregas y condiciones de almacenamiento desde una plataforma centralizada.
+Nuestra solución, **MarketGo**, es una plataforma web orientada a la **gestión, conservación y abastecimiento de productos orgánicos**. La solución conecta a administradores de minimarkets y proveedores dentro de un mismo ecosistema digital, permitiendo administrar inventarios, lotes, pedidos, entregas y condiciones de almacenamiento desde una plataforma centralizada.
 
 Para los **administradores de minimarkets**, la plataforma permite controlar el inventario propio, gestionar lotes y fechas de vencimiento, monitorear las condiciones ambientales de almacenamiento, recibir alertas sobre productos en riesgo y gestionar procesos de merma o donación. Asimismo, permite consultar la disponibilidad de productos por lote de proveedores conectados, generar pedidos de abastecimiento y realizar seguimiento de sus estados.
 
