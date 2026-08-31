@@ -1,5 +1,3 @@
-# PlantillaDA
-
 <!-- AUTO-DOCS:START -->
 
 <div align="center">
