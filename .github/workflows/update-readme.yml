@@ -76,31 +76,51 @@ jobs:
               # AJUSTAR RUTAS DE ASSETS
               # =========================
               #
-              # Los archivos dentro de docs/
-              # utilizan rutas relativas a su
-              # ubicación original.
+              # Archivos dentro de:
               #
-              # Al copiar el contenido al README,
-              # las rutas deben partir desde la
-              # raíz del repositorio.
+              # docs/10-chapter-01.md
               #
-              # Ejemplo:
+              # utilizan:
               #
-              # ./assets/chapter-01/image.png
-              # ->
-              # docs/assets/chapter-01/image.png
+              # ./assets/...
               #
-              # ../assets/common/logo-upc.png
-              # ->
-              # docs/assets/common/logo-upc.png
+              # Al pasar al README:
+              #
+              # docs/assets/...
+              #
+              # --------------------------------
+              #
+              # Archivos dentro de:
+              #
+              # docs/front-matter/01-title-page.md
+              #
+              # utilizan:
+              #
+              # ../assets/...
+              #
+              # Al pasar al README:
+              #
+              # docs/assets/...
+
+              content = content.replace(
+                  "../assets/",
+                  "docs/assets/"
+              )
 
               content = content.replace(
                   "./assets/",
                   "docs/assets/"
               )
 
+              # =========================
+              # SEGURIDAD
+              # =========================
+              #
+              # Evitar que una ruta incorrecta
+              # como .docs/assets/ llegue al README.
+
               content = content.replace(
-                  "../assets/",
+                  ".docs/assets/",
                   "docs/assets/"
               )
 
