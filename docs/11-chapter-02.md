@@ -590,6 +590,57 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 6</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.2.3. Análisis de entrevistas
 
 ### Análisis por segmento objetivo
