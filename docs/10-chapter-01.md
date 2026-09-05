@@ -4,19 +4,15 @@
 
 ### 1.1.1. Descripción de la Startup
 
-**Market-Labs** es una startup tecnológica orientada al desarrollo de soluciones digitales para la gestión eficiente de productos orgánicos. Su propuesta busca conectar a **administradores de minimarkets y proveedores** mediante una plataforma web que centraliza la gestión de inventarios, lotes, pedidos, abastecimiento y trazabilidad de los productos.
+Market-Labs es una startup tecnológica peruana de reciente creación, orientada al desarrollo de iniciativas empresariales basadas en tecnología e innovación. La organización nace con el propósito de identificar oportunidades de mejora en actividades comerciales y operativas, transformándolas en propuestas de valor que puedan generar beneficios económicos, sociales y ambientales.
 
-La solución aborda principalmente los problemas asociados al deterioro y pérdida de productos orgánicos, la falta de visibilidad sobre las condiciones de almacenamiento y las dificultades para mantener un abastecimiento oportuno. Para ello, la plataforma integra la gestión transaccional con capacidades de monitoreo de temperatura y humedad mediante datos simulados, permitiendo generar alertas cuando las condiciones de conservación representan un riesgo para determinados productos o lotes.
+Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, característico de las startups, buscando validar sus ideas de negocio de manera progresiva y adaptarse a las necesidades de su mercado objetivo. Su modelo de desarrollo se basa en la identificación de problemas reales, la experimentación y la mejora constante de sus propuestas, priorizando la generación de valor antes que el crecimiento basado únicamente en estructuras empresariales tradicionales. En este sentido, Market-Labs aspira a consolidarse progresivamente como una empresa tecnológica capaz de identificar nuevas oportunidades de negocio y desarrollar propuestas innovadoras que respondan a necesidades concretas del mercado. Su crecimiento se plantea mediante la generación de productos y servicios digitales escalables, procurando establecer relaciones sostenibles con sus clientes y demás actores relacionados con sus actividades empresariales.
 
-La plataforma contempla dos segmentos de negocio diferenciados: administradores de minimarkets y proveedores. Ambos comparten una infraestructura tecnológica común, autenticación, comunicación, notificaciones y gestión de pedidos, pero cuentan con dashboards, funcionalidades y permisos específicos de acuerdo con sus necesidades operativas.
+**Misión:** Desarrollar iniciativas tecnológicas innovadoras que permitan atender necesidades reales del mercado, generando valor para los usuarios y contribuyendo al desarrollo de actividades empresariales más eficientes y sostenibles.
 
-Los administradores de minimarkets utilizan la plataforma principalmente para controlar sus inventarios, lotes, fechas de vencimiento, condiciones de almacenamiento, mermas, donaciones y procesos de abastecimiento. Por su parte, los proveedores utilizan la plataforma para gestionar sus productos, lotes disponibles, precios, inventario, pedidos recibidos y procesos de despacho y entrega.
+**Visión:** Consolidarse como una startup tecnológica peruana reconocida por su capacidad de innovación, adaptación y generación de propuestas digitales escalables que respondan a los nuevos desafíos del mercado.
 
-**Misión:** Facilitar la gestión y conservación de productos orgánicos mediante herramientas digitales que permitan a administradores de minimarkets y proveedores mejorar la trazabilidad, reducir pérdidas y optimizar sus procesos de abastecimiento.
-
-**Visión:** Convertirse en una plataforma tecnológica de referencia para la gestión inteligente y sostenible de productos orgánicos, conectando digitalmente a los principales actores de su cadena de abastecimiento.
-
-**Valores:** Trazabilidad, eficiencia, sostenibilidad, transparencia, innovación y orientación al usuario.
+**Valores:** Innovación, eficiencia, sostenibilidad, transparencia, adaptabilidad y orientación al usuario.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
