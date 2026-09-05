@@ -72,8 +72,8 @@
       <td align="left">[NOMBRE DEL INTEGRANTE 4]</td>
     </tr>
     <tr>
-      <td align="center">U201923820</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 5]</td>
+      <td align="center">U20241G152</td>
+      <td align="left">Torres Huaman, Alexis Calin</td>
     </tr>
   </tbody>
 </table>
