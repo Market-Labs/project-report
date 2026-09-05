@@ -328,3 +328,303 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 14. ¿Qué dificultades encuentra actualmente al coordinar pedidos y abastecimiento con los minimarkets?
 15. ¿Ha experimentado problemas debido a errores de comunicación, pérdida de información o retrasos en la gestión de pedidos? ¿Cómo los resuelve?
 16. ¿Considera que una plataforma que permita consultar productos, generar pedidos y realizar seguimiento de su estado facilitaría la coordinación con los minimarkets? ¿Por qué?
+
+### 2.2.2. Registro de entrevistas
+
+**Segmento objetivo: [Nombre del segmento objetivo]**
+
+**Nombre del archivo de video consolidado:** `[nombre-del-video].mp4`
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-01.png" alt="Entrevista 1" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar un resumen de los principales aspectos mencionados por el entrevistado, incluyendo su contexto profesional, forma de trabajo, herramientas utilizadas, problemas identificados, procesos actuales, necesidades y percepción de una posible solución.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 5</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.2.3. Análisis de entrevistas
+
+### Análisis por segmento objetivo
+
+**Segmento objetivo: [Nombre del segmento objetivo]**
+
+#### 1. Descripción general del segmento
+
+Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las entrevistas registradas, se identificaron patrones comunes en sus características objetivas y subjetivas, los cuales sirven como base para la construcción del arquetipo correspondiente.
+
+#### 2. Características objetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **[Característica objetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica objetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica objetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica objetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+
+#### 3. Características subjetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **[Característica subjetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica subjetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica subjetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica subjetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+
+#### 4. Hallazgos principales
+
+- **[Hallazgo principal 1] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+- **[Hallazgo principal 2] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+- **[Hallazgo principal 3] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+
+#### 5. Conclusión del segmento
+
+[Redactar una conclusión integrando los principales patrones identificados en las entrevistas, los problemas recurrentes, necesidades, comportamientos y motivaciones del segmento. Relacionar estos resultados con la construcción del arquetipo de usuario y las necesidades que deberá atender la solución.]
+
