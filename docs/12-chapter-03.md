@@ -2,14 +2,23 @@
 
 ## TO-BE Scenario Mapping
 
-Administradores de Minimarkets / Proveedores de Productos Orgánicos
+### Administradores de Minimarkets
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
-| Consulta y revisión de información | Consulta el dashboard común para revisar inventario, productos, lotes, fechas de vencimiento, condiciones de conservación y operaciones de abastecimiento según los permisos de su rol. | “Necesito encontrar rápidamente la información que corresponde a mi operación y conocer qué productos requieren atención.” | Organizado y con mayor sensación de control. |
-| Gestión y abastecimiento | El administrador revisa necesidades de abastecimiento y consulta productos ofrecidos por proveedores. El proveedor consulta sus productos disponibles y genera pedidos dirigidos a minimarkets. | “Necesito asegurar que los productos disponibles y las necesidades de abastecimiento estén correctamente coordinados.” | Atento y enfocado en mantener la disponibilidad de productos. |
-| Toma de decisión | El administrador revisa los pedidos de abastecimiento y decide aceptarlos o rechazarlos. Si acepta un pedido, los productos correspondientes se incorporan automáticamente al inventario. | “Debo validar que el pedido corresponda a lo que necesita el minimarket antes de incorporarlo al inventario.” | Responsable y seguro al contar con información centralizada. |
+| Consulta y revisión de información | Consulta el dashboard común para revisar el inventario, productos, lotes, fechas de vencimiento, condiciones de conservación y operaciones de abastecimiento del minimarket. | “Necesito encontrar rápidamente la información de mis productos y conocer cuáles requieren atención.” | Organizado y con mayor sensación de control. |
+| Gestión y abastecimiento | Revisa las necesidades de abastecimiento y consulta los productos ofrecidos por los proveedores para identificar aquellos que requiere incorporar al minimarket. | “Necesito asegurar que los productos que solicito correspondan a las necesidades de mi inventario.” | Atento y enfocado en mantener la disponibilidad de productos. |
+| Toma de decisión | Revisa los pedidos de abastecimiento recibidos y decide aceptarlos o rechazarlos. Si acepta un pedido, los productos correspondientes se incorporan automáticamente al inventario. | “Debo validar que el pedido corresponda a lo que necesita el minimarket antes de incorporarlo al inventario.” | Responsable y seguro al contar con información centralizada. |
 | Seguimiento y control | Consulta el estado de los pedidos, inventario, lotes, vencimientos, alertas de conservación y movimientos relacionados con los productos. | “Necesito conocer qué productos tengo disponibles, cuáles requieren atención y cómo avanzan las operaciones de abastecimiento.” | Vigilante, con mayor sensación de control y seguridad. |
+
+### Proveedores de Productos Orgánicos
+
+| Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
+|------|------------------|-----------------------|----------------------|
+| Consulta y revisión de información | Consulta el dashboard común para revisar los productos que ofrece, su información y las operaciones de abastecimiento relacionadas con los minimarkets. | “Necesito conocer qué productos puedo ofrecer y consultar fácilmente la información de mis operaciones.” | Organizado y con mayor claridad sobre sus operaciones. |
+| Gestión y abastecimiento | Consulta los productos que ofrece y genera pedidos de abastecimiento dirigidos a los minimarkets según sus necesidades. | “Necesito enviar correctamente los productos solicitados y mantener una coordinación clara con los minimarkets.” | Atento y enfocado en realizar las operaciones de abastecimiento correctamente. |
+| Toma de decisión | Consulta el estado de los pedidos generados y verifica si estos han sido revisados, aceptados o rechazados por los administradores de los minimarkets. | “Necesito saber si el pedido fue aceptado para conocer cómo continúa la operación de abastecimiento.” | Expectante y seguro al contar con información actualizada. |
+| Seguimiento y control | Consulta el estado de sus pedidos y el historial de las operaciones de abastecimiento realizadas con los minimarkets. | “Necesito conocer el avance de mis pedidos y mantener un registro de las operaciones realizadas.” | Tranquilo y con mayor sensación de control y trazabilidad. |
 
 ## 3.1. User Stories
 
