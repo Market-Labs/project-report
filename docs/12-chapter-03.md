@@ -142,3 +142,79 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 | `/api/v1/dashboard` | GET | TS-DASH-001 / US-030 | dashboard |
 | `/api/v1/notifications` | GET, PATCH | TS-DASH-002 / US-009 / US-012 | notifications |
 | `/api/v1/activity-history` | GET | TS-AUD-001 / US-025 | audit |
+
+## 3.2. Impact Mapping
+
+<img src="../docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+
+## 3.3. Product Backlog
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|------|--------------|--------|-------------|--------------|
+| 1 | US-001 | Registrar producto en inventario | Como administrador de minimarket, quiero registrar productos en el inventario para mantener un control estructurado de los productos disponibles. | 5 |
+| 2 | US-002 | Visualizar inventario | Como administrador de minimarket, quiero visualizar el inventario para conocer los productos disponibles y su información actual. | 5 |
+| 3 | US-003 | Buscar productos en inventario | Como administrador de minimarket, quiero buscar productos en el inventario para encontrarlos rápidamente. | 3 |
+| 4 | US-004 | Filtrar inventario | Como administrador de minimarket, quiero filtrar el inventario por diferentes criterios para consultar productos de manera eficiente. | 3 |
+| 5 | US-005 | Actualizar inventario | Como administrador de minimarket, quiero actualizar la información del inventario para mantener los datos de los productos actualizados. | 5 |
+| 6 | US-006 | Registrar lote | Como administrador de minimarket, quiero registrar lotes de productos para mantener la trazabilidad de los productos almacenados. | 5 |
+| 7 | US-007 | Consultar lotes | Como administrador de minimarket, quiero consultar los lotes registrados para conocer la información asociada a cada grupo de productos. | 3 |
+| 8 | US-008 | Controlar fechas de vencimiento | Como administrador de minimarket, quiero consultar las fechas de vencimiento de los productos para identificar aquellos que requieren atención. | 5 |
+| 9 | US-009 | Generar alertas de vencimiento | Como administrador de minimarket, quiero recibir alertas sobre productos próximos a vencer para tomar acciones oportunamente. | 3 |
+| 10 | US-010 | Consultar condiciones de conservación | Como administrador de minimarket, quiero consultar las condiciones de conservación de los productos para verificar que se mantengan adecuadamente almacenados. | 3 |
+| 11 | US-011 | Monitorear temperatura y humedad | Como administrador de minimarket, quiero visualizar los datos de temperatura y humedad de las áreas de almacenamiento para identificar condiciones que puedan afectar los productos. | 5 |
+| 12 | US-012 | Generar alertas de conservación | Como administrador de minimarket, quiero recibir alertas cuando las condiciones de conservación representen un riesgo para los productos. | 5 |
+| 13 | US-013 | Registrar merma | Como administrador de minimarket, quiero registrar productos que hayan sufrido merma para mantener un control de las pérdidas. | 3 |
+| 14 | US-014 | Registrar donación de productos | Como administrador de minimarket, quiero registrar la donación de productos para mantener trazabilidad sobre aquellos que salen del inventario con este propósito. | 3 |
+| 15 | US-015 | Consultar productos de proveedores | Como administrador de minimarket, quiero consultar los productos ofrecidos por los proveedores para identificar opciones de abastecimiento. | 5 |
+| 16 | US-016 | Registrar productos ofrecidos | Como proveedor, quiero registrar los productos que ofrezco para ponerlos a disposición de los minimarkets. | 5 |
+| 17 | US-017 | Consultar productos ofrecidos | Como proveedor, quiero consultar los productos que ofrezco para verificar su información y disponibilidad. | 3 |
+| 18 | US-018 | Crear pedido de abastecimiento | Como proveedor, quiero crear pedidos de abastecimiento dirigidos a los minimarkets para gestionar las operaciones de suministro. | 5 |
+| 19 | US-019 | Consultar pedidos de abastecimiento | Como proveedor, quiero consultar mis pedidos de abastecimiento para conocer las operaciones que he generado. | 3 |
+| 20 | US-020 | Filtrar pedidos | Como usuario, quiero filtrar los pedidos de abastecimiento por estado u otros criterios para encontrarlos rápidamente. | 3 |
+| 21 | US-021 | Revisar pedido de abastecimiento | Como administrador de minimarket, quiero revisar los pedidos de abastecimiento recibidos para validar los productos y cantidades solicitadas. | 5 |
+| 22 | US-022 | Aceptar pedido de abastecimiento | Como administrador de minimarket, quiero aceptar un pedido de abastecimiento para confirmar la operación y permitir que los productos correspondientes se incorporen automáticamente al inventario. | 5 |
+| 23 | US-023 | Rechazar pedido de abastecimiento | Como administrador de minimarket, quiero rechazar un pedido de abastecimiento para indicar que la solicitud no será aceptada. | 3 |
+| 24 | US-024 | Consultar estado del pedido | Como proveedor, quiero consultar el estado de mis pedidos de abastecimiento para conocer si fueron revisados, aceptados o rechazados. | 3 |
+| 25 | US-025 | Consultar historial de abastecimiento | Como usuario, quiero consultar el historial de las operaciones de abastecimiento para mantener trazabilidad de los pedidos realizados. | 3 |
+| 26 | US-026 | Registrar usuario | Como administrador, quiero registrar usuarios en el sistema para permitir el acceso controlado a MarketGo. | 3 |
+| 27 | US-027 | Inicio de sesión | Como usuario, quiero iniciar sesión para acceder al sistema según los permisos correspondientes a mi rol. | 3 |
+| 28 | US-028 | Gestionar permisos por rol | Como administrador, quiero gestionar los permisos de los usuarios según su rol para controlar las acciones disponibles dentro del sistema. | 5 |
+| 29 | US-029 | Controlar acceso al inventario | Como administrador de minimarket, quiero controlar el acceso a las operaciones de inventario para evitar modificaciones realizadas por usuarios no autorizados. | 5 |
+| 30 | US-030 | Dashboard general | Como usuario, quiero visualizar un dashboard general con la información correspondiente a mi rol para consultar rápidamente el estado de las operaciones. | 5 |
+| 31 | IMP-BE-001 | Backend foundations | Como desarrollador, quiero configurar ASP.NET Core/C# con seguridad, health check, Swagger y XML docs para sostener los Web Services de MarketGo. | 3 |
+| 32 | IMP-BE-002 | Persistence, migrations and seed data | Como desarrollador, quiero configurar EF Core, persistencia, migraciones y datos iniciales para reemplazar los datos simulados con persistencia real. | 5 |
+| 33 | TS-IAM-001 | Sign-in API | Como frontend developer, quiero autenticar usuarios mediante `POST /api/v1/auth/sign-in` para obtener una sesión segura. | 2 |
+| 34 | TS-IAM-002 | Sign-up API | Como frontend developer, quiero registrar usuarios mediante `POST /api/v1/auth/sign-up` para habilitar el registro de nuevos usuarios. | 2 |
+| 35 | TS-IAM-003 | Users directory API | Como frontend developer, quiero listar y crear usuarios mediante `/api/v1/users` para administrar los accesos al sistema. | 3 |
+| 36 | TS-IAM-004 | User detail and update API | Como frontend developer, quiero consultar y actualizar usuarios mediante `/api/v1/users/{id}` para gestionar su información y estado. | 3 |
+| 37 | TS-PROF-001 | Profile read and update API | Como frontend developer, quiero consumir `/api/v1/profiles` para mostrar y actualizar la información del perfil del usuario. | 3 |
+| 38 | TS-PROD-001 | Products catalog API | Como frontend developer, quiero consumir `/api/v1/products` para consultar y gestionar el catálogo de productos orgánicos. | 3 |
+| 39 | TS-PROD-002 | Product detail and update API | Como frontend developer, quiero consultar y actualizar productos mediante `/api/v1/products/{id}` para mantener su información vigente. | 3 |
+| 40 | TS-INV-001 | Inventory list and create API | Como frontend developer, quiero listar y registrar productos mediante `/api/v1/inventory` para controlar el inventario de los minimarkets. | 3 |
+| 41 | TS-INV-002 | Inventory update API | Como frontend developer, quiero actualizar el inventario mediante `/api/v1/inventory/{id}` para reflejar cambios en los productos disponibles. | 2 |
+| 42 | TS-INV-003 | Inventory search and filter API | Como frontend developer, quiero buscar y filtrar el inventario mediante `/api/v1/inventory/search` para facilitar la consulta de productos. | 2 |
+| 43 | TS-LOT-001 | Lots list and create API | Como frontend developer, quiero listar y registrar lotes mediante `/api/v1/lots` para mantener la trazabilidad de los productos. | 3 |
+| 44 | TS-LOT-002 | Lot detail and update API | Como frontend developer, quiero consultar y actualizar lotes mediante `/api/v1/lots/{id}` para mantener su información actualizada. | 2 |
+| 45 | TS-EXP-001 | Expiration tracking API | Como frontend developer, quiero consultar las fechas de vencimiento mediante `/api/v1/expirations` para identificar productos próximos a vencer. | 3 |
+| 46 | TS-CON-001 | Conservation monitoring API | Como frontend developer, quiero consultar los datos de conservación mediante `/api/v1/conservation/monitoring` para visualizar las condiciones de almacenamiento. | 3 |
+| 47 | TS-CON-002 | Conservation alerts API | Como frontend developer, quiero consultar las alertas mediante `/api/v1/conservation/alerts` para identificar condiciones que representen riesgos para los productos. | 3 |
+| 48 | TS-SUP-001 | Suppliers directory API | Como frontend developer, quiero listar y registrar proveedores mediante `/api/v1/suppliers` para mantener un directorio organizado. | 3 |
+| 49 | TS-SUP-002 | Supplier products API | Como frontend developer, quiero consultar los productos ofrecidos por cada proveedor mediante `/api/v1/suppliers/{id}/products` para mostrar sus opciones de abastecimiento. | 3 |
+| 50 | TS-ORD-001 | Supply orders list and create API | Como frontend developer, quiero listar y crear pedidos mediante `/api/v1/orders` para gestionar las operaciones de abastecimiento. | 3 |
+| 51 | TS-ORD-002 | Supply order detail and update API | Como frontend developer, quiero consultar y actualizar pedidos mediante `/api/v1/orders/{id}` para gestionar su información y estado. | 3 |
+| 52 | TS-ORD-003 | Supply order acceptance API | Como frontend developer, quiero aceptar pedidos mediante `/api/v1/orders/{id}/accept` para confirmar el abastecimiento y agregar automáticamente los productos correspondientes al inventario del minimarket. | 3 |
+| 53 | TS-ORD-004 | Supply order rejection API | Como frontend developer, quiero rechazar pedidos mediante `/api/v1/orders/{id}/reject` para registrar correctamente las operaciones no aceptadas. | 2 |
+| 54 | TS-MER-001 | Waste and donation API | Como frontend developer, quiero registrar mermas y donaciones mediante `/api/v1/waste` y `/api/v1/donations` para mantener la trazabilidad de las salidas del inventario. | 3 |
+| 55 | TS-DASH-001 | Dashboard API | Como frontend developer, quiero consultar `/api/v1/dashboard` para alimentar los indicadores generales correspondientes al rol del usuario. | 3 |
+| 56 | TS-DASH-002 | Alerts and notifications API | Como frontend developer, quiero consultar `/api/v1/notifications` para mostrar alertas y notificaciones relevantes al usuario. | 2 |
+| 57 | TS-AUD-001 | Activity history API | Como frontend developer, quiero consultar `/api/v1/activity-history` para mostrar el historial de acciones y mantener trazabilidad de las operaciones. | 3 |
+| 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de negocio relacionadas con roles, permisos, pedidos y actualización automática del inventario para garantizar el funcionamiento correcto de MarketGo. | 3 |
+| 59 | IMP-BE-004 | Deployment and integration readiness | Como desarrollador, quiero preparar Docker, configuración productiva y smoke tests para desplegar los Web Services de MarketGo. | 3 |
+
+**Enlace directo al tablero:** [Tablero Jira - Proyecto MarketGo](https://rqls26.atlassian.net/jira/software/projects/RQSL/boards/1/backlog)
+
+<div align="center">
+  <img src="./assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
+  <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
+</div>
+
