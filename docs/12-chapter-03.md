@@ -209,7 +209,6 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 | 56 | TS-DASH-002 | Alerts and notifications API | Como frontend developer, quiero consultar `/api/v1/notifications` para mostrar alertas y notificaciones relevantes al usuario. | 2 |
 | 57 | TS-AUD-001 | Activity history API | Como frontend developer, quiero consultar `/api/v1/activity-history` para mostrar el historial de acciones y mantener trazabilidad de las operaciones. | 3 |
 | 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de negocio relacionadas con roles, permisos, pedidos y actualización automática del inventario para garantizar el funcionamiento correcto de MarketGo. | 3 |
-| 59 | IMP-BE-004 | Deployment and integration readiness | Como desarrollador, quiero preparar Docker, configuración productiva y smoke tests para desplegar los Web Services de MarketGo. | 3 |
 
 **Enlace directo al tablero:** [Tablero Jira - Proyecto MarketGo](https://rqls26.atlassian.net/jira/software/projects/RQSL/boards/1/backlog)
 
