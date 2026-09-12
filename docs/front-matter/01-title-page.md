@@ -57,7 +57,7 @@
     </tr>
     <tr>
       <td align="center">U20231B504</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 2]</td>
+      <td align="left">Merino Ordinola, Winnie Lisbeth</td>
     </tr>
     <tr>
       <td align="center">U202316687</td>
