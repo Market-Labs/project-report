@@ -279,27 +279,27 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 #### Preguntas Demográficas
 
 1. ¿Cuál es su nombre completo y qué edad tiene?
-2. ¿Cómo se definiría profesionalmente?
-3. ¿Cuál es su cargo dentro del minimarket y cuántos años de experiencia tiene en la gestión del negocio?
-4. ¿Cuánto tiempo lleva administrando o participando en las operaciones del minimarket?
-5. ¿En qué distrito/provincia se encuentra ubicado el minimarket?
+2. ¿Cuál es su cargo dentro del minimarket y cuántos años de experiencia tiene en la gestión del negocio?
+3. ¿En qué distrito o provincia se encuentra ubicado el minimarket?
 
 #### Preguntas de Hábitos Digitales
 
-6. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar las actividades del minimarket (Laptop, Tablet o Celular)?
-7. ¿Qué herramientas digitales utiliza actualmente para registrar o consultar información del inventario?
-8. ¿Qué canales digitales utiliza con mayor frecuencia para comunicarse con sus proveedores?
-9. ¿Utiliza actualmente algún software especializado para gestionar inventarios, productos o pedidos?
+4. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar las actividades del minimarket?
+5. ¿Qué herramientas utiliza actualmente para registrar o consultar información del inventario?
+6. ¿Qué medios utiliza con mayor frecuencia para comunicarse con sus proveedores?
 
 #### Preguntas Principales
 
-10. ¿Cuántos productos o lotes suele gestionar aproximadamente durante una semana?
-11. ¿Podría describir el proceso que sigue desde que identifica la necesidad de abastecer un producto hasta que este queda registrado en el inventario?
+7. ¿Cómo registra y controla actualmente los productos disponibles en el minimarket?
+8. ¿Podría describir el proceso desde que identifica la necesidad de abastecer un producto hasta que este queda registrado en el inventario?
+9. ¿Cómo controla actualmente los lotes y las fechas de vencimiento de los productos?
+10. ¿Cómo determina qué productos necesitan ser repuestos o retirados por encontrarse próximos a vencer?
+11. ¿Cómo controla actualmente las condiciones de almacenamiento de los productos, como temperatura y humedad?
 12. ¿Cómo consulta actualmente la disponibilidad de productos ofrecidos por sus proveedores?
-13. ¿Cómo registra y controla actualmente los lotes y fechas de vencimiento de los productos?
-14. ¿Cómo realiza actualmente el control de las condiciones de almacenamiento de los productos, como temperatura y humedad?
-15. ¿Ha experimentado pérdidas debido al deterioro, vencimiento o almacenamiento inadecuado de productos? ¿Cómo las gestiona?
-16. ¿Considera que una plataforma que centralice el inventario, conservación y abastecimiento facilitaría la gestión del minimarket? ¿Por qué?
+13. ¿Cómo realiza el seguimiento de los pedidos o solicitudes de abastecimiento realizados a sus proveedores?
+14. ¿Qué dificultades encuentra actualmente al gestionar inventario, lotes, vencimientos y abastecimiento?
+15. ¿Ha experimentado pérdidas por productos deteriorados, vencidos, falta de stock o condiciones inadecuadas de almacenamiento? ¿Cómo las gestiona?
+16. ¿Considera que una plataforma que centralice el inventario, lotes, vencimientos, condiciones de almacenamiento, proveedores y pedidos de abastecimiento facilitaría su gestión? ¿Por qué?
 
 ---
 
@@ -308,27 +308,27 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 #### Preguntas Demográficas
 
 1. ¿Cuál es su nombre completo y qué edad tiene?
-2. ¿Cómo se definiría profesionalmente?
-3. ¿Cuál es su cargo dentro de la empresa y cuántos años de experiencia tiene en la comercialización o distribución de productos?
-4. ¿Cuánto tiempo lleva trabajando con minimarkets u otros establecimientos como clientes?
-5. ¿En qué distrito/provincia se encuentra ubicado su centro de operaciones?
+2. ¿Cuál es su cargo dentro de la empresa y cuántos años de experiencia tiene en la comercialización o distribución de productos?
+3. ¿En qué distrito o provincia se encuentra ubicado su negocio o centro de operaciones?
 
 #### Preguntas de Hábitos Digitales
 
-6. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar pedidos y operaciones comerciales (Laptop, Tablet o Celular)?
-7. ¿Qué herramientas digitales utiliza actualmente para registrar o consultar los productos que ofrece a sus clientes?
-8. ¿Qué canales digitales utiliza con mayor frecuencia para comunicarse con los minimarkets?
-9. ¿Utiliza actualmente algún software especializado para gestionar productos, pedidos o relaciones con sus clientes?
+4. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar productos y pedidos?
+5. ¿Qué herramientas utiliza actualmente para registrar o consultar información de los productos que ofrece?
+6. ¿Qué medios utiliza con mayor frecuencia para comunicarse con sus clientes?
 
 #### Preguntas Principales
 
-10. ¿Cuántos productos o pedidos suele gestionar aproximadamente durante una semana?
-11. ¿Podría describir el proceso que sigue desde que un minimarket solicita un producto hasta que se coordina su abastecimiento?
-12. ¿Cómo comunica actualmente a sus clientes la disponibilidad de los productos que ofrece?
-13. ¿Cómo registra y realiza actualmente el seguimiento de los pedidos realizados por sus clientes?
-14. ¿Qué dificultades encuentra actualmente al coordinar pedidos y abastecimiento con los minimarkets?
-15. ¿Ha experimentado problemas debido a errores de comunicación, pérdida de información o retrasos en la gestión de pedidos? ¿Cómo los resuelve?
-16. ¿Considera que una plataforma que permita consultar productos, generar pedidos y realizar seguimiento de su estado facilitaría la coordinación con los minimarkets? ¿Por qué?
+7. ¿Cómo registra y administra actualmente el catálogo de productos que ofrece?
+8. ¿Cómo controla actualmente la disponibilidad y los lotes de los productos que tiene para ofrecer?
+9. ¿Podría describir el proceso desde que un minimarket solicita productos hasta que el pedido es preparado y despachado?
+10. ¿Cómo gestiona actualmente los pedidos o solicitudes provenientes de diferentes minimarkets?
+11. ¿Cómo comunica actualmente a sus clientes la disponibilidad, precios y características de los productos?
+12. ¿Cómo realiza el seguimiento del estado de los pedidos realizados por sus clientes?
+13. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, disponibilidad y lotes?
+14. ¿Qué problemas ha experimentado relacionados con errores de comunicación, pérdida de información, retrasos o falta de disponibilidad? ¿Cómo los resuelve?
+15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
+16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
 
 ### 2.2.2. Registro de entrevistas
 
