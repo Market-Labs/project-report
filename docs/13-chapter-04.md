@@ -281,3 +281,38 @@ Etiquetas descriptivas ubicadas sobre el campo (no placeholders como único labe
 - Campos obligatorios marcados con asterisco (`*`) en color de error, consistente con el modal de rechazo ya diseñado
 - Mensajes de validación en primera persona desde el sistema, en tono directo: "Este campo es obligatorio para continuar", "La cantidad supera el stock disponible"
 
+### 4.2.3. SEO Tags and Meta Tags
+
+***Landing Page (Sitio Web Estático)**
+
+El objetivo de estas etiquetas es el posicionamiento orgánico para atraer a dueños de negocios o analistas interesados en la solución.
+ 
+- Título: "MarketGo — Gestión de inventario para minimarkets orgánicos"
+- Descripción: descripción orientada a beneficios de negocio (control de vencimientos, trazabilidad de proveedores, reducción de mermas), con palabras clave como "inventario orgánico", "gestión de minimarket", "control de vencimientos"
+- Encabezados h1 y h3 estructurados jerárquicamente reflejando los beneficios del producto (uno por sección de la landing: control de inventario, alertas de conservación, gestión de proveedores)
+- URLs amigables y descriptivas (ej. funcionalidades, precios, contactos) en vez de rutas genéricas.
+
+**Web Application (Plataforma de Usuario)**
+
+### 4.2.4. Searching Systems
+
+**Mecanismos de búsqueda**
+
+MarketGo utiliza búsqueda por texto libre combinada con filtros estructurados, disponible en los módulos de Inventario, Lotes, Pedidos y Catálogo de proveedores. La búsqueda es del tipo "buscar mientras se escribe" (incremental), sin necesidad de confirmar con Enter, dado que los catálogos manejados no son de gran volumen.
+ 
+**Búsqueda filtrada (específica)** 
+
+Las opciones de filtrado (varían según el módulo, pero siguen el mismo patrón de ubicación — barra superior a la tabla o grid):
+ 
+- Inventario: categoría, condición de conservación, proveedor, rango de stock
+- Gestión de Lotes: estado de vencimiento (chips rápidos "Todos" / "Por vencer" / "Vencidos"), rango de fechas
+- Pedidos: estado (Pendiente/Aceptado/Rechazado), fecha, minimarket (para el rol proveedor, que abastece a varios)
+- Catálogo de proveedores: proveedor específico, categoría de producto.
+
+**Visualización de Resultados**
+ 
+- Resultados en tabla (Inventario, Lotes) cuando el usuario necesita comparar muchos registros con múltiples atributos, o en tarjetas/grid (Catálogo de proveedores, Pedidos en vista Kanban) cuando el contenido se explora más que se audita.
+- Estado vacío consistente en toda la plataforma cuando la búsqueda o el filtro no arroja resultados: mensaje informativo breve (ej. "No se encontraron productos con estos filtros"), sin ilustraciones que distraigan, siguiendo el patrón ya usado para conservación sin datos
+- Contador de resultados visible ("Mostrando 4 de 86 lotes") para dar contexto de escala, especialmente en tablas paginadas.
+
+### 4.2.5. Navigation Systems
