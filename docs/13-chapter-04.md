@@ -354,6 +354,50 @@ MarketGo combina dos estrategias de navegación según el tipo de sitio:
 
 En esta sección se presenta el desarrollo de los primeros wireframes como primer paso para la producción de interfaz visual de la solución, realizados en la plataforma *Figma*.
 
+<div align="center">
+<strong>Figura 1</strong><br />
+  <em>Wireframe de Landing Page sección Home</em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 2</strong><br />
+  <em>Wireframe de Landing Page sección Información</em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+
+<div align="center">
+<strong>Figura 3</strong><br />
+  <em>Wireframe de Landing Page sección Videos</em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 4</strong><br />
+  <em>Wireframe de Landing Page sección Planes</em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 5</strong><br />
+  <em>Wireframe de Landing Page sección Contacto</em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+
+### 4.3.2 Landing Page Mock Up
+
 
 
 
