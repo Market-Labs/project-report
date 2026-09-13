@@ -244,4 +244,40 @@ El contenido de MarketGo se categoriza bajo tres esquemas complementarios:
 
 ### 4.2.2. Labeling Systems
  
+ En esta sección se detalla el sistema de etiquetado, diseñado para ofrecer una experiencia de usuario intuitiva mediante términos breves y reconocibles. Estas etiquetas permiten que tanto los visitantes como los usuarios finales comprendan las funciones del software sin ambigüedades.
+
+ **Etiquetas de Navegación (Sidebar & Menu Labels)**
+
+ | Grupo | Etiquetas |
+|---|---|
+| Operación | Inventario · Gestión de Lotes · Conservación |
+| Abastecimiento | Pedidos · Proveedores y productos |
+| Análisis | Dashboard general |
+| Administración | Usuarios y seguridad |
  
+Reglas: sustantivos cortos (1–2 palabras), sin verbos, consistentes con lo ya validado en los wireframes de sidebar. Se evita duplicar la palabra "Gestión" en todas las etiquetas para no saturar el menú (por eso "Inventario" y "Conservación" van sin ese prefijo, mientras "Gestión de Lotes" lo conserva por claridad frente a "Lotes" solo, que podría confundirse con lotes de compra).
+
+**Etiquetas de Acción y Control (Command Labels)**
+
+- Botones primarios: "Registrar lote", "Registrar producto", "Aceptar pedido", "Confirmar rechazo", "Guardar lote"
+- Botones secundarios/cancelación: "Cancelar", "Rechazar"
+- Acciones en línea (íconos con tooltip): "Ver detalle", "Editar", "Eliminar", "Registrar merma", "Registrar donación"
+- Acciones de filtrado y búsqueda: "Buscar producto o código de lote", "Filtrar por estado"
+
+**Etiquetas de Estado y Datos (Informational Labels)**
+
+Etiquetas cortas, en badges de color, siguiendo el esquema de categorización por estado ya definido:
+ 
+- Vencimiento: "Vigente", "Próximo a vencer", "Vencido" (o el conteo de días, ej. "Vence en 2 días")
+- Pedidos: "Pendiente", "Aceptado", "Rechazado"
+- Conservación: "Normal", "Riesgoso", "Sin registros disponibles"
+- Metadatos: "hace 3 días", "hace 4 horas" (tiempos relativos en vez de timestamps completos, para lectura más rápida)
+
+**Etiquetas de Formulario (Field Labels)**
+
+Etiquetas descriptivas ubicadas sobre el campo (no placeholders como único label, para mantener accesibilidad):
+ 
+- "Producto", "Cantidad", "Unidad", "Fecha de ingreso", "Fecha de vencimiento", "Proveedor", "Motivo del rechazo", "Minimarket destino"
+- Campos obligatorios marcados con asterisco (`*`) en color de error, consistente con el modal de rechazo ya diseñado
+- Mensajes de validación en primera persona desde el sistema, en tono directo: "Este campo es obligatorio para continuar", "La cantidad supera el stock disponible"
+
