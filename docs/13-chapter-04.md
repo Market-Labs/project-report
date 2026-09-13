@@ -403,7 +403,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Home</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 
@@ -412,29 +412,29 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Información del producto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
-<strong>Figura 2</strong><br />
+<strong>Figura 3</strong><br />
   <em>Mock up de Landing Page sección Videos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
-<strong>Figura 2</strong><br />
+<strong>Figura 4</strong><br />
   <em>Mock up de Landing Page sección Planes/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
-<strong>Figura 2</strong><br />
+<strong>Figura 5</strong><br />
   <em>Mock up de Landing Page sección Contacto/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
