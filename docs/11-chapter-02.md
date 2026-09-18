@@ -369,7 +369,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>JLO, Chiclayo, Lambayeque</td>
+      <td>José Leonardo Ortíz, Chiclayo, Lambayeque</td>
       <td><strong>Software especializado utilizado</strong></td>
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
