@@ -1529,7 +1529,7 @@ El logo pricipal se trata de una representación de capas que representan almace
 
 La tipografía elegida para nuestro producto es Arimo, una font de la familia Sans Serif. Esta fuente resalta por ser moderna, legible y usada en contextos de tecnología y modernidad. Se utilizará esta fuente en todos los textos y título para mantener consistencia y armonía visual. 
 
-<img src="Tipografia.png" alt="Texto alternativo" width="400" height="300">
+<img src="assets/chapter-04/Tipografia.png" alt="Texto alternativo" width="400" height="300">
 
 La jerarquía tipografía:
 
@@ -1543,7 +1543,7 @@ La jerarquía tipografía:
 
 La paleta de colores ha sido seleccionada para demostrar seriedad, confianza y modernidad. Se trata de colores complementarios en la paleta de colores compatibles entre ellos para dar una visión cohesiva y serena. Los colores claros se utilizaran como los colores que ocupan más espacio en la interfaz, y los más oscuros para secciones de importante contraste y botones. 
 
-<img src="Colores MarketGo.png" width="300" height="300" alt="Paleta de colores">
+<img src="assets/chapter-04/Colores MarketGo.png" width="300" height="300" alt="Paleta de colores">
 
 **Spacing**
 
