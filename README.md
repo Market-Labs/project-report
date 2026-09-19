@@ -309,19 +309,19 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 | `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **Merino Ordinola, Winnie Lisbeth** | U20231E504 | Ingeniería de Software | Estudiante de la carrera de Ingeniería de Software. Mis principales destrezas son las habilidades para trabajar en equipo, la creatividad y la investigación. Mi mayor interés es tanto proponer ideas innovadoras que solucionen problemas cercanos en nuestra realidad, como llevarlas a cabo a través del software. |
 | `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_3]" alt="Foto de [NOMBRE_INTEGRANTE_3]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 | `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
-| `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_5]" alt="Foto de [NOMBRE_INTEGRANTE_5]" width="120" />` | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
+| <img src="docs/assets/chapter-01/profile_torres.png" alt="Foto de Alexis Torres" width="120" /> | **Torres Huaman, Alexis Calín** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
 ---
 
 ## 1.2. Solution Profile
 
-Nuestra solución, **MarketGo**, es una plataforma web orientada a la **gestión, conservación y abastecimiento de productos orgánicos**. La solución conecta a administradores de minimarkets y proveedores dentro de un mismo ecosistema digital, permitiendo administrar inventarios, lotes, pedidos, entregas y condiciones de almacenamiento desde una plataforma centralizada.
+Nuestra solución, MarketGo, es una plataforma web orientada a la gestión, conservación y abastecimiento de productos orgánicos. La solución conecta a administradores de minimarkets y proveedores dentro de un mismo ecosistema digital, permitiendo administrar inventarios, lotes, pedidos, entregas y condiciones de almacenamiento desde una plataforma centralizada.
 
-La plataforma utiliza un **dashboard común para ambos segmentos**, pero aplica diferentes permisos de acuerdo con el rol del usuario. Los administradores de minimarkets cuentan con permisos de lectura y escritura sobre la información de su operación, mientras que los proveedores disponen de permisos de consulta y acciones específicas relacionadas con la generación de pedidos, sin poder modificar directamente el inventario del minimarket.
+La plataforma utiliza un dashboard común para ambos segmentos, pero aplica diferentes permisos de acuerdo con el rol del usuario. Los administradores de minimarkets cuentan con permisos de lectura y escritura sobre la información de su operación, mientras que los proveedores disponen de permisos de consulta y acciones específicas relacionadas con la generación de pedidos, sin poder modificar directamente el inventario del minimarket.
 
-Para los **administradores de minimarkets**, la plataforma permite controlar el inventario propio, gestionar lotes y fechas de vencimiento, monitorear las condiciones ambientales de almacenamiento, recibir alertas sobre productos en riesgo y gestionar procesos de merma o donación. Asimismo, pueden consultar la disponibilidad de productos ofrecidos por los proveedores, realizar pedidos de abastecimiento y aceptar o rechazar los pedidos generados. Cuando un pedido es aceptado, los productos correspondientes se incorporan automáticamente al inventario del minimarket.
+Para los administradores de minimarkets, la plataforma permite controlar el inventario propio, gestionar lotes y fechas de vencimiento, monitorear las condiciones ambientales de almacenamiento, recibir alertas sobre productos en riesgo y gestionar procesos de merma o donación. Asimismo, pueden consultar la disponibilidad de productos ofrecidos por los proveedores, realizar pedidos de abastecimiento y aceptar o rechazar los pedidos generados. Cuando un pedido es aceptado, los productos correspondientes se incorporan automáticamente al inventario del minimarket.
 
-Para los **proveedores**, la plataforma permite consultar los productos que ofrecen y su disponibilidad, generar pedidos de abastecimiento dirigidos a los minimarkets y consultar el estado de las operaciones realizadas. Los proveedores no pueden modificar directamente el inventario del minimarket, ya que cualquier incorporación de productos depende de la aceptación del pedido por parte del administrador.
+Para los proveedores, la plataforma permite consultar los productos que ofrecen y su disponibilidad, generar pedidos de abastecimiento dirigidos a los minimarkets y consultar el estado de las operaciones realizadas. Los proveedores no pueden modificar directamente el inventario del minimarket, ya que cualquier incorporación de productos depende de la aceptación del pedido por parte del administrador.
 
 La solución busca reducir las pérdidas asociadas al deterioro de productos orgánicos y mejorar la coordinación entre compradores y proveedores mediante información centralizada, trazabilidad y un sistema de permisos que controla las acciones disponibles para cada segmento.
 
@@ -608,10 +608,6 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 
 ---
 
-# Capítulo II: Requirements Elicitation & Analysis
-
-
-## 2.1. Competidores
 Este análisis permite identificar cómo se posiciona **MarketGo** frente a soluciones especializadas en la gestión y conservación de productos perecibles, así como frente a plataformas digitales orientadas a la conexión entre compradores y proveedores. A partir de ello, se busca definir una ventaja competitiva basada en la integración de la gestión de inventarios, conservación y abastecimiento de productos orgánicos dentro de una misma plataforma.
 
 ### 2.1.1. Análisis competitivo
@@ -941,18 +937,18 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 
 ### 2.2.2. Registro de entrevistas
 
-**Segmento objetivo: [Nombre del segmento objetivo]**
+**Segmento objetivo: Administradores de Minimarkets**
 
-**Nombre del archivo de video consolidado:** `[nombre-del-video].mp4`
+**Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
 
-<table style="width:100%; border-collapse:collapse;">
+<table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
       <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-01.png" alt="Entrevista 1" height="350">
+        <img src="../docs/assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
       </td>
     </tr>
     <tr>
@@ -961,36 +957,37 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Rodrigo Guevara</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Celular (movilidad) y laptop (en caja)</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>26 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>No especificado</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador general (3 años de experiencia)</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp Business y correo electrónico</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>José Leonardo Ortíz, Chiclayo, Lambayeque</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
-    </tr>
+      <td colspan="2"><strong>Duración</strong>: 05:04</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">Ver video</a></td>
+</tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar un resumen de los principales aspectos mencionados por el entrevistado, incluyendo su contexto profesional, forma de trabajo, herramientas utilizadas, problemas identificados, procesos actuales, necesidades y percepción de una posible solución.]
+        Rodrigo Guevara es el administrador general de un minimarket en JLO, Chiclayo. Gestiona el negocio apoyándose principalmente en su celular y una laptop, utilizando un sistema POS básico integrado con Excel en Drive para el registro de inventario. La comunicación, consulta de catálogos y seguimiento de pedidos con sus proveedores se realiza de forma casi exclusiva a través de WhatsApp Business.<br><br>
+        Actualmente, sus procesos de control de calidad son manuales: el registro de lotes y fechas de vencimiento se lleva en una libreta física, y la revisión de stock y condiciones de almacenamiento (temperatura) se hace de manera visual en los anaqueles y congeladoras. Rodrigo identifica que su principal problema es el tiempo excesivo que demanda este control manual, el desorden al coordinar por chats y las pérdidas económicas generadas por productos vencidos o malogrados que no se detectan a tiempo. Concluye que una plataforma centralizada para inventarios, vencimientos y proveedores solucionaría estos puntos críticos al ahorrar tiempo y evitar mermas.
       </td>
     </tr>
   </tbody>
