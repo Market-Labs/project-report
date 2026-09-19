@@ -1174,7 +1174,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Comerciante / Mayorista de Productos Orgánicos</td>
       <td><strong>Canales digitales de comunicación</strong></td>
       <td>Comerciante / Mayorista de Productos Orgánicos</td>
     </tr>
