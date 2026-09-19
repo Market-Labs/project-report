@@ -1,6 +1,4 @@
-# Capítulo II: Requirements Elicitation & Analysis
 
-## 2.1. Competidores
 
 Este análisis permite identificar cómo se posiciona **MarketGo** frente a soluciones especializadas en la gestión y conservación de productos perecibles, así como frente a plataformas digitales orientadas a la conexión entre compradores y proveedores. A partir de ello, se busca definir una ventaja competitiva basada en la integración de la gestión de inventarios, conservación y abastecimiento de productos orgánicos dentro de una misma plataforma.
 
