@@ -1543,7 +1543,7 @@ La jerarquía tipografía:
 
 La paleta de colores ha sido seleccionada para demostrar seriedad, confianza y modernidad. Se trata de colores complementarios en la paleta de colores compatibles entre ellos para dar una visión cohesiva y serena. Los colores claros se utilizaran como los colores que ocupan más espacio en la interfaz, y los más oscuros para secciones de importante contraste y botones. 
 
-<img src="assets/chapter-04/Colores MarketGo.png" width="300" height="300" alt="Paleta de colores">
+<img src="docs/assets/chapter-04/Colores MarketGo.png" width="300" height="300" alt="Paleta de colores">
 
 **Spacing**
 
@@ -1869,7 +1869,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Home</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -1877,7 +1877,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Información</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 
@@ -1886,7 +1886,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Videos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -1894,7 +1894,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Planes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -1902,7 +1902,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Contacto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 
@@ -1913,7 +1913,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Home</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 
@@ -1922,7 +1922,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Información del producto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -1930,7 +1930,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Videos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -1938,7 +1938,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Planes/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -1946,7 +1946,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Contacto/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="./assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <!-- AUTO-DOCS:END -->
