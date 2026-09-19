@@ -62,8 +62,8 @@
       <td align="left">Merino Ordinola, Winnie Lisbeth</td>
     </tr>
     <tr>
-      <td align="center">U202316687</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 3]</td>
+      <td align="center">U202410746</td>
+      <td align="left">Huaranga Romero, Matias Daniel</td>
     </tr>
     <tr>
       <td align="center">U202322849</td>
