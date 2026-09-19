@@ -607,7 +607,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td><strong>Nombre completo</strong></td>
       <td>Anita Gamboa</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>celular</td>
+      <td> celular / laptop </td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
