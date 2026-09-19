@@ -19,7 +19,7 @@ El logo pricipal se trata de una representación de capas que representan almace
 
 La tipografía elegida para nuestro producto es Arimo, una font de la familia Sans Serif. Esta fuente resalta por ser moderna, legible y usada en contextos de tecnología y modernidad. Se utilizará esta fuente en todos los textos y título para mantener consistencia y armonía visual. 
 
-<img src="assets/chapter-04/Tipografia.png" alt="Texto alternativo" width="400" height="300">
+<img src="./assets/chapter-04/Tipografia.png" alt="Texto alternativo" width="400" height="300">
 
 La jerarquía tipografía:
 
