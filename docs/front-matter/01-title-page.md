@@ -56,8 +56,8 @@
       <td align="left">Cáceres Pizarro, Albino Florencio</td>
     </tr>
     <tr>
-      <td align="center">U20231B504</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 2]</td>
+      <td align="center">U2021815005</td>
+      <td align="left">Quispe Almonacid, Andre Sebastian</td>
     </tr>
     <tr>
       <td align="center">U202316687</td>
