@@ -576,7 +576,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 17</strong><br />
-  <em>Mockup Web Application sección Proveedores y Productos/em><br />
+  <em>Mockup Web Application sección Proveedores y Productos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
