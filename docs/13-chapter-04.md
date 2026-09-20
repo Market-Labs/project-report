@@ -370,7 +370,6 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="./assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-
 <div align="center">
 <strong>Figura 3</strong><br />
   <em>Wireframe de Landing Page sección Videos</em><br />
@@ -395,7 +394,6 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="./assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-
 ### 4.3.2 Landing Page Mock Up
 
 <div align="center">
@@ -405,7 +403,6 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <br /><br />
   <img src="./assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
-
 
 <div align="center">
 <strong>Figura 2</strong><br />
@@ -425,7 +422,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 4</strong><br />
-  <em>Mock up de Landing Page sección Planes/em><br />
+  <em>Mock up de Landing Page sección Planes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="./assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -433,7 +430,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 5</strong><br />
-  <em>Mock up de Landing Page sección Contacto/em><br />
+  <em>Mock up de Landing Page sección Contacto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="./assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -445,7 +442,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 6</strong><br />
-  <em>Wireframe Web Application sección Dashboard/em><br />
+  <em>Wireframe Web Application sección Dashboard</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -453,7 +450,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 7</strong><br />
-  <em>Wireframe Web Application sección Inventario/em><br />
+  <em>Wireframe Web Application sección Inventario</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -461,7 +458,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 8</strong><br />
-  <em>Wireframe Web Application sección Gestión de lotes/em><br />
+  <em>Wireframe Web Application sección Gestión de lotes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -469,7 +466,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 9</strong><br />
-  <em>Wireframe Web Application sección Conservación/em><br />
+  <em>Wireframe Web Application sección Conservación</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -477,7 +474,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 10</strong><br />
-  <em>Wireframe Web Application sección Órdenes de envío/em><br />
+  <em>Wireframe Web Application sección Órdenes de envío</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -485,13 +482,14 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 11</strong><br />
-  <em>Wireframe Web Application sección Proveedores y Productos/em><br />
+  <em>Wireframe Web Application sección Proveedores y Productos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\wireflow1.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
@@ -536,7 +534,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 12</strong><br />
-  <em>Mockup Web Application sección Dashboard/em><br />
+  <em>Mockup Web Application sección Dashboard</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -544,7 +542,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 13</strong><br />
-  <em>Mockup Web Application sección Inventario/em><br />
+  <em>Mockup Web Application sección Inventario</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -552,7 +550,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 14</strong><br />
-  <em>Mockup Web Application sección Gestión de lotes/em><br />
+  <em>Mockup Web Application sección Gestión de lotes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -560,7 +558,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 15</strong><br />
-  <em>Mockup Web Application sección Conservación/em><br />
+  <em>Mockup Web Application sección Conservación</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -568,7 +566,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 16</strong><br />
-  <em>Mockup Web Application sección Órdenes de envío/em><br />
+  <em>Mockup Web Application sección Órdenes de envío</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -583,19 +581,20 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 </div>
 
 ### 4.4.3. Web Applications User Flow Diagrams
+
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\UserFlow1.png" alt="Web Application User Flow" width="800" /></p> |
 
-|  Rol: Administrador / Gestion de Lotes |
+| Rol: Administrador / Gestion de Lotes |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\UserFlow2.png" alt="Web Application User Flow" width="800" /></p> |
 
-| Rol: Administrador / Gestión de pedidos  |
+| Rol: Administrador / Gestión de pedidos |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\UserFlow3.png" alt="Web Application User Flow" width="800" /></p> |
 
-| Rol: Administrador / Gestion de Envíos  |
+| Rol: Administrador / Gestion de Envíos |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
 
