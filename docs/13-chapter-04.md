@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Capítulo IV: Product Design
 
@@ -371,7 +370,6 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="./assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-
 <div align="center">
 <strong>Figura 3</strong><br />
   <em>Wireframe de Landing Page sección Videos</em><br />
@@ -396,7 +394,6 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="./assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-
 ### 4.3.2 Landing Page Mock Up
 
 <div align="center">
@@ -406,7 +403,6 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <br /><br />
   <img src="./assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
-
 
 <div align="center">
 <strong>Figura 2</strong><br />
@@ -426,7 +422,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 4</strong><br />
-  <em>Mock up de Landing Page sección Planes/em><br />
+  <em>Mock up de Landing Page sección Planes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="./assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -434,7 +430,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 5</strong><br />
-  <em>Mock up de Landing Page sección Contacto/em><br />
+  <em>Mock up de Landing Page sección Contacto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="./assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -446,7 +442,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 6</strong><br />
-  <em>Wireframe Web Application sección Dashboard/em><br />
+  <em>Wireframe Web Application sección Dashboard</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -454,15 +450,15 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 7</strong><br />
-  <em>Wireframe Web Application sección Inventario/em><br />
+  <em>Wireframe Web Application sección Inventario</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeWebApplicationInventarioSection.png.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
 <strong>Figura 8</strong><br />
-  <em>Wireframe Web Application sección Gestión de lotes/em><br />
+  <em>Wireframe Web Application sección Gestión de lotes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -470,7 +466,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 9</strong><br />
-  <em>Wireframe Web Application sección Conservación/em><br />
+  <em>Wireframe Web Application sección Conservación</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -478,7 +474,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 10</strong><br />
-  <em>Wireframe Web Application sección Órdenes de envío/em><br />
+  <em>Wireframe Web Application sección Órdenes de envío</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -486,17 +482,59 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 11</strong><br />
-  <em>Wireframe Web Application sección Proveedores y Productos/em><br />
+  <em>Wireframe Web Application sección Proveedores y Productos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.4.2. Web Applications Mockups
+### 4.4.2. Web Applications Wireflow Diagrams
+
+| Rol: Administrador / Alta y control de inventario |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow1.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Trazabilidad por lote |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow2.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Monitoreo de conservación |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow3.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Registro de pérdidas |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow4.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Solicitud de abastecimiento |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow5.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Recepción de mercadería |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow6.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Gestión de usuarios y permisos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Proveedor / Gestión de oferta propia |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Proveedor / Gestión de usuarios y permisos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow9.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Proveedor / Gestión de usuarios y permisos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+### 4.4.3. Web Applications Mockups
 
 <div align="center">
 <strong>Figura 12</strong><br />
-  <em>Mockup Web Application sección Dashboard/em><br />
+  <em>Mockup Web Application sección Dashboard</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -504,7 +542,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 13</strong><br />
-  <em>Mockup Web Application sección Inventario/em><br />
+  <em>Mockup Web Application sección Inventario</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -512,7 +550,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 14</strong><br />
-  <em>Mockup Web Application sección Gestión de lotes/em><br />
+  <em>Mockup Web Application sección Gestión de lotes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -520,7 +558,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 15</strong><br />
-  <em>Mockup Web Application sección Conservación/em><br />
+  <em>Mockup Web Application sección Conservación</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -528,7 +566,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 16</strong><br />
-  <em>Mockup Web Application sección Órdenes de envío/em><br />
+  <em>Mockup Web Application sección Órdenes de envío</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
@@ -536,9 +574,299 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 
 <div align="center">
 <strong>Figura 17</strong><br />
-  <em>Mockup Web Application sección Proveedores y Productos/em><br />
+  <em>Mockup Web Application sección Proveedores y Productos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
+### 4.4.3. Web Applications User Flow Diagrams
+
+| Rol: Administrador / Alta y control de inventario |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\UserFlow1.png" alt="Web Application User Flow" width="800" /></p> |
+
+| Rol: Administrador / Gestion de Lotes |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\UserFlow2.png" alt="Web Application User Flow" width="800" /></p> |
+
+| Rol: Administrador / Gestión de pedidos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\UserFlow3.png" alt="Web Application User Flow" width="800" /></p> |
+
+| Rol: Administrador / Gestion de Envíos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
+
+## 4.5. Web Applications Prototyping
+[Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
+
+
+## 4.6. Domain-Driven Software Architecture
+
+La arquitectura de software de MarketGo se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación, abastecimiento y control operativo para minimarkets y proveedores. A partir de este análisis se aplican los principios de Domain-Driven Design (DDD), permitiendo dividir la solución en bounded contexts coherentes con las responsabilidades principales del negocio.
+
+En las siguientes secciones se presenta cada nivel del modelo arquitectónico, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de MarketGo.
+
+### 4.6.1. Design-Level Event Storming
+
+Para identificar los eventos de dominio y la lógica de negocio de MarketGo, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
+
+El desarrollo del proceso de Domain-Driven Design se realizó en LucidChart: [https://lucid.app/lucidspark/d7f4679c-eca6-4e34-a638-733027262712/edit?viewport_loc=-8761%2C-2894%2C1920%2C1532%2C0_0&invitationId=inv_ffb713f0-52eb-4b51-9e5e-1d11e4d93b05](https://lucid.app/lucidspark/d7f4679c-eca6-4e34-a638-733027262712/edit?viewport_loc=-8761%2C-2894%2C1920%2C1532%2C0_0&invitationId=inv_ffb713f0-52eb-4b51-9e5e-1d11e4d93b05)
+
+A continuación, se presenta la leyenda utilizada durante el proceso de Event Storming:
+
+![Leyenda Event Storming](../docs/assets/chapter-04/leyenda.png)
+
+El siguiente diagrama presenta el Event Storming general de MarketGo y permite visualizar los principales eventos, comandos, actores y procesos identificados en el dominio:
+
+![MarketGo Event Storming](../docs/assets/chapter-04/EventStorming.png)
+
+A partir de este análisis se identificaron los siguientes bounded contexts:
+
+1. **IAM**
+
+   El bounded context IAM se encarga de la autenticación, autorización y control de acceso dentro de MarketGo. Gestiona usuarios, roles y permisos, asegurando que cada actor, como el administrador de minimarket o el proveedor, acceda únicamente a las funcionalidades correspondientes a su perfil.
+
+   ![IAM Bounded Context](../docs/assets/chapter-04/bciam.png)
+
+2. **Profiles**
+
+   El bounded context Profiles administra la información de los usuarios, minimarkets y proveedores registrados en la plataforma. Su propósito es centralizar los datos de perfil necesarios para personalizar la experiencia, controlar responsabilidades y asociar operaciones con el actor correspondiente.
+
+   ![Profiles Bounded Context](../docs/assets/chapter-04/bcprofile.png)
+
+3. **Dashboard**
+
+   El bounded context Dashboard presenta una vista general del estado operativo de la plataforma según el rol del usuario. Permite visualizar indicadores relevantes sobre inventario, abastecimiento, conservación, alertas y actividad reciente.
+
+   ![Dashboard Bounded Context](../docs/assets/chapter-04/bcdashboard.png)
+
+4. **Analytics**
+
+   El bounded context Analytics procesa información operativa para generar indicadores, métricas y resúmenes que apoyan la toma de decisiones. Permite analizar el estado del inventario, productos próximos a vencer, alertas de conservación, desempeño de proveedores y movimientos de abastecimiento.
+
+5. **Inventory**
+
+   El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
+
+   ![Inventory Bounded Context](../docs/assets/chapter-04/bcinventory.png)
+
+6. **Products**
+
+   El bounded context Products administra el catálogo de productos orgánicos ofrecidos por proveedores o registrados por minimarkets. Centraliza información como nombre, categoría, descripción, unidad de medida, disponibilidad y datos relevantes para su comercialización o abastecimiento.
+
+   ![Products Bounded Context](../docs/assets/chapter-04/bcproducts.png)
+
+7. **Requisition**
+
+   El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
+
+   ![Requisition Bounded Context](../docs/assets/chapter-04/bcrequisition.png)
+
+8. **Procurements**
+
+   El bounded context Procurements administra las órdenes de envío asociadas a solicitudes de abastecimiento aceptadas. Su responsabilidad es permitir al proveedor registrar los productos y cantidades que serán enviados, mientras que el administrador del minimarket puede revisar, aceptar o rechazar la recepción. Cuando una orden de envío es aceptada, los productos recibidos pueden incorporarse al inventario correspondiente.
+
+   ![Procurements Bounded Context](../docs/assets/chapter-04/bcprocurenments.png)
+
+9. **Suppliers**
+
+   El bounded context Suppliers gestiona el directorio de proveedores de productos orgánicos, así como los productos que ofrecen y su participación dentro de los procesos de abastecimiento.
+
+   ![Suppliers Bounded Context](../docs/assets/chapter-04/bcsuppliers.png)
+
+10. **Conservation**
+
+    El bounded context Conservation permite monitorear condiciones de conservación de productos, como temperatura y humedad. Su propósito es identificar riesgos de deterioro y generar alertas cuando las condiciones se encuentren fuera de los rangos aceptables.
+
+    ![Conservation Bounded Context](../docs/assets/chapter-04/bcconvervation.png)
+
+11. **Communication**
+
+    El bounded context Communication gestiona las alertas y notificaciones generadas por la plataforma. Incluye avisos sobre productos próximos a vencer, condiciones de conservación riesgosas, solicitudes pendientes, órdenes de envío y eventos relevantes para los usuarios.
+
+    ![Communication Bounded Context](../docs/assets/chapter-04/bccommunication.png)
+
+12. **Shared Kernel**
+
+    El bounded context Shared Kernel contiene elementos comunes utilizados por los demás contextos, como utilidades compartidas, contratos base, configuraciones, validaciones comunes y estructuras transversales del sistema.
+
+<div style="page-break-after: always;"></div>
+
+### 4.6.2. Software Architecture Context Diagram
+
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema MarketGo como una caja negra y en las interacciones que mantiene con sus usuarios y servicios externos.
+
+El context diagram muestra al **MarketGo Software System** como el sistema central, rodeado por los principales actores y sistemas con los que interactúa:
+
+- **Administrador de minimarket**: usuario encargado de registrar productos, controlar inventario, gestionar lotes, revisar fechas de vencimiento, crear solicitudes de abastecimiento y confirmar o rechazar la recepción de órdenes de envío.
+- **Proveedor de productos orgánicos**: usuario responsable de registrar productos ofrecidos, revisar solicitudes de abastecimiento, aceptarlas o rechazarlas, y crear órdenes de envío asociadas a solicitudes aceptadas.
+- **Administrador del sistema**: usuario encargado de gestionar cuentas, roles, permisos y configuración general de la plataforma.
+- **Servicio de notificaciones**: sistema externo utilizado para enviar alertas y comunicaciones relacionadas con vencimientos, conservación, solicitudes y abastecimiento.
+- **Servicio de monitoreo de conservación**: fuente externa o módulo de integración encargado de proporcionar información relacionada con temperatura y humedad para evaluar condiciones de conservación.
+
+En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan con MarketGo mediante la aplicación web, mientras que el sistema coordina los procesos internos y las integraciones necesarias para alertas, monitoreo y trazabilidad operativa.
+
+![Software Architecture Context Diagram](../docs/assets/chapter-04/Contexto-dark.png)
+
+---
+
+### 4.6.3. Software Architecture Container Diagrams
+
+En el nivel de contenedores, la arquitectura de MarketGo se organiza en aplicaciones y fuentes de datos que colaboran para brindar la experiencia completa de la plataforma.
+
+La arquitectura lógica de MarketGo se estructura en los siguientes contenedores:
+
+- **Landing Page**: aplicación web pública orientada a presentar la propuesta de valor de MarketGo, sus beneficios y funcionalidades principales para minimarkets y proveedores de productos orgánicos.
+- **Single Page Application (SPA)**: aplicación web principal donde los usuarios interactúan con los módulos de inventario, productos, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, analítica, dashboard, perfiles, comunicación e IAM.
+- **API REST Application**: backend encargado de exponer los servicios de negocio mediante endpoints REST. Centraliza la lógica de aplicación, validaciones, reglas de dominio y coordinación entre bounded contexts.
+- **Database**: base de datos donde se persiste la información del sistema, incluyendo usuarios, perfiles, productos, inventario, lotes, solicitudes de abastecimiento, órdenes de envío, proveedores, alertas, métricas y registros de conservación.
+
+En el diagrama se observa que:
+
+- Los usuarios pueden conocer la solución mediante la **Landing Page** y luego acceder a la **SPA**.
+- La **SPA** se comunica con la **API REST Application** mediante peticiones HTTP/HTTPS y mensajes JSON.
+- La **API REST Application** procesa la lógica del dominio y persiste la información en la **Database**.
+- Los módulos de comunicación y conservación pueden integrarse con servicios externos para notificaciones y monitoreo de condiciones ambientales.
+
+![Software Architecture Container Diagram](../docs/assets/chapter-04/Contenedor-dark.png)
+
+---
+
+### 4.6.4. Software Architecture Components Diagrams
+
+En el nivel de componentes se detalla la descomposición interna de la arquitectura de MarketGo, especialmente del contenedor **API REST Application**, donde se agrupan los componentes principales alineados con los bounded contexts del dominio.
+
+La API REST organiza sus responsabilidades en componentes especializados:
+
+- **IAM Component**: gestiona autenticación, autorización, usuarios, roles y permisos.
+- **Profiles Component**: administra perfiles de usuarios, minimarkets y proveedores.
+- **Dashboard Component**: consolida información relevante para mostrar vistas generales según el rol del usuario.
+- **Analytics Component**: procesa indicadores, métricas y reportes operativos.
+- **Inventory Component**: gestiona inventario, lotes, cantidades, vencimientos, pérdidas y ofertas.
+- **Products Component**: administra el catálogo de productos orgánicos registrados u ofrecidos.
+- **Requisition Component**: gestiona solicitudes de abastecimiento entre minimarkets y proveedores.
+- **Procurements Component**: administra órdenes de envío, aceptación, rechazo y recepción de productos.
+- **Suppliers Component**: gestiona proveedores y sus productos ofrecidos.
+- **Conservation Component**: monitorea condiciones de conservación y detecta riesgos.
+- **Communication Component**: administra alertas y notificaciones del sistema.
+- **Shared Kernel Component**: agrupa elementos transversales reutilizados por los demás componentes.
+
+#### IAM Component Diagram
+
+![IAM Component Diagram](../docs/assets/chapter-04/IAMBCComponentDiagram-dark.png)
+
+#### Profiles Component Diagram
+
+![Profiles Component Diagram](../docs/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
+
+#### Dashboard Component Diagram
+
+![Dashboard Component Diagram](../docs/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
+
+#### Analytics Component Diagram
+
+![Analytics Component Diagram](../docs/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
+
+#### Inventory Component Diagram
+
+![Inventory Component Diagram](../docs/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
+
+#### Products Component Diagram
+
+![Products Component Diagram](../docs/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
+
+#### Procurements Component Diagram
+
+![Procurements Component Diagram](../docs/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
+
+#### Suppliers Component Diagram
+
+![Suppliers Component Diagram](../docs/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
+
+#### Conservation Component Diagram
+
+![Conservation Component Diagram](../docs/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
+
+#### Communication Component Diagram
+
+![Communication Component Diagram](../docs/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
+
+#### Shared Kernel Component Diagram
+
+![Shared Kernel Component Diagram](../docs/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
+
+De esta forma, los component diagrams complementan la visión general de la arquitectura, mostrando cómo MarketGo organiza sus responsabilidades internas en componentes coherentes con el dominio y cómo estos colaboran para implementar la gestión de productos orgánicos, inventario, conservación, abastecimiento, proveedores, comunicación y analítica.
+
+<div style="page-break-after: always;"></div>
+
+## 4.7. Software Object-Oriented Design
+
+En esta sección se presenta el diseño orientado a objetos de MarketGo, representando la estructura de clases principales del sistema y su organización por bounded contexts. Estos diagramas permiten visualizar las responsabilidades de cada clase, sus atributos, métodos y relaciones dentro de la arquitectura de la aplicación.
+
+### 4.7.7. Class Diagrams
+
+Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
+
+A continuación, se presentan los diagramas de clases correspondientes a los principales bounded contexts de MarketGo:
+
+#### Communication Class Diagram
+
+![Communication Class Diagram](../docs/assets/chapter-04/dccommunicatiob.png)
+
+#### Procurements Class Diagram
+
+![Procurements Class Diagram](../docs/assets/chapter-04/dcprocurenments.png)
+
+#### Dashboard Class Diagram
+
+![Dashboard Class Diagram](../docs/assets/chapter-04/dcdashboard.png)
+
+#### Conservation Class Diagram
+
+![Conservation Class Diagram](../docs/assets/chapter-04/dcconservation.png)
+
+#### Analytics Class Diagram
+
+![Analytics Class Diagram](../docs/assets/chapter-04/dcanalitycs.png)
+
+#### Inventory Class Diagram
+
+![Inventory Class Diagram](../docs/assets/chapter-04/dcinventory.png)
+
+#### Products Class Diagram
+
+![Products Class Diagram](../docs/assets/chapter-04/dcproducts.png)
+
+#### IAM Class Diagram
+
+![IAM Class Diagram](../docs/assets/chapter-04/dciam.png)
+
+#### Profiles Class Diagram
+
+![Profiles Class Diagram](../docs/assets/chapter-04/dcprofiles.png)
+
+#### Suppliers Class Diagram
+
+![Suppliers Class Diagram](../docs/assets/chapter-04/dcsuppliers.png)
+
+#### Requisition Class Diagram
+
+![Requisition Class Diagram](../docs/assets/chapter-04/dcrequisition.png)
+
+Estos diagramas permiten complementar la arquitectura de software, mostrando una vista más detallada del diseño orientado a objetos de MarketGo. A través de ellos se puede identificar cómo se distribuyen las responsabilidades entre las clases y cómo estas representan los principales conceptos de cada bounded context.
+
+---
+
+## 4.8. Database Design
+
+El diseño de base de datos de MarketGo define la estructura de persistencia necesaria para almacenar y gestionar la información principal de la plataforma. Este diseño considera los datos relacionados con usuarios, perfiles, productos, inventario, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, comunicación, analítica y auditoría.
+
+La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
+
+### 4.8.1. Database Diagrams
+
+El diagrama de base de datos muestra las entidades principales de MarketGo, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se estructura la persistencia de los datos y cómo se relacionan las entidades que soportan los procesos principales de la plataforma.
+
+![MarketGo Database Diagram](../docs/assets/chapter-04/MarketGoDiagramBD.png)
