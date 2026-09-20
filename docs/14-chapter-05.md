@@ -137,62 +137,17 @@ Despliegue automático del contenido estático mediante la integración con Verc
 
 ### 5.2.1. Sprint 1
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 1</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-      <td>Date</td>
-      <td>05/04/2026</td>
-    </tr>
-    <tr>
-      <td>Time</td>
-      <td>10:00 p.m.</td>
-    </tr>
-    <tr>
-      <td>Location</td>
-      <td>Discord / WhatsApp</td>
-    </tr>
-    <tr>
-      <td>Prepared By</td>
-      <td>Albino Florencio Cáceres Pizarro</td>
-    </tr>
-    <tr>
-      <td>Attendees</td>
-      <td>
-        Albino Florencio Cáceres Pizarro<br>
-        Matias Daniel Huaranga Romero<br>
-        Winnie Lisbeth Merino Ordinola<br>
-        Andre Sebastian Quispe Almonacid<br>
-        Alexis Calin Torres Huaman
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <strong>Sprint 1 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-
-        <em>Our focus is on delivering the first marketing Landing Page of MarketGo, a product by MarketLab, that clearly communicates the value proposition regarding inventory management, batch tracking, product conservation alerts, and supplier-minimarket coordination.</em><br><br>
-
-        <em>We believe it delivers a clear, professional first impression for minimarket owners, administrators, and organic product providers, helping them understand how MarketGo centralizes daily inventory operations and improves operational traceability.</em><br><br>
-
-        <em>This will be confirmed when users can navigate through all core sections of the landing page, including Home, Product Description, Videos, Plans, and Contact, and can seamlessly request more information or contact the MarketLab team.</em>
-      </td>
-    </tr>
-    <tr>
-      <td>Sprint 1 Velocity</td>
-      <td>14 Story Points</td>
-    </tr>
-  </tbody>
-</table>
+| **Sprint Planning Sprint 1** |  |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 05/04/2026 |
+| Time | 10:00 p.m. |
+| Location | Discord / WhatsApp |
+| Prepared By | Albino Florencio Cáceres Pizarro |
+| Attendees | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 1 Goal** | Our focus is on delivering the first marketing landing page of MarketGo, a product by MarketLab, that clearly communicates the value proposition regarding inventory management, batch tracking, product conservation alerts, and supplier-minimarket coordination.<br><br>We believe it delivers a clear, professional first impression for minimarket owners, administrators, and organic product providers, helping them understand how MarketGo centralizes daily inventory operations and improves operational traceability.<br><br>This will be confirmed when users can navigate through all core sections of the landing page, including Home, Product Description, Videos, Plans, and Contact, and can seamlessly request more information or contact the MarketLab team. |
+| Sprint 1 Velocity | 14 Story Points |
 
 <p>
   <strong>Repositorio:</strong>
