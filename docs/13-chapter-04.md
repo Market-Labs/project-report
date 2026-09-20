@@ -491,7 +491,8 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="assets\chapter-04\WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.4.2. Web Applications Mockups
+### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.3. Web Applications Mockups
 
 <div align="center">
 <strong>Figura 12</strong><br />
@@ -540,6 +541,10 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <br /><br />
   <img src="assets\chapter-04\MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
+
+### 4.4.3. Web Applications User Flow Diagrams
+
+## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
 

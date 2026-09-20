@@ -301,7 +301,7 @@ Estos segmentos representan dos tipos de organizaciones con necesidades de negoc
 
 Los roles operativos que puedan existir dentro de cada empresa forman parte de la estructura interna de cada segmento y no constituyen segmentos objetivos independientes.
 
-### 1.3.1. Administradores de Minimarkets
+### 1.3.1. Segemento Objetivo 1: Administradores de Minimarkets
 
 | Dimensión | Detalle del perfil |
 |---|---|
@@ -311,7 +311,7 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 | **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento de productos, dificultad para controlar lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, desabastecimiento y dificultad para coordinar pedidos con proveedores. |
 | **Uso de Tecnología** | Utilizan herramientas digitales para administrar ventas, inventarios y comunicación con proveedores, aunque pueden depender de hojas de cálculo, aplicaciones de mensajería y sistemas independientes que no integran toda la información operativa. |
 
-### 1.3.2. Proveedores
+### 1.3.2. Segmento objetivo 2: Proveedores
 
 | Dimensión | Detalle del perfil |
 |---|---|
