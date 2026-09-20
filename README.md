@@ -5,13 +5,13 @@
 <img src="docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
 <br>
 
-### Facultad de Ingeniería
+**Facultad de Ingeniería**
 
-### Carrera de Ingeniería de Software
+**Carrera de Ingeniería de Software**
 
 <br>
 
@@ -27,51 +27,45 @@
 
 <br>
 
-# Informe de Trabajo Final - AV2
+**Informe de Trabajo Final - AV2**
 
 <br>
 
-### **Nombre de la Startup:**
+**Nombre de la Startup:**
 
 **startup**
 
 <br>
 
-### **Nombre del Producto:**
+**Nombre del Producto:**
 
 **ProductName**
 
 <br>
 
-### Relación de integrantes
+**Relación de integrantes**
 
 <table align="center" style="margin: 0 auto; font-size: 15px;">
-<thead>
-    <tr>
-      <th align="center">Código</th>
-      <th align="center">Apellidos y Nombres</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td align="center">U201923820</td>
       <td align="left">Cáceres Pizarro, Albino Florencio</td>
     </tr>
     <tr>
+      <td align="center">U202410746</td>
+      <td align="left">Huaranga Romero, Matias Daniel</td>
+    </tr>
+    <tr>
       <td align="center">U20231B504</td>
       <td align="left">Merino Ordinola, Winnie Lisbeth</td>
     </tr>
     <tr>
-      <td align="center">U202316687</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 3]</td>
+      <td align="center">u201815005</td>
+      <td align="left">Quispe Alomnacid, Andre Sebastian </td>
     </tr>
     <tr>
-      <td align="center">U202322849</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 4]</td>
-    </tr>
-    <tr>
-      <td align="center">U201923820</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 5]</td>
+      <td align="center">U20241G152</td>
+      <td align="left">Torres Huaman, Alexis Calin</td>
     </tr>
   </tbody>
 </table>
