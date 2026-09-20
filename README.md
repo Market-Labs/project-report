@@ -66,8 +66,8 @@
       <td align="left">[NOMBRE DEL INTEGRANTE 3]</td>
     </tr>
     <tr>
-      <td align="center">U202322849</td>
-      <td align="left">[NOMBRE DEL INTEGRANTE 4]</td>
+      <td align="center">U202410746</td>
+      <td align="left">Huaranga Romero, Matias Daniel</td>
     </tr>
     <tr>
       <td align="center">U201923820</td>
