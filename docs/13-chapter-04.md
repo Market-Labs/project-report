@@ -520,15 +520,15 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | :---: |
 | <p align="center"><img src="assets\chapter-04\wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
-| Rol: Administrador / Gestión de oferta propia |
+| Rol: Proveedor / Gestión de oferta propia |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
-| Rol: Administrador / Gestión de usuarios y permisos |
+| Rol: Proveedor / Gestión de usuarios y permisos |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\wireflow9.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
-| Rol: Administrador / Gestión de usuarios y permisos |
+| Rol: Proveedor / Gestión de usuarios y permisos |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
@@ -583,29 +583,21 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 </div>
 
 ### 4.4.3. Web Applications User Flow Diagrams
-| Encabezado / Fila 1 |
+| Rol: Administrador / Alta y control de inventario |
 | :---: |
-| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+| <p align="center"><img src="assets\chapter-04\UserFlow1.png" alt="Web Application User Flow" width="800" /></p> |
 
-| Encabezado / Fila 1 |
+|  Rol: Administrador / Gestion de Lotes |
 | :---: |
-| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+| <p align="center"><img src="assets\chapter-04\UserFlow2.png" alt="Web Application User Flow" width="800" /></p> |
 
-| Encabezado / Fila 1 |
+| Rol: Administrador / Gestión de pedidos  |
 | :---: |
-| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+| <p align="center"><img src="assets\chapter-04\UserFlow3.png" alt="Web Application User Flow" width="800" /></p> |
 
-| Encabezado / Fila 1 |
+| Rol: Administrador / Gestion de Envíos  |
 | :---: |
-| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
-
-| Encabezado / Fila 1 |
-| :---: |
-| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
-
-| Encabezado / Fila 1 |
-| :---: |
-| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+| <p align="center"><img src="assets\chapter-04\UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
 
 ## 4.5. Web Applications Prototyping
 
