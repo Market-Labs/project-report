@@ -216,7 +216,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **MarketGo**, producto de **MarketLab** orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint1.png" alt="Sprint 1 Board Screenshot" width="100%">
+  <img src="./assets/chapter-05/sprintb1.png" alt="Sprint 1 Board Screenshot" width="100%">
   <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto MarketGo)</em></p>
 </div>
 
