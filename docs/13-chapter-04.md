@@ -499,7 +499,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Dashboard/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -507,7 +507,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Inventario/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -515,7 +515,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Gestión de lotes/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -523,7 +523,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Conservación/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -531,7 +531,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Órdenes de envío/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -539,6 +539,6 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Proveedores y Productos/em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets\chapter-04\MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
