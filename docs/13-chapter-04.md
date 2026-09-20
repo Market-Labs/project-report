@@ -600,6 +600,8 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | <p align="center"><img src="assets\chapter-04\UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
 
 ## 4.5. Web Applications Prototyping
+[Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
+
 
 ## 4.6. Domain-Driven Software Architecture
 
