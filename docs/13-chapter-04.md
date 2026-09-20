@@ -492,6 +492,46 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+| Rol: Administrador / Alta y control de inventario |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow1.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Trazabilidad por lote |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow2.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Monitoreo de conservación |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow3.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Registro de pérdidas |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow4.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Solicitud de abastecimiento |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow5.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Recepción de mercadería |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow6.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Gestión de usuarios y permisos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Gestión de usuarios y permisos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Gestión de usuarios y permisos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow9.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
+| Rol: Administrador / Gestión de usuarios y permisos |
+| :---: |
+| <p align="center"><img src="assets\chapter-04\wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+
 ### 4.4.3. Web Applications Mockups
 
 <div align="center">
@@ -543,6 +583,29 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 </div>
 
 ### 4.4.3. Web Applications User Flow Diagrams
+| Encabezado / Fila 1 |
+| :---: |
+| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+
+| Encabezado / Fila 1 |
+| :---: |
+| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+
+| Encabezado / Fila 1 |
+| :---: |
+| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+
+| Encabezado / Fila 1 |
+| :---: |
+| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+
+| Encabezado / Fila 1 |
+| :---: |
+| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
+
+| Encabezado / Fila 1 |
+| :---: |
+| <p align="center"><img src="URL_DE_TU_IMAGEN.jpg" alt="Descripción de la imagen" width="300" /></p> |
 
 ## 4.5. Web Applications Prototyping
 
