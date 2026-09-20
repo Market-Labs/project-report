@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Capítulo IV: Product Design
 
@@ -438,3 +439,106 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <br /><br />
   <img src="./assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
+
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
+
+<div align="center">
+<strong>Figura 6</strong><br />
+  <em>Wireframe Web Application sección Dashboard/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 7</strong><br />
+  <em>Wireframe Web Application sección Inventario/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeWebApplicationInventarioSection.png.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 8</strong><br />
+  <em>Wireframe Web Application sección Gestión de lotes/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 9</strong><br />
+  <em>Wireframe Web Application sección Conservación/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 10</strong><br />
+  <em>Wireframe Web Application sección Órdenes de envío/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 11</strong><br />
+  <em>Wireframe Web Application sección Proveedores y Productos/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+### 4.4.2. Web Applications Mockups
+
+<div align="center">
+<strong>Figura 12</strong><br />
+  <em>Mockup Web Application sección Dashboard/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 13</strong><br />
+  <em>Mockup Web Application sección Inventario/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 14</strong><br />
+  <em>Mockup Web Application sección Gestión de lotes/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 15</strong><br />
+  <em>Mockup Web Application sección Conservación/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 16</strong><br />
+  <em>Mockup Web Application sección Órdenes de envío/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
+<div align="center">
+<strong>Figura 17</strong><br />
+  <em>Mockup Web Application sección Proveedores y Productos/em><br />
+  <small><em>Nota.</em> Elaboración propia.</small>
+  <br /><br />
+  <img src="assets\chapter-04\MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+</div>
+
