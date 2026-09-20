@@ -520,7 +520,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | :---: |
 | <p align="center"><img src="assets\chapter-04\wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
-| Rol: Administrador / Gestión de usuarios y permisos |
+| Rol: Administrador / Gestión de oferta propia |
 | :---: |
 | <p align="center"><img src="assets\chapter-04\wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
