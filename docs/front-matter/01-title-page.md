@@ -59,7 +59,7 @@
     </tr>
     <tr>
       <td align="center">u201815005</td>
-      <td align="left">Andre Sebastian Quispe Alomnacid</td>
+      <td align="left">Quispe Alomnacid, Andre Sebastian </td>
     </tr>
     <tr>
       <td align="center">U20241G152</td>
