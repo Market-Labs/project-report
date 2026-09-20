@@ -221,10 +221,12 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 | 59 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 
-**Enlace directo al tablero:** [Tablero Jira - Proyecto MarketGo](https://rqls26.atlassian.net/jira/software/projects/RQSL/boards/1/backlog)
+**Enlace directo al tablero:** 
+**Tablero Sprint 1: Trello
+`[https://trello.com/b/AyBgUYcT/springbacklog1](https://trello.com/b/AyBgUYcT/springbacklog1)`
 
 <div align="center">
-  <img src="./assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
+  <img src="./assets/chapter-03/tableroTrello.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
 
