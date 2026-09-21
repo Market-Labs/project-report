@@ -295,7 +295,6 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-> **Plantilla:** completar los datos de cada integrante y reemplazar la ruta de la imagen por la fotografía correspondiente.
 
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
