@@ -226,22 +226,22 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
     </td>
     <td>
       <strong>Cáceres Pizarro, Albino Florencio</strong><br>
-      Participó en la organización y coordinación del equipo para el desarrollo de los capítulos I, II, III y IV del Project Report. Asimismo, colaboró en el desarrollo del Capítulo V, incluyendo Software Configuration Management, configuración del entorno de desarrollo, gestión del código fuente, convenciones de código y configuración del despliegue. Participó en la planificación y ejecución del Sprint 1, coordinando actividades del Sprint Backlog y las evidencias correspondientes al Sprint Review.<br><br>
+      Participó en la organización y coordinación del equipo para el desarrollo de los capítulos del Project Report, así como en la planificación del Sprint 1, distribución de actividades y seguimiento de las evidencias de implementación, ejecución y despliegue.<br><br>
 
       <strong>Quispe Alomnacid, Andre Sebastian</strong><br>
-      Participó en el desarrollo colaborativo de los capítulos del Project Report y en la elaboración de los artefactos correspondientes a Requirements Elicitation & Analysis, Requirements Specification y Product Design. Asimismo, colaboró en las actividades asignadas durante el Sprint 1 y en la documentación de las evidencias de implementación y ejecución.<br><br>
+      Participó en el desarrollo colaborativo de los capítulos del Project Report y en las actividades asignadas durante el Sprint 1, contribuyendo en la elaboración de artefactos y evidencias del proyecto.<br><br>
 
       <strong>Torres Huaman, Alexis Calin</strong><br>
-      Participó en la organización de las actividades del Sprint 1 y en la gestión de las tareas del equipo. Asimismo, colaboró en la documentación de los capítulos del Project Report, el Sprint Planning, Sprint Backlog y las evidencias relacionadas con el desarrollo y colaboración del equipo durante el sprint.<br><br>
+      Participó en la organización de las actividades del Sprint 1 y colaboró en la documentación del Project Report, Sprint Planning, Sprint Backlog y evidencias relacionadas con el desarrollo del proyecto.<br><br>
 
       <strong>Merino Ordinola, Winnie Lisbeth</strong><br>
-      Participó en el desarrollo de los capítulos del Project Report y en la elaboración de los artefactos correspondientes al análisis de requerimientos y diseño del producto. Asimismo, colaboró en las actividades asignadas durante el Sprint 1 y en la documentación de las evidencias correspondientes.<br><br>
+      Participó en el desarrollo de los capítulos y artefactos del Project Report, además de colaborar en las actividades y evidencias correspondientes al Sprint 1.<br><br>
 
       <strong>Integrante 5</strong><br>
-      Participó en el desarrollo colaborativo de los capítulos y artefactos asignados del Project Report. Asimismo, colaboró en las actividades correspondientes al Sprint 1, aportando en la elaboración de la documentación y evidencias del proyecto.
+      Participó en el desarrollo colaborativo de los capítulos y artefactos asignados del Project Report, así como en las actividades correspondientes al Sprint 1.
     </td>
     <td>
-      El desarrollo de los capítulos I, II, III, IV y V permitió distribuir responsabilidades entre los integrantes y coordinar las diferentes actividades necesarias para la elaboración del Project Report. Durante el Sprint 1, el uso del Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores permitió organizar las responsabilidades del equipo. De esta manera, los integrantes participaron conjuntamente en la documentación, implementación, validación y recopilación de evidencias del proyecto, fortaleciendo el liderazgo compartido y la colaboración para alcanzar los objetivos establecidos.
+      El equipo trabajó de manera conjunta en el desarrollo de los capítulos I, II, III, IV y V del Project Report, distribuyendo responsabilidades para completar los diferentes artefactos del proyecto. Asimismo, durante el Sprint 1 se organizaron las actividades mediante el Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog, permitiendo coordinar las responsabilidades y recopilar las evidencias de desarrollo, ejecución, documentación, despliegue y colaboración del equipo.
     </td>
   </tr>
 
@@ -251,22 +251,22 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
     </td>
     <td>
       <strong>Cáceres Pizarro, Albino Florencio</strong><br>
-      Participó en la planificación de las actividades del equipo, organización del repositorio y distribución de responsabilidades para desarrollar los capítulos del Project Report. Asimismo, colaboró en la planificación del Sprint 1, definición del Sprint Backlog, coordinación de líderes y colaboradores y seguimiento de las evidencias requeridas para el Sprint Review.<br><br>
+      Participó en la planificación de las actividades, organización del repositorio y distribución de responsabilidades para desarrollar los capítulos del Project Report y las actividades correspondientes al Sprint 1.<br><br>
 
       <strong>Quispe Alomnacid, Andre Sebastian</strong><br>
-      Cumplió con las actividades asignadas para la elaboración de los capítulos y artefactos del Project Report, coordinando sus aportes con los demás integrantes. Asimismo, participó en las tareas establecidas para el Sprint 1 y en la recopilación de las evidencias correspondientes.<br><br>
+      Cumplió con las actividades asignadas para la elaboración de los capítulos y artefactos del Project Report, coordinando sus aportes con los demás integrantes durante el Sprint 1.<br><br>
 
       <strong>Torres Huaman, Alexis Calin</strong><br>
-      Colaboró en la planificación y organización de las tareas del equipo, especialmente en las actividades relacionadas con la gestión del Sprint 1. Participó en la organización del Sprint Backlog y en el seguimiento de las actividades asignadas a los integrantes.<br><br>
+      Colaboró en la planificación y organización de las tareas del equipo, participando en el Sprint Planning, Sprint Backlog y seguimiento de las actividades asignadas.<br><br>
 
       <strong>Merino Ordinola, Winnie Lisbeth</strong><br>
-      Participó en las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con los demás integrantes. Asimismo, colaboró en las tareas planificadas para el Sprint 1 y en la documentación de las evidencias obtenidas.<br><br>
+      Participó en las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, colaborando con el equipo en el cumplimiento de las tareas del Sprint 1.<br><br>
 
       <strong>Integrante 5</strong><br>
-      Participó en el cumplimiento de las actividades asignadas dentro del Project Report y del Sprint 1, coordinando sus avances con los demás miembros del equipo y contribuyendo al cumplimiento de los objetivos establecidos.
+      Participó en el cumplimiento de las actividades asignadas dentro del Project Report y del Sprint 1, coordinando sus avances con los demás integrantes del equipo.
     </td>
     <td>
-      La organización del trabajo permitió establecer metas y distribuir las actividades necesarias para desarrollar los capítulos I, II, III, IV y V del Project Report. La planificación del Sprint 1 mediante el Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores permitió establecer responsabilidades y realizar seguimiento al avance de las tareas. Además, el uso del repositorio permitió integrar los aportes realizados por los integrantes y mantener evidencia del trabajo colaborativo. Como resultado, el equipo logró avanzar en la documentación, implementación, evidencias de ejecución, despliegue y colaboración correspondientes al primer sprint.
+      La planificación de las actividades permitió establecer metas y distribuir las tareas necesarias para desarrollar los capítulos I, II, III, IV y V. Asimismo, el Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores permitieron organizar las responsabilidades del Sprint 1. El trabajo colaborativo permitió avanzar en Software Configuration Management, implementación de la Landing Page, evidencias del Sprint Review, despliegue, conclusiones y bibliografía.
     </td>
   </tr>
 </table>
