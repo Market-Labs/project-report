@@ -11,7 +11,7 @@ En el contexto de las entregas AV1, TB1, AV2 y TB2, se presenta un análisis de 
 
 La siguiente figura muestra el tráfico registrado en el repositorio del proyecto durante el periodo de desarrollo.
 
-<img src="./assets/common/traficgit.png" alt="Tráfico del repositorio">
+<img src="../assets/common/traficgit.png" alt="Tráfico del repositorio">
 
 **Figura 1.** Tráfico registrado en el repositorio del proyecto.  
 **Fuente:** GitHub Insights.
