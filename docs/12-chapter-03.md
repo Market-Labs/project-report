@@ -121,24 +121,39 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 | Endpoint | Métodos esperados | Fuente de requisito | Contexto frontend / backend |
 |------|-------------------|---------------------|-----------------------------|
 | `/api/v1/health` | GET | IMP-BE-001 | shared / platform |
-| `/api/v1/auth/*` | GET, POST | TS-IAM-001 / TS-IAM-002 / US-026 / US-027 | iam |
-| `/api/v1/minimarkets/{minimarketId}/users` | GET, POST | TS-IAM-003 / TS-IAM-004 / US-026 / US-028 | iam |
-| `/api/v1/profiles` | GET, POST, PATCH | TS-PROF-001 | profiles |
-| `/api/v1/minimarkets/{minimarketId}/dashboard` | GET | TS-DASH-001 / US-030 | dashboard |
-| `/api/v1/minimarkets/{minimarketId}/analytics` | GET | EP-07 / US-025 / US-030 | analytics |
-| `/api/v1/products` | GET, POST, PATCH, DELETE | TS-PROD-001 / TS-PROD-002 / US-001 / US-015 / US-016 / US-017 | products |
-| `/api/v1/minimarkets/{minimarketId}/inventory` | GET, POST, PATCH | TS-INV-001 / TS-INV-002 / US-001 / US-002 / US-005 / US-029 | inventory |
-| `/api/v1/minimarkets/{minimarketId}/inventory/search` | GET | TS-INV-003 / US-003 / US-004 | inventory |
-| `/api/v1/minimarkets/{minimarketId}/lots` | GET, POST, PATCH | TS-LOT-001 / TS-LOT-002 / US-006 / US-007 | lots |
-| `/api/v1/minimarkets/{minimarketId}/expirations` | GET | TS-EXP-001 / US-008 / US-009 | expiration |
-| `/api/v1/minimarkets/{minimarketId}/requisitions` | GET, POST, PATCH | TS-ORD-001 / TS-ORD-002 / US-018 / US-019 / US-020 | requisitions / pedidos |
-| `/api/v1/minimarkets/{minimarketId}/purchase-orders` | GET, POST, PATCH | TS-ORD-003 / TS-ORD-004 / US-021 / US-022 / US-023 / US-024 | purchase-orders / órdenes de envío |
-| `/api/v1/suppliers` | GET, POST, PATCH | TS-SUP-001 / TS-SUP-002 / US-015 / US-016 / US-017 | suppliers |
-| `/api/v1/minimarkets/{minimarketId}/conservation/monitoring` | GET | TS-CON-001 / US-010 / US-011 | conservation |
-| `/api/v1/minimarkets/{minimarketId}/communication/alerts` | GET, PATCH | TS-CON-002 / TS-DASH-002 / US-009 / US-012 | conservation / alerts |
-| `/api/v1/minimarkets/{minimarketId}/communication/messages` | GET, POST, PATCH | TS-DASH-002 | communication / notifications |
-| `/api/v1/minimarkets/{minimarketId}/activity-history` | GET | TS-AUD-001 / US-025 | audit / analytics |
-| `/api/v1/minimarkets/{minimarketId}/waste` | GET, POST | TS-MER-001 / US-013 | inventory / waste |
+| `/api/v1/auth/sign-in` | POST | TS-IAM-001 / US-027 | iam |
+| `/api/v1/auth/sign-up` | POST | TS-IAM-002 / US-026 | iam |
+| `/api/v1/users` | GET, POST | TS-IAM-003 / US-026 | iam |
+| `/api/v1/users/{id}` | GET, PATCH | TS-IAM-004 / US-026 / US-028 | iam |
+| `/api/v1/profiles` | GET | TS-PROF-001 | profiles |
+| `/api/v1/profiles/{id}` | GET, PUT/PATCH | TS-PROF-001 | profiles |
+| `/api/v1/products` | GET, POST | TS-PROD-001 / US-001 / US-016 | products |
+| `/api/v1/products/{id}` | GET, PATCH, DELETE | TS-PROD-002 / US-005 / US-016 / US-017 | products |
+| `/api/v1/inventory` | GET, POST | TS-INV-001 / US-001 / US-002 | inventory |
+| `/api/v1/inventory/{id}` | GET, PATCH | TS-INV-002 / US-005 / US-029 | inventory |
+| `/api/v1/inventory/search` | GET | TS-INV-003 / US-003 / US-004 | inventory |
+| `/api/v1/lots` | GET, POST | TS-LOT-001 / US-006 / US-007 | lots |
+| `/api/v1/lots/{id}` | GET, PATCH | TS-LOT-002 / US-007 | lots |
+| `/api/v1/expirations` | GET | TS-EXP-001 / US-008 / US-009 | lots / expirations |
+| `/api/v1/conservation/monitoring` | GET | TS-CON-001 / US-010 / US-011 | conservation |
+| `/api/v1/conservation/alerts` | GET | TS-CON-002 / US-012 | conservation |
+| `/api/v1/suppliers` | GET, POST | TS-SUP-001 / US-015 / US-016 / US-017 | suppliers |
+| `/api/v1/suppliers/{id}` | GET, PATCH | TS-SUP-001 / US-017 | suppliers |
+| `/api/v1/suppliers/{id}/products` | GET, POST | TS-SUP-002 / US-015 / US-016 / US-017 | suppliers / products |
+| `/api/v1/requisitions` | GET, POST | TS-ORD-001 / US-018 / US-019 | requisitions |
+| `/api/v1/requisitions/{id}` | GET | TS-ORD-001 / US-019 | requisitions |
+| `/api/v1/requisitions/{id}/accept` | POST | TS-ORD-002 / US-020 | requisitions |
+| `/api/v1/requisitions/{id}/reject` | POST | TS-ORD-002 / US-020 | requisitions |
+| `/api/v1/purchase-orders` | GET, POST | TS-ORD-003 / US-021 / US-022 | purchase-orders |
+| `/api/v1/purchase-orders/{id}` | GET | TS-ORD-003 / US-022 | purchase-orders |
+| `/api/v1/purchase-orders/{id}/accept` | POST | TS-ORD-004 / US-023 | purchase-orders / inventory |
+| `/api/v1/purchase-orders/{id}/reject` | POST | TS-ORD-004 / US-024 | purchase-orders |
+| `/api/v1/waste` | GET, POST | TS-MER-001 / US-013 | waste |
+| `/api/v1/offers` | GET, POST | TS-MER-001 / US-014 | offers |
+| `/api/v1/dashboard` | GET | TS-DASH-001 / US-030 | dashboard |
+| `/api/v1/notifications` | GET, PATCH | TS-DASH-002 / US-009 / US-012 | notifications |
+| `/api/v1/activity-history` | GET | TS-AUD-001 / US-025 | audit |
+
 
 #### Consideraciones de cobertura
 
