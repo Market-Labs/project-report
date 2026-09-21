@@ -19,7 +19,7 @@ La siguiente figura muestra el tráfico registrado en el repositorio del proyect
 La siguiente figura presenta la participación de los integrantes del equipo como contribuidores del repositorio.
 
 
-<img src="./assets/common/contributors.png" alt="Contribuidores del repositorio">
+<img src="docs/assets/common/contributors.png" alt="Contribuidores del repositorio">
 
 **Figura 2.** Contribuidores del repositorio del proyecto.  
 **Fuente:** GitHub Insights.
