@@ -60,8 +60,8 @@
       <td align="left">Merino Ordinola, Winnie Lisbeth</td>
     </tr>
     <tr>
-      <td align="center">U202410746</td>
-      <td align="left">Huaranga Romero, Matias Daniel</td>
+      <td align="center">u201815005</td>
+      <td align="left">Quispe Alomnacid, Andre Sebastian </td>
     </tr>
     <tr>
       <td align="center">U20241G152</td>
@@ -81,9 +81,9 @@
 # Registro de versiones del informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
-| 1.0.0 | DD/MM/AAAA | Nombres completos de los integrantes, Albino Florencio Cáceres Pizarro | [Descripción de los cambios realizados en esta versión] |
-| 2.0.0 | DD/MM/AAAA | Nombres completos de los integrantes, Albino Florencio Cáceres Pizarro | [Descripción de los cambios realizados en esta versión] |
-| 3.0.0 | DD/MM/AAAA | Albino Florencio Cáceres Pizarro | [Descripción de los cambios realizados en esta versión] |
+| 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Alomnacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
+| 2.0.0 | DD/MM/AAAA | Nombres completos de los integrantes | [Descripción de los cambios realizados en esta versión] |
+| 3.0.0 | DD/MM/AAAA |Nombres de integrantes | [Descripción de los cambios realizados en esta versión] |
 
 ---
 
@@ -97,14 +97,35 @@ A partir de este repositorio, se analiza la participación de los integrantes de
 En el contexto de las entregas AV1, TB1, AV2 y TB2, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
 
 ## AV1
-[pending content]
 
-## TB1
-[pending content]
+La siguiente figura muestra el tráfico registrado en el repositorio del proyecto durante el periodo de desarrollo.
 
-## AV2
+<img src="docs/assets/common/traficgit.png" alt="Tráfico del repositorio">
 
-[pending content]
+**Figura 1.** Tráfico registrado en el repositorio del proyecto.  
+**Fuente:** GitHub Insights.
+
+La siguiente figura presenta la participación de los integrantes del equipo como contribuidores del repositorio.
+
+
+<img src="docs/assets/common/contributors.png" alt="Contribuidores del repositorio">
+
+**Figura 2.** Contribuidores del repositorio del proyecto.  
+**Fuente:** GitHub Insights.
+
+La siguiente figura muestra el historial de commits realizados por los integrantes del equipo durante el desarrollo del proyecto.
+
+<img src="docs/assets/common/commits.png" alt="Commits del repositorio">
+
+**Figura 3.** Registro de commits realizados por los integrantes del equipo.  
+**Fuente:** GitHub.
+
+La siguiente figura presenta las estadísticas generales de actividad y contribución registradas en el repositorio.
+
+<img src="docs/assets/common/insights.png" alt="Insights del repositorio">
+
+**Figura 4.** Estadísticas generales del repositorio del proyecto.  
+**Fuente:** GitHub Insights.
 
 ---
 
@@ -191,89 +212,31 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 ---
 
 ## Tabla de Student Outcome
-<table style="width:100%; border-collapse: collapse;">
-  <tr>
-    <th style="width:25%;">Criterio específico</th>
-    <th style="width:45%;">Acciones realizadas</th>
-    <th style="width:30%;">Conclusiones</th>
-  </tr>
 
-  <tr>
-    <td>
-      Trabaja en equipo para proporcionar liderazgo en forma conjunta
-    </td>
-    <td>
-      <strong>Cáceres Pizarro, Albino Florencio</strong><br>
-      <strong>AV1:</strong> Creación del repositorio, establecimiento de la idea de negocio<br>
-      <strong>TB1:</strong> .<br>
-      <strong>AV2:</strong> <br>
-      <strong>TF:</strong><br>
-      <strong>integrante 2</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 3</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 4</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 5</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-    </td>
-    <td>
-      <strong>AV1:</strong> El equipo demostró liderazgo compartido al asignar responsables específicos basándose en las fortalezas técnicas de cada integrante.<br>
-      <strong>TB1:</strong>contenido <br>
-      <strong>AV2:</strong> contenido<br>
-      <strong>TF:</strong> contenido<br>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos
-    </td>
-    <td>
-       <strong>Cáceres Pizarro, Albino Florencio</strong><br>
-      <strong>AV1:</strong> Creación del repositorio, establecimiento de la idea de negocio<br>
-      <strong>TB1:</strong> .<br>
-      <strong>AV2:</strong> <br>
-      <strong>TF:</strong><br>
-      <strong>integrante 2</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 3</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 4</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 5</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-    </td>
-    <td>
-      <strong>AV1:</strong> La planificación de tareas mediante un backlog inicial permitió cumplir con todos los artefactos de Needfinding y Lean UX.<br>
-      <strong>TB1:</strong> CONTENIDO<br>
-      <strong>AV2:</strong> CONTENIDO<br>
-    </td>
-  </tr>
-</table>
+| Criterio específico | Acciones realizadas | Conclusiones |
+|:---|:---|:---|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades para el desarrollo de los capítulos del Project Report y Sprint 1.<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br><br>**Quispe Alomnacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1. | **AV1:** El equipo demostró liderazgo compartido mediante la distribución de responsabilidades para desarrollar los capítulos I, II, III, IV y V del Project Report. Asimismo, la planificación del Sprint 1 permitió coordinar las tareas mediante el Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación de actividades, distribución de responsabilidades y seguimiento del desarrollo de los capítulos y actividades del Sprint 1.<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br><br>**Quispe Alomnacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1. | **AV1:** La planificación y distribución de tareas permitió al equipo avanzar de manera organizada en los capítulos del Project Report y las actividades del Sprint 1. El Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores facilitaron la organización del trabajo y el cumplimiento de los objetivos establecidos. |
+
+---
+
+# Bibliografía
+
+- Vue.js. (2026). *Vue.js documentation*. https://vuejs.org/
+
+- Vite. (2026). *Vite documentation*. https://vite.dev/
+
+- Pinia. (2026). *Pinia documentation*. https://pinia.vuejs.org/
+
+- Vue Router. (2026). *Vue Router documentation*. https://router.vuejs.org/
+
+- PrimeVue. (2026). *PrimeVue documentation*. https://primevue.org/
+
+- GitHub. (2026). *GitHub Docs*. https://docs.github.com/
+
+- Microsoft. (2026). *Azure documentation*. https://learn.microsoft.com/azure/
+
+- Atlassian. (2026). *Trello REST API documentation*. https://developer.atlassian.com/cloud/trello/
 
 ---
 
@@ -300,10 +263,10 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
 | <img src="docs/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
-| `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **Merino Ordinola, Winnie Lisbeth** | U20231E504 | Ingeniería de Software | Estudiante de la carrera de Ingeniería de Software. Mis principales destrezas son las habilidades para trabajar en equipo, la creatividad y la investigación. Mi mayor interés es tanto proponer ideas innovadoras que solucionen problemas cercanos en nuestra realidad, como llevarlas a cabo a través del software. |
-| `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_3]" alt="Foto de [NOMBRE_INTEGRANTE_3]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
+|<img src="docs/assets/chapter-01/profile_winnieMerino.jpg" alt="Foto de Winnie Merino" width="120" /> | **Merino Ordinola, Winnie Lisbeth** | U20231E504 | Ingeniería de Software | Estudiante de la carrera de Ingeniería de Software. Mis principales destrezas son las habilidades para trabajar en equipo, la creatividad y la investigación. Mi mayor interés es tanto proponer ideas innovadoras que solucionen problemas cercanos en nuestra realidad, como llevarlas a cabo a través del software. |
+| <img src="docs/assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno. |
 | <img src="docs/assets/chapter-01/profile_huaranga.jpg" alt="Foto de Matias Huaranga" width="120" /> | **Huaranga Romero, Matias Daniel** | U202410746 | Ingeniería de Software | Estudiante de Ingeniería de Software, responsable, proactivo y orientado al trabajo en equipo. Me destaco por mi creatividad, capacidad de investigación y disposición constante para apoyar a mis compañeros. Apasionado por transformar problemas reales en soluciones innovadoras a través del software, con una rápida adaptación frente a nuevos retos académicos y profesionales. |
-| `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_5]" alt="Foto de [NOMBRE_INTEGRANTE_5]" width="120" />` | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
+| <img src="docs/assets/chapter-01/profile_torres.png" alt="Foto de Alexis Torres" width="120" /> | **Torres Huaman, Alexis Calín** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
 ---
 
@@ -975,7 +938,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 05:04</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">https://youtu.be/BuiCkyydM7k</a></td>
 </tr>
     <tr>
       <td colspan="4">
@@ -1003,40 +966,41 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Roly Hans Luna</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Teléfono celular(Smartphone)</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>28 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>iOS / Android (Mobile Browser)</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador de Minimarket Orgánico</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>San Isidro, Lima</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: [15:00]</td>
+      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">https://youtu.be/NzzEsy9Kx7Y</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        Roly es un administrador con 4 años de experiencia, enfocado en el crecimiento de su minimarket de productos orgánicos. Muestra una personalidad proactiva, pero con altos niveles de frustración operativa y estrés debido a la carga de trabajo manual. A nivel tecnológico, su comportamiento es puramente <em>mobile-first</em>; utiliza su teléfono celular durante el 90% de su jornada laboral debido al constante dinamismo en los pasillos, relegando el uso de la laptop únicamente para cierres administrativos.<br><br>Sus canales de interacción digital son limitados y fragmentados: utiliza hojas de cálculo de Google Drive (Excel) combinadas con cuadernos de apuntes para el inventario, y depende 100% de WhatsApp como canal de comunicación oficial para cotizar y solicitar pedidos a sus proveedores.<br><br>Durante la entrevista, expresó que sus principales problemas (<em>Pains</em>) son las mermas de productos perecibles (hortalizas y lácteos) por falta de control. Actualmente, monitorea las fechas de vencimiento mediante revisiones visuales semanales y verifica la temperatura de las vitrinas con termómetros físicos, lo cual lo deja expuesto a fallas mecánicas durante la madrugada. Se mostró altamente entusiasta (<em>Gains</em>) ante la propuesta de una solución tecnológica centralizada, indicando que un sistema que le envíe alertas al celular sobre el clima o los vencimientos, y que actualice su stock automáticamente al aprobar un pedido, le ahorraría tiempo y reduciría sus pérdidas económicas a cero.
       </td>
     </tr>
   </tbody>
 </table>
+
 
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
@@ -1054,36 +1018,38 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>María Fernanda Rojas Castillo</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Teléfono celular y laptop</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>38 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
       <td>[Sistema operativo y navegador]</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administradora de minimarket con 7 años de experiencia en la gestión del negocio</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp y llamadas telefónicas</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>Santiago de Surco, Lima</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Microsoft Excel</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAtjkovEx1wRr3eMlftO2sFAXlMxG88PDLfCn4uFfxvYMs?e=9CcTbz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        La entrevista realizada a una administradora de minimarket de 38 años, con aproximadamente 7 años de experiencia en la gestión del negocio, permitió identificar que actualmente utiliza principalmente Excel, WhatsApp y registros manuales para gestionar el inventario y coordinar con sus proveedores. El control de productos, lotes y fechas de vencimiento requiere revisiones físicas periódicas, mientras que los pedidos de abastecimiento se coordinan principalmente mediante WhatsApp y llamadas telefónicas.<br><br>
+        Entre las principales dificultades identificadas se encuentran la información distribuida en diferentes medios, la actualización tardía del inventario, el tiempo requerido para revisar fechas de vencimiento y la dificultad para realizar el seguimiento de varios pedidos simultáneamente. Asimismo, se han presentado pérdidas por productos vencidos o deteriorados y situaciones de falta de stock.<br><br>
+        Finalmente, la entrevistada considera útil contar con una plataforma que permita consultar en un solo lugar el inventario, los lotes, las fechas de vencimiento, las condiciones de almacenamiento, la información de los proveedores y los pedidos de abastecimiento. También valora la posibilidad de recibir alertas sobre productos con bajo stock o próximos a vencer, ya que facilitaría la organización y permitiría tomar acciones con anticipación.
       </td>
     </tr>
   </tbody>
@@ -1096,7 +1062,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
+        <img src="assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
       </td>
     </tr>
     <tr>
@@ -1147,7 +1113,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
+        <img src="assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
       </td>
     </tr>
     <tr>
@@ -1180,7 +1146,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [03:18]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1190,6 +1156,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
   </tbody>
 </table>
+
 
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
@@ -1231,7 +1198,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">https://youtu.be/A0u3vSoaUJk</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1250,39 +1217,45 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
 
 ### Análisis por segmento objetivo
 
-**Segmento objetivo: [Nombre del segmento objetivo]**
+**Segmento objetivo: Administradores de Minimarkets**
 
 #### 1. Descripción general del segmento
 
-Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las entrevistas registradas, se identificaron patrones comunes en sus características objetivas y subjetivas, los cuales sirven como base para la construcción del arquetipo correspondiente.
+Este segmento agrupa a administradores responsables de supervisar las operaciones de minimarkets, incluyendo actividades relacionadas con el control de inventario, gestión de productos, lotes, fechas de vencimiento, condiciones de almacenamiento y coordinación del abastecimiento con proveedores. A partir de las entrevistas realizadas a los administradores, se identificaron patrones comunes relacionados con el uso de herramientas digitales, la dependencia de procesos manuales y las dificultades para mantener actualizada y centralizada la información del negocio. Estos hallazgos sirven como base para la construcción del arquetipo correspondiente.
 
 #### 2. Características objetivas del segmento
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **[Característica objetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **Uso de hojas de cálculo para la gestión** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Los administradores utilizan Excel o Google Drive para registrar, consultar o actualizar información relacionada con el inventario y las operaciones del minimarket. | El arquetipo posee experiencia utilizando herramientas digitales básicas, pero requiere una alternativa especializada que permita organizar la información de manera integrada. |
+| **Uso frecuente del teléfono celular durante la jornada laboral** | 100% (3/3) | **Entrevistas 1, 2 y 3:** El celular forma parte de las herramientas utilizadas diariamente. En particular, se emplea por su facilidad de acceso y movilidad durante las actividades del minimarket. | El arquetipo necesita acceder a información y realizar consultas desde dispositivos móviles durante sus actividades diarias. |
+| **Uso de WhatsApp para la comunicación con proveedores** | 100% (3/3) | **Entrevistas 1, 2 y 3:** WhatsApp o WhatsApp Business es utilizado para consultar productos, coordinar pedidos y mantener comunicación con proveedores. | El arquetipo está acostumbrado a canales digitales rápidos, pero actualmente la información de abastecimiento permanece distribuida en conversaciones independientes. |
+| **Control manual de inventario, lotes o vencimientos** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Se realizan revisiones físicas de productos, stock, lotes o fechas de vencimiento, complementadas con cuadernos, Excel o sistemas básicos. | El arquetipo combina herramientas digitales con procedimientos manuales, generando una necesidad de simplificar y organizar sus actividades de control. |
 
 #### 3. Características subjetivas del segmento
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **[Característica subjetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **Preocupación por productos vencidos o deteriorados** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Los administradores identifican los vencimientos y el deterioro de productos como situaciones que pueden generar pérdidas económicas y requieren revisiones constantes. | El arquetipo busca anticiparse a vencimientos y deterioros para reducir mermas y tomar acciones oportunamente. |
+| **Necesidad de reducir el tiempo dedicado al control manual** | 100% (3/3) | **Entrevistas 1, 2 y 3:** La revisión de stock, vencimientos y registros requiere tiempo debido a que parte de la información debe verificarse manualmente o consultarse en diferentes medios. | El arquetipo valora herramientas que agilicen las consultas y reduzcan el esfuerzo necesario para mantener actualizada la información. |
+| **Necesidad de centralizar la información operativa** | 100% (3/3) | **Entrevistas 1, 2 y 3:** La información se encuentra distribuida entre Excel, cuadernos, sistemas básicos y conversaciones de WhatsApp, dificultando su seguimiento. | El arquetipo necesita disponer de inventario, lotes, vencimientos, proveedores y pedidos desde un mismo entorno. |
+| **Valoración de alertas para anticipar problemas** | 67% (2/3) | **Entrevistas 2 y 3:** Los entrevistados muestran interés en recibir alertas relacionadas con vencimientos, stock o condiciones que requieren atención. | El arquetipo valora mecanismos preventivos que le permitan identificar situaciones importantes antes de que generen pérdidas o problemas de abastecimiento. |
 
 #### 4. Hallazgos principales
 
-- **[Hallazgo principal 1] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
-- **[Hallazgo principal 2] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
-- **[Hallazgo principal 3] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+- **Fragmentación de la información (100% de coincidencia):** Los tres administradores utilizan diferentes herramientas y medios para gestionar sus operaciones, principalmente Excel, registros manuales y WhatsApp. Esto dificulta mantener una visión integrada y actualizada del inventario, los vencimientos y el abastecimiento.
+
+- **Dependencia de controles manuales (100% de coincidencia):** Los tres entrevistados realizan revisiones físicas o manuales para controlar aspectos como stock, lotes, fechas de vencimiento o condiciones de almacenamiento. Estas actividades demandan tiempo y pueden ocasionar que determinados problemas no sean detectados oportunamente.
+
+- **Necesidad de mejorar la prevención y organización operativa (100% de coincidencia):** Los entrevistados evidencian dificultades relacionadas con productos vencidos o deteriorados, falta de stock, actualización de información y seguimiento de pedidos. Una gestión más organizada permitiría detectar estas situaciones con anticipación y facilitar la toma de decisiones.
 
 #### 5. Conclusión del segmento
 
-[Redactar una conclusión integrando los principales patrones identificados en las entrevistas, los problemas recurrentes, necesidades, comportamientos y motivaciones del segmento. Relacionar estos resultados con la construcción del arquetipo de usuario y las necesidades que deberá atender la solución.]
+Las entrevistas realizadas a los administradores de minimarkets evidencian un patrón común de gestión basado en la combinación de herramientas digitales básicas, principalmente Excel y WhatsApp, con procedimientos manuales para controlar inventario, lotes, vencimientos y abastecimiento. Aunque estas herramientas permiten desarrollar las actividades diarias, la información permanece distribuida en diferentes medios y requiere constantes revisiones y actualizaciones.
+
+Los principales problemas identificados se relacionan con el tiempo empleado en los controles manuales, la dificultad para mantener actualizada la información, el seguimiento de fechas de vencimiento, las pérdidas ocasionadas por productos vencidos o deteriorados y la coordinación de pedidos con proveedores. Asimismo, los entrevistados muestran interés en disponer de información organizada y mecanismos que permitan anticipar situaciones como bajo stock o próximos vencimientos.
+
+A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de MarketGo.
 
 ---
 
@@ -1524,10 +1497,12 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 | 59 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 
-**Enlace directo al tablero:** [Tablero Jira - Proyecto MarketGo](https://rqls26.atlassian.net/jira/software/projects/RQSL/boards/1/backlog)
+**Enlace directo al tablero:** 
+**Tablero Sprint 1: Trello
+`[https://trello.com/b/AyBgUYcT/springbacklog1](https://trello.com/b/AyBgUYcT/springbacklog1)`
 
 <div align="center">
-  <img src="docs/assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
+  <img src="docs/assets/chapter-03/tableroTrello.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
 
@@ -2342,7 +2317,7 @@ En esta sección se presenta el diseño orientado a objetos de MarketGo, represe
 ### 4.7.7. Class Diagrams
 
 Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
-
+![Class Diagram MaketGo](../docs/assets/chapter-04/diagramClassMarkGo.png)
 A continuación, se presentan los diagramas de clases correspondientes a los principales bounded contexts de MarketGo:
 
 #### Communication Class Diagram
