@@ -122,7 +122,7 @@ La siguiente figura muestra el historial de commits realizados por los integrant
 
 La siguiente figura presenta las estadísticas generales de actividad y contribución registradas en el repositorio.
 
-<img src="docs/assets/common/commits.png" alt="Commits del repositorio">
+<img src="docs/assets/common/insights.png" alt="Insights del repositorio">
 
 **Figura 4.** Estadísticas generales del repositorio del proyecto.  
 **Fuente:** GitHub Insights.
