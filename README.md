@@ -295,6 +295,7 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+> **Plantilla:** completar los datos de cada integrante y reemplazar la ruta de la imagen por la fotografía correspondiente.
 
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
@@ -974,7 +975,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 05:04</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">https://youtu.be/BuiCkyydM7k</a></td>
 </tr>
     <tr>
       <td colspan="4">
@@ -993,7 +994,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
+        <img src="../docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
@@ -1026,7 +1027,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [15:00]</td>
-      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">https://youtu.be/NzzEsy9Kx7Y</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1054,27 +1055,27 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>María Fernanda Rojas Castillo</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Teléfono celular y laptop</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>38 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
       <td>[Sistema operativo y navegador]</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administradora de minimarket con 7 años de experiencia en la gestión del negocio</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp y llamadas telefónicas</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>Santiago de Surco, Lima</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Microsoft Excel</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [00:00]</td>
@@ -1083,7 +1084,9 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        La entrevista realizada a una administradora de minimarket de 38 años, con aproximadamente 7 años de experiencia en la gestión del negocio, permitió identificar que actualmente utiliza principalmente Excel, WhatsApp y registros manuales para gestionar el inventario y coordinar con sus proveedores. El control de productos, lotes y fechas de vencimiento requiere revisiones físicas periódicas, mientras que los pedidos de abastecimiento se coordinan principalmente mediante WhatsApp y llamadas telefónicas.<br><br>
+        Entre las principales dificultades identificadas se encuentran la información distribuida en diferentes medios, la actualización tardía del inventario, el tiempo requerido para revisar fechas de vencimiento y la dificultad para realizar el seguimiento de varios pedidos simultáneamente. Asimismo, se han presentado pérdidas por productos vencidos o deteriorados y situaciones de falta de stock.<br><br>
+        Finalmente, la entrevistada considera útil contar con una plataforma que permita consultar en un solo lugar el inventario, los lotes, las fechas de vencimiento, las condiciones de almacenamiento, la información de los proveedores y los pedidos de abastecimiento. También valora la posibilidad de recibir alertas sobre productos con bajo stock o próximos a vencer, ya que facilitaría la organización y permitiría tomar acciones con anticipación.
       </td>
     </tr>
   </tbody>
@@ -1180,7 +1183,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [03:18]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1232,7 +1235,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">https://youtu.be/A0u3vSoaUJk</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1251,39 +1254,45 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
 
 ### Análisis por segmento objetivo
 
-**Segmento objetivo: [Nombre del segmento objetivo]**
+**Segmento objetivo: Administradores de Minimarkets**
 
 #### 1. Descripción general del segmento
 
-Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las entrevistas registradas, se identificaron patrones comunes en sus características objetivas y subjetivas, los cuales sirven como base para la construcción del arquetipo correspondiente.
+Este segmento agrupa a administradores responsables de supervisar las operaciones de minimarkets, incluyendo actividades relacionadas con el control de inventario, gestión de productos, lotes, fechas de vencimiento, condiciones de almacenamiento y coordinación del abastecimiento con proveedores. A partir de las entrevistas realizadas a los administradores, se identificaron patrones comunes relacionados con el uso de herramientas digitales, la dependencia de procesos manuales y las dificultades para mantener actualizada y centralizada la información del negocio. Estos hallazgos sirven como base para la construcción del arquetipo correspondiente.
 
 #### 2. Características objetivas del segmento
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **[Característica objetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **Uso de hojas de cálculo para la gestión** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Los administradores utilizan Excel o Google Drive para registrar, consultar o actualizar información relacionada con el inventario y las operaciones del minimarket. | El arquetipo posee experiencia utilizando herramientas digitales básicas, pero requiere una alternativa especializada que permita organizar la información de manera integrada. |
+| **Uso frecuente del teléfono celular durante la jornada laboral** | 100% (3/3) | **Entrevistas 1, 2 y 3:** El celular forma parte de las herramientas utilizadas diariamente. En particular, se emplea por su facilidad de acceso y movilidad durante las actividades del minimarket. | El arquetipo necesita acceder a información y realizar consultas desde dispositivos móviles durante sus actividades diarias. |
+| **Uso de WhatsApp para la comunicación con proveedores** | 100% (3/3) | **Entrevistas 1, 2 y 3:** WhatsApp o WhatsApp Business es utilizado para consultar productos, coordinar pedidos y mantener comunicación con proveedores. | El arquetipo está acostumbrado a canales digitales rápidos, pero actualmente la información de abastecimiento permanece distribuida en conversaciones independientes. |
+| **Control manual de inventario, lotes o vencimientos** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Se realizan revisiones físicas de productos, stock, lotes o fechas de vencimiento, complementadas con cuadernos, Excel o sistemas básicos. | El arquetipo combina herramientas digitales con procedimientos manuales, generando una necesidad de simplificar y organizar sus actividades de control. |
 
 #### 3. Características subjetivas del segmento
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **[Característica subjetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **Preocupación por productos vencidos o deteriorados** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Los administradores identifican los vencimientos y el deterioro de productos como situaciones que pueden generar pérdidas económicas y requieren revisiones constantes. | El arquetipo busca anticiparse a vencimientos y deterioros para reducir mermas y tomar acciones oportunamente. |
+| **Necesidad de reducir el tiempo dedicado al control manual** | 100% (3/3) | **Entrevistas 1, 2 y 3:** La revisión de stock, vencimientos y registros requiere tiempo debido a que parte de la información debe verificarse manualmente o consultarse en diferentes medios. | El arquetipo valora herramientas que agilicen las consultas y reduzcan el esfuerzo necesario para mantener actualizada la información. |
+| **Necesidad de centralizar la información operativa** | 100% (3/3) | **Entrevistas 1, 2 y 3:** La información se encuentra distribuida entre Excel, cuadernos, sistemas básicos y conversaciones de WhatsApp, dificultando su seguimiento. | El arquetipo necesita disponer de inventario, lotes, vencimientos, proveedores y pedidos desde un mismo entorno. |
+| **Valoración de alertas para anticipar problemas** | 67% (2/3) | **Entrevistas 2 y 3:** Los entrevistados muestran interés en recibir alertas relacionadas con vencimientos, stock o condiciones que requieren atención. | El arquetipo valora mecanismos preventivos que le permitan identificar situaciones importantes antes de que generen pérdidas o problemas de abastecimiento. |
 
 #### 4. Hallazgos principales
 
-- **[Hallazgo principal 1] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
-- **[Hallazgo principal 2] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
-- **[Hallazgo principal 3] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+- **Fragmentación de la información (100% de coincidencia):** Los tres administradores utilizan diferentes herramientas y medios para gestionar sus operaciones, principalmente Excel, registros manuales y WhatsApp. Esto dificulta mantener una visión integrada y actualizada del inventario, los vencimientos y el abastecimiento.
+
+- **Dependencia de controles manuales (100% de coincidencia):** Los tres entrevistados realizan revisiones físicas o manuales para controlar aspectos como stock, lotes, fechas de vencimiento o condiciones de almacenamiento. Estas actividades demandan tiempo y pueden ocasionar que determinados problemas no sean detectados oportunamente.
+
+- **Necesidad de mejorar la prevención y organización operativa (100% de coincidencia):** Los entrevistados evidencian dificultades relacionadas con productos vencidos o deteriorados, falta de stock, actualización de información y seguimiento de pedidos. Una gestión más organizada permitiría detectar estas situaciones con anticipación y facilitar la toma de decisiones.
 
 #### 5. Conclusión del segmento
 
-[Redactar una conclusión integrando los principales patrones identificados en las entrevistas, los problemas recurrentes, necesidades, comportamientos y motivaciones del segmento. Relacionar estos resultados con la construcción del arquetipo de usuario y las necesidades que deberá atender la solución.]
+Las entrevistas realizadas a los administradores de minimarkets evidencian un patrón común de gestión basado en la combinación de herramientas digitales básicas, principalmente Excel y WhatsApp, con procedimientos manuales para controlar inventario, lotes, vencimientos y abastecimiento. Aunque estas herramientas permiten desarrollar las actividades diarias, la información permanece distribuida en diferentes medios y requiere constantes revisiones y actualizaciones.
+
+Los principales problemas identificados se relacionan con el tiempo empleado en los controles manuales, la dificultad para mantener actualizada la información, el seguimiento de fechas de vencimiento, las pérdidas ocasionadas por productos vencidos o deteriorados y la coordinación de pedidos con proveedores. Asimismo, los entrevistados muestran interés en disponer de información organizada y mecanismos que permitan anticipar situaciones como bajo stock o próximos vencimientos.
+
+A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de MarketGo.
 
 ---
 
