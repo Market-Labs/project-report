@@ -60,8 +60,8 @@
       <td align="left">Merino Ordinola, Winnie Lisbeth</td>
     </tr>
     <tr>
-      <td align="center">u201815005</td>
-      <td align="left">Quispe Alomnacid, Andre Sebastian </td>
+      <td align="center">U202410746</td>
+      <td align="left">Huaranga Romero, Matias Daniel</td>
     </tr>
     <tr>
       <td align="center">U20241G152</td>
@@ -302,8 +302,8 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 | <img src="docs/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
 | `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **Merino Ordinola, Winnie Lisbeth** | U20231E504 | Ingeniería de Software | Estudiante de la carrera de Ingeniería de Software. Mis principales destrezas son las habilidades para trabajar en equipo, la creatividad y la investigación. Mi mayor interés es tanto proponer ideas innovadoras que solucionen problemas cercanos en nuestra realidad, como llevarlas a cabo a través del software. |
 | `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_3]" alt="Foto de [NOMBRE_INTEGRANTE_3]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
-| `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
-| <img src="docs/assets/chapter-01/profile_torres.png" alt="Foto de Alexis Torres" width="120" /> | **Torres Huaman, Alexis Calín** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
+| <img src="docs/assets/chapter-01/profile_huaranga.jpg" alt="Foto de Matias Huaranga" width="120" /> | **Huaranga Romero, Matias Daniel** | U202410746 | Ingeniería de Software | Estudiante de Ingeniería de Software, responsable, proactivo y orientado al trabajo en equipo. Me destaco por mi creatividad, capacidad de investigación y disposición constante para apoyar a mis compañeros. Apasionado por transformar problemas reales en soluciones innovadoras a través del software, con una rápida adaptación frente a nuevos retos académicos y profesionales. |
+| `<img src="docs/assets/chapter-01/[FOTO_INTEGRANTE_5]" alt="Foto de [NOMBRE_INTEGRANTE_5]" width="120" />` | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
 ---
 
@@ -1096,7 +1096,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
+        <img src="docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
       </td>
     </tr>
     <tr>
@@ -1105,36 +1105,36 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Álvaro Chojaga</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Laptop</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>54 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>Chrome</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador / Jefe de Operaciones y Ventas</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>Whatsapp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>Lima, Miraflores</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: [04:06]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/personal/u202410746_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410746%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202026%2D09%2D13%20at%209%2E09%2E01%20PM%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea50bc394%2D6f9c%2D4932%2Db137%2D8b9b49babf91" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        El video presenta una entrevista con Álvaro Chojaga, un proveedor de productos orgánicos, donde se introduce una plataforma web diseñada para mejorar la gestión y comercialización de productos orgánicos. La plataforma ofrece funciones como publicidad de productos, control de stock, gestión sanitaria, pedidos, y seguimiento de entregas. El contenido está orientado a proveedores y distribuidores que buscan optimizar su manejo de inventarios, pedidos y precios, aprendiendo mejores prácticas para evitar errores comunes y mejorar la comunicación con sus clientes.
       </td>
     </tr>
   </tbody>
@@ -1147,7 +1147,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
+        <img src="docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
       </td>
     </tr>
     <tr>
@@ -1156,36 +1156,36 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Luz Rojas</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Telefono</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>47 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>Chrome</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Comerciante / Mayorista de Productos Orgánicos</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>Whatsapp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>Lima, Miraflores</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: [03:18]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        Este video presenta una entrevista con Luz Rojas sobre el uso y desafíos en la gestión y comercialización de productos orgánicos a través de una plataforma digital llamada Market-Labs. El objetivo central es mostrar cómo esta plataforma puede facilitar la gestión de inventarios, precios, pedidos y seguimiento de entregas para productores y proveedores. Está especialmente dirigido a pequeños y medianos productores o comerciantes de productos orgánicos que buscan optimizar su operación y evitar errores comunes en stock, precios y logística. El espectador aprenderá las dificultades habituales en la administración manual y el potencial beneficio de digitalizar estos procesos con herramientas tecnológicas.
       </td>
     </tr>
   </tbody>

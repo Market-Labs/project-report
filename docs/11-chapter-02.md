@@ -391,7 +391,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
+        <img src="../docs/assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
@@ -400,40 +400,41 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Roly Hans Luna</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Teléfono celular(Smartphone)</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>28 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>iOS / Android (Mobile Browser)</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador de Minimarket Orgánico</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>San Isidro, Lima</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: [15:00]</td>
+      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        Roly es un administrador con 4 años de experiencia, enfocado en el crecimiento de su minimarket de productos orgánicos. Muestra una personalidad proactiva, pero con altos niveles de frustración operativa y estrés debido a la carga de trabajo manual. A nivel tecnológico, su comportamiento es puramente <em>mobile-first</em>; utiliza su teléfono celular durante el 90% de su jornada laboral debido al constante dinamismo en los pasillos, relegando el uso de la laptop únicamente para cierres administrativos.<br><br>Sus canales de interacción digital son limitados y fragmentados: utiliza hojas de cálculo de Google Drive (Excel) combinadas con cuadernos de apuntes para el inventario, y depende 100% de WhatsApp como canal de comunicación oficial para cotizar y solicitar pedidos a sus proveedores.<br><br>Durante la entrevista, expresó que sus principales problemas (<em>Pains</em>) son las mermas de productos perecibles (hortalizas y lácteos) por falta de control. Actualmente, monitorea las fechas de vencimiento mediante revisiones visuales semanales y verifica la temperatura de las vitrinas con termómetros físicos, lo cual lo deja expuesto a fallas mecánicas durante la madrugada. Se mostró altamente entusiasta (<em>Gains</em>) ante la propuesta de una solución tecnológica centralizada, indicando que un sistema que le envíe alertas al celular sobre el clima o los vencimientos, y que actualice su stock automáticamente al aprobar un pedido, le ahorraría tiempo y reduciría sus pérdidas económicas a cero.
       </td>
     </tr>
   </tbody>
 </table>
+
 
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
@@ -493,7 +494,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
+        <img src="assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
       </td>
     </tr>
     <tr>
@@ -502,36 +503,36 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Álvaro Chojaga</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Laptop</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>54 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>Chrome</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador / Jefe de Operaciones y Ventas</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>Whatsapp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>Lima, Miraflores</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: [04:06]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/personal/u202410746_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410746%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202026%2D09%2D13%20at%209%2E09%2E01%20PM%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea50bc394%2D6f9c%2D4932%2Db137%2D8b9b49babf91" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        El video presenta una entrevista con Álvaro Chojaga, un proveedor de productos orgánicos, donde se introduce una plataforma web diseñada para mejorar la gestión y comercialización de productos orgánicos. La plataforma ofrece funciones como publicidad de productos, control de stock, gestión sanitaria, pedidos, y seguimiento de entregas. El contenido está orientado a proveedores y distribuidores que buscan optimizar su manejo de inventarios, pedidos y precios, aprendiendo mejores prácticas para evitar errores comunes y mejorar la comunicación con sus clientes.
       </td>
     </tr>
   </tbody>
@@ -544,7 +545,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
+        <img src="assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
       </td>
     </tr>
     <tr>
@@ -553,40 +554,41 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Luz Rojas</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Telefono</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>47 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>Chrome</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Comerciante / Mayorista de Productos Orgánicos</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>Whatsapp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>Lima, Miraflores</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: [03:18]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        Este video presenta una entrevista con Luz Rojas sobre el uso y desafíos en la gestión y comercialización de productos orgánicos a través de una plataforma digital llamada Market-Labs. El objetivo central es mostrar cómo esta plataforma puede facilitar la gestión de inventarios, precios, pedidos y seguimiento de entregas para productores y proveedores. Está especialmente dirigido a pequeños y medianos productores o comerciantes de productos orgánicos que buscan optimizar su operación y evitar errores comunes en stock, precios y logística. El espectador aprenderá las dificultades habituales en la administración manual y el potencial beneficio de digitalizar estos procesos con herramientas tecnológicas.
       </td>
     </tr>
   </tbody>
 </table>
+
 
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
