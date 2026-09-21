@@ -391,7 +391,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
+        <img src="../docs/assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
