@@ -643,6 +643,7 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
     </tr>
   </tbody>
 </table>
+
 ### 2.2.3. Análisis de entrevistas
 
 ### Análisis por segmento objetivo
