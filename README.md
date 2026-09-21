@@ -81,11 +81,7 @@
 # Registro de versiones del informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
-| 1.0.0 | DD/MM/AAAA | Cáceres Pizarro, Albino Florencio
-U202410746	Huaranga Romero, Matias Daniel
-U20231B504	Merino Ordinola, Winnie Lisbeth
-u201815005	Quispe Alomnacid, Andre Sebastian
-U20241G152	Torres Huaman, Alexis Calin | [Descripción de los cambios realizados en esta versión] |
+| 1.0.0 | DD/MM/AAAA | Cáceres Pizarro, Albino Florencio<br>Quispe Alomnacid, Andre Sebastian<br>Torres Huaman, Alexis Calin<br>Atencio Cristobal, Cielo Valentina<br>Huar... | Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
 | 2.0.0 | DD/MM/AAAA | Nombres completos de los integrantes, Albino Florencio Cáceres Pizarro | [Descripción de los cambios realizados en esta versión] |
 | 3.0.0 | DD/MM/AAAA | Albino Florencio Cáceres Pizarro | [Descripción de los cambios realizados en esta versión] |
 
