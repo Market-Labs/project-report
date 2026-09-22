@@ -98,34 +98,33 @@ En el contexto de las entregas AV1, TB1, AV2 y TB2, se presenta un análisis de 
 
 ## AV1
 
+La siguiente figura presenta las estadísticas generales de actividad y contribución registradas en el repositorio.
+
+<img src="docs/assets/common/insights.png" alt="Insights del repositorio">
+
+**Figura 1.** Estadísticas generales del repositorio del proyecto.  
+**Fuente:** GitHub Insights.
+
 La siguiente figura muestra el tráfico registrado en el repositorio del proyecto durante el periodo de desarrollo.
 
 <img src="docs/assets/common/traficgit.png" alt="Tráfico del repositorio">
 
-**Figura 1.** Tráfico registrado en el repositorio del proyecto.  
+**Figura 2.** Tráfico registrado en el repositorio del proyecto.  
 **Fuente:** GitHub Insights.
 
 La siguiente figura presenta la participación de los integrantes del equipo como contribuidores del repositorio.
 
-
 <img src="docs/assets/common/contributors.png" alt="Contribuidores del repositorio">
 
-**Figura 2.** Contribuidores del repositorio del proyecto.  
+**Figura 3.** Contribuidores del repositorio del proyecto.  
 **Fuente:** GitHub Insights.
 
 La siguiente figura muestra el historial de commits realizados por los integrantes del equipo durante el desarrollo del proyecto.
 
 <img src="docs/assets/common/commits.png" alt="Commits del repositorio">
 
-**Figura 3.** Registro de commits realizados por los integrantes del equipo.  
+**Figura 4.** Registro de commits realizados por los integrantes del equipo.  
 **Fuente:** GitHub.
-
-La siguiente figura presenta las estadísticas generales de actividad y contribución registradas en el repositorio.
-
-<img src="docs/assets/common/insights.png" alt="Insights del repositorio">
-
-**Figura 4.** Estadísticas generales del repositorio del proyecto.  
-**Fuente:** GitHub Insights.
 
 ---
 
