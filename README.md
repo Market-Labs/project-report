@@ -27,19 +27,19 @@
 
 <br>
 
-**Informe de Trabajo Final - AV2**
+**Informe de Trabajo Final - AV1**
 
 <br>
 
 **Nombre de la Startup:**
 
-**startup**
+**MarketLabs**
 
 <br>
 
 **Nombre del Producto:**
 
-**ProductName**
+**MarketGo**
 
 <br>
 
