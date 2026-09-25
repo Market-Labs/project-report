@@ -31,13 +31,13 @@
 
 **Nombre de la Startup:**
 
-**startup**
+**MarketLabs**
 
 <br>
 
 **Nombre del Producto:**
 
-**ProductName**
+**MarketGo**
 
 <br>
 
