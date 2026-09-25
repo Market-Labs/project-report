@@ -72,56 +72,41 @@ jobs:
                   encoding="utf-8"
               ).strip()
 
-              # =========================
-              # AJUSTAR RUTAS DE ASSETS
-              # =========================
-              #
-              # Archivos dentro de:
-              #
-              # docs/10-chapter-01.md
-              #
-              # utilizan:
-              #
-              # ./assets/...
-              #
-              # Al pasar al README:
-              #
-              # docs/assets/...
-              #
-              # --------------------------------
-              #
-              # Archivos dentro de:
-              #
-              # docs/front-matter/01-title-page.md
-              #
-              # utilizan:
-              #
-              # ../assets/...
-              #
-              # Al pasar al README:
-              #
-              # docs/assets/...
+              # Resolve image paths from each source document before joining them in README.
+              from urllib.parse import quote, unquote, urlsplit, urlunsplit
+              import posixpath
+              import re
 
-              content = content.replace(
-                  "../assets/",
-                  "docs/assets/"
+              def image_url(url):
+                  parts = urlsplit(url)
+                  if parts.scheme or parts.netloc or url.startswith(("/", "#")):
+                      return url
+
+                  path = unquote(parts.path).replace("\\", "/")
+                  if path.startswith(".docs/assets/"):
+                      path = path[1:]
+                  elif not path.startswith("docs/assets/"):
+                      path = posixpath.normpath(
+                          posixpath.join(file.parent.as_posix(), path)
+                      )
+
+                  if not path.startswith("docs/assets/"):
+                      return url
+
+                  return urlunsplit((
+                      "", "", quote(path, safe="/-._~"), parts.query, parts.fragment
+                  ))
+
+              content = re.sub(
+                  r'''(<img\b[^>]*?\bsrc\s*=\s*["'])([^"']+)(["'])''',
+                  lambda match: match.group(1) + image_url(match.group(2)) + match.group(3),
+                  content,
+                  flags=re.IGNORECASE | re.DOTALL,
               )
-
-              content = content.replace(
-                  "./assets/",
-                  "docs/assets/"
-              )
-
-              # =========================
-              # SEGURIDAD
-              # =========================
-              #
-              # Evitar que una ruta incorrecta
-              # como .docs/assets/ llegue al README.
-
-              content = content.replace(
-                  ".docs/assets/",
-                  "docs/assets/"
+              content = re.sub(
+                  r"(!\[[^\]]*\]\()([^)]+)(\))",
+                  lambda match: match.group(1) + image_url(match.group(2)) + match.group(3),
+                  content,
               )
 
               if content:
