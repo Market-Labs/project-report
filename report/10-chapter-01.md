@@ -16,8 +16,6 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-> **Plantilla:** completar los datos de cada integrante y reemplazar la ruta de la imagen por la fotografía correspondiente.
-
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
 | <img src="assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
@@ -68,9 +66,9 @@ Ante este escenario, se propone una plataforma digital que centralice la informa
 
 ---
 
-### 1.2.2. Lean UX Process
+### 1.2.2. Lean UX Process.
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements.
 
 Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos en riesgo.
 
@@ -98,7 +96,7 @@ Ante esto nos surge la siguiente pregunta:
 
 ---
 
-#### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions.
 
 **Business Assumptions:**
 
@@ -168,7 +166,7 @@ Ante esto nos surge la siguiente pregunta:
 
 ---
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements.
 
 **Hypothesis 1**
 
@@ -192,7 +190,7 @@ Creemos que al utilizar un dashboard común con permisos diferenciados para admi
 
 ---
 
-#### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas.
 
 <table>
   <tr>
@@ -293,7 +291,7 @@ Creemos que al utilizar un dashboard común con permisos diferenciados para admi
 
 ---
 
-## 1.3. Segmentos Objetivos
+## 1.3. Segmentos objetivo.
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
 
@@ -301,7 +299,7 @@ Estos segmentos representan dos tipos de organizaciones con necesidades de negoc
 
 Los roles operativos que puedan existir dentro de cada empresa forman parte de la estructura interna de cada segmento y no constituyen segmentos objetivos independientes.
 
-### 1.3.1. Segemento Objetivo 1: Administradores de Minimarkets
+### 1.3.1. Segmento objetivo 1: Administradores de Minimarkets
 
 | Dimensión | Detalle del perfil |
 |---|---|
