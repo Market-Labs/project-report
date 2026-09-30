@@ -169,7 +169,7 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 
 ## 3.2. Impact Mapping.
 
-<img src="assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+El diagrama de Impact Mapping de MarketGo no está disponible entre los archivos entregados para AV1. Se incorporará cuando el equipo proporcione el artefacto original.
 
 ## 3.3. Product Backlog.
 
