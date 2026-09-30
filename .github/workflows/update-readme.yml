@@ -75,25 +75,25 @@ jobs:
                   encoding="utf-8"
               ).strip()
 
-              # Resolve image paths from each source document before joining them in README.
+              # Resolve local links from each source document before joining them in README.
               from urllib.parse import quote, unquote, urlsplit, urlunsplit
               import posixpath
               import re
 
-              def image_url(url):
+              def local_url(url):
                   parts = urlsplit(url)
                   if parts.scheme or parts.netloc or url.startswith(("/", "#")):
                       return url
 
                   path = unquote(parts.path).replace("\\", "/")
-                  if path.startswith(".report/assets/"):
+                  if path.startswith(".report/"):
                       path = path[1:]
-                  elif not path.startswith("report/assets/"):
+                  elif not path.startswith("report/"):
                       path = posixpath.normpath(
                           posixpath.join(file.parent.as_posix(), path)
                       )
 
-                  if not path.startswith("report/assets/"):
+                  if not path.startswith("report/"):
                       return url
 
                   return urlunsplit((
@@ -102,13 +102,19 @@ jobs:
 
               content = re.sub(
                   r'''(<img\b[^>]*?\bsrc\s*=\s*["'])([^"']+)(["'])''',
-                  lambda match: match.group(1) + image_url(match.group(2)) + match.group(3),
+                  lambda match: match.group(1) + local_url(match.group(2)) + match.group(3),
                   content,
                   flags=re.IGNORECASE | re.DOTALL,
               )
               content = re.sub(
                   r"(!\[[^\]]*\]\()([^)]+)(\))",
-                  lambda match: match.group(1) + image_url(match.group(2)) + match.group(3),
+                  lambda match: match.group(1) + local_url(match.group(2)) + match.group(3),
+                  content,
+              )
+
+              content = re.sub(
+                  r"(?<!!)\[([^\]]+)\]\(([^)]+)\)",
+                  lambda match: "[" + match.group(1) + "](" + local_url(match.group(2)) + ")",
                   content,
               )
 
