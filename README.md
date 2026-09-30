@@ -2918,11 +2918,11 @@ Vue.js. (s. f.-b). *Priority A rules: Essential*. https://vuejs.org/style-guide/
 
 Las evidencias visuales del avance AV1 están disponibles en el capítulo V y en los archivos fuente siguientes:
 
-- [Planificación del Sprint 1](../assets/chapter-05/sprintb1.png).
-- [Historial de commits](../assets/chapter-05/commit-history-sprint1.png).
-- [Ejecución de la landing page: inicio](../assets/chapter-05/execution-home.png).
-- [Ejecución de la landing page: contacto](../assets/chapter-05/execution-contact.png).
-- [Visitas al repositorio](../assets/chapter-05/visitors-sprint1.png).
+- [Planificación del Sprint 1](report/assets/chapter-05/sprintb1.png).
+- [Historial de commits](report/assets/chapter-05/commit-history-sprint1.png).
+- [Ejecución de la landing page: inicio](report/assets/chapter-05/execution-home.png).
+- [Ejecución de la landing page: contacto](report/assets/chapter-05/execution-contact.png).
+- [Visitas al repositorio](report/assets/chapter-05/visitors-sprint1.png).
 
 Los datos originales de las entrevistas y el video About-the-Team no están incluidos en los archivos del repositorio; su incorporación requiere los materiales del equipo.
 
