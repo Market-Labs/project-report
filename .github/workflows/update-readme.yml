@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - "docs/**/*.md"
-      - "docs/*.md"
+      - "report/**/*.md"
+      - "report/*.md"
 
   workflow_dispatch:
 
@@ -29,7 +29,7 @@ jobs:
           from pathlib import Path
 
           README = Path("README.md")
-          DOCS = Path("docs")
+          REPORT = Path("report")
 
           START = "<!-- AUTO-DOCS:START -->"
           END = "<!-- AUTO-DOCS:END -->"
@@ -40,7 +40,7 @@ jobs:
           # FRONT MATTER
           # =========================
 
-          front_matter = DOCS / "front-matter"
+          front_matter = REPORT / "front-matter"
 
           if front_matter.exists():
               documents.extend(
@@ -55,7 +55,7 @@ jobs:
 
           documents.extend(
               sorted(
-                  DOCS.glob("*.md")
+                  REPORT.glob("*.md")
               )
           )
 
@@ -83,14 +83,14 @@ jobs:
                       return url
 
                   path = unquote(parts.path).replace("\\", "/")
-                  if path.startswith(".docs/assets/"):
+                  if path.startswith(".report/assets/"):
                       path = path[1:]
-                  elif not path.startswith("docs/assets/"):
+                  elif not path.startswith("report/assets/"):
                       path = posixpath.normpath(
                           posixpath.join(file.parent.as_posix(), path)
                       )
 
-                  if not path.startswith("docs/assets/"):
+                  if not path.startswith("report/assets/"):
                       return url
 
                   return urlunsplit((
@@ -200,7 +200,5 @@ jobs:
           fi
 
           git commit -m "docs: rebuild README"
-
-          git pull --rebase origin main
 
           git push origin main
