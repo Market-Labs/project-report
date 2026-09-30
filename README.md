@@ -542,7 +542,11 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 
 ---
 
-### 2.1.1. Análisis competitivo
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores.
+
+### 2.1.1. Análisis competitivo.
 
 Este análisis permite identificar cómo se posiciona **MarketGo** frente a soluciones especializadas en la gestión y conservación de productos perecibles, así como frente a plataformas digitales orientadas a la conexión entre compradores y proveedores. A partir de ello, se busca definir una ventaja competitiva basada en la integración de la gestión de inventarios, conservación y abastecimiento de productos orgánicos dentro de una misma plataforma.
 
@@ -769,7 +773,7 @@ Este análisis permite identificar cómo se posiciona **MarketGo** frente a solu
   </tbody>
 </table>
 
-### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores.
 
 A partir de la identificación de fortalezas y debilidades competitivas, la startup **Market-Labs** aplicará el siguiente conjunto de estrategias y tácticas preliminares para posicionar a **MarketGo** como una solución integral para la gestión y abastecimiento de productos orgánicos en minimarkets.
 
@@ -805,11 +809,11 @@ MarketGo buscará construir una base tecnológica que permita ampliar progresiva
 - **Analítica futura:** incorporar progresivamente herramientas de analítica y Machine Learning para identificar patrones de deterioro y apoyar la toma de decisiones.
 - **Escalabilidad:** extender la solución hacia otros negocios que gestionen productos perecibles manteniendo el enfoque inicial en minimarkets y proveedores de productos orgánicos.
 
-## 2.2. Entrevistas
+## 2.2. Entrevistas.
 
 En esta sección se aborda la investigación tomando como base la recolección de información mediante entrevistas a representantes de los segmentos objetivo. Las entrevistas serán registradas en video como evidencia del proceso de obtención de requisitos.
 
-### 2.2.1. Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas.
 
 Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron las siguientes preguntas siguiendo las buenas prácticas para el diseño de recolección de información:
 
@@ -869,7 +873,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
 16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
 
-### 2.2.2. Registro de entrevistas
+### 2.2.2. Registro de entrevistas.
 
 **Segmento objetivo: Administradores de Minimarkets**
 
@@ -1190,9 +1194,9 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
   </tbody>
 </table>
 
-### 2.2.3. Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas.
 
-### Análisis por segmento objetivo
+**Análisis por segmento objetivo**
 
 **Segmento objetivo: Administradores de Minimarkets**
 
@@ -1234,9 +1238,9 @@ Los principales problemas identificados se relacionan con el tiempo empleado en 
 
 A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de MarketGo.
 
-## 2.3. Needfinding
+## 2.3. Needfinding.
 
-### 2.3.1. User Personas
+### 2.3.1. User Personas.
 
 A partir de los hallazgos obtenidos en las entrevistas de validación, se construyeron los arquetipos representativos de nuestros segmentos objetivos utilizando la plataforma UXPressia. Estos perfiles estructuran la información demográfica, las motivaciones principales (Gains), los puntos de dolor operativos (Pains) y el nivel de dominio tecnológico de cada usuario, garantizando que la arquitectura y experiencia de la plataforma **MarketGo** se diseñen centradas en sus necesidades reales.
 
@@ -1248,7 +1252,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ![User Persona - Marco Antonio Ríos](report/assets/chapter-02/user-persona-proveedor.png)
 
-### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix.
 
 Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
 
@@ -1271,7 +1275,7 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 
 La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de MarketGo: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
 
-### 2.3.3. User Journey Mapping
+### 2.3.3. User Journey Mapping.
 
 El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de MarketGo, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
 
@@ -1287,7 +1291,7 @@ El User Journey Map de Russell Estrada ilustra la experiencia actual del segment
 
 El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
 
-### 2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping.
 
 El **Empathy Mapping (Mapa de Empatía)**, desarrollado originalmente por Dave Gray, es una herramienta colaborativa de *Needfinding* que permite profundizar en los aspectos emocionales, cognitivos y de comportamiento de los usuarios. A diferencia del perfil demográfico de un *User Persona*, el mapa de empatía sintetiza los hallazgos cualitativos obteniendo una perspectiva desde "dentro de la cabeza" del cliente.
 
@@ -1316,14 +1320,14 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 ![Mapa de empatía de la proveedora Valeria Ríos](report/assets/chapter-02/empathy-map-proveedor.png)
 
 
-## 2.4. Big Picture Event Storming
+## 2.4. Big Picture EventStorming.
 El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los minimarkets y sus proveedores de productos orgánicos. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
 ![Leyenda de eventos](report/assets/chapter-02/event-storming-leyenda.png)
 
 ![Big Picture Event Storming de MarketGo](report/assets/chapter-02/event-storming.png)
 
-## 2.5. Ubiquitous Language
+## 2.5. Ubiquitous Language.
 
 A partir del Big Picture Event Storming se identificaron los términos y conceptos que forman el lenguaje ubicuo del dominio de MarketGo. Este glosario asegura que el equipo de desarrollo, los stakeholders y la documentación utilicen exactamente el mismo significado para cada concepto de negocio a lo largo de todo el proyecto.
 
