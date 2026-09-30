@@ -169,7 +169,7 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 
 ## 3.2. Impact Mapping
 
-<img src="../docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+<img src="assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 
 ## 3.3. Product Backlog
 
@@ -241,7 +241,7 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 `[https://trello.com/b/AyBgUYcT/springbacklog1](https://trello.com/b/AyBgUYcT/springbacklog1)`
 
 <div align="center">
-  <img src="./assets/chapter-03/tableroTrello.png" alt="Evidence Product Backlog" width="90%">
+  <img src="assets/chapter-03/tableroTrello.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
 
