@@ -339,7 +339,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
+        <img src="assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
       </td>
     </tr>
     <tr>
@@ -391,7 +391,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
+        <img src="assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
@@ -443,7 +443,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
+        <img src="assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
       </td>
     </tr>
     <tr>
@@ -599,7 +599,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
+        <img src="assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
       </td>
     </tr>
     <tr>
