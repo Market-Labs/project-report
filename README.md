@@ -2,7 +2,7 @@
 
 <div align="center">
 <br>
-<img src="docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<img src="report/assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
 **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
@@ -100,28 +100,28 @@ En el contexto de las entregas AV1, TB1, AV2 y TB2, se presenta un análisis de 
 
 La siguiente figura presenta las estadísticas generales de actividad y contribución registradas en el repositorio.
 
-<img src="docs/assets/common/insights.png" alt="Insights del repositorio">
+<img src="report/assets/common/insights.png" alt="Insights del repositorio">
 
 **Figura 1.** Estadísticas generales del repositorio del proyecto.  
 **Fuente:** GitHub Insights.
 
 La siguiente figura muestra el tráfico registrado en el repositorio del proyecto durante el periodo de desarrollo.
 
-<img src="docs/assets/common/traficgit.png" alt="Tráfico del repositorio">
+<img src="report/assets/common/traficgit.png" alt="Tráfico del repositorio">
 
 **Figura 2.** Tráfico registrado en el repositorio del proyecto.  
 **Fuente:** GitHub Insights.
 
 La siguiente figura presenta la participación de los integrantes del equipo como contribuidores del repositorio.
 
-<img src="docs/assets/common/contributors.png" alt="Contribuidores del repositorio">
+<img src="report/assets/common/contributors.png" alt="Contribuidores del repositorio">
 
 **Figura 3.** Contribuidores del repositorio del proyecto.  
 **Fuente:** GitHub Insights.
 
 La siguiente figura muestra el historial de commits realizados por los integrantes del equipo durante el desarrollo del proyecto.
 
-<img src="docs/assets/common/commits.png" alt="Commits del repositorio">
+<img src="report/assets/common/commits.png" alt="Commits del repositorio">
 
 **Figura 4.** Registro de commits realizados por los integrantes del equipo.  
 **Fuente:** GitHub.
@@ -219,26 +219,6 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 
 ---
 
-# Bibliografía
-
-- Vue.js. (2026). *Vue.js documentation*. https://vuejs.org/
-
-- Vite. (2026). *Vite documentation*. https://vite.dev/
-
-- Pinia. (2026). *Pinia documentation*. https://pinia.vuejs.org/
-
-- Vue Router. (2026). *Vue Router documentation*. https://router.vuejs.org/
-
-- PrimeVue. (2026). *PrimeVue documentation*. https://primevue.org/
-
-- GitHub. (2026). *GitHub Docs*. https://docs.github.com/
-
-- Microsoft. (2026). *Azure documentation*. https://learn.microsoft.com/azure/
-
-- Atlassian. (2026). *Trello REST API documentation*. https://developer.atlassian.com/cloud/trello/
-
----
-
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
@@ -261,11 +241,11 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
-| <img src="docs/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
-|<img src="docs/assets/chapter-01/profile_winnieMerino.jpg" alt="Foto de Winnie Merino" width="120" /> | **Merino Ordinola, Winnie Lisbeth** | U20231E504 | Ingeniería de Software | Estudiante de la carrera de Ingeniería de Software. Mis principales destrezas son las habilidades para trabajar en equipo, la creatividad y la investigación. Mi mayor interés es tanto proponer ideas innovadoras que solucionen problemas cercanos en nuestra realidad, como llevarlas a cabo a través del software. |
-| <img src="docs/assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno. |
-| <img src="docs/assets/chapter-01/profile_huaranga.jpg" alt="Foto de Matias Huaranga" width="120" /> | **Huaranga Romero, Matias Daniel** | U202410746 | Ingeniería de Software | Estudiante de Ingeniería de Software, responsable, proactivo y orientado al trabajo en equipo. Me destaco por mi creatividad, capacidad de investigación y disposición constante para apoyar a mis compañeros. Apasionado por transformar problemas reales en soluciones innovadoras a través del software, con una rápida adaptación frente a nuevos retos académicos y profesionales. |
-| <img src="docs/assets/chapter-01/profile_torres.png" alt="Foto de Alexis Torres" width="120" /> | **Torres Huaman, Alexis Calín** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
+| <img src="report/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
+|<img src="report/assets/chapter-01/profile_winnieMerino.jpg" alt="Foto de Winnie Merino" width="120" /> | **Merino Ordinola, Winnie Lisbeth** | U20231E504 | Ingeniería de Software | Estudiante de la carrera de Ingeniería de Software. Mis principales destrezas son las habilidades para trabajar en equipo, la creatividad y la investigación. Mi mayor interés es tanto proponer ideas innovadoras que solucionen problemas cercanos en nuestra realidad, como llevarlas a cabo a través del software. |
+| <img src="report/assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno. |
+| <img src="report/assets/chapter-01/profile_huaranga.jpg" alt="Foto de Matias Huaranga" width="120" /> | **Huaranga Romero, Matias Daniel** | U202410746 | Ingeniería de Software | Estudiante de Ingeniería de Software, responsable, proactivo y orientado al trabajo en equipo. Me destaco por mi creatividad, capacidad de investigación y disposición constante para apoyar a mis compañeros. Apasionado por transformar problemas reales en soluciones innovadoras a través del software, con una rápida adaptación frente a nuevos retos académicos y profesionales. |
+| <img src="report/assets/chapter-01/profile_torres.png" alt="Foto de Alexis Torres" width="120" /> | **Torres Huaman, Alexis Calín** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
 ---
 
@@ -583,10 +563,10 @@ Este análisis permite identificar cómo se posiciona **MarketGo** frente a solu
     </tr>
     <tr>
       <td colspan="2"><strong>Logotipos</strong></td>
-      <td><img src="docs/assets/chapter-02/marketgo-logo.png" alt="MarketGo" height="50"></td>
-      <td><img src="docs/assets/chapter-02/freshtracker-logo.png" alt="FreshTracker" height="50"></td>
-      <td><img src="docs/assets/chapter-02/shelflife-logo.png" alt="ShelfLife" height="50"></td>
-      <td><img src="docs/assets/chapter-02/peru-marketplace-logo.png" alt="Peru Marketplace" height="50"></td>
+      <td><img src="report/assets/chapter-02/marketgo-logo.png" alt="MarketGo" height="50"></td>
+      <td><img src="report/assets/chapter-02/freshtracker-logo.png" alt="FreshTracker" height="50"></td>
+      <td><img src="report/assets/chapter-02/shelflife-logo.png" alt="ShelfLife" height="50"></td>
+      <td><img src="report/assets/chapter-02/peru-marketplace-logo.png" alt="Peru Marketplace" height="50"></td>
     </tr>
     <tr>
       <td colspan="2"><strong>Software</strong></td>
@@ -904,7 +884,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
+        <img src="report/assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
       </td>
     </tr>
     <tr>
@@ -956,7 +936,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
+        <img src="report/assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
@@ -1008,7 +988,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
+        <img src="report/assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
       </td>
     </tr>
     <tr>
@@ -1061,7 +1041,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
+        <img src="report/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
       </td>
     </tr>
     <tr>
@@ -1112,7 +1092,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
+        <img src="report/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
       </td>
     </tr>
     <tr>
@@ -1164,7 +1144,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
+        <img src="report/assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
       </td>
     </tr>
     <tr>
@@ -1264,11 +1244,11 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 **Segmento 1: Administrador de Minimarket (Arquetipo: Russell Estrada)**
 
-![User Persona - Russell Estrada](docs/assets/chapter-02/user-persona-administrador.png)
+![User Persona - Russell Estrada](report/assets/chapter-02/user-persona-administrador.png)
 
 **Segmento 2: Proveedor y Distribuidor B2B (Arquetipo: Marco Antonio Ríos)**
 
-![User Persona - Marco Antonio Ríos](docs/assets/chapter-02/user-persona-proveedor.png)
+![User Persona - Marco Antonio Ríos](report/assets/chapter-02/user-persona-proveedor.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -1299,13 +1279,13 @@ El User Journey Mapping es una herramienta que permite visualizar de forma estru
 
 **User Journey Map del 1er segmento objetivo – Administradores de Minimarkets**
 
-![User Journey Map - Administrador de Minimarket](docs/assets/chapter-02/user-journey-administrador.png)
+![User Journey Map - Administrador de Minimarket](report/assets/chapter-02/user-journey-administrador.png)
 
 El User Journey Map de Russell Estrada ilustra la experiencia actual del segmento de administradores de minimarkets a lo largo de las cinco etapas. En Aware, Russell busca una forma de evitar mermas por pérdida de frío o vencimiento, pero el control visual le demanda mucho tiempo y lo deja expuesto a fallas mecánicas de madrugada, evidenciando la necesidad de un sistema de alertas automatizado. En Join, comienza a coordinar con proveedores a través de WhatsApp y catálogos en PDF desactualizados, lo que refleja la dependencia de canales informales. Durante el Use, experimenta su mayor punto de frustración al recibir propuestas por chat y tener que transcribirlas manualmente a Excel para actualizar su inventario, un proceso propenso a errores humanos que descuadra su stock real. En Develop, sus intentos por formalizar las compras mediante correos electrónicos no prosperan por la urgencia del día a día, recayendo en el desorden de WhatsApp. Finalmente en Leave, el estrés operativo y las pérdidas de capital acumuladas lo motivan a buscar una solución de software centralizada que automatice su control de calidad y abastecimiento, siendo este el punto de entrada directo para MarketGo.
 
 **User Journey Map del 2do segmento objetivo – Proveedores de Productos Orgánicos**
 
-![User Journey Map - Proveedor B2B](docs/assets/chapter-02/user-journey-proveedor.png)
+![User Journey Map - Proveedor B2B](report/assets/chapter-02/user-journey-proveedor.png)
 
 El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
 
@@ -1324,7 +1304,7 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 
 **Mapa de Empatía - Carlos Mendoza**
 
-![Mapa de empatía del administrador Carlos Mendoza](docs/assets/chapter-02/empathy-map-administrador.png)
+![Mapa de empatía del administrador Carlos Mendoza](report/assets/chapter-02/empathy-map-administrador.png)
 
 ---
 
@@ -1335,15 +1315,15 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 
 **Mapa de Empatía - Valeria Ríos**
 
-![Mapa de empatía de la proveedora Valeria Ríos](docs/assets/chapter-02/empathy-map-proveedor.png)
+![Mapa de empatía de la proveedora Valeria Ríos](report/assets/chapter-02/empathy-map-proveedor.png)
 
 
 ## 2.4. Big Picture Event Storming
 El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los minimarkets y sus proveedores de productos orgánicos. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
-![Leyenda de eventos](docs/assets/chapter-02/event-storming-leyenda.png)
+![Leyenda de eventos](report/assets/chapter-02/event-storming-leyenda.png)
 
-![Big Picture Event Storming de MarketGo](docs/assets/chapter-02/event-storming.png)
+![Big Picture Event Storming de MarketGo](report/assets/chapter-02/event-storming.png)
 
 ## 2.5. Ubiquitous Language
 
@@ -1543,7 +1523,7 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 
 ## 3.2. Impact Mapping
 
-<img src="docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+<img src="report/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 
 ## 3.3. Product Backlog
 
@@ -1615,7 +1595,7 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 `[https://trello.com/b/AyBgUYcT/springbacklog1](https://trello.com/b/AyBgUYcT/springbacklog1)`
 
 <div align="center">
-  <img src="docs/assets/chapter-03/tableroTrello.png" alt="Evidence Product Backlog" width="90%">
+  <img src="report/assets/chapter-03/tableroTrello.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
 
@@ -1634,14 +1614,14 @@ El logo pricipal se trata de una representación de capas que representan almace
 
 | Logo (Isotipo) | Logotipo / Imagotipo |
 | :---: | :---: |
-| ![Logo](docs/assets/chapter-04/Logo%20MarketGo.png) | ![Logotipo](docs/assets/chapter-04/Logotipo%20MarketGo.png) |
+| ![Logo](report/assets/chapter-04/Logo%20MarketGo.png) | ![Logotipo](report/assets/chapter-04/Logotipo%20MarketGo.png) |
 | **Isotipo**: Icono representativo de capas y conexiones para avatares, favicon y accesos directos. | **Logotipo**: Versión principal completa con tipografía para cabeceras, landing page y documentación oficial. |
 
 **Tipografía**
 
 La tipografía elegida para nuestro producto es Arimo, una font de la familia Sans Serif. Esta fuente resalta por ser moderna, legible y usada en contextos de tecnología y modernidad. Se utilizará esta fuente en todos los textos y título para mantener consistencia y armonía visual. 
 
-<img src="docs/assets/chapter-04/Tipografia.png" alt="Texto alternativo" width="400" height="300">
+<img src="report/assets/chapter-04/Tipografia.png" alt="Texto alternativo" width="400" height="300">
 
 La jerarquía tipografía:
 
@@ -1655,7 +1635,7 @@ La jerarquía tipografía:
 
 La paleta de colores ha sido seleccionada para demostrar seriedad, confianza y modernidad. Se trata de colores complementarios en la paleta de colores compatibles entre ellos para dar una visión cohesiva y serena. Los colores claros se utilizaran como los colores que ocupan más espacio en la interfaz, y los más oscuros para secciones de importante contraste y botones. 
 
-<img src="docs/assets/chapter-04/Colores%20MarketGo.png" width="300" height="300" alt="Paleta de colores">
+<img src="report/assets/chapter-04/Colores%20MarketGo.png" width="300" height="300" alt="Paleta de colores">
 
 **Spacing**
 
@@ -1981,7 +1961,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Home</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -1989,7 +1969,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Información</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -1997,7 +1977,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Videos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2005,7 +1985,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Planes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2013,7 +1993,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Contacto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ### 4.3.2 Landing Page Mock Up
@@ -2023,7 +2003,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Home</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2031,7 +2011,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Información del producto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2039,7 +2019,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Videos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2047,7 +2027,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Planes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2055,7 +2035,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Contacto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ## 4.4. Web Applications UX/UI Design
@@ -2067,7 +2047,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Dashboard</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2075,7 +2055,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Inventario</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2083,7 +2063,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Gestión de lotes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2091,7 +2071,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Conservación</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2099,7 +2079,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Órdenes de envío</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2107,50 +2087,50 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Proveedores y Productos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow1.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow1.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Trazabilidad por lote |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow2.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow2.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Monitoreo de conservación |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow3.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow3.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Registro de pérdidas |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow4.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow4.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Solicitud de abastecimiento |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow5.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow5.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Recepción de mercadería |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow6.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow6.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Gestión de usuarios y permisos |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Proveedor / Gestión de oferta propia |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Proveedor / Gestión de usuarios y permisos |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow9.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow9.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Proveedor / Gestión de usuarios y permisos |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 ### 4.4.3. Web Applications Mockups
 
@@ -2159,7 +2139,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Dashboard</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2167,7 +2147,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Inventario</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2175,7 +2155,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Gestión de lotes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2183,7 +2163,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Conservación</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2191,7 +2171,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Órdenes de envío</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -2199,26 +2179,26 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Proveedores y Productos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="docs/assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="report/assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/UserFlow1.png" alt="Web Application User Flow" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/UserFlow1.png" alt="Web Application User Flow" width="800" /></p> |
 
 | Rol: Administrador / Gestion de Lotes |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/UserFlow2.png" alt="Web Application User Flow" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/UserFlow2.png" alt="Web Application User Flow" width="800" /></p> |
 
 | Rol: Administrador / Gestión de pedidos |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/UserFlow3.png" alt="Web Application User Flow" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/UserFlow3.png" alt="Web Application User Flow" width="800" /></p> |
 
 | Rol: Administrador / Gestion de Envíos |
 | :---: |
-| <p align="center"><img src="docs/assets/chapter-04/UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
+| <p align="center"><img src="report/assets/chapter-04/UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
 
 ## 4.5. Web Applications Prototyping
 [Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
@@ -2238,11 +2218,11 @@ El desarrollo del proceso de Domain-Driven Design se realizó en LucidChart: [ht
 
 A continuación, se presenta la leyenda utilizada durante el proceso de Event Storming:
 
-![Leyenda Event Storming](docs/assets/chapter-04/leyenda.png)
+![Leyenda Event Storming](report/assets/chapter-04/leyenda.png)
 
 El siguiente diagrama presenta el Event Storming general de MarketGo y permite visualizar los principales eventos, comandos, actores y procesos identificados en el dominio:
 
-![MarketGo Event Storming](docs/assets/chapter-04/EventStorming.png)
+![MarketGo Event Storming](report/assets/chapter-04/EventStorming.png)
 
 A partir de este análisis se identificaron los siguientes bounded contexts:
 
@@ -2250,19 +2230,19 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context IAM se encarga de la autenticación, autorización y control de acceso dentro de MarketGo. Gestiona usuarios, roles y permisos, asegurando que cada actor, como el administrador de minimarket o el proveedor, acceda únicamente a las funcionalidades correspondientes a su perfil.
 
-   ![IAM Bounded Context](docs/assets/chapter-04/bciam.png)
+   ![IAM Bounded Context](report/assets/chapter-04/bciam.png)
 
 2. **Profiles**
 
    El bounded context Profiles administra la información de los usuarios, minimarkets y proveedores registrados en la plataforma. Su propósito es centralizar los datos de perfil necesarios para personalizar la experiencia, controlar responsabilidades y asociar operaciones con el actor correspondiente.
 
-   ![Profiles Bounded Context](docs/assets/chapter-04/bcprofile.png)
+   ![Profiles Bounded Context](report/assets/chapter-04/bcprofile.png)
 
 3. **Dashboard**
 
    El bounded context Dashboard presenta una vista general del estado operativo de la plataforma según el rol del usuario. Permite visualizar indicadores relevantes sobre inventario, abastecimiento, conservación, alertas y actividad reciente.
 
-   ![Dashboard Bounded Context](docs/assets/chapter-04/bcdashboard.png)
+   ![Dashboard Bounded Context](report/assets/chapter-04/bcdashboard.png)
 
 4. **Analytics**
 
@@ -2272,43 +2252,43 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
 
-   ![Inventory Bounded Context](docs/assets/chapter-04/bcinventory.png)
+   ![Inventory Bounded Context](report/assets/chapter-04/bcinventory.png)
 
 6. **Products**
 
    El bounded context Products administra el catálogo de productos orgánicos ofrecidos por proveedores o registrados por minimarkets. Centraliza información como nombre, categoría, descripción, unidad de medida, disponibilidad y datos relevantes para su comercialización o abastecimiento.
 
-   ![Products Bounded Context](docs/assets/chapter-04/bcproducts.png)
+   ![Products Bounded Context](report/assets/chapter-04/bcproducts.png)
 
 7. **Requisition**
 
    El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
 
-   ![Requisition Bounded Context](docs/assets/chapter-04/bcrequisition.png)
+   ![Requisition Bounded Context](report/assets/chapter-04/bcrequisition.png)
 
 8. **Procurements**
 
    El bounded context Procurements administra las órdenes de envío asociadas a solicitudes de abastecimiento aceptadas. Su responsabilidad es permitir al proveedor registrar los productos y cantidades que serán enviados, mientras que el administrador del minimarket puede revisar, aceptar o rechazar la recepción. Cuando una orden de envío es aceptada, los productos recibidos pueden incorporarse al inventario correspondiente.
 
-   ![Procurements Bounded Context](docs/assets/chapter-04/bcprocurenments.png)
+   ![Procurements Bounded Context](report/assets/chapter-04/bcprocurenments.png)
 
 9. **Suppliers**
 
    El bounded context Suppliers gestiona el directorio de proveedores de productos orgánicos, así como los productos que ofrecen y su participación dentro de los procesos de abastecimiento.
 
-   ![Suppliers Bounded Context](docs/assets/chapter-04/bcsuppliers.png)
+   ![Suppliers Bounded Context](report/assets/chapter-04/bcsuppliers.png)
 
 10. **Conservation**
 
     El bounded context Conservation permite monitorear condiciones de conservación de productos, como temperatura y humedad. Su propósito es identificar riesgos de deterioro y generar alertas cuando las condiciones se encuentren fuera de los rangos aceptables.
 
-    ![Conservation Bounded Context](docs/assets/chapter-04/bcconvervation.png)
+    ![Conservation Bounded Context](report/assets/chapter-04/bcconvervation.png)
 
 11. **Communication**
 
     El bounded context Communication gestiona las alertas y notificaciones generadas por la plataforma. Incluye avisos sobre productos próximos a vencer, condiciones de conservación riesgosas, solicitudes pendientes, órdenes de envío y eventos relevantes para los usuarios.
 
-    ![Communication Bounded Context](docs/assets/chapter-04/bccommunication.png)
+    ![Communication Bounded Context](report/assets/chapter-04/bccommunication.png)
 
 12. **Shared Kernel**
 
@@ -2330,7 +2310,7 @@ El context diagram muestra al **MarketGo Software System** como el sistema centr
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan con MarketGo mediante la aplicación web, mientras que el sistema coordina los procesos internos y las integraciones necesarias para alertas, monitoreo y trazabilidad operativa.
 
-![Software Architecture Context Diagram](docs/assets/chapter-04/Contexto-dark.png)
+![Software Architecture Context Diagram](report/assets/chapter-04/Contexto-dark.png)
 
 ---
 
@@ -2352,7 +2332,7 @@ En el diagrama se observa que:
 - La **API REST Application** procesa la lógica del dominio y persiste la información en la **Database**.
 - Los módulos de comunicación y conservación pueden integrarse con servicios externos para notificaciones y monitoreo de condiciones ambientales.
 
-![Software Architecture Container Diagram](docs/assets/chapter-04/Contenedor-dark.png)
+![Software Architecture Container Diagram](report/assets/chapter-04/Contenedor-dark.png)
 
 ---
 
@@ -2377,47 +2357,47 @@ La API REST organiza sus responsabilidades en componentes especializados:
 
 #### IAM Component Diagram
 
-![IAM Component Diagram](docs/assets/chapter-04/IAMBCComponentDiagram-dark.png)
+![IAM Component Diagram](report/assets/chapter-04/IAMBCComponentDiagram-dark.png)
 
 #### Profiles Component Diagram
 
-![Profiles Component Diagram](docs/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
+![Profiles Component Diagram](report/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
 
 #### Dashboard Component Diagram
 
-![Dashboard Component Diagram](docs/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
+![Dashboard Component Diagram](report/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
 
 #### Analytics Component Diagram
 
-![Analytics Component Diagram](docs/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
+![Analytics Component Diagram](report/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
 
 #### Inventory Component Diagram
 
-![Inventory Component Diagram](docs/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
+![Inventory Component Diagram](report/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
 
 #### Products Component Diagram
 
-![Products Component Diagram](docs/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
+![Products Component Diagram](report/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
 
 #### Procurements Component Diagram
 
-![Procurements Component Diagram](docs/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
+![Procurements Component Diagram](report/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
 
 #### Suppliers Component Diagram
 
-![Suppliers Component Diagram](docs/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
+![Suppliers Component Diagram](report/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
 
 #### Conservation Component Diagram
 
-![Conservation Component Diagram](docs/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
+![Conservation Component Diagram](report/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
 
 #### Communication Component Diagram
 
-![Communication Component Diagram](docs/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
+![Communication Component Diagram](report/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
 
 #### Shared Kernel Component Diagram
 
-![Shared Kernel Component Diagram](docs/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
+![Shared Kernel Component Diagram](report/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
 
 De esta forma, los component diagrams complementan la visión general de la arquitectura, mostrando cómo MarketGo organiza sus responsabilidades internas en componentes coherentes con el dominio y cómo estos colaboran para implementar la gestión de productos orgánicos, inventario, conservación, abastecimiento, proveedores, comunicación y analítica.
 
@@ -2430,52 +2410,52 @@ En esta sección se presenta el diseño orientado a objetos de MarketGo, represe
 ### 4.7.7. Class Diagrams
 
 Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
-![Class Diagram MaketGo](docs/assets/chapter-04/diagramClassMarkGo.png)
+![Class Diagram MaketGo](report/assets/chapter-04/diagramClassMarkGo.png)
 A continuación, se presentan los diagramas de clases correspondientes a los principales bounded contexts de MarketGo:
 
 #### Communication Class Diagram
 
-![Communication Class Diagram](docs/assets/chapter-04/dccommunicatiob.png)
+![Communication Class Diagram](report/assets/chapter-04/dccommunicatiob.png)
 
 #### Procurements Class Diagram
 
-![Procurements Class Diagram](docs/assets/chapter-04/dcprocurenments.png)
+![Procurements Class Diagram](report/assets/chapter-04/dcprocurenments.png)
 
 #### Dashboard Class Diagram
 
-![Dashboard Class Diagram](docs/assets/chapter-04/dcdashboard.png)
+![Dashboard Class Diagram](report/assets/chapter-04/dcdashboard.png)
 
 #### Conservation Class Diagram
 
-![Conservation Class Diagram](docs/assets/chapter-04/dcconservation.png)
+![Conservation Class Diagram](report/assets/chapter-04/dcconservation.png)
 
 #### Analytics Class Diagram
 
-![Analytics Class Diagram](docs/assets/chapter-04/dcanalitycs.png)
+![Analytics Class Diagram](report/assets/chapter-04/dcanalitycs.png)
 
 #### Inventory Class Diagram
 
-![Inventory Class Diagram](docs/assets/chapter-04/dcinventory.png)
+![Inventory Class Diagram](report/assets/chapter-04/dcinventory.png)
 
 #### Products Class Diagram
 
-![Products Class Diagram](docs/assets/chapter-04/dcproducts.png)
+![Products Class Diagram](report/assets/chapter-04/dcproducts.png)
 
 #### IAM Class Diagram
 
-![IAM Class Diagram](docs/assets/chapter-04/dciam.png)
+![IAM Class Diagram](report/assets/chapter-04/dciam.png)
 
 #### Profiles Class Diagram
 
-![Profiles Class Diagram](docs/assets/chapter-04/dcprofiles.png)
+![Profiles Class Diagram](report/assets/chapter-04/dcprofiles.png)
 
 #### Suppliers Class Diagram
 
-![Suppliers Class Diagram](docs/assets/chapter-04/dcsuppliers.png)
+![Suppliers Class Diagram](report/assets/chapter-04/dcsuppliers.png)
 
 #### Requisition Class Diagram
 
-![Requisition Class Diagram](docs/assets/chapter-04/dcrequisition.png)
+![Requisition Class Diagram](report/assets/chapter-04/dcrequisition.png)
 
 Estos diagramas permiten complementar la arquitectura de software, mostrando una vista más detallada del diseño orientado a objetos de MarketGo. A través de ellos se puede identificar cómo se distribuyen las responsabilidades entre las clases y cómo estas representan los principales conceptos de cada bounded context.
 
@@ -2491,7 +2471,7 @@ La base de datos se encuentra organizada de acuerdo con los bounded contexts def
 
 El diagrama de base de datos muestra las entidades principales de MarketGo, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se estructura la persistencia de los datos y cómo se relacionan las entidades que soportan los procesos principales de la plataforma.
 
-![MarketGo Database Diagram](docs/assets/chapter-04/MarketGoDiagramBD.png)
+![MarketGo Database Diagram](report/assets/chapter-04/MarketGoDiagramBD.png)
 
 ---
 
@@ -2713,7 +2693,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **MarketGo**, producto de **MarketLab** orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprintb1.png" alt="Sprint 1 Board Screenshot" width="100%">
+  <img src="report/assets/chapter-05/sprintb1.png" alt="Sprint 1 Board Screenshot" width="100%">
   <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto MarketGo)</em></p>
 </div>
 
@@ -2785,7 +2765,7 @@ Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maqueta
 Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de **MarketGo**: controlar el inventario antes de que sea tarde mediante alertas de vencimiento, condiciones de conservación y pedidos de abastecimiento para minimarkets orgánicos. La navegación superior permite acceder a las secciones principales de la landing page y el diseño respeta los lineamientos *responsive* para dispositivos móviles.
 
 <div align="center">
-  <img src="docs/assets/chapter-05/execution-home.png" alt="Home Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-home.png" alt="Home Section Evidence" width="90%">
   <p><em>Figura: Vista principal de MarketGo desplegada en la Landing Page.</em></p>
 </div>
 
@@ -2794,7 +2774,7 @@ Se desarrolló la pantalla de inicio principal destacando la propuesta de valor 
 Se maquetó la sección informativa donde se presentan las principales capacidades de **MarketGo**, incluyendo inventario centralizado, control de lotes, alertas inteligentes, pedidos de abastecimiento y accesos por rol. Esta sección permite comunicar de forma clara cómo la plataforma ayuda a centralizar la operación diaria de un minimarket orgánico.
 
 <div align="center">
-  <img src="docs/assets/chapter-05/execution-product-information.png" alt="Product Information Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-product-information.png" alt="Product Information Section Evidence" width="90%">
   <p><em>Figura: Sección de descripción del producto y funcionalidades principales.</em></p>
 </div>
 
@@ -2803,7 +2783,7 @@ Se maquetó la sección informativa donde se presentan las principales capacidad
 Se implementó una sección dedicada a presentar al equipo y mostrar el funcionamiento general de **MarketGo** mediante contenido audiovisual. Esta sección permite reforzar la confianza del usuario y explicar visualmente el propósito de la solución.
 
 <div align="center">
-  <img src="docs/assets/chapter-05/execution-videos.png" alt="Videos Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-videos.png" alt="Videos Section Evidence" width="90%">
   <p><em>Figura: Sección de videos para presentación del equipo y demostración del producto.</em></p>
 </div>
 
@@ -2812,7 +2792,7 @@ Se implementó una sección dedicada a presentar al equipo y mostrar el funciona
 Se desarrolló la sección de planes comerciales, presentando las alternativas **Básico**, **Profesional** y **Empresarial**. Cada plan comunica de manera ordenada sus beneficios principales, permitiendo que los minimarkets identifiquen la opción más adecuada según su tamaño y necesidades operativas.
 
 <div align="center">
-  <img src="docs/assets/chapter-05/execution-pricing.png" alt="Pricing Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-pricing.png" alt="Pricing Section Evidence" width="90%">
   <p><em>Figura: Sección de planes disponibles para los usuarios de MarketGo.</em></p>
 </div>
 
@@ -2821,7 +2801,7 @@ Se desarrolló la sección de planes comerciales, presentando las alternativas *
 Se implementó la sección de contacto, incluyendo información de correo, WhatsApp, horario de atención y un formulario para que los minimarkets interesados puedan solicitar más información o agendar una demostración. Esta sección cumple el objetivo de facilitar la comunicación directa con el equipo de **MarketLab**.
 
 <div align="center">
-  <img src="docs/assets/chapter-05/execution-contact.png" alt="Contact Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-contact.png" alt="Contact Section Evidence" width="90%">
   <p><em>Figura: Sección de contacto para solicitar información sobre MarketGo.</em></p>
 </div>
 
@@ -2851,7 +2831,7 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 </p>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
+  <img src="report/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
   <p><em>Figura: Historial de commits demostrando el avance incremental de la landing page de MarketGo.</em></p>
 </div>
 
@@ -2860,8 +2840,28 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 </p>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph" width="90%">
+  <img src="report/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph" width="90%">
   <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo MarketLab.</em></p>
 </div>
+
+---
+
+# Bibliografía
+
+- Vue.js. (2026). *Vue.js documentation*. https://vuejs.org/
+
+- Vite. (2026). *Vite documentation*. https://vite.dev/
+
+- Pinia. (2026). *Pinia documentation*. https://pinia.vuejs.org/
+
+- Vue Router. (2026). *Vue Router documentation*. https://router.vuejs.org/
+
+- PrimeVue. (2026). *PrimeVue documentation*. https://primevue.org/
+
+- GitHub. (2026). *GitHub Docs*. https://docs.github.com/
+
+- Microsoft. (2026). *Azure documentation*. https://learn.microsoft.com/azure/
+
+- Atlassian. (2026). *Trello REST API documentation*. https://developer.atlassian.com/cloud/trello/
 
 <!-- AUTO-DOCS:END -->
