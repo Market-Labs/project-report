@@ -43,21 +43,24 @@ jobs:
           front_matter = REPORT / "front-matter"
 
           if front_matter.exists():
-              documents.extend(
-                  sorted(
-                      front_matter.glob("*.md")
-                  )
-              )
+              documents.extend(sorted(
+                  file for file in front_matter.glob("*.md")
+                  if file.name != "99-bibliography.md"
+              ))
 
           # =========================
           # DOCUMENTACIÓN
           # =========================
 
-          documents.extend(
-              sorted(
-                  REPORT.glob("*.md")
-              )
-          )
+          documents.extend(sorted(REPORT.glob("*.md")))
+
+          bibliography = front_matter / "99-bibliography.md"
+          if bibliography.exists():
+              documents.append(bibliography)
+
+          annexes = REPORT / "annexes"
+          if annexes.exists():
+              documents.extend(sorted(annexes.glob("*.md")))
 
           # =========================
           # GENERAR CONTENIDO
