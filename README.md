@@ -1606,10 +1606,10 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 # Capítulo IV: Product Design
 
 
-## 4.1. Styles Guidelines
+## 4.1. Style Guidelines.
 
 
-### 4.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines.
 **Branding:** 
 
 El logo pricipal se trata de una representación de capas que representan almacenes y ramificaciones que representan el enlace en el ecosistema digital de proveedores y administradores de minimarkets. Usa colores azules, naranjas y blancos para demostrar seriedad, confianza y dinamismo.
@@ -1641,7 +1641,7 @@ La paleta de colores ha sido seleccionada para demostrar seriedad, confianza y m
 
 **Spacing**
 
-## Design Tokens - Spacing
+#### Design Tokens - Spacing
 
 | Token          | Uso                                          | Desktop | Mobile |
 |----------------|-----------------------------------------------|---------|--------|
@@ -1663,12 +1663,12 @@ El tono de comunicación de MarketGo debe ser sencillo y directo. Los usuarios l
 
 El lenguaje que se aplicará es el lenguaje común de nuestros usuarios en su entorno cotidiano y laboral. Tanto para los usuarios Administradores como los usuarios Proveedores, el lenguaje combina instrucciones directas y claras, e información técnica brindada por el sistema necesaria para toma de decisiones del usuario. 
 
-### 4.1.2. Web Style Guidelines 
+### 4.1.2. Web Style Guidelines.
 
 En esta sección se detallan las decisiones de diseño que conforman la identidad visual de MarketGo. Estos estándares garantizan una interfaz coherente, profesional y adaptable (responsive), facilitando tanto el desarrollo de software como la experiencia del usuario final.
 
 
-## a. Paleta de colores
+#### a. Paleta de colores
  
 La paleta actual está compuesta por seis colores, organizados en dos familias:
  
@@ -1690,7 +1690,7 @@ La paleta actual está compuesta por seis colores, organizados en dos familias:
 4. Claros (`#eff3fa`, `#fbdc91`) → fondos y estados secundarios
 Dado que el sistema maneja alertas de vencimiento y conservación (temperatura/humedad fuera de rango), se recomienda definir explícitamente un color adicional de error/riesgo (rojo) que no está presente en la paleta actual, ya que el naranja por sí solo puede no ser suficiente para diferenciar "advertencia" de "crítico".
 
-## b. Tipografía
+#### b. Tipografía
  
 La tipografía definida es Arimo, una fuente sans-serif de la familia de fuentes web abiertas (métricamente compatible con Arial), lo que garantiza buena legibilidad en pantalla y renderizado consistente entre distintos sistemas operativos y navegadores.
  
@@ -1703,7 +1703,7 @@ Al no haberse especificado pesos ni escala tipográfica en el material original,
 - Botones: Arimo Medium o Semibold, 14px
 Esta escala es consistente con los espaciados de 40/24/16/12px ya definidos para el sistema, manteniendo proporciones armónicas entre texto y espacio en blanco.
 
-## c. Botones y elementos de interfaz
+#### c. Botones y elementos de interfaz
  
 Este punto no está cubierto explícitamente en el material de referencia, por lo que se documentan aquí lineamientos propuestos, derivados de la paleta y la tipografía ya definidas, para mantener coherencia visual:
  
@@ -1725,7 +1725,7 @@ Este punto no está cubierto explícitamente en el material de referencia, por l
 **Badges de estado**
 - Aprovechar la paleta para diferenciar estados: naranja para "pendiente/atención", azul para "informativo", y el color de error propuesto para "riesgo/rechazado".
 
-## d. Iconografía
+#### d. Iconografía
 
 **1. Librería base**
  
@@ -1776,7 +1776,7 @@ Tabler Icons (estilo outline/línea), por tres razones:
 | Área de seguridad | 2px de margen interno dentro del área de 24×24, para que el trazo no toque el borde del frame |
 | Esquinas | Redondeadas (consistente con el radio de 6–8px ya propuesto para botones) |
 
-## e. Rejilla y adaptabilidad
+#### e. Rejilla y adaptabilidad
  
 Este punto no está documentado en el material de referencia. Se recomienda basarlo en el estándar de espaciado ya definido previamente para el proyecto, extendiéndolo a una rejilla formal:
  
@@ -1804,11 +1804,11 @@ Este punto no está documentado en el material de referencia. Se recomienda basa
 - Las tablas con múltiples columnas (inventario, lotes, pedidos) deben priorizar las columnas más relevantes en mobile y mover el resto a una vista de detalle o acordeón, en vez de forzar scroll horizontal
 - Las vistas tipo Kanban (pedidos) deben pasar de columnas lado a lado en desktop a un scroll horizontal por estado, o a una lista con filtro de estado, en mobile.
 
-## 4.1. Styles Guidelines
+## 4.2. Information Architecture.
 
 Esta sección describe la estructura de la información, estilos y sistemas que se utilizarán en la plataforma web de MarketGo. Se consideran los sistemas de organización, etiquetado, búsqueda, navegación y SEO, con el fin de garantizar una experiencia clara y enfocada en la visualización de datos de inventario, lotes, conservación y abastecimiento para minimarkets de productos orgánicos.
 
-### 4.2.1 Organization Systems
+### 4.2.1. Organization Systems.
 
 **Sistemas de Organización visual de contenido**
 
@@ -1846,7 +1846,7 @@ El contenido de MarketGo se categoriza bajo tres esquemas complementarios:
 - **Por estado del dato:** aplicado transversalmente a productos (Vigente / Próximo a vencer / Vencido), pedidos (Pendiente / Aceptado / Rechazado) y condiciones de conservación (Normal / Riesgoso / Sin datos). Este esquema es el que más se refuerza con color, siguiendo la paleta de la marca.
 - **Por rol de usuario:** administrador de minimarket, proveedor y (a nivel de plataforma) usuario con permisos administrativos sobre cuentas. El contenido visible y las acciones disponibles cambian según este esquema, no la estructura general de la información.
 
-### 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems.
  
  En esta sección se detalla el sistema de etiquetado, diseñado para ofrecer una experiencia de usuario intuitiva mediante términos breves y reconocibles. Estas etiquetas permiten que tanto los visitantes como los usuarios finales comprendan las funciones del software sin ambigüedades.
 
@@ -1885,7 +1885,7 @@ Etiquetas descriptivas ubicadas sobre el campo (no placeholders como único labe
 - Campos obligatorios marcados con asterisco (`*`) en color de error, consistente con el modal de rechazo ya diseñado
 - Mensajes de validación en primera persona desde el sistema, en tono directo: "Este campo es obligatorio para continuar", "La cantidad supera el stock disponible"
 
-### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags.
 
 ***Landing Page (Sitio Web Estático)**
 
@@ -1906,7 +1906,7 @@ Aquí las etiquetas están orientadas a la funcionalidad y seguridad, evitando q
 - Favicon e ícono de marca mantenidos en todas las rutas para reforzar identidad visual, incluso sin indexación.
 
 
-### 4.2.4. Searching Systems
+### 4.2.4. Searching Systems.
 
 **Mecanismos de búsqueda**
 
@@ -1927,7 +1927,7 @@ Las opciones de filtrado (varían según el módulo, pero siguen el mismo patró
 - Estado vacío consistente en toda la plataforma cuando la búsqueda o el filtro no arroja resultados: mensaje informativo breve (ej. "No se encontraron productos con estos filtros"), sin ilustraciones que distraigan, siguiendo el patrón ya usado para conservación sin datos
 - Contador de resultados visible ("Mostrando 4 de 86 lotes") para dar contexto de escala, especialmente en tablas paginadas.
 
-### 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems.
 
 #### Navigation strategies
 
@@ -1952,9 +1952,9 @@ MarketGo combina dos estrategias de navegación según el tipo de sitio:
 - **Navegación secundaria contextual:** tabs dentro de una sección (ej. "Pendientes" / "Historial" dentro de Pedidos) para separar sub-vistas sin salir del módulo principal.
 - **Accesos directos cruzados:** por ejemplo, al aceptar un pedido, un botón "Ver inventario actualizado" lleva directamente al módulo de Inventario, rompiendo la navegación estrictamente jerárquica cuando el flujo de trabajo lo justifica.
 
-## 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design.
 
-### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe.
 
 En esta sección se presenta el desarrollo de los primeros wireframes como primer paso para la producción de interfaz visual de la solución, realizados en la plataforma *Figma*.
 
@@ -1998,7 +1998,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.3.2 Landing Page Mock Up
+### 4.3.2. Landing Page Mock-up.
 
 <div align="center">
 <strong>Figura 1</strong><br />
@@ -2040,9 +2040,9 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-## 4.4. Web Applications UX/UI Design
+## 4.4. Web Applications UX/UI Design.
 
-### 4.4.1. Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes.
 
 <div align="center">
 <strong>Figura 6</strong><br />
@@ -2092,7 +2092,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams.
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
@@ -2134,7 +2134,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | :---: |
 | <p align="center"><img src="report/assets/chapter-04/wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
-### 4.4.3. Web Applications Mockups
+### 4.4.3. Web Applications Mock-ups.
 
 <div align="center">
 <strong>Figura 12</strong><br />
@@ -2184,7 +2184,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams.
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
@@ -2202,17 +2202,17 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | :---: |
 | <p align="center"><img src="report/assets/chapter-04/UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
 
-## 4.5. Web Applications Prototyping
+## 4.5. Web Applications Prototyping.
 [Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
 
 
-## 4.6. Domain-Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software de MarketGo se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación, abastecimiento y control operativo para minimarkets y proveedores. A partir de este análisis se aplican los principios de Domain-Driven Design (DDD), permitiendo dividir la solución en bounded contexts coherentes con las responsabilidades principales del negocio.
 
 En las siguientes secciones se presenta cada nivel del modelo arquitectónico, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de MarketGo.
 
-### 4.6.1. Design-Level Event Storming
+### 4.6.1. Design-Level EventStorming.
 
 Para identificar los eventos de dominio y la lógica de negocio de MarketGo, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
 
@@ -2405,11 +2405,11 @@ De esta forma, los component diagrams complementan la visión general de la arqu
 
 <div style="page-break-after: always;"></div>
 
-## 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design.
 
 En esta sección se presenta el diseño orientado a objetos de MarketGo, representando la estructura de clases principales del sistema y su organización por bounded contexts. Estos diagramas permiten visualizar las responsabilidades de cada clase, sus atributos, métodos y relaciones dentro de la arquitectura de la aplicación.
 
-### 4.7.7. Class Diagrams
+### 4.7.1. Class Diagrams.
 
 Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
 ![Class Diagram MaketGo](report/assets/chapter-04/diagramClassMarkGo.png)
@@ -2463,13 +2463,13 @@ Estos diagramas permiten complementar la arquitectura de software, mostrando una
 
 ---
 
-## 4.8. Database Design
+## 4.8. Database Design.
 
 El diseño de base de datos de MarketGo define la estructura de persistencia necesaria para almacenar y gestionar la información principal de la plataforma. Este diseño considera los datos relacionados con usuarios, perfiles, productos, inventario, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, comunicación, analítica y auditoría.
 
 La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
 
-### 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams.
 
 El diagrama de base de datos muestra las entidades principales de MarketGo, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se estructura la persistencia de los datos y cómo se relacionan las entidades que soportan los procesos principales de la plataforma.
 
