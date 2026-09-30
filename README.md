@@ -61,7 +61,7 @@
     </tr>
     <tr>
       <td align="center">u201815005</td>
-      <td align="left">Quispe Alomnacid, Andre Sebastian </td>
+      <td align="left">Quispe Almonacid, Andre Sebastian </td>
     </tr>
     <tr>
       <td align="center">U20241G152</td>
@@ -78,19 +78,17 @@
 
 ---
 
-# Registro de versiones del informe
+# Registro de Versiones del Informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
-| 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Alomnacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
-| 2.0.0 | DD/MM/AAAA | Nombres completos de los integrantes | [Descripción de los cambios realizados en esta versión] |
-| 3.0.0 | DD/MM/AAAA |Nombres de integrantes | [Descripción de los cambios realizados en esta versión] |
+| 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Almonacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
 
 ---
 
 # Project Report Collaboration Insights
 El presente apartado tiene como finalidad evidenciar el trabajo colaborativo realizado durante el desarrollo del informe. Para ello, se pone a disposición el repositorio oficial del proyecto, alojado en una organización pública de GitHub:
 
-Link de la organización: 🔗https://github.com/Market-Labs
+Repositorio del Project Report: https://github.com/Market-Labs/project-report
 
 A partir de este repositorio, se analiza la participación de los integrantes del equipo mediante indicadores como número de commits, frecuencia de contribuciones y actividad general registrada en la plataforma.
 
@@ -130,73 +128,103 @@ La siguiente figura muestra el historial de commits realizados por los integrant
 
 # Contenido
 
-## Tabla de contenidos
+- [Carátula](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/01-title-page.md)
+- [Registro de Versiones del Informe](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/02-version-control-log.md)
+- [Project Report Collaboration Insights](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/03-collaboration-insights.md)
+- [Student Outcome](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/05-student-outcomes.md)
 
-### Front Matter
+- [Capítulo I: Introducción](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#capítulo-i-introducción)
+  - [1.1. Startup Profile](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#13-segmentos-objetivo)
+    - [1.3.1. Segmento objetivo 1: Administradores de Minimarkets](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#131-segmento-objetivo-1-administradores-de-minimarkets)
+    - [1.3.2. Segmento objetivo 2: Proveedores](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#132-segmento-objetivo-2-proveedores)
 
-- [Carátula](./front-matter/01-title-page.md)
-- [Registro de Versiones del Informe](./front-matter/02-version-control-log.md)
-- [Student Outcome](./front-matter/05-student-outcomes.md)
+- [Capítulo II: Requirements Elicitation & Analysis](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#21-competidores)
+    - [2.1.1. Análisis competitivo.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#223-análisis-de-entrevistas)
+      - [1. Descripción general del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#1-descripción-general-del-segmento)
+      - [2. Características objetivas del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#2-características-objetivas-del-segmento)
+      - [3. Características subjetivas del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#3-características-subjetivas-del-segmento)
+      - [4. Hallazgos principales](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#4-hallazgos-principales)
+      - [5. Conclusión del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#5-conclusión-del-segmento)
+  - [2.3. Needfinding.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#23-needfinding)
+    - [2.3.1. User Personas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#231-user-personas)
+    - [2.3.2. User Task Matrix.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#25-ubiquitous-language)
 
-### Contenido del Informe
+- [Capítulo III: Requirements Specification](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#capítulo-iii-requirements-specification)
+  - [3.1. User Stories.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#31-user-stories)
+  - [3.2. Impact Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#32-impact-mapping)
+  - [3.3. Product Backlog.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#33-product-backlog)
 
-- [Abstract](./10-chapter-01.md#abstract)
-- [Resumen](./10-chapter-01.md#resumen)
+- [Capítulo IV: Product Design](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#capítulo-iv-product-design)
+  - [4.1. Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#412-web-style-guidelines)
+  - [4.2. Information Architecture.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#42-information-architecture)
+    - [4.2.1. Organization Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#421-organization-systems)
+    - [4.2.2. Labeling Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#424-searching-systems)
+    - [4.2.5. Navigation Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#471-class-diagrams)
+  - [4.8. Database Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#48-database-design)
+    - [4.8.1. Database Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#481-database-diagrams)
 
-- [Capítulo I: Introducción](./10-chapter-01.md)
-    - [1.1. Startup Profile](./10-chapter-01.md#11-startup-profile)
-    - [1.2. Solution Profile](./10-chapter-01.md#12-solution-profile)
-    - [1.3. Segmentos objetivo](./10-chapter-01.md#13-segmentos-objetivo)
+- [Capítulo V: Product Implementation, Validation & Deployment](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5218-team-collaboration-insights-during-sprint)
 
-- [Capítulo II: Requirements Elicitation & Analysis](./11-chapter-02.md)
-    - [2.1. Competidores](./11-chapter-02.md#21-competidores)
-    - [2.2. Entrevistas](./11-chapter-02.md#22-entrevistas)
-    - [2.3. Needfinding](./11-chapter-02.md#23-needfinding)
-    - [2.4. Big Picture EventStorming](./11-chapter-02.md#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](./11-chapter-02.md#25-ubiquitous-language)
+- [Conclusiones](https://github.com/Market-Labs/project-report/blob/main/report/15-chapter-06.md#conclusiones)
+  - [Conclusiones y recomendaciones.](https://github.com/Market-Labs/project-report/blob/main/report/15-chapter-06.md#conclusiones-y-recomendaciones)
 
-- [Capítulo III: Requirements Specification](./12-chapter-03.md)
-    - [3.1. User Stories](./12-chapter-03.md#31-user-stories)
-    - [3.2. Impact Mapping](./12-chapter-03.md#32-impact-mapping)
-    - [3.3. Product Backlog](./12-chapter-03.md#33-product-backlog)
-
-- [Capítulo IV: Product Design](./13-chapter-04.md)
-    - [4.1. Style Guidelines](./13-chapter-04.md#41-style-guidelines)
-    - [4.2. Information Architecture](./13-chapter-04.md#42-information-architecture)
-    - [4.3. Landing Page UI Design](./13-chapter-04.md#43-landing-page-ui-design)
-    - [4.4. Web Applications UX/UI Design](./13-chapter-04.md#44-web-applications-uxui-design)
-    - [4.5. Web Applications Prototyping](./13-chapter-04.md#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](./13-chapter-04.md#46-domain-driven-software-architecture)
-    - [4.7. Software Object-Oriented Design](./13-chapter-04.md#47-software-object-oriented-design)
-    - [4.8. Database Design](./13-chapter-04.md#48-database-design)
-
-- [Capítulo V: Product Implementation, Validation & Deployment](./14-chapter-05.md)
-    - [5.1. Software Configuration Management](./14-chapter-05.md#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](./14-chapter-05.md#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](./14-chapter-05.md#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](./14-chapter-05.md#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](./14-chapter-05.md#514-software-deployment-configuration)
-
-    - [5.2. Landing Page, Services & Applications Implementation](./14-chapter-05.md#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](./14-chapter-05.md#521-sprint-1)
-        - [5.2.2. Sprint 2](./14-chapter-05.md#522-sprint-2)
-        - [5.2.3. Sprint 3](./14-chapter-05.md#523-sprint-3)
-
-    - [5.3. Validation Interviews](./14-chapter-05.md#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](./14-chapter-05.md#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](./14-chapter-05.md#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](./14-chapter-05.md#533-evaluaciones-según-heurísticas)
-
-    - [5.4. Video About-the-Product](./14-chapter-05.md#54-video-about-the-product)
-
-- [Capítulo VI: Conclusions](./15-chapter-06.md)
-    - [6.1. Conclusiones y recomendaciones](./15-chapter-06.md#61-conclusiones-y-recomendaciones)
-    - [6.2. Video About-the-Team](./15-chapter-06.md#62-video-about-the-team)
-
-- [Bibliografía](./99-bibliography.md)
-
-- [Anexos](./16-annexes.md)
-    - [Anexo A: Videos de Exposiciones](./16-annexes.md#anexo-a-videos-de-exposiciones)
+- [Bibliografía](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/99-bibliography.md)
+- [Anexos](https://github.com/Market-Labs/project-report/blob/main/report/annexes/anex-a-raw-data.md)
 
 ---
 
@@ -2890,11 +2918,11 @@ Vue.js. (s. f.-b). *Priority A rules: Essential*. https://vuejs.org/style-guide/
 
 Las evidencias visuales del avance AV1 están disponibles en el capítulo V y en los archivos fuente siguientes:
 
-- [Planificación del Sprint 1](../assets/chapter-05/sprintb1.png).
-- [Historial de commits](../assets/chapter-05/commit-history-sprint1.png).
-- [Ejecución de la landing page: inicio](../assets/chapter-05/execution-home.png).
-- [Ejecución de la landing page: contacto](../assets/chapter-05/execution-contact.png).
-- [Visitas al repositorio](../assets/chapter-05/visitors-sprint1.png).
+- [Planificación del Sprint 1](report/assets/chapter-05/sprintb1.png).
+- [Historial de commits](report/assets/chapter-05/commit-history-sprint1.png).
+- [Ejecución de la landing page: inicio](report/assets/chapter-05/execution-home.png).
+- [Ejecución de la landing page: contacto](report/assets/chapter-05/execution-contact.png).
+- [Visitas al repositorio](report/assets/chapter-05/visitors-sprint1.png).
 
 Los datos originales de las entrevistas y el video About-the-Team no están incluidos en los archivos del repositorio; su incorporación requiere los materiales del equipo.
 
