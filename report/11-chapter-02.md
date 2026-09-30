@@ -1,0 +1,806 @@
+
+### 2.1.1. Análisis competitivo
+
+Este análisis permite identificar cómo se posiciona **MarketGo** frente a soluciones especializadas en la gestión y conservación de productos perecibles, así como frente a plataformas digitales orientadas a la conexión entre compradores y proveedores. A partir de ello, se busca definir una ventaja competitiva basada en la integración de la gestión de inventarios, conservación y abastecimiento de productos orgánicos dentro de una misma plataforma.
+
+<table style="text-align: center; width: 100%;">
+  <tbody>
+    <tr>
+      <td colspan="5"><strong>Competitive Analysis Landscape</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>¿Por qué llevar a cabo este análisis?</strong></td>
+      <td colspan="3">
+        Este análisis permite identificar las principales soluciones existentes relacionadas con la gestión de productos perecibles,
+        conservación de inventarios y conexión entre compradores y proveedores, diferenciando la propuesta de MarketGo frente a
+        plataformas especializadas en una sola parte del proceso.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Logotipos</strong></td>
+      <td><img src="assets/chapter-02/marketgo-logo.png" alt="MarketGo" height="50"></td>
+      <td><img src="assets/chapter-02/freshtracker-logo.png" alt="FreshTracker" height="50"></td>
+      <td><img src="assets/chapter-02/shelflife-logo.png" alt="ShelfLife" height="50"></td>
+      <td><img src="assets/chapter-02/peru-marketplace-logo.png" alt="Peru Marketplace" height="50"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Software</strong></td>
+      <td><strong>MarketGo</strong></td>
+      <td><strong>FreshTracker</strong></td>
+      <td><strong>ShelfLife</strong></td>
+      <td><strong>Peru Marketplace</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Perfil</strong></td>
+      <td>Overview</td>
+      <td>Startup SaaS orientada a centralizar la gestión, conservación y abastecimiento de productos orgánicos para minimarkets y proveedores.</td>
+      <td>Plataforma orientada al monitoreo y conservación de productos frescos mediante control de temperatura, humedad, vencimientos y alertas.</td>
+      <td>Plataforma especializada en la gestión de inventarios de productos perecibles, lotes, fechas de vencimiento y reducción de desperdicios.</td>
+      <td>Marketplace B2B que conecta compradores y proveedores, facilitando la búsqueda de productos, solicitudes y operaciones comerciales.</td>
+    </tr>
+    <tr>
+      <td>Ventaja competitiva, ¿Qué valor ofrece a los clientes?</td>
+      <td>Integra inventario, lotes, conservación y abastecimiento en una sola plataforma, utilizando un dashboard común con permisos según el rol del usuario.</td>
+      <td>Monitoreo de condiciones ambientales y generación de alertas para prevenir pérdidas relacionadas con la conservación.</td>
+      <td>Control especializado de inventario y vencimientos para reducir mermas de productos perecibles.</td>
+      <td>Conexión entre compradores y proveedores mediante un ecosistema digital orientado a operaciones B2B.</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Perfil de Marketing</strong></td>
+      <td>Mercado objetivo</td>
+      <td>Minimarkets y proveedores de productos orgánicos que buscan centralizar sus procesos de inventario, conservación y abastecimiento.</td>
+      <td>Comercios y negocios que manejan productos frescos y requieren controlar sus condiciones de almacenamiento.</td>
+      <td>Negocios que comercializan productos perecibles y necesitan mejorar el control de inventarios y vencimientos.</td>
+      <td>Empresas y compradores que buscan proveedores y productos mediante una plataforma digital B2B en Perú.</td>
+    </tr>
+    <tr>
+      <td>Estrategias de marketing</td>
+      <td>Propuesta B2B enfocada en reducción de pérdidas, trazabilidad y centralización de procesos para pequeños y medianos negocios.</td>
+      <td>Posicionamiento basado en reducción del desperdicio mediante monitoreo y automatización de la conservación.</td>
+      <td>Enfoque en reducción de desperdicio y optimización de inventarios de productos perecibles.</td>
+      <td>Construcción de un ecosistema digital que facilite la interacción entre compradores y proveedores.</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>Perfil de Producto</strong></td>
+      <td>Productos &amp; Servicios</td>
+      <td>Gestión de inventarios, lotes, vencimientos, conservación, alertas, mermas, donaciones, productos de proveedores y pedidos de abastecimiento.</td>
+      <td>Monitoreo de temperatura y humedad, seguimiento de productos frescos, alertas y herramientas para control de conservación.</td>
+      <td>Gestión de inventario, seguimiento de lotes, fechas de vencimiento y herramientas para reducir pérdidas.</td>
+      <td>Marketplace B2B, búsqueda de proveedores, productos, solicitudes, cotizaciones y pedidos.</td>
+    </tr>
+    <tr>
+      <td>Precios &amp; Costos</td>
+      <td>Modelo SaaS proyectado para pequeños y medianos negocios, con acceso según el plan contratado.</td>
+      <td>Servicio basado en funcionalidades de monitoreo y gestión de conservación.</td>
+      <td>Servicio orientado a negocios que requieren herramientas especializadas de control de inventario.</td>
+      <td>Modelo comercial asociado a servicios de intermediación y operaciones B2B.</td>
+    </tr>
+    <tr>
+      <td>Canales de distribución (Web y/o Móvil)</td>
+      <td>Plataforma web con dashboard común y permisos diferenciados para administradores de minimarkets y proveedores.</td>
+      <td>Plataforma digital orientada a monitoreo y gestión de productos frescos.</td>
+      <td>Plataforma digital orientada a la gestión de inventarios perecibles.</td>
+      <td>Plataforma web orientada a operaciones comerciales B2B.</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>Análisis SWOT</strong></td>
+      <td>Fortalezas</td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Integra inventario y conservación.</li>
+          <li>Conecta minimarkets y proveedores.</li>
+          <li>Dashboard común con permisos por rol.</li>
+          <li>Automatización de incorporación al inventario.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Monitoreo de temperatura y humedad.</li>
+          <li>Alertas de conservación.</li>
+          <li>Enfoque en productos frescos.</li>
+          <li>Prevención de pérdidas.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Especialización en productos perecibles.</li>
+          <li>Control de inventario.</li>
+          <li>Seguimiento de vencimientos.</li>
+          <li>Reducción de desperdicio.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Conexión entre compradores y proveedores.</li>
+          <li>Catálogo de productos.</li>
+          <li>Operaciones B2B.</li>
+          <li>Presencia en el mercado peruano.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Debilidades</td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Marca nueva.</li>
+          <li>Menor reconocimiento inicial.</li>
+          <li>Red de usuarios limitada durante la etapa inicial.</li>
+          <li>Dependencia de la adopción de minimarkets y proveedores.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Mayor especialización en conservación.</li>
+          <li>Menor enfoque en abastecimiento B2B.</li>
+          <li>Dependencia de datos de monitoreo.</li>
+          <li>No integra todo el ciclo de abastecimiento.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Enfoque principalmente interno.</li>
+          <li>Menor interacción con proveedores.</li>
+          <li>No integra monitoreo ambiental completo.</li>
+          <li>Menor enfoque en abastecimiento.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Menor especialización en conservación.</li>
+          <li>No está orientado específicamente a productos orgánicos.</li>
+          <li>No centraliza el control interno del inventario.</li>
+          <li>Menor integración con monitoreo ambiental.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Oportunidades</td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Crecimiento de la digitalización de pequeños negocios.</li>
+          <li>Necesidad de reducir desperdicio.</li>
+          <li>Mayor demanda de trazabilidad.</li>
+          <li>Integración futura con IoT y Machine Learning.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Creciente interés en reducción de desperdicios.</li>
+          <li>Mayor adopción de monitoreo digital.</li>
+          <li>Expansión hacia nuevos comercios.</li>
+          <li>Integración con sistemas de inventario.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Crecimiento del comercio de alimentos frescos.</li>
+          <li>Digitalización del control de inventarios.</li>
+          <li>Mayor preocupación por el desperdicio.</li>
+          <li>Expansión a nuevos mercados.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Crecimiento del comercio digital B2B.</li>
+          <li>Mayor conexión entre compradores y proveedores.</li>
+          <li>Digitalización de pequeñas empresas.</li>
+          <li>Expansión de categorías de productos.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Amenazas</td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Resistencia al cambio.</li>
+          <li>Uso persistente de Excel y aplicaciones de mensajería.</li>
+          <li>Competidores especializados.</li>
+          <li>Dificultad inicial para construir una red de usuarios.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Mayor adopción de soluciones IoT.</li>
+          <li>Entrada de nuevos competidores.</li>
+          <li>Reducción de costos de sensores.</li>
+          <li>Integración de monitoreo en ERPs.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Competencia de sistemas de inventario generales.</li>
+          <li>Uso de herramientas tradicionales.</li>
+          <li>Mayor oferta de soluciones especializadas.</li>
+          <li>Preferencia por soluciones integrales.</li>
+        </ul>
+      </td>
+      <td>
+        <ul style="text-align: left; margin: 0; padding-left: 18px;">
+          <li>Competencia de marketplaces generales.</li>
+          <li>Negociación directa entre compradores y proveedores.</li>
+          <li>Dependencia de la cantidad de usuarios registrados.</li>
+          <li>Mayor competencia digital B2B.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+A partir de la identificación de fortalezas y debilidades competitivas, la startup **Market-Labs** aplicará el siguiente conjunto de estrategias y tácticas preliminares para posicionar a **MarketGo** como una solución integral para la gestión y abastecimiento de productos orgánicos en minimarkets.
+
+#### Estrategia ofensiva: integración de capacidades frente a FreshTracker y ShelfLife
+
+FreshTracker y ShelfLife presentan una especialización en aspectos concretos relacionados con la conservación e inventario de productos perecibles. MarketGo aprovechará esta brecha para integrar dichas necesidades con el proceso de abastecimiento entre minimarkets y proveedores.
+
+- **Gestión integral:** centralizar en una misma plataforma el inventario, lotes, vencimientos, conservación y abastecimiento.
+- **Trazabilidad completa:** permitir relacionar los productos recibidos desde proveedores con los lotes registrados en el inventario del minimarket.
+- **Automatización del inventario:** incorporar automáticamente los productos correspondientes al inventario cuando el administrador acepte un pedido.
+
+#### Estrategia defensiva: diferenciación frente a Peru Marketplace
+
+Peru Marketplace facilita la conexión entre compradores y proveedores, pero MarketGo buscará diferenciarse mediante la integración de la operación comercial con el control interno del inventario y conservación de los productos.
+
+- **Abastecimiento conectado al inventario:** permitir que los pedidos no sean únicamente operaciones comerciales, sino que formen parte del flujo de actualización del inventario del minimarket.
+- **Control de productos perecibles:** complementar el proceso de abastecimiento con información de lotes, vencimientos y condiciones de conservación.
+- **Enfoque especializado:** orientar la propuesta específicamente a minimarkets y proveedores relacionados con productos orgánicos.
+
+#### Estrategia adaptativa: reducción de la resistencia al cambio
+
+Para afrontar la dependencia de herramientas tradicionales como Excel y aplicaciones de mensajería, MarketGo buscará simplificar las principales operaciones de sus usuarios.
+
+- **Dashboard común:** utilizar una misma interfaz para ambos segmentos, reduciendo la complejidad de aprendizaje.
+- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como la generación de pedidos.
+- **Flujo simplificado:** reducir la cantidad de pasos necesarios para consultar productos, generar pedidos y actualizar el inventario.
+
+#### Estrategia de innovación y escalabilidad
+
+MarketGo buscará construir una base tecnológica que permita ampliar progresivamente sus capacidades de acuerdo con las necesidades del mercado.
+
+- **Monitoreo inteligente:** utilizar datos simulados de temperatura y humedad durante la etapa inicial, con posibilidad de integrar sensores IoT reales posteriormente.
+- **Analítica futura:** incorporar progresivamente herramientas de analítica y Machine Learning para identificar patrones de deterioro y apoyar la toma de decisiones.
+- **Escalabilidad:** extender la solución hacia otros negocios que gestionen productos perecibles manteniendo el enfoque inicial en minimarkets y proveedores de productos orgánicos.
+
+## 2.2. Entrevistas
+
+En esta sección se aborda la investigación tomando como base la recolección de información mediante entrevistas a representantes de los segmentos objetivo. Las entrevistas serán registradas en video como evidencia del proceso de obtención de requisitos.
+
+### 2.2.1. Diseño de entrevistas
+
+Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron las siguientes preguntas siguiendo las buenas prácticas para el diseño de recolección de información:
+
+**Segmento objetivo: Administradores de Minimarkets**
+
+#### Preguntas Demográficas
+
+1. ¿Cuál es su nombre completo y qué edad tiene?
+2. ¿Cuál es su cargo dentro del minimarket y cuántos años de experiencia tiene en la gestión del negocio?
+3. ¿En qué distrito o provincia se encuentra ubicado el minimarket?
+
+#### Preguntas de Hábitos Digitales
+
+4. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar las actividades del minimarket?
+5. ¿Qué herramientas utiliza actualmente para registrar o consultar información del inventario?
+6. ¿Qué medios utiliza con mayor frecuencia para comunicarse con sus proveedores?
+
+#### Preguntas Principales
+
+7. ¿Cómo registra y controla actualmente los productos disponibles en el minimarket?
+8. ¿Podría describir el proceso desde que identifica la necesidad de abastecer un producto hasta que este queda registrado en el inventario?
+9. ¿Cómo controla actualmente los lotes y las fechas de vencimiento de los productos?
+10. ¿Cómo determina qué productos necesitan ser repuestos o retirados por encontrarse próximos a vencer?
+11. ¿Cómo controla actualmente las condiciones de almacenamiento de los productos, como temperatura y humedad?
+12. ¿Cómo consulta actualmente la disponibilidad de productos ofrecidos por sus proveedores?
+13. ¿Cómo realiza el seguimiento de los pedidos o solicitudes de abastecimiento realizados a sus proveedores?
+14. ¿Qué dificultades encuentra actualmente al gestionar inventario, lotes, vencimientos y abastecimiento?
+15. ¿Ha experimentado pérdidas por productos deteriorados, vencidos, falta de stock o condiciones inadecuadas de almacenamiento? ¿Cómo las gestiona?
+16. ¿Considera que una plataforma que centralice el inventario, lotes, vencimientos, condiciones de almacenamiento, proveedores y pedidos de abastecimiento facilitaría su gestión? ¿Por qué?
+
+---
+
+**Segmento objetivo: Proveedores de Productos Orgánicos**
+
+#### Preguntas Demográficas
+
+1. ¿Cuál es su nombre completo y qué edad tiene?
+2. ¿Cuál es su cargo dentro de la empresa y cuántos años de experiencia tiene en la comercialización o distribución de productos?
+3. ¿En qué distrito o provincia se encuentra ubicado su negocio o centro de operaciones?
+
+#### Preguntas de Hábitos Digitales
+
+4. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar productos y pedidos?
+5. ¿Qué herramientas utiliza actualmente para registrar o consultar información de los productos que ofrece?
+6. ¿Qué medios utiliza con mayor frecuencia para comunicarse con sus clientes?
+
+#### Preguntas Principales
+
+7. ¿Cómo registra y administra actualmente el catálogo de productos que ofrece?
+8. ¿Cómo controla actualmente la disponibilidad y los lotes de los productos que tiene para ofrecer?
+9. ¿Podría describir el proceso desde que un minimarket solicita productos hasta que el pedido es preparado y despachado?
+10. ¿Cómo gestiona actualmente los pedidos o solicitudes provenientes de diferentes minimarkets?
+11. ¿Cómo comunica actualmente a sus clientes la disponibilidad, precios y características de los productos?
+12. ¿Cómo realiza el seguimiento del estado de los pedidos realizados por sus clientes?
+13. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, disponibilidad y lotes?
+14. ¿Qué problemas ha experimentado relacionados con errores de comunicación, pérdida de información, retrasos o falta de disponibilidad? ¿Cómo los resuelve?
+15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
+16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
+
+### 2.2.2. Registro de entrevistas
+
+**Segmento objetivo: Administradores de Minimarkets**
+
+**Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Rodrigo Guevara</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>Celular (movilidad) y laptop (en caja)</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>26 años</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>No especificado</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>Administrador general (3 años de experiencia)</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>WhatsApp Business y correo electrónico</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>José Leonardo Ortíz, Chiclayo, Lambayeque</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>Excel (Google Drive) y sistema POS básico</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: 05:04</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">https://youtu.be/BuiCkyydM7k</a></td>
+</tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        Rodrigo Guevara es el administrador general de un minimarket en JLO, Chiclayo. Gestiona el negocio apoyándose principalmente en su celular y una laptop, utilizando un sistema POS básico integrado con Excel en Drive para el registro de inventario. La comunicación, consulta de catálogos y seguimiento de pedidos con sus proveedores se realiza de forma casi exclusiva a través de WhatsApp Business.<br><br>
+        Actualmente, sus procesos de control de calidad son manuales: el registro de lotes y fechas de vencimiento se lleva en una libreta física, y la revisión de stock y condiciones de almacenamiento (temperatura) se hace de manera visual en los anaqueles y congeladoras. Rodrigo identifica que su principal problema es el tiempo excesivo que demanda este control manual, el desorden al coordinar por chats y las pérdidas económicas generadas por productos vencidos o malogrados que no se detectan a tiempo. Concluye que una plataforma centralizada para inventarios, vencimientos y proveedores solucionaría estos puntos críticos al ahorrar tiempo y evitar mermas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Roly Hans Luna</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>Teléfono celular(Smartphone)</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>28 años</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>iOS / Android (Mobile Browser)</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>Administrador de Minimarket Orgánico</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>WhatsApp</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>San Isidro, Lima</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>Microsoft Excel (Google Drive)</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [15:00]</td>
+      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">https://youtu.be/NzzEsy9Kx7Y</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        Roly es un administrador con 4 años de experiencia, enfocado en el crecimiento de su minimarket de productos orgánicos. Muestra una personalidad proactiva, pero con altos niveles de frustración operativa y estrés debido a la carga de trabajo manual. A nivel tecnológico, su comportamiento es puramente <em>mobile-first</em>; utiliza su teléfono celular durante el 90% de su jornada laboral debido al constante dinamismo en los pasillos, relegando el uso de la laptop únicamente para cierres administrativos.<br><br>Sus canales de interacción digital son limitados y fragmentados: utiliza hojas de cálculo de Google Drive (Excel) combinadas con cuadernos de apuntes para el inventario, y depende 100% de WhatsApp como canal de comunicación oficial para cotizar y solicitar pedidos a sus proveedores.<br><br>Durante la entrevista, expresó que sus principales problemas (<em>Pains</em>) son las mermas de productos perecibles (hortalizas y lácteos) por falta de control. Actualmente, monitorea las fechas de vencimiento mediante revisiones visuales semanales y verifica la temperatura de las vitrinas con termómetros físicos, lo cual lo deja expuesto a fallas mecánicas durante la madrugada. Se mostró altamente entusiasta (<em>Gains</em>) ante la propuesta de una solución tecnológica centralizada, indicando que un sistema que le envíe alertas al celular sobre el clima o los vencimientos, y que actualice su stock automáticamente al aprobar un pedido, le ahorraría tiempo y reduciría sus pérdidas económicas a cero.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>María Fernanda Rojas Castillo</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>Teléfono celular y laptop</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>38 años</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>Administradora de minimarket con 7 años de experiencia en la gestión del negocio</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>WhatsApp y llamadas telefónicas</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>Santiago de Surco, Lima</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>Microsoft Excel</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAtjkovEx1wRr3eMlftO2sFAXlMxG88PDLfCn4uFfxvYMs?e=9CcTbz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        La entrevista realizada a una administradora de minimarket de 38 años, con aproximadamente 7 años de experiencia en la gestión del negocio, permitió identificar que actualmente utiliza principalmente Excel, WhatsApp y registros manuales para gestionar el inventario y coordinar con sus proveedores. El control de productos, lotes y fechas de vencimiento requiere revisiones físicas periódicas, mientras que los pedidos de abastecimiento se coordinan principalmente mediante WhatsApp y llamadas telefónicas.<br><br>
+        Entre las principales dificultades identificadas se encuentran la información distribuida en diferentes medios, la actualización tardía del inventario, el tiempo requerido para revisar fechas de vencimiento y la dificultad para realizar el seguimiento de varios pedidos simultáneamente. Asimismo, se han presentado pérdidas por productos vencidos o deteriorados y situaciones de falta de stock.<br><br>
+        Finalmente, la entrevistada considera útil contar con una plataforma que permita consultar en un solo lugar el inventario, los lotes, las fechas de vencimiento, las condiciones de almacenamiento, la información de los proveedores y los pedidos de abastecimiento. También valora la posibilidad de recibir alertas sobre productos con bajo stock o próximos a vencer, ya que facilitaría la organización y permitiría tomar acciones con anticipación.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Álvaro Chojaga</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>Laptop</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>54 años</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>Chrome</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>Administrador / Jefe de Operaciones y Ventas</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>Whatsapp</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>Lima, Miraflores</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>Excel</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [04:06]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/personal/u202410746_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410746%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202026%2D09%2D13%20at%209%2E09%2E01%20PM%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea50bc394%2D6f9c%2D4932%2Db137%2D8b9b49babf91" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        El video presenta una entrevista con Álvaro Chojaga, un proveedor de productos orgánicos, donde se introduce una plataforma web diseñada para mejorar la gestión y comercialización de productos orgánicos. La plataforma ofrece funciones como publicidad de productos, control de stock, gestión sanitaria, pedidos, y seguimiento de entregas. El contenido está orientado a proveedores y distribuidores que buscan optimizar su manejo de inventarios, pedidos y precios, aprendiendo mejores prácticas para evitar errores comunes y mejorar la comunicación con sus clientes.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 5</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Luz Rojas</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>Telefono</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>47 años</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>Chrome</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>Comerciante / Mayorista de Productos Orgánicos</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>Whatsapp</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>Lima, Miraflores</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>Excel</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [03:18]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        Este video presenta una entrevista con Luz Rojas sobre el uso y desafíos en la gestión y comercialización de productos orgánicos a través de una plataforma digital llamada Market-Labs. El objetivo central es mostrar cómo esta plataforma puede facilitar la gestión de inventarios, precios, pedidos y seguimiento de entregas para productores y proveedores. Está especialmente dirigido a pequeños y medianos productores o comerciantes de productos orgánicos que buscan optimizar su operación y evitar errores comunes en stock, precios y logística. El espectador aprenderá las dificultades habituales en la administración manual y el potencial beneficio de digitalizar estos procesos con herramientas tecnológicas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 6</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Anita Gamboa</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td> celular / laptop </td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>32 años</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>Windows/Chrome</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>Proveedor de productos orgánicos</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>Whatsapp</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>Cerro Colorado - Arequipa</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>Excel</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">https://youtu.be/A0u3vSoaUJk</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        La entrevista evidencia que la gestión actual depende principalmente de herramientas separadas como Excel, WhatsApp, llamadas y registros internos. Aunque estas permiten administrar productos y pedidos, la actualización manual de la información genera dificultades para mantener sincronizados el catálogo, la disponibilidad, los lotes y el estado de los pedidos.
+
+El proceso de abastecimiento comienza con la recepción de solicitudes de los minimarkets, seguida de la verificación de disponibilidad, confirmación, preparación de productos, revisión de lotes y coordinación del despacho. Cuando existen varios pedidos o modificaciones simultáneas, el seguimiento se vuelve más complejo y pueden producirse inconsistencias, como informar disponibilidad desactualizada o perder cambios realizados mediante conversaciones.
+
+En conclusión, se identifica la necesidad de centralizar la información de productos, lotes, disponibilidad y pedidos. Una plataforma que permita consultar y actualizar estos datos, además de visualizar el estado de cada operación, podría reducir la dependencia de archivos y conversaciones dispersas y facilitar la coordinación entre el proveedor y los minimarkets.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.2.3. Análisis de entrevistas
+
+### Análisis por segmento objetivo
+
+**Segmento objetivo: Administradores de Minimarkets**
+
+#### 1. Descripción general del segmento
+
+Este segmento agrupa a administradores responsables de supervisar las operaciones de minimarkets, incluyendo actividades relacionadas con el control de inventario, gestión de productos, lotes, fechas de vencimiento, condiciones de almacenamiento y coordinación del abastecimiento con proveedores. A partir de las entrevistas realizadas a los administradores, se identificaron patrones comunes relacionados con el uso de herramientas digitales, la dependencia de procesos manuales y las dificultades para mantener actualizada y centralizada la información del negocio. Estos hallazgos sirven como base para la construcción del arquetipo correspondiente.
+
+#### 2. Características objetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **Uso de hojas de cálculo para la gestión** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Los administradores utilizan Excel o Google Drive para registrar, consultar o actualizar información relacionada con el inventario y las operaciones del minimarket. | El arquetipo posee experiencia utilizando herramientas digitales básicas, pero requiere una alternativa especializada que permita organizar la información de manera integrada. |
+| **Uso frecuente del teléfono celular durante la jornada laboral** | 100% (3/3) | **Entrevistas 1, 2 y 3:** El celular forma parte de las herramientas utilizadas diariamente. En particular, se emplea por su facilidad de acceso y movilidad durante las actividades del minimarket. | El arquetipo necesita acceder a información y realizar consultas desde dispositivos móviles durante sus actividades diarias. |
+| **Uso de WhatsApp para la comunicación con proveedores** | 100% (3/3) | **Entrevistas 1, 2 y 3:** WhatsApp o WhatsApp Business es utilizado para consultar productos, coordinar pedidos y mantener comunicación con proveedores. | El arquetipo está acostumbrado a canales digitales rápidos, pero actualmente la información de abastecimiento permanece distribuida en conversaciones independientes. |
+| **Control manual de inventario, lotes o vencimientos** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Se realizan revisiones físicas de productos, stock, lotes o fechas de vencimiento, complementadas con cuadernos, Excel o sistemas básicos. | El arquetipo combina herramientas digitales con procedimientos manuales, generando una necesidad de simplificar y organizar sus actividades de control. |
+
+#### 3. Características subjetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **Preocupación por productos vencidos o deteriorados** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Los administradores identifican los vencimientos y el deterioro de productos como situaciones que pueden generar pérdidas económicas y requieren revisiones constantes. | El arquetipo busca anticiparse a vencimientos y deterioros para reducir mermas y tomar acciones oportunamente. |
+| **Necesidad de reducir el tiempo dedicado al control manual** | 100% (3/3) | **Entrevistas 1, 2 y 3:** La revisión de stock, vencimientos y registros requiere tiempo debido a que parte de la información debe verificarse manualmente o consultarse en diferentes medios. | El arquetipo valora herramientas que agilicen las consultas y reduzcan el esfuerzo necesario para mantener actualizada la información. |
+| **Necesidad de centralizar la información operativa** | 100% (3/3) | **Entrevistas 1, 2 y 3:** La información se encuentra distribuida entre Excel, cuadernos, sistemas básicos y conversaciones de WhatsApp, dificultando su seguimiento. | El arquetipo necesita disponer de inventario, lotes, vencimientos, proveedores y pedidos desde un mismo entorno. |
+| **Valoración de alertas para anticipar problemas** | 67% (2/3) | **Entrevistas 2 y 3:** Los entrevistados muestran interés en recibir alertas relacionadas con vencimientos, stock o condiciones que requieren atención. | El arquetipo valora mecanismos preventivos que le permitan identificar situaciones importantes antes de que generen pérdidas o problemas de abastecimiento. |
+
+#### 4. Hallazgos principales
+
+- **Fragmentación de la información (100% de coincidencia):** Los tres administradores utilizan diferentes herramientas y medios para gestionar sus operaciones, principalmente Excel, registros manuales y WhatsApp. Esto dificulta mantener una visión integrada y actualizada del inventario, los vencimientos y el abastecimiento.
+
+- **Dependencia de controles manuales (100% de coincidencia):** Los tres entrevistados realizan revisiones físicas o manuales para controlar aspectos como stock, lotes, fechas de vencimiento o condiciones de almacenamiento. Estas actividades demandan tiempo y pueden ocasionar que determinados problemas no sean detectados oportunamente.
+
+- **Necesidad de mejorar la prevención y organización operativa (100% de coincidencia):** Los entrevistados evidencian dificultades relacionadas con productos vencidos o deteriorados, falta de stock, actualización de información y seguimiento de pedidos. Una gestión más organizada permitiría detectar estas situaciones con anticipación y facilitar la toma de decisiones.
+
+#### 5. Conclusión del segmento
+
+Las entrevistas realizadas a los administradores de minimarkets evidencian un patrón común de gestión basado en la combinación de herramientas digitales básicas, principalmente Excel y WhatsApp, con procedimientos manuales para controlar inventario, lotes, vencimientos y abastecimiento. Aunque estas herramientas permiten desarrollar las actividades diarias, la información permanece distribuida en diferentes medios y requiere constantes revisiones y actualizaciones.
+
+Los principales problemas identificados se relacionan con el tiempo empleado en los controles manuales, la dificultad para mantener actualizada la información, el seguimiento de fechas de vencimiento, las pérdidas ocasionadas por productos vencidos o deteriorados y la coordinación de pedidos con proveedores. Asimismo, los entrevistados muestran interés en disponer de información organizada y mecanismos que permitan anticipar situaciones como bajo stock o próximos vencimientos.
+
+A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de MarketGo.
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+A partir de los hallazgos obtenidos en las entrevistas de validación, se construyeron los arquetipos representativos de nuestros segmentos objetivos utilizando la plataforma UXPressia. Estos perfiles estructuran la información demográfica, las motivaciones principales (Gains), los puntos de dolor operativos (Pains) y el nivel de dominio tecnológico de cada usuario, garantizando que la arquitectura y experiencia de la plataforma **MarketGo** se diseñen centradas en sus necesidades reales.
+
+**Segmento 1: Administrador de Minimarket (Arquetipo: Russell Estrada)**
+
+![User Persona - Russell Estrada](assets/chapter-02/user-persona-administrador.png)
+
+**Segmento 2: Proveedor y Distribuidor B2B (Arquetipo: Marco Antonio Ríos)**
+
+![User Persona - Marco Antonio Ríos](assets/chapter-02/user-persona-proveedor.png)
+
+### 2.3.2. User Task Matrix
+
+Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
+
+**Tasks vs User Personas**
+
+| Tasks | Administradores de Minimarkets (Frecuencia) | Administradores de Minimarkets (Importancia) | Proveedores B2B (Frecuencia) | Proveedores B2B (Importancia) |
+| :--- | :---: | :---: | :---: | :---: |
+| Controlar inventario y niveles de stock | Muy frecuente | Alta | No aplica | No aplica |
+| Gestionar catálogo propio y disponibilidad | No aplica | No aplica | Muy frecuente | Alta |
+| Monitorear temperatura y humedad (IoT) | Muy frecuente | Alta | No aplica | No aplica |
+| Controlar lotes y fechas de vencimiento | Muy frecuente | Alta | Frecuente | Alta |
+| Consultar catálogo de proveedores conectados | Frecuente | Alta | No aplica | No aplica |
+| Generar pedidos de abastecimiento | No aplica | No aplica | Muy frecuente | Alta |
+| Evaluar (aceptar/rechazar) pedidos entrantes | Frecuente | Alta | No aplica | No aplica |
+| Actualizar inventario tras operaciones | Frecuente | Alta | No aplica | No aplica |
+| Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
+| Visualizar dashboard de métricas operativas | Muy frecuente | Alta | Muy frecuente | Alta |
+| Gestionar mermas, pérdidas o donaciones | Ocasional | Media | No aplica | No aplica |
+| Comunicarse y resolver incidencias de logística | Ocasional | Alta | Frecuente | Alta |
+
+La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de MarketGo: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
+
+### 2.3.3. User Journey Mapping
+
+El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de MarketGo, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
+
+**User Journey Map del 1er segmento objetivo – Administradores de Minimarkets**
+
+![User Journey Map - Administrador de Minimarket](assets/chapter-02/user-journey-administrador.png)
+
+El User Journey Map de Russell Estrada ilustra la experiencia actual del segmento de administradores de minimarkets a lo largo de las cinco etapas. En Aware, Russell busca una forma de evitar mermas por pérdida de frío o vencimiento, pero el control visual le demanda mucho tiempo y lo deja expuesto a fallas mecánicas de madrugada, evidenciando la necesidad de un sistema de alertas automatizado. En Join, comienza a coordinar con proveedores a través de WhatsApp y catálogos en PDF desactualizados, lo que refleja la dependencia de canales informales. Durante el Use, experimenta su mayor punto de frustración al recibir propuestas por chat y tener que transcribirlas manualmente a Excel para actualizar su inventario, un proceso propenso a errores humanos que descuadra su stock real. En Develop, sus intentos por formalizar las compras mediante correos electrónicos no prosperan por la urgencia del día a día, recayendo en el desorden de WhatsApp. Finalmente en Leave, el estrés operativo y las pérdidas de capital acumuladas lo motivan a buscar una solución de software centralizada que automatice su control de calidad y abastecimiento, siendo este el punto de entrada directo para MarketGo.
+
+**User Journey Map del 2do segmento objetivo – Proveedores de Productos Orgánicos**
+
+![User Journey Map - Proveedor B2B](assets/chapter-02/user-journey-proveedor.png)
+
+El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
+
+### 2.3.4. Empathy Mapping
+
+El **Empathy Mapping (Mapa de Empatía)**, desarrollado originalmente por Dave Gray, es una herramienta colaborativa de *Needfinding* que permite profundizar en los aspectos emocionales, cognitivos y de comportamiento de los usuarios. A diferencia del perfil demográfico de un *User Persona*, el mapa de empatía sintetiza los hallazgos cualitativos obteniendo una perspectiva desde "dentro de la cabeza" del cliente.
+
+A partir de las entrevistas de validación realizadas, se estructuraron dos mapas de empatía bajo el lienzo **Empathy Map Canvas de 7 preguntas**, representando a un personaje ficticio clave para cada segmento objetivo de **MarketGo**:
+
+---
+
+##### **Segmento 1: Administrador de Minimarket Orgánico**
+
+* **Personaje :** Carlos Mendoza
+* **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
+
+**Mapa de Empatía - Carlos Mendoza**
+
+![Mapa de empatía del administrador Carlos Mendoza](assets/chapter-02/empathy-map-administrador.png)
+
+---
+
+##### **Segmento 2: Proveedora y Distribuidora Mayorista**
+
+* **Personaje :** Valeria Ríos
+* **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
+
+**Mapa de Empatía - Valeria Ríos**
+
+![Mapa de empatía de la proveedora Valeria Ríos](assets/chapter-02/empathy-map-proveedor.png)
+
+
+## 2.4. Big Picture Event Storming
+El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los minimarkets y sus proveedores de productos orgánicos. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
+
+![Leyenda de eventos](assets/chapter-02/event-storming-leyenda.png)
+
+![Big Picture Event Storming de MarketGo](assets/chapter-02/event-storming.png)
+
+## 2.5. Ubiquitous Language
+
+A partir del Big Picture Event Storming se identificaron los términos y conceptos que forman el lenguaje ubicuo del dominio de MarketGo. Este glosario asegura que el equipo de desarrollo, los stakeholders y la documentación utilicen exactamente el mismo significado para cada concepto de negocio a lo largo de todo el proyecto.
+
+| Término | Definición |
+| :--- | :--- |
+| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, aprobar solicitudes de abastecimiento y consultar los indicadores de su negocio dentro de MarketGo. |
+| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, responde solicitudes de abastecimiento y genera órdenes de compra hacia los minimarkets. |
+| **Perfil de negocio** | Conjunto de datos que identifican a un administrador o proveedor dentro de la plataforma (razón social, RUC, cobertura, datos de contacto). |
+| **Rol** | Nivel de acceso asignado a un usuario (administrador o proveedor) que determina las acciones y vistas disponibles para él dentro del sistema. |
+| **Catálogo orgánico** | Read model que consolida todos los productos orgánicos registrados por un proveedor, con su categoría, precio y fecha de expiración validados. |
+| **Lote** | Unidad de stock de un producto orgánico registrada con fecha de ingreso, cantidad y fecha de expiración, utilizada para el control de vencimientos. |
+| **Stock mínimo** | Umbral configurado por producto que, al ser alcanzado, dispara el evento de stock bajo detectado y genera una alerta automática. |
+| **Inventario actual** | Read model que muestra en tiempo real la cantidad disponible de cada producto y lote dentro del almacén del minimarket o proveedor. |
+| **Alerta de stock bajo** | Notificación generada automáticamente cuando el inventario de un producto cae por debajo del stock mínimo configurado. |
+| **Solicitud (Requisition)** | Petición de abastecimiento creada por un administrador o proveedor, que puede ser aceptada o rechazada y cuyo estado es notificado a ambas partes. |
+| **Orden de compra (Procurement)** | Documento generado a partir de una solicitud aceptada, que formaliza la compra de productos entre el proveedor y el minimarket. |
+| **Recepción** | Confirmación de la llegada física de una orden de compra, que actualiza el inventario del minimarket solo si es aceptada. |
+| **Directorio de proveedores** | Read model que agrupa a todos los proveedores registrados y validados (RUC y cobertura) disponibles para un minimarket. |
+| **Dashboard** | Vista consolidada de indicadores operativos, distinta según el rol del usuario (administrador o proveedor), que resume el estado general del negocio. |
+| **Indicador / KPI** | Métrica operativa calculada por el sistema (por ejemplo, mermas, nivel de stock o pedidos pendientes) y mostrada en el dashboard. |
+| **Reporte operativo** | Documento generado por el módulo de Analytics que resume métricas y variaciones de un periodo determinado. |
+| **Conservación (Conservation)** | Contexto vinculado al monitoreo de condiciones ambientales (temperatura y humedad) que afectan la calidad de los productos orgánicos almacenados. |
+| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de una solicitud o una alerta de inventario). |
