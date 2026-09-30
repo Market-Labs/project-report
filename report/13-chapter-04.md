@@ -12,14 +12,14 @@ El logo pricipal se trata de una representación de capas que representan almace
 
 | Logo (Isotipo) | Logotipo / Imagotipo |
 | :---: | :---: |
-| ![Logo](./assets/chapter-04/Logo%20MarketGo.png) | ![Logotipo](./assets/chapter-04/Logotipo%20MarketGo.png) |
+| ![Logo](assets/chapter-04/Logo%20MarketGo.png) | ![Logotipo](assets/chapter-04/Logotipo%20MarketGo.png) |
 | **Isotipo**: Icono representativo de capas y conexiones para avatares, favicon y accesos directos. | **Logotipo**: Versión principal completa con tipografía para cabeceras, landing page y documentación oficial. |
 
 **Tipografía**
 
 La tipografía elegida para nuestro producto es Arimo, una font de la familia Sans Serif. Esta fuente resalta por ser moderna, legible y usada en contextos de tecnología y modernidad. Se utilizará esta fuente en todos los textos y título para mantener consistencia y armonía visual. 
 
-<img src="./assets/chapter-04/Tipografia.png" alt="Texto alternativo" width="400" height="300">
+<img src="assets/chapter-04/Tipografia.png" alt="Texto alternativo" width="400" height="300">
 
 La jerarquía tipografía:
 
@@ -33,7 +33,7 @@ La jerarquía tipografía:
 
 La paleta de colores ha sido seleccionada para demostrar seriedad, confianza y modernidad. Se trata de colores complementarios en la paleta de colores compatibles entre ellos para dar una visión cohesiva y serena. Los colores claros se utilizaran como los colores que ocupan más espacio en la interfaz, y los más oscuros para secciones de importante contraste y botones. 
 
-<img src="./assets/chapter-04/Colores MarketGo.png" width="300" height="300" alt="Paleta de colores">
+<img src="assets/chapter-04/Colores MarketGo.png" width="300" height="300" alt="Paleta de colores">
 
 **Spacing**
 
@@ -359,7 +359,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Home</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -367,7 +367,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Información</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -375,7 +375,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Videos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -383,7 +383,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Planes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -391,7 +391,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe de Landing Page sección Contacto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ### 4.3.2 Landing Page Mock Up
@@ -401,7 +401,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Home</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -409,7 +409,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Información del producto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -417,7 +417,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Videos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -425,7 +425,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Planes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -433,7 +433,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mock up de Landing Page sección Contacto</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="./assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ## 4.4. Web Applications UX/UI Design
@@ -445,7 +445,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Dashboard</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -453,7 +453,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Inventario</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -461,7 +461,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Gestión de lotes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -469,7 +469,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Conservación</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -477,7 +477,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Órdenes de envío</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -485,50 +485,50 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Wireframe Web Application sección Proveedores y Productos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow1.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow1.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Trazabilidad por lote |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow2.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow2.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Monitoreo de conservación |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow3.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow3.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Registro de pérdidas |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow4.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow4.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Solicitud de abastecimiento |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow5.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow5.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Recepción de mercadería |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow6.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow6.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Administrador / Gestión de usuarios y permisos |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Proveedor / Gestión de oferta propia |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Proveedor / Gestión de usuarios y permisos |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow9.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow9.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 | Rol: Proveedor / Gestión de usuarios y permisos |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
 ### 4.4.3. Web Applications Mockups
 
@@ -537,7 +537,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Dashboard</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -545,7 +545,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Inventario</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -553,7 +553,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Gestión de lotes</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -561,7 +561,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Conservación</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -569,7 +569,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Órdenes de envío</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 <div align="center">
@@ -577,26 +577,26 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <em>Mockup Web Application sección Proveedores y Productos</em><br />
   <small><em>Nota.</em> Elaboración propia.</small>
   <br /><br />
-  <img src="assets\chapter-04\MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+  <img src="assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\UserFlow1.png" alt="Web Application User Flow" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/UserFlow1.png" alt="Web Application User Flow" width="800" /></p> |
 
 | Rol: Administrador / Gestion de Lotes |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\UserFlow2.png" alt="Web Application User Flow" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/UserFlow2.png" alt="Web Application User Flow" width="800" /></p> |
 
 | Rol: Administrador / Gestión de pedidos |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\UserFlow3.png" alt="Web Application User Flow" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/UserFlow3.png" alt="Web Application User Flow" width="800" /></p> |
 
 | Rol: Administrador / Gestion de Envíos |
 | :---: |
-| <p align="center"><img src="assets\chapter-04\UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
+| <p align="center"><img src="assets/chapter-04/UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
 
 ## 4.5. Web Applications Prototyping
 [Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
@@ -616,11 +616,11 @@ El desarrollo del proceso de Domain-Driven Design se realizó en LucidChart: [ht
 
 A continuación, se presenta la leyenda utilizada durante el proceso de Event Storming:
 
-![Leyenda Event Storming](../docs/assets/chapter-04/leyenda.png)
+![Leyenda Event Storming](assets/chapter-04/leyenda.png)
 
 El siguiente diagrama presenta el Event Storming general de MarketGo y permite visualizar los principales eventos, comandos, actores y procesos identificados en el dominio:
 
-![MarketGo Event Storming](../docs/assets/chapter-04/EventStorming.png)
+![MarketGo Event Storming](assets/chapter-04/EventStorming.png)
 
 A partir de este análisis se identificaron los siguientes bounded contexts:
 
@@ -628,19 +628,19 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context IAM se encarga de la autenticación, autorización y control de acceso dentro de MarketGo. Gestiona usuarios, roles y permisos, asegurando que cada actor, como el administrador de minimarket o el proveedor, acceda únicamente a las funcionalidades correspondientes a su perfil.
 
-   ![IAM Bounded Context](../docs/assets/chapter-04/bciam.png)
+   ![IAM Bounded Context](assets/chapter-04/bciam.png)
 
 2. **Profiles**
 
    El bounded context Profiles administra la información de los usuarios, minimarkets y proveedores registrados en la plataforma. Su propósito es centralizar los datos de perfil necesarios para personalizar la experiencia, controlar responsabilidades y asociar operaciones con el actor correspondiente.
 
-   ![Profiles Bounded Context](../docs/assets/chapter-04/bcprofile.png)
+   ![Profiles Bounded Context](assets/chapter-04/bcprofile.png)
 
 3. **Dashboard**
 
    El bounded context Dashboard presenta una vista general del estado operativo de la plataforma según el rol del usuario. Permite visualizar indicadores relevantes sobre inventario, abastecimiento, conservación, alertas y actividad reciente.
 
-   ![Dashboard Bounded Context](../docs/assets/chapter-04/bcdashboard.png)
+   ![Dashboard Bounded Context](assets/chapter-04/bcdashboard.png)
 
 4. **Analytics**
 
@@ -650,43 +650,43 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
 
-   ![Inventory Bounded Context](../docs/assets/chapter-04/bcinventory.png)
+   ![Inventory Bounded Context](assets/chapter-04/bcinventory.png)
 
 6. **Products**
 
    El bounded context Products administra el catálogo de productos orgánicos ofrecidos por proveedores o registrados por minimarkets. Centraliza información como nombre, categoría, descripción, unidad de medida, disponibilidad y datos relevantes para su comercialización o abastecimiento.
 
-   ![Products Bounded Context](../docs/assets/chapter-04/bcproducts.png)
+   ![Products Bounded Context](assets/chapter-04/bcproducts.png)
 
 7. **Requisition**
 
    El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
 
-   ![Requisition Bounded Context](../docs/assets/chapter-04/bcrequisition.png)
+   ![Requisition Bounded Context](assets/chapter-04/bcrequisition.png)
 
 8. **Procurements**
 
    El bounded context Procurements administra las órdenes de envío asociadas a solicitudes de abastecimiento aceptadas. Su responsabilidad es permitir al proveedor registrar los productos y cantidades que serán enviados, mientras que el administrador del minimarket puede revisar, aceptar o rechazar la recepción. Cuando una orden de envío es aceptada, los productos recibidos pueden incorporarse al inventario correspondiente.
 
-   ![Procurements Bounded Context](../docs/assets/chapter-04/bcprocurenments.png)
+   ![Procurements Bounded Context](assets/chapter-04/bcprocurenments.png)
 
 9. **Suppliers**
 
    El bounded context Suppliers gestiona el directorio de proveedores de productos orgánicos, así como los productos que ofrecen y su participación dentro de los procesos de abastecimiento.
 
-   ![Suppliers Bounded Context](../docs/assets/chapter-04/bcsuppliers.png)
+   ![Suppliers Bounded Context](assets/chapter-04/bcsuppliers.png)
 
 10. **Conservation**
 
     El bounded context Conservation permite monitorear condiciones de conservación de productos, como temperatura y humedad. Su propósito es identificar riesgos de deterioro y generar alertas cuando las condiciones se encuentren fuera de los rangos aceptables.
 
-    ![Conservation Bounded Context](../docs/assets/chapter-04/bcconvervation.png)
+    ![Conservation Bounded Context](assets/chapter-04/bcconvervation.png)
 
 11. **Communication**
 
     El bounded context Communication gestiona las alertas y notificaciones generadas por la plataforma. Incluye avisos sobre productos próximos a vencer, condiciones de conservación riesgosas, solicitudes pendientes, órdenes de envío y eventos relevantes para los usuarios.
 
-    ![Communication Bounded Context](../docs/assets/chapter-04/bccommunication.png)
+    ![Communication Bounded Context](assets/chapter-04/bccommunication.png)
 
 12. **Shared Kernel**
 
@@ -708,7 +708,7 @@ El context diagram muestra al **MarketGo Software System** como el sistema centr
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan con MarketGo mediante la aplicación web, mientras que el sistema coordina los procesos internos y las integraciones necesarias para alertas, monitoreo y trazabilidad operativa.
 
-![Software Architecture Context Diagram](../docs/assets/chapter-04/Contexto-dark.png)
+![Software Architecture Context Diagram](assets/chapter-04/Contexto-dark.png)
 
 ---
 
@@ -730,7 +730,7 @@ En el diagrama se observa que:
 - La **API REST Application** procesa la lógica del dominio y persiste la información en la **Database**.
 - Los módulos de comunicación y conservación pueden integrarse con servicios externos para notificaciones y monitoreo de condiciones ambientales.
 
-![Software Architecture Container Diagram](../docs/assets/chapter-04/Contenedor-dark.png)
+![Software Architecture Container Diagram](assets/chapter-04/Contenedor-dark.png)
 
 ---
 
@@ -755,47 +755,47 @@ La API REST organiza sus responsabilidades en componentes especializados:
 
 #### IAM Component Diagram
 
-![IAM Component Diagram](../docs/assets/chapter-04/IAMBCComponentDiagram-dark.png)
+![IAM Component Diagram](assets/chapter-04/IAMBCComponentDiagram-dark.png)
 
 #### Profiles Component Diagram
 
-![Profiles Component Diagram](../docs/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
+![Profiles Component Diagram](assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
 
 #### Dashboard Component Diagram
 
-![Dashboard Component Diagram](../docs/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
+![Dashboard Component Diagram](assets/chapter-04/DashboardBCComponentDiagram-dark.png)
 
 #### Analytics Component Diagram
 
-![Analytics Component Diagram](../docs/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
+![Analytics Component Diagram](assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
 
 #### Inventory Component Diagram
 
-![Inventory Component Diagram](../docs/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
+![Inventory Component Diagram](assets/chapter-04/InventoryBCComponentDiagram-dark.png)
 
 #### Products Component Diagram
 
-![Products Component Diagram](../docs/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
+![Products Component Diagram](assets/chapter-04/ProductsBCComponentDiagram-dark.png)
 
 #### Procurements Component Diagram
 
-![Procurements Component Diagram](../docs/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
+![Procurements Component Diagram](assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
 
 #### Suppliers Component Diagram
 
-![Suppliers Component Diagram](../docs/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
+![Suppliers Component Diagram](assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
 
 #### Conservation Component Diagram
 
-![Conservation Component Diagram](../docs/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
+![Conservation Component Diagram](assets/chapter-04/ConservationBCComponentDiagram-dark.png)
 
 #### Communication Component Diagram
 
-![Communication Component Diagram](../docs/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
+![Communication Component Diagram](assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
 
 #### Shared Kernel Component Diagram
 
-![Shared Kernel Component Diagram](../docs/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
+![Shared Kernel Component Diagram](assets/chapter-04/SharedKernelComponentDiagram-dark.png)
 
 De esta forma, los component diagrams complementan la visión general de la arquitectura, mostrando cómo MarketGo organiza sus responsabilidades internas en componentes coherentes con el dominio y cómo estos colaboran para implementar la gestión de productos orgánicos, inventario, conservación, abastecimiento, proveedores, comunicación y analítica.
 
@@ -808,52 +808,52 @@ En esta sección se presenta el diseño orientado a objetos de MarketGo, represe
 ### 4.7.7. Class Diagrams
 
 Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
-![Class Diagram MaketGo](../docs/assets/chapter-04/diagramClassMarkGo.png)
+![Class Diagram MaketGo](assets/chapter-04/diagramClassMarkGo.png)
 A continuación, se presentan los diagramas de clases correspondientes a los principales bounded contexts de MarketGo:
 
 #### Communication Class Diagram
 
-![Communication Class Diagram](../docs/assets/chapter-04/dccommunicatiob.png)
+![Communication Class Diagram](assets/chapter-04/dccommunicatiob.png)
 
 #### Procurements Class Diagram
 
-![Procurements Class Diagram](../docs/assets/chapter-04/dcprocurenments.png)
+![Procurements Class Diagram](assets/chapter-04/dcprocurenments.png)
 
 #### Dashboard Class Diagram
 
-![Dashboard Class Diagram](../docs/assets/chapter-04/dcdashboard.png)
+![Dashboard Class Diagram](assets/chapter-04/dcdashboard.png)
 
 #### Conservation Class Diagram
 
-![Conservation Class Diagram](../docs/assets/chapter-04/dcconservation.png)
+![Conservation Class Diagram](assets/chapter-04/dcconservation.png)
 
 #### Analytics Class Diagram
 
-![Analytics Class Diagram](../docs/assets/chapter-04/dcanalitycs.png)
+![Analytics Class Diagram](assets/chapter-04/dcanalitycs.png)
 
 #### Inventory Class Diagram
 
-![Inventory Class Diagram](../docs/assets/chapter-04/dcinventory.png)
+![Inventory Class Diagram](assets/chapter-04/dcinventory.png)
 
 #### Products Class Diagram
 
-![Products Class Diagram](../docs/assets/chapter-04/dcproducts.png)
+![Products Class Diagram](assets/chapter-04/dcproducts.png)
 
 #### IAM Class Diagram
 
-![IAM Class Diagram](../docs/assets/chapter-04/dciam.png)
+![IAM Class Diagram](assets/chapter-04/dciam.png)
 
 #### Profiles Class Diagram
 
-![Profiles Class Diagram](../docs/assets/chapter-04/dcprofiles.png)
+![Profiles Class Diagram](assets/chapter-04/dcprofiles.png)
 
 #### Suppliers Class Diagram
 
-![Suppliers Class Diagram](../docs/assets/chapter-04/dcsuppliers.png)
+![Suppliers Class Diagram](assets/chapter-04/dcsuppliers.png)
 
 #### Requisition Class Diagram
 
-![Requisition Class Diagram](../docs/assets/chapter-04/dcrequisition.png)
+![Requisition Class Diagram](assets/chapter-04/dcrequisition.png)
 
 Estos diagramas permiten complementar la arquitectura de software, mostrando una vista más detallada del diseño orientado a objetos de MarketGo. A través de ellos se puede identificar cómo se distribuyen las responsabilidades entre las clases y cómo estas representan los principales conceptos de cada bounded context.
 
@@ -869,4 +869,4 @@ La base de datos se encuentra organizada de acuerdo con los bounded contexts def
 
 El diagrama de base de datos muestra las entidades principales de MarketGo, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se estructura la persistencia de los datos y cómo se relacionan las entidades que soportan los procesos principales de la plataforma.
 
-![MarketGo Database Diagram](../docs/assets/chapter-04/MarketGoDiagramBD.png)
+![MarketGo Database Diagram](assets/chapter-04/MarketGoDiagramBD.png)
