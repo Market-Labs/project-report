@@ -416,23 +416,23 @@ Ante esto nos surge la siguiente pregunta:
 
 **Hypothesis 1**
 
-Creemos que al centralizar la gestión de inventarios, lotes y fechas de vencimiento de los minimarkets, facilitaremos la identificación de productos próximos a vencer. Lo sabremos cuando los administradores puedan identificar los productos críticos desde el dashboard sin necesidad de consultar diferentes registros.
+*We believe we will achieve* an increase in batch and expiration date traceability *If* Minimarket Administrators *Attain* higher confidence in inventory information through a centralized record of products, batches, and expirations *With* a centralized inventory and batch management module.
 
 **Hypothesis 2**
 
-Creemos que al implementar un sistema de monitoreo de temperatura y humedad, acompañado de alertas basadas en los requisitos de conservación de cada producto, mejoraremos la capacidad de los administradores para detectar condiciones de riesgo. Lo sabremos cuando puedan identificar y atender oportunamente las alertas generadas.
+*We believe we will achieve* a reduction in the time required to identify products or batches at risk and a decrease in products discarded due to inadequate storage conditions *If* Minimarket Administrators *Attain* timely identification of anomalous environmental conditions that pose a risk to organic products *With* an environmental storage monitoring system with automated temperature and humidity alerts.
 
 **Hypothesis 3**
 
-Creemos que al permitir que los proveedores consulten productos disponibles y generen pedidos de abastecimiento desde el mismo dashboard, facilitaremos la coordinación de las operaciones entre proveedores y minimarkets. Lo sabremos cuando los proveedores puedan realizar pedidos y consultar su estado sin utilizar canales externos de comunicación.
+*We believe we will achieve* improved information availability for replenishment decision-making *If* Minimarket Administrators and Suppliers *Attain* the ability to check product availability and initiate replenishment orders from a single platform without external channels *With* a supplier product catalog and replenishment order generation tool.
 
 **Hypothesis 4**
 
-Creemos que al centralizar el ciclo de vida de los pedidos y automatizar la incorporación de los productos al inventario después de su aceptación, reduciremos los errores y el tiempo necesario para actualizar el inventario. Lo sabremos cuando los administradores puedan aceptar un pedido y visualizar automáticamente los productos correspondientes en su inventario.
+*We believe we will achieve* increased traceability of orders from creation to acceptance and inventory incorporation *If* Minimarket Administrators *Attain* efficient, automatic inventory updates upon order acceptance and reduced uncertainty regarding order status *With* an automated order lifecycle management and automatic inventory integration feature.
 
 **Hypothesis 5**
 
-Creemos que al utilizar un dashboard común con permisos diferenciados para administradores de minimarkets y proveedores, facilitaremos el uso de la plataforma y mantendremos la seguridad de la información. Lo sabremos cuando cada usuario pueda acceder a la información y ejecutar únicamente las acciones correspondientes a su rol.
+*We believe we will achieve* consistent operational centralization across buyers and suppliers while preserving system security *If* Minimarket Administrators and Suppliers *Attain* streamlined execution of role-specific tasks without unauthorized data modification *With* a common dashboard with role-based access control and differentiated permissions.
 
 ---
 
