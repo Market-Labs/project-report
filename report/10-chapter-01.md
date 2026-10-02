@@ -170,7 +170,7 @@ Ante esto nos surge la siguiente pregunta:
 
 **Hypothesis 1**
 
-We believe we will achieve an increase in batch and expiration date traceability If Minimarket Administrators Attain higher confidence in inventory information through a centralized record of products, batches, and expirations With a centralized inventory and batch management module.
+**We believe we will achieve** an increase in batch and expiration date traceability **If** Minimarket Administrators **Attain** higher confidence in inventory information through a centralized record of products, batches, and expirations **With** a centralized inventory and batch management module.
 
 **Hypothesis 2**
 
