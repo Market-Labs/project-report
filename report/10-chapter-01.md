@@ -164,6 +164,20 @@ Ante esto nos surge la siguiente pregunta:
 
 6. Los administradores de minimarkets podrán mantener actualizado su inventario de forma más eficiente al incorporar automáticamente los productos correspondientes cuando acepten un pedido.
 
+**Feature Assumptions**
+
+1. Creemos que un Dashboard de Monitoreo IoT en Tiempo Real (que muestre temperatura y humedad de las áreas de almacenamiento y equipos de refrigeración en tiempo real) permitirá al personal operativo detectar inmediatamente variaciones críticas en las condiciones de conservación antes de que los productos orgánicos se deterioren.
+
+2. Creemos que un Sistema Automático de Alertas e Incidencias (notificaciones instantáneas vía web ante lecturas fuera de rango o desconexión de sensores) reducirá significativamente el tiempo de respuesta del personal de almacén frente a fallas técnicas en los equipos de frío.
+
+3. Creemos que un Módulo de Gestión de Inventario y Fechas de Vencimiento (con trazabilidad de lotes orgánicos y alertas de caducidad cercana basadas en criterios FEFO/FIFO) optimizará la rotación del inventario perecible y evitará la pérdida de productos por caducidad.
+
+4. Creemos que un Módulo de Analítica de Datos y Reportes Históricos (con gráficos explicativos sobre variaciones de temperatura, estimación económica de mermas y tendencias de conservación) brindará a los administradores de minimarkets la información necesaria para tomar decisiones estratégicas de compra y mantenimiento preventivo.
+
+5. Creemos que un Control de Acceso basado en Roles (RBAC) (interfaces y permisos diferenciados para Administradores de Tienda y Encargados de Almacén) garantizará que cada perfil de usuario interactúe únicamente con las herramientas relevantes para sus responsabilidades cotidianas, reduciendo la fricción de uso.
+
+6. Creemos que un Landing Page Interactivo con llamadas a la acción diferenciadas para cada segmento objetivo dirigirá a los visitantes directamente a los flujos correspondientes de la aplicación web, incrementando la conversión de prospectos a usuarios registrados.
+
 ---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
