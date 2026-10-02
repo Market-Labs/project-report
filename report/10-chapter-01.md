@@ -174,19 +174,19 @@ Ante esto nos surge la siguiente pregunta:
 
 **Hypothesis 2**
 
-We believe we will achieve a reduction in the time required to identify products or batches at risk and a decrease in products discarded due to inadequate storage conditions If Minimarket Administrators Attain timely identification of anomalous environmental conditions that pose a risk to organic products With an environmental storage monitoring system with automated temperature and humidity alerts.
+**We believe we will achieve** a reduction in the time required to identify products or batches at risk and a decrease in products discarded due to inadequate storage conditions **If** Minimarket Administrators **Attain** timely identification of anomalous environmental conditions that pose a risk to organic products **With** an environmental storage monitoring system with automated temperature and humidity alerts.
 
 **Hypothesis 3**
 
-We believe we will achieve improved information availability for replenishment decision-making If Minimarket Administrators and Suppliers Attain the ability to check product availability and initiate replenishment orders from a single platform without external channels With a supplier product catalog and replenishment order generation tool.
+**We believe we will achieve** improved information availability for replenishment decision-making **If** Minimarket Administrators and Suppliers **Attain** the ability to check product availability and initiate replenishment orders from a single platform without external channels **With** a supplier product catalog and replenishment order generation tool.
 
 **Hypothesis 4**
 
-We believe we will achieve increased traceability of orders from creation to acceptance and inventory incorporation If Minimarket Administrators Attain efficient, automatic inventory updates upon order acceptance and reduced uncertainty regarding order status With an automated order lifecycle management and automatic inventory integration feature.
+**We believe we will achieve** increased traceability of orders from creation to acceptance and inventory incorporation **If** Minimarket Administrators **Attain** efficient, automatic inventory updates upon order acceptance and reduced uncertainty regarding order status **With** an automated order lifecycle management and automatic inventory integration feature.
 
 **Hypothesis 5**
 
-We believe we will achieve consistent operational centralization across buyers and suppliers while preserving system security If Minimarket Administrators and Suppliers Attain streamlined execution of role-specific tasks without unauthorized data modification With a common dashboard with role-based access control and differentiated permissions.
+**We believe we will achieve** consistent operational centralization across buyers and suppliers while preserving system security **If** Minimarket Administrators and Suppliers **Attain** streamlined execution of role-specific tasks without unauthorized data modification **With** a common dashboard with role-based access control and differentiated permissions.
 
 ---
 
