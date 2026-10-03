@@ -88,6 +88,13 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 > - 100% of accepted shipping orders updating the minimarket's inventory without manual entry.
 > - At least 20 active minimarkets and 5 active suppliers using the platform weekly by the end of the first semester.
 
+**Restricciones (constraints) consideradas:**
+
+- El MVP se desarrolla como aplicación web responsive (Landing Page, Web Application y RESTful API), sin aplicación móvil nativa.
+- El monitoreo de temperatura y humedad utiliza datos simulados en la etapa inicial; la integración con sensores físicos queda fuera del alcance inicial.
+- La plataforma no procesa pagos ni facturación electrónica; las condiciones comerciales se acuerdan fuera de MarketGo.
+- El proveedor no puede modificar el inventario del minimarket: toda incorporación de productos depende de que el administrador acepte la orden de envío.
+- El alcance geográfico inicial es Lima Metropolitana.
 
 
 
