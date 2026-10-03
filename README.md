@@ -61,7 +61,7 @@
     </tr>
     <tr>
       <td align="center">u201815005</td>
-      <td align="left">Quispe Alomnacid, Andre Sebastian </td>
+      <td align="left">Quispe Almonacid, Andre Sebastian </td>
     </tr>
     <tr>
       <td align="center">U20241G152</td>
@@ -78,19 +78,17 @@
 
 ---
 
-# Registro de versiones del informe
+# Registro de Versiones del Informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
-| 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Alomnacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
-| 2.0.0 | DD/MM/AAAA | Nombres completos de los integrantes | [Descripción de los cambios realizados en esta versión] |
-| 3.0.0 | DD/MM/AAAA |Nombres de integrantes | [Descripción de los cambios realizados en esta versión] |
+| 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Almonacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
 
 ---
 
 # Project Report Collaboration Insights
 El presente apartado tiene como finalidad evidenciar el trabajo colaborativo realizado durante el desarrollo del informe. Para ello, se pone a disposición el repositorio oficial del proyecto, alojado en una organización pública de GitHub:
 
-Link de la organización: 🔗https://github.com/Market-Labs
+Repositorio del Project Report: https://github.com/Market-Labs/project-report
 
 A partir de este repositorio, se analiza la participación de los integrantes del equipo mediante indicadores como número de commits, frecuencia de contribuciones y actividad general registrada en la plataforma.
 
@@ -130,92 +128,119 @@ La siguiente figura muestra el historial de commits realizados por los integrant
 
 # Contenido
 
-## Tabla de contenidos
+- [Carátula](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/01-title-page.md)
+- [Registro de Versiones del Informe](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/02-version-control-log.md)
+- [Project Report Collaboration Insights](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/03-collaboration-insights.md)
+- [Student Outcome](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/05-student-outcomes.md)
 
-### Front Matter
+- [Capítulo I: Introducción](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#capítulo-i-introducción)
+  - [1.1. Startup Profile](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#13-segmentos-objetivo)
+    - [1.3.1. Segmento objetivo 1: Administradores de Minimarkets](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#131-segmento-objetivo-1-administradores-de-minimarkets)
+    - [1.3.2. Segmento objetivo 2: Proveedores](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#132-segmento-objetivo-2-proveedores)
 
-- [Carátula](./front-matter/01-title-page.md)
-- [Registro de Versiones del Informe](./front-matter/02-version-control-log.md)
-- [Student Outcome](./front-matter/05-student-outcomes.md)
+- [Capítulo II: Requirements Elicitation & Analysis](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#21-competidores)
+    - [2.1.1. Análisis competitivo.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#223-análisis-de-entrevistas)
+      - [1. Descripción general del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#1-descripción-general-del-segmento)
+      - [2. Características objetivas del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#2-características-objetivas-del-segmento)
+      - [3. Características subjetivas del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#3-características-subjetivas-del-segmento)
+      - [4. Hallazgos principales](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#4-hallazgos-principales)
+      - [5. Conclusión del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#5-conclusión-del-segmento)
+  - [2.3. Needfinding.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#23-needfinding)
+    - [2.3.1. User Personas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#231-user-personas)
+    - [2.3.2. User Task Matrix.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#25-ubiquitous-language)
 
-### Contenido del Informe
+- [Capítulo III: Requirements Specification](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#capítulo-iii-requirements-specification)
+  - [3.1. User Stories.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#31-user-stories)
+  - [3.2. Impact Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#32-impact-mapping)
+  - [3.3. Product Backlog.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#33-product-backlog)
 
-- [Abstract](./10-chapter-01.md#abstract)
-- [Resumen](./10-chapter-01.md#resumen)
+- [Capítulo IV: Product Design](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#capítulo-iv-product-design)
+  - [4.1. Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#412-web-style-guidelines)
+  - [4.2. Information Architecture.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#42-information-architecture)
+    - [4.2.1. Organization Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#421-organization-systems)
+    - [4.2.2. Labeling Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#424-searching-systems)
+    - [4.2.5. Navigation Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#471-class-diagrams)
+  - [4.8. Database Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#48-database-design)
+    - [4.8.1. Database Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#481-database-diagrams)
 
-- [Capítulo I: Introducción](./10-chapter-01.md)
-    - [1.1. Startup Profile](./10-chapter-01.md#11-startup-profile)
-    - [1.2. Solution Profile](./10-chapter-01.md#12-solution-profile)
-    - [1.3. Segmentos objetivo](./10-chapter-01.md#13-segmentos-objetivo)
+- [Capítulo V: Product Implementation, Validation & Deployment](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5218-team-collaboration-insights-during-sprint)
 
-- [Capítulo II: Requirements Elicitation & Analysis](./11-chapter-02.md)
-    - [2.1. Competidores](./11-chapter-02.md#21-competidores)
-    - [2.2. Entrevistas](./11-chapter-02.md#22-entrevistas)
-    - [2.3. Needfinding](./11-chapter-02.md#23-needfinding)
-    - [2.4. Big Picture EventStorming](./11-chapter-02.md#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](./11-chapter-02.md#25-ubiquitous-language)
+- [Conclusiones](https://github.com/Market-Labs/project-report/blob/main/report/15-chapter-06.md#conclusiones)
+  - [Conclusiones y recomendaciones.](https://github.com/Market-Labs/project-report/blob/main/report/15-chapter-06.md#conclusiones-y-recomendaciones)
 
-- [Capítulo III: Requirements Specification](./12-chapter-03.md)
-    - [3.1. User Stories](./12-chapter-03.md#31-user-stories)
-    - [3.2. Impact Mapping](./12-chapter-03.md#32-impact-mapping)
-    - [3.3. Product Backlog](./12-chapter-03.md#33-product-backlog)
-
-- [Capítulo IV: Product Design](./13-chapter-04.md)
-    - [4.1. Style Guidelines](./13-chapter-04.md#41-style-guidelines)
-    - [4.2. Information Architecture](./13-chapter-04.md#42-information-architecture)
-    - [4.3. Landing Page UI Design](./13-chapter-04.md#43-landing-page-ui-design)
-    - [4.4. Web Applications UX/UI Design](./13-chapter-04.md#44-web-applications-uxui-design)
-    - [4.5. Web Applications Prototyping](./13-chapter-04.md#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](./13-chapter-04.md#46-domain-driven-software-architecture)
-    - [4.7. Software Object-Oriented Design](./13-chapter-04.md#47-software-object-oriented-design)
-    - [4.8. Database Design](./13-chapter-04.md#48-database-design)
-
-- [Capítulo V: Product Implementation, Validation & Deployment](./14-chapter-05.md)
-    - [5.1. Software Configuration Management](./14-chapter-05.md#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](./14-chapter-05.md#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](./14-chapter-05.md#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](./14-chapter-05.md#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](./14-chapter-05.md#514-software-deployment-configuration)
-
-    - [5.2. Landing Page, Services & Applications Implementation](./14-chapter-05.md#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](./14-chapter-05.md#521-sprint-1)
-        - [5.2.2. Sprint 2](./14-chapter-05.md#522-sprint-2)
-        - [5.2.3. Sprint 3](./14-chapter-05.md#523-sprint-3)
-
-    - [5.3. Validation Interviews](./14-chapter-05.md#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](./14-chapter-05.md#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](./14-chapter-05.md#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](./14-chapter-05.md#533-evaluaciones-según-heurísticas)
-
-    - [5.4. Video About-the-Product](./14-chapter-05.md#54-video-about-the-product)
-
-- [Capítulo VI: Conclusions](./15-chapter-06.md)
-    - [6.1. Conclusiones y recomendaciones](./15-chapter-06.md#61-conclusiones-y-recomendaciones)
-    - [6.2. Video About-the-Team](./15-chapter-06.md#62-video-about-the-team)
-
-- [Bibliografía](./99-bibliography.md)
-
-- [Anexos](./16-annexes.md)
-    - [Anexo A: Videos de Exposiciones](./16-annexes.md#anexo-a-videos-de-exposiciones)
+- [Bibliografía](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/99-bibliography.md)
+- [Anexos](https://github.com/Market-Labs/project-report/blob/main/report/annexes/anex-a-raw-data.md)
 
 ---
 
 # Student Outcome
+
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 5**  
 **Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-En el siguiente cuadro se describen las acciones realizadas y las conclusiones del equipo, que permiten sustentar el logro del ABET – EAC - Student Outcome 5.
-
----
-
-## Tabla de Student Outcome
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades para el desarrollo de los capítulos del Project Report y Sprint 1.<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br><br>**Quispe Alomnacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1. | **AV1:** El equipo demostró liderazgo compartido mediante la distribución de responsabilidades para desarrollar los capítulos I, II, III, IV y V del Project Report. Asimismo, la planificación del Sprint 1 permitió coordinar las tareas mediante el Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación de actividades, distribución de responsabilidades y seguimiento del desarrollo de los capítulos y actividades del Sprint 1.<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br><br>**Quispe Alomnacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1. | **AV1:** La planificación y distribución de tareas permitió al equipo avanzar de manera organizada en los capítulos del Project Report y las actividades del Sprint 1. El Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores facilitaron la organización del trabajo y el cumplimiento de los objetivos establecidos. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Asumió el liderazgo de UI/UX y GitFlow/despliegue en la matriz LACX; el Sprint Backlog le asigna la sección Home, la estructura Vue y la configuración de ramas (T001, T006 y T007).<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Asumió el liderazgo de la estructura y componentes Vue en la matriz LACX; el Sprint Backlog le asigna la sección de información del producto (T002).<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Asumió el liderazgo de contenido e internacionalización en la matriz LACX; el Sprint Backlog le asigna la sección de videos (T003).<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Participó como colaborador en la matriz LACX y tuvo a cargo la maquetación de planes de la landing page (T004).<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó como colaborador en la matriz LACX y tuvo a cargo la sección de contacto (T005). | **AV1:** La matriz LACX distribuyó el liderazgo entre UI/UX y GitFlow, estructura Vue, y contenido e internacionalización. El Sprint Backlog asignó tareas concretas a los cinco integrantes para entregar la primera versión de la landing page. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Preparó el Sprint Planning 1 y registró la organización de ramas y commits como tarea T007 del Sprint Backlog.<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Desarrolló la sección de información del producto prevista en T002 y participó como colaborador en los demás aspectos de la matriz LACX.<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Desarrolló la sección de videos prevista en T003 y participó como colaboradora en los demás aspectos de la matriz LACX.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Desarrolló la sección de planes prevista en T004 y participó como colaborador en los aspectos registrados en la matriz LACX.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Desarrolló la sección de contacto prevista en T005 y participó como colaborador en los aspectos registrados en la matriz LACX. | **AV1:** El Sprint Planning 1 fijó la meta de entregar la landing page inicial. La matriz LACX y el Sprint Backlog registran responsabilidades, tareas y estado de las actividades, lo que permite relacionar la planificación con la ejecución documentada del Sprint 1. |
 
 ---
 
@@ -236,8 +261,6 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 **Valores:** Innovación, eficiencia, sostenibilidad, transparencia, adaptabilidad y orientación al usuario.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-
-> **Plantilla:** completar los datos de cada integrante y reemplazar la ruta de la imagen por la fotografía correspondiente.
 
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
@@ -289,9 +312,9 @@ Ante este escenario, se propone una plataforma digital que centralice la informa
 
 ---
 
-### 1.2.2. Lean UX Process
+### 1.2.2. Lean UX Process.
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements.
 
 Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos en riesgo.
 
@@ -319,7 +342,7 @@ Ante esto nos surge la siguiente pregunta:
 
 ---
 
-#### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions.
 
 **Business Assumptions:**
 
@@ -389,7 +412,7 @@ Ante esto nos surge la siguiente pregunta:
 
 ---
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements.
 
 **Hypothesis 1**
 
@@ -413,7 +436,7 @@ Creemos que al utilizar un dashboard común con permisos diferenciados para admi
 
 ---
 
-#### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas.
 
 <table>
   <tr>
@@ -514,7 +537,7 @@ Creemos que al utilizar un dashboard común con permisos diferenciados para admi
 
 ---
 
-## 1.3. Segmentos Objetivos
+## 1.3. Segmentos objetivo.
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
 
@@ -522,7 +545,7 @@ Estos segmentos representan dos tipos de organizaciones con necesidades de negoc
 
 Los roles operativos que puedan existir dentro de cada empresa forman parte de la estructura interna de cada segmento y no constituyen segmentos objetivos independientes.
 
-### 1.3.1. Segemento Objetivo 1: Administradores de Minimarkets
+### 1.3.1. Segmento objetivo 1: Administradores de Minimarkets
 
 | Dimensión | Detalle del perfil |
 |---|---|
@@ -544,7 +567,11 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 
 ---
 
-### 2.1.1. Análisis competitivo
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores.
+
+### 2.1.1. Análisis competitivo.
 
 Este análisis permite identificar cómo se posiciona **MarketGo** frente a soluciones especializadas en la gestión y conservación de productos perecibles, así como frente a plataformas digitales orientadas a la conexión entre compradores y proveedores. A partir de ello, se busca definir una ventaja competitiva basada en la integración de la gestión de inventarios, conservación y abastecimiento de productos orgánicos dentro de una misma plataforma.
 
@@ -771,7 +798,7 @@ Este análisis permite identificar cómo se posiciona **MarketGo** frente a solu
   </tbody>
 </table>
 
-### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores.
 
 A partir de la identificación de fortalezas y debilidades competitivas, la startup **Market-Labs** aplicará el siguiente conjunto de estrategias y tácticas preliminares para posicionar a **MarketGo** como una solución integral para la gestión y abastecimiento de productos orgánicos en minimarkets.
 
@@ -807,11 +834,11 @@ MarketGo buscará construir una base tecnológica que permita ampliar progresiva
 - **Analítica futura:** incorporar progresivamente herramientas de analítica y Machine Learning para identificar patrones de deterioro y apoyar la toma de decisiones.
 - **Escalabilidad:** extender la solución hacia otros negocios que gestionen productos perecibles manteniendo el enfoque inicial en minimarkets y proveedores de productos orgánicos.
 
-## 2.2. Entrevistas
+## 2.2. Entrevistas.
 
 En esta sección se aborda la investigación tomando como base la recolección de información mediante entrevistas a representantes de los segmentos objetivo. Las entrevistas serán registradas en video como evidencia del proceso de obtención de requisitos.
 
-### 2.2.1. Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas.
 
 Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron las siguientes preguntas siguiendo las buenas prácticas para el diseño de recolección de información:
 
@@ -871,7 +898,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
 16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
 
-### 2.2.2. Registro de entrevistas
+### 2.2.2. Registro de entrevistas.
 
 **Segmento objetivo: Administradores de Minimarkets**
 
@@ -1192,9 +1219,9 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
   </tbody>
 </table>
 
-### 2.2.3. Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas.
 
-### Análisis por segmento objetivo
+**Análisis por segmento objetivo**
 
 **Segmento objetivo: Administradores de Minimarkets**
 
@@ -1236,9 +1263,9 @@ Los principales problemas identificados se relacionan con el tiempo empleado en 
 
 A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de MarketGo.
 
-## 2.3. Needfinding
+## 2.3. Needfinding.
 
-### 2.3.1. User Personas
+### 2.3.1. User Personas.
 
 A partir de los hallazgos obtenidos en las entrevistas de validación, se construyeron los arquetipos representativos de nuestros segmentos objetivos utilizando la plataforma UXPressia. Estos perfiles estructuran la información demográfica, las motivaciones principales (Gains), los puntos de dolor operativos (Pains) y el nivel de dominio tecnológico de cada usuario, garantizando que la arquitectura y experiencia de la plataforma **MarketGo** se diseñen centradas en sus necesidades reales.
 
@@ -1250,7 +1277,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ![User Persona - Marco Antonio Ríos](report/assets/chapter-02/user-persona-proveedor.png)
 
-### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix.
 
 Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
 
@@ -1273,7 +1300,7 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 
 La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de MarketGo: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
 
-### 2.3.3. User Journey Mapping
+### 2.3.3. User Journey Mapping.
 
 El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de MarketGo, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
 
@@ -1289,7 +1316,7 @@ El User Journey Map de Russell Estrada ilustra la experiencia actual del segment
 
 El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
 
-### 2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping.
 
 El **Empathy Mapping (Mapa de Empatía)**, desarrollado originalmente por Dave Gray, es una herramienta colaborativa de *Needfinding* que permite profundizar en los aspectos emocionales, cognitivos y de comportamiento de los usuarios. A diferencia del perfil demográfico de un *User Persona*, el mapa de empatía sintetiza los hallazgos cualitativos obteniendo una perspectiva desde "dentro de la cabeza" del cliente.
 
@@ -1318,14 +1345,14 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 ![Mapa de empatía de la proveedora Valeria Ríos](report/assets/chapter-02/empathy-map-proveedor.png)
 
 
-## 2.4. Big Picture Event Storming
+## 2.4. Big Picture EventStorming.
 El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los minimarkets y sus proveedores de productos orgánicos. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
 ![Leyenda de eventos](report/assets/chapter-02/event-storming-leyenda.png)
 
 ![Big Picture Event Storming de MarketGo](report/assets/chapter-02/event-storming.png)
 
-## 2.5. Ubiquitous Language
+## 2.5. Ubiquitous Language.
 
 A partir del Big Picture Event Storming se identificaron los términos y conceptos que forman el lenguaje ubicuo del dominio de MarketGo. Este glosario asegura que el equipo de desarrollo, los stakeholders y la documentación utilicen exactamente el mismo significado para cada concepto de negocio a lo largo de todo el proyecto.
 
@@ -1354,9 +1381,11 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 
 # Capítulo III: Requirements Specification
 
-## TO-BE Scenario Mapping
+## 3.1. User Stories.
 
-### Administradores de Minimarkets
+### TO-BE Scenario Mapping
+
+#### Administradores de Minimarkets
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -1365,7 +1394,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | Toma de decisión | Consulta las órdenes de envío generadas por los proveedores y decide aceptarlas o rechazarlas después de revisar los productos y cantidades enviados. | “Necesito verificar que los productos recibidos correspondan con lo solicitado antes de incorporarlos al inventario.” | Responsable y seguro al contar con información centralizada. |
 | Seguimiento y control | Consulta el estado de sus pedidos y órdenes de envío. Cuando acepta una orden de envío, los productos recibidos se incorporan automáticamente al inventario del minimarket. | “Necesito conocer cómo avanzan mis pedidos y asegurar que solo los productos recibidos ingresen al inventario.” | Vigilante, con mayor sensación de control y seguridad. |
 
-### Proveedores de Productos Orgánicos
+#### Proveedores de Productos Orgánicos
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -1374,9 +1403,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | Gestión de órdenes de envío | Para los pedidos aceptados, genera una orden de envío indicando los productos, cantidades y demás información correspondiente al despacho. | “Necesito registrar correctamente lo que voy a enviar para que el minimarket pueda verificarlo al recibirlo.” | Enfocado y seguro al mantener trazabilidad del envío. |
 | Seguimiento y control | Consulta el estado de las órdenes de envío generadas y verifica si fueron aceptadas o rechazadas por los administradores de los minimarkets. | “Necesito saber si los productos enviados fueron aceptados y mantener un registro de mis operaciones.” | Tranquilo y con mayor sensación de control y trazabilidad. |
 
-## 3.1. User Stories
-
-## Epics
+### Epics
 
 | EPIC ID | Titulo | Descripcion |
 |--------|--------|-------------|
@@ -1388,7 +1415,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | EP-06 | Gestión de usuarios y seguridad | Permite registrar usuarios, gestionar roles y controlar el acceso a las funcionalidades mediante permisos según el segmento. |
 | EP-07 | Análisis y control de gestión | Permite visualizar indicadores, historial de operaciones, alertas e información consolidada para facilitar la toma de decisiones. |
 
-## User Stories
+### User Stories
 
 | US ID | Título | Descripción | Criterio de Aceptación | Relacionado con (EPIC ID) |
 |------|--------|-------------|------------------------|--------------------------|
@@ -1423,7 +1450,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | US 029 | Controlar acceso según operación | **Como** usuario de MarketGo,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede gestionar sus pedidos e inventario y aceptar o rechazar órdenes de envío, pero no modificar directamente las órdenes creadas por el proveedor.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede consultar y aceptar o rechazar pedidos recibidos y gestionar sus órdenes de envío, pero no modificar directamente el inventario del minimarket. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de MarketGo,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede al dashboard,<br>**Entonces** el sistema muestra información relevante de inventario, conservación, pedidos, órdenes de envío y alertas correspondientes a su operación.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede al mismo dashboard,<br>**Entonces** el sistema muestra información relevante de productos ofrecidos, pedidos recibidos y órdenes de envío según sus permisos. | EP-07 |
 
-## Technical Stories
+### Technical Stories
 
 | TS ID | Título | Descripción | Criterios de Aceptación | Relacionado con (EPIC ID) |
 |------|--------|-------------|------------------------|--------------------------|
@@ -1453,14 +1480,14 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | TS-DASH-002 | Alerts and notifications API | **Como** frontend developer,<br>**Quiero** consultar las alertas y notificaciones del usuario,<br>**Para** informar oportunamente sobre eventos relevantes. | **Escenario 1: Alertas disponibles**<br>**Dado** que existen eventos relevantes,<br>**Cuando** se consulta el recurso,<br>**Entonces** la API devuelve las alertas correspondientes al usuario.<br><br>**Escenario 2: Sin alertas**<br>**Dado** que no existen eventos pendientes,<br>**Cuando** se consulta el recurso,<br>**Entonces** devuelve una colección vacía. | EP-03 / EP-07 |
 | TS-AUD-001 | Activity history API | **Como** frontend developer,<br>**Quiero** consultar el historial de operaciones,<br>**Para** mantener trazabilidad de las acciones realizadas en MarketGo. | **Escenario 1: Historial disponible**<br>**Dado** que existen acciones registradas,<br>**Cuando** se consulta el historial,<br>**Entonces** la API devuelve usuario, fecha, acción y recurso afectado.<br><br>**Escenario 2: Sin registros**<br>**Dado** que no existen acciones registradas,<br>**Cuando** se consulta el historial,<br>**Entonces** devuelve una colección vacía. | EP-06 / EP-07 |
 
-### Functional Stories
+#### Functional Stories
 
 | FS ID | Título | Descripción | Criterios de Aceptación | Relacionado con (EPIC ID) |
 |------|--------|-------------|--------------------------|---------------------------|
 | FS-001 | Permisos de pedidos según rol | **Como** sistema,<br>**Quiero** aplicar permisos diferenciados sobre el módulo de pedidos,<br>**Para** que el administrador pueda crear y gestionar sus pedidos mientras el proveedor únicamente pueda consultarlos y aceptar o rechazar los que recibe. | **Escenario 1: Administrador**<br>**Dado** que el usuario es administrador de minimarket,<br>**Cuando** accede al módulo de pedidos,<br>**Entonces** puede crear y gestionar sus pedidos.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario es proveedor,<br>**Cuando** accede al módulo de pedidos,<br>**Entonces** puede consultar los pedidos recibidos y aceptar o rechazar cada solicitud, pero no modificar su contenido. | EP-04 / EP-06 |
 | FS-002 | Permisos de órdenes de envío según rol | **Como** sistema,<br>**Quiero** aplicar permisos diferenciados sobre las órdenes de envío,<br>**Para** que el proveedor pueda gestionar sus órdenes mientras el administrador únicamente pueda consultarlas y aceptar o rechazar su recepción. | **Escenario 1: Proveedor**<br>**Dado** que el usuario es proveedor,<br>**Cuando** accede al módulo de órdenes de envío,<br>**Entonces** puede crear y gestionar las órdenes asociadas a pedidos aceptados.<br><br>**Escenario 2: Administrador**<br>**Dado** que el usuario es administrador de minimarket,<br>**Cuando** accede a una orden de envío recibida,<br>**Entonces** puede consultar su contenido y aceptar o rechazar la recepción, pero no modificar directamente la orden. | EP-04 / EP-06 |
 
-### Backend Technical Improvements
+#### Backend Technical Improvements
 
 | ID | Título | Descripción | Evidencia esperada |
 |------|--------|-------------|-------------------|
@@ -1468,7 +1495,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | IMP-BE-002 | Persistence, migrations and seed data | Modelar la persistencia de usuarios, roles, minimarkets, proveedores, productos, inventario, lotes, pedidos, órdenes de envío, alertas y registros de conservación, incluyendo migraciones y datos iniciales para pruebas. | Rama `feature/backend-persistence-migrations`, migraciones versionadas, modelo de datos y seed data funcional. |
 | IMP-BE-003 | Business rules and integration readiness | Implementar las reglas de negocio relacionadas con permisos por rol, pedidos de abastecimiento, aceptación o rechazo por parte del proveedor, generación de órdenes de envío, aceptación o rechazo de la recepción por parte del administrador y actualización automática del inventario después de aceptar una orden de envío. | Rama `feature/backend-business-rules`, endpoints funcionales, validaciones de roles y evidencia del flujo completo `Pedido → Aceptación del proveedor → Orden de envío → Aceptación del administrador → Inventario`. |
 
-### API Endpoint Coverage for Backend Web Services
+#### API Endpoint Coverage for Backend Web Services
 
 La siguiente matriz consolida los contratos REST utilizados para la primera versión de los Web Services de **MarketGo**. Los endpoints se encuentran alineados con la configuración actual definida en `api-endpoint.js` y `routes.json`, considerando recursos globales y recursos asociados a un minimarket mediante `minimarketId`.
 
@@ -1509,7 +1536,7 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 | `/api/v1/activity-history` | GET | TS-AUD-001 / US-025 | audit |
 
 
-#### Consideraciones de cobertura
+**Consideraciones de cobertura**
 
 - Los recursos `users`, `dashboard`, `analytics`, `inventory`, `lots`, `expirations`, `requisitions`, `purchase-orders`, `conservation`, `communication`, `activity-history` y `waste` se encuentran asociados al contexto de un minimarket mediante `/api/v1/minimarkets/{minimarketId}/...`.
 - Los recursos `products`, `suppliers`, `profiles` y `auth` se mantienen como recursos globales de la plataforma.
@@ -1521,11 +1548,11 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 - Los productos próximos al vencimiento pueden ser identificados mediante `expirations` y posteriormente registrados como **oferta** según la lógica funcional de MarketGo.
 - El endpoint de `donations` deja de formar parte de la cobertura funcional esperada, debido a que las donaciones ya no pertenecen al alcance actual de MarketGo.
 
-## 3.2. Impact Mapping
+## 3.2. Impact Mapping.
 
-<img src="report/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+El diagrama de Impact Mapping de MarketGo no está disponible entre los archivos entregados para AV1. Se incorporará cuando el equipo proporcione el artefacto original.
 
-## 3.3. Product Backlog
+## 3.3. Product Backlog.
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
@@ -1591,8 +1618,8 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 
 **Enlace directo al tablero:** 
-**Tablero Sprint 1: Trello
-`[https://trello.com/b/AyBgUYcT/springbacklog1](https://trello.com/b/AyBgUYcT/springbacklog1)`
+**Tablero Sprint 1: Trello**
+[Tablero Sprint 1 en Trello](https://trello.com/b/AyBgUYcT/springbacklog1)
 
 <div align="center">
   <img src="report/assets/chapter-03/tableroTrello.png" alt="Evidence Product Backlog" width="90%">
@@ -1604,10 +1631,10 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 # Capítulo IV: Product Design
 
 
-## 4.1. Styles Guidelines
+## 4.1. Style Guidelines.
 
 
-### 4.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines.
 **Branding:** 
 
 El logo pricipal se trata de una representación de capas que representan almacenes y ramificaciones que representan el enlace en el ecosistema digital de proveedores y administradores de minimarkets. Usa colores azules, naranjas y blancos para demostrar seriedad, confianza y dinamismo.
@@ -1639,7 +1666,7 @@ La paleta de colores ha sido seleccionada para demostrar seriedad, confianza y m
 
 **Spacing**
 
-## Design Tokens - Spacing
+#### Design Tokens - Spacing
 
 | Token          | Uso                                          | Desktop | Mobile |
 |----------------|-----------------------------------------------|---------|--------|
@@ -1661,12 +1688,12 @@ El tono de comunicación de MarketGo debe ser sencillo y directo. Los usuarios l
 
 El lenguaje que se aplicará es el lenguaje común de nuestros usuarios en su entorno cotidiano y laboral. Tanto para los usuarios Administradores como los usuarios Proveedores, el lenguaje combina instrucciones directas y claras, e información técnica brindada por el sistema necesaria para toma de decisiones del usuario. 
 
-### 4.1.2. Web Style Guidelines 
+### 4.1.2. Web Style Guidelines.
 
 En esta sección se detallan las decisiones de diseño que conforman la identidad visual de MarketGo. Estos estándares garantizan una interfaz coherente, profesional y adaptable (responsive), facilitando tanto el desarrollo de software como la experiencia del usuario final.
 
 
-## a. Paleta de colores
+#### a. Paleta de colores
  
 La paleta actual está compuesta por seis colores, organizados en dos familias:
  
@@ -1688,7 +1715,7 @@ La paleta actual está compuesta por seis colores, organizados en dos familias:
 4. Claros (`#eff3fa`, `#fbdc91`) → fondos y estados secundarios
 Dado que el sistema maneja alertas de vencimiento y conservación (temperatura/humedad fuera de rango), se recomienda definir explícitamente un color adicional de error/riesgo (rojo) que no está presente en la paleta actual, ya que el naranja por sí solo puede no ser suficiente para diferenciar "advertencia" de "crítico".
 
-## b. Tipografía
+#### b. Tipografía
  
 La tipografía definida es Arimo, una fuente sans-serif de la familia de fuentes web abiertas (métricamente compatible con Arial), lo que garantiza buena legibilidad en pantalla y renderizado consistente entre distintos sistemas operativos y navegadores.
  
@@ -1701,7 +1728,7 @@ Al no haberse especificado pesos ni escala tipográfica en el material original,
 - Botones: Arimo Medium o Semibold, 14px
 Esta escala es consistente con los espaciados de 40/24/16/12px ya definidos para el sistema, manteniendo proporciones armónicas entre texto y espacio en blanco.
 
-## c. Botones y elementos de interfaz
+#### c. Botones y elementos de interfaz
  
 Este punto no está cubierto explícitamente en el material de referencia, por lo que se documentan aquí lineamientos propuestos, derivados de la paleta y la tipografía ya definidas, para mantener coherencia visual:
  
@@ -1723,7 +1750,7 @@ Este punto no está cubierto explícitamente en el material de referencia, por l
 **Badges de estado**
 - Aprovechar la paleta para diferenciar estados: naranja para "pendiente/atención", azul para "informativo", y el color de error propuesto para "riesgo/rechazado".
 
-## d. Iconografía
+#### d. Iconografía
 
 **1. Librería base**
  
@@ -1774,7 +1801,7 @@ Tabler Icons (estilo outline/línea), por tres razones:
 | Área de seguridad | 2px de margen interno dentro del área de 24×24, para que el trazo no toque el borde del frame |
 | Esquinas | Redondeadas (consistente con el radio de 6–8px ya propuesto para botones) |
 
-## e. Rejilla y adaptabilidad
+#### e. Rejilla y adaptabilidad
  
 Este punto no está documentado en el material de referencia. Se recomienda basarlo en el estándar de espaciado ya definido previamente para el proyecto, extendiéndolo a una rejilla formal:
  
@@ -1802,11 +1829,11 @@ Este punto no está documentado en el material de referencia. Se recomienda basa
 - Las tablas con múltiples columnas (inventario, lotes, pedidos) deben priorizar las columnas más relevantes en mobile y mover el resto a una vista de detalle o acordeón, en vez de forzar scroll horizontal
 - Las vistas tipo Kanban (pedidos) deben pasar de columnas lado a lado en desktop a un scroll horizontal por estado, o a una lista con filtro de estado, en mobile.
 
-## 4.1. Styles Guidelines
+## 4.2. Information Architecture.
 
 Esta sección describe la estructura de la información, estilos y sistemas que se utilizarán en la plataforma web de MarketGo. Se consideran los sistemas de organización, etiquetado, búsqueda, navegación y SEO, con el fin de garantizar una experiencia clara y enfocada en la visualización de datos de inventario, lotes, conservación y abastecimiento para minimarkets de productos orgánicos.
 
-### 4.2.1 Organization Systems
+### 4.2.1. Organization Systems.
 
 **Sistemas de Organización visual de contenido**
 
@@ -1844,7 +1871,7 @@ El contenido de MarketGo se categoriza bajo tres esquemas complementarios:
 - **Por estado del dato:** aplicado transversalmente a productos (Vigente / Próximo a vencer / Vencido), pedidos (Pendiente / Aceptado / Rechazado) y condiciones de conservación (Normal / Riesgoso / Sin datos). Este esquema es el que más se refuerza con color, siguiendo la paleta de la marca.
 - **Por rol de usuario:** administrador de minimarket, proveedor y (a nivel de plataforma) usuario con permisos administrativos sobre cuentas. El contenido visible y las acciones disponibles cambian según este esquema, no la estructura general de la información.
 
-### 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems.
  
  En esta sección se detalla el sistema de etiquetado, diseñado para ofrecer una experiencia de usuario intuitiva mediante términos breves y reconocibles. Estas etiquetas permiten que tanto los visitantes como los usuarios finales comprendan las funciones del software sin ambigüedades.
 
@@ -1883,7 +1910,7 @@ Etiquetas descriptivas ubicadas sobre el campo (no placeholders como único labe
 - Campos obligatorios marcados con asterisco (`*`) en color de error, consistente con el modal de rechazo ya diseñado
 - Mensajes de validación en primera persona desde el sistema, en tono directo: "Este campo es obligatorio para continuar", "La cantidad supera el stock disponible"
 
-### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags.
 
 ***Landing Page (Sitio Web Estático)**
 
@@ -1904,7 +1931,7 @@ Aquí las etiquetas están orientadas a la funcionalidad y seguridad, evitando q
 - Favicon e ícono de marca mantenidos en todas las rutas para reforzar identidad visual, incluso sin indexación.
 
 
-### 4.2.4. Searching Systems
+### 4.2.4. Searching Systems.
 
 **Mecanismos de búsqueda**
 
@@ -1925,7 +1952,7 @@ Las opciones de filtrado (varían según el módulo, pero siguen el mismo patró
 - Estado vacío consistente en toda la plataforma cuando la búsqueda o el filtro no arroja resultados: mensaje informativo breve (ej. "No se encontraron productos con estos filtros"), sin ilustraciones que distraigan, siguiendo el patrón ya usado para conservación sin datos
 - Contador de resultados visible ("Mostrando 4 de 86 lotes") para dar contexto de escala, especialmente en tablas paginadas.
 
-### 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems.
 
 #### Navigation strategies
 
@@ -1950,9 +1977,9 @@ MarketGo combina dos estrategias de navegación según el tipo de sitio:
 - **Navegación secundaria contextual:** tabs dentro de una sección (ej. "Pendientes" / "Historial" dentro de Pedidos) para separar sub-vistas sin salir del módulo principal.
 - **Accesos directos cruzados:** por ejemplo, al aceptar un pedido, un botón "Ver inventario actualizado" lleva directamente al módulo de Inventario, rompiendo la navegación estrictamente jerárquica cuando el flujo de trabajo lo justifica.
 
-## 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design.
 
-### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe.
 
 En esta sección se presenta el desarrollo de los primeros wireframes como primer paso para la producción de interfaz visual de la solución, realizados en la plataforma *Figma*.
 
@@ -1996,7 +2023,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.3.2 Landing Page Mock Up
+### 4.3.2. Landing Page Mock-up.
 
 <div align="center">
 <strong>Figura 1</strong><br />
@@ -2038,9 +2065,9 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-## 4.4. Web Applications UX/UI Design
+## 4.4. Web Applications UX/UI Design.
 
-### 4.4.1. Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes.
 
 <div align="center">
 <strong>Figura 6</strong><br />
@@ -2090,7 +2117,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams.
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
@@ -2132,7 +2159,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | :---: |
 | <p align="center"><img src="report/assets/chapter-04/wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
-### 4.4.3. Web Applications Mockups
+### 4.4.3. Web Applications Mock-ups.
 
 <div align="center">
 <strong>Figura 12</strong><br />
@@ -2182,7 +2209,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams.
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
@@ -2200,17 +2227,17 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | :---: |
 | <p align="center"><img src="report/assets/chapter-04/UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
 
-## 4.5. Web Applications Prototyping
+## 4.5. Web Applications Prototyping.
 [Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
 
 
-## 4.6. Domain-Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software de MarketGo se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación, abastecimiento y control operativo para minimarkets y proveedores. A partir de este análisis se aplican los principios de Domain-Driven Design (DDD), permitiendo dividir la solución en bounded contexts coherentes con las responsabilidades principales del negocio.
 
 En las siguientes secciones se presenta cada nivel del modelo arquitectónico, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de MarketGo.
 
-### 4.6.1. Design-Level Event Storming
+### 4.6.1. Design-Level EventStorming.
 
 Para identificar los eventos de dominio y la lógica de negocio de MarketGo, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
 
@@ -2403,11 +2430,11 @@ De esta forma, los component diagrams complementan la visión general de la arqu
 
 <div style="page-break-after: always;"></div>
 
-## 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design.
 
 En esta sección se presenta el diseño orientado a objetos de MarketGo, representando la estructura de clases principales del sistema y su organización por bounded contexts. Estos diagramas permiten visualizar las responsabilidades de cada clase, sus atributos, métodos y relaciones dentro de la arquitectura de la aplicación.
 
-### 4.7.7. Class Diagrams
+### 4.7.1. Class Diagrams.
 
 Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
 ![Class Diagram MaketGo](report/assets/chapter-04/diagramClassMarkGo.png)
@@ -2461,13 +2488,13 @@ Estos diagramas permiten complementar la arquitectura de software, mostrando una
 
 ---
 
-## 4.8. Database Design
+## 4.8. Database Design.
 
 El diseño de base de datos de MarketGo define la estructura de persistencia necesaria para almacenar y gestionar la información principal de la plataforma. Este diseño considera los datos relacionados con usuarios, perfiles, productos, inventario, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, comunicación, analítica y auditoría.
 
 La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
 
-### 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams.
 
 El diagrama de base de datos muestra las entidades principales de MarketGo, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se estructura la persistencia de los datos y cómo se relacionan las entidades que soportan los procesos principales de la plataforma.
 
@@ -2477,40 +2504,40 @@ El diagrama de base de datos muestra las entidades principales de MarketGo, sus 
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management
+## 5.1. Software Configuration Management.
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **Market-Labs** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **MarketGo**. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue orientada a la nube.
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration.
 
-Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de Buildline.
+Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de MarketGo.
 
 #### Project Management
-* **Trello:** Empleado para la organización visual del flujo de trabajo diario y la priorización rápida de tareas durante el desarrollo de los módulos de requisición.
+* **Trello:** Empleado para la organización visual del flujo de trabajo diario y la priorización rápida de tareas durante el desarrollo de los módulos de inventario y pedidos (Atlassian, s. f.).
     * **Ruta:** [https://trello.com/invite/b/6aaf23b3497a9f7b08a946ed/ATTIc6df49d5561e92016f5670f633077371DA4CB5DA/marketgo](https://trello.com/invite/b/6aaf23b3497a9f7b08a946ed/ATTIc6df49d5561e92016f5670f633077371DA4CB5DA/marketgo)
  
 #### Product UX/UI Design
-1.  **Miro:** Pizarra colaborativa fundamental para el Design-Level Event Storming de Buildline, permitiendo identificar los eventos de dominio entre obra y oficina.
-2.  **Figma:** Herramienta principal para el diseño de la interfaz móvil (Field App) y la plataforma web de gestión, incluyendo el diseño del sistema de diseño (Design System).
+1.  **LucidChart:** Pizarra colaborativa usada para el Design-Level EventStorming de MarketGo y la identificación de eventos de inventario y abastecimiento.
+2.  **Figma:** Herramienta principal para el diseño de la landing page y la plataforma web de gestión, incluyendo el diseño del sistema de diseño (Design System).
 3.  **Structurizr:** Utilizado para el modelado de la arquitectura de software mediante diagramas C4 y diagramas de base de datos relacional.
 
 #### Software Development
-1.  **GitHub:** Hosting de repositorios bajo la organización RQLS. Implementación de GitFlow para separar las funcionalidades de inventario, compras y reportes.
-2.  **WebStorm:** IDE especializado para el desarrollo del Frontend de Buildline, optimizando la codificación con Vue.js y la gestión de estilos.
+1.  **GitHub:** Hosting de repositorios bajo la organización Market-Labs. Implementación de GitFlow para separar las funcionalidades de inventario, compras y reportes (GitHub, s. f.).
+2.  **WebStorm:** IDE especializado para el desarrollo del Frontend de MarketGo, optimizando la codificación con Vue.js y la gestión de estilos.
 3.  **JetBrains Rider:** IDE principal para el desarrollo del Backend robusto basado en .NET/C#, facilitando la integración con servicios de base de datos y lógica de negocio.
-4.  **Vue.js Framework:** Framework progresivo de JavaScript elegido para construir la SPA de Buildline por su ligereza y velocidad de carga en condiciones de baja conectividad en obra.
-5.  **ASP.NET Core / C# sobre .NET 10:** Tecnología de backend para garantizar la escalabilidad, seguridad transaccional en las Órdenes de Compra y alto rendimiento.
+4.  **Vue.js Framework:** Framework de JavaScript elegido para construir la interfaz de la aplicación web de MarketGo (Vue.js, s. f.-a).
+5.  **ASP.NET Core / C# sobre .NET 10:** Tecnología de backend para garantizar la escalabilidad, seguridad transaccional en las órdenes de pedido y alto rendimiento.
 
 #### Software Testing
-* **Lenguaje Gherkin:** Utilizado para definir los criterios de aceptación en formato Given-When-Then, asegurando que las validaciones de "Way Match" y presupuestos funcionen correctamente.
+* **Lenguaje Gherkin:** Utilizado para definir los criterios de aceptación en formato Given-When-Then de pedidos e inventario (Cucumber, s. f.).
 
 #### Software Documentation
-* **Swagger / OpenAPI:** Generación de documentación interactiva para que el equipo de Frontend pueda consumir los servicios de requisiciones y proveedores de forma eficiente.
+* **Swagger / OpenAPI:** Generación de documentación interactiva para que el equipo de Frontend pueda consumir los servicios de pedidos y proveedores de forma eficiente.
 
 ---
-### 5.1.2. Source Code Management
+### 5.1.2. Source Code Management.
 
-Se establecen los repositorios oficiales de la solución Buildline para garantizar la integridad del código fuente.
+Se establecen los repositorios oficiales de la solución MarketGo para garantizar la integridad del código fuente.
 
 #### Repositorios del Proyecto
 <table>
@@ -2572,19 +2599,19 @@ Ejemplos:
 - `refactor(landing): align Vue sections with mockups`
 - `docs(readme): update GitFlow workflow`
 
-### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Conventions.
 
-En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto Buildline: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio logístico de la construcción.
+En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto MarketGo: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio de inventario y abastecimiento.
 
 #### Referencias de Guías de Estilo Adoptadas
 
 | Lenguaje/Tecnología | Guía de Estilo |
 | :--- | :--- |
-| HTML/CSS | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
-| JavaScript | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) |
-| TypeScript / Vue.js | [Vue.js Priority A Guide](https://vuejs.org/style-guide/rules-essential.html) |
-| C# / .NET | [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) |
-| Gherkin | [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/) |
+| HTML/CSS | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) (Google, s. f.-a) |
+| JavaScript | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) (Google, s. f.-b) |
+| TypeScript / Vue.js | [Vue.js Priority A Guide](https://vuejs.org/style-guide/rules-essential.html) (Vue.js, s. f.-b) |
+| C# / .NET | [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) (Microsoft, s. f.) |
+| Gherkin | [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/) (Cucumber, s. f.) |
 
 Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de la landing page y la plataforma MarketGo, manteniendo nombres claros, consistentes y alineados al producto.
 | Elemento                     | Convención             | Ejemplo                                             |
@@ -2603,16 +2630,18 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 * Las llaves de apertura en C# se colocan en una nueva línea (Estilo Allman), mientras que en TS/JS van en la misma línea (Estilo K&R).
 
 ---
-### 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration.
 
-Se especifica la configuración de despliegue para los entornos de Buildline, garantizando alta disponibilidad para ingenieros en obra.
+Se especifica la configuración de despliegue para los entornos de MarketGo, garantizando alta disponibilidad para usuarios de la plataforma.
 
 #### Landing Page - Azure
-Despliegue automático del contenido estático mediante la integración con Vercel tras cada merge a la rama `main`.
+El despliegue de la landing page se documenta mediante la siguiente URL de Azure Static Web Apps (Microsoft, 2024).
 * **URL:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
-## 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation.
 
-### 5.2.1. Sprint 1
+### 5.2.1. Sprint 1.
+
+#### 5.2.1.1. Sprint Planning 1.
 
 | **Sprint Planning Sprint 1** |  |
 |---|---|
@@ -2633,7 +2662,7 @@ Despliegue automático del contenido estático mediante la integración con Verc
   </a>
 </p>
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
 <p>
 Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo de <strong>MarketLab</strong> durante el desarrollo de la landing page de <strong>MarketGo</strong>.
@@ -2688,7 +2717,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
   </tbody>
 </table>
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **MarketGo**, producto de **MarketLab** orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
@@ -2707,7 +2736,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 | **US00** | Landing Page Architecture | T006 | Organización DDD y estructura Vue | Refactorización de carpetas siguiendo una arquitectura orientada por secciones, separando componentes, estilos, assets e internacionalización. | 5h | Cáceres Pizarro, Albino Florencio | Done |
 | **US00** | GitFlow Setup | T007 | Configuración de ramas y commits | Organización de ramas feature, integración en develop y actualización de main aplicando Conventional Commits. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
   Resumen de los commits más relevantes en el repositorio de la Landing Page de <strong>MarketGo</strong>, producto desarrollado por <strong>MarketLab</strong>.
@@ -2756,7 +2785,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
   </tbody>
 </table>
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la Landing Page estática de **MarketGo**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas:
 
@@ -2805,13 +2834,13 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
   <p><em>Figura: Sección de contacto para solicitar información sobre MarketGo.</em></p>
 </div>
 
-#### 5.2.1.6. Services Documentation Evidence
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 <p>
   Dado que el Sprint 1 abarca únicamente contenido estático correspondiente a la Landing Page de marketing de <strong>MarketGo</strong>, la implementación y consumo de servicios backend para la gestión de inventario, lotes, conservación, pedidos y proveedores será abordada en sprints posteriores orientados al desarrollo de la plataforma web.
 </p>
 
-#### 5.2.1.7. Software Deployment Evidence
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
   <strong>URL de Producción:</strong>
@@ -2820,7 +2849,7 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
   </a>
 </p>
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 <p>
   Durante este primer sprint, el esfuerzo principal del equipo de <strong>MarketLab</strong> se centró en la estructuración del proyecto, el diseño UX/UI, la implementación de la landing page, la organización de ramas mediante GitFlow y la documentación inicial del producto <strong>MarketGo</strong>. Por lo tanto, las evidencias de colaboración presentadas a continuación corresponden al trabajo realizado para construir la presencia digital inicial del producto.
@@ -2846,22 +2875,52 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 
 ---
 
+# Conclusiones
+
+## Conclusiones y recomendaciones.
+
+El análisis de entrevistas y los artefactos de *Needfinding* del capítulo II identifican necesidades de control de inventario, trazabilidad de lotes y coordinación entre minimarkets y proveedores. Los requisitos del capítulo III convierten esas necesidades en historias de usuario y un backlog que orienta los siguientes sprints.
+
+En Sprint 1 se documentaron el diseño, la implementación y el despliegue de la landing page de MarketGo. Las capturas de ejecución y el registro de colaboración del capítulo V permiten revisar el alcance entregado. La documentación de servicios indica que el backend y sus funciones operativas corresponden a sprints posteriores.
+
+Se recomienda validar la landing page con los segmentos entrevistados y registrar los resultados antes de ajustar el backlog. Para el siguiente avance, se deben incorporar evidencias verificables de implementación, pruebas y despliegue de los servicios y aplicaciones previstos en el plan.
+
+---
+
 # Bibliografía
 
-- Vue.js. (2026). *Vue.js documentation*. https://vuejs.org/
+Atlassian. (s. f.). *Using Trello*. Atlassian Support. https://support.atlassian.com/trello/docs/using-trello
 
-- Vite. (2026). *Vite documentation*. https://vite.dev/
+Cucumber. (s. f.). *Gherkin reference*. https://cucumber.io/docs/gherkin/reference/
 
-- Pinia. (2026). *Pinia documentation*. https://pinia.vuejs.org/
+GitHub. (s. f.). *GitHub Docs*. https://docs.github.com/
 
-- Vue Router. (2026). *Vue Router documentation*. https://router.vuejs.org/
+Google. (s. f.-a). *Google HTML/CSS style guide*. https://google.github.io/styleguide/htmlcssguide.html
 
-- PrimeVue. (2026). *PrimeVue documentation*. https://primevue.org/
+Google. (s. f.-b). *Google JavaScript style guide*. https://google.github.io/styleguide/jsguide.html
 
-- GitHub. (2026). *GitHub Docs*. https://docs.github.com/
+Microsoft. (s. f.). *.NET coding conventions: C#*. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
 
-- Microsoft. (2026). *Azure documentation*. https://learn.microsoft.com/azure/
+Microsoft. (2024). *What is Azure Static Web Apps?* Microsoft Learn. https://learn.microsoft.com/azure/static-web-apps/overview/
 
-- Atlassian. (2026). *Trello REST API documentation*. https://developer.atlassian.com/cloud/trello/
+Vue.js. (s. f.-a). *Introduction*. https://vuejs.org/guide/introduction
+
+Vue.js. (s. f.-b). *Priority A rules: Essential*. https://vuejs.org/style-guide/rules-essential.html
+
+---
+
+# Anexos
+
+## Anexo A. Evidencias de Sprint 1
+
+Las evidencias visuales del avance AV1 están disponibles en el capítulo V y en los archivos fuente siguientes:
+
+- [Planificación del Sprint 1](report/assets/chapter-05/sprintb1.png).
+- [Historial de commits](report/assets/chapter-05/commit-history-sprint1.png).
+- [Ejecución de la landing page: inicio](report/assets/chapter-05/execution-home.png).
+- [Ejecución de la landing page: contacto](report/assets/chapter-05/execution-contact.png).
+- [Visitas al repositorio](report/assets/chapter-05/visitors-sprint1.png).
+
+Los datos originales de las entrevistas y el video About-the-Team no están incluidos en los archivos del repositorio; su incorporación requiere los materiales del equipo.
 
 <!-- AUTO-DOCS:END -->

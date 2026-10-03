@@ -1,8 +1,10 @@
 # Capítulo III: Requirements Specification
 
-## TO-BE Scenario Mapping
+## 3.1. User Stories.
 
-### Administradores de Minimarkets
+### TO-BE Scenario Mapping
+
+#### Administradores de Minimarkets
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -11,7 +13,7 @@
 | Toma de decisión | Consulta las órdenes de envío generadas por los proveedores y decide aceptarlas o rechazarlas después de revisar los productos y cantidades enviados. | “Necesito verificar que los productos recibidos correspondan con lo solicitado antes de incorporarlos al inventario.” | Responsable y seguro al contar con información centralizada. |
 | Seguimiento y control | Consulta el estado de sus pedidos y órdenes de envío. Cuando acepta una orden de envío, los productos recibidos se incorporan automáticamente al inventario del minimarket. | “Necesito conocer cómo avanzan mis pedidos y asegurar que solo los productos recibidos ingresen al inventario.” | Vigilante, con mayor sensación de control y seguridad. |
 
-### Proveedores de Productos Orgánicos
+#### Proveedores de Productos Orgánicos
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -20,9 +22,7 @@
 | Gestión de órdenes de envío | Para los pedidos aceptados, genera una orden de envío indicando los productos, cantidades y demás información correspondiente al despacho. | “Necesito registrar correctamente lo que voy a enviar para que el minimarket pueda verificarlo al recibirlo.” | Enfocado y seguro al mantener trazabilidad del envío. |
 | Seguimiento y control | Consulta el estado de las órdenes de envío generadas y verifica si fueron aceptadas o rechazadas por los administradores de los minimarkets. | “Necesito saber si los productos enviados fueron aceptados y mantener un registro de mis operaciones.” | Tranquilo y con mayor sensación de control y trazabilidad. |
 
-## 3.1. User Stories
-
-## Epics
+### Epics
 
 | EPIC ID | Titulo | Descripcion |
 |--------|--------|-------------|
@@ -34,7 +34,7 @@
 | EP-06 | Gestión de usuarios y seguridad | Permite registrar usuarios, gestionar roles y controlar el acceso a las funcionalidades mediante permisos según el segmento. |
 | EP-07 | Análisis y control de gestión | Permite visualizar indicadores, historial de operaciones, alertas e información consolidada para facilitar la toma de decisiones. |
 
-## User Stories
+### User Stories
 
 | US ID | Título | Descripción | Criterio de Aceptación | Relacionado con (EPIC ID) |
 |------|--------|-------------|------------------------|--------------------------|
@@ -69,7 +69,7 @@
 | US 029 | Controlar acceso según operación | **Como** usuario de MarketGo,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede gestionar sus pedidos e inventario y aceptar o rechazar órdenes de envío, pero no modificar directamente las órdenes creadas por el proveedor.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede consultar y aceptar o rechazar pedidos recibidos y gestionar sus órdenes de envío, pero no modificar directamente el inventario del minimarket. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de MarketGo,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede al dashboard,<br>**Entonces** el sistema muestra información relevante de inventario, conservación, pedidos, órdenes de envío y alertas correspondientes a su operación.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede al mismo dashboard,<br>**Entonces** el sistema muestra información relevante de productos ofrecidos, pedidos recibidos y órdenes de envío según sus permisos. | EP-07 |
 
-## Technical Stories
+### Technical Stories
 
 | TS ID | Título | Descripción | Criterios de Aceptación | Relacionado con (EPIC ID) |
 |------|--------|-------------|------------------------|--------------------------|
@@ -99,14 +99,14 @@
 | TS-DASH-002 | Alerts and notifications API | **Como** frontend developer,<br>**Quiero** consultar las alertas y notificaciones del usuario,<br>**Para** informar oportunamente sobre eventos relevantes. | **Escenario 1: Alertas disponibles**<br>**Dado** que existen eventos relevantes,<br>**Cuando** se consulta el recurso,<br>**Entonces** la API devuelve las alertas correspondientes al usuario.<br><br>**Escenario 2: Sin alertas**<br>**Dado** que no existen eventos pendientes,<br>**Cuando** se consulta el recurso,<br>**Entonces** devuelve una colección vacía. | EP-03 / EP-07 |
 | TS-AUD-001 | Activity history API | **Como** frontend developer,<br>**Quiero** consultar el historial de operaciones,<br>**Para** mantener trazabilidad de las acciones realizadas en MarketGo. | **Escenario 1: Historial disponible**<br>**Dado** que existen acciones registradas,<br>**Cuando** se consulta el historial,<br>**Entonces** la API devuelve usuario, fecha, acción y recurso afectado.<br><br>**Escenario 2: Sin registros**<br>**Dado** que no existen acciones registradas,<br>**Cuando** se consulta el historial,<br>**Entonces** devuelve una colección vacía. | EP-06 / EP-07 |
 
-### Functional Stories
+#### Functional Stories
 
 | FS ID | Título | Descripción | Criterios de Aceptación | Relacionado con (EPIC ID) |
 |------|--------|-------------|--------------------------|---------------------------|
 | FS-001 | Permisos de pedidos según rol | **Como** sistema,<br>**Quiero** aplicar permisos diferenciados sobre el módulo de pedidos,<br>**Para** que el administrador pueda crear y gestionar sus pedidos mientras el proveedor únicamente pueda consultarlos y aceptar o rechazar los que recibe. | **Escenario 1: Administrador**<br>**Dado** que el usuario es administrador de minimarket,<br>**Cuando** accede al módulo de pedidos,<br>**Entonces** puede crear y gestionar sus pedidos.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario es proveedor,<br>**Cuando** accede al módulo de pedidos,<br>**Entonces** puede consultar los pedidos recibidos y aceptar o rechazar cada solicitud, pero no modificar su contenido. | EP-04 / EP-06 |
 | FS-002 | Permisos de órdenes de envío según rol | **Como** sistema,<br>**Quiero** aplicar permisos diferenciados sobre las órdenes de envío,<br>**Para** que el proveedor pueda gestionar sus órdenes mientras el administrador únicamente pueda consultarlas y aceptar o rechazar su recepción. | **Escenario 1: Proveedor**<br>**Dado** que el usuario es proveedor,<br>**Cuando** accede al módulo de órdenes de envío,<br>**Entonces** puede crear y gestionar las órdenes asociadas a pedidos aceptados.<br><br>**Escenario 2: Administrador**<br>**Dado** que el usuario es administrador de minimarket,<br>**Cuando** accede a una orden de envío recibida,<br>**Entonces** puede consultar su contenido y aceptar o rechazar la recepción, pero no modificar directamente la orden. | EP-04 / EP-06 |
 
-### Backend Technical Improvements
+#### Backend Technical Improvements
 
 | ID | Título | Descripción | Evidencia esperada |
 |------|--------|-------------|-------------------|
@@ -114,7 +114,7 @@
 | IMP-BE-002 | Persistence, migrations and seed data | Modelar la persistencia de usuarios, roles, minimarkets, proveedores, productos, inventario, lotes, pedidos, órdenes de envío, alertas y registros de conservación, incluyendo migraciones y datos iniciales para pruebas. | Rama `feature/backend-persistence-migrations`, migraciones versionadas, modelo de datos y seed data funcional. |
 | IMP-BE-003 | Business rules and integration readiness | Implementar las reglas de negocio relacionadas con permisos por rol, pedidos de abastecimiento, aceptación o rechazo por parte del proveedor, generación de órdenes de envío, aceptación o rechazo de la recepción por parte del administrador y actualización automática del inventario después de aceptar una orden de envío. | Rama `feature/backend-business-rules`, endpoints funcionales, validaciones de roles y evidencia del flujo completo `Pedido → Aceptación del proveedor → Orden de envío → Aceptación del administrador → Inventario`. |
 
-### API Endpoint Coverage for Backend Web Services
+#### API Endpoint Coverage for Backend Web Services
 
 La siguiente matriz consolida los contratos REST utilizados para la primera versión de los Web Services de **MarketGo**. Los endpoints se encuentran alineados con la configuración actual definida en `api-endpoint.js` y `routes.json`, considerando recursos globales y recursos asociados a un minimarket mediante `minimarketId`.
 
@@ -155,7 +155,7 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 | `/api/v1/activity-history` | GET | TS-AUD-001 / US-025 | audit |
 
 
-#### Consideraciones de cobertura
+**Consideraciones de cobertura**
 
 - Los recursos `users`, `dashboard`, `analytics`, `inventory`, `lots`, `expirations`, `requisitions`, `purchase-orders`, `conservation`, `communication`, `activity-history` y `waste` se encuentran asociados al contexto de un minimarket mediante `/api/v1/minimarkets/{minimarketId}/...`.
 - Los recursos `products`, `suppliers`, `profiles` y `auth` se mantienen como recursos globales de la plataforma.
@@ -167,11 +167,41 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 - Los productos próximos al vencimiento pueden ser identificados mediante `expirations` y posteriormente registrados como **oferta** según la lógica funcional de MarketGo.
 - El endpoint de `donations` deja de formar parte de la cobertura funcional esperada, debido a que las donaciones ya no pertenecen al alcance actual de MarketGo.
 
-## 3.2. Impact Mapping
+## 3.2. Impact Mapping.
+El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
-<img src="assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+<p align="center">
+  <img src="assets/chapter-03/impact-mapping.png" alt="Impact Mapping de MarketGo" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Mapping de MarketGo (Business Goals → Personas → Impacts → Deliverables → User Stories).</em></p>
 
-## 3.3. Product Backlog
+**Business Goal 1 – Reducción de mermas (Persona: Russell Estrada, administrador de minimarket orgánico)**
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir en 30% las mermas por vencimiento y deterioro de productos orgánicos en los minimarkets que usan MarketGo, durante los primeros 6 meses desde su lanzamiento. | Russell Estrada | Identifica los lotes próximos a vencer sin revisión física del almacén. | Gestión de lotes y control de vencimientos | US006, US007, US008 |
+| | | Actúa antes de perder el producto al ser avisado de forma automática. | Alertas de vencimiento | US009 |
+| | | Reacciona a tiempo ante fallas de refrigeración (pérdida de cadena de frío), incluso de madrugada. | Monitoreo de temperatura y humedad con alertas | US010, US011, US012 |
+| | | Mantiene el stock real sin transcribir datos de WhatsApp a Excel. | Inventario centralizado con búsqueda y filtros | US001, US002, US003, US004, US005 |
+| | | Convierte productos en riesgo en oferta y registra la merma para medir sus pérdidas. | Registro de mermas y ofertas | US013, US014 |
+
+
+**Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
+| | | Solicita abastecimiento con un pedido estructurado en vez de mensajes de chat. | Creación y seguimiento de pedidos | US018, US019 |
+| | | Confirma la recepción y su inventario se actualiza automáticamente, sin errores manuales. | Recepción de órdenes de envío integrada al inventario | US023, US024 |
+| | Marco Antonio Ríos | Publica su catálogo con disponibilidad real en una sola plataforma. | Gestión del catálogo del proveedor | US016, US017 |
+| | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
+| | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
+| | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
+
+De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
+
+
+## 3.3. Product Backlog.
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
@@ -237,8 +267,8 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 
 **Enlace directo al tablero:** 
-**Tablero Sprint 1: Trello
-`[https://trello.com/b/AyBgUYcT/springbacklog1](https://trello.com/b/AyBgUYcT/springbacklog1)`
+**Tablero Sprint 1: Trello**
+[Tablero Sprint 1 en Trello](https://trello.com/b/AyBgUYcT/springbacklog1)
 
 <div align="center">
   <img src="assets/chapter-03/tableroTrello.png" alt="Evidence Product Backlog" width="90%">
