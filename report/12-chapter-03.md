@@ -175,6 +175,15 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 </p>
 <p align="center"><em>Figura: Impact Mapping de MarketGo (Business Goals → Personas → Impacts → Deliverables → User Stories).</em></p>
 
+**Business Goal 1 – Reducción de mermas (Persona: Russell Estrada, administrador de minimarket orgánico)**
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir en 30% las mermas por vencimiento y deterioro de productos orgánicos en los minimarkets que usan MarketGo, durante los primeros 6 meses desde su lanzamiento. | Russell Estrada | Identifica los lotes próximos a vencer sin revisión física del almacén. | Gestión de lotes y control de vencimientos | US006, US007, US008 |
+| | | Actúa antes de perder el producto al ser avisado de forma automática. | Alertas de vencimiento | US009 |
+| | | Reacciona a tiempo ante fallas de refrigeración (pérdida de cadena de frío), incluso de madrugada. | Monitoreo de temperatura y humedad con alertas | US010, US011, US012 |
+| | | Mantiene el stock real sin transcribir datos de WhatsApp a Excel. | Inventario centralizado con búsqueda y filtros | US001, US002, US003, US004, US005 |
+| | | Convierte productos en riesgo en oferta y registra la merma para medir sus pérdidas. | Registro de mermas y ofertas | US013, US014 |
 
 
 ## 3.3. Product Backlog.
