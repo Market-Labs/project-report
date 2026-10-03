@@ -197,6 +197,17 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 
 Las hipótesis se redactaron con la plantilla oficial *"We believe we will achieve [business outcome] if [personas] attain [user outcome] with [feature]"*. Se formuló una hipótesis por cada Feature Assumption, y las columnas BO, UO y FA indican el número del Business Outcome, User Outcome y Feature Assumption enumerados en la sección anterior.
 
+| # | Hypothesis Statement | BO | UO | FA |
+|---|---|:---:|:---:|:---:|
+| H1 | *We believe we will achieve* greater traceability of products, batches and expiration dates *if* minimarket administrators like Russell Estrada *attain* higher confidence in their inventory information *with* a centralized inventory module to register, search, filter and update products, batches and expirations. | 2 | 1 | 1 |
+| H2 | *We believe we will achieve* fewer products written off due to expiration or spoilage *if* minimarket administrators like Russell Estrada *attain* timely detection of near-expiry products and risky storage conditions *with* configurable expiration and storage condition alerts. | 1 | 3 | 2 |
+| H3 | *We believe we will achieve* a reduction in the time required to identify products or batches at risk *if* minimarket administrators like Russell Estrada *attain* continuous visibility of the conditions in which their products are stored *with* temperature and humidity records for each storage area. | 3 | 3 | 3 |
+| H4 | *We believe we will achieve* better information for replenishment decisions *if* suppliers like Marco Antonio Ríos *attain* a single, up-to-date view of their products, batches and availability that minimarkets can consult *with* a supplier product catalog. | 5 | 5 | 4 |
+| H5 | *We believe we will achieve* increased traceability of orders from their creation to their shipment *if* suppliers like Marco Antonio Ríos *attain* less uncertainty about the orders they must fulfill, without transcribing WhatsApp messages *with* a structured workflow in which administrators create orders and suppliers accept them and generate shipping orders. | 6 | 6 | 5 |
+| H6 | *We believe we will achieve* complete traceability of product entries into the inventory *if* minimarket administrators like Russell Estrada *attain* the ability to review shipping orders and accept or reject them before their inventory is modified *with* shipping order reception that automatically updates the inventory only when accepted. | 6 | 4 | 6 |
+| H7 | *We believe we will achieve* a better capacity to anticipate replenishment needs *if* minimarket administrators like Russell Estrada and suppliers like Marco Antonio Ríos *attain* faster operational decisions and early identification of low-stock products *with* role-based dashboards with indicators, alerts and an operations history. | 4 | 2 | 7 |
+| H8 | *We believe we will achieve* trustworthy order and inventory traceability across both segments *if* minimarket administrators like Russell Estrada and suppliers like Marco Antonio Ríos *attain* the confidence that each party can only see and modify the data of its own business *with* authentication, roles and permissions per segment. | 6 | 7 | 8 |
+
 
 
 
