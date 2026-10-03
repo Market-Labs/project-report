@@ -718,6 +718,40 @@ Los principales problemas identificados se relacionan con el tiempo empleado en 
 
 A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de MarketGo.
 
+**Segmento objetivo: Proveedores de Productos Orgánicos**
+
+#### 1. Descripción general del segmento
+
+Este segmento agrupa a proveedores, distribuidores y comerciantes mayoristas responsables de comercializar alimentos y productos orgánicos a minimarkets y pequeños comercios. Sus actividades incluyen la gestión de catálogos, control de disponibilidad, seguimiento de lotes, recepción y preparación de pedidos de abastecimiento, así como la coordinación logística de entregas. A partir de las entrevistas realizadas a los proveedores (Álvaro Chojaga, Luz Rojas y Anita Gamboa), se identificaron patrones operativos alineados al uso de herramientas digitales desarticuladas, la alta carga de trabajo manual y los cuellos de botella generados por la falta de un canal comercial unificado. Estos hallazgos sirven como fundamento para la construcción del arquetipo representativo.
+
+#### 2. Características objetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+| :--- | :---: | :--- | :--- |
+| **Uso de hojas de cálculo (Excel) para el catálogo y control interno** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Todos los proveedores emplean Microsoft Excel como herramienta principal para registrar sus listas de productos, precios y control de lotes. | El arquetipo domina herramientas de escritorio tradicionales, pero sufre de desactualización constante al no estar conectadas en tiempo real con sus clientes. |
+| **Uso intensivo de WhatsApp para la gestión comercial y pedidos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** La recepción de solicitudes, confirmación de precios, coordinación de despachos y cambios se realiza de manera casi exclusiva por WhatsApp. | El arquetipo depende de la mensajería instantánea para vender, lo que provoca dispersión de la información y pérdida de histórico de pedidos. |
+| **Atención dispersa entre múltiples dispositivos (Celular y Laptop)** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Utilizan el celular para responder rápidamente a clientes en movimiento y la laptop para revisar inventarios y cotizaciones. | El arquetipo requiere una plataforma web con alta accesibilidad responsive para operar en oficina o en almacén/campo. |
+| **Proceso manual de verificación y actualización de disponibilidad** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Al recibir un pedido, deben validar manualmente contra su stock o cuadernos si cuentan con los productos antes de confirmar al minimarket. | El arquetipo pierde tiempo operativo en revisiones manuales, expuesto a ofrecer disponibilidad de stock desactualizada. |
+
+#### 3. Características subjetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+| :--- | :---: | :--- | :--- |
+| **Frustración por errores de comunicación y modificaciones por chat** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Expresan que los cambios de último momento o malentendidos en conversaciones de WhatsApp generan despachos erróneos o inconsistencias. | El arquetipo busca estandarizar la toma de pedidos para evitar reprocesos y pérdidas económicas por devoluciones. |
+| **Necesidad de visibilidad y trazabilidad en el estado de los pedidos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Identifican como un problema la falta de seguimiento claro desde que el pedido es solicitado, preparado, despachado hasta que es recibido por el minimarket. | El arquetipo valora contar con un flujo de estados transparente que reduzca las constantes llamadas y mensajes de consulta de los clientes. |
+| **Deseo de proyectar una imagen más profesional y digital** | **67% (2/3)** | **Entrevistas 4 y 5:** Destacan que una plataforma digital les permite publicitar sus productos orgánicos, resaltar certificaciones/calidad sanitaria y diferenciarse de competidores informales. | El arquetipo busca herramientas de cara al cliente que eleven su valor percibido y faciliten la captura de nuevos minimarkets. |
+| **Preocupación por la gestión y vencimiento de lotes orgánicos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Al comercializar productos perecibles u orgánicos, la rotación adecuada de lotes para evitar que expiren en almacén es una prioridad constante. | El arquetipo necesita vincular los lotes de salida directamente a las solicitudes para garantizar frescura en la entrega. |
+
+#### 4. Hallazgos principales
+
+- **Silos de información y reproceso por canales informales (100% de coincidencia):** Los tres proveedores operan triangulando información entre hojas de Excel locales y chats de WhatsApp. La falta de un canal unificado provoca transcripciones manuales de pedidos, errores en cantidades/lotes e inconsistencias al comunicar la disponibilidad a los minimarkets.
+- **Vulnerabilidad en la cadena de abastecimiento perecible (100% de coincidencia):** La naturaleza de los productos orgánicos exige un control estricto de rotación y tiempos de despacho. Las demoras generadas por la confirmación manual de stock y la falta de seguimiento de entrega impactan directamente en la calidad del producto entregado.
+- **Aceptación hacia la centralización B2B (100% de coincidencia):** Todos los entrevistados coinciden en que contar con una plataforma que centralice su catálogo, controle su stock/lotes disponible y automatice la recepción y seguimiento de pedidos agilizaría drásticamente su logística.
+
+#### 5. Conclusión del segmento
+
+Las entrevistas realizadas a los proveedores de productos orgánicos revelan una dinámica comercial fuertemente atada a la combinación de hojas de cálculo de Excel y aplicaciones de mensajería instantánea (WhatsApp). Si bien este esquema les ha permitido operar de forma empírica, genera cuellos de botella severos cuando el volumen de minimarkets o solicitudes aumenta. Los dolores operativos clave se concentran en la transcripción manual de pedidos, la actualización tardía de stock disponible, la falta de trazabilidad en las etapas del despacho y el riesgo constante de vencimiento de lotes perecibles. Además, la coordinación informal provoca malentendidos sobre precios o cantidades que deterioran la relación comercial con los administradores de minimarkets. A partir de estos patrones, el arquetipo del proveedor puede definirse como un comerciante o gestor B2B proactivo, adaptable al entorno móvil y web, que necesita optimizar sus tiempos de atención. Sus expectativas respecto a MarketGo se orientan a disponer de un canal profesional para exponer su catálogo orgánico, automatizar la entrada de solicitudes conectadas al stock de lotes, proyectar trazabilidad en los despachos y reducir los errores de comunicación a cero.
+
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
