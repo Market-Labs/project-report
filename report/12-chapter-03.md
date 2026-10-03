@@ -186,6 +186,19 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 | | | Convierte productos en riesgo en oferta y registra la merma para medir sus pérdidas. | Registro de mermas y ofertas | US013, US014 |
 
 
+**Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
+| | | Solicita abastecimiento con un pedido estructurado en vez de mensajes de chat. | Creación y seguimiento de pedidos | US018, US019 |
+| | | Confirma la recepción y su inventario se actualiza automáticamente, sin errores manuales. | Recepción de órdenes de envío integrada al inventario | US023, US024 |
+| | Marco Antonio Ríos | Publica su catálogo con disponibilidad real en una sola plataforma. | Gestión del catálogo del proveedor | US016, US017 |
+| | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
+| | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
+| | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
+
+
 ## 3.3. Product Backlog.
 
 | Orden | User Story ID | Título | Descripción | Story Points |
