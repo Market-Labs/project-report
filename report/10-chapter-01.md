@@ -69,32 +69,12 @@ Ante este escenario, se propone una plataforma digital que centralice la informa
 ### 1.2.2. Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
+En el mercado peruano, los administradores de minimarkets que comercializan productos orgánicos necesitan controlar inventarios, lotes, vencimientos y condiciones de almacenamiento para evitar mermas y reponer a tiempo. Las entrevistas muestran el uso combinado de POS, hojas de cálculo, libretas y mensajería; esa dispersión dificulta detectar productos en riesgo y conocer el stock disponible. Los proveedores, por su parte, necesitan mantener actualizados su catálogo, lotes y disponibilidad, y dar seguimiento a los pedidos de los minimarkets, pero la coordinación mediante archivos y conversaciones separadas dificulta confirmar cantidades, cambios y estados de pedido.
 
-Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos en riesgo.
+Existen soluciones de gestión comercial e inventario revisadas en el análisis competitivo, pero cada una cubre solo una parte del proceso. La oportunidad de **MarketLabs** es atender de forma integrada la conservación de productos orgánicos, la trazabilidad por lotes y la coordinación de pedidos entre ambos segmentos. A partir de estos hallazgos y del análisis 5W+2H, el Problem Statement se redactó con la plantilla oficial de Lean UX para una iniciativa nueva (*brand new initiative*):
 
-La ausencia de monitoreo integrado de las condiciones ambientales también limita la capacidad de los responsables para reaccionar oportunamente ante variaciones de temperatura o humedad que puedan afectar la conservación de los productos.
 
-Paralelamente, los administradores de minimarkets necesitan conocer la disponibilidad de productos ofrecidos por los proveedores para realizar pedidos de abastecimiento. Los proveedores, por su parte, necesitan disponer de un mecanismo que les permita generar pedidos y consultar el estado de las operaciones realizadas.
 
-Como consecuencia, pueden producirse pérdidas por deterioro, vencimiento, errores en pedidos, retrasos en el abastecimiento y situaciones de desabastecimiento.
-
-Ante esto nos surge la siguiente pregunta:
-
-**¿Cómo podría una plataforma web centralizar la gestión de inventarios, conservación y abastecimiento de productos orgánicos, utilizando un dashboard común con permisos diferenciados, para reducir pérdidas y mejorar la coordinación entre administradores de minimarkets y proveedores?**
-
-1. **Domain:** Gestión, conservación y abastecimiento de productos orgánicos.
-
-2. **Customer Segments:** Administradores de minimarkets y proveedores de productos orgánicos.
-
-3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar lotes y problemas de coordinación durante el abastecimiento.
-
-4. **Gap:** Falta de una plataforma especializada que integre inventario, lotes, conservación y abastecimiento mediante un dashboard común con permisos adecuados para cada tipo de usuario.
-
-5. **Vision/Strategy:** Centralizar digitalmente la información operativa y proporcionar herramientas que permitan identificar riesgos, gestionar inventarios y facilitar el abastecimiento mediante permisos diferenciados según el rol.
-
-6. **Initial Segment:** Administradores de minimarkets y proveedores de productos orgánicos que requieran mejorar el control de inventarios, conservación y coordinación de abastecimiento.
-
----
 
 #### 1.2.2.2. Lean UX Assumptions.
 
