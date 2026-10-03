@@ -198,6 +198,8 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 | | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
 | | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
 
+De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
+
 
 ## 3.3. Product Backlog.
 
