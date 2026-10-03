@@ -168,8 +168,8 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 - El endpoint de `donations` deja de formar parte de la cobertura funcional esperada, debido a que las donaciones ya no pertenecen al alcance actual de MarketGo.
 
 ## 3.2. Impact Mapping.
+El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
-El diagrama de Impact Mapping de MarketGo no está disponible entre los archivos entregados para AV1. Se incorporará cuando el equipo proporcione el artefacto original.
 
 ## 3.3. Product Backlog.
 
