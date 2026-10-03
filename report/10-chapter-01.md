@@ -74,6 +74,21 @@ En el mercado peruano, los administradores de minimarkets que comercializan prod
 Existen soluciones de gestión comercial e inventario revisadas en el análisis competitivo, pero cada una cubre solo una parte del proceso. La oportunidad de **MarketLabs** es atender de forma integrada la conservación de productos orgánicos, la trazabilidad por lotes y la coordinación de pedidos entre ambos segmentos. A partir de estos hallazgos y del análisis 5W+2H, el Problem Statement se redactó con la plantilla oficial de Lean UX para una iniciativa nueva (*brand new initiative*):
 
 
+> **The current state of** organic product retail in Lima's minimarkets has focused primarily on manual and fragmented control: minimarket administrators track inventory, batches, expiration dates and storage conditions through physical checks, notebooks, POS systems and spreadsheets, while organic product suppliers receive and confirm replenishment orders through WhatsApp messages and phone calls. As a result, products expire or spoil before they are detected, stock records become inaccurate after orders are transcribed manually, and both parties lose time confirming the status of each delivery. In Peru, about 12.8 million tons of food are lost every year, 47.6% of the annual food supply (OECD, 2025).
+>
+> **What existing products/services fail to address is** the connection between replenishment and the minimarket's internal control. FreshTracker covers storage monitoring, ShelfLife covers inventory and expiration tracking, and Peru Marketplace connects buyers and suppliers, but none of them links a supplier's shipment to the minimarket's inventory, batches and storage alerts in a single flow with role-based permissions for both parties.
+>
+> **Our product/service will address this gap by** offering MarketGo, a responsive SaaS web platform where minimarket administrators manage inventory, batches, expirations and storage conditions with automatic alerts, and create replenishment orders that suppliers accept and fulfill through shipping orders. Once the administrator accepts a shipping order, the received products and batches are automatically added to the minimarket's inventory, and both parties follow the status of each operation from role-based dashboards.
+>
+> **Our initial focus will be** small and medium organic minimarkets in Metropolitan Lima, represented by the persona Russell Estrada, and the organic product suppliers and distributors that serve them, represented by the persona Marco Antonio Ríos.
+>
+> **We'll know we are successful when we see:**
+> - A 30% reduction in products written off due to expiration or spoilage in subscribed minimarkets within the first 6 months.
+> - The average time between the creation of a replenishment order and the generation of its shipping order reduced from 24 hours to less than 4 hours in 80% of orders during the first semester.
+> - 100% of accepted shipping orders updating the minimarket's inventory without manual entry.
+> - At least 20 active minimarkets and 5 active suppliers using the platform weekly by the end of the first semester.
+
+
 
 
 #### 1.2.2.2. Lean UX Assumptions.
