@@ -194,25 +194,11 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-**Hypothesis 1**
 
-*We believe we will achieve* an increase in batch and expiration date traceability *If* Minimarket Administrators *Attain* higher confidence in inventory information through a centralized record of products, batches, and expirations *With* a centralized inventory and batch management module.
+Las hipótesis se redactaron con la plantilla oficial *"We believe we will achieve [business outcome] if [personas] attain [user outcome] with [feature]"*. Se formuló una hipótesis por cada Feature Assumption, y las columnas BO, UO y FA indican el número del Business Outcome, User Outcome y Feature Assumption enumerados en la sección anterior.
 
-**Hypothesis 2**
 
-*We believe we will achieve* a reduction in the time required to identify products or batches at risk and a decrease in products discarded due to inadequate storage conditions *If* Minimarket Administrators *Attain* timely identification of anomalous environmental conditions that pose a risk to organic products *With* an environmental storage monitoring system with automated temperature and humidity alerts.
 
-**Hypothesis 3**
-
-*We believe we will achieve* improved information availability for replenishment decision-making *If* Minimarket Administrators and Suppliers *Attain* the ability to check product availability and initiate replenishment orders from a single platform without external channels *With* a supplier product catalog and replenishment order generation tool.
-
-**Hypothesis 4**
-
-*We believe we will achieve* increased traceability of orders from creation to acceptance and inventory incorporation *If* Minimarket Administrators *Attain* efficient, automatic inventory updates upon order acceptance and reduced uncertainty regarding order status *With* an automated order lifecycle management and automatic inventory integration feature.
-
-**Hypothesis 5**
-
-*We believe we will achieve* consistent operational centralization across buyers and suppliers while preserving system security *If* Minimarket Administrators and Suppliers *Attain* streamlined execution of role-specific tasks without unauthorized data modification *With* a common dashboard with role-based access control and differentiated permissions.
 
 ---
 
