@@ -316,6 +316,22 @@ El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Perso
   </tr>
 </table>
 
+
+**Diferenciación frente a la competencia**
+
+| Capacidad | MarketGo | FreshTracker | ShelfLife | Peru Marketplace |
+|---|:---:|:---:|:---:|:---:|
+| Inventario, lotes y vencimientos | ✔ | ✘ | ✔ | ✘ |
+| Monitoreo de temperatura y humedad con alertas | ✔ | ✔ | ✘ | ✘ |
+| Pedidos y órdenes de envío entre minimarket y proveedor | ✔ | ✘ | ✘ | ✔ |
+| Recepción que actualiza automáticamente el inventario | ✔ | ✘ | ✘ | ✘ |
+| Dashboards con permisos por rol (minimarket / proveedor) | ✔ | ✘ | ✘ | ✘ |
+| Enfoque especializado en productos orgánicos | ✔ | ✘ | ✘ | ✘ |
+
+La propuesta de valor diferencial de MarketGo es **conectar el abastecimiento con el inventario y la conservación**: un pedido aceptado por el proveedor se convierte en una orden de envío que, al ser aceptada por el minimarket, actualiza su inventario y sus lotes, los cuales quedan inmediatamente bajo control de vencimientos y alertas de conservación.
+
+---
+
 ---
 
 ## 1.3. Segmentos objetivo.
