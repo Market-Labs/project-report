@@ -168,8 +168,38 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 - El endpoint de `donations` deja de formar parte de la cobertura funcional esperada, debido a que las donaciones ya no pertenecen al alcance actual de MarketGo.
 
 ## 3.2. Impact Mapping.
+El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
-El diagrama de Impact Mapping de MarketGo no está disponible entre los archivos entregados para AV1. Se incorporará cuando el equipo proporcione el artefacto original.
+<p align="center">
+  <img src="assets/chapter-03/impact-mapping.png" alt="Impact Mapping de MarketGo" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Mapping de MarketGo (Business Goals → Personas → Impacts → Deliverables → User Stories).</em></p>
+
+**Business Goal 1 – Reducción de mermas (Persona: Russell Estrada, administrador de minimarket orgánico)**
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir en 30% las mermas por vencimiento y deterioro de productos orgánicos en los minimarkets que usan MarketGo, durante los primeros 6 meses desde su lanzamiento. | Russell Estrada | Identifica los lotes próximos a vencer sin revisión física del almacén. | Gestión de lotes y control de vencimientos | US006, US007, US008 |
+| | | Actúa antes de perder el producto al ser avisado de forma automática. | Alertas de vencimiento | US009 |
+| | | Reacciona a tiempo ante fallas de refrigeración (pérdida de cadena de frío), incluso de madrugada. | Monitoreo de temperatura y humedad con alertas | US010, US011, US012 |
+| | | Mantiene el stock real sin transcribir datos de WhatsApp a Excel. | Inventario centralizado con búsqueda y filtros | US001, US002, US003, US004, US005 |
+| | | Convierte productos en riesgo en oferta y registra la merma para medir sus pérdidas. | Registro de mermas y ofertas | US013, US014 |
+
+
+**Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
+| | | Solicita abastecimiento con un pedido estructurado en vez de mensajes de chat. | Creación y seguimiento de pedidos | US018, US019 |
+| | | Confirma la recepción y su inventario se actualiza automáticamente, sin errores manuales. | Recepción de órdenes de envío integrada al inventario | US023, US024 |
+| | Marco Antonio Ríos | Publica su catálogo con disponibilidad real en una sola plataforma. | Gestión del catálogo del proveedor | US016, US017 |
+| | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
+| | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
+| | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
+
+De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
+
 
 ## 3.3. Product Backlog.
 
