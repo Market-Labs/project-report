@@ -97,6 +97,17 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 - El alcance geográfico inicial es Lima Metropolitana.
 
 
+**Relación del Problem Statement con el análisis 5W+2H:**
+
+| Elemento de la plantilla | Resultado 5W+2H que lo sustenta |
+|---|---|
+| The current state of… | **Who**, **Where** y **When**: administradores y proveedores, durante el almacenamiento, el control de lotes y el abastecimiento. |
+| What existing products/services fail to address… | **Why**: fragmentación de la información y ausencia de una plataforma que integre inventario, abastecimiento y monitoreo. |
+| Our product/service will address this gap by… | **What** y **How**: gestión integrada de inventario, lotes, vencimientos, conservación, pedidos y órdenes de envío. |
+| Our initial focus will be… | **Who** y **Where**: minimarkets orgánicos y proveedores de Lima Metropolitana. |
+| We'll know we are successful when we see… | **How Much**: pérdidas por mermas, desabastecimiento y costos operativos, convertidos en métricas cuantitativas. |
+
+
 
 #### 1.2.2.2. Lean UX Assumptions.
 
