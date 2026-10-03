@@ -108,6 +108,19 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 | We'll know we are successful when we see… | **How Much**: pérdidas por mermas, desabastecimiento y costos operativos, convertidos en métricas cuantitativas. |
 
 
+1. **Domain:** Gestión logística, abastecimiento y monitoreo de productos orgánicos.
+
+2. **Customer Segments:** Administradores de minimarkets y proveedores de productos orgánicos.
+
+3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar niveles de stock, lotes y vencimientos, problemas para consultar disponibilidad de productos y coordinar pedidos de abastecimiento.
+
+4. **Gap:** Las soluciones comerciales comparadas cubren por separado la conservación, el inventario o la conexión B2B; la oportunidad identificada es integrar la conservación de productos orgánicos, la trazabilidad por lotes y el flujo de pedidos y órdenes de envío entre minimarket y proveedor, con permisos diferenciados para modificar el inventario.
+
+5. **Vision/Strategy:** Centralizar la información operativa para identificar riesgos, anticipar necesidades de reposición, gestionar inventarios y facilitar el abastecimiento mediante un flujo en el que el administrador crea el pedido, el proveedor lo atiende con una orden de envío y el administrador acepta la recepción antes de actualizar el inventario.
+
+6. **Initial Segment:** Administradores de minimarkets orgánicos de Lima Metropolitana y los proveedores de productos orgánicos que los abastecen.
+
+---
 
 #### 1.2.2.2. Lean UX Assumptions.
 
