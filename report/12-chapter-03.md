@@ -170,6 +170,12 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 ## 3.2. Impact Mapping.
 El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
+<p align="center">
+  <img src="assets/chapter-03/impact-mapping.png" alt="Impact Mapping de MarketGo" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Mapping de MarketGo (Business Goals → Personas → Impacts → Deliverables → User Stories).</em></p>
+
+
 
 ## 3.3. Product Backlog.
 
