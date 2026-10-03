@@ -217,6 +217,105 @@ Estas hipótesis se validarán mediante pruebas con usuarios sobre el prototipo 
 El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Personas de la sección 2.3.1, **Russell Estrada** (administrador de minimarket orgánico) y **Marco Antonio Ríos** (coordinador comercial de una distribuidora orgánica B2B), y de los competidores analizados en la sección 2.1.
 
 
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <strong>1. Business problem</strong>
+      <br><br>
+      Los minimarkets de productos orgánicos en Lima controlan inventario, lotes, vencimientos y conservación con revisiones físicas, libretas y hojas de cálculo, y coordinan su abastecimiento por WhatsApp (100% de los administradores entrevistados).
+      <br><br>
+      Esto provoca mermas por vencimiento o pérdida de cadena de frío, errores de stock al transcribir pedidos y llamadas constantes para confirmar despachos.
+      <br><br>
+      FreshTracker, ShelfLife y Peru Marketplace resuelven solo una parte (conservación, inventario o conexión B2B) y ninguna conecta el abastecimiento con el inventario y la conservación.
+    </td>
+    <td rowspan="2" valign="top" width="34%">
+      <strong>5. Solution ideas</strong>
+      <br><br>
+      - Inventario centralizado con lotes y vencimientos (FA1).
+      <br><br>
+      - Alertas de vencimiento y de condiciones de conservación (FA2).
+      <br><br>
+      - Registros de temperatura y humedad con datos inicialmente simulados (FA3).
+      <br><br>
+      - Catálogo del proveedor con disponibilidad real (FA4).
+      <br><br>
+      - Pedido creado por el administrador → aceptado por el proveedor → orden de envío (FA5).
+      <br><br>
+      - Recepción de la orden de envío que actualiza automáticamente el inventario (FA6).
+      <br><br>
+      - Dashboards por rol con indicadores, alertas e historial (FA7).
+      <br><br>
+      - Autenticación, roles y permisos por segmento (FA8).
+    </td>
+    <td valign="top" width="33%">
+      <strong>2. Business outcomes</strong>
+      <br><br>
+      - Reducir en 30% las bajas por vencimiento o deterioro de los minimarkets suscritos en 6 meses.
+      <br><br>
+      - Reducir de 24 h a menos de 4 h el tiempo entre la creación de un pedido y su orden de envío en el 80% de los pedidos.
+      <br><br>
+      - Lograr que el 100% de las órdenes de envío aceptadas actualicen el inventario sin registro manual.
+      <br><br>
+      - Alcanzar 20 minimarkets y 5 proveedores activos al cierre del primer semestre.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong>3. Users &amp; customers</strong>
+      <br><br>
+      - <strong>Russell Estrada</strong> (28 años, Lima): administrador de minimarket orgánico, opera desde el celular, usa Excel y WhatsApp y tiene baja adopción de nuevas herramientas.
+      <br><br>
+      - <strong>Marco Antonio Ríos</strong> (32 años, Lurín): coordinador comercial de una distribuidora que atiende 30 minimarkets con un catálogo de 120 productos.
+    </td>
+    <td valign="top">
+      <strong>4. User outcomes &amp; benefits</strong>
+      <br><br>
+      - Russell: dejar de perder dinero por mermas al enterarse a tiempo de vencimientos y fallas de refrigeración, sin revisar físicamente el almacén.
+      <br><br>
+      - Russell: mantener el stock real al aceptar una orden de envío, sin transcribir datos de WhatsApp a Excel.
+      <br><br>
+      - Marco: recibir pedidos estructurados y despachar sin errores de transcripción.
+      <br><br>
+      - Marco: dejar de atender llamadas de confirmación, porque el minimarket ve el estado de su pedido.
+      <br><br>
+      - Ambos: una herramienta sencilla, usable desde el celular y con una curva de aprendizaje corta.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong>6. Hypotheses</strong>
+      <br><br>
+      - H1: más trazabilidad si Russell confía en su inventario gracias al módulo de inventario y lotes.
+      <br><br>
+      - H2 y H3: menos mermas si Russell detecta a tiempo vencimientos y condiciones riesgosas gracias a alertas y registros de conservación.
+      <br><br>
+      - H4: mejores decisiones de reposición si Marco mantiene un catálogo con disponibilidad real.
+      <br><br>
+      - H5 y H6: pedidos trazables de inicio a fin si Marco despacha con órdenes de envío y Russell las acepta antes de actualizar su inventario.
+      <br><br>
+      - H7 y H8: reposición anticipada y datos confiables gracias a dashboards por rol con permisos.
+    </td>
+    <td valign="top">
+      <strong>7. What's the most important thing we need to learn first?</strong>
+      <br><br>
+      - Si Russell confía en las alertas y en la actualización automática del inventario lo suficiente como para abandonar su control en Excel.
+      <br><br>
+      - Si Marco está dispuesto a recibir y responder pedidos en MarketGo en lugar de WhatsApp.
+      <br><br>
+      - Si la separación de funciones (el administrador crea el pedido y acepta la recepción; el proveedor responde y despacha) es clara para ambos segmentos.
+    </td>
+    <td valign="top">
+      <strong>8. What's the least amount of work we need to do to learn the next most important thing?</strong>
+      <br><br>
+      - Crear un prototipo navegable con datos ficticios realistas de inventario, lotes, vencimientos, temperatura, humedad y alertas.
+      <br><br>
+      - Probar con 3 administradores y 3 proveedores el flujo completo: crear pedido → aceptarlo → generar orden de envío → aceptar la recepción y ver el inventario actualizado.
+      <br><br>
+      - Medir finalización de tareas, tiempo, errores y comprensión frente a su proceso actual con WhatsApp y Excel, y cerrar con una breve entrevista sobre confianza e intención de adopción.
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 1.3. Segmentos objetivo.
