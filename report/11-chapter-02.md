@@ -374,8 +374,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong>00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong>05:04</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 05:04</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 05:04</td>
@@ -430,8 +430,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong>00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong>15:00</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 15:00</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [15:00]</td>
@@ -486,8 +486,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong>00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong>07:37</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 07:37</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [07:37]</td>
@@ -543,8 +543,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong>00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong>04:06</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 04:06</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [04:06]</td>
@@ -598,8 +598,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> --:--</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> --:--</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 03:18</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [03:18]</td>
@@ -654,11 +654,11 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> --:--</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> --:--</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 07:50</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
+      <td colspan="2"><strong>Duración</strong>: [07:50]</td>
       <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCMSfrbXtL4RZKFfF1b3BmTAcRfWzPxNyHY7YMTQFX0CTM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BXNBH4" target="_blank">Ver video</a></td>
     </tr>
     <tr>
