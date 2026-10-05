@@ -374,12 +374,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> --:--</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> --:--</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 05:04</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 05:04</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">https://youtu.be/BuiCkyydM7k</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQAO_S8vsY7wSLoGXu_zLohnAacAwmkheFzeSivboAvBNEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e0cCTv" target="_blank">Ver Video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -430,12 +430,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> --:--</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> --:--</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 15:00</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [15:00]</td>
-      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">https://youtu.be/NzzEsy9Kx7Y</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQBD3_GD9iQdSaVNcGL-1ry4ATd8dDv7XB3Z7iXLqwA4PUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wlhYtj" target="_blank">Ver Video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -486,8 +486,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> --:--</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> --:--</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 07:37</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [07:37]</td>
@@ -543,8 +543,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> --:--</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> --:--</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 04:06</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [04:06]</td>
@@ -598,12 +598,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> --:--</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> --:--</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 03:18</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [03:18]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -654,12 +654,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> --:--</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> --:--</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 07:50</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">https://youtu.be/A0u3vSoaUJk</a></td>
+      <td colspan="2"><strong>Duración</strong>: [07:50]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCMSfrbXtL4RZKFfF1b3BmTAcRfWzPxNyHY7YMTQFX0CTM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BXNBH4" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
