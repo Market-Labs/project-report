@@ -134,49 +134,69 @@ De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al meno
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|---------------|--------|-------------|--------------|
-| 1 | US-001 | Registrar stock | Como usuario autorizado, quiero registrar existencias con lote y vencimiento. | 5 |
-| 2 | US-002 | Visualizar inventario | Como usuario, quiero consultar el inventario de mi organización. | 5 |
-| 3 | US-003 | Buscar en inventario | Como usuario, quiero buscar entre los registros visibles. | 3 |
-| 4 | US-004 | Filtrar inventario | Como usuario, quiero filtrar los registros de mi inventario. | 3 |
-| 5 | US-005 | Actualizar inventario | Como usuario autorizado, quiero actualizar las existencias de mi organización. | 5 |
-| 6 | US-006 | Registrar lote al ingresar stock | Como usuario autorizado, quiero asociar un código de lote al stock. | 3 |
-| 7 | US-007 | Consultar lote | Como usuario, quiero consultar el lote de cada registro. | 3 |
-| 8 | US-008 | Consultar vencimiento | Como usuario, quiero consultar fechas de vencimiento. | 3 |
-| 9 | US-009 | Consultar alertas de vencimiento | Como administrador, quiero revisar avisos de productos en riesgo. | 3 |
-| 10 | US-010 | Consultar condiciones de conservación | Como usuario, quiero consultar registros de conservación. | 3 |
-| 11 | US-011 | Visualizar temperatura y humedad | Como usuario, quiero ver valores y estados de conservación. | 3 |
-| 12 | US-012 | Consultar alertas de conservación | Como usuario, quiero acceder a Alertas desde Conservación. | 3 |
-| 13 | US-013 | Registrar merma | Como usuario autorizado, quiero registrar pérdidas de inventario. | 5 |
-| 14 | US-014 | Registrar venta | Como administrador, quiero registrar ventas de varios productos. | 5 |
-| 15 | US-015 | Consultar productos de proveedores | Como administrador, quiero consultar el catálogo de productos. | 3 |
-| 16 | US-016 | Registrar producto ofrecido | Como proveedor, quiero agregar productos a mi catálogo. | 5 |
-| 17 | US-017 | Consultar productos ofrecidos | Como proveedor, quiero consultar mis productos. | 3 |
-| 18 | US-018 | Crear solicitud de abastecimiento | Como administrador, quiero crear solicitudes con varios productos. | 5 |
-| 19 | US-019 | Consultar solicitudes | Como usuario, quiero consultar solicitudes y todos sus ítems. | 3 |
-| 20 | US-020 | Aceptar o rechazar solicitud | Como proveedor, quiero responder a las solicitudes recibidas. | 3 |
-| 21 | US-021 | Generar orden de envío | Como proveedor, quiero generar envíos desde solicitudes aceptadas. | 5 |
-| 22 | US-022 | Consultar órdenes de envío | Como usuario, quiero consultar órdenes y todos sus ítems. | 3 |
-| 23 | US-023 | Aceptar recepción | Como administrador, quiero confirmar la recepción de un envío. | 5 |
-| 24 | US-024 | Rechazar recepción | Como administrador, quiero rechazar una recepción indicando el motivo. | 3 |
-| 25 | US-025 | Consultar seguimiento de abastecimiento | Como usuario, quiero ver el estado de mis solicitudes y órdenes. | 3 |
-| 26 | US-026 | Crear usuarios de mi organización | Como administrador o proveedor, quiero crear usuarios de mi organización. | 5 |
-| 27 | US-027 | Iniciar sesión | Como usuario, quiero ingresar con correo y contraseña. | 3 |
-| 28 | US-028 | Visualizar roles y permisos | Como usuario autorizado, quiero consultar los usuarios de mi organización. | 3 |
-| 29 | US-029 | Mostrar acciones según el rol | Como usuario, quiero ver solo las acciones correspondientes a mi rol. | 5 |
-| 30 | US-030 | Consultar dashboard por rol | Como usuario, quiero ver indicadores y accesos correspondientes a mi rol. | 5 |
-| 31 | US-031 | Visualizar y exportar reportes | Como usuario, quiero previsualizar reportes y exportarlos en PDF o XLSX. | 5 |
-| 32 | US-032 | Consultar ventas propias | Como usuario, quiero consultar las ventas correspondientes a mi rol. | 3 |
-| 33 | US-033 | Editar o eliminar producto | Como usuario autorizado, quiero mantener actualizado mi catálogo. | 5 |
-| 34 | TS-FE-001 | Integración de Login | Conectar la pantalla de login con la sesión del frontend. | 3 |
-| 35 | TS-FE-002 | Adaptadores de datos del frontend | Mantener el acceso a datos mediante stores y adaptadores. | 5 |
-| 36 | TS-FE-003 | Navegación por rol | Adaptar menú, rutas y acciones al usuario autenticado. | 3 |
-| 37 | TS-FE-004 | Formularios y validaciones | Utilizar campos apropiados y mostrar validaciones. | 3 |
-| 38 | TS-FE-005 | Búsqueda e internacionalización | Buscar en tablas y cambiar textos entre español e inglés. | 3 |
-| 39 | TS-FE-006 | Vista previa y exportación de reportes | Actualizar el reporte seleccionado y exportarlo. | 5 |
-| 40 | TS-FE-007 | Compilación para Azure | Compilar el frontend desplegado en modo Firebase. | 2 |
-| 41 | FS-001 | Interfaz de solicitudes según rol | Mostrar acciones distintas al administrador y proveedor. | 3 |
-| 42 | FS-002 | Interfaz de envíos según rol | Mostrar generación de envíos o revisión de recepción según el rol. | 3 |
-| 43 | FS-003 | Interfaz de usuarios por organización | Mostrar «Nuevo usuario» para ambos roles. | 3 |
+| 1 | US 001 | Registrar stock | **Como** usuario autorizado,<br>**Quiero** registrar existencias de un producto,<br>**Para** mantener actualizado el inventario de mi organización. | 5 |
+| 2 | US 002 | Visualizar inventario | **Como** usuario autenticado,<br>**Quiero** consultar el inventario de mi organización,<br>**Para** conocer productos, cantidades y estados. | 5 |
+| 3 | US 003 | Buscar en inventario | **Como** usuario autenticado,<br>**Quiero** buscar entre los registros visibles,<br>**Para** encontrar productos rápidamente. | 3 |
+| 4 | US 004 | Filtrar inventario | **Como** usuario autenticado,<br>**Quiero** filtrar mi inventario mediante los controles disponibles,<br>**Para** identificar productos que requieren atención. | 3 |
+| 5 | US 005 | Actualizar inventario | **Como** usuario autorizado,<br>**Quiero** actualizar las existencias de mi organización,<br>**Para** reflejar los cambios de stock. | 5 |
+| 6 | US 006 | Registrar lote al ingresar stock | **Como** usuario autorizado,<br>**Quiero** indicar el código de lote al registrar existencias,<br>**Para** identificar el grupo de productos almacenados. | 3 |
+| 7 | US 007 | Consultar lote | **Como** usuario autenticado,<br>**Quiero** consultar el lote de cada registro,<br>**Para** reconocer las existencias asociadas. | 3 |
+| 8 | US 008 | Consultar vencimiento | **Como** usuario autenticado,<br>**Quiero** consultar las fechas de vencimiento,<br>**Para** priorizar la revisión de productos. | 3 |
+| 9 | US 009 | Consultar alertas de vencimiento | **Como** administrador de minimarket,<br>**Quiero** revisar alertas relacionadas con productos en riesgo,<br>**Para** atenderlos oportunamente. | 3 |
+| 10 | US 010 | Consultar condiciones de conservación | **Como** usuario autenticado,<br>**Quiero** consultar los registros de conservación de mi organización,<br>**Para** conocer sus condiciones de almacenamiento. | 3 |
+| 11 | US 011 | Visualizar temperatura y humedad | **Como** usuario autenticado,<br>**Quiero** ver temperatura y humedad por registro,<br>**Para** reconocer condiciones normales o de riesgo. | 3 |
+| 12 | US 012 | Consultar alertas de conservación | **Como** usuario autenticado,<br>**Quiero** abrir las alertas desde Conservación,<br>**Para** revisar los riesgos disponibles. | 3 |
+| 13 | US 013 | Registrar merma | **Como** usuario autorizado,<br>**Quiero** registrar una merma de mi inventario,<br>**Para** conservar el historial de pérdidas. | 5 |
+| 14 | US 014 | Registrar venta | **Como** administrador de minimarket,<br>**Quiero** registrar una venta con uno o varios productos,<br>**Para** consultar la operación y mantener actualizado el stock. | 5 |
+| 15 | US 015 | Consultar productos de proveedores | **Como** administrador de minimarket,<br>**Quiero** consultar el catálogo,<br>**Para** identificar opciones de abastecimiento. | 3 |
+| 16 | US 016 | Registrar producto ofrecido | **Como** proveedor,<br>**Quiero** agregar productos a mi catálogo,<br>**Para** ofrecerlos a los minimarkets. | 5 |
+| 17 | US 017 | Consultar productos ofrecidos | **Como** proveedor,<br>**Quiero** consultar mis productos,<br>**Para** revisar su información y disponibilidad. | 3 |
+| 18 | US 018 | Crear solicitud de abastecimiento | **Como** administrador de minimarket,<br>**Quiero** solicitar varios productos registrados a un proveedor,<br>**Para** abastecer mi negocio mediante una sola solicitud. | 5 |
+| 19 | US 019 | Consultar solicitudes | **Como** administrador o proveedor,<br>**Quiero** consultar solicitudes y abrir su detalle,<br>**Para** revisar productos, cantidades y estado. | 3 |
+| 20 | US 020 | Aceptar o rechazar solicitud | **Como** proveedor,<br>**Quiero** responder a las solicitudes recibidas,<br>**Para** indicar si puedo atenderlas. | 3 |
+| 21 | US 021 | Generar orden de envío | **Como** proveedor,<br>**Quiero** generar una orden desde una solicitud aceptada,<br>**Para** registrar los productos que enviaré. | 5 |
+| 22 | US 022 | Consultar órdenes de envío | **Como** administrador o proveedor,<br>**Quiero** consultar órdenes y abrir su detalle,<br>**Para** revisar todos los productos enviados. | 3 |
+| 23 | US 023 | Aceptar recepción | **Como** administrador de minimarket,<br>**Quiero** aceptar una orden pendiente,<br>**Para** incorporar los productos recibidos al inventario. | 5 |
+| 24 | US 024 | Rechazar recepción | **Como** administrador de minimarket,<br>**Quiero** rechazar una orden pendiente,<br>**Para** evitar incorporar productos no aceptados. | 3 |
+| 25 | US 025 | Consultar seguimiento de abastecimiento | **Como** usuario autenticado,<br>**Quiero** consultar el estado de mis solicitudes y órdenes,<br>**Para** seguir mis operaciones. | 3 |
+| 26 | US 026 | Crear usuarios de mi organización | **Como** administrador o proveedor autorizado,<br>**Quiero** crear usuarios para mi organización,<br>**Para** delegar el acceso a MarketGo. | 5 |
+| 27 | US 027 | Iniciar sesión | **Como** usuario,<br>**Quiero** iniciar sesión con correo y contraseña,<br>**Para** acceder a las pantallas de mi rol. | 3 |
+| 28 | US 028 | Visualizar roles y permisos | **Como** usuario autorizado,<br>**Quiero** consultar los usuarios y roles de mi organización,<br>**Para** conocer quiénes tienen acceso. | 3 |
+| 29 | US 029 | Mostrar acciones según el rol | **Como** usuario autenticado,<br>**Quiero** ver solo las acciones que me corresponden,<br>**Para** evitar operaciones no autorizadas. | 5 |
+| 30 | US 030 | Consultar dashboard por rol | **Como** usuario autenticado,<br>**Quiero** ver un dashboard común adaptado a mi rol,<br>**Para** revisar mis operaciones. | 5 |
+| 31 | US 031 | Visualizar y exportar reportes | **Como** usuario autenticado,<br>**Quiero** seleccionar un reporte, previsualizarlo y exportarlo,<br>**Para** analizar mis operaciones fuera de MarketGo. | 5 |
+| 32 | US 032 | Consultar ventas propias | **Como** usuario autenticado,<br>**Quiero** consultar las ventas correspondientes a mi rol,<br>**Para** revisar mis operaciones comerciales. | 3 |
+| 33 | US 033 | Editar o eliminar producto | **Como** usuario autorizado,<br>**Quiero** actualizar o retirar un producto de mi catálogo,<br>**Para** mantener vigente la información ofrecida. | 5 |
+| 34 | IMP-BE-001 | Backend foundations | Como desarrollador, quiero configurar ASP.NET Core/C# con seguridad, health check, Swagger y XML docs para sostener los Web Services de MarketGo. | 3 |
+| 35 | IMP-BE-002 | Persistence, migrations and seed data | Como desarrollador, quiero configurar EF Core, persistencia, migraciones y datos iniciales para reemplazar los datos simulados con persistencia real. | 5 |
+| 36 | TS-IAM-001 | Sign-in API | Como frontend developer, quiero autenticar usuarios mediante `POST /api/v1/auth/sign-in` para obtener una sesión segura. | 2 |
+| 37 | TS-IAM-002 | Sign-up API | Como frontend developer, quiero registrar usuarios mediante `POST /api/v1/auth/sign-up` para habilitar el registro de nuevos usuarios. | 2 |
+| 38 | TS-IAM-003 | Users directory API | Como frontend developer, quiero listar y crear usuarios mediante `/api/v1/minimarkets/{minimarketId}/users` para administrar los accesos al sistema. | 3 |
+| 39 | TS-IAM-004 | User detail and update API | Como frontend developer, quiero consultar y actualizar usuarios asociados al minimarket para gestionar su información, rol y estado. | 3 |
+| 40 | TS-PROF-001 | Profile read and update API | Como frontend developer, quiero consumir `/api/v1/profiles` para mostrar y actualizar la información del perfil del usuario. | 3 |
+| 41 | TS-PROD-001 | Products catalog API | Como frontend developer, quiero consumir `/api/v1/products` para consultar y gestionar el catálogo de productos orgánicos. | 3 |
+| 42 | TS-PROD-002 | Product detail and update API | Como frontend developer, quiero consultar y actualizar productos mediante `/api/v1/products` para mantener su información vigente. | 3 |
+| 43 | TS-INV-001 | Inventory list and create API | Como frontend developer, quiero listar y registrar productos mediante `/api/v1/minimarkets/{minimarketId}/inventory` para controlar el inventario del minimarket. | 3 |
+| 44 | TS-INV-002 | Inventory update API | Como frontend developer, quiero actualizar los registros del inventario del minimarket para reflejar cambios en los productos disponibles. | 2 |
+| 45 | TS-INV-003 | Inventory search and filter API | Como frontend developer, quiero buscar y filtrar el inventario mediante `/api/v1/minimarkets/{minimarketId}/inventory/search` para facilitar la consulta de productos. | 2 |
+| 46 | TS-LOT-001 | Lots list and create API | Como frontend developer, quiero listar y registrar lotes mediante `/api/v1/minimarkets/{minimarketId}/lots` para mantener la trazabilidad de los productos. | 3 |
+| 47 | TS-LOT-002 | Lot detail and update API | Como frontend developer, quiero consultar y actualizar lotes asociados al minimarket para mantener su información actualizada. | 2 |
+| 48 | TS-EXP-001 | Expiration tracking API | Como frontend developer, quiero consultar las fechas de vencimiento mediante `/api/v1/minimarkets/{minimarketId}/expirations` para identificar productos próximos a vencer y facilitar su incorporación a ofertas. | 3 |
+| 49 | TS-CON-001 | Conservation monitoring API | Como frontend developer, quiero consultar los datos de conservación mediante `/api/v1/minimarkets/{minimarketId}/conservation/monitoring` para visualizar las condiciones de almacenamiento. | 3 |
+| 50 | TS-CON-002 | Conservation alerts API | Como frontend developer, quiero consultar las alertas mediante `/api/v1/minimarkets/{minimarketId}/communication/alerts` para identificar condiciones que representen riesgos para los productos. | 3 |
+| 51 | TS-SUP-001 | Suppliers directory API | Como frontend developer, quiero listar y registrar proveedores mediante `/api/v1/suppliers` para mantener un directorio organizado. | 3 |
+| 52 | TS-SUP-002 | Supplier products API | Como frontend developer, quiero consultar los productos ofrecidos por los proveedores mediante `/api/v1/suppliers` y `/api/v1/products` para mostrar las opciones de abastecimiento disponibles. | 3 |
+| 53 | TS-ORD-001 | Supply requests API | Como frontend developer, quiero listar y crear pedidos mediante `/api/v1/minimarkets/{minimarketId}/requisitions` para permitir que los administradores soliciten productos a los proveedores. | 3 |
+| 54 | TS-ORD-002 | Supply request response API | Como frontend developer, quiero gestionar la aceptación o rechazo de pedidos mediante `/api/v1/minimarkets/{minimarketId}/requisitions` para permitir que los proveedores respondan a las solicitudes recibidas. | 3 |
+| 55 | TS-ORD-003 | Shipping orders API | Como frontend developer, quiero listar y crear órdenes de envío mediante `/api/v1/minimarkets/{minimarketId}/purchase-orders` para registrar los envíos realizados por los proveedores a partir de pedidos aceptados. | 3 |
+| 56 | TS-ORD-004 | Shipping order reception API | Como frontend developer, quiero procesar la aceptación o rechazo de órdenes de envío mediante `/api/v1/minimarkets/{minimarketId}/purchase-orders` para confirmar la recepción e incorporar los productos al inventario cuando corresponda. | 3 |
+| 57 | TS-MER-001 | Waste and offer management | Como frontend developer, quiero registrar las mermas y gestionar la información relacionada con productos en oferta para mantener trazabilidad sobre los productos que requieren una salida del inventario. | 3 |
+| 58 | TS-DASH-001 | Dashboard API | Como frontend developer, quiero consultar `/api/v1/minimarkets/{minimarketId}/dashboard` para alimentar el dashboard común con indicadores correspondientes al rol del usuario. | 3 |
+| 59 | TS-DASH-002 | Alerts and notifications API | Como frontend developer, quiero consultar `/api/v1/minimarkets/{minimarketId}/communication/messages` y `/api/v1/minimarkets/{minimarketId}/communication/alerts` para mostrar alertas y notificaciones relevantes al usuario. | 2 |
+| 60 | TS-AUD-001 | Activity history API | Como frontend developer, quiero consultar `/api/v1/minimarkets/{minimarketId}/activity-history` para mostrar el historial de acciones y mantener trazabilidad de las operaciones. | 3 |
+| 61 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de negocio relacionadas con roles, permisos, pedidos de abastecimiento, órdenes de envío y actualización automática del inventario para garantizar el funcionamiento correcto de MarketGo. | 3 |
+| 62 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
+| 63 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 
 **Enlace directo al tablero:** 
 **Tablero Sprint 1: Trello**
