@@ -107,18 +107,28 @@ El Impact Mapping relaciona los objetivos de MarketGo con los comportamientos qu
 
 | Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
 |---|---|---|---|---|
-| Reducir en 30% las mermas por vencimiento y deterioro durante los primeros 6 meses desde el lanzamiento. | Russell Estrada | Consulta existencias, lotes y vencimientos sin depender únicamente de una revisión manual. | Inventario con búsqueda, filtros y datos de lote y vencimiento. | US001, US002, US003, US004, US005, US006, US007, US008 |
-| | | Revisa condiciones y avisos que requieren atención. | Vistas de Conservación y Alertas. | US009, US010, US011, US012 |
-| | | Registra pérdidas y ventas para comparar sus resultados. | Formularios de mermas y ventas; reportes de Inventario, Mermas, Conservación y Ventas. | US013, US014, US031 |
+| Reducir en 30% las mermas por vencimiento y deterioro de productos orgánicos en los minimarkets que usan MarketGo, durante los primeros 6 meses desde su lanzamiento. | Russell Estrada | Identifica los lotes próximos a vencer sin revisión física del almacén. | Gestión de lotes y control de vencimientos | US006, US007, US008 |
+| | | Actúa antes de perder el producto al ser avisado de forma automática. | Alertas de vencimiento | US009 |
+| | | Reacciona a tiempo ante fallas de refrigeración (pérdida de cadena de frío), incluso de madrugada. | Monitoreo de temperatura y humedad con alertas | US010, US011, US012 |
+| | | Mantiene el stock real sin transcribir datos de WhatsApp a Excel. | Inventario centralizado con búsqueda y filtros | US001, US002, US003, US004, US005 |
+| | | Convierte productos en riesgo en oferta y registra la merma para medir sus pérdidas. | Registro de mermas y ofertas | US013, US014 |
+
 
 **Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
 
 | Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
 |---|---|---|---|---|
-| Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de una solicitud y la generación de su orden de envío, en el 80% de las solicitudes gestionadas durante el primer semestre. | Russell Estrada | Consulta productos y crea solicitudes estructuradas con varios ítems. | Catálogo y formulario de Solicitudes. | US015, US018, US019 |
-| | | Revisa el envío y confirma o rechaza su recepción. | Detalle de órdenes y acciones de recepción. | US022, US023, US024 |
-| | Marco Antonio Ríos | Mantiene visible su catálogo y responde las solicitudes recibidas. | Productos, Solicitudes y generación de órdenes de envío. | US016, US017, US020, US021, US033 |
-| | | Consulta sus operaciones desde una interfaz adaptada a su rol. | Dashboard, ventas, reportes y seguimiento de abastecimiento. | US025, US026, US027, US028, US029, US030, US031, US032 |
+| Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
+| | | Solicita abastecimiento con un pedido estructurado en vez de mensajes de chat. | Creación y seguimiento de pedidos | US018, US019 |
+| | | Confirma la recepción y su inventario se actualiza automáticamente, sin errores manuales. | Recepción de órdenes de envío integrada al inventario | US023, US024 |
+| | Marco Antonio Ríos | Publica su catálogo con disponibilidad real en una sola plataforma. | Gestión del catálogo del proveedor | US016, US017 |
+| | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
+| | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
+| | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
+| Agilización del abastecimiento y captación de clientes | Visitante | Conoce la oferta y los beneficios de la plataforma antes de iniciar la gestión comercial. | Portal de bienvenida y catálogo público demostrativo | US031, US032, US033 |
+
+De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible
+
 
 ## 3.3. Product Backlog.
 
