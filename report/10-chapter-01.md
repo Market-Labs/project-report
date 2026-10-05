@@ -128,27 +128,30 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 
 1. Se considera que los administradores de minimarkets necesitan mejorar el control de sus productos orgánicos para reducir pérdidas asociadas al deterioro y vencimiento.
 
-2. Se plantea que una plataforma centralizada puede mejorar la visibilidad sobre inventarios, lotes, vencimientos y condiciones de almacenamiento.
+2. Se plantea que una plataforma centralizada puede mejorar la visibilidad sobre inventarios, niveles de stock, lotes, vencimientos y condiciones de almacenamiento.
 
-3. Se considera que los proveedores necesitan una herramienta que les permita consultar los productos disponibles y generar pedidos de abastecimiento dirigidos a los minimarkets.
+3. Se considera que los proveedores necesitan una herramienta especializada para gestionar productos, disponibilidad, lotes y pedidos de abastecimiento dirigidos a diferentes minimarkets.
 
 4. Se asume que la integración entre minimarkets y proveedores permitirá mejorar la eficiencia del proceso de abastecimiento.
 
-5. Se considera que las alertas generadas a partir de las condiciones de conservación permitirán identificar oportunamente productos o lotes en riesgo.
+5. Se considera que las alertas de temperatura y humedad permitirán identificar oportunamente condiciones que puedan afectar la conservación de los productos.
 
-6. Se plantea que la centralización de los pedidos permitirá mejorar la trazabilidad de las operaciones de abastecimiento entre compradores y proveedores.
+6. Se plantea que la centralización de los pedidos permitirá mejorar la trazabilidad de las operaciones de abastecimiento.
 
 7. Se estima que un modelo SaaS puede facilitar el acceso de pequeñas y medianas empresas a las funcionalidades de la plataforma sin requerir infraestructura tecnológica propia.
 
-8. Se considera que la principal diferenciación de la solución será integrar en una misma plataforma la gestión de inventarios, conservación y abastecimiento de productos orgánicos.
+8. Se considera que la principal diferenciación de la solución será integrar la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento de productos orgánicos.
 
-9. Se asume que la plataforma podrá evolucionar posteriormente para incorporar sensores IoT reales y modelos de Machine Learning.
+9. Se asume que los datos de monitoreo IoT pueden ser simulados durante la etapa inicial para validar los flujos funcionales sin depender de dispositivos físicos.
 
-10. Se presume que uno de los principales riesgos de adopción será la resistencia de los usuarios a reemplazar procesos manuales y herramientas informales.
+10. Se asume que la plataforma podrá evolucionar posteriormente para incorporar sensores IoT reales y capacidades analíticas más avanzadas.
 
-11. Se plantea que un dashboard común con permisos diferenciados permitirá mantener una experiencia consistente, evitando mostrar o permitir acciones que no correspondan al rol de cada usuario.
+11. Se presume que uno de los principales riesgos de adopción será la resistencia de los usuarios a reemplazar procesos manuales y herramientas informales.
 
-12. Se considera que la viabilidad del producto dependerá de que los beneficios obtenidos mediante la reducción de pérdidas y mejora del abastecimiento sean percibidos como superiores al costo de la solución.
+12. Se plantea que una interfaz sencilla y dashboards diferenciados permitirán reducir la complejidad para cada tipo de usuario.
+
+13. Se considera que la viabilidad del producto dependerá de que los beneficios obtenidos mediante la reducción de pérdidas y mejora del abastecimiento sean percibidos como superiores al costo de la solución.
+
 
 **Business Outcome Assumptions**
 
