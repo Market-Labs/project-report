@@ -252,9 +252,10 @@ Estas hipótesis se validarán mediante pruebas con usuarios sobre el prototipo 
 
 ---
 
-#### 1.2.2.4. Lean UX Canvas.
-El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Personas de la sección 2.3.1, **Russell Estrada** (administrador de minimarket orgánico) y **Marco Antonio Ríos** (coordinador comercial de una distribuidora orgánica B2B), y de los competidores analizados en la sección 2.1.
 
+#### 1.2.2.4. Lean UX Canvas.
+
+El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Personas de la sección 2.3.1, **Russell Estrada** (administrador de minimarket orgánico) y **Marco Antonio Ríos** (coordinador comercial de una distribuidora orgánica B2B), y de los competidores analizados en la sección 2.1.
 
 <table>
   <tr>
@@ -285,6 +286,8 @@ El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Perso
       - Dashboards por rol con indicadores, alertas e historial (FA7).
       <br><br>
       - Autenticación, roles y permisos por segmento (FA8).
+      <br><br>
+      - Landing Page con llamadas a la acción por segmento (FA9).
     </td>
     <td valign="top" width="33%">
       <strong>2. Business outcomes</strong>
@@ -333,6 +336,8 @@ El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Perso
       - H5 y H6: pedidos trazables de inicio a fin si Marco despacha con órdenes de envío y Russell las acepta antes de actualizar su inventario.
       <br><br>
       - H7 y H8: reposición anticipada y datos confiables gracias a dashboards por rol con permisos.
+      <br><br>
+      - H9: más minimarkets y proveedores registrados gracias a una Landing Page orientada a cada segmento.
     </td>
     <td valign="top">
       <strong>7. What's the most important thing we need to learn first?</strong>
