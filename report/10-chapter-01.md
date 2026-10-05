@@ -176,43 +176,59 @@ Estos resultados se evaluarán, respectivamente, mediante la cantidad de product
 
 1. Los administradores de minimarkets necesitan visualizar rápidamente el estado de su inventario y los productos próximos a vencer.
 
-2. Los administradores de minimarkets valoran recibir alertas cuando las condiciones de almacenamiento puedan afectar determinados productos.
+2. Los administradores de minimarkets necesitan identificar productos con niveles de stock que requieran reposición.
 
-3. Los administradores de minimarkets necesitan consultar la disponibilidad de productos y lotes ofrecidos por los proveedores.
+3. Los administradores de minimarkets valoran recibir alertas cuando las condiciones de almacenamiento puedan afectar determinados productos.
 
-4. Los proveedores necesitan consultar los productos que ofrecen y generar pedidos de abastecimiento desde un único sistema.
+4. Los administradores de minimarkets necesitan consultar la disponibilidad de productos ofrecidos por proveedores conectados.
 
-5. Los proveedores necesitan consultar el estado de los pedidos realizados y de las operaciones asociadas a los productos ofrecidos.
+5. Los proveedores necesitan visualizar y gestionar sus productos, disponibilidad y lotes desde un único sistema.
 
-6. Ambos segmentos necesitan consultar el estado de un pedido y disponer de información centralizada sobre las operaciones de abastecimiento.
+6. Los proveedores requieren recibir pedidos estructurados de los minimarkets, responderlos, generar órdenes de envío y consultar el estado de sus operaciones.
+
+7. Ambos segmentos necesitan consultar el estado de un pedido y mantener información actualizada sobre el proceso de abastecimiento.
 
 **User Outcome Assumptions**
 
-1. Los administradores de minimarkets tendrán mayor confianza en la información de su inventario al disponer de un registro centralizado de productos, lotes y vencimientos.
+1. Los administradores de minimarkets tendrán mayor confianza en la información de su inventario al disponer de un registro centralizado de productos, stock, lotes y vencimientos.
 
-2. Los administradores de minimarkets podrán identificar oportunamente condiciones ambientales anómalas que puedan representar un riesgo para los productos.
+2. Los administradores de minimarkets podrán identificar oportunamente productos con niveles de stock bajos y necesidades de reposición.
 
-3. Los administradores de minimarkets podrán consultar productos disponibles y gestionar pedidos de abastecimiento desde la plataforma.
+3. Los administradores de minimarkets podrán identificar condiciones ambientales anómalas que puedan representar un riesgo para los productos almacenados.
 
-4. Los proveedores podrán generar pedidos y consultar el estado de sus operaciones sin modificar directamente el inventario del minimarket.
+4. Los administradores de minimarkets podrán revisar las órdenes de envío generadas por los proveedores y decidir si aceptarlas o rechazarlas antes de modificar su inventario.
 
-5. Los usuarios experimentarán una reducción de la incertidumbre respecto al estado de los pedidos y operaciones de abastecimiento.
+5. Los proveedores podrán consultar sus productos y disponibilidad, responder pedidos, generar órdenes de envío y realizar seguimiento de su estado.
 
-6. Los administradores de minimarkets podrán mantener actualizado su inventario de forma más eficiente al incorporar automáticamente los productos correspondientes cuando acepten un pedido.
+6. Los usuarios experimentarán una reducción de la incertidumbre respecto al estado de los pedidos de abastecimiento.
+
+7. Los usuarios de ambos segmentos podrán tomar decisiones operativas con mayor rapidez al contar con información centralizada y actualizada.
+
+8. Los visitantes de la Landing Page podrán comprender rápidamente la propuesta de valor de MarketGo para su segmento y decidir si registrarse.
+
+Los resultados de usuario se comprobarán con tareas de consulta de inventario y vencimientos, detección de alertas, identificación de stock bajo, creación y revisión de pedidos, y consulta de su estado. Se observarán el tiempo de ejecución, la finalización de la tarea y los errores; las entrevistas y pruebas permitirán contrastar estos resultados con las prácticas actuales de cada segmento.
 
 **Feature Assumptions**
 
-1. Creemos que un Dashboard de Monitoreo IoT en Tiempo Real (que muestre temperatura y humedad de las áreas de almacenamiento y equipos de refrigeración en tiempo real) permitirá al personal operativo detectar inmediatamente variaciones críticas en las condiciones de conservación antes de que los productos orgánicos se deterioren.
+Cada Feature Assumption (FA) da origen a un Hypothesis Statement, de modo que existe una relación 1 a 1 entre ambas listas.
 
-2. Creemos que un Sistema Automático de Alertas e Incidencias (notificaciones instantáneas vía web ante lecturas fuera de rango o desconexión de sensores) reducirá significativamente el tiempo de respuesta del personal de almacén frente a fallas técnicas en los equipos de frío.
+1. Se considera que permitir registrar, consultar, buscar, filtrar y actualizar productos, cantidades, lotes y vencimientos, priorizando la salida de los lotes más próximos a vencer (criterio FEFO), facilitará el control centralizado del inventario del minimarket.
 
-3. Creemos que un Módulo de Gestión de Inventario y Fechas de Vencimiento (con trazabilidad de lotes orgánicos y alertas de caducidad cercana basadas en criterios FEFO/FIFO) optimizará la rotación del inventario perecible y evitará la pérdida de productos por caducidad.
+2. Se plantea que las alertas configurables sobre productos próximos a vencer y condiciones inadecuadas de temperatura o humedad permitirán identificar oportunamente productos en riesgo.
 
-4. Creemos que un Módulo de Analítica de Datos y Reportes Históricos (con gráficos explicativos sobre variaciones de temperatura, estimación económica de mermas y tendencias de conservación) brindará a los administradores de minimarkets la información necesaria para tomar decisiones estratégicas de compra y mantenimiento preventivo.
+3. Se considera que visualizar registros de temperatura y humedad permitirá al administrador supervisar las condiciones de conservación de los productos.
 
-5. Creemos que un Control de Acceso basado en Roles (RBAC) (interfaces y permisos diferenciados para Administradores de Tienda y Encargados de Almacén) garantizará que cada perfil de usuario interactúe únicamente con las herramientas relevantes para sus responsabilidades cotidianas, reduciendo la fricción de uso.
+4. Se plantea que permitir a los proveedores mantener actualizados sus productos, lotes y disponibilidad facilitará que los minimarkets consulten alternativas de abastecimiento desde la plataforma.
 
-6. Creemos que un Landing Page Interactivo con llamadas a la acción diferenciadas para cada segmento objetivo dirigirá a los visitantes directamente a los flujos correspondientes de la aplicación web, incrementando la conversión de prospectos a usuarios registrados.
+5. Se considera que permitir al administrador crear pedidos dirigidos a un proveedor, y al proveedor aceptarlos o rechazarlos y generar la orden de envío correspondiente, permitirá centralizar la coordinación del abastecimiento.
+
+6. Se plantea que reservar al administrador la decisión de aceptar o rechazar las órdenes de envío, actualizando el inventario automáticamente solo cuando se acepten, permitirá mantener el control y la trazabilidad de las entradas de productos.
+
+7. Se considera que ofrecer dashboards diferenciados, indicadores, alertas e historial de operaciones permitirá a cada segmento consultar rápidamente el estado de sus actividades y tomar decisiones con información centralizada.
+
+8. Se plantea que un sistema de autenticación, roles y permisos permitirá que administradores y proveedores accedan únicamente a las funcionalidades y datos correspondientes a su negocio.
+
+9. Se considera que una Landing Page con llamadas a la acción diferenciadas para minimarkets y proveedores, video del producto, planes y formulario de contacto convertirá a los visitantes en usuarios registrados.
 
 ---
 
