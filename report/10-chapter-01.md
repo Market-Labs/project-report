@@ -376,8 +376,6 @@ La propuesta de valor diferencial de MarketGo es **conectar el abastecimiento co
 
 ---
 
----
-
 ## 1.3. Segmentos objetivo.
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
