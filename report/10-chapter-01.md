@@ -155,15 +155,22 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 
 **Business Outcome Assumptions**
 
-1. Reducir la cantidad de productos dados de baja como consecuencia de condiciones inadecuadas de almacenamiento.
+1. Reducir la cantidad de productos dados de baja como consecuencia de condiciones inadecuadas de almacenamiento o vencimiento.
 
-2. Incrementar la trazabilidad de los lotes y fechas de vencimiento gestionados por los minimarkets.
+2. Incrementar la trazabilidad de los productos, lotes y fechas de vencimiento gestionados por los minimarkets.
 
-3. Reducir el tiempo necesario para identificar productos o lotes en condiciones de riesgo.
+3. Reducir el tiempo necesario para identificar productos o lotes que puedan encontrarse en condiciones de riesgo.
 
-4. Mejorar la disponibilidad de información para la toma de decisiones relacionadas con el abastecimiento.
+4. Mejorar la capacidad de los administradores para anticipar necesidades de reposición mediante información sobre niveles de stock.
 
-5. Incrementar la trazabilidad de los pedidos desde su creación hasta su aceptación y posterior incorporación al inventario.
+5. Mejorar la disponibilidad de información para la toma de decisiones relacionadas con el abastecimiento.
+
+6. Incrementar la trazabilidad de los pedidos desde su creación por parte del administrador hasta la recepción de la orden de envío y la actualización del inventario.
+
+7. Incrementar la captación de nuevos minimarkets y proveedores que se registran en la plataforma a partir de la Landing Page.
+
+Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; y el porcentaje de pedidos con estado e historial de decisiones consultables. Se compararán con una línea base levantada durante las pruebas con usuarios.
+
 
 **User Assumptions**
 
