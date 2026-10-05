@@ -376,31 +376,31 @@ La propuesta de valor diferencial de MarketGo es **conectar el abastecimiento co
 
 ---
 
+
 ## 1.3. Segmentos objetivo.
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
 
-Estos segmentos representan dos tipos de organizaciones con necesidades de negocio diferentes. Por ello, la plataforma utiliza un **dashboard común**, pero aplica permisos específicos para cada segmento. Los administradores de minimarkets cuentan con permisos de lectura y escritura sobre la información de su operación, mientras que los proveedores cuentan con permisos de consulta y acciones específicas para generar pedidos, sin acceso para modificar directamente el inventario del minimarket.
+Estos segmentos presentan necesidades de negocio diferentes. Por ello, la plataforma utiliza una infraestructura tecnológica compartida, pero ofrece dashboards, funcionalidades y permisos específicos para cada segmento.
 
 Los roles operativos que puedan existir dentro de cada empresa forman parte de la estructura interna de cada segmento y no constituyen segmentos objetivos independientes.
 
-### 1.3.1. Segmento objetivo 1: Administradores de Minimarkets
+### 1.3.1. Administradores de Minimarkets
 
 | Dimensión | Detalle del perfil |
 |---|---|
-| **Perfil Demográfico** | Propietarios, administradores o responsables de pequeños y medianos minimarkets dedicados a la comercialización de productos orgánicos y alimentos frescos. Son responsables de supervisar las operaciones comerciales y tomar decisiones relacionadas con inventario, conservación y abastecimiento. |
+| **Perfil Demográfico** | Propietarios, administradores o responsables de pequeños y medianos minimarkets dedicados a la comercialización de productos orgánicos y alimentos frescos. Son responsables de supervisar las operaciones del establecimiento y tomar decisiones relacionadas con inventario, conservación y abastecimiento. |
 | **Perfil Geográfico** | Negocios ubicados principalmente en zonas urbanas con demanda de productos orgánicos y necesidad de mantener un abastecimiento constante. El segmento inicial puede concentrarse en Lima Metropolitana. |
-| **Perfil Psicográfico** | Personas orientadas a mantener la calidad de sus productos, reducir pérdidas y asegurar la disponibilidad constante de mercadería. Valoran soluciones sencillas que permitan controlar las operaciones del negocio y tomar decisiones basadas en información actualizada. |
-| **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento de productos, dificultad para controlar lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, desabastecimiento y dificultad para coordinar pedidos con proveedores. |
+| **Perfil Psicográfico** | Personas orientadas a mantener la calidad y disponibilidad de sus productos, reducir pérdidas y mejorar la eficiencia de sus operaciones. Valoran soluciones sencillas que permitan controlar el inventario, anticipar necesidades de reposición y tomar decisiones basadas en información actualizada. |
+| **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento, dificultad para controlar niveles de stock, lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, situaciones de desabastecimiento y dificultad para coordinar pedidos con proveedores y validar la mercadería recibida. |
 | **Uso de Tecnología** | Utilizan herramientas digitales para administrar ventas, inventarios y comunicación con proveedores, aunque pueden depender de hojas de cálculo, aplicaciones de mensajería y sistemas independientes que no integran toda la información operativa. |
 
-### 1.3.2. Segmento objetivo 2: Proveedores
+### 1.3.2. Proveedores de Productos Orgánicos
 
 | Dimensión | Detalle del perfil |
 |---|---|
-| **Perfil Demográfico** | Empresas, productores, distribuidores o comerciantes mayoristas de productos orgánicos que abastecen a minimarkets. Sus representantes participan en la oferta de productos y en las operaciones de abastecimiento realizadas mediante la plataforma. |
+| **Perfil Demográfico** | Empresas, productores, distribuidores o comerciantes mayoristas de productos orgánicos que abastecen a minimarkets. Sus representantes son responsables de gestionar el catálogo, productos, disponibilidad y lotes, y de atender y despachar los pedidos de abastecimiento. |
 | **Perfil Geográfico** | Proveedores ubicados en zonas productoras, centros de distribución o áreas comerciales que atienden a minimarkets y otros negocios comercializadores de productos orgánicos. |
-| **Perfil Psicográfico** | Negocios orientados a mantener una relación comercial eficiente con sus clientes y facilitar el abastecimiento oportuno de productos. Valoran la trazabilidad, organización y visibilidad de las operaciones relacionadas con los productos que ofrecen. |
-| **Puntos de Dolor** | Dificultad para mantener visibilidad sobre los pedidos realizados, falta de centralización de la información de las operaciones comerciales y dependencia de diferentes canales de comunicación para coordinar el abastecimiento. |
-| **Uso de Tecnología** | Utilizan herramientas digitales, hojas de cálculo y aplicaciones de comunicación para gestionar sus operaciones comerciales, pero pueden carecer de una plataforma especializada que centralice la información de los productos ofrecidos y los pedidos realizados por los minimarkets. |
-
+| **Perfil Psicográfico** | Negocios orientados a mantener una disponibilidad eficiente de sus productos, atender oportunamente los pedidos de abastecimiento y establecer relaciones comerciales duraderas con sus clientes. Valoran la organización, trazabilidad y visibilidad de sus operaciones de abastecimiento. |
+| **Puntos de Dolor** | Dificultad para administrar productos y disponibilidad, atender pedidos de diferentes minimarkets que llegan por canales dispersos, falta de visibilidad sobre el estado de las operaciones, gestión fragmentada de productos y lotes, y dificultades para coordinar el abastecimiento y mantener actualizada la información de sus productos. |
+| **Uso de Tecnología** | Utilizan herramientas digitales, hojas de cálculo y aplicaciones de comunicación para gestionar productos, clientes y pedidos, pero pueden carecer de una plataforma especializada que conecte directamente su disponibilidad de productos con las necesidades de los minimarkets y permita realizar seguimiento de los pedidos y órdenes de envío. |
