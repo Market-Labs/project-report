@@ -157,6 +157,7 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 
 13. Se considera que la viabilidad del producto dependerá de que los beneficios obtenidos mediante la reducción de pérdidas y mejora del abastecimiento sean percibidos como superiores al costo de la solución.
 
+
 **Business Outcome Assumptions**
 
 1. Reducir la cantidad de productos dados de baja como consecuencia de condiciones inadecuadas de almacenamiento o vencimiento.
@@ -169,9 +170,12 @@ Existen soluciones de gestión comercial e inventario revisadas en el análisis 
 
 5. Mejorar la disponibilidad de información para la toma de decisiones relacionadas con el abastecimiento.
 
-6. Incrementar la trazabilidad de los pedidos desde su creación por parte del proveedor hasta su aceptación o rechazo por parte del administrador.
+6. Incrementar la trazabilidad de los pedidos desde su creación por parte del administrador hasta la recepción de la orden de envío y la actualización del inventario.
+
+7. Incrementar la captación de nuevos minimarkets y proveedores que se registran en la plataforma a partir de la Landing Page.
 
 Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; y el porcentaje de pedidos con estado e historial de decisiones consultables. Se compararán con una línea base levantada durante las pruebas con usuarios.
+
 
 **User Assumptions**
 
@@ -185,7 +189,7 @@ Estos resultados se evaluarán, respectivamente, mediante la cantidad de product
 
 5. Los proveedores necesitan visualizar y gestionar sus productos, disponibilidad y lotes desde un único sistema.
 
-6. Los proveedores requieren generar pedidos de abastecimiento dirigidos a los minimarkets y consultar el estado de sus operaciones.
+6. Los proveedores requieren recibir pedidos estructurados de los minimarkets, responderlos, generar órdenes de envío y consultar el estado de sus operaciones.
 
 7. Ambos segmentos necesitan consultar el estado de un pedido y mantener información actualizada sobre el proceso de abastecimiento.
 
@@ -197,25 +201,39 @@ Estos resultados se evaluarán, respectivamente, mediante la cantidad de product
 
 3. Los administradores de minimarkets podrán identificar condiciones ambientales anómalas que puedan representar un riesgo para los productos almacenados.
 
-4. Los administradores de minimarkets podrán revisar los pedidos generados por proveedores y decidir si aceptarlos o rechazarlos antes de modificar su inventario.
+4. Los administradores de minimarkets podrán revisar las órdenes de envío generadas por los proveedores y decidir si aceptarlas o rechazarlas antes de modificar su inventario.
 
-5. Los proveedores podrán consultar sus productos y disponibilidad, generar pedidos de abastecimiento y realizar seguimiento de su estado.
+5. Los proveedores podrán consultar sus productos y disponibilidad, responder pedidos, generar órdenes de envío y realizar seguimiento de su estado.
 
 6. Los usuarios experimentarán una reducción de la incertidumbre respecto al estado de los pedidos de abastecimiento.
 
+7. Los usuarios de ambos segmentos podrán tomar decisiones operativas con mayor rapidez al contar con información centralizada y actualizada.
+
+8. Los visitantes de la Landing Page podrán comprender rápidamente la propuesta de valor de MarketGo para su segmento y decidir si registrarse.
+
+Los resultados de usuario se comprobarán con tareas de consulta de inventario y vencimientos, detección de alertas, identificación de stock bajo, creación y revisión de pedidos, y consulta de su estado. Se observarán el tiempo de ejecución, la finalización de la tarea y los errores; las entrevistas y pruebas permitirán contrastar estos resultados con las prácticas actuales de cada segmento.
+
 **Feature Assumptions**
 
-1. Creemos que un Dashboard de Monitoreo IoT en Tiempo Real (que muestre temperatura y humedad de las áreas de almacenamiento y equipos de refrigeración en tiempo real) permitirá al personal operativo detectar inmediatamente variaciones críticas en las condiciones de conservación antes de que los productos orgánicos se deterioren.
+Cada Feature Assumption (FA) da origen a un Hypothesis Statement, de modo que existe una relación 1 a 1 entre ambas listas.
 
-2. Creemos que un Sistema Automático de Alertas e Incidencias (notificaciones instantáneas vía web ante lecturas fuera de rango o desconexión de sensores) reducirá significativamente el tiempo de respuesta del personal de almacén frente a fallas técnicas en los equipos de frío.
+1. Se considera que permitir registrar, consultar, buscar, filtrar y actualizar productos, cantidades, lotes y vencimientos, priorizando la salida de los lotes más próximos a vencer (criterio FEFO), facilitará el control centralizado del inventario del minimarket.
 
-3. Creemos que un Módulo de Gestión de Inventario y Fechas de Vencimiento (con trazabilidad de lotes orgánicos y alertas de caducidad cercana basadas en criterios FEFO/FIFO) optimizará la rotación del inventario perecible y evitará la pérdida de productos por caducidad.
+2. Se plantea que las alertas configurables sobre productos próximos a vencer y condiciones inadecuadas de temperatura o humedad permitirán identificar oportunamente productos en riesgo.
 
-4. Creemos que un Módulo de Analítica de Datos y Reportes Históricos (con gráficos explicativos sobre variaciones de temperatura, estimación económica de mermas y tendencias de conservación) brindará a los administradores de minimarkets la información necesaria para tomar decisiones estratégicas de compra y mantenimiento preventivo.
+3. Se considera que visualizar registros de temperatura y humedad permitirá al administrador supervisar las condiciones de conservación de los productos.
 
-5. Creemos que un Control de Acceso basado en Roles (RBAC) (interfaces y permisos diferenciados para Administradores de Tienda y Encargados de Almacén) garantizará que cada perfil de usuario interactúe únicamente con las herramientas relevantes para sus responsabilidades cotidianas, reduciendo la fricción de uso.
+4. Se plantea que permitir a los proveedores mantener actualizados sus productos, lotes y disponibilidad facilitará que los minimarkets consulten alternativas de abastecimiento desde la plataforma.
 
-6. Creemos que un Landing Page Interactivo con llamadas a la acción diferenciadas para cada segmento objetivo dirigirá a los visitantes directamente a los flujos correspondientes de la aplicación web, incrementando la conversión de prospectos a usuarios registrados.
+5. Se considera que permitir al administrador crear pedidos dirigidos a un proveedor, y al proveedor aceptarlos o rechazarlos y generar la orden de envío correspondiente, permitirá centralizar la coordinación del abastecimiento.
+
+6. Se plantea que reservar al administrador la decisión de aceptar o rechazar las órdenes de envío, actualizando el inventario automáticamente solo cuando se acepten, permitirá mantener el control y la trazabilidad de las entradas de productos.
+
+7. Se considera que ofrecer dashboards diferenciados, indicadores, alertas e historial de operaciones permitirá a cada segmento consultar rápidamente el estado de sus actividades y tomar decisiones con información centralizada.
+
+8. Se plantea que un sistema de autenticación, roles y permisos permitirá que administradores y proveedores accedan únicamente a las funcionalidades y datos correspondientes a su negocio.
+
+9. Se considera que una Landing Page con llamadas a la acción diferenciadas para minimarkets y proveedores, video del producto, planes y formulario de contacto convertirá a los visitantes en usuarios registrados.
 
 ---
 
@@ -234,14 +252,16 @@ Las hipótesis se redactaron con la plantilla oficial *"We believe we will achie
 | H6 | *We believe we will achieve* complete traceability of product entries into the inventory *if* minimarket administrators like Russell Estrada *attain* the ability to review shipping orders and accept or reject them before their inventory is modified *with* shipping order reception that automatically updates the inventory only when accepted. | 6 | 4 | 6 |
 | H7 | *We believe we will achieve* a better capacity to anticipate replenishment needs *if* minimarket administrators like Russell Estrada and suppliers like Marco Antonio Ríos *attain* faster operational decisions and early identification of low-stock products *with* role-based dashboards with indicators, alerts and an operations history. | 4 | 2 | 7 |
 | H8 | *We believe we will achieve* trustworthy order and inventory traceability across both segments *if* minimarket administrators like Russell Estrada and suppliers like Marco Antonio Ríos *attain* the confidence that each party can only see and modify the data of its own business *with* authentication, roles and permissions per segment. | 6 | 7 | 8 |
+| H9 | *We believe we will achieve* a growing base of registered minimarkets and suppliers *if* visitors of the Landing Page *attain* a quick understanding of how MarketGo solves the problems of their segment *with* a responsive Landing Page with segment-specific calls to action, product video, plans and a contact form. | 7 | 8 | 9 |
 
 Estas hipótesis se validarán mediante pruebas con usuarios sobre el prototipo y, posteriormente, con métricas de uso de la plataforma, comparándolas con la línea base de las herramientas actuales de cada segmento (tiempo de ejecución, finalización de la tarea y errores).
 
 ---
 
-#### 1.2.2.4. Lean UX Canvas.
-El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Personas de la sección 2.3.1, **Russell Estrada** (administrador de minimarket orgánico) y **Marco Antonio Ríos** (coordinador comercial de una distribuidora orgánica B2B), y de los competidores analizados en la sección 2.1.
 
+#### 1.2.2.4. Lean UX Canvas.
+
+El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Personas de la sección 2.3.1, **Russell Estrada** (administrador de minimarket orgánico) y **Marco Antonio Ríos** (coordinador comercial de una distribuidora orgánica B2B), y de los competidores analizados en la sección 2.1.
 
 El Canvas sintetiza la propuesta de valor descrita  para las dos segmentos.
 
@@ -274,6 +294,8 @@ El Canvas sintetiza la propuesta de valor descrita  para las dos segmentos.
       - Dashboards por rol con indicadores, alertas e historial (FA7).
       <br><br>
       - Autenticación, roles y permisos por segmento (FA8).
+      <br><br>
+      - Landing Page con llamadas a la acción por segmento (FA9).
     </td>
     <td valign="top" width="33%">
       <strong>2. Business outcomes</strong>
@@ -325,9 +347,9 @@ El Canvas sintetiza la propuesta de valor descrita  para las dos segmentos.
       <br><br>
       - H5: Creemos que mejoraremos el control del inventario y la trazabilidad del abastecimiento si los administradores pueden revisar, aceptar o rechazar pedidos mediante un flujo de aprobación con historial. Lo comprobaremos verificando que cada decisión quede registrada, que solo los pedidos aceptados actualicen el inventario y que los usuarios puedan consultar el estado resultante.
       <br><br>
-      - H6: Creemos que reduciremos el tiempo de consulta operativa y facilitaremos la adopción si administradores y proveedores pueden realizar sus tareas principales desde dashboards diferenciados con una interfaz sencilla. Lo comprobaremos con tareas de ambos segmentos, observando tiempo, finalización, errores y dificultades de uso frente a sus herramientas actuales.
+      - H7 y H8: reposición anticipada y datos confiables gracias a dashboards por rol con permisos.
       <br><br>
-      - H7: Creemos que un servicio SaaS será viable para minimarkets y proveedores si estos perciben que la reducción de mermas y la mejora del abastecimiento compensan el costo, mediante el acceso a los módulos centrales de MarketGo sin infraestructura propia. Lo comprobaremos con entrevistas sobre disposición de adopción y pago, contrastadas posteriormente con costos y resultados medidos en pilotos.
+      - H9: más minimarkets y proveedores registrados gracias a una Landing Page orientada a cada segmento.
     </td>
     <td valign="top">
       <strong>7. What's the most important thing we need to learn first?</strong>
@@ -386,7 +408,6 @@ La propuesta de valor diferencial de MarketGo es **conectar el abastecimiento co
 
 ---
 
----
 
 ## 1.3. Segmentos objetivo.
 
@@ -403,15 +424,15 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 | **Perfil Demográfico** | Propietarios, administradores o responsables de pequeños y medianos minimarkets dedicados a la comercialización de productos orgánicos y alimentos frescos. Son responsables de supervisar las operaciones del establecimiento y tomar decisiones relacionadas con inventario, conservación y abastecimiento. |
 | **Perfil Geográfico** | Negocios ubicados principalmente en zonas urbanas con demanda de productos orgánicos y necesidad de mantener un abastecimiento constante. El segmento inicial puede concentrarse en Lima Metropolitana. |
 | **Perfil Psicográfico** | Personas orientadas a mantener la calidad y disponibilidad de sus productos, reducir pérdidas y mejorar la eficiencia de sus operaciones. Valoran soluciones sencillas que permitan controlar el inventario, anticipar necesidades de reposición y tomar decisiones basadas en información actualizada. |
-| **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento, dificultad para controlar niveles de stock, lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, situaciones de desabastecimiento y dificultad para gestionar y validar pedidos de abastecimiento provenientes de proveedores. |
+| **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento, dificultad para controlar niveles de stock, lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, situaciones de desabastecimiento y dificultad para coordinar pedidos con proveedores y validar la mercadería recibida. |
 | **Uso de Tecnología** | Utilizan herramientas digitales para administrar ventas, inventarios y comunicación con proveedores, aunque pueden depender de hojas de cálculo, aplicaciones de mensajería y sistemas independientes que no integran toda la información operativa. |
 
 ### 1.3.2. Proveedores de Productos Orgánicos
 
 | Dimensión | Detalle del perfil |
 |---|---|
-| **Perfil Demográfico** | Empresas, productores, distribuidores o comerciantes mayoristas de productos orgánicos que abastecen a minimarkets. Sus representantes son responsables de gestionar el catálogo, productos, disponibilidad, lotes y pedidos de abastecimiento. |
+| **Perfil Demográfico** | Empresas, productores, distribuidores o comerciantes mayoristas de productos orgánicos que abastecen a minimarkets. Sus representantes son responsables de gestionar el catálogo, productos, disponibilidad y lotes, y de atender y despachar los pedidos de abastecimiento. |
 | **Perfil Geográfico** | Proveedores ubicados en zonas productoras, centros de distribución o áreas comerciales que atienden a minimarkets y otros negocios comercializadores de productos orgánicos. |
-| **Perfil Psicográfico** | Negocios orientados a mantener una disponibilidad eficiente de sus productos, generar pedidos de abastecimiento oportunamente y establecer relaciones comerciales duraderas con sus clientes. Valoran la organización, trazabilidad y visibilidad de sus operaciones de abastecimiento. |
-| **Puntos de Dolor** | Dificultad para administrar productos y disponibilidad, generar pedidos de abastecimiento para diferentes minimarkets, falta de visibilidad sobre el estado de las operaciones, gestión fragmentada de productos y lotes, y dificultades para coordinar el abastecimiento y mantener actualizada la información de sus productos. |
-| **Uso de Tecnología** | Utilizan herramientas digitales, hojas de cálculo y aplicaciones de comunicación para gestionar productos, clientes y pedidos, pero pueden carecer de una plataforma especializada que conecte directamente su disponibilidad de productos con las necesidades de los minimarkets y permita realizar seguimiento de los pedidos generados. |
+| **Perfil Psicográfico** | Negocios orientados a mantener una disponibilidad eficiente de sus productos, atender oportunamente los pedidos de abastecimiento y establecer relaciones comerciales duraderas con sus clientes. Valoran la organización, trazabilidad y visibilidad de sus operaciones de abastecimiento. |
+| **Puntos de Dolor** | Dificultad para administrar productos y disponibilidad, atender pedidos de diferentes minimarkets que llegan por canales dispersos, falta de visibilidad sobre el estado de las operaciones, gestión fragmentada de productos y lotes, y dificultades para coordinar el abastecimiento y mantener actualizada la información de sus productos. |
+| **Uso de Tecnología** | Utilizan herramientas digitales, hojas de cálculo y aplicaciones de comunicación para gestionar productos, clientes y pedidos, pero pueden carecer de una plataforma especializada que conecte directamente su disponibilidad de productos con las necesidades de los minimarkets y permita realizar seguimiento de los pedidos y órdenes de envío. |
