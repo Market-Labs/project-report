@@ -689,6 +689,13 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context Analytics procesa información operativa para generar indicadores, métricas y resúmenes que apoyan la toma de decisiones. Permite analizar el estado del inventario, productos próximos a vencer, alertas de conservación, desempeño de proveedores y movimientos de abastecimiento.
 
+   <div align="center">
+   <img src="assets/chapter-04/event-storming-analytics.png" width="700" alt="Design-Level EventStorming del bounded context Analytics" /><br />
+   <strong>Figura 36</strong><br />
+   <em>Design-Level EventStorming del bounded context Analytics</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
+
 5. **Inventory**
 
    El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
@@ -734,6 +741,13 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 12. **Shared Kernel**
 
     El bounded context Shared Kernel contiene elementos comunes utilizados por los demás contextos, como utilidades compartidas, contratos base, configuraciones, validaciones comunes y estructuras transversales del sistema.
+
+    <div align="center">
+    <img src="assets/chapter-04/event-storming-shared-kernel.png" width="700" alt="Design-Level EventStorming del Shared Kernel" /><br />
+    <strong>Figura 37</strong><br />
+    <em>Design-Level EventStorming del Shared Kernel</em><br />
+    <small><em>Nota.</em> Elaboración propia.</small>
+    </div>
 
 <div style="page-break-after: always;"></div>
 
