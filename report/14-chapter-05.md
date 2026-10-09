@@ -645,7 +645,8 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   <p><em>Figura: Video demostrativo de navegación de MarketGo en Microsoft Stream.</em></p>
 </div>
 
-Enlace directo: URL_DEL_VIDEO_DE_MARKETGO
+Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQADWTad-EyvSqVDDT4XLbUfARe43Rpcn6uBFHpgZRcl68I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GlflNR
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 <p>
