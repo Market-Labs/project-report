@@ -906,7 +906,9 @@ En esta sección se presenta el diseño orientado a objetos de MarketGo, represe
 ### 4.7.1. Class Diagrams.
 
 Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
-![Class Diagram MaketGo](assets/chapter-04/diagramClassMarkGo.png)
+
+![Diagrama de clases de MarketGo por bounded context](assets/chapter-04/marketGo-diagram.svg)
+
 A continuación, se presentan los diagramas de clases correspondientes a los principales bounded contexts de MarketGo:
 
 #### Communication Class Diagram
