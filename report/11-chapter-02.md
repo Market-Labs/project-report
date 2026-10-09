@@ -787,7 +787,7 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 | Actualizar inventario tras operaciones | Frecuente | Alta | No aplica | No aplica |
 | Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
 | Visualizar dashboard de métricas operativas | Muy frecuente | Alta | Muy frecuente | Alta |
-| Gestionar mermas, pérdidas o donaciones | Ocasional | Media | No aplica | No aplica |
+| Gestionar mermas y pérdidas | Ocasional | Media | No aplica | No aplica |
 | Comunicarse y resolver incidencias de logística | Ocasional | Alta | Frecuente | Alta |
 
 La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de MarketGo: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
