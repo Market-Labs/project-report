@@ -254,7 +254,7 @@ Peru Marketplace facilita la conexión entre compradores y proveedores, pero Mar
 Para afrontar la dependencia de herramientas tradicionales como Excel y aplicaciones de mensajería, MarketGo buscará simplificar las principales operaciones de sus usuarios.
 
 - **Dashboard común:** utilizar una misma interfaz para ambos segmentos, reduciendo la complejidad de aprendizaje.
-- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como la generación de pedidos.
+- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como responder pedidos y generar órdenes de envío.
 - **Flujo simplificado:** reducir la cantidad de pasos necesarios para consultar productos, generar pedidos y actualizar el inventario.
 
 #### Estrategia de innovación y escalabilidad
@@ -771,7 +771,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ### 2.3.2. User Task Matrix.
 
-Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
+Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y responder los pedidos de abastecimiento generando órdenes de envío. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
 
 **Tasks vs User Personas**
 
@@ -782,16 +782,16 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 | Monitorear temperatura y humedad (IoT) | Muy frecuente | Alta | No aplica | No aplica |
 | Controlar lotes y fechas de vencimiento | Muy frecuente | Alta | Frecuente | Alta |
 | Consultar catálogo de proveedores conectados | Frecuente | Alta | No aplica | No aplica |
-| Generar pedidos de abastecimiento | No aplica | No aplica | Muy frecuente | Alta |
-| Evaluar (aceptar/rechazar) pedidos entrantes | Frecuente | Alta | No aplica | No aplica |
+| Crear pedidos de abastecimiento | Frecuente | Alta | No aplica | No aplica |
+| Responder pedidos y generar órdenes de envío | No aplica | No aplica | Muy frecuente | Alta |
+| Aceptar o rechazar órdenes de envío | Frecuente | Alta | No aplica | No aplica |
 | Actualizar inventario tras operaciones | Frecuente | Alta | No aplica | No aplica |
 | Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
 | Visualizar dashboard de métricas operativas | Muy frecuente | Alta | Muy frecuente | Alta |
-| Gestionar mermas, pérdidas o donaciones | Ocasional | Media | No aplica | No aplica |
+| Gestionar mermas y ofertas de productos en riesgo | Ocasional | Media | No aplica | No aplica |
 | Comunicarse y resolver incidencias de logística | Ocasional | Alta | Frecuente | Alta |
 
-La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de MarketGo: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
-
+La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la respuesta oportuna a los pedidos recibidos. Estas diferencias reflejan el flujo central de MarketGo: el administrador crea el pedido de abastecimiento; el proveedor lo acepta o rechaza y, si lo acepta, genera la orden de envío; finalmente, el administrador acepta o rechaza esa orden, y solo al aceptarla el inventario del minimarket se actualiza automáticamente.
 ### 2.3.3. User Journey Mapping.
 
 El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de MarketGo, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
@@ -806,7 +806,7 @@ El User Journey Map de Russell Estrada ilustra la experiencia actual del segment
 
 ![User Journey Map - Proveedor B2B](assets/chapter-02/user-journey-proveedor.png)
 
-El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
+El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la recepción de pedidos y la generación de órdenes de envío, y brinde seguimiento en tiempo real.
 
 ### 2.3.4. Empathy Mapping.
 
@@ -818,23 +818,23 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 
 ##### **Segmento 1: Administrador de Minimarket Orgánico**
 
-* **Personaje :** Carlos Mendoza
-* **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
+* **Personaje:** Russell Estrada
+* **Edad / Rol:** 28 años, administrador de un minimarket de productos orgánicos en Lima (arquetipo *Guardian*).
 
-**Mapa de Empatía - Carlos Mendoza**
+**Mapa de Empatía - Russell Estrada**
 
-![Mapa de empatía del administrador Carlos Mendoza](assets/chapter-02/empathy-map-administrador.png)
+![Mapa de empatía del administrador Russell Estrada](assets/chapter-02/empathy-map-administrador.png)
 
 ---
 
-##### **Segmento 2: Proveedora y Distribuidora Mayorista**
+##### **Segmento 2: Proveedor y Distribuidor B2B**
 
-* **Personaje :** Valeria Ríos
-* **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
+* **Personaje:** Marco Antonio Ríos
+* **Edad / Rol:** 32 años, coordinador comercial de una distribuidora de productos orgánicos en Lurín que abastece a 30 minimarkets.
 
-**Mapa de Empatía - Valeria Ríos**
+**Mapa de Empatía - Marco Antonio Ríos**
 
-![Mapa de empatía de la proveedora Valeria Ríos](assets/chapter-02/empathy-map-proveedor.png)
+![Mapa de empatía del proveedor Marco Antonio Ríos](assets/chapter-02/empathy-map-proveedor.png)
 
 
 ## 2.4. Big Picture EventStorming.
@@ -850,8 +850,8 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 
 | Término | Definición |
 | :--- | :--- |
-| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, aprobar solicitudes de abastecimiento y consultar los indicadores de su negocio dentro de MarketGo. |
-| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, responde solicitudes de abastecimiento y genera órdenes de compra hacia los minimarkets. |
+| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, crear pedidos de abastecimiento, aceptar o rechazar órdenes de envío y consultar los indicadores de su negocio dentro de MarketGo. |
+| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, acepta o rechaza los pedidos de abastecimiento y genera órdenes de envío hacia los minimarkets. |
 | **Perfil de negocio** | Conjunto de datos que identifican a un administrador o proveedor dentro de la plataforma (razón social, RUC, cobertura, datos de contacto). |
 | **Rol** | Nivel de acceso asignado a un usuario (administrador o proveedor) que determina las acciones y vistas disponibles para él dentro del sistema. |
 | **Catálogo orgánico** | Read model que consolida todos los productos orgánicos registrados por un proveedor, con su categoría, precio y fecha de expiración validados. |
@@ -859,12 +859,12 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | **Stock mínimo** | Umbral configurado por producto que, al ser alcanzado, dispara el evento de stock bajo detectado y genera una alerta automática. |
 | **Inventario actual** | Read model que muestra en tiempo real la cantidad disponible de cada producto y lote dentro del almacén del minimarket o proveedor. |
 | **Alerta de stock bajo** | Notificación generada automáticamente cuando el inventario de un producto cae por debajo del stock mínimo configurado. |
-| **Solicitud (Requisition)** | Petición de abastecimiento creada por un administrador o proveedor, que puede ser aceptada o rechazada y cuyo estado es notificado a ambas partes. |
-| **Orden de compra (Procurement)** | Documento generado a partir de una solicitud aceptada, que formaliza la compra de productos entre el proveedor y el minimarket. |
-| **Recepción** | Confirmación de la llegada física de una orden de compra, que actualiza el inventario del minimarket solo si es aceptada. |
+| **Solicitud / Pedido de abastecimiento (Requisition)** | Petición de abastecimiento creada únicamente por el administrador del minimarket y dirigida a un proveedor, que este puede aceptar o rechazar; su estado se notifica a ambas partes. |
+| **Orden de envío (Shipping Order)** | Documento que el proveedor genera a partir de un pedido aceptado, con los productos, cantidades y lotes que serán despachados al minimarket. |
+| **Recepción** | Aceptación o rechazo de una orden de envío por parte del administrador; solo si es aceptada se actualiza automáticamente el inventario del minimarket. |
 | **Directorio de proveedores** | Read model que agrupa a todos los proveedores registrados y validados (RUC y cobertura) disponibles para un minimarket. |
 | **Dashboard** | Vista consolidada de indicadores operativos, distinta según el rol del usuario (administrador o proveedor), que resume el estado general del negocio. |
 | **Indicador / KPI** | Métrica operativa calculada por el sistema (por ejemplo, mermas, nivel de stock o pedidos pendientes) y mostrada en el dashboard. |
 | **Reporte operativo** | Documento generado por el módulo de Analytics que resume métricas y variaciones de un periodo determinado. |
 | **Conservación (Conservation)** | Contexto vinculado al monitoreo de condiciones ambientales (temperatura y humedad) que afectan la calidad de los productos orgánicos almacenados. |
-| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de una solicitud o una alerta de inventario). |
+| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de un pedido, de una orden de envío o una alerta de inventario). |
