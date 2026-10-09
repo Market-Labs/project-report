@@ -61,7 +61,7 @@
     </tr>
     <tr>
       <td align="center">u201815005</td>
-      <td align="left">Quispe Alomnacid, Andre Sebastian </td>
+      <td align="left">Quispe Almonacid, Andre Sebastian </td>
     </tr>
     <tr>
       <td align="center">U20241G152</td>
@@ -78,19 +78,17 @@
 
 ---
 
-# Registro de versiones del informe
+# Registro de Versiones del Informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
-| 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Alomnacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
-| 2.0.0 | DD/MM/AAAA | Nombres completos de los integrantes | [Descripción de los cambios realizados en esta versión] |
-| 3.0.0 | DD/MM/AAAA |Nombres de integrantes | [Descripción de los cambios realizados en esta versión] |
+| 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Almonacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
 
 ---
 
 # Project Report Collaboration Insights
 El presente apartado tiene como finalidad evidenciar el trabajo colaborativo realizado durante el desarrollo del informe. Para ello, se pone a disposición el repositorio oficial del proyecto, alojado en una organización pública de GitHub:
 
-Link de la organización: 🔗https://github.com/Market-Labs
+Repositorio del Project Report: https://github.com/Market-Labs/project-report
 
 A partir de este repositorio, se analiza la participación de los integrantes del equipo mediante indicadores como número de commits, frecuencia de contribuciones y actividad general registrada en la plataforma.
 
@@ -130,92 +128,119 @@ La siguiente figura muestra el historial de commits realizados por los integrant
 
 # Contenido
 
-## Tabla de contenidos
+- [Carátula](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/01-title-page.md)
+- [Registro de Versiones del Informe](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/02-version-control-log.md)
+- [Project Report Collaboration Insights](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/03-collaboration-insights.md)
+- [Student Outcome](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/05-student-outcomes.md)
 
-### Front Matter
+- [Capítulo I: Introducción](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#capítulo-i-introducción)
+  - [1.1. Startup Profile](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#13-segmentos-objetivo)
+    - [1.3.1. Segmento objetivo 1: Administradores de Minimarkets](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#131-segmento-objetivo-1-administradores-de-minimarkets)
+    - [1.3.2. Segmento objetivo 2: Proveedores](https://github.com/Market-Labs/project-report/blob/main/report/10-chapter-01.md#132-segmento-objetivo-2-proveedores)
 
-- [Carátula](./front-matter/01-title-page.md)
-- [Registro de Versiones del Informe](./front-matter/02-version-control-log.md)
-- [Student Outcome](./front-matter/05-student-outcomes.md)
+- [Capítulo II: Requirements Elicitation & Analysis](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#21-competidores)
+    - [2.1.1. Análisis competitivo.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#223-análisis-de-entrevistas)
+      - [1. Descripción general del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#1-descripción-general-del-segmento)
+      - [2. Características objetivas del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#2-características-objetivas-del-segmento)
+      - [3. Características subjetivas del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#3-características-subjetivas-del-segmento)
+      - [4. Hallazgos principales](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#4-hallazgos-principales)
+      - [5. Conclusión del segmento](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#5-conclusión-del-segmento)
+  - [2.3. Needfinding.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#23-needfinding)
+    - [2.3.1. User Personas.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#231-user-personas)
+    - [2.3.2. User Task Matrix.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language.](https://github.com/Market-Labs/project-report/blob/main/report/11-chapter-02.md#25-ubiquitous-language)
 
-### Contenido del Informe
+- [Capítulo III: Requirements Specification](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#capítulo-iii-requirements-specification)
+  - [3.1. User Stories.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#31-user-stories)
+  - [3.2. Impact Mapping.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#32-impact-mapping)
+  - [3.3. Product Backlog.](https://github.com/Market-Labs/project-report/blob/main/report/12-chapter-03.md#33-product-backlog)
 
-- [Abstract](./10-chapter-01.md#abstract)
-- [Resumen](./10-chapter-01.md#resumen)
+- [Capítulo IV: Product Design](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#capítulo-iv-product-design)
+  - [4.1. Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#412-web-style-guidelines)
+  - [4.2. Information Architecture.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#42-information-architecture)
+    - [4.2.1. Organization Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#421-organization-systems)
+    - [4.2.2. Labeling Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#424-searching-systems)
+    - [4.2.5. Navigation Systems.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#471-class-diagrams)
+  - [4.8. Database Design.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#48-database-design)
+    - [4.8.1. Database Diagrams.](https://github.com/Market-Labs/project-report/blob/main/report/13-chapter-04.md#481-database-diagrams)
 
-- [Capítulo I: Introducción](./10-chapter-01.md)
-    - [1.1. Startup Profile](./10-chapter-01.md#11-startup-profile)
-    - [1.2. Solution Profile](./10-chapter-01.md#12-solution-profile)
-    - [1.3. Segmentos objetivo](./10-chapter-01.md#13-segmentos-objetivo)
+- [Capítulo V: Product Implementation, Validation & Deployment](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](https://github.com/Market-Labs/project-report/blob/main/report/14-chapter-05.md#5218-team-collaboration-insights-during-sprint)
 
-- [Capítulo II: Requirements Elicitation & Analysis](./11-chapter-02.md)
-    - [2.1. Competidores](./11-chapter-02.md#21-competidores)
-    - [2.2. Entrevistas](./11-chapter-02.md#22-entrevistas)
-    - [2.3. Needfinding](./11-chapter-02.md#23-needfinding)
-    - [2.4. Big Picture EventStorming](./11-chapter-02.md#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](./11-chapter-02.md#25-ubiquitous-language)
+- [Conclusiones](https://github.com/Market-Labs/project-report/blob/main/report/15-chapter-06.md#conclusiones)
+  - [Conclusiones y recomendaciones.](https://github.com/Market-Labs/project-report/blob/main/report/15-chapter-06.md#conclusiones-y-recomendaciones)
 
-- [Capítulo III: Requirements Specification](./12-chapter-03.md)
-    - [3.1. User Stories](./12-chapter-03.md#31-user-stories)
-    - [3.2. Impact Mapping](./12-chapter-03.md#32-impact-mapping)
-    - [3.3. Product Backlog](./12-chapter-03.md#33-product-backlog)
-
-- [Capítulo IV: Product Design](./13-chapter-04.md)
-    - [4.1. Style Guidelines](./13-chapter-04.md#41-style-guidelines)
-    - [4.2. Information Architecture](./13-chapter-04.md#42-information-architecture)
-    - [4.3. Landing Page UI Design](./13-chapter-04.md#43-landing-page-ui-design)
-    - [4.4. Web Applications UX/UI Design](./13-chapter-04.md#44-web-applications-uxui-design)
-    - [4.5. Web Applications Prototyping](./13-chapter-04.md#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](./13-chapter-04.md#46-domain-driven-software-architecture)
-    - [4.7. Software Object-Oriented Design](./13-chapter-04.md#47-software-object-oriented-design)
-    - [4.8. Database Design](./13-chapter-04.md#48-database-design)
-
-- [Capítulo V: Product Implementation, Validation & Deployment](./14-chapter-05.md)
-    - [5.1. Software Configuration Management](./14-chapter-05.md#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](./14-chapter-05.md#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](./14-chapter-05.md#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](./14-chapter-05.md#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](./14-chapter-05.md#514-software-deployment-configuration)
-
-    - [5.2. Landing Page, Services & Applications Implementation](./14-chapter-05.md#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](./14-chapter-05.md#521-sprint-1)
-        - [5.2.2. Sprint 2](./14-chapter-05.md#522-sprint-2)
-        - [5.2.3. Sprint 3](./14-chapter-05.md#523-sprint-3)
-
-    - [5.3. Validation Interviews](./14-chapter-05.md#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](./14-chapter-05.md#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](./14-chapter-05.md#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](./14-chapter-05.md#533-evaluaciones-según-heurísticas)
-
-    - [5.4. Video About-the-Product](./14-chapter-05.md#54-video-about-the-product)
-
-- [Capítulo VI: Conclusions](./15-chapter-06.md)
-    - [6.1. Conclusiones y recomendaciones](./15-chapter-06.md#61-conclusiones-y-recomendaciones)
-    - [6.2. Video About-the-Team](./15-chapter-06.md#62-video-about-the-team)
-
-- [Bibliografía](./99-bibliography.md)
-
-- [Anexos](./16-annexes.md)
-    - [Anexo A: Videos de Exposiciones](./16-annexes.md#anexo-a-videos-de-exposiciones)
+- [Bibliografía](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/99-bibliography.md)
+- [Anexos](https://github.com/Market-Labs/project-report/blob/main/report/annexes/anex-a-raw-data.md)
 
 ---
 
 # Student Outcome
+
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 5**  
 **Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-En el siguiente cuadro se describen las acciones realizadas y las conclusiones del equipo, que permiten sustentar el logro del ABET – EAC - Student Outcome 5.
-
----
-
-## Tabla de Student Outcome
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades para el desarrollo de los capítulos del Project Report y Sprint 1.<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br><br>**Quispe Alomnacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1. | **AV1:** El equipo demostró liderazgo compartido mediante la distribución de responsabilidades para desarrollar los capítulos I, II, III, IV y V del Project Report. Asimismo, la planificación del Sprint 1 permitió coordinar las tareas mediante el Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación de actividades, distribución de responsabilidades y seguimiento del desarrollo de los capítulos y actividades del Sprint 1.<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br><br>**Quispe Alomnacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1. | **AV1:** La planificación y distribución de tareas permitió al equipo avanzar de manera organizada en los capítulos del Project Report y las actividades del Sprint 1. El Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores facilitaron la organización del trabajo y el cumplimiento de los objetivos establecidos. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Asumió el liderazgo de UI/UX y GitFlow/despliegue en la matriz LACX; el Sprint Backlog le asigna la sección Home, la estructura Vue y la configuración de ramas (T001, T006 y T007).<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Asumió el liderazgo de la estructura y componentes Vue en la matriz LACX; el Sprint Backlog le asigna la sección de información del producto (T002).<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Asumió el liderazgo de contenido e internacionalización en la matriz LACX; el Sprint Backlog le asigna la sección de videos (T003).<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Participó como colaborador en la matriz LACX y tuvo a cargo la maquetación de planes de la landing page (T004).<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó como colaborador en la matriz LACX y tuvo a cargo la sección de contacto (T005). | **AV1:** La matriz LACX distribuyó el liderazgo entre UI/UX y GitFlow, estructura Vue, y contenido e internacionalización. El Sprint Backlog asignó tareas concretas a los cinco integrantes para entregar la primera versión de la landing page. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Cáceres Pizarro, Albino Florencio**<br>**AV1:** Preparó el Sprint Planning 1 y registró la organización de ramas y commits como tarea T007 del Sprint Backlog.<br><br>**Huaranga Romero, Matias Daniel**<br>**AV1:** Desarrolló la sección de información del producto prevista en T002 y participó como colaborador en los demás aspectos de la matriz LACX.<br><br>**Merino Ordinola, Winnie Lisbeth**<br>**AV1:** Desarrolló la sección de videos prevista en T003 y participó como colaboradora en los demás aspectos de la matriz LACX.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Desarrolló la sección de planes prevista en T004 y participó como colaborador en los aspectos registrados en la matriz LACX.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Desarrolló la sección de contacto prevista en T005 y participó como colaborador en los aspectos registrados en la matriz LACX. | **AV1:** El Sprint Planning 1 fijó la meta de entregar la landing page inicial. La matriz LACX y el Sprint Backlog registran responsabilidades, tareas y estado de las actividades, lo que permite relacionar la planificación con la ejecución documentada del Sprint 1. |
 
 ---
 
@@ -249,41 +274,46 @@ Como empresa emergente, Market-Labs adopta un enfoque de innovación continua, c
 
 ## 1.2. Solution Profile
 
-Nuestra solución, MarketGo, es una plataforma web orientada a la gestión, conservación y abastecimiento de productos orgánicos. La solución conecta a administradores de minimarkets y proveedores dentro de un mismo ecosistema digital, permitiendo administrar inventarios, lotes, pedidos, entregas y condiciones de almacenamiento desde una plataforma centralizada.
+Nuestra solución MarketGo, es una plataforma web para la gestión de inventarios, abastecimiento y monitoreo de productos orgánicos, que conecta a administradores de minimarkets y proveedores mediante un ecosistema digital centralizado.
 
-La plataforma utiliza un dashboard común para ambos segmentos, pero aplica diferentes permisos de acuerdo con el rol del usuario. Los administradores de minimarkets cuentan con permisos de lectura y escritura sobre la información de su operación, mientras que los proveedores disponen de permisos de consulta y acciones específicas relacionadas con la generación de pedidos, sin poder modificar directamente el inventario del minimarket.
+Para los administradores de minimarkets, permite gestionar productos, inventario, lotes, vencimientos, ubicaciones, mermas y ofertas, además de monitorear temperatura y humedad para detectar posibles riesgos de conservación. Asimismo, permite consultar el catálogo de los proveedores y crear pedidos de abastecimiento dirigidos a ellos.
 
-Para los administradores de minimarkets, la plataforma permite controlar el inventario propio, gestionar lotes y fechas de vencimiento, monitorear las condiciones ambientales de almacenamiento, recibir alertas sobre productos en riesgo y gestionar procesos de merma o donación. Asimismo, pueden consultar la disponibilidad de productos ofrecidos por los proveedores, realizar pedidos de abastecimiento y aceptar o rechazar los pedidos generados. Cuando un pedido es aceptado, los productos correspondientes se incorporan automáticamente al inventario del minimarket.
+Para los proveedores, permite gestionar su catálogo de productos, disponibilidad y lotes, aceptar o rechazar los pedidos recibidos de los minimarkets y generar órdenes de envío para los pedidos aceptados. Los proveedores no pueden modificar directamente el inventario del minimarket.
 
-Para los proveedores, la plataforma permite consultar los productos que ofrecen y su disponibilidad, generar pedidos de abastecimiento dirigidos a los minimarkets y consultar el estado de las operaciones realizadas. Los proveedores no pueden modificar directamente el inventario del minimarket, ya que cualquier incorporación de productos depende de la aceptación del pedido por parte del administrador.
+Cuando el proveedor genera una orden de envío, el administrador la revisa y puede aceptarla o rechazarla. Si la orden es aceptada, los productos y lotes recibidos se incorporan automáticamente al inventario; si es rechazada, el inventario permanece sin cambios.
 
-La solución busca reducir las pérdidas asociadas al deterioro de productos orgánicos y mejorar la coordinación entre compradores y proveedores mediante información centralizada, trazabilidad y un sistema de permisos que controla las acciones disponibles para cada segmento.
+La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. Durante la implementación, los datos de los sensores podrán ser simulados para validar los flujos de monitoreo y alertas sin depender de dispositivos físicos.
+
+De esta manera, MarketGo busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados, bajo el principio de que **el proveedor atiende y despacha los pedidos, pero solamente el administrador del minimarket puede modificar su inventario**.
+
+**Propuesta de valor por segmento:** Para el administrador de minimarket (persona Russell Estrada), MarketGo reúne el control de stock, lotes, vencimientos y condiciones de conservación con el abastecimiento, de modo que pueda detectar productos en riesgo, reponer a tiempo y recibir mercadería que actualiza su inventario sin transcribir datos de WhatsApp a Excel. Para el proveedor (persona Marco Antonio Ríos), MarketGo ofrece un catálogo con disponibilidad real y pedidos estructurados que puede responder y despachar sin errores de transcripción ni llamadas de confirmación. Frente a FreshTracker (solo conservación), ShelfLife (solo inventario y vencimientos) y Peru Marketplace (solo conexión B2B), el diferencial de MarketGo es **conectar el abastecimiento con el inventario y la conservación**: lo que el proveedor despacha y el minimarket acepta entra directamente al control de lotes, vencimientos y alertas.
 
 ### 1.2.1. Antecedentes y problemática
 
-Los productos orgánicos y alimentos frescos presentan una alta sensibilidad a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento. Cuando estas condiciones no son controladas adecuadamente, aumenta el riesgo de deterioro y, como consecuencia, pueden generarse pérdidas económicas, desperdicio de alimentos y disminución de la disponibilidad de productos para los consumidores.
+El sistema alimentario peruano enfrenta importantes pérdidas de productos a lo largo de su cadena de suministro. Se estima que en el Perú se pierden aproximadamente 12,8 millones de toneladas de alimentos al año, equivalente al 47,6% de la oferta anual de alimentos. Dentro de estas pérdidas, una proporción importante corresponde a frutas y hortalizas, productos particularmente sensibles a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento (OECD, 2025; Bedoya-Perales & Dal’ Magro, 2021). Esta situación evidencia la necesidad de mejorar los mecanismos de gestión y conservación de productos perecibles.
 
-En los minimarkets, uno de los principales desafíos consiste en mantener un control adecuado sobre los productos almacenados, sus lotes y fechas de vencimiento. La ausencia de mecanismos centralizados de seguimiento puede dificultar la identificación temprana de productos en riesgo y provocar que estos sean detectados cuando ya no pueden comercializarse.
+En los minimarkets, esta problemática se relaciona con las dificultades para mantener un control adecuado sobre el inventario, lotes, fechas de vencimiento y condiciones de almacenamiento. La utilización de registros manuales, hojas de cálculo y herramientas independientes puede dificultar la identificación oportuna de productos próximos a vencer, niveles bajos de stock o condiciones ambientales inadecuadas, incrementando el riesgo de deterioro, desperdicio y desabastecimiento. Además, estudios aplicados a tiendas de conveniencia en Lima evidencian que la optimización del inventario puede mejorar indicadores operativos como la reposición, el nivel de servicio, la reducción de quiebres de stock y la rentabilidad del negocio (Zavaleta-Zarate et al., 2026).
 
-A esta problemática se suma la necesidad de mantener condiciones apropiadas de conservación. El monitoreo manual o fragmentado de variables como temperatura y humedad limita la capacidad de los responsables del establecimiento para identificar oportunamente situaciones anómalas que puedan afectar determinados productos.
+Asimismo, el abastecimiento requiere una coordinación constante entre los administradores de minimarkets y los proveedores. Mientras los administradores necesitan gestionar sus necesidades de reposición, los proveedores requieren controlar la disponibilidad de sus productos, responder los pedidos recibidos y despachar los productos solicitados. La ausencia de un flujo centralizado puede generar errores, retrasos y poca trazabilidad de las operaciones. En este contexto, **MarketGo** propone una plataforma especializada que integra la gestión de inventarios, lotes, vencimientos, abastecimiento y monitoreo de condiciones de almacenamiento, permitiendo que los administradores creen pedidos, que los proveedores los atiendan mediante órdenes de envío y que los administradores mantengan el control sobre la recepción y la actualización del inventario.
 
-Por otro lado, el abastecimiento representa un segundo desafío. Los administradores de minimarkets necesitan conocer qué productos y lotes se encuentran disponibles para realizar pedidos oportunamente, mientras que los proveedores necesitan disponer de un mecanismo que les permita generar pedidos y consultar el estado de las operaciones relacionadas con los productos que ofrecen.
+**Objetivos de la solución:**
 
-Esta situación genera una fragmentación de información entre inventarios, pedidos, entregas e incidencias. La utilización de herramientas no especializadas puede dificultar la coordinación entre ambas partes y aumentar el riesgo de errores, retrasos y pérdidas de productos.
-
-Ante este escenario, se propone una plataforma digital que centralice la información de inventarios, lotes, conservación y abastecimiento, conectando a los administradores de minimarkets y proveedores mediante un dashboard común y un sistema de permisos que limite las acciones de acuerdo con el rol de cada usuario.
+- Centralizar la gestión de productos, inventario, lotes, vencimientos y condiciones de almacenamiento de productos orgánicos.
+- Facilitar la coordinación de abastecimiento entre administradores de minimarkets y proveedores mediante un flujo de pedidos controlado.
+- Anticipar riesgos operativos asociados a stock bajo, vencimientos próximos y condiciones ambientales inadecuadas.
+- Mejorar la trazabilidad de las operaciones de inventario y abastecimiento.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
 | The 5W's y 2H's | Pregunta | Descripción |
 |:---|:---|:---|
-| **Who** | ¿Quiénes están involucrados? | Administradores de minimarkets responsables de la comercialización y abastecimiento de productos orgánicos, y proveedores encargados de ofrecer y distribuir dichos productos. |
-| **What** | ¿Cuál es el problema? | Dificultad para gestionar de manera integrada el inventario, conservación, lotes, vencimientos y abastecimiento de productos orgánicos, generando riesgo de pérdidas y desabastecimiento. |
-| **Where** | ¿Dónde ocurre? | Principalmente en los procesos de almacenamiento y comercialización de productos orgánicos en minimarkets, así como en la gestión de pedidos y abastecimiento entre minimarkets y proveedores. |
-| **When** | ¿Cuándo sucede? | Durante el almacenamiento, seguimiento de lotes, control de fechas de vencimiento y procesos de abastecimiento, pedidos y recepción de productos. |
-| **Why** | ¿Por qué sucede? | Debido a la fragmentación de la información, utilización de procesos manuales y ausencia de una plataforma especializada que conecte inventario, conservación y abastecimiento. |
-| **How** | ¿Cómo se manifiesta? | Mediante dificultades para identificar productos en riesgo, controlar lotes y vencimientos, conocer disponibilidad de productos, realizar pedidos y dar seguimiento a las operaciones de abastecimiento. |
-| **How Much** | ¿Cuánto impacto tiene? | El problema puede traducirse en pérdidas económicas por productos deteriorados o vencidos, desperdicio de alimentos, interrupciones en el abastecimiento y mayores costos operativos. |
+| **Who** | ¿Quiénes están involucrados? | Administradores de minimarkets responsables de gestionar inventarios, conservación y abastecimiento, y proveedores encargados de gestionar la disponibilidad de productos, atender pedidos y despachar órdenes de envío. |
+| **What** | ¿Cuál es el problema? | Dificultad para gestionar de manera integrada inventarios, niveles de stock, lotes, vencimientos, condiciones de almacenamiento y operaciones de abastecimiento de productos orgánicos. |
+| **Where** | ¿Dónde ocurre? | En los procesos de almacenamiento, gestión de inventarios y abastecimiento de productos orgánicos en minimarkets, así como en la gestión de productos, disponibilidad, pedidos y órdenes de envío de los proveedores. |
+| **When** | ¿Cuándo sucede? | Durante el almacenamiento, control de inventarios, seguimiento de lotes y vencimientos, identificación de necesidades de reposición, creación y respuesta de pedidos, generación de órdenes de envío y recepción de la mercadería. |
+| **Why** | ¿Por qué sucede? | Debido a la fragmentación de la información, el uso de procesos manuales y la ausencia de una plataforma especializada que integre inventario, abastecimiento y monitoreo de las condiciones de almacenamiento. |
+| **How** | ¿Cómo se manifiesta? | Mediante dificultades para identificar productos con stock bajo, controlar lotes y vencimientos, detectar condiciones ambientales anómalas, consultar disponibilidad, crear y responder pedidos y realizar seguimiento de las órdenes de envío. |
+| **How Much** | ¿Cuánto impacto tiene? | En el Perú se pierden aproximadamente **12,8 millones de toneladas de alimentos al año**, equivalentes al **47,6% de la oferta anual de alimentos**. Además, alrededor del **44% de estas pérdidas corresponde a frutas y hortalizas**, productos especialmente sensibles a las condiciones de almacenamiento (OECD, 2025; Bedoya-Perales & Dal’ Magro, 2021). A nivel operativo, estas pérdidas pueden traducirse en productos deteriorados o vencidos, desabastecimiento y mayores costos de gestión. |
 
 ---
 
@@ -291,29 +321,53 @@ Ante este escenario, se propone una plataforma digital que centralice la informa
 
 #### 1.2.2.1. Lean UX Problem Statements.
 
-Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos en riesgo.
+En el mercado peruano, los administradores de minimarkets que comercializan productos orgánicos necesitan controlar inventarios, lotes, vencimientos y condiciones de almacenamiento para evitar mermas y reponer a tiempo. Las entrevistas muestran el uso combinado de POS, hojas de cálculo, libretas y mensajería; esa dispersión dificulta detectar productos en riesgo y conocer el stock disponible. Los proveedores, por su parte, necesitan mantener actualizados su catálogo, lotes y disponibilidad, y dar seguimiento a los pedidos de los minimarkets, pero la coordinación mediante archivos y conversaciones separadas dificulta confirmar cantidades, cambios y estados de pedido.
 
-La ausencia de monitoreo integrado de las condiciones ambientales también limita la capacidad de los responsables para reaccionar oportunamente ante variaciones de temperatura o humedad que puedan afectar la conservación de los productos.
+Existen soluciones de gestión comercial e inventario revisadas en el análisis competitivo, pero cada una cubre solo una parte del proceso. La oportunidad de **MarketLabs** es atender de forma integrada la conservación de productos orgánicos, la trazabilidad por lotes y la coordinación de pedidos entre ambos segmentos. A partir de estos hallazgos y del análisis 5W+2H, el Problem Statement se redactó con la plantilla oficial de Lean UX para una iniciativa nueva (*brand new initiative*):
 
-Paralelamente, los administradores de minimarkets necesitan conocer la disponibilidad de productos ofrecidos por los proveedores para realizar pedidos de abastecimiento. Los proveedores, por su parte, necesitan disponer de un mecanismo que les permita generar pedidos y consultar el estado de las operaciones realizadas.
+> **The current state of** organic product retail in Lima's minimarkets has focused primarily on manual and fragmented control: minimarket administrators track inventory, batches, expiration dates and storage conditions through physical checks, notebooks, POS systems and spreadsheets, while organic product suppliers receive and confirm replenishment orders through WhatsApp messages and phone calls. As a result, products expire or spoil before they are detected, stock records become inaccurate after orders are transcribed manually, and both parties lose time confirming the status of each delivery. In Peru, about 12.8 million tons of food are lost every year, 47.6% of the annual food supply (OECD, 2025).
+>
+> **What existing products/services fail to address is** the connection between replenishment and the minimarket's internal control. FreshTracker covers storage monitoring, ShelfLife covers inventory and expiration tracking, and Peru Marketplace connects buyers and suppliers, but none of them links a supplier's shipment to the minimarket's inventory, batches and storage alerts in a single flow with role-based permissions for both parties.
+>
+> **Our product/service will address this gap by** offering MarketGo, a responsive SaaS web platform where minimarket administrators manage inventory, batches, expirations and storage conditions with automatic alerts, and create replenishment orders that suppliers accept and fulfill through shipping orders. Once the administrator accepts a shipping order, the received products and batches are automatically added to the minimarket's inventory, and both parties follow the status of each operation from role-based dashboards.
+>
+> **Our initial focus will be** small and medium organic minimarkets in Metropolitan Lima, represented by the persona Russell Estrada, and the organic product suppliers and distributors that serve them, represented by the persona Marco Antonio Ríos.
+>
+> **We'll know we are successful when we see:**
+> - A 30% reduction in products written off due to expiration or spoilage in subscribed minimarkets within the first 6 months.
+> - The average time between the creation of a replenishment order and the generation of its shipping order reduced from 24 hours to less than 4 hours in 80% of orders during the first semester.
+> - 100% of accepted shipping orders updating the minimarket's inventory without manual entry.
+> - At least 20 active minimarkets and 5 active suppliers using the platform weekly by the end of the first semester.
 
-Como consecuencia, pueden producirse pérdidas por deterioro, vencimiento, errores en pedidos, retrasos en el abastecimiento y situaciones de desabastecimiento.
+**Restricciones (constraints) consideradas:**
 
-Ante esto nos surge la siguiente pregunta:
+- El MVP se desarrolla como aplicación web responsive (Landing Page, Web Application y RESTful API), sin aplicación móvil nativa.
+- El monitoreo de temperatura y humedad utiliza datos simulados en la etapa inicial; la integración con sensores físicos queda fuera del alcance inicial.
+- La plataforma no procesa pagos ni facturación electrónica; las condiciones comerciales se acuerdan fuera de MarketGo.
+- El proveedor no puede modificar el inventario del minimarket: toda incorporación de productos depende de que el administrador acepte la orden de envío.
+- El alcance geográfico inicial es Lima Metropolitana.
 
-**¿Cómo podría una plataforma web centralizar la gestión de inventarios, conservación y abastecimiento de productos orgánicos, utilizando un dashboard común con permisos diferenciados, para reducir pérdidas y mejorar la coordinación entre administradores de minimarkets y proveedores?**
+**Relación del Problem Statement con el análisis 5W+2H:**
 
-1. **Domain:** Gestión, conservación y abastecimiento de productos orgánicos.
+| Elemento de la plantilla | Resultado 5W+2H que lo sustenta |
+|---|---|
+| The current state of… | **Who**, **Where** y **When**: administradores y proveedores, durante el almacenamiento, el control de lotes y el abastecimiento. |
+| What existing products/services fail to address… | **Why**: fragmentación de la información y ausencia de una plataforma que integre inventario, abastecimiento y monitoreo. |
+| Our product/service will address this gap by… | **What** y **How**: gestión integrada de inventario, lotes, vencimientos, conservación, pedidos y órdenes de envío. |
+| Our initial focus will be… | **Who** y **Where**: minimarkets orgánicos y proveedores de Lima Metropolitana. |
+| We'll know we are successful when we see… | **How Much**: pérdidas por mermas, desabastecimiento y costos operativos, convertidos en métricas cuantitativas. |
+
+1. **Domain:** Gestión logística, abastecimiento y monitoreo de productos orgánicos.
 
 2. **Customer Segments:** Administradores de minimarkets y proveedores de productos orgánicos.
 
-3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar lotes y problemas de coordinación durante el abastecimiento.
+3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar niveles de stock, lotes y vencimientos, problemas para consultar disponibilidad de productos y coordinar pedidos de abastecimiento.
 
-4. **Gap:** Falta de una plataforma especializada que integre inventario, lotes, conservación y abastecimiento mediante un dashboard común con permisos adecuados para cada tipo de usuario.
+4. **Gap:** Las soluciones comerciales comparadas cubren por separado la conservación, el inventario o la conexión B2B; la oportunidad identificada es integrar la conservación de productos orgánicos, la trazabilidad por lotes y el flujo de pedidos y órdenes de envío entre minimarket y proveedor, con permisos diferenciados para modificar el inventario.
 
-5. **Vision/Strategy:** Centralizar digitalmente la información operativa y proporcionar herramientas que permitan identificar riesgos, gestionar inventarios y facilitar el abastecimiento mediante permisos diferenciados según el rol.
+5. **Vision/Strategy:** Centralizar la información operativa para identificar riesgos, anticipar necesidades de reposición, gestionar inventarios y facilitar el abastecimiento mediante un flujo en el que el administrador crea el pedido, el proveedor lo atiende con una orden de envío y el administrador acepta la recepción antes de actualizar el inventario.
 
-6. **Initial Segment:** Administradores de minimarkets y proveedores de productos orgánicos que requieran mejorar el control de inventarios, conservación y coordinación de abastecimiento.
+6. **Initial Segment:** Administradores de minimarkets orgánicos de Lima Metropolitana y los proveedores de productos orgánicos que los abastecen.
 
 ---
 
@@ -323,192 +377,251 @@ Ante esto nos surge la siguiente pregunta:
 
 1. Se considera que los administradores de minimarkets necesitan mejorar el control de sus productos orgánicos para reducir pérdidas asociadas al deterioro y vencimiento.
 
-2. Se plantea que una plataforma centralizada puede mejorar la visibilidad sobre inventarios, lotes, vencimientos y condiciones de almacenamiento.
+2. Se plantea que una plataforma centralizada puede mejorar la visibilidad sobre inventarios, niveles de stock, lotes, vencimientos y condiciones de almacenamiento.
 
-3. Se considera que los proveedores necesitan una herramienta que les permita consultar los productos disponibles y generar pedidos de abastecimiento dirigidos a los minimarkets.
+3. Se considera que los proveedores necesitan una herramienta especializada para gestionar productos, disponibilidad, lotes y pedidos de abastecimiento dirigidos a diferentes minimarkets.
 
 4. Se asume que la integración entre minimarkets y proveedores permitirá mejorar la eficiencia del proceso de abastecimiento.
 
-5. Se considera que las alertas generadas a partir de las condiciones de conservación permitirán identificar oportunamente productos o lotes en riesgo.
+5. Se considera que las alertas de temperatura y humedad permitirán identificar oportunamente condiciones que puedan afectar la conservación de los productos.
 
-6. Se plantea que la centralización de los pedidos permitirá mejorar la trazabilidad de las operaciones de abastecimiento entre compradores y proveedores.
+6. Se plantea que la centralización de los pedidos permitirá mejorar la trazabilidad de las operaciones de abastecimiento.
 
 7. Se estima que un modelo SaaS puede facilitar el acceso de pequeñas y medianas empresas a las funcionalidades de la plataforma sin requerir infraestructura tecnológica propia.
 
-8. Se considera que la principal diferenciación de la solución será integrar en una misma plataforma la gestión de inventarios, conservación y abastecimiento de productos orgánicos.
+8. Se considera que la principal diferenciación de la solución será integrar la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento de productos orgánicos.
 
-9. Se asume que la plataforma podrá evolucionar posteriormente para incorporar sensores IoT reales y modelos de Machine Learning.
+9. Se asume que los datos de monitoreo IoT pueden ser simulados durante la etapa inicial para validar los flujos funcionales sin depender de dispositivos físicos.
 
-10. Se presume que uno de los principales riesgos de adopción será la resistencia de los usuarios a reemplazar procesos manuales y herramientas informales.
+10. Se asume que la plataforma podrá evolucionar posteriormente para incorporar sensores IoT reales y capacidades analíticas más avanzadas.
 
-11. Se plantea que un dashboard común con permisos diferenciados permitirá mantener una experiencia consistente, evitando mostrar o permitir acciones que no correspondan al rol de cada usuario.
+11. Se presume que uno de los principales riesgos de adopción será la resistencia de los usuarios a reemplazar procesos manuales y herramientas informales.
 
-12. Se considera que la viabilidad del producto dependerá de que los beneficios obtenidos mediante la reducción de pérdidas y mejora del abastecimiento sean percibidos como superiores al costo de la solución.
+12. Se plantea que una interfaz sencilla y dashboards diferenciados permitirán reducir la complejidad para cada tipo de usuario.
+
+13. Se considera que la viabilidad del producto dependerá de que los beneficios obtenidos mediante la reducción de pérdidas y mejora del abastecimiento sean percibidos como superiores al costo de la solución.
 
 **Business Outcome Assumptions**
 
-1. Reducir la cantidad de productos dados de baja como consecuencia de condiciones inadecuadas de almacenamiento.
+1. Reducir la cantidad de productos dados de baja como consecuencia de condiciones inadecuadas de almacenamiento o vencimiento.
 
-2. Incrementar la trazabilidad de los lotes y fechas de vencimiento gestionados por los minimarkets.
+2. Incrementar la trazabilidad de los productos, lotes y fechas de vencimiento gestionados por los minimarkets.
 
-3. Reducir el tiempo necesario para identificar productos o lotes en condiciones de riesgo.
+3. Reducir el tiempo necesario para identificar productos o lotes que puedan encontrarse en condiciones de riesgo.
 
-4. Mejorar la disponibilidad de información para la toma de decisiones relacionadas con el abastecimiento.
+4. Mejorar la capacidad de los administradores para anticipar necesidades de reposición mediante información sobre niveles de stock.
 
-5. Incrementar la trazabilidad de los pedidos desde su creación hasta su aceptación y posterior incorporación al inventario.
+5. Mejorar la disponibilidad de información para la toma de decisiones relacionadas con el abastecimiento.
+
+6. Incrementar la trazabilidad de los pedidos desde su creación por parte del administrador hasta la recepción de la orden de envío y la actualización del inventario.
+
+7. Incrementar la captación de nuevos minimarkets y proveedores que se registran en la plataforma a partir de la Landing Page.
+
+Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; el porcentaje de pedidos con estado e historial de decisiones consultables; y la cantidad de minimarkets y proveedores registrados desde la Landing Page. Se compararán con una línea base levantada durante las pruebas con usuarios.
 
 **User Assumptions**
 
 1. Los administradores de minimarkets necesitan visualizar rápidamente el estado de su inventario y los productos próximos a vencer.
 
-2. Los administradores de minimarkets valoran recibir alertas cuando las condiciones de almacenamiento puedan afectar determinados productos.
+2. Los administradores de minimarkets necesitan identificar productos con niveles de stock que requieran reposición.
 
-3. Los administradores de minimarkets necesitan consultar la disponibilidad de productos y lotes ofrecidos por los proveedores.
+3. Los administradores de minimarkets valoran recibir alertas cuando las condiciones de almacenamiento puedan afectar determinados productos.
 
-4. Los proveedores necesitan consultar los productos que ofrecen y generar pedidos de abastecimiento desde un único sistema.
+4. Los administradores de minimarkets necesitan consultar la disponibilidad de productos ofrecidos por proveedores conectados.
 
-5. Los proveedores necesitan consultar el estado de los pedidos realizados y de las operaciones asociadas a los productos ofrecidos.
+5. Los proveedores necesitan visualizar y gestionar sus productos, disponibilidad y lotes desde un único sistema.
 
-6. Ambos segmentos necesitan consultar el estado de un pedido y disponer de información centralizada sobre las operaciones de abastecimiento.
+6. Los proveedores requieren recibir pedidos estructurados de los minimarkets, responderlos, generar órdenes de envío y consultar el estado de sus operaciones.
+
+7. Ambos segmentos necesitan consultar el estado de un pedido y mantener información actualizada sobre el proceso de abastecimiento.
 
 **User Outcome Assumptions**
 
-1. Los administradores de minimarkets tendrán mayor confianza en la información de su inventario al disponer de un registro centralizado de productos, lotes y vencimientos.
+1. Los administradores de minimarkets tendrán mayor confianza en la información de su inventario al disponer de un registro centralizado de productos, stock, lotes y vencimientos.
 
-2. Los administradores de minimarkets podrán identificar oportunamente condiciones ambientales anómalas que puedan representar un riesgo para los productos.
+2. Los administradores de minimarkets podrán identificar oportunamente productos con niveles de stock bajos y necesidades de reposición.
 
-3. Los administradores de minimarkets podrán consultar productos disponibles y gestionar pedidos de abastecimiento desde la plataforma.
+3. Los administradores de minimarkets podrán identificar condiciones ambientales anómalas que puedan representar un riesgo para los productos almacenados.
 
-4. Los proveedores podrán generar pedidos y consultar el estado de sus operaciones sin modificar directamente el inventario del minimarket.
+4. Los administradores de minimarkets podrán revisar las órdenes de envío generadas por los proveedores y decidir si aceptarlas o rechazarlas antes de modificar su inventario.
 
-5. Los usuarios experimentarán una reducción de la incertidumbre respecto al estado de los pedidos y operaciones de abastecimiento.
+5. Los proveedores podrán consultar sus productos y disponibilidad, responder pedidos, generar órdenes de envío y realizar seguimiento de su estado.
 
-6. Los administradores de minimarkets podrán mantener actualizado su inventario de forma más eficiente al incorporar automáticamente los productos correspondientes cuando acepten un pedido.
+6. Los usuarios experimentarán una reducción de la incertidumbre respecto al estado de los pedidos de abastecimiento.
+
+7. Los usuarios de ambos segmentos podrán tomar decisiones operativas con mayor rapidez al contar con información centralizada y actualizada.
+
+8. Los visitantes de la Landing Page podrán comprender rápidamente la propuesta de valor de MarketGo para su segmento y decidir si registrarse.
+
+Los resultados de usuario se comprobarán con tareas de consulta de inventario y vencimientos, detección de alertas, identificación de stock bajo, creación y revisión de pedidos, consulta de su estado y navegación de la Landing Page hasta el registro. Se observarán el tiempo de ejecución, la finalización de la tarea y los errores; las entrevistas y pruebas permitirán contrastar estos resultados con las prácticas actuales de cada segmento.
+
+**Feature Assumptions**
+
+Cada Feature Assumption (FA) da origen a un Hypothesis Statement, de modo que existe una relación 1 a 1 entre ambas listas.
+
+1. Se considera que permitir registrar, consultar, buscar, filtrar y actualizar productos, cantidades, lotes y vencimientos, priorizando la salida de los lotes más próximos a vencer (criterio FEFO), facilitará el control centralizado del inventario del minimarket.
+
+2. Se plantea que las alertas configurables sobre productos próximos a vencer y condiciones inadecuadas de temperatura o humedad permitirán identificar oportunamente productos en riesgo.
+
+3. Se considera que visualizar registros de temperatura y humedad permitirá al administrador supervisar las condiciones de conservación de los productos.
+
+4. Se plantea que permitir a los proveedores mantener actualizados sus productos, lotes y disponibilidad facilitará que los minimarkets consulten alternativas de abastecimiento desde la plataforma.
+
+5. Se considera que permitir al administrador crear pedidos dirigidos a un proveedor, y al proveedor aceptarlos o rechazarlos y generar la orden de envío correspondiente, permitirá centralizar la coordinación del abastecimiento.
+
+6. Se plantea que reservar al administrador la decisión de aceptar o rechazar las órdenes de envío, actualizando el inventario automáticamente solo cuando se acepten, permitirá mantener el control y la trazabilidad de las entradas de productos.
+
+7. Se considera que ofrecer dashboards diferenciados, indicadores, alertas e historial de operaciones permitirá a cada segmento consultar rápidamente el estado de sus actividades y tomar decisiones con información centralizada.
+
+8. Se plantea que un sistema de autenticación, roles y permisos permitirá que administradores y proveedores accedan únicamente a las funcionalidades y datos correspondientes a su negocio.
+
+9. Se considera que una Landing Page con llamadas a la acción diferenciadas para minimarkets y proveedores, video del producto, planes y formulario de contacto convertirá a los visitantes en usuarios registrados.
 
 ---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-**Hypothesis 1**
+Las hipótesis se redactaron con la plantilla oficial *"We believe we will achieve [business outcome] if [personas] attain [user outcome] with [feature]"*. Se formuló una hipótesis por cada Feature Assumption, y las columnas BO, UO y FA indican el número del Business Outcome, User Outcome y Feature Assumption enumerados en la sección anterior.
 
-Creemos que al centralizar la gestión de inventarios, lotes y fechas de vencimiento de los minimarkets, facilitaremos la identificación de productos próximos a vencer. Lo sabremos cuando los administradores puedan identificar los productos críticos desde el dashboard sin necesidad de consultar diferentes registros.
+| # | Hypothesis Statement | BO | UO | FA |
+|---|---|:---:|:---:|:---:|
+| H1 | *We believe we will achieve* greater traceability of products, batches and expiration dates *if* minimarket administrators like Russell Estrada *attain* higher confidence in their inventory information *with* a centralized inventory module to register, search, filter and update products, batches and expirations. | 2 | 1 | 1 |
+| H2 | *We believe we will achieve* fewer products written off due to expiration or spoilage *if* minimarket administrators like Russell Estrada *attain* timely detection of near-expiry products and risky storage conditions *with* configurable expiration and storage condition alerts. | 1 | 3 | 2 |
+| H3 | *We believe we will achieve* a reduction in the time required to identify products or batches at risk *if* minimarket administrators like Russell Estrada *attain* continuous visibility of the conditions in which their products are stored *with* temperature and humidity records for each storage area. | 3 | 3 | 3 |
+| H4 | *We believe we will achieve* better information for replenishment decisions *if* suppliers like Marco Antonio Ríos *attain* a single, up-to-date view of their products, batches and availability that minimarkets can consult *with* a supplier product catalog. | 5 | 5 | 4 |
+| H5 | *We believe we will achieve* increased traceability of orders from their creation to their shipment *if* suppliers like Marco Antonio Ríos *attain* less uncertainty about the orders they must fulfill, without transcribing WhatsApp messages *with* a structured workflow in which administrators create orders and suppliers accept them and generate shipping orders. | 6 | 6 | 5 |
+| H6 | *We believe we will achieve* complete traceability of product entries into the inventory *if* minimarket administrators like Russell Estrada *attain* the ability to review shipping orders and accept or reject them before their inventory is modified *with* shipping order reception that automatically updates the inventory only when accepted. | 6 | 4 | 6 |
+| H7 | *We believe we will achieve* a better capacity to anticipate replenishment needs *if* minimarket administrators like Russell Estrada and suppliers like Marco Antonio Ríos *attain* faster operational decisions and early identification of low-stock products *with* role-based dashboards with indicators, alerts and an operations history. | 4 | 2 | 7 |
+| H8 | *We believe we will achieve* trustworthy order and inventory traceability across both segments *if* minimarket administrators like Russell Estrada and suppliers like Marco Antonio Ríos *attain* the confidence that each party can only see and modify the data of its own business *with* authentication, roles and permissions per segment. | 6 | 7 | 8 |
+| H9 | *We believe we will achieve* a growing base of registered minimarkets and suppliers *if* visitors of the Landing Page *attain* a quick understanding of how MarketGo solves the problems of their segment *with* a responsive Landing Page with segment-specific calls to action, product video, plans and a contact form. | 7 | 8 | 9 |
 
-**Hypothesis 2**
-
-Creemos que al implementar un sistema de monitoreo de temperatura y humedad, acompañado de alertas basadas en los requisitos de conservación de cada producto, mejoraremos la capacidad de los administradores para detectar condiciones de riesgo. Lo sabremos cuando puedan identificar y atender oportunamente las alertas generadas.
-
-**Hypothesis 3**
-
-Creemos que al permitir que los proveedores consulten productos disponibles y generen pedidos de abastecimiento desde el mismo dashboard, facilitaremos la coordinación de las operaciones entre proveedores y minimarkets. Lo sabremos cuando los proveedores puedan realizar pedidos y consultar su estado sin utilizar canales externos de comunicación.
-
-**Hypothesis 4**
-
-Creemos que al centralizar el ciclo de vida de los pedidos y automatizar la incorporación de los productos al inventario después de su aceptación, reduciremos los errores y el tiempo necesario para actualizar el inventario. Lo sabremos cuando los administradores puedan aceptar un pedido y visualizar automáticamente los productos correspondientes en su inventario.
-
-**Hypothesis 5**
-
-Creemos que al utilizar un dashboard común con permisos diferenciados para administradores de minimarkets y proveedores, facilitaremos el uso de la plataforma y mantendremos la seguridad de la información. Lo sabremos cuando cada usuario pueda acceder a la información y ejecutar únicamente las acciones correspondientes a su rol.
+Estas hipótesis se validarán mediante pruebas con usuarios sobre el prototipo y, posteriormente, con métricas de uso de la plataforma, comparándolas con la línea base de las herramientas actuales de cada segmento (tiempo de ejecución, finalización de la tarea y errores).
 
 ---
 
 #### 1.2.2.4. Lean UX Canvas.
 
+El Canvas sintetiza la propuesta de valor de MarketGo a partir de los User Personas de la sección 2.3.1, **Russell Estrada** (administrador de minimarket orgánico) y **Marco Antonio Ríos** (coordinador comercial de una distribuidora orgánica B2B), y de los competidores analizados en la sección 2.1.
+
 <table>
   <tr>
-    <td valign="top">
-      <strong>Business problem</strong>
+    <td valign="top" width="33%">
+      <strong>1. Business problem</strong>
       <br><br>
-      Los administradores de minimarkets y proveedores de productos orgánicos gestionan inventarios, lotes, conservación y abastecimiento mediante procesos que pueden encontrarse fragmentados.
+      Los minimarkets de productos orgánicos en Lima controlan inventario, lotes, vencimientos y conservación con revisiones físicas, libretas y hojas de cálculo, y coordinan su abastecimiento por WhatsApp (100% de los administradores entrevistados).
       <br><br>
-      Esta falta de centralización dificulta identificar productos en riesgo, controlar vencimientos, conocer la disponibilidad de productos y realizar seguimiento de los pedidos.
+      Esto provoca mermas por vencimiento o pérdida de cadena de frío, errores de stock al transcribir pedidos y llamadas constantes para confirmar despachos.
       <br><br>
-      Como consecuencia, pueden generarse pérdidas por deterioro o vencimiento, errores de abastecimiento y dificultades de coordinación entre compradores y proveedores.
+      FreshTracker, ShelfLife y Peru Marketplace resuelven solo una parte (conservación, inventario o conexión B2B) y ninguna conecta el abastecimiento con el inventario y la conservación.
     </td>
-    <td rowspan="2" valign="top">
-      <strong>Solution ideas</strong>
+    <td rowspan="2" valign="top" width="34%">
+      <strong>5. Solution ideas</strong>
       <br><br>
-      - Plataforma web especializada en productos orgánicos
+      - Inventario centralizado con lotes y vencimientos (FA1).
       <br><br>
-      - Dashboard común con permisos diferenciados según el tipo de usuario
+      - Alertas de vencimiento y de condiciones de conservación (FA2).
       <br><br>
-      - Gestión de inventarios, ubicaciones, lotes y vencimientos
+      - Registros de temperatura y humedad con datos inicialmente simulados (FA3).
       <br><br>
-      - Monitoreo de temperatura y humedad mediante datos simulados
+      - Catálogo del proveedor con disponibilidad real (FA4).
       <br><br>
-      - Sistema de alertas para productos y lotes en riesgo
+      - Pedido creado por el administrador → aceptado por el proveedor → orden de envío (FA5).
       <br><br>
-      - Gestión de mermas y donaciones
+      - Recepción de la orden de envío que actualiza automáticamente el inventario (FA6).
       <br><br>
-      - Consulta de productos y disponibilidad de proveedores
+      - Dashboards por rol con indicadores, alertas e historial (FA7).
       <br><br>
-      - Generación y seguimiento de pedidos de abastecimiento
+      - Autenticación, roles y permisos por segmento (FA8).
       <br><br>
-      - Incorporación automática de productos al inventario después de la aceptación del pedido
+      - Landing Page con llamadas a la acción por segmento (FA9).
     </td>
-    <td valign="top">
-      <strong>Business Outcomes</strong>
+    <td valign="top" width="33%">
+      <strong>2. Business outcomes</strong>
       <br><br>
-      - Reducir pérdidas asociadas al deterioro y vencimiento
+      - Reducir en 30% las bajas por vencimiento o deterioro de los minimarkets suscritos en 6 meses.
       <br><br>
-      - Mejorar la trazabilidad de productos y lotes
+      - Reducir de 24 h a menos de 4 h el tiempo entre la creación de un pedido y su orden de envío en el 80% de los pedidos.
       <br><br>
-      - Mejorar la eficiencia del abastecimiento
+      - Lograr que el 100% de las órdenes de envío aceptadas actualicen el inventario sin registro manual.
       <br><br>
-      - Incrementar la visibilidad sobre el estado de pedidos y operaciones
-      <br><br>
-      - Centralizar la información operativa de minimarkets y proveedores
+      - Alcanzar 20 minimarkets y 5 proveedores activos al cierre del primer semestre.
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <strong>Users and customers</strong>
+      <strong>3. Users &amp; customers</strong>
       <br><br>
-      - Administradores de minimarkets
-      <br>
-      - Proveedores de productos orgánicos
+      - <strong>Russell Estrada</strong> (28 años, Lima): administrador de minimarket orgánico, opera desde el celular, usa Excel y WhatsApp y tiene baja adopción de nuevas herramientas.
+      <br><br>
+      - <strong>Marco Antonio Ríos</strong> (32 años, Lurín): coordinador comercial de una distribuidora que atiende 30 minimarkets con un catálogo de 120 productos; coordina pedidos por WhatsApp y Excel.
     </td>
     <td valign="top">
-      <strong>User benefits</strong>
+      <strong>4. User outcomes &amp; benefits</strong>
       <br><br>
-      - Mayor visibilidad del inventario
+      - Russell: dejar de perder dinero por mermas al enterarse a tiempo de vencimientos y fallas de refrigeración, sin revisar físicamente el almacén.
       <br><br>
-      - Identificación temprana de productos en riesgo
+      - Russell: mantener el stock real al aceptar una orden de envío, sin transcribir datos de WhatsApp a Excel.
       <br><br>
-      - Control centralizado de lotes y vencimientos
+      - Marco: recibir pedidos estructurados y despachar sin errores de transcripción.
       <br><br>
-      - Consulta de productos disponibles
+      - Marco: dejar de atender llamadas de confirmación, porque el minimarket ve el estado de su pedido.
       <br><br>
-      - Generación y seguimiento de pedidos
-      <br><br>
-      - Actualización automática del inventario después de aceptar pedidos
+      - Ambos: una herramienta sencilla, usable desde el celular y con una curva de aprendizaje corta.
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <strong>Hypotheses</strong>
+      <strong>6. Hypotheses</strong>
       <br><br>
-      - Si se centraliza el inventario y los lotes, se facilitará la identificación de productos próximos a vencer.
+      - H1: más trazabilidad si Russell confía en su inventario gracias al módulo de inventario y lotes.
       <br><br>
-      - Si se implementan alertas basadas en temperatura y humedad, se detectarán oportunamente condiciones de riesgo.
+      - H2 y H3: menos mermas si Russell detecta a tiempo vencimientos y condiciones riesgosas gracias a alertas y registros de conservación.
       <br><br>
-      - Si los proveedores pueden generar pedidos desde la plataforma, se facilitará la coordinación del abastecimiento.
+      - H4: mejores decisiones de reposición si Marco mantiene un catálogo con disponibilidad real.
       <br><br>
-      - Si los pedidos aceptados actualizan automáticamente el inventario, se reducirán errores y tareas manuales.
+      - H5 y H6: pedidos trazables de inicio a fin si Marco despacha con órdenes de envío y Russell las acepta antes de actualizar su inventario.
       <br><br>
-      - Si cada rol cuenta con permisos específicos dentro de un dashboard común, se facilitará el uso y se protegerá la información.
+      - H7 y H8: reposición anticipada y datos confiables gracias a dashboards por rol con permisos.
+      <br><br>
+      - H9: más minimarkets y proveedores registrados gracias a una Landing Page orientada a cada segmento.
     </td>
     <td valign="top">
-      <strong>What’s the most important thing we need to learn first?</strong>
+      <strong>7. What's the most important thing we need to learn first?</strong>
       <br><br>
-      Si los administradores de minimarkets y proveedores perciben suficiente valor en una plataforma integrada de gestión de inventario, conservación y abastecimiento como para incorporarla a sus procesos operativos.
+      - Si Russell confía en las alertas y en la actualización automática del inventario lo suficiente como para abandonar su control en Excel.
+      <br><br>
+      - Si Marco está dispuesto a recibir y responder pedidos en MarketGo en lugar de WhatsApp.
+      <br><br>
+      - Si la separación de funciones (el administrador crea el pedido y acepta la recepción; el proveedor responde y despacha) es clara para ambos segmentos.
+      <br><br>
+      - Si el valor percibido de centralizar inventario, conservación y abastecimiento es suficiente para que ambos segmentos adopten MarketGo.
     </td>
     <td valign="top">
-      <strong>What’s the least amount of work we need to do to learn the next most important thing?</strong>
+      <strong>8. What's the least amount of work we need to do to learn the next most important thing?</strong>
       <br><br>
-      Realizar entrevistas con administradores de minimarkets y proveedores y validar mediante un prototipo de baja fidelidad los flujos principales de inventario, alertas, consulta de productos, generación de pedidos y actualización automática del inventario.
+      - Crear un prototipo navegable con datos ficticios realistas de inventario, lotes, vencimientos, temperatura, humedad y alertas.
+      <br><br>
+      - Probar con 3 administradores y 3 proveedores el flujo completo: crear pedido → aceptarlo → generar orden de envío → aceptar la recepción y ver el inventario actualizado.
+      <br><br>
+      - Mostrar alertas simuladas de stock bajo, vencimiento y conservación para observar si el usuario reconoce su prioridad y realiza una acción adecuada.
+      <br><br>
+      - Medir finalización de tareas, tiempo, errores y comprensión frente a su proceso actual con WhatsApp y Excel, y cerrar con una breve entrevista sobre confianza, intención de adopción y disposición de pago.
     </td>
   </tr>
 </table>
+
+**Diferenciación frente a la competencia**
+
+| Capacidad | MarketGo | FreshTracker | ShelfLife | Peru Marketplace |
+|---|:---:|:---:|:---:|:---:|
+| Inventario, lotes y vencimientos | ✔ | ✘ | ✔ | ✘ |
+| Monitoreo de temperatura y humedad con alertas | ✔ | ✔ | ✘ | ✘ |
+| Pedidos y órdenes de envío entre minimarket y proveedor | ✔ | ✘ | ✘ | ✔ |
+| Recepción que actualiza automáticamente el inventario | ✔ | ✘ | ✘ | ✘ |
+| Dashboards con permisos por rol (minimarket / proveedor) | ✔ | ✘ | ✘ | ✘ |
+| Enfoque especializado en productos orgánicos | ✔ | ✘ | ✘ | ✘ |
+
+La propuesta de valor diferencial de MarketGo es **conectar el abastecimiento con el inventario y la conservación**: un pedido aceptado por el proveedor se convierte en una orden de envío que, al ser aceptada por el minimarket, actualiza su inventario y sus lotes, los cuales quedan inmediatamente bajo control de vencimientos y alertas de conservación.
 
 ---
 
@@ -516,7 +629,7 @@ Creemos que al utilizar un dashboard común con permisos diferenciados para admi
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
 
-Estos segmentos representan dos tipos de organizaciones con necesidades de negocio diferentes. Por ello, la plataforma utiliza un **dashboard común**, pero aplica permisos específicos para cada segmento. Los administradores de minimarkets cuentan con permisos de lectura y escritura sobre la información de su operación, mientras que los proveedores cuentan con permisos de consulta y acciones específicas para generar pedidos, sin acceso para modificar directamente el inventario del minimarket.
+Estos segmentos presentan necesidades de negocio diferentes. Por ello, la plataforma utiliza una infraestructura tecnológica compartida, pero ofrece dashboards, funcionalidades y permisos específicos para cada segmento.
 
 Los roles operativos que puedan existir dentro de cada empresa forman parte de la estructura interna de cada segmento y no constituyen segmentos objetivos independientes.
 
@@ -524,21 +637,21 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 
 | Dimensión | Detalle del perfil |
 |---|---|
-| **Perfil Demográfico** | Propietarios, administradores o responsables de pequeños y medianos minimarkets dedicados a la comercialización de productos orgánicos y alimentos frescos. Son responsables de supervisar las operaciones comerciales y tomar decisiones relacionadas con inventario, conservación y abastecimiento. |
+| **Perfil Demográfico** | Propietarios, administradores o responsables de pequeños y medianos minimarkets dedicados a la comercialización de productos orgánicos y alimentos frescos. Son responsables de supervisar las operaciones del establecimiento y tomar decisiones relacionadas con inventario, conservación y abastecimiento. |
 | **Perfil Geográfico** | Negocios ubicados principalmente en zonas urbanas con demanda de productos orgánicos y necesidad de mantener un abastecimiento constante. El segmento inicial puede concentrarse en Lima Metropolitana. |
-| **Perfil Psicográfico** | Personas orientadas a mantener la calidad de sus productos, reducir pérdidas y asegurar la disponibilidad constante de mercadería. Valoran soluciones sencillas que permitan controlar las operaciones del negocio y tomar decisiones basadas en información actualizada. |
-| **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento de productos, dificultad para controlar lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, desabastecimiento y dificultad para coordinar pedidos con proveedores. |
+| **Perfil Psicográfico** | Personas orientadas a mantener la calidad y disponibilidad de sus productos, reducir pérdidas y mejorar la eficiencia de sus operaciones. Valoran soluciones sencillas que permitan controlar el inventario, anticipar necesidades de reposición y tomar decisiones basadas en información actualizada. |
+| **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento, dificultad para controlar niveles de stock, lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, situaciones de desabastecimiento y dificultad para coordinar pedidos con proveedores y validar la mercadería recibida. |
 | **Uso de Tecnología** | Utilizan herramientas digitales para administrar ventas, inventarios y comunicación con proveedores, aunque pueden depender de hojas de cálculo, aplicaciones de mensajería y sistemas independientes que no integran toda la información operativa. |
 
 ### 1.3.2. Segmento objetivo 2: Proveedores
 
 | Dimensión | Detalle del perfil |
 |---|---|
-| **Perfil Demográfico** | Empresas, productores, distribuidores o comerciantes mayoristas de productos orgánicos que abastecen a minimarkets. Sus representantes participan en la oferta de productos y en las operaciones de abastecimiento realizadas mediante la plataforma. |
+| **Perfil Demográfico** | Empresas, productores, distribuidores o comerciantes mayoristas de productos orgánicos que abastecen a minimarkets. Sus representantes son responsables de gestionar el catálogo, productos, disponibilidad y lotes, y de atender y despachar los pedidos de abastecimiento. |
 | **Perfil Geográfico** | Proveedores ubicados en zonas productoras, centros de distribución o áreas comerciales que atienden a minimarkets y otros negocios comercializadores de productos orgánicos. |
-| **Perfil Psicográfico** | Negocios orientados a mantener una relación comercial eficiente con sus clientes y facilitar el abastecimiento oportuno de productos. Valoran la trazabilidad, organización y visibilidad de las operaciones relacionadas con los productos que ofrecen. |
-| **Puntos de Dolor** | Dificultad para mantener visibilidad sobre los pedidos realizados, falta de centralización de la información de las operaciones comerciales y dependencia de diferentes canales de comunicación para coordinar el abastecimiento. |
-| **Uso de Tecnología** | Utilizan herramientas digitales, hojas de cálculo y aplicaciones de comunicación para gestionar sus operaciones comerciales, pero pueden carecer de una plataforma especializada que centralice la información de los productos ofrecidos y los pedidos realizados por los minimarkets. |
+| **Perfil Psicográfico** | Negocios orientados a mantener una disponibilidad eficiente de sus productos, atender oportunamente los pedidos de abastecimiento y establecer relaciones comerciales duraderas con sus clientes. Valoran la organización, trazabilidad y visibilidad de sus operaciones de abastecimiento. |
+| **Puntos de Dolor** | Dificultad para administrar productos y disponibilidad, atender pedidos de diferentes minimarkets que llegan por canales dispersos, falta de visibilidad sobre el estado de las operaciones, gestión fragmentada de productos y lotes, y dificultades para coordinar el abastecimiento y mantener actualizada la información de sus productos. |
+| **Uso de Tecnología** | Utilizan herramientas digitales, hojas de cálculo y aplicaciones de comunicación para gestionar productos, clientes y pedidos, pero pueden carecer de una plataforma especializada que conecte directamente su disponibilidad de productos con las necesidades de los minimarkets y permita realizar seguimiento de los pedidos y órdenes de envío. |
 
 ---
 
@@ -918,9 +1031,13 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 05:04</td>
+    </tr>
+    <tr>
       <td colspan="2"><strong>Duración</strong>: 05:04</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">https://youtu.be/BuiCkyydM7k</a></td>
-</tr>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQAO_S8vsY7wSLoGXu_zLohnAacAwmkheFzeSivboAvBNEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e0cCTv" target="_blank">Ver Video</a></td>
+    </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
@@ -970,8 +1087,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 15:00</td>
+    </tr>
+    <tr>
       <td colspan="2"><strong>Duración</strong>: [15:00]</td>
-      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">https://youtu.be/NzzEsy9Kx7Y</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQBD3_GD9iQdSaVNcGL-1ry4ATd8dDv7XB3Z7iXLqwA4PUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wlhYtj" target="_blank">Ver Video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1022,7 +1143,11 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 07:37</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [07:37]</td>
       <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAtjkovEx1wRr3eMlftO2sFAXlMxG88PDLfCn4uFfxvYMs?e=9CcTbz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
@@ -1073,6 +1198,10 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Lima, Miraflores</td>
       <td><strong>Software especializado utilizado</strong></td>
       <td>Excel</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 04:06</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [04:06]</td>
@@ -1126,8 +1255,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 03:18</td>
+    </tr>
+    <tr>
       <td colspan="2"><strong>Duración</strong>: [03:18]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1178,8 +1311,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">https://youtu.be/A0u3vSoaUJk</a></td>
+      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
+      <td colspan="2"><strong>Hora de finalización:</strong> 07:50</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [07:50]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCMSfrbXtL4RZKFfF1b3BmTAcRfWzPxNyHY7YMTQFX0CTM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BXNBH4" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1237,6 +1374,40 @@ Las entrevistas realizadas a los administradores de minimarkets evidencian un pa
 Los principales problemas identificados se relacionan con el tiempo empleado en los controles manuales, la dificultad para mantener actualizada la información, el seguimiento de fechas de vencimiento, las pérdidas ocasionadas por productos vencidos o deteriorados y la coordinación de pedidos con proveedores. Asimismo, los entrevistados muestran interés en disponer de información organizada y mecanismos que permitan anticipar situaciones como bajo stock o próximos vencimientos.
 
 A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de MarketGo.
+
+**Segmento objetivo: Proveedores de Productos Orgánicos**
+
+#### 1. Descripción general del segmento
+
+Este segmento agrupa a proveedores, distribuidores y comerciantes mayoristas responsables de comercializar alimentos y productos orgánicos a minimarkets y pequeños comercios. Sus actividades incluyen la gestión de catálogos, control de disponibilidad, seguimiento de lotes, recepción y preparación de pedidos de abastecimiento, así como la coordinación logística de entregas. A partir de las entrevistas realizadas a los proveedores (Álvaro Chojaga, Luz Rojas y Anita Gamboa), se identificaron patrones operativos alineados al uso de herramientas digitales desarticuladas, la alta carga de trabajo manual y los cuellos de botella generados por la falta de un canal comercial unificado. Estos hallazgos sirven como fundamento para la construcción del arquetipo representativo.
+
+#### 2. Características objetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+| :--- | :---: | :--- | :--- |
+| **Uso de hojas de cálculo (Excel) para el catálogo y control interno** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Todos los proveedores emplean Microsoft Excel como herramienta principal para registrar sus listas de productos, precios y control de lotes. | El arquetipo domina herramientas de escritorio tradicionales, pero sufre de desactualización constante al no estar conectadas en tiempo real con sus clientes. |
+| **Uso intensivo de WhatsApp para la gestión comercial y pedidos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** La recepción de solicitudes, confirmación de precios, coordinación de despachos y cambios se realiza de manera casi exclusiva por WhatsApp. | El arquetipo depende de la mensajería instantánea para vender, lo que provoca dispersión de la información y pérdida de histórico de pedidos. |
+| **Atención dispersa entre múltiples dispositivos (Celular y Laptop)** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Utilizan el celular para responder rápidamente a clientes en movimiento y la laptop para revisar inventarios y cotizaciones. | El arquetipo requiere una plataforma web con alta accesibilidad responsive para operar en oficina o en almacén/campo. |
+| **Proceso manual de verificación y actualización de disponibilidad** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Al recibir un pedido, deben validar manualmente contra su stock o cuadernos si cuentan con los productos antes de confirmar al minimarket. | El arquetipo pierde tiempo operativo en revisiones manuales, expuesto a ofrecer disponibilidad de stock desactualizada. |
+
+#### 3. Características subjetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+| :--- | :---: | :--- | :--- |
+| **Frustración por errores de comunicación y modificaciones por chat** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Expresan que los cambios de último momento o malentendidos en conversaciones de WhatsApp generan despachos erróneos o inconsistencias. | El arquetipo busca estandarizar la toma de pedidos para evitar reprocesos y pérdidas económicas por devoluciones. |
+| **Necesidad de visibilidad y trazabilidad en el estado de los pedidos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Identifican como un problema la falta de seguimiento claro desde que el pedido es solicitado, preparado, despachado hasta que es recibido por el minimarket. | El arquetipo valora contar con un flujo de estados transparente que reduzca las constantes llamadas y mensajes de consulta de los clientes. |
+| **Deseo de proyectar una imagen más profesional y digital** | **67% (2/3)** | **Entrevistas 4 y 5:** Destacan que una plataforma digital les permite publicitar sus productos orgánicos, resaltar certificaciones/calidad sanitaria y diferenciarse de competidores informales. | El arquetipo busca herramientas de cara al cliente que eleven su valor percibido y faciliten la captura de nuevos minimarkets. |
+| **Preocupación por la gestión y vencimiento de lotes orgánicos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Al comercializar productos perecibles u orgánicos, la rotación adecuada de lotes para evitar que expiren en almacén es una prioridad constante. | El arquetipo necesita vincular los lotes de salida directamente a las solicitudes para garantizar frescura en la entrega. |
+
+#### 4. Hallazgos principales
+
+- **Silos de información y reproceso por canales informales (100% de coincidencia):** Los tres proveedores operan triangulando información entre hojas de Excel locales y chats de WhatsApp. La falta de un canal unificado provoca transcripciones manuales de pedidos, errores en cantidades/lotes e inconsistencias al comunicar la disponibilidad a los minimarkets.
+- **Vulnerabilidad en la cadena de abastecimiento perecible (100% de coincidencia):** La naturaleza de los productos orgánicos exige un control estricto de rotación y tiempos de despacho. Las demoras generadas por la confirmación manual de stock y la falta de seguimiento de entrega impactan directamente en la calidad del producto entregado.
+- **Aceptación hacia la centralización B2B (100% de coincidencia):** Todos los entrevistados coinciden en que contar con una plataforma que centralice su catálogo, controle su stock/lotes disponible y automatice la recepción y seguimiento de pedidos agilizaría drásticamente su logística.
+
+#### 5. Conclusión del segmento
+
+Las entrevistas realizadas a los proveedores de productos orgánicos revelan una dinámica comercial fuertemente atada a la combinación de hojas de cálculo de Excel y aplicaciones de mensajería instantánea (WhatsApp). Si bien este esquema les ha permitido operar de forma empírica, genera cuellos de botella severos cuando el volumen de minimarkets o solicitudes aumenta. Los dolores operativos clave se concentran en la transcripción manual de pedidos, la actualización tardía de stock disponible, la falta de trazabilidad en las etapas del despacho y el riesgo constante de vencimiento de lotes perecibles. Además, la coordinación informal provoca malentendidos sobre precios o cantidades que deterioran la relación comercial con los administradores de minimarkets. A partir de estos patrones, el arquetipo del proveedor puede definirse como un comerciante o gestor B2B proactivo, adaptable al entorno móvil y web, que necesita optimizar sus tiempos de atención. Sus expectativas respecto a MarketGo se orientan a disponer de un canal profesional para exponer su catálogo orgánico, automatizar la entrada de solicitudes conectadas al stock de lotes, proyectar trazabilidad en los despachos y reducir los errores de comunicación a cero.
 
 ## 2.3. Needfinding.
 
@@ -1389,6 +1560,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | EP-05 | Gestión de proveedores y productos | Permite consultar y administrar la información relacionada con proveedores y los productos que ofrecen dentro de la plataforma. |
 | EP-06 | Gestión de usuarios y seguridad | Permite registrar usuarios, gestionar roles y controlar el acceso a las funcionalidades mediante permisos según el segmento. |
 | EP-07 | Análisis y control de gestión | Permite visualizar indicadores, historial de operaciones, alertas e información consolidada para facilitar la toma de decisiones. |
+| EP-08 | Navegación e Información Pública | Permite a los usuarios no autenticados (visitantes) explorar la propuesta de valor de la plataforma, consultar información pública de proveedores/catálogos de demostración y solicitar registro o información comercial. |
 
 ### User Stories
 
@@ -1424,6 +1596,9 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | US 028 | Gestionar permisos por rol | **Como** usuario administrador autorizado,<br>**Quiero** gestionar los permisos asociados a los roles,<br>**Para** controlar las acciones que cada segmento puede realizar. | **Escenario 1: Permisos aplicados**<br>**Dado** que existe un usuario con un rol asignado,<br>**Cuando** accede al sistema,<br>**Entonces** únicamente puede ejecutar las funcionalidades permitidas para su rol.<br><br>**Escenario 2: Acción no permitida**<br>**Dado** que el usuario intenta ejecutar una acción fuera de sus permisos,<br>**Cuando** realiza la acción,<br>**Entonces** el sistema bloquea la operación. | EP-06 |
 | US 029 | Controlar acceso según operación | **Como** usuario de MarketGo,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede gestionar sus pedidos e inventario y aceptar o rechazar órdenes de envío, pero no modificar directamente las órdenes creadas por el proveedor.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede consultar y aceptar o rechazar pedidos recibidos y gestionar sus órdenes de envío, pero no modificar directamente el inventario del minimarket. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de MarketGo,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede al dashboard,<br>**Entonces** el sistema muestra información relevante de inventario, conservación, pedidos, órdenes de envío y alertas correspondientes a su operación.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede al mismo dashboard,<br>**Entonces** el sistema muestra información relevante de productos ofrecidos, pedidos recibidos y órdenes de envío según sus permisos. | EP-07 |
+| US 031 | Explorar propuesta de valor en landing page | **Como** visitante,<br>**Quiero** visualizar la página principal e informativa de MarketGo,<br>**Para** entender la propuesta de valor y los beneficios del sistema antes de registrarme. | **Escenario 1: Navegación pública**<br>**Dado** que un usuario sin sesión activa accede a la URL principal,<br>**Cuando** navega por el sitio,<br>**Entonces** el sistema le despliega la información del servicio, beneficios para minimarkets y proveedores, y accesos visibles para iniciar sesión o registrarse.<br><br>**Escenario 2: Redirección de autenticado**<br>**Dado** que un usuario ya ha iniciado sesión,<br>**Cuando** ingresa a la landing page,<br>**Entonces** el sistema le ofrece un acceso directo al Dashboard. | EP-08 |
+| US 032 | Consultar directorio público de proveedores | **Como** visitante,<br>**Quiero** visualizar el directorio de proveedores públicos y sus productos destacados,<br>**Para** evaluar la oferta de productos orgánicos disponibles antes de afiliar mi minimarket. | **Escenario 1: Consulta de directorio**<br>**Dado** que el visitante está en la sección pública de proveedores,<br>**Cuando** examina la lista,<br>**Entonces** el sistema muestra los proveedores verificados y sus categorías de productos sin exponer precios ni datos de contacto directo de la transacción.<br><br>**Escenario 2: Intento de compra o pedido**<br>**Dado** que el visitante intenta realizar un pedido desde la vista pública,<br>**Cuando** presiona el botón de acción,<br>**Entonces** el sistema lo redirige a la pantalla de Inicio de Sesión / Registro indicando que requiere una cuenta activa. | EP-05 / EP-08 |
+| US 033 | Solicitar información de registro o demo | **Como** visitante,<br>**Quiero** enviar un formulario de contacto o solicitud de demo,<br>**Para** recibir atención personalizada y evaluar la adopción de MarketGo en mi negocio. | **Escenario 1: Envío con datos válidos**<br>**Dado** que el visitante completa el formulario público (nombre, correo, tipo de negocio y teléfono),<br>**Cuando** confirma el envío,<br>**Entonces** el sistema guarda la solicitud y muestra un mensaje de confirmación.<br><br>**Escenario 2: Formulario incompleto**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema bloquea el envío y resalta los campos requeridos. | EP-06 / EP-08 |
 
 ### Technical Stories
 
@@ -1524,8 +1699,39 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 - El endpoint de `donations` deja de formar parte de la cobertura funcional esperada, debido a que las donaciones ya no pertenecen al alcance actual de MarketGo.
 
 ## 3.2. Impact Mapping.
+El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
-<img src="report/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+<p align="center">
+  <img src="report/assets/chapter-03/impact-mapping.png" alt="Impact Mapping de MarketGo" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Mapping de MarketGo (Business Goals → Personas → Impacts → Deliverables → User Stories).</em></p>
+
+**Business Goal 1 – Reducción de mermas (Persona: Russell Estrada, administrador de minimarket orgánico)**
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir en 30% las mermas por vencimiento y deterioro de productos orgánicos en los minimarkets que usan MarketGo, durante los primeros 6 meses desde su lanzamiento. | Russell Estrada | Identifica los lotes próximos a vencer sin revisión física del almacén. | Gestión de lotes y control de vencimientos | US006, US007, US008 |
+| | | Actúa antes de perder el producto al ser avisado de forma automática. | Alertas de vencimiento | US009 |
+| | | Reacciona a tiempo ante fallas de refrigeración (pérdida de cadena de frío), incluso de madrugada. | Monitoreo de temperatura y humedad con alertas | US010, US011, US012 |
+| | | Mantiene el stock real sin transcribir datos de WhatsApp a Excel. | Inventario centralizado con búsqueda y filtros | US001, US002, US003, US004, US005 |
+| | | Convierte productos en riesgo en oferta y registra la merma para medir sus pérdidas. | Registro de mermas y ofertas | US013, US014 |
+
+
+**Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
+| | | Solicita abastecimiento con un pedido estructurado en vez de mensajes de chat. | Creación y seguimiento de pedidos | US018, US019 |
+| | | Confirma la recepción y su inventario se actualiza automáticamente, sin errores manuales. | Recepción de órdenes de envío integrada al inventario | US023, US024 |
+| | Marco Antonio Ríos | Publica su catálogo con disponibilidad real en una sola plataforma. | Gestión del catálogo del proveedor | US016, US017 |
+| | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
+| | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
+| | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
+| Agilización del abastecimiento y captación de clientes | Visitante | Conoce la oferta y los beneficios de la plataforma antes de iniciar la gestión comercial. | Portal de bienvenida y catálogo público demostrativo | US031, US032, US033 |
+
+De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
+
 
 ## 3.3. Product Backlog.
 
@@ -1591,6 +1797,9 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 | 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de negocio relacionadas con roles, permisos, pedidos de abastecimiento, órdenes de envío y actualización automática del inventario para garantizar el funcionamiento correcto de MarketGo. | 3 |
 | 59 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
+| 61 | US-031 | Explorar propuesta de valor | Como visitante, quiero visualizar la información general de MarketGo para entender sus beneficios. | 2 |
+| 62 | US-032 | Consultar directorio público | Como visitante, quiero ver el directorio público de proveedores para conocer los productos disponibles en la plataforma. | 3 |
+| 63 | US-033 | Solicitar información o demo | Como visitante, quiero enviar un formulario de contacto para solicitar información comercial o una prueba del sistema. | 2 |
 
 **Enlace directo al tablero:** 
 **Tablero Sprint 1: Trello**
@@ -1606,10 +1815,10 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 # Capítulo IV: Product Design
 
 
-## 4.1. Styles Guidelines
+## 4.1. Style Guidelines.
 
 
-### 4.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines.
 **Branding:** 
 
 El logo pricipal se trata de una representación de capas que representan almacenes y ramificaciones que representan el enlace en el ecosistema digital de proveedores y administradores de minimarkets. Usa colores azules, naranjas y blancos para demostrar seriedad, confianza y dinamismo.
@@ -1641,7 +1850,7 @@ La paleta de colores ha sido seleccionada para demostrar seriedad, confianza y m
 
 **Spacing**
 
-## Design Tokens - Spacing
+#### Design Tokens - Spacing
 
 | Token          | Uso                                          | Desktop | Mobile |
 |----------------|-----------------------------------------------|---------|--------|
@@ -1663,12 +1872,12 @@ El tono de comunicación de MarketGo debe ser sencillo y directo. Los usuarios l
 
 El lenguaje que se aplicará es el lenguaje común de nuestros usuarios en su entorno cotidiano y laboral. Tanto para los usuarios Administradores como los usuarios Proveedores, el lenguaje combina instrucciones directas y claras, e información técnica brindada por el sistema necesaria para toma de decisiones del usuario. 
 
-### 4.1.2. Web Style Guidelines 
+### 4.1.2. Web Style Guidelines.
 
 En esta sección se detallan las decisiones de diseño que conforman la identidad visual de MarketGo. Estos estándares garantizan una interfaz coherente, profesional y adaptable (responsive), facilitando tanto el desarrollo de software como la experiencia del usuario final.
 
 
-## a. Paleta de colores
+#### a. Paleta de colores
  
 La paleta actual está compuesta por seis colores, organizados en dos familias:
  
@@ -1690,7 +1899,7 @@ La paleta actual está compuesta por seis colores, organizados en dos familias:
 4. Claros (`#eff3fa`, `#fbdc91`) → fondos y estados secundarios
 Dado que el sistema maneja alertas de vencimiento y conservación (temperatura/humedad fuera de rango), se recomienda definir explícitamente un color adicional de error/riesgo (rojo) que no está presente en la paleta actual, ya que el naranja por sí solo puede no ser suficiente para diferenciar "advertencia" de "crítico".
 
-## b. Tipografía
+#### b. Tipografía
  
 La tipografía definida es Arimo, una fuente sans-serif de la familia de fuentes web abiertas (métricamente compatible con Arial), lo que garantiza buena legibilidad en pantalla y renderizado consistente entre distintos sistemas operativos y navegadores.
  
@@ -1703,7 +1912,7 @@ Al no haberse especificado pesos ni escala tipográfica en el material original,
 - Botones: Arimo Medium o Semibold, 14px
 Esta escala es consistente con los espaciados de 40/24/16/12px ya definidos para el sistema, manteniendo proporciones armónicas entre texto y espacio en blanco.
 
-## c. Botones y elementos de interfaz
+#### c. Botones y elementos de interfaz
  
 Este punto no está cubierto explícitamente en el material de referencia, por lo que se documentan aquí lineamientos propuestos, derivados de la paleta y la tipografía ya definidas, para mantener coherencia visual:
  
@@ -1725,7 +1934,7 @@ Este punto no está cubierto explícitamente en el material de referencia, por l
 **Badges de estado**
 - Aprovechar la paleta para diferenciar estados: naranja para "pendiente/atención", azul para "informativo", y el color de error propuesto para "riesgo/rechazado".
 
-## d. Iconografía
+#### d. Iconografía
 
 **1. Librería base**
  
@@ -1776,7 +1985,7 @@ Tabler Icons (estilo outline/línea), por tres razones:
 | Área de seguridad | 2px de margen interno dentro del área de 24×24, para que el trazo no toque el borde del frame |
 | Esquinas | Redondeadas (consistente con el radio de 6–8px ya propuesto para botones) |
 
-## e. Rejilla y adaptabilidad
+#### e. Rejilla y adaptabilidad
  
 Este punto no está documentado en el material de referencia. Se recomienda basarlo en el estándar de espaciado ya definido previamente para el proyecto, extendiéndolo a una rejilla formal:
  
@@ -1804,11 +2013,11 @@ Este punto no está documentado en el material de referencia. Se recomienda basa
 - Las tablas con múltiples columnas (inventario, lotes, pedidos) deben priorizar las columnas más relevantes en mobile y mover el resto a una vista de detalle o acordeón, en vez de forzar scroll horizontal
 - Las vistas tipo Kanban (pedidos) deben pasar de columnas lado a lado en desktop a un scroll horizontal por estado, o a una lista con filtro de estado, en mobile.
 
-## 4.1. Styles Guidelines
+## 4.2. Information Architecture.
 
 Esta sección describe la estructura de la información, estilos y sistemas que se utilizarán en la plataforma web de MarketGo. Se consideran los sistemas de organización, etiquetado, búsqueda, navegación y SEO, con el fin de garantizar una experiencia clara y enfocada en la visualización de datos de inventario, lotes, conservación y abastecimiento para minimarkets de productos orgánicos.
 
-### 4.2.1 Organization Systems
+### 4.2.1. Organization Systems.
 
 **Sistemas de Organización visual de contenido**
 
@@ -1846,7 +2055,7 @@ El contenido de MarketGo se categoriza bajo tres esquemas complementarios:
 - **Por estado del dato:** aplicado transversalmente a productos (Vigente / Próximo a vencer / Vencido), pedidos (Pendiente / Aceptado / Rechazado) y condiciones de conservación (Normal / Riesgoso / Sin datos). Este esquema es el que más se refuerza con color, siguiendo la paleta de la marca.
 - **Por rol de usuario:** administrador de minimarket, proveedor y (a nivel de plataforma) usuario con permisos administrativos sobre cuentas. El contenido visible y las acciones disponibles cambian según este esquema, no la estructura general de la información.
 
-### 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems.
  
  En esta sección se detalla el sistema de etiquetado, diseñado para ofrecer una experiencia de usuario intuitiva mediante términos breves y reconocibles. Estas etiquetas permiten que tanto los visitantes como los usuarios finales comprendan las funciones del software sin ambigüedades.
 
@@ -1885,7 +2094,7 @@ Etiquetas descriptivas ubicadas sobre el campo (no placeholders como único labe
 - Campos obligatorios marcados con asterisco (`*`) en color de error, consistente con el modal de rechazo ya diseñado
 - Mensajes de validación en primera persona desde el sistema, en tono directo: "Este campo es obligatorio para continuar", "La cantidad supera el stock disponible"
 
-### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags.
 
 ***Landing Page (Sitio Web Estático)**
 
@@ -1906,7 +2115,7 @@ Aquí las etiquetas están orientadas a la funcionalidad y seguridad, evitando q
 - Favicon e ícono de marca mantenidos en todas las rutas para reforzar identidad visual, incluso sin indexación.
 
 
-### 4.2.4. Searching Systems
+### 4.2.4. Searching Systems.
 
 **Mecanismos de búsqueda**
 
@@ -1927,7 +2136,7 @@ Las opciones de filtrado (varían según el módulo, pero siguen el mismo patró
 - Estado vacío consistente en toda la plataforma cuando la búsqueda o el filtro no arroja resultados: mensaje informativo breve (ej. "No se encontraron productos con estos filtros"), sin ilustraciones que distraigan, siguiendo el patrón ya usado para conservación sin datos
 - Contador de resultados visible ("Mostrando 4 de 86 lotes") para dar contexto de escala, especialmente en tablas paginadas.
 
-### 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems.
 
 #### Navigation strategies
 
@@ -1952,9 +2161,9 @@ MarketGo combina dos estrategias de navegación según el tipo de sitio:
 - **Navegación secundaria contextual:** tabs dentro de una sección (ej. "Pendientes" / "Historial" dentro de Pedidos) para separar sub-vistas sin salir del módulo principal.
 - **Accesos directos cruzados:** por ejemplo, al aceptar un pedido, un botón "Ver inventario actualizado" lleva directamente al módulo de Inventario, rompiendo la navegación estrictamente jerárquica cuando el flujo de trabajo lo justifica.
 
-## 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design.
 
-### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe.
 
 En esta sección se presenta el desarrollo de los primeros wireframes como primer paso para la producción de interfaz visual de la solución, realizados en la plataforma *Figma*.
 
@@ -1998,7 +2207,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.3.2 Landing Page Mock Up
+### 4.3.2. Landing Page Mock-up.
 
 <div align="center">
 <strong>Figura 1</strong><br />
@@ -2040,9 +2249,9 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-## 4.4. Web Applications UX/UI Design
+## 4.4. Web Applications UX/UI Design.
 
-### 4.4.1. Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes.
 
 <div align="center">
 <strong>Figura 6</strong><br />
@@ -2092,7 +2301,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams.
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
@@ -2134,7 +2343,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | :---: |
 | <p align="center"><img src="report/assets/chapter-04/wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
 
-### 4.4.3. Web Applications Mockups
+### 4.4.3. Web Applications Mock-ups.
 
 <div align="center">
 <strong>Figura 12</strong><br />
@@ -2184,7 +2393,7 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
   <img src="report/assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
 </div>
 
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams.
 
 | Rol: Administrador / Alta y control de inventario |
 | :---: |
@@ -2202,17 +2411,17 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 | :---: |
 | <p align="center"><img src="report/assets/chapter-04/UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
 
-## 4.5. Web Applications Prototyping
+## 4.5. Web Applications Prototyping.
 [Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
 
 
-## 4.6. Domain-Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software de MarketGo se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación, abastecimiento y control operativo para minimarkets y proveedores. A partir de este análisis se aplican los principios de Domain-Driven Design (DDD), permitiendo dividir la solución en bounded contexts coherentes con las responsabilidades principales del negocio.
 
 En las siguientes secciones se presenta cada nivel del modelo arquitectónico, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de MarketGo.
 
-### 4.6.1. Design-Level Event Storming
+### 4.6.1. Design-Level EventStorming.
 
 Para identificar los eventos de dominio y la lógica de negocio de MarketGo, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
 
@@ -2405,11 +2614,11 @@ De esta forma, los component diagrams complementan la visión general de la arqu
 
 <div style="page-break-after: always;"></div>
 
-## 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design.
 
 En esta sección se presenta el diseño orientado a objetos de MarketGo, representando la estructura de clases principales del sistema y su organización por bounded contexts. Estos diagramas permiten visualizar las responsabilidades de cada clase, sus atributos, métodos y relaciones dentro de la arquitectura de la aplicación.
 
-### 4.7.7. Class Diagrams
+### 4.7.1. Class Diagrams.
 
 Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
 ![Class Diagram MaketGo](report/assets/chapter-04/diagramClassMarkGo.png)
@@ -2463,13 +2672,13 @@ Estos diagramas permiten complementar la arquitectura de software, mostrando una
 
 ---
 
-## 4.8. Database Design
+## 4.8. Database Design.
 
 El diseño de base de datos de MarketGo define la estructura de persistencia necesaria para almacenar y gestionar la información principal de la plataforma. Este diseño considera los datos relacionados con usuarios, perfiles, productos, inventario, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, comunicación, analítica y auditoría.
 
 La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
 
-### 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams.
 
 El diagrama de base de datos muestra las entidades principales de MarketGo, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se estructura la persistencia de los datos y cómo se relacionan las entidades que soportan los procesos principales de la plataforma.
 
@@ -2479,40 +2688,40 @@ El diagrama de base de datos muestra las entidades principales de MarketGo, sus 
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management
+## 5.1. Software Configuration Management.
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **Market-Labs** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **MarketGo**. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue orientada a la nube.
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration.
 
-Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de Buildline.
+Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de MarketGo.
 
 #### Project Management
-* **Trello:** Empleado para la organización visual del flujo de trabajo diario y la priorización rápida de tareas durante el desarrollo de los módulos de requisición.
+* **Trello:** Empleado para la organización visual del flujo de trabajo diario y la priorización rápida de tareas durante el desarrollo de los módulos de inventario y pedidos (Atlassian, s. f.).
     * **Ruta:** [https://trello.com/invite/b/6aaf23b3497a9f7b08a946ed/ATTIc6df49d5561e92016f5670f633077371DA4CB5DA/marketgo](https://trello.com/invite/b/6aaf23b3497a9f7b08a946ed/ATTIc6df49d5561e92016f5670f633077371DA4CB5DA/marketgo)
  
 #### Product UX/UI Design
-1.  **Miro:** Pizarra colaborativa fundamental para el Design-Level Event Storming de Buildline, permitiendo identificar los eventos de dominio entre obra y oficina.
-2.  **Figma:** Herramienta principal para el diseño de la interfaz móvil (Field App) y la plataforma web de gestión, incluyendo el diseño del sistema de diseño (Design System).
+1.  **LucidChart:** Pizarra colaborativa usada para el Design-Level EventStorming de MarketGo y la identificación de eventos de inventario y abastecimiento.
+2.  **Figma:** Herramienta principal para el diseño de la landing page y la plataforma web de gestión, incluyendo el diseño del sistema de diseño (Design System).
 3.  **Structurizr:** Utilizado para el modelado de la arquitectura de software mediante diagramas C4 y diagramas de base de datos relacional.
 
 #### Software Development
-1.  **GitHub:** Hosting de repositorios bajo la organización RQLS. Implementación de GitFlow para separar las funcionalidades de inventario, compras y reportes.
-2.  **WebStorm:** IDE especializado para el desarrollo del Frontend de Buildline, optimizando la codificación con Vue.js y la gestión de estilos.
+1.  **GitHub:** Hosting de repositorios bajo la organización Market-Labs. Implementación de GitFlow para separar las funcionalidades de inventario, compras y reportes (GitHub, s. f.).
+2.  **WebStorm:** IDE especializado para el desarrollo del Frontend de MarketGo, optimizando la codificación con Vue.js y la gestión de estilos.
 3.  **JetBrains Rider:** IDE principal para el desarrollo del Backend robusto basado en .NET/C#, facilitando la integración con servicios de base de datos y lógica de negocio.
-4.  **Vue.js Framework:** Framework progresivo de JavaScript elegido para construir la SPA de Buildline por su ligereza y velocidad de carga en condiciones de baja conectividad en obra.
-5.  **ASP.NET Core / C# sobre .NET 10:** Tecnología de backend para garantizar la escalabilidad, seguridad transaccional en las Órdenes de Compra y alto rendimiento.
+4.  **Vue.js Framework:** Framework de JavaScript elegido para construir la interfaz de la aplicación web de MarketGo (Vue.js, s. f.-a).
+5.  **ASP.NET Core / C# sobre .NET 10:** Tecnología de backend para garantizar la escalabilidad, seguridad transaccional en las órdenes de pedido y alto rendimiento.
 
 #### Software Testing
-* **Lenguaje Gherkin:** Utilizado para definir los criterios de aceptación en formato Given-When-Then, asegurando que las validaciones de "Way Match" y presupuestos funcionen correctamente.
+* **Lenguaje Gherkin:** Utilizado para definir los criterios de aceptación en formato Given-When-Then de pedidos e inventario (Cucumber, s. f.).
 
 #### Software Documentation
-* **Swagger / OpenAPI:** Generación de documentación interactiva para que el equipo de Frontend pueda consumir los servicios de requisiciones y proveedores de forma eficiente.
+* **Swagger / OpenAPI:** Generación de documentación interactiva para que el equipo de Frontend pueda consumir los servicios de pedidos y proveedores de forma eficiente.
 
 ---
-### 5.1.2. Source Code Management
+### 5.1.2. Source Code Management.
 
-Se establecen los repositorios oficiales de la solución Buildline para garantizar la integridad del código fuente.
+Se establecen los repositorios oficiales de la solución MarketGo para garantizar la integridad del código fuente.
 
 #### Repositorios del Proyecto
 <table>
@@ -2574,19 +2783,19 @@ Ejemplos:
 - `refactor(landing): align Vue sections with mockups`
 - `docs(readme): update GitFlow workflow`
 
-### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Conventions.
 
-En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto Buildline: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio logístico de la construcción.
+En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto MarketGo: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio de inventario y abastecimiento.
 
 #### Referencias de Guías de Estilo Adoptadas
 
 | Lenguaje/Tecnología | Guía de Estilo |
 | :--- | :--- |
-| HTML/CSS | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
-| JavaScript | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) |
-| TypeScript / Vue.js | [Vue.js Priority A Guide](https://vuejs.org/style-guide/rules-essential.html) |
-| C# / .NET | [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) |
-| Gherkin | [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/) |
+| HTML/CSS | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) (Google, s. f.-a) |
+| JavaScript | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) (Google, s. f.-b) |
+| TypeScript / Vue.js | [Vue.js Priority A Guide](https://vuejs.org/style-guide/rules-essential.html) (Vue.js, s. f.-b) |
+| C# / .NET | [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) (Microsoft, s. f.) |
+| Gherkin | [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/) (Cucumber, s. f.) |
 
 Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de la landing page y la plataforma MarketGo, manteniendo nombres claros, consistentes y alineados al producto.
 | Elemento                     | Convención             | Ejemplo                                             |
@@ -2605,16 +2814,18 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 * Las llaves de apertura en C# se colocan en una nueva línea (Estilo Allman), mientras que en TS/JS van en la misma línea (Estilo K&R).
 
 ---
-### 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration.
 
-Se especifica la configuración de despliegue para los entornos de Buildline, garantizando alta disponibilidad para ingenieros en obra.
+Se especifica la configuración de despliegue para los entornos de MarketGo, garantizando alta disponibilidad para usuarios de la plataforma.
 
 #### Landing Page - Azure
-Despliegue automático del contenido estático mediante la integración con Vercel tras cada merge a la rama `main`.
+El despliegue de la landing page se documenta mediante la siguiente URL de Azure Static Web Apps (Microsoft, 2024).
 * **URL:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
-## 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation.
 
-### 5.2.1. Sprint 1
+### 5.2.1. Sprint 1.
+
+#### 5.2.1.1. Sprint Planning 1.
 
 | **Sprint Planning Sprint 1** |  |
 |---|---|
@@ -2635,7 +2846,7 @@ Despliegue automático del contenido estático mediante la integración con Verc
   </a>
 </p>
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
 <p>
 Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo de <strong>MarketLab</strong> durante el desarrollo de la landing page de <strong>MarketGo</strong>.
@@ -2690,7 +2901,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
   </tbody>
 </table>
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **MarketGo**, producto de **MarketLab** orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
@@ -2709,7 +2920,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 | **US00** | Landing Page Architecture | T006 | Organización DDD y estructura Vue | Refactorización de carpetas siguiendo una arquitectura orientada por secciones, separando componentes, estilos, assets e internacionalización. | 5h | Cáceres Pizarro, Albino Florencio | Done |
 | **US00** | GitFlow Setup | T007 | Configuración de ramas y commits | Organización de ramas feature, integración en develop y actualización de main aplicando Conventional Commits. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
   Resumen de los commits más relevantes en el repositorio de la Landing Page de <strong>MarketGo</strong>, producto desarrollado por <strong>MarketLab</strong>.
@@ -2758,7 +2969,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
   </tbody>
 </table>
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la Landing Page estática de **MarketGo**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas:
 
@@ -2807,13 +3018,13 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
   <p><em>Figura: Sección de contacto para solicitar información sobre MarketGo.</em></p>
 </div>
 
-#### 5.2.1.6. Services Documentation Evidence
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 <p>
   Dado que el Sprint 1 abarca únicamente contenido estático correspondiente a la Landing Page de marketing de <strong>MarketGo</strong>, la implementación y consumo de servicios backend para la gestión de inventario, lotes, conservación, pedidos y proveedores será abordada en sprints posteriores orientados al desarrollo de la plataforma web.
 </p>
 
-#### 5.2.1.7. Software Deployment Evidence
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
   <strong>URL de Producción:</strong>
@@ -2822,7 +3033,7 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
   </a>
 </p>
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 <p>
   Durante este primer sprint, el esfuerzo principal del equipo de <strong>MarketLab</strong> se centró en la estructuración del proyecto, el diseño UX/UI, la implementación de la landing page, la organización de ramas mediante GitFlow y la documentación inicial del producto <strong>MarketGo</strong>. Por lo tanto, las evidencias de colaboración presentadas a continuación corresponden al trabajo realizado para construir la presencia digital inicial del producto.
@@ -2848,22 +3059,52 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 
 ---
 
+# Conclusiones
+
+## Conclusiones y recomendaciones.
+
+El análisis de entrevistas y los artefactos de *Needfinding* del capítulo II identifican necesidades de control de inventario, trazabilidad de lotes y coordinación entre minimarkets y proveedores. Los requisitos del capítulo III convierten esas necesidades en historias de usuario y un backlog que orienta los siguientes sprints.
+
+En Sprint 1 se documentaron el diseño, la implementación y el despliegue de la landing page de MarketGo. Las capturas de ejecución y el registro de colaboración del capítulo V permiten revisar el alcance entregado. La documentación de servicios indica que el backend y sus funciones operativas corresponden a sprints posteriores.
+
+Se recomienda validar la landing page con los segmentos entrevistados y registrar los resultados antes de ajustar el backlog. Para el siguiente avance, se deben incorporar evidencias verificables de implementación, pruebas y despliegue de los servicios y aplicaciones previstos en el plan.
+
+---
+
 # Bibliografía
 
-- Vue.js. (2026). *Vue.js documentation*. https://vuejs.org/
+Atlassian. (s. f.). *Using Trello*. Atlassian Support. https://support.atlassian.com/trello/docs/using-trello
 
-- Vite. (2026). *Vite documentation*. https://vite.dev/
+Cucumber. (s. f.). *Gherkin reference*. https://cucumber.io/docs/gherkin/reference/
 
-- Pinia. (2026). *Pinia documentation*. https://pinia.vuejs.org/
+GitHub. (s. f.). *GitHub Docs*. https://docs.github.com/
 
-- Vue Router. (2026). *Vue Router documentation*. https://router.vuejs.org/
+Google. (s. f.-a). *Google HTML/CSS style guide*. https://google.github.io/styleguide/htmlcssguide.html
 
-- PrimeVue. (2026). *PrimeVue documentation*. https://primevue.org/
+Google. (s. f.-b). *Google JavaScript style guide*. https://google.github.io/styleguide/jsguide.html
 
-- GitHub. (2026). *GitHub Docs*. https://docs.github.com/
+Microsoft. (s. f.). *.NET coding conventions: C#*. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
 
-- Microsoft. (2026). *Azure documentation*. https://learn.microsoft.com/azure/
+Microsoft. (2024). *What is Azure Static Web Apps?* Microsoft Learn. https://learn.microsoft.com/azure/static-web-apps/overview/
 
-- Atlassian. (2026). *Trello REST API documentation*. https://developer.atlassian.com/cloud/trello/
+Vue.js. (s. f.-a). *Introduction*. https://vuejs.org/guide/introduction
+
+Vue.js. (s. f.-b). *Priority A rules: Essential*. https://vuejs.org/style-guide/rules-essential.html
+
+---
+
+# Anexos
+
+## Anexo A. Evidencias de Sprint 1
+
+Las evidencias visuales del avance AV1 están disponibles en el capítulo V y en los archivos fuente siguientes:
+
+- [Planificación del Sprint 1](report/assets/chapter-05/sprintb1.png).
+- [Historial de commits](report/assets/chapter-05/commit-history-sprint1.png).
+- [Ejecución de la landing page: inicio](report/assets/chapter-05/execution-home.png).
+- [Ejecución de la landing page: contacto](report/assets/chapter-05/execution-contact.png).
+- [Visitas al repositorio](report/assets/chapter-05/visitors-sprint1.png).
+
+Los datos originales de las entrevistas y el video About-the-Team no están incluidos en los archivos del repositorio; su incorporación requiere los materiales del equipo.
 
 <!-- AUTO-DOCS:END -->
