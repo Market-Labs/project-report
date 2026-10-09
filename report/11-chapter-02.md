@@ -66,7 +66,7 @@ Este análisis permite identificar cómo se posiciona **MarketGo** frente a solu
     <tr>
       <td rowspan="3"><strong>Perfil de Producto</strong></td>
       <td>Productos &amp; Servicios</td>
-      <td>Gestión de inventarios, lotes, vencimientos, conservación, alertas, mermas, donaciones, productos de proveedores y pedidos de abastecimiento.</td>
+      <td>Gestión de inventarios, lotes, vencimientos, conservación, alertas, mermas, productos de proveedores y pedidos de abastecimiento.</td>
       <td>Monitoreo de temperatura y humedad, seguimiento de productos frescos, alertas y herramientas para control de conservación.</td>
       <td>Gestión de inventario, seguimiento de lotes, fechas de vencimiento y herramientas para reducir pérdidas.</td>
       <td>Marketplace B2B, búsqueda de proveedores, productos, solicitudes, cotizaciones y pedidos.</td>
