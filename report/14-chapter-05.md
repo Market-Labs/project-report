@@ -373,6 +373,23 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 
 #### 5.2.2.1. Sprint Planning 2.
 
+La planificación del Sprint 2 se centró en definir el primer incremento del frontend web de MarketGo y el resultado que el equipo presentará en la revisión del sprint.
+
+| **Sprint Planning Sprint 2** |  |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 2026-09-26 |
+| Time |  |
+| Location |  |
+| Prepared By |  |
+| Attendees | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
+| Sprint 1 Review Summary |  |
+| Sprint 1 Retrospective Summary |  |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 2 Goal** | Our focus is on developing and deploying the first navigable version of the MarketGo frontend web application for minimarket administrators and organic product suppliers. The sprint will translate the approved UX/UI designs into responsive screens, clear navigation for each role, and representative flows for the platform's core operations.<br><br>We believe this will give both user groups a concrete interface for exploring MarketGo's daily workflows and will let the team validate the usability and consistency of the frontend before expanding its integration with services.<br><br>This will be confirmed when the first frontend version is accessible in a deployed environment, its principal screens work on desktop and mobile, and the planned navigation and interaction flows can be demonstrated during the Sprint Review. |
+| Sprint 2 Velocity |  |
+| Sum of Story Points |  |
+
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
 #### 5.2.2.3. Sprint Backlog 2.
