@@ -379,16 +379,17 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 |---|---|
 | **Sprint Planning Background** |  |
 | Date | 2026-09-26 |
-| Time |  |
-| Location |  |
-| Prepared By |  |
+| Time | 10:00 p.m. |
+| Location | Discord / WhatsApp |
+| Prepared By | Albino Florencio Cáceres Pizarro |
 | Attendees | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
-| Sprint 1 Review Summary |  |
-| Sprint 1 Retrospective Summary |  |
+| Sprint 1 Review Summary | En el Sprint 1 se implementó y desplegó la primera versión de la landing page de MarketGo, con las secciones Home, información del producto, videos, planes y contacto. La entrega permitió presentar la propuesta de valor y comprobar la navegación inicial y la adaptación a distintos tamaños de pantalla. Este resultado sirve como punto de partida para construir el frontend de la aplicación web durante el Sprint 2. La evidencia disponible no registra comentarios específicos del Product Owner. |
+| Sprint 1 Retrospective Summary | La documentación del Sprint 1 muestra trabajo incremental mediante ramas feature, commits convencionales y colaboración en diseño, contenido y despliegue. Para el Sprint 2 se propone reforzar la coordinación entre quienes implementan las pantallas, la navegación por roles y la integración visual, y revisar temprano la experiencia responsive antes de la Sprint Review. |
 | **Sprint Goal & User Stories** |  |
 | **Sprint 2 Goal** | Our focus is on developing and deploying the first navigable version of the MarketGo frontend web application for minimarket administrators and organic product suppliers. The sprint will translate the approved UX/UI designs into responsive screens, clear navigation for each role, and representative flows for the platform's core operations.<br><br>We believe this will give both user groups a concrete interface for exploring MarketGo's daily workflows and will let the team validate the usability and consistency of the frontend before expanding its integration with services.<br><br>This will be confirmed when the first frontend version is accessible in a deployed environment, its principal screens work on desktop and mobile, and the planned navigation and interaction flows can be demonstrated during the Sprint Review. |
-| Sprint 2 Velocity |  |
-| Sum of Story Points |  |
+| Proposed User Stories | US-027 Inicio de sesión (3 SP); US-002 Visualizar inventario (5 SP); US-017 Consultar productos ofrecidos (3 SP); US-019 Consultar pedidos de abastecimiento (3 SP). Esta selección propone un primer incremento navegable del frontend para ambos roles. |
+| Sprint 2 Velocity | 14 Story Points, capacidad inicial estimada a partir de la velocidad registrada en Sprint 1. |
+| Sum of Story Points | 14 Story Points (3 + 5 + 3 + 3) para las historias propuestas. |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
