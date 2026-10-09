@@ -334,7 +334,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 **Segmento objetivo: Administradores de Minimarkets**
 
 **Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
-
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
@@ -391,6 +390,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
+**Nombre del archivo de video consolidado:** `Entrevista Roly hans Luna.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -446,7 +446,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-
+**Nombre del archivo de video consolidado:** `entrevisa_cesar_appweb - View-only.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -504,6 +504,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
+**Segmento objetivo: Proveedores**
+**Nombre del archivo de video consolidado:** `Entrevista 04.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -548,7 +550,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 04:06</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/personal/u202410746_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410746%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202026%2D09%2D13%20at%209%2E09%2E01%20PM%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea50bc394%2D6f9c%2D4932%2Db137%2D8b9b49babf91" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCquViaF_SnRquqfLHjWNN6AS7qnx40lGI0g6TNwS0gQzs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hXKRuG" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -559,6 +561,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
+**Nombre del archivo de video consolidado:** `Entrevista 05.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -603,7 +606,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 03:18</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JsKV8z" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -614,7 +617,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-
+**Nombre del archivo de video consolidado:** `segmmento proveedores.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
