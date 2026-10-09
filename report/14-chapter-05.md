@@ -385,4 +385,4 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
