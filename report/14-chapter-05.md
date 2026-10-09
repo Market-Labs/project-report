@@ -391,11 +391,113 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 | Sprint 2 Velocity | 14 Story Points, capacidad inicial estimada a partir de la velocidad registrada en Sprint 1. |
 | Sum of Story Points | 14 Story Points (3 + 5 + 3 + 3) para las historias propuestas. |
 
+**Repositorio Landing Page:** https://github.com/Market-Labs/landign-page.git
+**Repositorio Frontend:** https://github.com/Market-Labs/front-end.git
+
 #### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los bounded contexts implementados en el frontend, más un aspecto transversal de Project Setup (Vue 3 + Vite + Pinia + i18n + json-server) y un aspecto para la versión v2 del Landing Page. La siguiente matriz LACX identifica los aspectos principales del Sprint y asigna responsabilidades (Líder/Colaborador) al equipo de Market-labs, alineadas con las fortalezas técnicas evidenciadas durante el Sprint 1.
+
+| Team Member | IAM & Project Setup | Requisition & Procurement | Suppliers & Products | Inventory & Conservation | Dashboard & Profiles | Communication | Analytics |
+|---|---|---|---|---|---|---|---|
+| Cáceres Pizarro, Albino Florencio | L | C | C | C | L | C | C |
+| Huaranga Romero, Matias Daniel | C | C | C | C | C | C | C |
+| Merino Ordinola, Winnie Lisbeth | C | L | C | C | C | C | C |
+| Quispe Almonacid, Andre Sebastian | C | L | C | L | C | C | C |
+| Torres Huaman, Alexis Calin | C | C | C | C | L | L | C |
 
 #### 5.2.2.3. Sprint Backlog 2.
 
+El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que corresponden al primer release navegable del Frontend Web Application, organizados por bounded context. Se utilizó Trello Software como herramienta de control de estado.
+
+
+<div align="center">
+  <img src="docs/assets/chapter-05/jira2.png" alt="Sprint 2 Board Screenshot" width="100%">
+  <p><em>Figura: Tablero del Sprint 2 en Trello (Proyecto MarketGo)</em></p>
+</div>
+
+| User Story Id | Title | Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-026** | Registrar usuario | T008 | Implementar registro de usuarios | Implementación del formulario de registro de usuarios y validación de los datos ingresados para permitir el acceso controlado a MarketGo. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-027** | Inicio de sesión | T009 | Implementar inicio de sesión | Desarrollo de la interfaz de autenticación y validación de credenciales para permitir el acceso según el rol del usuario. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-026** | Registrar usuario | T010 | Crear perfil asociado al usuario | Implementación de la creación de un perfil vinculado a cada usuario registrado en MarketGo. | 3h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-028** | Gestionar permisos por rol | T011 | Configurar roles y permisos | Configuración de los roles del administrador de minimarket y proveedor, estableciendo los permisos correspondientes. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-029** | Controlar acceso según operación | T012 | Aplicar control de acceso por operación | Implementación de restricciones de acceso a las funcionalidades de pedidos, órdenes de envío e inventario según el rol del usuario. | 4h | Cáceres Pizarro, Albino Florencio | In-Progress |
+| **US-030** | Dashboard general | T013 | Maquetar dashboard por rol | Diseño y desarrollo de la estructura visual del dashboard con información diferenciada para administradores y proveedores. | 4h | Torres Huaman, Alexis Calin | To-Do |
+| **US-030** | Dashboard general | T014 | Definir indicadores iniciales del dashboard | Definición de indicadores operativos para visualizar información relevante sobre inventario, abastecimiento y operaciones según el rol. | 3h | Torres Huaman, Alexis Calin | In-Progress |
+| **US-028** | Gestionar permisos por rol | T016 | Validar criterios de aceptación IAM | Verificación de los criterios de aceptación relacionados con registro, autenticación, roles y permisos de usuarios. | 3h | Cáceres Pizarro, Albino Florencio | To-Review |
+| **US-030** | Dashboard general | T017 | Validar visualización de dashboard por rol | Validación de la información e indicadores mostrados en el dashboard según los permisos del administrador y proveedor. | 3h | Torres Huaman, Alexis Calin | To-Review |
+| **US-033** | Solicitar información o demo | T018 | Documentar flujo de solicitud de demo | Documentación del proceso de solicitud de información o demostración mediante el formulario de contacto de la landing page. | 2h | Huaranga Romero, Matias Daniel | To-Fix |
+| **US-026** | Registrar usuario | — | Definir historia de registro de usuario | Definición de la funcionalidad de registro de usuarios y sus criterios de aceptación para el Sprint 2. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-027** | Inicio de sesión | — | Definir historia de inicio de sesión | Definición de los requisitos de autenticación y acceso a MarketGo según el rol del usuario. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-028** | Gestionar permisos por rol | — | Definir historia de gestión de permisos | Definición de los permisos correspondientes a los diferentes roles del sistema. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-029** | Controlar acceso según operación | — | Definir historia de control de acceso | Definición de restricciones de operaciones según los permisos asociados a cada rol. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-030** | Dashboard general | — | Definir historia del dashboard general | Definición de la visualización de información y los indicadores correspondientes a cada rol. | 2h | Torres Huaman, Alexis Calin | Stories |
+| **US-033** | Solicitar información o demo | — | Definir historia de solicitud de demo | Definición de los requisitos del formulario de contacto para solicitar información sobre MarketGo. | 2h | Huaranga Romero, Matias Daniel | Stories |
+| **Tech** | Requisition Bounded Context | BC-001 | Definir Bounded Context de Requisition | Documentación y delimitación del contexto de pedidos de abastecimiento, sus responsabilidades y relaciones con los demás contextos del sistema. | 3h | Merino Ordinola, Winnie Lisbeth | Done |
+| **Tech** | Procurements Bounded Context | BC-002 | Definir Bounded Context de Procurements | Documentación del contexto de gestión de abastecimiento y órdenes de envío, identificando sus responsabilidades y procesos. | 3h | Quispe Almonacid, Andre Sebastian | Done |
+| **Tech** | Conservation Bounded Context | BC-003 | Definir Bounded Context de Conservation | Definición del contexto encargado del monitoreo de condiciones de almacenamiento, temperatura, humedad y alertas de conservación. | 3h | Quispe Almonacid, Andre Sebastian | Done |
+| **Tech** | Sales Bounded Context | BC-004 | Definir Bounded Context de Sales | Documentación del contexto relacionado con las ofertas de productos y las operaciones comerciales de MarketGo. | 3h | Torres Huaman, Alexis Calin | Done |
+| **Tech** | Dashboard Bounded Context | BC-005 | Definir Bounded Context de Dashboard | Identificación de las responsabilidades e indicadores del dashboard general para administradores y proveedores. | 3h | Torres Huaman, Alexis Calin | Done |
+| **Tech** | Profiles Bounded Context | BC-006 | Definir Bounded Context de Profiles | Documentación del contexto de perfiles de usuario y su relación con IAM y los demás contextos de MarketGo. | 3h | Cáceres Pizarro, Albino Florencio | Done |
+| **Tech** | Communication Bounded Context | BC-007 | Definir Bounded Context de Communication | Definición del contexto de comunicación, notificaciones y alertas relacionadas con las operaciones del sistema. | 3h | Torres Huaman, Alexis Calin | Done |
+
+
 #### 5.2.2.4. Development Evidence for Sprint Review.
+
+
+<p>
+  Resumen de los commits más relevantes correspondientes a las mejoras
+  solicitadas por el docente para la Landing Page de
+  <strong>MarketGo</strong>, producto desarrollado por
+  <strong>MarketLab</strong>. Las mejoras incluyen la adaptación de
+  las Historias de Usuario al rol Visitante (Visitor) y la incorporación
+  de enlaces interactivos a redes sociales (LinkedIn, X y Facebook).
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Committed on</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>feature/marketgo-landing-page</td>
+      <td><code>d49b631</code></td>
+      <td>refactor(landing): improve visitor experience based on instructor feedback</td>
+      <td>19-09-2026</td>
+    </tr>
+    <tr>
+      <td>feature/contact-section</td>
+      <td><code>a6446e1</code></td>
+      <td>feat(contact): add LinkedIn, X and Facebook social media links</td>
+      <td>19-09-2026</td>
+    </tr>
+    <tr>
+      <td>feature/contact-section</td>
+      <td><code>fbf450a</code></td>
+      <td>fix(contact): enable interactive social media icons and external navigation</td>
+      <td>19-09-2026</td>
+    </tr>
+    <tr>
+      <td>develop</td>
+      <td><code>1f850de</code></td>
+      <td>fix(landing): align visitor interactions with rubric requirements</td>
+      <td>19-09-2026</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td><code>1f850de</code></td>
+      <td>fix(landing): align visitor interactions with rubric requirements</td>
+      <td>19-09-2026</td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
