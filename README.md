@@ -723,7 +723,7 @@ Este análisis permite identificar cómo se posiciona **MarketGo** frente a solu
     <tr>
       <td rowspan="3"><strong>Perfil de Producto</strong></td>
       <td>Productos &amp; Servicios</td>
-      <td>Gestión de inventarios, lotes, vencimientos, conservación, alertas, mermas, donaciones, productos de proveedores y pedidos de abastecimiento.</td>
+      <td>Gestión de inventarios, lotes, vencimientos, conservación, alertas, mermas, productos de proveedores y pedidos de abastecimiento.</td>
       <td>Monitoreo de temperatura y humedad, seguimiento de productos frescos, alertas y herramientas para control de conservación.</td>
       <td>Gestión de inventario, seguimiento de lotes, fechas de vencimiento y herramientas para reducir pérdidas.</td>
       <td>Marketplace B2B, búsqueda de proveedores, productos, solicitudes, cotizaciones y pedidos.</td>
@@ -991,7 +991,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 **Segmento objetivo: Administradores de Minimarkets**
 
 **Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
-
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
@@ -1048,6 +1047,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
+**Nombre del archivo de video consolidado:** `Entrevista Roly hans Luna.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1091,7 +1091,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td colspan="2"><strong>Hora de finalización:</strong> 15:00</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [15:00]</td>
+      <td colspan="2"><strong>Duración</strong>: 15:00</td>
       <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQBD3_GD9iQdSaVNcGL-1ry4ATd8dDv7XB3Z7iXLqwA4PUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wlhYtj" target="_blank">Ver Video</a></td>
     </tr>
     <tr>
@@ -1103,7 +1103,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-
+**Nombre del archivo de video consolidado:** `entrevisa_cesar_appweb - View-only.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1128,7 +1128,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td><strong>Edad</strong></td>
       <td>38 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>Sistema operativo y navegador</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
@@ -1147,7 +1147,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td colspan="2"><strong>Hora de finalización:</strong> 07:37</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [07:37]</td>
+      <td colspan="2"><strong>Duración</strong>: 07:37</td>
       <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAtjkovEx1wRr3eMlftO2sFAXlMxG88PDLfCn4uFfxvYMs?e=9CcTbz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
@@ -1161,6 +1161,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
+**Segmento objetivo: Proveedores**
+**Nombre del archivo de video consolidado:** `Entrevista 04.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1204,8 +1206,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td colspan="2"><strong>Hora de finalización:</strong> 04:06</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [04:06]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/personal/u202410746_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410746%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202026%2D09%2D13%20at%209%2E09%2E01%20PM%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea50bc394%2D6f9c%2D4932%2Db137%2D8b9b49babf91" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 04:06</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCquViaF_SnRquqfLHjWNN6AS7qnx40lGI0g6TNwS0gQzs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hXKRuG" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1216,6 +1218,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
+**Nombre del archivo de video consolidado:** `Entrevista 05.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1259,8 +1262,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td colspan="2"><strong>Hora de finalización:</strong> 03:18</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [03:18]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 03:18</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JsKV8z" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1271,7 +1274,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-
+**Nombre del archivo de video consolidado:** `segmmento proveedores.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1315,7 +1318,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td colspan="2"><strong>Hora de finalización:</strong> 07:50</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [07:50]</td>
+      <td colspan="2"><strong>Duración</strong>: 07:50</td>
       <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCMSfrbXtL4RZKFfF1b3BmTAcRfWzPxNyHY7YMTQFX0CTM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BXNBH4" target="_blank">Ver video</a></td>
     </tr>
     <tr>
@@ -1597,7 +1600,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | US 029 | Controlar acceso según operación | **Como** usuario de MarketGo,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede gestionar sus pedidos e inventario y aceptar o rechazar órdenes de envío, pero no modificar directamente las órdenes creadas por el proveedor.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede consultar y aceptar o rechazar pedidos recibidos y gestionar sus órdenes de envío, pero no modificar directamente el inventario del minimarket. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de MarketGo,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede al dashboard,<br>**Entonces** el sistema muestra información relevante de inventario, conservación, pedidos, órdenes de envío y alertas correspondientes a su operación.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede al mismo dashboard,<br>**Entonces** el sistema muestra información relevante de productos ofrecidos, pedidos recibidos y órdenes de envío según sus permisos. | EP-07 |
 | US 031 | Explorar propuesta de valor en landing page | **Como** visitante,<br>**Quiero** visualizar la página principal e informativa de MarketGo,<br>**Para** entender la propuesta de valor y los beneficios del sistema antes de registrarme. | **Escenario 1: Navegación pública**<br>**Dado** que un usuario sin sesión activa accede a la URL principal,<br>**Cuando** navega por el sitio,<br>**Entonces** el sistema le despliega la información del servicio, beneficios para minimarkets y proveedores, y accesos visibles para iniciar sesión o registrarse.<br><br>**Escenario 2: Redirección de autenticado**<br>**Dado** que un usuario ya ha iniciado sesión,<br>**Cuando** ingresa a la landing page,<br>**Entonces** el sistema le ofrece un acceso directo al Dashboard. | EP-08 |
-| US 032 | Consultar directorio público de proveedores | **Como** visitante,<br>**Quiero** visualizar el directorio de proveedores públicos y sus productos destacados,<br>**Para** evaluar la oferta de productos orgánicos disponibles antes de afiliar mi minimarket. | **Escenario 1: Consulta de directorio**<br>**Dado** que el visitante está en la sección pública de proveedores,<br>**Cuando** examina la lista,<br>**Entonces** el sistema muestra los proveedores verificados y sus categorías de productos sin exponer precios ni datos de contacto directo de la transacción.<br><br>**Escenario 2: Intento de compra o pedido**<br>**Dado** que el visitante intenta realizar un pedido desde la vista pública,<br>**Cuando** presiona el botón de acción,<br>**Entonces** el sistema lo redirige a la pantalla de Inicio de Sesión / Registro indicando que requiere una cuenta activa. | EP-05 / EP-08 |
+| US 032 | Consultar planes | **Como** visitante,<br>**Quiero** visualizar el directorio de proveedores públicos y sus productos destacados,<br>**Para** evaluar la oferta de productos orgánicos disponibles antes de afiliar mi minimarket. | **Escenario 1: Consulta de directorio**<br>**Dado** que el visitante está en la sección pública de proveedores,<br>**Cuando** examina la lista,<br>**Entonces** el sistema muestra los proveedores verificados y sus categorías de productos sin exponer precios ni datos de contacto directo de la transacción.<br><br>**Escenario 2: Intento de compra o pedido**<br>**Dado** que el visitante intenta realizar un pedido desde la vista pública,<br>**Cuando** presiona el botón de acción,<br>**Entonces** el sistema lo redirige a la pantalla de Inicio de Sesión / Registro indicando que requiere una cuenta activa. | EP-05 / EP-08 |
 | US 033 | Solicitar información de registro o demo | **Como** visitante,<br>**Quiero** enviar un formulario de contacto o solicitud de demo,<br>**Para** recibir atención personalizada y evaluar la adopción de MarketGo en mi negocio. | **Escenario 1: Envío con datos válidos**<br>**Dado** que el visitante completa el formulario público (nombre, correo, tipo de negocio y teléfono),<br>**Cuando** confirma el envío,<br>**Entonces** el sistema guarda la solicitud y muestra un mensaje de confirmación.<br><br>**Escenario 2: Formulario incompleto**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema bloquea el envío y resalta los campos requeridos. | EP-06 / EP-08 |
 
 ### Technical Stories
@@ -1798,7 +1801,7 @@ De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al meno
 | 59 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 | 61 | US-031 | Explorar propuesta de valor | Como visitante, quiero visualizar la información general de MarketGo para entender sus beneficios. | 2 |
-| 62 | US-032 | Consultar directorio público | Como visitante, quiero ver el directorio público de proveedores para conocer los productos disponibles en la plataforma. | 3 |
+| 62 | US-032 | Consultar directorio público | Como visitante, quiero ver planes para conocer los productos disponibles en la plataforma. | 3 |
 | 63 | US-033 | Solicitar información o demo | Como visitante, quiero enviar un formulario de contacto para solicitar información comercial o una prueba del sistema. | 2 |
 
 **Enlace directo al tablero:** 
@@ -1825,14 +1828,19 @@ El logo pricipal se trata de una representación de capas que representan almace
 
 | Logo (Isotipo) | Logotipo / Imagotipo |
 | :---: | :---: |
-| ![Logo](report/assets/chapter-04/Logo%20MarketGo.png) | ![Logotipo](report/assets/chapter-04/Logotipo%20MarketGo.png) |
+| ![Logo](report/assets/chapter-04/Logo%20MarketGo.png)<br /><strong>Figura 1</strong><br /><em>Isotipo de MarketGo</em><br /><small><em>Nota.</em> Elaboración propia.</small> | ![Logotipo](report/assets/chapter-04/Logotipo%20MarketGo.png)<br /><strong>Figura 2</strong><br /><em>Logotipo de MarketGo</em><br /><small><em>Nota.</em> Elaboración propia.</small> |
 | **Isotipo**: Icono representativo de capas y conexiones para avatares, favicon y accesos directos. | **Logotipo**: Versión principal completa con tipografía para cabeceras, landing page y documentación oficial. |
 
 **Tipografía**
 
 La tipografía elegida para nuestro producto es Arimo, una font de la familia Sans Serif. Esta fuente resalta por ser moderna, legible y usada en contextos de tecnología y modernidad. Se utilizará esta fuente en todos los textos y título para mantener consistencia y armonía visual. 
 
-<img src="report/assets/chapter-04/Tipografia.png" alt="Texto alternativo" width="400" height="300">
+<div align="center">
+<img src="report/assets/chapter-04/Tipografia.png" width="400" alt="Tipografía de MarketGo" /><br />
+<strong>Figura 3</strong><br />
+<em>Tipografía de MarketGo</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 La jerarquía tipografía:
 
@@ -1846,7 +1854,12 @@ La jerarquía tipografía:
 
 La paleta de colores ha sido seleccionada para demostrar seriedad, confianza y modernidad. Se trata de colores complementarios en la paleta de colores compatibles entre ellos para dar una visión cohesiva y serena. Los colores claros se utilizaran como los colores que ocupan más espacio en la interfaz, y los más oscuros para secciones de importante contraste y botones. 
 
-<img src="report/assets/chapter-04/Colores%20MarketGo.png" width="300" height="300" alt="Paleta de colores">
+<div align="center">
+<img src="report/assets/chapter-04/Colores%20MarketGo.png" width="300" alt="Paleta de colores de MarketGo" /><br />
+<strong>Figura 4</strong><br />
+<em>Paleta de colores de MarketGo</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 **Spacing**
 
@@ -2034,7 +2047,7 @@ MarketGo organiza su contenido en tres niveles de jerarquía visual, consistente
 Se aplica una organización secuencial principalmente en los flujos que representan un proceso con pasos obligatorios y dependientes entre sí.
  
 - **Registro de lote:** selección de producto → cantidad y unidad → fechas de ingreso/vencimiento → proveedor → confirmación.
-- **Creación de pedido de abastecimiento (rol proveedor):** selección de minimarket destino → selección de productos del catálogo propio → cantidades → confirmación (genera ID único y estado "Pendiente").
+- **Creación de pedido de abastecimiento (rol administrador):** selección de minimarket destino → selección de productos del catálogo propio → cantidades → confirmación (genera ID único y estado "Pendiente").
 - **Rechazo de un pedido (rol administrador):** selección de la acción "Rechazar" → registro obligatorio del motivo → confirmación (no se permite omitir el paso del motivo).
 - **Registro de merma:** selección de producto en inventario → cantidad y motivo → validación contra el stock disponible → confirmación.
 Estos flujos secuenciales se presentan como formularios de un solo paso con validación en línea (no wizards de múltiples pantallas), dado que la cantidad de campos por flujo es reducida.
@@ -2168,85 +2181,75 @@ MarketGo combina dos estrategias de navegación según el tipo de sitio:
 En esta sección se presenta el desarrollo de los primeros wireframes como primer paso para la producción de interfaz visual de la solución, realizados en la plataforma *Figma*.
 
 <div align="center">
-<strong>Figura 1</strong><br />
-  <em>Wireframe de Landing Page sección Home</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 2</strong><br />
-  <em>Wireframe de Landing Page sección Información</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 3</strong><br />
-  <em>Wireframe de Landing Page sección Videos</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 4</strong><br />
-  <em>Wireframe de Landing Page sección Planes</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
+<img src="report/assets/chapter-04/LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 5</strong><br />
-  <em>Wireframe de Landing Page sección Contacto</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Wireframe de Landing Page sección Home</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="report/assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 6</strong><br />
+<em>Wireframe de Landing Page sección Información</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="report/assets/chapter-04/WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 7</strong><br />
+<em>Wireframe de Landing Page sección Videos</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="report/assets/chapter-04/WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 8</strong><br />
+<em>Wireframe de Landing Page sección Planes</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="report/assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 9</strong><br />
+<em>Wireframe de Landing Page sección Contacto</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 ### 4.3.2. Landing Page Mock-up.
 
 <div align="center">
-<strong>Figura 1</strong><br />
-  <em>Mock up de Landing Page sección Home</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 10</strong><br />
+<em>Mock up de Landing Page sección Home</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 2</strong><br />
-  <em>Mock up de Landing Page sección Información del producto</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 11</strong><br />
+<em>Mock up de Landing Page sección Información del producto</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 3</strong><br />
-  <em>Mock up de Landing Page sección Videos</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 12</strong><br />
+<em>Mock up de Landing Page sección Videos</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 4</strong><br />
-  <em>Mock up de Landing Page sección Planes</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 13</strong><br />
+<em>Mock up de Landing Page sección Planes</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 5</strong><br />
-  <em>Mock up de Landing Page sección Contacto</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 14</strong><br />
+<em>Mock up de Landing Page sección Contacto</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 ## 4.4. Web Applications UX/UI Design.
@@ -2254,162 +2257,215 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 ### 4.4.1. Web Applications Wireframes.
 
 <div align="center">
-<strong>Figura 6</strong><br />
-  <em>Wireframe Web Application sección Dashboard</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 15</strong><br />
+<em>Wireframe Web Application sección Dashboard</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 7</strong><br />
-  <em>Wireframe Web Application sección Inventario</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 16</strong><br />
+<em>Wireframe Web Application sección Inventario</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 8</strong><br />
-  <em>Wireframe Web Application sección Gestión de lotes</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 17</strong><br />
+<em>Wireframe Web Application sección Gestión de lotes</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 9</strong><br />
-  <em>Wireframe Web Application sección Conservación</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 18</strong><br />
+<em>Wireframe Web Application sección Conservación</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 10</strong><br />
-  <em>Wireframe Web Application sección Órdenes de envío</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 19</strong><br />
+<em>Wireframe Web Application sección Órdenes de envío</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 11</strong><br />
-  <em>Wireframe Web Application sección Proveedores y Productos</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 20</strong><br />
+<em>Wireframe Web Application sección Proveedores y Productos</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-| Rol: Administrador / Alta y control de inventario |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow1.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+Los wireflows muestran la secuencia de pantallas y acciones para seis recorridos de MarketGo. Cada figura identifica el objetivo del usuario y los pasos principales de navegación.
 
-| Rol: Administrador / Trazabilidad por lote |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow2.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+<div align="center">
+<img src="report/assets/chapter-04/wireflows/WF01_Explorar_landing_y_acceder.png" width="900" alt="Exploración de la landing page y acceso a MarketGo" /><br />
+<strong>Figura 21</strong><br />
+<em>Exploración de la landing page y acceso a MarketGo</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
-| Rol: Administrador / Monitoreo de conservación |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow3.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+**Descripción.** El visitante de un minimarket recorre Inicio, Producto, Videos, Planes y Contacto antes de abrir el acceso a la aplicación.
 
-| Rol: Administrador / Registro de pérdidas |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow4.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+<div align="center">
+<img src="report/assets/chapter-04/wireflows/WF02_Crear_cuenta_e_ingresar.png" width="900" alt="Creación de cuenta e ingreso al panel" /><br />
+<strong>Figura 22</strong><br />
+<em>Creación de cuenta e ingreso al panel</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
-| Rol: Administrador / Solicitud de abastecimiento |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow5.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+**Descripción.** El administrador pasa del formulario de inicio de sesión al registro de cuenta y, al completarlo, llega al panel principal.
 
-| Rol: Administrador / Recepción de mercadería |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow6.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+<div align="center">
+<img src="report/assets/chapter-04/wireflows/WF03_Inventario_y_abastecimiento.png" width="900" alt="Revisión de inventario y solicitud de abastecimiento" /><br />
+<strong>Figura 23</strong><br />
+<em>Revisión de inventario y solicitud de abastecimiento</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
-| Rol: Administrador / Gestión de usuarios y permisos |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow7.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+**Descripción.** El administrador detecta falta de stock, registra una solicitud de reposición y confirma la recepción desde Entregas.
 
-| Rol: Proveedor / Gestión de oferta propia |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow8.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+<div align="center">
+<img src="report/assets/chapter-04/wireflows/WF04_Evitar_perdidas_por_vencimiento.png" width="900" alt="Prevención de pérdidas por vencimiento" /><br />
+<strong>Figura 24</strong><br />
+<em>Prevención de pérdidas por vencimiento</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
-| Rol: Proveedor / Gestión de usuarios y permisos |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow9.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+**Descripción.** El administrador identifica un lote próximo a vencer en Inventario, registra una oferta y comprueba que quede activa.
 
-| Rol: Proveedor / Gestión de usuarios y permisos |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/wireflow10.png" alt="Web Application Wireflow Diagram" width="800" /></p> |
+<div align="center">
+<img src="report/assets/chapter-04/wireflows/WF05_Responder_solicitud_y_preparar_envio.png" width="900" alt="Respuesta del proveedor y preparación del envío" /><br />
+<strong>Figura 25</strong><br />
+<em>Respuesta del proveedor y preparación del envío</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+**Descripción.** El proveedor revisa una solicitud pendiente, la acepta y crea una orden de envío para registrar la entrega.
+
+<div align="center">
+<img src="report/assets/chapter-04/wireflows/WF06_Revisar_alerta_de_conservacion.png" width="900" alt="Revisión de una alerta de conservación" /><br />
+<strong>Figura 26</strong><br />
+<em>Revisión de una alerta de conservación</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+**Descripción.** El administrador consulta una condición fuera de rango, marca la alerta como leída y verifica nuevamente el monitoreo después de corregir físicamente el problema.
 
 ### 4.4.3. Web Applications Mock-ups.
 
 <div align="center">
-<strong>Figura 12</strong><br />
-  <em>Mockup Web Application sección Dashboard</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 27</strong><br />
+<em>Mockup Web Application sección Dashboard</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 13</strong><br />
-  <em>Mockup Web Application sección Inventario</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 28</strong><br />
+<em>Mockup Web Application sección Inventario</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 14</strong><br />
-  <em>Mockup Web Application sección Gestión de lotes</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 29</strong><br />
+<em>Mockup Web Application sección Gestión de lotes</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 15</strong><br />
-  <em>Mockup Web Application sección Conservación</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 30</strong><br />
+<em>Mockup Web Application sección Conservación</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 16</strong><br />
-  <em>Mockup Web Application sección Órdenes de envío</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 31</strong><br />
+<em>Mockup Web Application sección Órdenes de envío</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 17</strong><br />
-  <em>Mockup Web Application sección Proveedores y Productos</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="report/assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="report/assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 32</strong><br />
+<em>Mockup Web Application sección Proveedores y Productos</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
-| Rol: Administrador / Alta y control de inventario |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/UserFlow1.png" alt="Web Application User Flow" width="800" /></p> |
+Los User Flows detallan los objetivos del visitante, el administrador y el proveedor. Además de la ruta principal, las figuras muestran decisiones y resultados alternativos cuando corresponde.
 
-| Rol: Administrador / Gestion de Lotes |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/UserFlow2.png" alt="Web Application User Flow" width="800" /></p> |
+<div align="center">
+<img src="report/assets/chapter-04/userflows/UF01_Crear_cuenta_e_ingresar.png" width="900" alt="Registro de cuenta e ingreso al sistema" /><br />
+<strong>Figura 33</strong><br />
+<em>Registro de cuenta e ingreso al sistema</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
-| Rol: Administrador / Gestión de pedidos |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/UserFlow3.png" alt="Web Application User Flow" width="800" /></p> |
+**Descripción.** El camino principal registra la cuenta y abre Inicio; la ruta alternativa muestra un correo ya registrado y permite corregirlo antes de continuar.
 
-| Rol: Administrador / Gestion de Envíos |
-| :---: |
-| <p align="center"><img src="report/assets/chapter-04/UserFlow4.png" alt="Web Application User Flow" width="800" /></p> |
+<div align="center">
+<img src="report/assets/chapter-04/userflows/UF02_Iniciar_sesion.png" width="900" alt="Inicio de sesión con validación de credenciales" /><br />
+<strong>Figura 34</strong><br />
+<em>Inicio de sesión con validación de credenciales</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+**Descripción.** Las credenciales válidas conducen al panel de Inicio. Si son incorrectas, el formulario muestra el error y permite volver a intentar.
+
+<div align="center">
+<img src="report/assets/chapter-04/userflows/UF03_Solicitar_abastecimiento.png" width="900" alt="Solicitud de abastecimiento y confirmación de recepción" /><br />
+<strong>Figura 35</strong><br />
+<em>Solicitud de abastecimiento y confirmación de recepción</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+**Descripción.** El administrador registra la solicitud y confirma la recepción. Si faltan campos, el formulario permanece abierto hasta que se corrijan.
+
+<div align="center">
+<img src="report/assets/chapter-04/userflows/UF04_Evitar_perdidas_por_vencimiento.png" width="900" alt="Registro de oferta para un lote próximo a vencer" /><br />
+<strong>Figura 36</strong><br />
+<em>Registro de oferta para un lote próximo a vencer</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+**Descripción.** El administrador activa una oferta válida; cantidades, precios o fechas incorrectos abren la ruta de corrección antes de guardar.
+
+<div align="center">
+<img src="report/assets/chapter-04/userflows/UF05_Responder_solicitud_como_proveedor.png" width="900" alt="Respuesta del proveedor a una solicitud" /><br />
+<strong>Figura 37</strong><br />
+<em>Respuesta del proveedor a una solicitud</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+**Descripción.** El proveedor puede aceptar la solicitud y crear la orden de envío o rechazarla, dejando constancia de ambos resultados.
+
+<div align="center">
+<img src="report/assets/chapter-04/userflows/UF06_Revisar_alerta_de_conservacion.png" width="900" alt="Seguimiento de una alerta de conservación" /><br />
+<strong>Figura 38</strong><br />
+<em>Seguimiento de una alerta de conservación</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+**Descripción.** El administrador revisa y marca la alerta como leída; después verifica si la condición volvió al rango normal o si el riesgo persiste y requiere intervención.
+
+<div align="center">
+<img src="report/assets/chapter-04/userflows/UF07_Evaluar_MarketGo_y_comenzar.png" width="900" alt="Evaluación de MarketGo desde la landing page" /><br />
+<strong>Figura 39</strong><br />
+<em>Evaluación de MarketGo desde la landing page</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+**Descripción.** El visitante compara planes, consulta Contacto y abre el acceso. El flujo también señala que el formulario de contacto todavía no confirma el envío.
 
 ## 4.5. Web Applications Prototyping.
 [Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
@@ -2429,11 +2485,21 @@ El desarrollo del proceso de Domain-Driven Design se realizó en LucidChart: [ht
 
 A continuación, se presenta la leyenda utilizada durante el proceso de Event Storming:
 
-![Leyenda Event Storming](report/assets/chapter-04/leyenda.png)
+<div align="center">
+<img src="report/assets/chapter-04/leyenda.png" width="600" alt="Leyenda del Design-Level EventStorming de MarketGo" /><br />
+<strong>Figura 40</strong><br />
+<em>Leyenda del Design-Level EventStorming de MarketGo</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 El siguiente diagrama presenta el Event Storming general de MarketGo y permite visualizar los principales eventos, comandos, actores y procesos identificados en el dominio:
 
-![MarketGo Event Storming](report/assets/chapter-04/EventStorming.png)
+<div align="center">
+<img src="report/assets/chapter-04/EventStorming.png" width="600" alt="Design-Level EventStorming general de MarketGo" /><br />
+<strong>Figura 41</strong><br />
+<em>Design-Level EventStorming general de MarketGo</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 A partir de este análisis se identificaron los siguientes bounded contexts:
 
@@ -2441,69 +2507,133 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context IAM se encarga de la autenticación, autorización y control de acceso dentro de MarketGo. Gestiona usuarios, roles y permisos, asegurando que cada actor, como el administrador de minimarket o el proveedor, acceda únicamente a las funcionalidades correspondientes a su perfil.
 
-   ![IAM Bounded Context](report/assets/chapter-04/bciam.png)
+   <div align="center">
+   <img src="report/assets/chapter-04/bciam.png" width="600" alt="Design-Level EventStorming del bounded context IAM" /><br />
+   <strong>Figura 42</strong><br />
+   <em>Design-Level EventStorming del bounded context IAM</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
 
 2. **Profiles**
 
    El bounded context Profiles administra la información de los usuarios, minimarkets y proveedores registrados en la plataforma. Su propósito es centralizar los datos de perfil necesarios para personalizar la experiencia, controlar responsabilidades y asociar operaciones con el actor correspondiente.
 
-   ![Profiles Bounded Context](report/assets/chapter-04/bcprofile.png)
+   <div align="center">
+   <img src="report/assets/chapter-04/bcprofile.png" width="600" alt="Design-Level EventStorming del bounded context Profiles" /><br />
+   <strong>Figura 43</strong><br />
+   <em>Design-Level EventStorming del bounded context Profiles</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
 
 3. **Dashboard**
 
    El bounded context Dashboard presenta una vista general del estado operativo de la plataforma según el rol del usuario. Permite visualizar indicadores relevantes sobre inventario, abastecimiento, conservación, alertas y actividad reciente.
 
-   ![Dashboard Bounded Context](report/assets/chapter-04/bcdashboard.png)
+   <div align="center">
+   <img src="report/assets/chapter-04/bcdashboard.png" width="600" alt="Design-Level EventStorming del bounded context Dashboard" /><br />
+   <strong>Figura 44</strong><br />
+   <em>Design-Level EventStorming del bounded context Dashboard</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
 
 4. **Analytics**
 
    El bounded context Analytics procesa información operativa para generar indicadores, métricas y resúmenes que apoyan la toma de decisiones. Permite analizar el estado del inventario, productos próximos a vencer, alertas de conservación, desempeño de proveedores y movimientos de abastecimiento.
 
+   <div align="center">
+   <img src="report/assets/chapter-04/event-storming-analytics.png" width="700" alt="Design-Level EventStorming del bounded context Analytics" /><br />
+   <strong>Figura 45</strong><br />
+   <em>Design-Level EventStorming del bounded context Analytics</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
+
 5. **Inventory**
 
    El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
 
-   ![Inventory Bounded Context](report/assets/chapter-04/bcinventory.png)
+   <div align="center">
+   <img src="report/assets/chapter-04/bcinventory.png" width="600" alt="Design-Level EventStorming del bounded context Inventory" /><br />
+   <strong>Figura 46</strong><br />
+   <em>Design-Level EventStorming del bounded context Inventory</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
 
 6. **Products**
 
    El bounded context Products administra el catálogo de productos orgánicos ofrecidos por proveedores o registrados por minimarkets. Centraliza información como nombre, categoría, descripción, unidad de medida, disponibilidad y datos relevantes para su comercialización o abastecimiento.
 
-   ![Products Bounded Context](report/assets/chapter-04/bcproducts.png)
+   <div align="center">
+   <img src="report/assets/chapter-04/bcproducts.png" width="600" alt="Design-Level EventStorming del bounded context Products" /><br />
+   <strong>Figura 47</strong><br />
+   <em>Design-Level EventStorming del bounded context Products</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
 
 7. **Requisition**
 
    El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
 
-   ![Requisition Bounded Context](report/assets/chapter-04/bcrequisition.png)
+   <div align="center">
+   <img src="report/assets/chapter-04/bcrequisition.png" width="600" alt="Design-Level EventStorming del bounded context Requisition" /><br />
+   <strong>Figura 48</strong><br />
+   <em>Design-Level EventStorming del bounded context Requisition</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
 
 8. **Procurements**
 
    El bounded context Procurements administra las órdenes de envío asociadas a solicitudes de abastecimiento aceptadas. Su responsabilidad es permitir al proveedor registrar los productos y cantidades que serán enviados, mientras que el administrador del minimarket puede revisar, aceptar o rechazar la recepción. Cuando una orden de envío es aceptada, los productos recibidos pueden incorporarse al inventario correspondiente.
 
-   ![Procurements Bounded Context](report/assets/chapter-04/bcprocurenments.png)
+   <div align="center">
+   <img src="report/assets/chapter-04/bcprocurenments.png" width="600" alt="Design-Level EventStorming del bounded context Procurements" /><br />
+   <strong>Figura 49</strong><br />
+   <em>Design-Level EventStorming del bounded context Procurements</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
 
 9. **Suppliers**
 
    El bounded context Suppliers gestiona el directorio de proveedores de productos orgánicos, así como los productos que ofrecen y su participación dentro de los procesos de abastecimiento.
 
-   ![Suppliers Bounded Context](report/assets/chapter-04/bcsuppliers.png)
+   <div align="center">
+   <img src="report/assets/chapter-04/bcsuppliers.png" width="600" alt="Design-Level EventStorming del bounded context Suppliers" /><br />
+   <strong>Figura 50</strong><br />
+   <em>Design-Level EventStorming del bounded context Suppliers</em><br />
+   <small><em>Nota.</em> Elaboración propia.</small>
+   </div>
 
 10. **Conservation**
 
     El bounded context Conservation permite monitorear condiciones de conservación de productos, como temperatura y humedad. Su propósito es identificar riesgos de deterioro y generar alertas cuando las condiciones se encuentren fuera de los rangos aceptables.
 
-    ![Conservation Bounded Context](report/assets/chapter-04/bcconvervation.png)
+    <div align="center">
+    <img src="report/assets/chapter-04/bcconvervation.png" width="600" alt="Design-Level EventStorming del bounded context Conservation" /><br />
+    <strong>Figura 51</strong><br />
+    <em>Design-Level EventStorming del bounded context Conservation</em><br />
+    <small><em>Nota.</em> Elaboración propia.</small>
+    </div>
 
 11. **Communication**
 
     El bounded context Communication gestiona las alertas y notificaciones generadas por la plataforma. Incluye avisos sobre productos próximos a vencer, condiciones de conservación riesgosas, solicitudes pendientes, órdenes de envío y eventos relevantes para los usuarios.
 
-    ![Communication Bounded Context](report/assets/chapter-04/bccommunication.png)
+    <div align="center">
+    <img src="report/assets/chapter-04/bccommunication.png" width="600" alt="Design-Level EventStorming del bounded context Communication" /><br />
+    <strong>Figura 52</strong><br />
+    <em>Design-Level EventStorming del bounded context Communication</em><br />
+    <small><em>Nota.</em> Elaboración propia.</small>
+    </div>
 
 12. **Shared Kernel**
 
     El bounded context Shared Kernel contiene elementos comunes utilizados por los demás contextos, como utilidades compartidas, contratos base, configuraciones, validaciones comunes y estructuras transversales del sistema.
+
+    <div align="center">
+    <img src="report/assets/chapter-04/event-storming-shared-kernel.png" width="700" alt="Design-Level EventStorming del Shared Kernel" /><br />
+    <strong>Figura 53</strong><br />
+    <em>Design-Level EventStorming del Shared Kernel</em><br />
+    <small><em>Nota.</em> Elaboración propia.</small>
+    </div>
 
 <div style="page-break-after: always;"></div>
 
@@ -2521,7 +2651,12 @@ El context diagram muestra al **MarketGo Software System** como el sistema centr
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan con MarketGo mediante la aplicación web, mientras que el sistema coordina los procesos internos y las integraciones necesarias para alertas, monitoreo y trazabilidad operativa.
 
-![Software Architecture Context Diagram](report/assets/chapter-04/Contexto-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/Contexto-dark.png" width="600" alt="Diagrama de contexto de la arquitectura de MarketGo" /><br />
+<strong>Figura 54</strong><br />
+<em>Diagrama de contexto de la arquitectura de MarketGo</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 ---
 
@@ -2543,7 +2678,12 @@ En el diagrama se observa que:
 - La **API REST Application** procesa la lógica del dominio y persiste la información en la **Database**.
 - Los módulos de comunicación y conservación pueden integrarse con servicios externos para notificaciones y monitoreo de condiciones ambientales.
 
-![Software Architecture Container Diagram](report/assets/chapter-04/Contenedor-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/Contenedor-dark.png" width="600" alt="Diagrama de contenedores de la arquitectura de MarketGo" /><br />
+<strong>Figura 55</strong><br />
+<em>Diagrama de contenedores de la arquitectura de MarketGo</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 ---
 
@@ -2568,47 +2708,102 @@ La API REST organiza sus responsabilidades en componentes especializados:
 
 #### IAM Component Diagram
 
-![IAM Component Diagram](report/assets/chapter-04/IAMBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/IAMBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de IAM" /><br />
+<strong>Figura 56</strong><br />
+<em>Diagrama de componentes de IAM</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Profiles Component Diagram
 
-![Profiles Component Diagram](report/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/ProfilesBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Profiles" /><br />
+<strong>Figura 57</strong><br />
+<em>Diagrama de componentes de Profiles</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Dashboard Component Diagram
 
-![Dashboard Component Diagram](report/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/DashboardBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Dashboard" /><br />
+<strong>Figura 58</strong><br />
+<em>Diagrama de componentes de Dashboard</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Analytics Component Diagram
 
-![Analytics Component Diagram](report/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Analytics" /><br />
+<strong>Figura 59</strong><br />
+<em>Diagrama de componentes de Analytics</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Inventory Component Diagram
 
-![Inventory Component Diagram](report/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/InventoryBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Inventory" /><br />
+<strong>Figura 60</strong><br />
+<em>Diagrama de componentes de Inventory</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Products Component Diagram
 
-![Products Component Diagram](report/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/ProductsBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Products" /><br />
+<strong>Figura 61</strong><br />
+<em>Diagrama de componentes de Products</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Procurements Component Diagram
 
-![Procurements Component Diagram](report/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Procurements" /><br />
+<strong>Figura 62</strong><br />
+<em>Diagrama de componentes de Procurements</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Suppliers Component Diagram
 
-![Suppliers Component Diagram](report/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/SuppliersBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Suppliers" /><br />
+<strong>Figura 63</strong><br />
+<em>Diagrama de componentes de Suppliers</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Conservation Component Diagram
 
-![Conservation Component Diagram](report/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/ConservationBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Conservation" /><br />
+<strong>Figura 64</strong><br />
+<em>Diagrama de componentes de Conservation</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Communication Component Diagram
 
-![Communication Component Diagram](report/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/CommunicationBCComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Communication" /><br />
+<strong>Figura 65</strong><br />
+<em>Diagrama de componentes de Communication</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Shared Kernel Component Diagram
 
-![Shared Kernel Component Diagram](report/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
+<div align="center">
+<img src="report/assets/chapter-04/SharedKernelComponentDiagram-dark.png" width="600" alt="Diagrama de componentes de Shared Kernel" /><br />
+<strong>Figura 66</strong><br />
+<em>Diagrama de componentes de Shared Kernel</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 De esta forma, los component diagrams complementan la visión general de la arquitectura, mostrando cómo MarketGo organiza sus responsabilidades internas en componentes coherentes con el dominio y cómo estos colaboran para implementar la gestión de productos orgánicos, inventario, conservación, abastecimiento, proveedores, comunicación y analítica.
 
@@ -2621,52 +2816,114 @@ En esta sección se presenta el diseño orientado a objetos de MarketGo, represe
 ### 4.7.1. Class Diagrams.
 
 Los diagramas de clases muestran la organización interna de los componentes principales de MarketGo, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
-![Class Diagram MaketGo](report/assets/chapter-04/diagramClassMarkGo.png)
+
+<div align="center">
+<img src="report/assets/chapter-04/marketGo-diagram.svg" width="600" alt="Diagrama de clases de MarketGo por bounded context" /><br />
+<strong>Figura 67</strong><br />
+<em>Diagrama de clases de MarketGo por bounded context</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
 A continuación, se presentan los diagramas de clases correspondientes a los principales bounded contexts de MarketGo:
 
 #### Communication Class Diagram
 
-![Communication Class Diagram](report/assets/chapter-04/dccommunicatiob.png)
+<div align="center">
+<img src="report/assets/chapter-04/dccommunicatiob.png" width="600" alt="Diagrama de clases de Communication" /><br />
+<strong>Figura 68</strong><br />
+<em>Diagrama de clases de Communication</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Procurements Class Diagram
 
-![Procurements Class Diagram](report/assets/chapter-04/dcprocurenments.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcprocurenments.png" width="600" alt="Diagrama de clases de Procurements" /><br />
+<strong>Figura 69</strong><br />
+<em>Diagrama de clases de Procurements</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Dashboard Class Diagram
 
-![Dashboard Class Diagram](report/assets/chapter-04/dcdashboard.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcdashboard.png" width="600" alt="Diagrama de clases de Dashboard" /><br />
+<strong>Figura 70</strong><br />
+<em>Diagrama de clases de Dashboard</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Conservation Class Diagram
 
-![Conservation Class Diagram](report/assets/chapter-04/dcconservation.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcconservation.png" width="600" alt="Diagrama de clases de Conservation" /><br />
+<strong>Figura 71</strong><br />
+<em>Diagrama de clases de Conservation</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Analytics Class Diagram
 
-![Analytics Class Diagram](report/assets/chapter-04/dcanalitycs.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcanalitycs.png" width="600" alt="Diagrama de clases de Analytics" /><br />
+<strong>Figura 72</strong><br />
+<em>Diagrama de clases de Analytics</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Inventory Class Diagram
 
-![Inventory Class Diagram](report/assets/chapter-04/dcinventory.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcinventory.png" width="600" alt="Diagrama de clases de Inventory" /><br />
+<strong>Figura 73</strong><br />
+<em>Diagrama de clases de Inventory</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Products Class Diagram
 
-![Products Class Diagram](report/assets/chapter-04/dcproducts.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcproducts.png" width="600" alt="Diagrama de clases de Products" /><br />
+<strong>Figura 74</strong><br />
+<em>Diagrama de clases de Products</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### IAM Class Diagram
 
-![IAM Class Diagram](report/assets/chapter-04/dciam.png)
+<div align="center">
+<img src="report/assets/chapter-04/dciam.png" width="600" alt="Diagrama de clases de IAM" /><br />
+<strong>Figura 75</strong><br />
+<em>Diagrama de clases de IAM</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Profiles Class Diagram
 
-![Profiles Class Diagram](report/assets/chapter-04/dcprofiles.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcprofiles.png" width="600" alt="Diagrama de clases de Profiles" /><br />
+<strong>Figura 76</strong><br />
+<em>Diagrama de clases de Profiles</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Suppliers Class Diagram
 
-![Suppliers Class Diagram](report/assets/chapter-04/dcsuppliers.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcsuppliers.png" width="600" alt="Diagrama de clases de Suppliers" /><br />
+<strong>Figura 77</strong><br />
+<em>Diagrama de clases de Suppliers</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 #### Requisition Class Diagram
 
-![Requisition Class Diagram](report/assets/chapter-04/dcrequisition.png)
+<div align="center">
+<img src="report/assets/chapter-04/dcrequisition.png" width="600" alt="Diagrama de clases de Requisition" /><br />
+<strong>Figura 78</strong><br />
+<em>Diagrama de clases de Requisition</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 Estos diagramas permiten complementar la arquitectura de software, mostrando una vista más detallada del diseño orientado a objetos de MarketGo. A través de ellos se puede identificar cómo se distribuyen las responsabilidades entre las clases y cómo estas representan los principales conceptos de cada bounded context.
 
@@ -2682,7 +2939,12 @@ La base de datos se encuentra organizada de acuerdo con los bounded contexts def
 
 El diagrama de base de datos muestra las entidades principales de MarketGo, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se estructura la persistencia de los datos y cómo se relacionan las entidades que soportan los procesos principales de la plataforma.
 
-![MarketGo Database Diagram](report/assets/chapter-04/MarketGoDiagramBD.png)
+<div align="center">
+<img src="report/assets/chapter-04/MarketGoDiagramBD.png" width="600" alt="Diagrama de base de datos de MarketGo" /><br />
+<strong>Figura 79</strong><br />
+<em>Diagrama de base de datos de MarketGo</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
 
 ---
 
@@ -3090,6 +3352,12 @@ Microsoft. (2024). *What is Azure Static Web Apps?* Microsoft Learn. https://lea
 Vue.js. (s. f.-a). *Introduction*. https://vuejs.org/guide/introduction
 
 Vue.js. (s. f.-b). *Priority A rules: Essential*. https://vuejs.org/style-guide/rules-essential.html
+
+Bedoya-Perales, N. S., & Dal’ Magro, G. P. (2021). Quantification of food losses and waste in Peru: A mass flow analysis along the food supply chain. Sustainability, 13(5), Article 2807. https://www.mdpi.com/2071-1050/13/5/2807
+
+Organisation for Economic Co-operation and Development. (2025). Policies for the future of farming and food in Peru. OECD Publishing. https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en.html
+
+Zavaleta-Zarate, J., Silva-Ramos, M., & Raymundo-Ibañez, C. (2026). Modelo de gestión de inventarios para reducir el quiebre de stock en tiendas de conveniencia en Lima. Repositorio Académico UPC. https://hdl.handle.net/10757/658912
 
 ---
 
