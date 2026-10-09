@@ -392,6 +392,7 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 | Sum of Story Points | 14 Story Points (3 + 5 + 3 + 3) para las historias propuestas. |
 
 **Repositorio Landing Page:** https://github.com/Market-Labs/landign-page.git
+
 **Repositorio Frontend:** https://github.com/Market-Labs/front-end.git
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
