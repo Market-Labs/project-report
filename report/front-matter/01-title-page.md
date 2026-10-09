@@ -25,7 +25,7 @@
 
 <br>
 
-**Informe de Trabajo Final - AV1**
+**Informe de Trabajo Parcial - TB1**
 
 <br>
 

@@ -1,7 +1,5 @@
 # Conclusiones
 
-## Conclusiones y recomendaciones.
-
 **Conclusiones***
 
 1. El análisis del Capítulo I permitió identificar que la gestión de productos orgánicos en minimarkets presenta una problemática real y medible: las pérdidas alimentarias en el Perú alcanzan el 47,6% de la oferta anual, y se agravan por el uso de procesos manuales y herramientas fragmentadas (hojas de cálculo, libretas y mensajería). Mediante la técnica 5W+2H y el análisis competitivo, concluimos que FreshTracker, ShelfLife y Peru Marketplace cubren solo una parte del proceso (conservación, inventario o conexión B2B).
