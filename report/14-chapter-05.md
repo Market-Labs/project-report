@@ -502,69 +502,149 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 <p>
-  Al cierre del Sprint 2 el equipo entregó una versión navegable del Frontend Web Application de MarkeGo, ejecutable localmente mediante <code>npm run dev</code>, comando que levanta en paralelo Vite y el mock service (json-server) gracias a <code>concurrently</code>. El alcance funcional implementado cubre los siguientes flujos:
+  Al cierre del Sprint 2, el equipo de MarketLab presentó los avances
+  funcionales del Frontend Web Application de <strong>MarketGo</strong>,
+  una plataforma orientada a la gestión de inventarios, productos,
+  abastecimiento y conservación de productos orgánicos en minimarkets.
+  La aplicación fue desarrollada utilizando Angular y organizada
+  mediante componentes, servicios y bounded contexts, con interfaces
+  diferenciadas para los roles de Administrador de Minimarket y
+  Proveedor. El alcance funcional trabajado durante el Sprint 2
+  comprende los siguientes flujos:
 </p>
+
 <ul>
-  <li><strong>IAM (Identity and Access Management):</strong> Sign-In, Sign-Up, Forgot Password y protección de rutas privadas mediante <em>route guard</em> sobre <code>router.beforeEach</code>.</li>
-  <li><strong>Requisition:</strong> Listado y creación de requisiciones de materiales vinculadas a proyectos.</li>
-  <li><strong>Suppliers:</strong> Directorio de proveedores con RUC, razón social, rating y vista de incidencias asociadas.</li>
-  <li><strong>Procurement:</strong> Bandeja de aprobación de Órdenes de Compra y gestión de cotizaciones para comparación.</li>
-  <li><strong>Delivery & Tracking:</strong> Seguimiento de entregas asociadas a órdenes de compra, con estados de despacho, tránsito, demora y entrega.</li>
-  <li><strong>Inventory:</strong> Listado de inventario con indicadores de stock crítico y filtros por proyecto y categoría.</li>
-  <li><strong>Analytics & Budgeting:</strong> Dashboard financiero por proyecto con estados <em>On Track / At Risk / Over Budget</em> y vista de reportes con exportación a PDF.</li>
-  <li><strong>Profiles:</strong> Perfil de la empresa con datos legales y de contacto.</li>
-  <li><strong>Communication:</strong> Bandeja de mensajes internos entre obra y oficina.</li>
+  <li>
+    <strong>IAM (Identity and Access Management):</strong>
+    Registro de usuarios, inicio de sesión, configuración de roles
+    y permisos, y control de acceso a las operaciones del sistema
+    según el tipo de usuario.
+  </li>
+  <li>
+    <strong>Requisition:</strong>
+    Gestión de pedidos de abastecimiento realizados por los
+    administradores de minimarkets, permitiendo crear y consultar
+    solicitudes de productos dirigidas a proveedores.
+  </li>
+  <li>
+    <strong>Suppliers:</strong>
+    Gestión y consulta del directorio de proveedores orgánicos,
+    incluyendo información de contacto y productos disponibles
+    para el abastecimiento de los minimarkets.
+  </li>
+  <li>
+    <strong>Procurements:</strong>
+    Gestión de pedidos y órdenes de envío, permitiendo que los
+    proveedores acepten o rechacen solicitudes y que los
+    administradores confirmen o rechacen la recepción de productos.
+  </li>
+  <li>
+    <strong>Conservation:</strong>
+    Consulta y monitoreo de las condiciones de conservación de
+    productos mediante indicadores de temperatura y humedad,
+    así como alertas relacionadas con condiciones de almacenamiento.
+  </li>
+  <li>
+    <strong>Inventory:</strong>
+    Visualización y administración del inventario de los
+    minimarkets, incluyendo registro de productos, control
+    de lotes, fechas de vencimiento y actualización de existencias.
+  </li>
+  <li>
+    <strong>Dashboard:</strong>
+    Panel general con indicadores operativos adaptados al rol
+    del usuario, permitiendo visualizar información relevante
+    sobre inventario, abastecimiento, productos y alertas.
+  </li>
+  <li>
+    <strong>Profiles:</strong>
+    Gestión de perfiles de usuario asociados a las cuentas
+    registradas, incluyendo información personal y datos
+    correspondientes al administrador o proveedor.
+  </li>
+  <li>
+    <strong>Communication:</strong>
+    Visualización de mensajes, notificaciones y alertas
+    relacionadas con las operaciones de abastecimiento,
+    conservación e inventario.
+  </li>
 </ul>
 
 <p>
-  La aplicación cuenta con soporte <strong>i18n</strong> (español e inglés), <strong>theme PrimeVue</strong> y navegación SPA con Vue Router. A continuación se incluyen las capturas representativas del Sprint Review.
+  La aplicación contempla soporte de internacionalización
+  <strong>i18n</strong> (español e inglés), una interfaz basada
+  en Angular y navegación mediante Angular Router. Asimismo,
+  se trabajó en la validación de criterios de aceptación de IAM,
+  la visualización del dashboard por rol y las mejoras de la
+  Landing Page solicitadas por el docente, incluyendo la
+  adaptación de las Historias de Usuario al rol
+  <strong>Visitante (Visitor)</strong> y la incorporación de
+  enlaces interactivos a LinkedIn, X y Facebook.
+  A continuación, se incluyen las capturas representativas
+  del Sprint Review.
 </p>
 
 <div align="center">
   <img src="docs/assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
-  <p><em>Figura: Vista Sign-In del bounded context IAM.</em></p>
+  <p><em>Figura: Vista de inicio de sesión del bounded context IAM de MarketGo.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-requisitions.png" alt="Material Requests View" width="90%">
-  <p><em>Figura: Listado de Material Requests con filtros por proyecto y prioridad.</em></p>
+  <img src="docs/assets/chapter-05/sprint2-requisitions.png" alt="Supply Requests View" width="90%">
+  <p><em>Figura: Gestión de pedidos de abastecimiento realizados por administradores de minimarkets.</em></p>
 </div>
 
 <div align="center">
   <img src="docs/assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
-  <p><em>Figura: Directorio de Proveedores con RUC, rating y estado.</em></p>
+  <p><em>Figura: Directorio de proveedores orgánicos y catálogo de productos disponibles para abastecimiento.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-procurement.png" alt="Approval Inbox" width="90%">
-  <p><em>Figura: Approval Inbox de Órdenes de Compra.</em></p>
+  <img src="docs/assets/chapter-05/sprint2-procurement.png" alt="Supply Orders Management" width="90%">
+  <p><em>Figura: Gestión de pedidos de abastecimiento y órdenes de envío entre proveedores y administradores.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-inventory.png" alt="Inventory List" width="90%">
-  <p><em>Figura: Inventory List con indicadores visuales de stock crítico.</em></p>
+  <img src="docs/assets/chapter-05/sprint2-inventory.png" alt="Inventory Management" width="90%">
+  <p><em>Figura: Visualización del inventario con información de productos, lotes, existencias y fechas de vencimiento.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-dashboard.png" alt="Financial Dashboard" width="90%">
-  <p><em>Figura: Dashboard Overview (resumen).</em></p>
+  <img src="docs/assets/chapter-05/sprint2-dashboard.png" alt="MarketGo Dashboard" width="90%">
+  <p><em>Figura: Dashboard general de MarketGo con indicadores operativos diferenciados según el rol del usuario.</em></p>
 </div>
 
 <h4>Product Navigation Video Evidence</h4>
 
-<p>En esta sección se presenta el video demostrativo de navegación de la plataforma <strong>Buildline (Release v1.0.0)</strong>, elaborado para el cierre del Sprint 2. El propósito de este video es evidenciar los flujos principales del Frontend Web Application con datos de prueba mediante json-server, mostrando desde la gestión de requisiciones y el control de inventario hasta el impacto automático en el Dashboard Financiero. El material audiovisual ha sido alojado de forma segura en la plataforma institucional <strong>Microsoft Stream</strong>.</p>
+<p>
+  En esta sección se presenta el video demostrativo de navegación
+  de la plataforma <strong>MarketGo</strong>, desarrollado por
+  <strong>MarketLab</strong> como evidencia del Sprint 2.
+  El propósito de este material audiovisual es mostrar los
+  principales flujos del Frontend Web Application, incluyendo
+  el registro e inicio de sesión, la gestión de perfiles,
+  el acceso diferenciado según el rol, la administración
+  del inventario, la consulta de proveedores, la gestión
+  de pedidos de abastecimiento y órdenes de envío,
+  así como la visualización de indicadores en el dashboard.
+  Asimismo, se busca evidenciar la interacción entre los
+  bounded contexts y la navegación general del sistema
+  para los roles de Administrador de Minimarket y Proveedor.
+  El material audiovisual puede alojarse en la plataforma
+  institucional <strong>Microsoft Stream</strong>.
+</p>
 
-**Nombre del archivo de video:** `upc-pre-202610-1asi0730-12158-rqls-productnavigation-sprint-2.mp4`
+<strong>Nombre del archivo de video:</strong>
+<code>marketgo-productnavigation-sprint-2.mp4</code>
 
 <div align="center">
-  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQBmp9aQwMuLSLxjirNLDL3-ATVaXbe2IUg_aTtw3V59494?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y9T9qs" target="_blank">
-    <img src="docs/assets/chapter-05/video-screenshot.png" alt="Video Demostrativo Buildline en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
+  <a href="URL_DEL_VIDEO_DE_MARKETGO" target="_blank">
+    <img src="docs/assets/chapter-05/video-screenshot.png" alt="Video Demostrativo MarketGo en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
   </a>
-  <p><em>Figura: Video demostrativo en Microsoft Stream.</em></p>
+  <p><em>Figura: Video demostrativo de navegación de MarketGo en Microsoft Stream.</em></p>
 </div>
 
-Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQBmp9aQwMuLSLxjirNLDL3-ATVaXbe2IUg_aTtw3V59494?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y9T9qs
-
+Enlace directo: URL_DEL_VIDEO_DE_MARKETGO
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
