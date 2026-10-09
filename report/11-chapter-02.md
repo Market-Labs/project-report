@@ -333,7 +333,9 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 
 **Segmento objetivo: Administradores de Minimarkets**
 
-**Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
+**Video consolidado de entrevistas (Microsoft Stream):** `upc-pre-202620-1asi0730-8130-MarketLabs-needfinding-sprint-1.mp4` (duración total 00:41:46) – <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado</a>
+
+El video consolida las seis entrevistas de ambos segmentos. En cada registro se indica el *timing* (hh:mm:ss) en el que inicia la entrevista dentro del video y su duración.
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
@@ -373,12 +375,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 05:04</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:00:00</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:05:05</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 05:04</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQAO_S8vsY7wSLoGXu_zLohnAacAwmkheFzeSivboAvBNEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e0cCTv" target="_blank">Ver Video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:05:05</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:00:00)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -390,7 +392,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `Entrevista Roly hans Luna.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -430,12 +431,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 15:00</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:05:05</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:18:43</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 15:00</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQBD3_GD9iQdSaVNcGL-1ry4ATd8dDv7XB3Z7iXLqwA4PUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wlhYtj" target="_blank">Ver Video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:13:38</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:05:05)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -446,7 +447,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `entrevisa_cesar_appweb - View-only.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -486,12 +486,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 07:37</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:18:43</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:26:19</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 07:37</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAtjkovEx1wRr3eMlftO2sFAXlMxG88PDLfCn4uFfxvYMs?e=9CcTbz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:07:36</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:18:43)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -505,7 +505,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 </table>
 
 **Segmento objetivo: Proveedores**
-**Nombre del archivo de video consolidado:** `Entrevista 04.mp4`
+Las entrevistas de este segmento continúan en el mismo video consolidado (`upc-pre-202620-1asi0730-8130-MarketLabs-needfinding-sprint-1.mp4`), a partir de 00:26:19.
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -545,12 +545,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 04:06</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:26:19</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:30:40</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 04:06</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCquViaF_SnRquqfLHjWNN6AS7qnx40lGI0g6TNwS0gQzs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hXKRuG" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:04:21</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:26:19)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -561,7 +561,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `Entrevista 05.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -601,12 +600,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 03:18</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:30:40</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:33:57</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 03:18</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JsKV8z" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:03:17</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:30:40)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -617,7 +616,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `segmmento proveedores.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -657,12 +655,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 07:50</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:33:57</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:41:46</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 07:50</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCMSfrbXtL4RZKFfF1b3BmTAcRfWzPxNyHY7YMTQFX0CTM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BXNBH4" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:07:49</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:33:57)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -672,8 +670,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 El proceso de abastecimiento comienza con la recepción de solicitudes de los minimarkets, seguida de la verificación de disponibilidad, confirmación, preparación de productos, revisión de lotes y coordinación del despacho. Cuando existen varios pedidos o modificaciones simultáneas, el seguimiento se vuelve más complejo y pueden producirse inconsistencias, como informar disponibilidad desactualizada o perder cambios realizados mediante conversaciones.
 
 En conclusión, se identifica la necesidad de centralizar la información de productos, lotes, disponibilidad y pedidos. Una plataforma que permita consultar y actualizar estos datos, además de visualizar el estado de cada operación, podría reducir la dependencia de archivos y conversaciones dispersas y facilitar la coordinación entre el proveedor y los minimarkets.
-      </td>
-    </tr>
+</td>
+</tr>
   </tbody>
 </table>
 
