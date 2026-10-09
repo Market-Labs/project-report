@@ -355,85 +355,75 @@ MarketGo combina dos estrategias de navegación según el tipo de sitio:
 En esta sección se presenta el desarrollo de los primeros wireframes como primer paso para la producción de interfaz visual de la solución, realizados en la plataforma *Figma*.
 
 <div align="center">
+<img src="assets/chapter-04/LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 1</strong><br />
-  <em>Wireframe de Landing Page sección Home</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/LandingPageWireframeHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Wireframe de Landing Page sección Home</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
+<img src="assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 2</strong><br />
-  <em>Wireframe de Landing Page sección Información</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeLandingPageInformation.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Wireframe de Landing Page sección Información</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
+<img src="assets/chapter-04/WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 3</strong><br />
-  <em>Wireframe de Landing Page sección Videos</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeLandingPageVideoSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Wireframe de Landing Page sección Videos</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
+<img src="assets/chapter-04/WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 4</strong><br />
-  <em>Wireframe de Landing Page sección Planes</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeLandingPagePlans.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Wireframe de Landing Page sección Planes</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
+<img src="assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 5</strong><br />
-  <em>Wireframe de Landing Page sección Contacto</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeLandingPageContactUs.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Wireframe de Landing Page sección Contacto</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 ### 4.3.2. Landing Page Mock-up.
 
 <div align="center">
-<strong>Figura 1</strong><br />
-  <em>Mock up de Landing Page sección Home</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="assets/chapter-04/MockupLandingPageHome.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 6</strong><br />
+<em>Mock up de Landing Page sección Home</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 2</strong><br />
-  <em>Mock up de Landing Page sección Información del producto</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="assets/chapter-04/MockupLandingPageInformacion.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 7</strong><br />
+<em>Mock up de Landing Page sección Información del producto</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 3</strong><br />
-  <em>Mock up de Landing Page sección Videos</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="assets/chapter-04/MockupLandingPageVideo.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 8</strong><br />
+<em>Mock up de Landing Page sección Videos</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 4</strong><br />
-  <em>Mock up de Landing Page sección Planes</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="assets/chapter-04/MockupLandingPagePlanes.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 9</strong><br />
+<em>Mock up de Landing Page sección Planes</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
-<strong>Figura 5</strong><br />
-  <em>Mock up de Landing Page sección Contacto</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<img src="assets/chapter-04/MockupLandingPageContacto.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 10</strong><br />
+<em>Mock up de Landing Page sección Contacto</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 ## 4.4. Web Applications UX/UI Design.
@@ -441,51 +431,45 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 ### 4.4.1. Web Applications Wireframes.
 
 <div align="center">
-<strong>Figura 6</strong><br />
-  <em>Wireframe Web Application sección Dashboard</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 7</strong><br />
-  <em>Wireframe Web Application sección Inventario</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 8</strong><br />
-  <em>Wireframe Web Application sección Gestión de lotes</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 9</strong><br />
-  <em>Wireframe Web Application sección Conservación</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 10</strong><br />
-  <em>Wireframe Web Application sección Órdenes de envío</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
+<img src="assets/chapter-04/WireframeWebApplicationDasboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 11</strong><br />
-  <em>Wireframe Web Application sección Proveedores y Productos</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Wireframe Web Application sección Dashboard</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/WireframeWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 12</strong><br />
+<em>Wireframe Web Application sección Inventario</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/WireframeWebApplicationGestionlotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 13</strong><br />
+<em>Wireframe Web Application sección Gestión de lotes</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/WireframeWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 14</strong><br />
+<em>Wireframe Web Application sección Conservación</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/WireframeWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 15</strong><br />
+<em>Wireframe Web Application sección Órdenes de envío</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/WireframeWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 16</strong><br />
+<em>Wireframe Web Application sección Proveedores y Productos</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
@@ -493,123 +477,101 @@ En esta sección se presenta el desarrollo de los primeros wireframes como prime
 Los wireflows muestran la secuencia de pantallas y acciones para seis recorridos de MarketGo. Cada figura identifica el objetivo del usuario y los pasos principales de navegación.
 
 <div align="center">
-<strong>Figura 12</strong><br />
+<img src="assets/chapter-04/wireflows/WF01_Explorar_landing_y_acceder.png" width="900" alt="Exploración de la landing page y acceso a MarketGo" /><br />
+<strong>Figura 17</strong><br />
 <em>Exploración de la landing page y acceso a MarketGo</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/wireflows/WF01_Explorar_landing_y_acceder.png" width="900" alt="Exploración de la landing page y acceso a MarketGo" />
 </div>
 
 **Descripción.** El visitante de un minimarket recorre Inicio, Producto, Videos, Planes y Contacto antes de abrir el acceso a la aplicación.
 
 <div align="center">
-<strong>Figura 13</strong><br />
+<img src="assets/chapter-04/wireflows/WF02_Crear_cuenta_e_ingresar.png" width="900" alt="Creación de cuenta e ingreso al panel" /><br />
+<strong>Figura 18</strong><br />
 <em>Creación de cuenta e ingreso al panel</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/wireflows/WF02_Crear_cuenta_e_ingresar.png" width="900" alt="Creación de cuenta e ingreso al panel" />
 </div>
 
 **Descripción.** El administrador pasa del formulario de inicio de sesión al registro de cuenta y, al completarlo, llega al panel principal.
 
 <div align="center">
-<strong>Figura 14</strong><br />
+<img src="assets/chapter-04/wireflows/WF03_Inventario_y_abastecimiento.png" width="900" alt="Revisión de inventario y solicitud de abastecimiento" /><br />
+<strong>Figura 19</strong><br />
 <em>Revisión de inventario y solicitud de abastecimiento</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/wireflows/WF03_Inventario_y_abastecimiento.png" width="900" alt="Revisión de inventario y solicitud de abastecimiento" />
 </div>
 
 **Descripción.** El administrador detecta falta de stock, registra una solicitud de reposición y confirma la recepción desde Entregas.
 
 <div align="center">
-<strong>Figura 15</strong><br />
+<img src="assets/chapter-04/wireflows/WF04_Evitar_perdidas_por_vencimiento.png" width="900" alt="Prevención de pérdidas por vencimiento" /><br />
+<strong>Figura 20</strong><br />
 <em>Prevención de pérdidas por vencimiento</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/wireflows/WF04_Evitar_perdidas_por_vencimiento.png" width="900" alt="Prevención de pérdidas por vencimiento" />
 </div>
 
 **Descripción.** El administrador identifica un lote próximo a vencer en Inventario, registra una oferta y comprueba que quede activa.
 
 <div align="center">
-<strong>Figura 16</strong><br />
+<img src="assets/chapter-04/wireflows/WF05_Responder_solicitud_y_preparar_envio.png" width="900" alt="Respuesta del proveedor y preparación del envío" /><br />
+<strong>Figura 21</strong><br />
 <em>Respuesta del proveedor y preparación del envío</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/wireflows/WF05_Responder_solicitud_y_preparar_envio.png" width="900" alt="Respuesta del proveedor y preparación del envío" />
 </div>
 
 **Descripción.** El proveedor revisa una solicitud pendiente, la acepta y crea una orden de envío para registrar la entrega.
 
 <div align="center">
-<strong>Figura 17</strong><br />
+<img src="assets/chapter-04/wireflows/WF06_Revisar_alerta_de_conservacion.png" width="900" alt="Revisión de una alerta de conservación" /><br />
+<strong>Figura 22</strong><br />
 <em>Revisión de una alerta de conservación</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/wireflows/WF06_Revisar_alerta_de_conservacion.png" width="900" alt="Revisión de una alerta de conservación" />
 </div>
 
 **Descripción.** El administrador consulta una condición fuera de rango, marca la alerta como leída y verifica nuevamente el monitoreo después de corregir físicamente el problema.
 
-<div align="center">
-<strong>Figura 18</strong><br />
-<em>Vista general de los wireflows de MarketGo</em><br />
-<small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/wireflows/Wireflows_Pagina_Completa.png" width="900" alt="Vista general de los wireflows de MarketGo" />
-</div>
-
-**Descripción.** La vista completa reúne los seis recorridos anteriores y muestra cómo se relacionan la landing page, el acceso y las tareas de administradores y proveedores.
-
 ### 4.4.3. Web Applications Mock-ups.
 
 <div align="center">
-<strong>Figura 19</strong><br />
-  <em>Mockup Web Application sección Dashboard</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 20</strong><br />
-  <em>Mockup Web Application sección Inventario</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 21</strong><br />
-  <em>Mockup Web Application sección Gestión de lotes</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
-<strong>Figura 22</strong><br />
-  <em>Mockup Web Application sección Conservación</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
-</div>
-
-<div align="center">
+<img src="assets/chapter-04/MockupWebApplicationDashboardSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 23</strong><br />
-  <em>Mockup Web Application sección Órdenes de envío</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Mockup Web Application sección Dashboard</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 <div align="center">
+<img src="assets/chapter-04/MockupWebApplicationInventarioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
 <strong>Figura 24</strong><br />
-  <em>Mockup Web Application sección Proveedores y Productos</em><br />
-  <small><em>Nota.</em> Elaboración propia.</small>
-  <br /><br />
-  <img src="assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" />
+<em>Mockup Web Application sección Inventario</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/MockupWebApplicationGestionLotesSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 25</strong><br />
+<em>Mockup Web Application sección Gestión de lotes</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/MockupWebApplicationConservacionSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 26</strong><br />
+<em>Mockup Web Application sección Conservación</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/MockupWebApplicationOrdenesEnvioSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 27</strong><br />
+<em>Mockup Web Application sección Órdenes de envío</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
+</div>
+
+<div align="center">
+<img src="assets/chapter-04/MockupWebApplicationProveedoresYProductosSection.png" width="400" alt="Landing page wireframe" style="border: 0.3px solid black;" /><br />
+<strong>Figura 28</strong><br />
+<em>Mockup Web Application sección Proveedores y Productos</em><br />
+<small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
 ### 4.4.4. Web Applications User Flow Diagrams.
@@ -617,84 +579,67 @@ Los wireflows muestran la secuencia de pantallas y acciones para seis recorridos
 Los User Flows detallan los objetivos del visitante, el administrador y el proveedor. Además de la ruta principal, las figuras muestran decisiones y resultados alternativos cuando corresponde.
 
 <div align="center">
-<strong>Figura 25</strong><br />
+<img src="assets/chapter-04/userflows/UF01_Crear_cuenta_e_ingresar.png" width="900" alt="Registro de cuenta e ingreso al sistema" /><br />
+<strong>Figura 29</strong><br />
 <em>Registro de cuenta e ingreso al sistema</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/userflows/UF01_Crear_cuenta_e_ingresar.png" width="900" alt="Registro de cuenta e ingreso al sistema" />
 </div>
 
 **Descripción.** El camino principal registra la cuenta y abre Inicio; la ruta alternativa muestra un correo ya registrado y permite corregirlo antes de continuar.
 
 <div align="center">
-<strong>Figura 26</strong><br />
+<img src="assets/chapter-04/userflows/UF02_Iniciar_sesion.png" width="900" alt="Inicio de sesión con validación de credenciales" /><br />
+<strong>Figura 30</strong><br />
 <em>Inicio de sesión con validación de credenciales</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/userflows/UF02_Iniciar_sesion.png" width="900" alt="Inicio de sesión con validación de credenciales" />
 </div>
 
 **Descripción.** Las credenciales válidas conducen al panel de Inicio. Si son incorrectas, el formulario muestra el error y permite volver a intentar.
 
 <div align="center">
-<strong>Figura 27</strong><br />
+<img src="assets/chapter-04/userflows/UF03_Solicitar_abastecimiento.png" width="900" alt="Solicitud de abastecimiento y confirmación de recepción" /><br />
+<strong>Figura 31</strong><br />
 <em>Solicitud de abastecimiento y confirmación de recepción</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/userflows/UF03_Solicitar_abastecimiento.png" width="900" alt="Solicitud de abastecimiento y confirmación de recepción" />
 </div>
 
 **Descripción.** El administrador registra la solicitud y confirma la recepción. Si faltan campos, el formulario permanece abierto hasta que se corrijan.
 
 <div align="center">
-<strong>Figura 28</strong><br />
+<img src="assets/chapter-04/userflows/UF04_Evitar_perdidas_por_vencimiento.png" width="900" alt="Registro de oferta para un lote próximo a vencer" /><br />
+<strong>Figura 32</strong><br />
 <em>Registro de oferta para un lote próximo a vencer</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/userflows/UF04_Evitar_perdidas_por_vencimiento.png" width="900" alt="Registro de oferta para un lote próximo a vencer" />
 </div>
 
 **Descripción.** El administrador activa una oferta válida; cantidades, precios o fechas incorrectos abren la ruta de corrección antes de guardar.
 
 <div align="center">
-<strong>Figura 29</strong><br />
+<img src="assets/chapter-04/userflows/UF05_Responder_solicitud_como_proveedor.png" width="900" alt="Respuesta del proveedor a una solicitud" /><br />
+<strong>Figura 33</strong><br />
 <em>Respuesta del proveedor a una solicitud</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/userflows/UF05_Responder_solicitud_como_proveedor.png" width="900" alt="Respuesta del proveedor a una solicitud" />
 </div>
 
 **Descripción.** El proveedor puede aceptar la solicitud y crear la orden de envío o rechazarla, dejando constancia de ambos resultados.
 
 <div align="center">
-<strong>Figura 30</strong><br />
+<img src="assets/chapter-04/userflows/UF06_Revisar_alerta_de_conservacion.png" width="900" alt="Seguimiento de una alerta de conservación" /><br />
+<strong>Figura 34</strong><br />
 <em>Seguimiento de una alerta de conservación</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/userflows/UF06_Revisar_alerta_de_conservacion.png" width="900" alt="Seguimiento de una alerta de conservación" />
 </div>
 
 **Descripción.** El administrador revisa y marca la alerta como leída; después verifica si la condición volvió al rango normal o si el riesgo persiste y requiere intervención.
 
 <div align="center">
-<strong>Figura 31</strong><br />
+<img src="assets/chapter-04/userflows/UF07_Evaluar_MarketGo_y_comenzar.png" width="900" alt="Evaluación de MarketGo desde la landing page" /><br />
+<strong>Figura 35</strong><br />
 <em>Evaluación de MarketGo desde la landing page</em><br />
 <small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/userflows/UF07_Evaluar_MarketGo_y_comenzar.png" width="900" alt="Evaluación de MarketGo desde la landing page" />
 </div>
 
 **Descripción.** El visitante compara planes, consulta Contacto y abre el acceso. El flujo también señala que el formulario de contacto todavía no confirma el envío.
-
-<div align="center">
-<strong>Figura 32</strong><br />
-<em>Vista general de los User Flows de MarketGo</em><br />
-<small><em>Nota.</em> Elaboración propia.</small>
-<br /><br />
-<img src="assets/chapter-04/userflows/Userflows_Pagina_Completa.png" width="900" alt="Vista general de los User Flows de MarketGo" />
-</div>
-
-**Descripción.** La vista completa reúne los siete flujos de usuario y sus rutas principales y alternativas.
 
 ## 4.5. Web Applications Prototyping.
 [Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
