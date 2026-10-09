@@ -82,6 +82,7 @@
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
 | 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Almonacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
+| 1.1.0 | 09/10/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Almonacid, Andre Sebastian<br>Torres Huaman, Alexis Calin | Corrección de observaciones de la entrega AV1:<br>Capítulo I: Lean UX Problem Statement con la plantilla oficial, Feature Assumptions y Hypothesis Statements en relación 1 a 1, Lean UX Canvas alineado con los User Personas y diferenciación frente a competidores.<br>Capítulo II: registro de entrevistas con video consolidado en Microsoft Stream y timing (hh:mm:ss) de inicio y duración; User Persona, Empathy Maps y Journey Maps elaborados en UXPressia; User Task Matrix y Ubiquitous Language alineados con el flujo de pedidos y órdenes de envío.<br>Capítulo III: User Stories del rol Visitante (US031–US033); Impact Mapping BG1 y BG2 elaborado en UXPressia; US032 actualizada a consulta de planes de suscripción.<br>Capítulo IV: leyendas de figuras, Wireflows y User Flows con rutas alternativas, EventStorming y diagrama de clases en SVG; eliminación de referencias a donaciones. |
 
 ---
 
@@ -911,7 +912,7 @@ Peru Marketplace facilita la conexión entre compradores y proveedores, pero Mar
 Para afrontar la dependencia de herramientas tradicionales como Excel y aplicaciones de mensajería, MarketGo buscará simplificar las principales operaciones de sus usuarios.
 
 - **Dashboard común:** utilizar una misma interfaz para ambos segmentos, reduciendo la complejidad de aprendizaje.
-- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como la generación de pedidos.
+- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como responder pedidos y generar órdenes de envío.
 - **Flujo simplificado:** reducir la cantidad de pasos necesarios para consultar productos, generar pedidos y actualizar el inventario.
 
 #### Estrategia de innovación y escalabilidad
@@ -990,7 +991,9 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 
 **Segmento objetivo: Administradores de Minimarkets**
 
-**Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
+**Video consolidado de entrevistas (Microsoft Stream):** `upc-pre-202620-1asi0730-8130-MarketLabs-needfinding-sprint-1.mp4` (duración total 00:41:46) – <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado</a>
+
+El video consolida las seis entrevistas de ambos segmentos. En cada registro se indica el *timing* (hh:mm:ss) en el que inicia la entrevista dentro del video y su duración.
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
@@ -1030,12 +1033,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 05:04</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:00:00</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:05:05</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 05:04</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQAO_S8vsY7wSLoGXu_zLohnAacAwmkheFzeSivboAvBNEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e0cCTv" target="_blank">Ver Video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:05:05</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:00:00)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1047,7 +1050,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `Entrevista Roly hans Luna.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1087,12 +1089,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 15:00</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:05:05</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:18:43</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 15:00</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQBD3_GD9iQdSaVNcGL-1ry4ATd8dDv7XB3Z7iXLqwA4PUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wlhYtj" target="_blank">Ver Video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:13:38</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:05:05)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1103,7 +1105,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `entrevisa_cesar_appweb - View-only.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1143,12 +1144,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 07:37</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:18:43</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:26:19</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 07:37</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAtjkovEx1wRr3eMlftO2sFAXlMxG88PDLfCn4uFfxvYMs?e=9CcTbz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:07:36</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:18:43)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1162,7 +1163,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 </table>
 
 **Segmento objetivo: Proveedores**
-**Nombre del archivo de video consolidado:** `Entrevista 04.mp4`
+Las entrevistas de este segmento continúan en el mismo video consolidado (`upc-pre-202620-1asi0730-8130-MarketLabs-needfinding-sprint-1.mp4`), a partir de 00:26:19.
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1202,12 +1203,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 04:06</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:26:19</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:30:40</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 04:06</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCquViaF_SnRquqfLHjWNN6AS7qnx40lGI0g6TNwS0gQzs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hXKRuG" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:04:21</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:26:19)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1218,7 +1219,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `Entrevista 05.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1258,12 +1258,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 03:18</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:30:40</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:33:57</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 03:18</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JsKV8z" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:03:17</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:30:40)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1274,7 +1274,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `segmmento proveedores.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1314,12 +1313,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 07:50</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:33:57</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:41:46</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 07:50</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCMSfrbXtL4RZKFfF1b3BmTAcRfWzPxNyHY7YMTQFX0CTM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BXNBH4" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:07:49</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:33:57)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1329,8 +1328,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 El proceso de abastecimiento comienza con la recepción de solicitudes de los minimarkets, seguida de la verificación de disponibilidad, confirmación, preparación de productos, revisión de lotes y coordinación del despacho. Cuando existen varios pedidos o modificaciones simultáneas, el seguimiento se vuelve más complejo y pueden producirse inconsistencias, como informar disponibilidad desactualizada o perder cambios realizados mediante conversaciones.
 
 En conclusión, se identifica la necesidad de centralizar la información de productos, lotes, disponibilidad y pedidos. Una plataforma que permita consultar y actualizar estos datos, además de visualizar el estado de cada operación, podría reducir la dependencia de archivos y conversaciones dispersas y facilitar la coordinación entre el proveedor y los minimarkets.
-      </td>
-    </tr>
+</td>
+</tr>
   </tbody>
 </table>
 
@@ -1428,7 +1427,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ### 2.3.2. User Task Matrix.
 
-Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
+Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y responder los pedidos de abastecimiento generando órdenes de envío. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
 
 **Tasks vs User Personas**
 
@@ -1439,15 +1438,16 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 | Monitorear temperatura y humedad (IoT) | Muy frecuente | Alta | No aplica | No aplica |
 | Controlar lotes y fechas de vencimiento | Muy frecuente | Alta | Frecuente | Alta |
 | Consultar catálogo de proveedores conectados | Frecuente | Alta | No aplica | No aplica |
-| Evaluar (aceptar/rechazar) pedidos entrantes | Frecuente | Alta | No aplica | No aplica |
+| Crear pedidos de abastecimiento | Frecuente | Alta | No aplica | No aplica |
+| Responder pedidos y generar órdenes de envío | No aplica | No aplica | Muy frecuente | Alta |
+| Aceptar o rechazar órdenes de envío | Frecuente | Alta | No aplica | No aplica |
 | Actualizar inventario tras operaciones | Frecuente | Alta | No aplica | No aplica |
 | Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
 | Visualizar dashboard de métricas operativas | Muy frecuente | Alta | Muy frecuente | Alta |
-| Gestionar mermas, pérdidas o donaciones | Ocasional | Media | No aplica | No aplica |
+| Gestionar mermas y ofertas de productos en riesgo | Ocasional | Media | No aplica | No aplica |
 | Comunicarse y resolver incidencias de logística | Ocasional | Alta | Frecuente | Alta |
 
-La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de MarketGo: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
-
+La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la respuesta oportuna a los pedidos recibidos. Estas diferencias reflejan el flujo central de MarketGo: el administrador crea el pedido de abastecimiento; el proveedor lo acepta o rechaza y, si lo acepta, genera la orden de envío; finalmente, el administrador acepta o rechaza esa orden, y solo al aceptarla el inventario del minimarket se actualiza automáticamente.
 ### 2.3.3. User Journey Mapping.
 
 El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de MarketGo, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
@@ -1462,7 +1462,7 @@ El User Journey Map de Russell Estrada ilustra la experiencia actual del segment
 
 ![User Journey Map - Proveedor B2B](report/assets/chapter-02/user-journey-proveedor.png)
 
-El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
+El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la recepción de pedidos y la generación de órdenes de envío, y brinde seguimiento en tiempo real.
 
 ### 2.3.4. Empathy Mapping.
 
@@ -1474,23 +1474,23 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 
 ##### **Segmento 1: Administrador de Minimarket Orgánico**
 
-* **Personaje :** Carlos Mendoza
-* **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
+* **Personaje:** Russell Estrada
+* **Edad / Rol:** 28 años, administrador de un minimarket de productos orgánicos en Lima (arquetipo *Guardian*).
 
-**Mapa de Empatía - Carlos Mendoza**
+**Mapa de Empatía - Russell Estrada**
 
-![Mapa de empatía del administrador Carlos Mendoza](report/assets/chapter-02/empathy-map-administrador.png)
+![Mapa de empatía del administrador Russell Estrada](report/assets/chapter-02/empathy-map-administrador.png)
 
 ---
 
-##### **Segmento 2: Proveedora y Distribuidora Mayorista**
+##### **Segmento 2: Proveedor y Distribuidor B2B**
 
-* **Personaje :** Valeria Ríos
-* **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
+* **Personaje:** Marco Antonio Ríos
+* **Edad / Rol:** 32 años, coordinador comercial de una distribuidora de productos orgánicos en Lurín que abastece a 30 minimarkets.
 
-**Mapa de Empatía - Valeria Ríos**
+**Mapa de Empatía - Marco Antonio Ríos**
 
-![Mapa de empatía de la proveedora Valeria Ríos](report/assets/chapter-02/empathy-map-proveedor.png)
+![Mapa de empatía del proveedor Marco Antonio Ríos](report/assets/chapter-02/empathy-map-proveedor.png)
 
 
 ## 2.4. Big Picture EventStorming.
@@ -1506,8 +1506,8 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 
 | Término | Definición |
 | :--- | :--- |
-| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, aprobar solicitudes de abastecimiento y consultar los indicadores de su negocio dentro de MarketGo. |
-| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, responde solicitudes de abastecimiento y genera órdenes de compra hacia los minimarkets. |
+| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, crear pedidos de abastecimiento, aceptar o rechazar órdenes de envío y consultar los indicadores de su negocio dentro de MarketGo. |
+| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, acepta o rechaza los pedidos de abastecimiento y genera órdenes de envío hacia los minimarkets. |
 | **Perfil de negocio** | Conjunto de datos que identifican a un administrador o proveedor dentro de la plataforma (razón social, RUC, cobertura, datos de contacto). |
 | **Rol** | Nivel de acceso asignado a un usuario (administrador o proveedor) que determina las acciones y vistas disponibles para él dentro del sistema. |
 | **Catálogo orgánico** | Read model que consolida todos los productos orgánicos registrados por un proveedor, con su categoría, precio y fecha de expiración validados. |
@@ -1515,15 +1515,15 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | **Stock mínimo** | Umbral configurado por producto que, al ser alcanzado, dispara el evento de stock bajo detectado y genera una alerta automática. |
 | **Inventario actual** | Read model que muestra en tiempo real la cantidad disponible de cada producto y lote dentro del almacén del minimarket o proveedor. |
 | **Alerta de stock bajo** | Notificación generada automáticamente cuando el inventario de un producto cae por debajo del stock mínimo configurado. |
-| **Solicitud (Requisition)** | Petición de abastecimiento creada por un administrador o proveedor, que puede ser aceptada o rechazada y cuyo estado es notificado a ambas partes. |
-| **Orden de compra (Procurement)** | Documento generado a partir de una solicitud aceptada, que formaliza la compra de productos entre el proveedor y el minimarket. |
-| **Recepción** | Confirmación de la llegada física de una orden de compra, que actualiza el inventario del minimarket solo si es aceptada. |
+| **Solicitud / Pedido de abastecimiento (Requisition)** | Petición de abastecimiento creada únicamente por el administrador del minimarket y dirigida a un proveedor, que este puede aceptar o rechazar; su estado se notifica a ambas partes. |
+| **Orden de envío (Shipping Order)** | Documento que el proveedor genera a partir de un pedido aceptado, con los productos, cantidades y lotes que serán despachados al minimarket. |
+| **Recepción** | Aceptación o rechazo de una orden de envío por parte del administrador; solo si es aceptada se actualiza automáticamente el inventario del minimarket. |
 | **Directorio de proveedores** | Read model que agrupa a todos los proveedores registrados y validados (RUC y cobertura) disponibles para un minimarket. |
 | **Dashboard** | Vista consolidada de indicadores operativos, distinta según el rol del usuario (administrador o proveedor), que resume el estado general del negocio. |
 | **Indicador / KPI** | Métrica operativa calculada por el sistema (por ejemplo, mermas, nivel de stock o pedidos pendientes) y mostrada en el dashboard. |
 | **Reporte operativo** | Documento generado por el módulo de Analytics que resume métricas y variaciones de un periodo determinado. |
 | **Conservación (Conservation)** | Contexto vinculado al monitoreo de condiciones ambientales (temperatura y humedad) que afectan la calidad de los productos orgánicos almacenados. |
-| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de una solicitud o una alerta de inventario). |
+| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de un pedido, de una orden de envío o una alerta de inventario). |
 
 ---
 
@@ -1599,7 +1599,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | US 029 | Controlar acceso según operación | **Como** usuario de MarketGo,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede gestionar sus pedidos e inventario y aceptar o rechazar órdenes de envío, pero no modificar directamente las órdenes creadas por el proveedor.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede consultar y aceptar o rechazar pedidos recibidos y gestionar sus órdenes de envío, pero no modificar directamente el inventario del minimarket. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de MarketGo,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede al dashboard,<br>**Entonces** el sistema muestra información relevante de inventario, conservación, pedidos, órdenes de envío y alertas correspondientes a su operación.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede al mismo dashboard,<br>**Entonces** el sistema muestra información relevante de productos ofrecidos, pedidos recibidos y órdenes de envío según sus permisos. | EP-07 |
 | US 031 | Explorar propuesta de valor en landing page | **Como** visitante,<br>**Quiero** visualizar la página principal e informativa de MarketGo,<br>**Para** entender la propuesta de valor y los beneficios del sistema antes de registrarme. | **Escenario 1: Navegación pública**<br>**Dado** que un usuario sin sesión activa accede a la URL principal,<br>**Cuando** navega por el sitio,<br>**Entonces** el sistema le despliega la información del servicio, beneficios para minimarkets y proveedores, y accesos visibles para iniciar sesión o registrarse.<br><br>**Escenario 2: Redirección de autenticado**<br>**Dado** que un usuario ya ha iniciado sesión,<br>**Cuando** ingresa a la landing page,<br>**Entonces** el sistema le ofrece un acceso directo al Dashboard. | EP-08 |
-| US 032 | Consultar planes | **Como** visitante,<br>**Quiero** visualizar el directorio de proveedores públicos y sus productos destacados,<br>**Para** evaluar la oferta de productos orgánicos disponibles antes de afiliar mi minimarket. | **Escenario 1: Consulta de directorio**<br>**Dado** que el visitante está en la sección pública de proveedores,<br>**Cuando** examina la lista,<br>**Entonces** el sistema muestra los proveedores verificados y sus categorías de productos sin exponer precios ni datos de contacto directo de la transacción.<br><br>**Escenario 2: Intento de compra o pedido**<br>**Dado** que el visitante intenta realizar un pedido desde la vista pública,<br>**Cuando** presiona el botón de acción,<br>**Entonces** el sistema lo redirige a la pantalla de Inicio de Sesión / Registro indicando que requiere una cuenta activa. | EP-05 / EP-08 |
+| US 032 | Consultar planes de suscripción | **Como** visitante,<br>**Quiero** visualizar los planes de suscripción de MarketGo (Básico, Profesional y Empresarial) con sus precios y funcionalidades incluidas,<br>**Para** elegir el plan que mejor se adapte al tamaño de mi minimarket o distribuidora antes de registrarme. | **Escenario 1: Consulta de planes**<br>**Dado** que el visitante se encuentra en la landing page,<br>**Cuando** accede a la sección de planes,<br>**Entonces** el sistema muestra los planes Básico, Profesional y Empresarial con su precio mensual, las funcionalidades incluidas y el segmento recomendado.<br><br>**Escenario 2: Selección de un plan**<br>**Dado** que el visitante está revisando los planes,<br>**Cuando** presiona el botón de suscripción de un plan,<br>**Entonces** el sistema lo redirige a la pantalla de registro con el plan seleccionado. | EP-08 |
 | US 033 | Solicitar información de registro o demo | **Como** visitante,<br>**Quiero** enviar un formulario de contacto o solicitud de demo,<br>**Para** recibir atención personalizada y evaluar la adopción de MarketGo en mi negocio. | **Escenario 1: Envío con datos válidos**<br>**Dado** que el visitante completa el formulario público (nombre, correo, tipo de negocio y teléfono),<br>**Cuando** confirma el envío,<br>**Entonces** el sistema guarda la solicitud y muestra un mensaje de confirmación.<br><br>**Escenario 2: Formulario incompleto**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema bloquea el envío y resalta los campos requeridos. | EP-06 / EP-08 |
 
 ### Technical Stories
@@ -1703,12 +1703,14 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 ## 3.2. Impact Mapping.
 El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
-<p align="center">
-  <img src="report/assets/chapter-03/impact-mapping.png" alt="Impact Mapping de MarketGo" width="100%">
-</p>
-<p align="center"><em>Figura: Impact Mapping de MarketGo (Business Goals → Personas → Impacts → Deliverables → User Stories).</em></p>
+Ambos Impact Maps fueron elaborados en UXPressia y vinculan directamente las fichas de User Persona de Russell Estrada y Marco Antonio Ríos.
 
 **Business Goal 1 – Reducción de mermas (Persona: Russell Estrada, administrador de minimarket orgánico)**
+
+<p align="center">
+  <img src="report/assets/chapter-03/impact-mapping-bg1.png" alt="Impact Map BG1 de MarketGo en UXPressia" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Map BG1 – Reducción de mermas (UXPressia).</em></p>
 
 | Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
 |---|---|---|---|---|
@@ -1721,6 +1723,11 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 
 **Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
 
+<p align="center">
+  <img src="report/assets/chapter-03/impact-mapping-bg2.png" alt="Impact Map BG2 de MarketGo en UXPressia" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Map BG2 – Agilización del abastecimiento (UXPressia).</em></p>
+
 | Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
 |---|---|---|---|---|
 | Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
@@ -1730,9 +1737,9 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 | | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
 | | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
 | | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
-| Agilización del abastecimiento y captación de clientes | Visitante | Conoce la oferta y los beneficios de la plataforma antes de iniciar la gestión comercial. | Portal de bienvenida y catálogo público demostrativo | US031, US032, US033 |
+| | Visitante | Conoce la propuesta de valor y los planes de suscripción antes de registrarse, sin necesidad de contactar a un vendedor. | Landing page con planes y formulario de contacto | US031, US032, US033 |
 
-De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
+El actor Visitante complementa el BG2 desde la landing page: no corresponde a un User Persona, por lo que se registra en la tabla y no en el mapa de UXPressia. De esta forma, las 33 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
 
 
 ## 3.3. Product Backlog.
@@ -1800,10 +1807,10 @@ De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al meno
 | 59 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 | 61 | US-031 | Explorar propuesta de valor | Como visitante, quiero visualizar la información general de MarketGo para entender sus beneficios. | 2 |
-| 62 | US-032 | Consultar directorio público | Como visitante, quiero ver planes para conocer los productos disponibles en la plataforma. | 3 |
+| 62 | US-032 | Consultar planes de suscripción | Como visitante, quiero visualizar los planes de suscripción con sus precios y funcionalidades para elegir el que se adapte a mi negocio antes de registrarme. | 3 |
 | 63 | US-033 | Solicitar información o demo | Como visitante, quiero enviar un formulario de contacto para solicitar información comercial o una prueba del sistema. | 2 |
 
-**Enlace directo al tablero:** 
+**Enlace directo al tablero:**
 **Tablero Sprint 1: Trello**
 [Tablero Sprint 1 en Trello](https://trello.com/b/AyBgUYcT/springbacklog1)
 
@@ -1984,8 +1991,8 @@ Tabler Icons (estilo outline/línea), por tres razones:
 | **Abastecimiento y proveedores** | Documento con líneas | Pedido / orden |
 | | Historial / reloj con flecha circular | Historial de abastecimiento |
 | | Insignia con check | Certificación orgánica |
-| **Merma y donación** | Caja tachada o cesto | Registrar merma |
-| | Corazón o mano ofreciendo | Registrar donación |
+| **Merma y ofertas** | Caja tachada o cesto | Registrar merma |
+| | Etiqueta de precio con signo de porcentaje | Registrar oferta |
 
  
 | Propiedad | Valor |
@@ -2086,7 +2093,7 @@ Reglas: sustantivos cortos (1–2 palabras), sin verbos, consistentes con lo ya 
 
 - Botones primarios: "Registrar lote", "Registrar producto", "Aceptar pedido", "Confirmar rechazo", "Guardar lote"
 - Botones secundarios/cancelación: "Cancelar", "Rechazar"
-- Acciones en línea (íconos con tooltip): "Ver detalle", "Editar", "Eliminar", "Registrar merma", "Registrar donación"
+- Acciones en línea (íconos con tooltip): "Ver detalle", "Editar", "Eliminar", "Registrar merma", "Registrar oferta"
 - Acciones de filtrado y búsqueda: "Buscar producto o código de lote", "Filtrar por estado"
 
 **Etiquetas de Estado y Datos (Informational Labels)**

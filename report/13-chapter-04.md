@@ -169,8 +169,8 @@ Tabler Icons (estilo outline/línea), por tres razones:
 | **Abastecimiento y proveedores** | Documento con líneas | Pedido / orden |
 | | Historial / reloj con flecha circular | Historial de abastecimiento |
 | | Insignia con check | Certificación orgánica |
-| **Merma y donación** | Caja tachada o cesto | Registrar merma |
-| | Corazón o mano ofreciendo | Registrar donación |
+| **Merma y ofertas** | Caja tachada o cesto | Registrar merma |
+| | Etiqueta de precio con signo de porcentaje | Registrar oferta |
 
  
 | Propiedad | Valor |
@@ -271,7 +271,7 @@ Reglas: sustantivos cortos (1–2 palabras), sin verbos, consistentes con lo ya 
 
 - Botones primarios: "Registrar lote", "Registrar producto", "Aceptar pedido", "Confirmar rechazo", "Guardar lote"
 - Botones secundarios/cancelación: "Cancelar", "Rechazar"
-- Acciones en línea (íconos con tooltip): "Ver detalle", "Editar", "Eliminar", "Registrar merma", "Registrar donación"
+- Acciones en línea (íconos con tooltip): "Ver detalle", "Editar", "Eliminar", "Registrar merma", "Registrar oferta"
 - Acciones de filtrado y búsqueda: "Buscar producto o código de lote", "Filtrar por estado"
 
 **Etiquetas de Estado y Datos (Informational Labels)**
