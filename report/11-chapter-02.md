@@ -782,7 +782,6 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 | Monitorear temperatura y humedad (IoT) | Muy frecuente | Alta | No aplica | No aplica |
 | Controlar lotes y fechas de vencimiento | Muy frecuente | Alta | Frecuente | Alta |
 | Consultar catálogo de proveedores conectados | Frecuente | Alta | No aplica | No aplica |
-| Generar pedidos de abastecimiento | No aplica | No aplica | Muy frecuente | Alta |
 | Evaluar (aceptar/rechazar) pedidos entrantes | Frecuente | Alta | No aplica | No aplica |
 | Actualizar inventario tras operaciones | Frecuente | Alta | No aplica | No aplica |
 | Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
