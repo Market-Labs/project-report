@@ -70,7 +70,7 @@
 | US 029 | Controlar acceso según operación | **Como** usuario de MarketGo,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede gestionar sus pedidos e inventario y aceptar o rechazar órdenes de envío, pero no modificar directamente las órdenes creadas por el proveedor.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede consultar y aceptar o rechazar pedidos recibidos y gestionar sus órdenes de envío, pero no modificar directamente el inventario del minimarket. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de MarketGo,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede al dashboard,<br>**Entonces** el sistema muestra información relevante de inventario, conservación, pedidos, órdenes de envío y alertas correspondientes a su operación.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede al mismo dashboard,<br>**Entonces** el sistema muestra información relevante de productos ofrecidos, pedidos recibidos y órdenes de envío según sus permisos. | EP-07 |
 | US 031 | Explorar propuesta de valor en landing page | **Como** visitante,<br>**Quiero** visualizar la página principal e informativa de MarketGo,<br>**Para** entender la propuesta de valor y los beneficios del sistema antes de registrarme. | **Escenario 1: Navegación pública**<br>**Dado** que un usuario sin sesión activa accede a la URL principal,<br>**Cuando** navega por el sitio,<br>**Entonces** el sistema le despliega la información del servicio, beneficios para minimarkets y proveedores, y accesos visibles para iniciar sesión o registrarse.<br><br>**Escenario 2: Redirección de autenticado**<br>**Dado** que un usuario ya ha iniciado sesión,<br>**Cuando** ingresa a la landing page,<br>**Entonces** el sistema le ofrece un acceso directo al Dashboard. | EP-08 |
-| US 032 | Consultar directorio público de proveedores | **Como** visitante,<br>**Quiero** visualizar el directorio de proveedores públicos y sus productos destacados,<br>**Para** evaluar la oferta de productos orgánicos disponibles antes de afiliar mi minimarket. | **Escenario 1: Consulta de directorio**<br>**Dado** que el visitante está en la sección pública de proveedores,<br>**Cuando** examina la lista,<br>**Entonces** el sistema muestra los proveedores verificados y sus categorías de productos sin exponer precios ni datos de contacto directo de la transacción.<br><br>**Escenario 2: Intento de compra o pedido**<br>**Dado** que el visitante intenta realizar un pedido desde la vista pública,<br>**Cuando** presiona el botón de acción,<br>**Entonces** el sistema lo redirige a la pantalla de Inicio de Sesión / Registro indicando que requiere una cuenta activa. | EP-05 / EP-08 |
+| US 032 | Consultar planes de suscripción | **Como** visitante,<br>**Quiero** visualizar los planes de suscripción de MarketGo (Básico, Profesional y Empresarial) con sus precios y funcionalidades incluidas,<br>**Para** elegir el plan que mejor se adapte al tamaño de mi minimarket o distribuidora antes de registrarme. | **Escenario 1: Consulta de planes**<br>**Dado** que el visitante se encuentra en la landing page,<br>**Cuando** accede a la sección de planes,<br>**Entonces** el sistema muestra los planes Básico, Profesional y Empresarial con su precio mensual, las funcionalidades incluidas y el segmento recomendado.<br><br>**Escenario 2: Selección de un plan**<br>**Dado** que el visitante está revisando los planes,<br>**Cuando** presiona el botón de suscripción de un plan,<br>**Entonces** el sistema lo redirige a la pantalla de registro con el plan seleccionado. | EP-08 |
 | US 033 | Solicitar información de registro o demo | **Como** visitante,<br>**Quiero** enviar un formulario de contacto o solicitud de demo,<br>**Para** recibir atención personalizada y evaluar la adopción de MarketGo en mi negocio. | **Escenario 1: Envío con datos válidos**<br>**Dado** que el visitante completa el formulario público (nombre, correo, tipo de negocio y teléfono),<br>**Cuando** confirma el envío,<br>**Entonces** el sistema guarda la solicitud y muestra un mensaje de confirmación.<br><br>**Escenario 2: Formulario incompleto**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema bloquea el envío y resalta los campos requeridos. | EP-06 / EP-08 |
 
 ### Technical Stories
@@ -174,12 +174,14 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 ## 3.2. Impact Mapping.
 El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
-<p align="center">
-  <img src="assets/chapter-03/impact-mapping.png" alt="Impact Mapping de MarketGo" width="100%">
-</p>
-<p align="center"><em>Figura: Impact Mapping de MarketGo (Business Goals → Personas → Impacts → Deliverables → User Stories).</em></p>
+Ambos Impact Maps fueron elaborados en UXPressia y vinculan directamente las fichas de User Persona de Russell Estrada y Marco Antonio Ríos.
 
 **Business Goal 1 – Reducción de mermas (Persona: Russell Estrada, administrador de minimarket orgánico)**
+
+<p align="center">
+  <img src="assets/chapter-03/impact-mapping-bg1.png" alt="Impact Map BG1 de MarketGo en UXPressia" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Map BG1 – Reducción de mermas (UXPressia).</em></p>
 
 | Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
 |---|---|---|---|---|
@@ -192,6 +194,11 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 
 **Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
 
+<p align="center">
+  <img src="assets/chapter-03/impact-mapping-bg2.png" alt="Impact Map BG2 de MarketGo en UXPressia" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Map BG2 – Agilización del abastecimiento (UXPressia).</em></p>
+
 | Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
 |---|---|---|---|---|
 | Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
@@ -201,9 +208,9 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 | | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
 | | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
 | | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
-| Agilización del abastecimiento y captación de clientes | Visitante | Conoce la oferta y los beneficios de la plataforma antes de iniciar la gestión comercial. | Portal de bienvenida y catálogo público demostrativo | US031, US032, US033 |
+| | Visitante | Conoce la propuesta de valor y los planes de suscripción antes de registrarse, sin necesidad de contactar a un vendedor. | Landing page con planes y formulario de contacto | US031, US032, US033 |
 
-De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
+El actor Visitante complementa el BG2 desde la landing page: no corresponde a un User Persona, por lo que se registra en la tabla y no en el mapa de UXPressia. De esta forma, las 33 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
 
 
 ## 3.3. Product Backlog.
@@ -271,10 +278,10 @@ De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al meno
 | 59 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 | 61 | US-031 | Explorar propuesta de valor | Como visitante, quiero visualizar la información general de MarketGo para entender sus beneficios. | 2 |
-| 62 | US-032 | Consultar directorio público | Como visitante, quiero ver el directorio público de proveedores para conocer los productos disponibles en la plataforma. | 3 |
+| 62 | US-032 | Consultar planes de suscripción | Como visitante, quiero visualizar los planes de suscripción con sus precios y funcionalidades para elegir el que se adapte a mi negocio antes de registrarme. | 3 |
 | 63 | US-033 | Solicitar información o demo | Como visitante, quiero enviar un formulario de contacto para solicitar información comercial o una prueba del sistema. | 2 |
 
-**Enlace directo al tablero:** 
+**Enlace directo al tablero:**
 **Tablero Sprint 1: Trello**
 [Tablero Sprint 1 en Trello](https://trello.com/b/AyBgUYcT/springbacklog1)
 

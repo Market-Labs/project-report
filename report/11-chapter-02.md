@@ -66,7 +66,7 @@ Este análisis permite identificar cómo se posiciona **MarketGo** frente a solu
     <tr>
       <td rowspan="3"><strong>Perfil de Producto</strong></td>
       <td>Productos &amp; Servicios</td>
-      <td>Gestión de inventarios, lotes, vencimientos, conservación, alertas, mermas, donaciones, productos de proveedores y pedidos de abastecimiento.</td>
+      <td>Gestión de inventarios, lotes, vencimientos, conservación, alertas, mermas, productos de proveedores y pedidos de abastecimiento.</td>
       <td>Monitoreo de temperatura y humedad, seguimiento de productos frescos, alertas y herramientas para control de conservación.</td>
       <td>Gestión de inventario, seguimiento de lotes, fechas de vencimiento y herramientas para reducir pérdidas.</td>
       <td>Marketplace B2B, búsqueda de proveedores, productos, solicitudes, cotizaciones y pedidos.</td>
@@ -254,7 +254,7 @@ Peru Marketplace facilita la conexión entre compradores y proveedores, pero Mar
 Para afrontar la dependencia de herramientas tradicionales como Excel y aplicaciones de mensajería, MarketGo buscará simplificar las principales operaciones de sus usuarios.
 
 - **Dashboard común:** utilizar una misma interfaz para ambos segmentos, reduciendo la complejidad de aprendizaje.
-- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como la generación de pedidos.
+- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como responder pedidos y generar órdenes de envío.
 - **Flujo simplificado:** reducir la cantidad de pasos necesarios para consultar productos, generar pedidos y actualizar el inventario.
 
 #### Estrategia de innovación y escalabilidad
@@ -333,8 +333,9 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 
 **Segmento objetivo: Administradores de Minimarkets**
 
-**Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
+**Video consolidado de entrevistas (Microsoft Stream):** `upc-pre-202620-1asi0730-8130-MarketLabs-needfinding-sprint-1.mp4` (duración total 00:41:46) – <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado</a>
 
+El video consolida las seis entrevistas de ambos segmentos. En cada registro se indica el *timing* (hh:mm:ss) en el que inicia la entrevista dentro del video y su duración.
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
@@ -374,9 +375,13 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 05:04</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">https://youtu.be/BuiCkyydM7k</a></td>
-</tr>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:00:00</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:05:05</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: 00:05:05</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:00:00)</a></td>
+    </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
@@ -426,8 +431,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [15:00]</td>
-      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">https://youtu.be/NzzEsy9Kx7Y</a></td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:05:05</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:18:43</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: 00:13:38</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:05:05)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -437,7 +446,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
   </tbody>
 </table>
-
 
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
@@ -463,7 +471,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td><strong>Edad</strong></td>
       <td>38 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>Sistema operativo y navegador</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
@@ -478,8 +486,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAtjkovEx1wRr3eMlftO2sFAXlMxG88PDLfCn4uFfxvYMs?e=9CcTbz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:18:43</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:26:19</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: 00:07:36</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:18:43)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -492,6 +504,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
+**Segmento objetivo: Proveedores**
+Las entrevistas de este segmento continúan en el mismo video consolidado (`upc-pre-202620-1asi0730-8130-MarketLabs-needfinding-sprint-1.mp4`), a partir de 00:26:19.
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -531,8 +545,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [04:06]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/personal/u202410746_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410746%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202026%2D09%2D13%20at%209%2E09%2E01%20PM%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea50bc394%2D6f9c%2D4932%2Db137%2D8b9b49babf91" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:26:19</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:30:40</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: 00:04:21</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:26:19)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -582,8 +600,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [03:18]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ya7Fk5" target="_blank">ver video</a></td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:30:40</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:33:57</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: 00:03:17</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:30:40)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -593,7 +615,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
     </tr>
   </tbody>
 </table>
-
 
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
@@ -634,8 +655,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">https://youtu.be/A0u3vSoaUJk</a></td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:33:57</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:41:46</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: 00:07:49</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:33:57)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -645,8 +670,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 El proceso de abastecimiento comienza con la recepción de solicitudes de los minimarkets, seguida de la verificación de disponibilidad, confirmación, preparación de productos, revisión de lotes y coordinación del despacho. Cuando existen varios pedidos o modificaciones simultáneas, el seguimiento se vuelve más complejo y pueden producirse inconsistencias, como informar disponibilidad desactualizada o perder cambios realizados mediante conversaciones.
 
 En conclusión, se identifica la necesidad de centralizar la información de productos, lotes, disponibilidad y pedidos. Una plataforma que permita consultar y actualizar estos datos, además de visualizar el estado de cada operación, podría reducir la dependencia de archivos y conversaciones dispersas y facilitar la coordinación entre el proveedor y los minimarkets.
-      </td>
-    </tr>
+</td>
+</tr>
   </tbody>
 </table>
 
@@ -694,6 +719,40 @@ Los principales problemas identificados se relacionan con el tiempo empleado en 
 
 A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de MarketGo.
 
+**Segmento objetivo: Proveedores de Productos Orgánicos**
+
+#### 1. Descripción general del segmento
+
+Este segmento agrupa a proveedores, distribuidores y comerciantes mayoristas responsables de comercializar alimentos y productos orgánicos a minimarkets y pequeños comercios. Sus actividades incluyen la gestión de catálogos, control de disponibilidad, seguimiento de lotes, recepción y preparación de pedidos de abastecimiento, así como la coordinación logística de entregas. A partir de las entrevistas realizadas a los proveedores (Álvaro Chojaga, Luz Rojas y Anita Gamboa), se identificaron patrones operativos alineados al uso de herramientas digitales desarticuladas, la alta carga de trabajo manual y los cuellos de botella generados por la falta de un canal comercial unificado. Estos hallazgos sirven como fundamento para la construcción del arquetipo representativo.
+
+#### 2. Características objetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+| :--- | :---: | :--- | :--- |
+| **Uso de hojas de cálculo (Excel) para el catálogo y control interno** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Todos los proveedores emplean Microsoft Excel como herramienta principal para registrar sus listas de productos, precios y control de lotes. | El arquetipo domina herramientas de escritorio tradicionales, pero sufre de desactualización constante al no estar conectadas en tiempo real con sus clientes. |
+| **Uso intensivo de WhatsApp para la gestión comercial y pedidos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** La recepción de solicitudes, confirmación de precios, coordinación de despachos y cambios se realiza de manera casi exclusiva por WhatsApp. | El arquetipo depende de la mensajería instantánea para vender, lo que provoca dispersión de la información y pérdida de histórico de pedidos. |
+| **Atención dispersa entre múltiples dispositivos (Celular y Laptop)** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Utilizan el celular para responder rápidamente a clientes en movimiento y la laptop para revisar inventarios y cotizaciones. | El arquetipo requiere una plataforma web con alta accesibilidad responsive para operar en oficina o en almacén/campo. |
+| **Proceso manual de verificación y actualización de disponibilidad** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Al recibir un pedido, deben validar manualmente contra su stock o cuadernos si cuentan con los productos antes de confirmar al minimarket. | El arquetipo pierde tiempo operativo en revisiones manuales, expuesto a ofrecer disponibilidad de stock desactualizada. |
+
+#### 3. Características subjetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+| :--- | :---: | :--- | :--- |
+| **Frustración por errores de comunicación y modificaciones por chat** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Expresan que los cambios de último momento o malentendidos en conversaciones de WhatsApp generan despachos erróneos o inconsistencias. | El arquetipo busca estandarizar la toma de pedidos para evitar reprocesos y pérdidas económicas por devoluciones. |
+| **Necesidad de visibilidad y trazabilidad en el estado de los pedidos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Identifican como un problema la falta de seguimiento claro desde que el pedido es solicitado, preparado, despachado hasta que es recibido por el minimarket. | El arquetipo valora contar con un flujo de estados transparente que reduzca las constantes llamadas y mensajes de consulta de los clientes. |
+| **Deseo de proyectar una imagen más profesional y digital** | **67% (2/3)** | **Entrevistas 4 y 5:** Destacan que una plataforma digital les permite publicitar sus productos orgánicos, resaltar certificaciones/calidad sanitaria y diferenciarse de competidores informales. | El arquetipo busca herramientas de cara al cliente que eleven su valor percibido y faciliten la captura de nuevos minimarkets. |
+| **Preocupación por la gestión y vencimiento de lotes orgánicos** | **100% (3/3)** | **Entrevistas 4, 5 y 6:** Al comercializar productos perecibles u orgánicos, la rotación adecuada de lotes para evitar que expiren en almacén es una prioridad constante. | El arquetipo necesita vincular los lotes de salida directamente a las solicitudes para garantizar frescura en la entrega. |
+
+#### 4. Hallazgos principales
+
+- **Silos de información y reproceso por canales informales (100% de coincidencia):** Los tres proveedores operan triangulando información entre hojas de Excel locales y chats de WhatsApp. La falta de un canal unificado provoca transcripciones manuales de pedidos, errores en cantidades/lotes e inconsistencias al comunicar la disponibilidad a los minimarkets.
+- **Vulnerabilidad en la cadena de abastecimiento perecible (100% de coincidencia):** La naturaleza de los productos orgánicos exige un control estricto de rotación y tiempos de despacho. Las demoras generadas por la confirmación manual de stock y la falta de seguimiento de entrega impactan directamente en la calidad del producto entregado.
+- **Aceptación hacia la centralización B2B (100% de coincidencia):** Todos los entrevistados coinciden en que contar con una plataforma que centralice su catálogo, controle su stock/lotes disponible y automatice la recepción y seguimiento de pedidos agilizaría drásticamente su logística.
+
+#### 5. Conclusión del segmento
+
+Las entrevistas realizadas a los proveedores de productos orgánicos revelan una dinámica comercial fuertemente atada a la combinación de hojas de cálculo de Excel y aplicaciones de mensajería instantánea (WhatsApp). Si bien este esquema les ha permitido operar de forma empírica, genera cuellos de botella severos cuando el volumen de minimarkets o solicitudes aumenta. Los dolores operativos clave se concentran en la transcripción manual de pedidos, la actualización tardía de stock disponible, la falta de trazabilidad en las etapas del despacho y el riesgo constante de vencimiento de lotes perecibles. Además, la coordinación informal provoca malentendidos sobre precios o cantidades que deterioran la relación comercial con los administradores de minimarkets. A partir de estos patrones, el arquetipo del proveedor puede definirse como un comerciante o gestor B2B proactivo, adaptable al entorno móvil y web, que necesita optimizar sus tiempos de atención. Sus expectativas respecto a MarketGo se orientan a disponer de un canal profesional para exponer su catálogo orgánico, automatizar la entrada de solicitudes conectadas al stock de lotes, proyectar trazabilidad en los despachos y reducir los errores de comunicación a cero.
+
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
@@ -710,7 +769,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ### 2.3.2. User Task Matrix.
 
-Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
+Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y responder los pedidos de abastecimiento generando órdenes de envío. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
 
 **Tasks vs User Personas**
 
@@ -721,16 +780,16 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 | Monitorear temperatura y humedad (IoT) | Muy frecuente | Alta | No aplica | No aplica |
 | Controlar lotes y fechas de vencimiento | Muy frecuente | Alta | Frecuente | Alta |
 | Consultar catálogo de proveedores conectados | Frecuente | Alta | No aplica | No aplica |
-| Generar pedidos de abastecimiento | No aplica | No aplica | Muy frecuente | Alta |
-| Evaluar (aceptar/rechazar) pedidos entrantes | Frecuente | Alta | No aplica | No aplica |
+| Crear pedidos de abastecimiento | Frecuente | Alta | No aplica | No aplica |
+| Responder pedidos y generar órdenes de envío | No aplica | No aplica | Muy frecuente | Alta |
+| Aceptar o rechazar órdenes de envío | Frecuente | Alta | No aplica | No aplica |
 | Actualizar inventario tras operaciones | Frecuente | Alta | No aplica | No aplica |
 | Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
 | Visualizar dashboard de métricas operativas | Muy frecuente | Alta | Muy frecuente | Alta |
-| Gestionar mermas, pérdidas o donaciones | Ocasional | Media | No aplica | No aplica |
+| Gestionar mermas y ofertas de productos en riesgo | Ocasional | Media | No aplica | No aplica |
 | Comunicarse y resolver incidencias de logística | Ocasional | Alta | Frecuente | Alta |
 
-La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de MarketGo: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
-
+La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la respuesta oportuna a los pedidos recibidos. Estas diferencias reflejan el flujo central de MarketGo: el administrador crea el pedido de abastecimiento; el proveedor lo acepta o rechaza y, si lo acepta, genera la orden de envío; finalmente, el administrador acepta o rechaza esa orden, y solo al aceptarla el inventario del minimarket se actualiza automáticamente.
 ### 2.3.3. User Journey Mapping.
 
 El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de MarketGo, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
@@ -745,7 +804,7 @@ El User Journey Map de Russell Estrada ilustra la experiencia actual del segment
 
 ![User Journey Map - Proveedor B2B](assets/chapter-02/user-journey-proveedor.png)
 
-El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
+El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la recepción de pedidos y la generación de órdenes de envío, y brinde seguimiento en tiempo real.
 
 ### 2.3.4. Empathy Mapping.
 
@@ -757,23 +816,23 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 
 ##### **Segmento 1: Administrador de Minimarket Orgánico**
 
-* **Personaje :** Carlos Mendoza
-* **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
+* **Personaje:** Russell Estrada
+* **Edad / Rol:** 28 años, administrador de un minimarket de productos orgánicos en Lima (arquetipo *Guardian*).
 
-**Mapa de Empatía - Carlos Mendoza**
+**Mapa de Empatía - Russell Estrada**
 
-![Mapa de empatía del administrador Carlos Mendoza](assets/chapter-02/empathy-map-administrador.png)
+![Mapa de empatía del administrador Russell Estrada](assets/chapter-02/empathy-map-administrador.png)
 
 ---
 
-##### **Segmento 2: Proveedora y Distribuidora Mayorista**
+##### **Segmento 2: Proveedor y Distribuidor B2B**
 
-* **Personaje :** Valeria Ríos
-* **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
+* **Personaje:** Marco Antonio Ríos
+* **Edad / Rol:** 32 años, coordinador comercial de una distribuidora de productos orgánicos en Lurín que abastece a 30 minimarkets.
 
-**Mapa de Empatía - Valeria Ríos**
+**Mapa de Empatía - Marco Antonio Ríos**
 
-![Mapa de empatía de la proveedora Valeria Ríos](assets/chapter-02/empathy-map-proveedor.png)
+![Mapa de empatía del proveedor Marco Antonio Ríos](assets/chapter-02/empathy-map-proveedor.png)
 
 
 ## 2.4. Big Picture EventStorming.
@@ -789,8 +848,8 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 
 | Término | Definición |
 | :--- | :--- |
-| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, aprobar solicitudes de abastecimiento y consultar los indicadores de su negocio dentro de MarketGo. |
-| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, responde solicitudes de abastecimiento y genera órdenes de compra hacia los minimarkets. |
+| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, crear pedidos de abastecimiento, aceptar o rechazar órdenes de envío y consultar los indicadores de su negocio dentro de MarketGo. |
+| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, acepta o rechaza los pedidos de abastecimiento y genera órdenes de envío hacia los minimarkets. |
 | **Perfil de negocio** | Conjunto de datos que identifican a un administrador o proveedor dentro de la plataforma (razón social, RUC, cobertura, datos de contacto). |
 | **Rol** | Nivel de acceso asignado a un usuario (administrador o proveedor) que determina las acciones y vistas disponibles para él dentro del sistema. |
 | **Catálogo orgánico** | Read model que consolida todos los productos orgánicos registrados por un proveedor, con su categoría, precio y fecha de expiración validados. |
@@ -798,12 +857,12 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | **Stock mínimo** | Umbral configurado por producto que, al ser alcanzado, dispara el evento de stock bajo detectado y genera una alerta automática. |
 | **Inventario actual** | Read model que muestra en tiempo real la cantidad disponible de cada producto y lote dentro del almacén del minimarket o proveedor. |
 | **Alerta de stock bajo** | Notificación generada automáticamente cuando el inventario de un producto cae por debajo del stock mínimo configurado. |
-| **Solicitud (Requisition)** | Petición de abastecimiento creada por un administrador o proveedor, que puede ser aceptada o rechazada y cuyo estado es notificado a ambas partes. |
-| **Orden de compra (Procurement)** | Documento generado a partir de una solicitud aceptada, que formaliza la compra de productos entre el proveedor y el minimarket. |
-| **Recepción** | Confirmación de la llegada física de una orden de compra, que actualiza el inventario del minimarket solo si es aceptada. |
+| **Solicitud / Pedido de abastecimiento (Requisition)** | Petición de abastecimiento creada únicamente por el administrador del minimarket y dirigida a un proveedor, que este puede aceptar o rechazar; su estado se notifica a ambas partes. |
+| **Orden de envío (Shipping Order)** | Documento que el proveedor genera a partir de un pedido aceptado, con los productos, cantidades y lotes que serán despachados al minimarket. |
+| **Recepción** | Aceptación o rechazo de una orden de envío por parte del administrador; solo si es aceptada se actualiza automáticamente el inventario del minimarket. |
 | **Directorio de proveedores** | Read model que agrupa a todos los proveedores registrados y validados (RUC y cobertura) disponibles para un minimarket. |
 | **Dashboard** | Vista consolidada de indicadores operativos, distinta según el rol del usuario (administrador o proveedor), que resume el estado general del negocio. |
 | **Indicador / KPI** | Métrica operativa calculada por el sistema (por ejemplo, mermas, nivel de stock o pedidos pendientes) y mostrada en el dashboard. |
 | **Reporte operativo** | Documento generado por el módulo de Analytics que resume métricas y variaciones de un periodo determinado. |
 | **Conservación (Conservation)** | Contexto vinculado al monitoreo de condiciones ambientales (temperatura y humedad) que afectan la calidad de los productos orgánicos almacenados. |
-| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de una solicitud o una alerta de inventario). |
+| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de un pedido, de una orden de envío o una alerta de inventario). |
