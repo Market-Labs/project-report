@@ -647,7 +647,341 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 Enlace directo: URL_DEL_VIDEO_DE_MARKETGO
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+<p>
+  Durante el Sprint 2 de MarketGo, el equipo de MarketLab trabajó en
+  la integración de las funcionalidades del Frontend Web Application,
+  desarrollado con Vue 3, Vite y Pinia. Para facilitar las pruebas
+  de integración y validar los contratos de API entre los bounded
+  contexts, se contempló el uso de servicios de prueba mediante
+  json-server. Estos servicios permitieron representar las operaciones
+  principales relacionadas con usuarios, productos, inventarios,
+  lotes, proveedores, pedidos de abastecimiento y órdenes de envío.
+  La documentación de estos contratos sirvió como referencia para
+  la integración con los Web Services desarrollados en
+  <strong>ASP.NET Core / C#</strong>.
+</p>
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+<p><strong>URL del Mock API (local):</strong> <code>http://localhost:3000</code></p>
+<p><strong>URL del API (Producción):</strong> Entorno de servicios correspondiente al despliegue de MarketGo.</p>
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Acciones soportadas</th>
+      <th>Ejemplo de Request</th>
+      <th>Ejemplo de Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>/api/v1/auth/sign-in</code></td>
+      <td>POST autenticación de usuarios y validación de credenciales según el rol asignado.</td>
+      <td><code>POST /api/v1/auth/sign-in</code> con <code>{ "email":"admin@marketgo.com", "password":"demo123" }</code></td>
+      <td><code>{ "token":"example-token", "role":"ADMIN", "authenticated":true }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/auth/sign-up</code></td>
+      <td>POST registro de nuevos usuarios en la plataforma.</td>
+      <td><code>POST /api/v1/auth/sign-up</code> con <code>{ "name":"Usuario Demo", "email":"demo@marketgo.com", "password":"demo123", "role":"SUPPLIER" }</code></td>
+      <td><code>{ "id":"USR-001", "name":"Usuario Demo", "role":"SUPPLIER", "status":"ACTIVE" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/users</code></td>
+      <td>GET listado, GET /:id detalle, POST registro y PUT /:id actualización de usuarios.</td>
+      <td><code>GET /api/v1/users</code></td>
+      <td><code>[{ "id":"USR-001", "name":"Usuario Demo", "email":"demo@marketgo.com", "role":"ADMIN" }]</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/profiles</code></td>
+      <td>GET consulta de perfiles y PUT /:id actualización de información del usuario.</td>
+      <td><code>GET /api/v1/profiles/1</code></td>
+      <td><code>{ "id":"1", "userId":"USR-001", "type":"ADMIN", "phone":"999888777" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/products</code></td>
+      <td>GET catálogo, GET /:id detalle, POST creación y PUT /:id actualización de productos.</td>
+      <td><code>POST /api/v1/products</code> con <code>{ "name":"Manzana Orgánica", "category":"Frutas", "price":5.50, "unit":"kg" }</code></td>
+      <td><code>{ "id":"PROD-001", "name":"Manzana Orgánica", "category":"Frutas", "price":5.50 }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/suppliers</code></td>
+      <td>GET listado, GET /:id detalle y POST registro de proveedores.</td>
+      <td><code>GET /api/v1/suppliers</code></td>
+      <td><code>[{ "id":"SUP-001", "name":"Proveedor Orgánico Demo", "status":"ACTIVE" }]</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/inventory</code></td>
+      <td>GET listado, GET /:id detalle, POST registro y PUT /:id actualización de existencias.</td>
+      <td><code>GET /api/v1/minimarkets/1/inventory</code></td>
+      <td><code>[{ "id":"INV-001", "productId":"PROD-001", "stock":50, "unit":"kg" }]</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/lots</code></td>
+      <td>GET listado, GET /:id detalle y POST registro de lotes para trazabilidad de productos.</td>
+      <td><code>POST /api/v1/minimarkets/1/lots</code> con <code>{ "productId":"PROD-001", "quantity":25, "expirationDate":"2026-12-15" }</code></td>
+      <td><code>{ "id":"LOT-001", "productId":"PROD-001", "quantity":25, "expirationDate":"2026-12-15" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/requisitions</code></td>
+      <td>GET listado, POST creación y PUT /:id actualización de pedidos de abastecimiento.</td>
+      <td><code>POST /api/v1/minimarkets/1/requisitions</code> con <code>{ "supplierId":"SUP-001", "productId":"PROD-001", "quantity":30, "status":"PENDING" }</code></td>
+      <td><code>{ "id":"REQ-001", "supplierId":"SUP-001", "quantity":30, "status":"PENDING" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/purchase-orders</code></td>
+      <td>GET listado, POST creación y PATCH /:id aceptación o rechazo de órdenes de envío.</td>
+      <td><code>PATCH /api/v1/minimarkets/1/purchase-orders/PO-001</code> con <code>{ "status":"ACCEPTED" }</code></td>
+      <td><code>{ "id":"PO-001", "requisitionId":"REQ-001", "status":"ACCEPTED" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/conservation/monitoring</code></td>
+      <td>GET consulta de temperatura, humedad y condiciones de conservación de productos.</td>
+      <td><code>GET /api/v1/minimarkets/1/conservation/monitoring</code></td>
+      <td><code>[{ "id":"MON-001", "temperature":18.5, "humidity":65, "status":"NORMAL" }]</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/communication/messages</code></td>
+      <td>GET listado de mensajes y PATCH /:id actualización del estado de lectura.</td>
+      <td><code>PATCH /api/v1/minimarkets/1/communication/messages/1</code> con <code>{ "isRead":true }</code></td>
+      <td><code>{ "id":"1", "subject":"Pedido de abastecimiento", "isRead":true }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/dashboard</code></td>
+      <td>GET indicadores generales de inventario, abastecimiento y alertas según el rol del usuario.</td>
+      <td><code>GET /api/v1/minimarkets/1/dashboard</code></td>
+      <td><code>{ "totalProducts":120, "pendingOrders":5, "activeAlerts":3, "role":"ADMIN" }</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  La documentación <strong>OpenAPI/Swagger</strong> de los
+  Web Services se organizó según los bounded contexts de MarketGo.
+  Esta documentación permitió describir los endpoints, métodos HTTP,
+  estructuras de solicitudes y respuestas, así como los contratos
+  necesarios para la comunicación entre el Frontend Web Application
+  y los servicios desarrollados con ASP.NET Core / C#.
+</p>
+
+<p>
+  <strong>Repositorio del Frontend:</strong>
+  MarketGo Frontend Web Application, desarrollado con Vue 3 y Vite.<br>
+  <strong>Documentación relacionada:</strong>
+  Contratos de API, integración de servicios y funcionalidades
+  organizadas por bounded contexts.
+</p>
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+<p>
+  Durante el Sprint 2 de MarketGo se realizaron actividades de
+  preparación, integración y despliegue de dos componentes principales:
+  la versión mejorada del <strong>Landing Page (v2)</strong>
+  y el <strong>Frontend Web Application</strong>.
+  Estas actividades estuvieron orientadas a facilitar el acceso
+  a la plataforma, validar la navegación entre interfaces y
+  presentar los avances funcionales durante el Sprint Review.
+</p>
+
+<p><strong>Landing Page v2</strong></p>
+<ul>
+  <li>
+    Se incorporaron las correcciones solicitadas por el docente
+    durante la evaluación, especialmente la adaptación de las
+    Historias de Usuario del sitio público para utilizar
+    <strong>Visitante (Visitor)</strong> como rol principal.
+  </li>
+  <li>
+    Se mejoró la sección de contacto mediante la incorporación
+    de íconos interactivos y enlaces directos a cuentas simuladas
+    de <strong>LinkedIn, X y Facebook</strong>, complementando
+    los medios de contacto existentes mediante correo electrónico
+    y WhatsApp.
+  </li>
+  <li>
+    Se revisó la presentación visual, la navegación y la
+    organización de las secciones del Landing Page para mejorar
+    la experiencia de los visitantes y cumplir los criterios
+    establecidos en la rúbrica.
+  </li>
+</ul>
+
+<p><strong>Frontend Web Application (Sprint 2)</strong></p>
+<ul>
+  <li>
+    Se trabajó en el repositorio del Frontend Web Application
+    de MarketGo, utilizando <strong>Vue 3, Vite y Pinia</strong>
+    y una estructura modular organizada por bounded contexts.
+  </li>
+  <li>
+    Se desarrollaron las interfaces y flujos correspondientes
+    a la autenticación de usuarios, gestión de perfiles,
+    navegación por roles, pedidos de abastecimiento,
+    proveedores, inventario y dashboard general.
+  </li>
+  <li>
+    Se estableció la comunicación con los servicios de datos
+    mediante una capa de consumo de API, permitiendo organizar
+    las operaciones utilizadas por los diferentes módulos.
+  </li>
+  <li>
+    Se preparó la aplicación para su publicación como
+    <strong>Single Page Application (SPA)</strong>,
+    considerando la navegación mediante Vue Router,
+    la configuración de entornos y la disponibilidad
+    de los recursos estáticos.
+  </li>
+</ul>
+
+<p><strong>Pasos realizados durante el Sprint:</strong></p>
+<ol>
+  <li>
+    Organización del Frontend Web Application en Vue 3 mediante
+    componentes, vistas, servicios y bounded contexts,
+    siguiendo las responsabilidades funcionales de MarketGo.
+  </li>
+  <li>
+    Definición de los contratos de API y configuración del
+    consumo de servicios para la gestión de usuarios,
+    productos, proveedores, inventarios y abastecimiento.
+  </li>
+  <li>
+    Preparación de la aplicación frontend para su despliegue,
+    incluyendo la generación de archivos de producción
+    mediante <code>npm run build</code>.
+  </li>
+  <li>
+    Actualización del Landing Page con las correcciones
+    solicitadas por el docente, incluyendo la experiencia
+    del visitante y los enlaces interactivos a redes sociales.
+  </li>
+  <li>
+    Revisión de la navegación, visualización de interfaces,
+    permisos según el rol e integración de los módulos
+    considerados dentro del Sprint 2.
+  </li>
+</ol>
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+<p>
+  Durante el Sprint 2, el equipo de <strong>MarketLab</strong>
+  utilizó <strong>Trello</strong> para organizar y supervisar
+  las actividades del desarrollo de MarketGo. El tablero permitió
+  clasificar las tareas en columnas como <em>To-Do</em>,
+  <em>In-Progress</em>, <em>To-Review</em>,
+  <em>To-Fix</em> y <em>Done</em>,
+  facilitando la identificación del estado de cada actividad,
+  el seguimiento del avance y la coordinación entre los integrantes.
+  Esta organización permitió mantener una visión general de
+  las responsabilidades asociadas al Sprint Backlog.
+</p>
+
+<p>
+  El trabajo se organizó por <em>bounded contexts</em>,
+  distribuyendo las responsabilidades entre los cinco integrantes:
+  <strong>Cáceres Pizarro, Albino Florencio</strong>,
+  como líder general del equipo;
+  <strong>Huaranga Romero, Matias Daniel</strong>;
+  <strong>Merino Ordinola, Winnie Lisbeth</strong>;
+  <strong>Quispe Almonacid, Andre Sebastian</strong>;
+  y <strong>Torres Huaman, Alexis Calin</strong>.
+  Esta distribución permitió trabajar en las funcionalidades
+  y la documentación de IAM, Profiles, Requisition,
+  Procurements, Suppliers, Products, Inventory,
+  Conservation, Dashboard y Communication.
+  La coordinación del equipo comprendió la asignación
+  de tareas en Trello, el seguimiento de los avances,
+  la integración de cambios en GitHub y la revisión
+  de los entregables correspondientes al Sprint 2.
+</p>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2 MarketGo" width="90%">
+  <p><em>Figura: Historial de commits de MarketGo en GitHub, correspondiente a los avances realizados durante el Sprint 2.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2 MarketGo" width="90%">
+  <p><em>Figura: Gráfica de Contributors de GitHub Insights que permite visualizar la participación de los integrantes de MarketLab durante el Sprint 2.</em></p>
+</div>
+
+<p><strong>Métricas de colaboración del Sprint 2:</strong></p>
+<ul>
+  <li>
+    <strong>Story Points completados:</strong>
+    Seguimiento de las historias de usuario y tareas técnicas
+    consideradas en el Sprint Backlog de MarketGo.
+  </li>
+  <li>
+    <strong>Total de tareas gestionadas en Trello:</strong>
+    Actividades registradas y distribuidas entre las columnas
+    del tablero del Sprint 2.
+  </li>
+  <li>
+    <strong>Total de Pull Requests:</strong>
+    Integraciones y revisiones realizadas mediante los
+    repositorios GitHub de MarketGo.
+  </li>
+  <li>
+    <strong>Total de commits en el repositorio Frontend:</strong>
+    Cambios registrados durante el desarrollo e integración
+    de las funcionalidades del Sprint 2.
+  </li>
+</ul>
+
+<p><strong>Aciertos del Sprint:</strong></p>
+<ul>
+  <li>
+    La organización del frontend por <em>bounded contexts</em>
+    (<code>iam</code>, <code>profiles</code>,
+    <code>products</code>, <code>suppliers</code>,
+    <code>inventory</code>, <code>requisition</code>,
+    <code>procurements</code>, <code>conservation</code>,
+    <code>dashboard</code> y <code>communication</code>)
+    permitió distribuir las responsabilidades entre
+    los integrantes y mantener una separación clara
+    de las funcionalidades del sistema.
+  </li>
+  <li>
+    La definición de contratos de API y la organización de
+    los servicios facilitaron la integración progresiva del
+    Frontend Web Application con los Web Services,
+    manteniendo la coherencia entre las operaciones
+    de inventario, proveedores y abastecimiento.
+  </li>
+  <li>
+    El uso de Vue 3, Vite y Pinia permitió establecer
+    una arquitectura frontend basada en componentes
+    reutilizables y gestión centralizada del estado.
+    Asimismo, se consideró la internacionalización
+    mediante <strong>i18n</strong> para ofrecer soporte
+    en español e inglés.
+  </li>
+</ul>
+
+<p><strong>Oportunidades de mejora identificadas:</strong></p>
+<ul>
+  <li>
+    Reforzar la validación de formularios y los criterios
+    de aceptación de IAM, especialmente en el registro
+    de usuarios, inicio de sesión y asignación de permisos,
+    para garantizar un comportamiento consistente
+    según el rol.
+  </li>
+  <li>
+    Mejorar la documentación de los componentes,
+    stores de Pinia y servicios de consumo de API,
+    estableciendo convenciones de nombres y
+    responsabilidades claras entre los bounded contexts
+    para facilitar el mantenimiento del código.
+  </li>
+  <li>
+    Incrementar la cobertura de pruebas funcionales
+    y de integración, principalmente en los flujos
+    de pedidos de abastecimiento, órdenes de envío,
+    actualización del inventario y visualización del
+    dashboard según el rol del usuario.
+  </li>
+</ul>
