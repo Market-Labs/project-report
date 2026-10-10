@@ -33,6 +33,7 @@
 | EP-05 | Gestión de proveedores y productos | Permite consultar y administrar la información relacionada con proveedores y los productos que ofrecen dentro de la plataforma. |
 | EP-06 | Gestión de usuarios y seguridad | Permite registrar usuarios, gestionar roles y controlar el acceso a las funcionalidades mediante permisos según el segmento. |
 | EP-07 | Análisis y control de gestión | Permite visualizar indicadores, historial de operaciones, alertas e información consolidada para facilitar la toma de decisiones. |
+| EP-08 | Navegación e Información Pública | Permite a los usuarios no autenticados (visitantes) explorar la propuesta de valor de la plataforma, consultar información pública de proveedores/catálogos de demostración y solicitar registro o información comercial. |
 
 ### User Stories
 
@@ -68,6 +69,9 @@
 | US 028 | Gestionar permisos por rol | **Como** usuario administrador autorizado,<br>**Quiero** gestionar los permisos asociados a los roles,<br>**Para** controlar las acciones que cada segmento puede realizar. | **Escenario 1: Permisos aplicados**<br>**Dado** que existe un usuario con un rol asignado,<br>**Cuando** accede al sistema,<br>**Entonces** únicamente puede ejecutar las funcionalidades permitidas para su rol.<br><br>**Escenario 2: Acción no permitida**<br>**Dado** que el usuario intenta ejecutar una acción fuera de sus permisos,<br>**Cuando** realiza la acción,<br>**Entonces** el sistema bloquea la operación. | EP-06 |
 | US 029 | Controlar acceso según operación | **Como** usuario de MarketGo,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede gestionar sus pedidos e inventario y aceptar o rechazar órdenes de envío, pero no modificar directamente las órdenes creadas por el proveedor.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede consultar y aceptar o rechazar pedidos recibidos y gestionar sus órdenes de envío, pero no modificar directamente el inventario del minimarket. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de MarketGo,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede al dashboard,<br>**Entonces** el sistema muestra información relevante de inventario, conservación, pedidos, órdenes de envío y alertas correspondientes a su operación.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede al mismo dashboard,<br>**Entonces** el sistema muestra información relevante de productos ofrecidos, pedidos recibidos y órdenes de envío según sus permisos. | EP-07 |
+| US 031 | Explorar propuesta de valor en landing page | **Como** visitante,<br>**Quiero** visualizar la página principal e informativa de MarketGo,<br>**Para** entender la propuesta de valor y los beneficios del sistema antes de registrarme. | **Escenario 1: Navegación pública**<br>**Dado** que un usuario sin sesión activa accede a la URL principal,<br>**Cuando** navega por el sitio,<br>**Entonces** el sistema le despliega la información del servicio, beneficios para minimarkets y proveedores, y accesos visibles para iniciar sesión o registrarse.<br><br>**Escenario 2: Redirección de autenticado**<br>**Dado** que un usuario ya ha iniciado sesión,<br>**Cuando** ingresa a la landing page,<br>**Entonces** el sistema le ofrece un acceso directo al Dashboard. | EP-08 |
+| US 032 | Consultar planes de suscripción | **Como** visitante,<br>**Quiero** visualizar los planes de suscripción de MarketGo (Básico, Profesional y Empresarial) con sus precios y funcionalidades incluidas,<br>**Para** elegir el plan que mejor se adapte al tamaño de mi minimarket o distribuidora antes de registrarme. | **Escenario 1: Consulta de planes**<br>**Dado** que el visitante se encuentra en la landing page,<br>**Cuando** accede a la sección de planes,<br>**Entonces** el sistema muestra los planes Básico, Profesional y Empresarial con su precio mensual, las funcionalidades incluidas y el segmento recomendado.<br><br>**Escenario 2: Selección de un plan**<br>**Dado** que el visitante está revisando los planes,<br>**Cuando** presiona el botón de suscripción de un plan,<br>**Entonces** el sistema lo redirige a la pantalla de registro con el plan seleccionado. | EP-08 |
+| US 033 | Solicitar información de registro o demo | **Como** visitante,<br>**Quiero** enviar un formulario de contacto o solicitud de demo,<br>**Para** recibir atención personalizada y evaluar la adopción de MarketGo en mi negocio. | **Escenario 1: Envío con datos válidos**<br>**Dado** que el visitante completa el formulario público (nombre, correo, tipo de negocio y teléfono),<br>**Cuando** confirma el envío,<br>**Entonces** el sistema guarda la solicitud y muestra un mensaje de confirmación.<br><br>**Escenario 2: Formulario incompleto**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema bloquea el envío y resalta los campos requeridos. | EP-06 / EP-08 |
 
 ### Technical Stories
 
@@ -168,8 +172,46 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 - El endpoint de `donations` deja de formar parte de la cobertura funcional esperada, debido a que las donaciones ya no pertenecen al alcance actual de MarketGo.
 
 ## 3.2. Impact Mapping.
+El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
-El diagrama de Impact Mapping de MarketGo no está disponible entre los archivos entregados para AV1. Se incorporará cuando el equipo proporcione el artefacto original.
+Ambos Impact Maps fueron elaborados en UXPressia y vinculan directamente las fichas de User Persona de Russell Estrada y Marco Antonio Ríos.
+
+**Business Goal 1 – Reducción de mermas (Persona: Russell Estrada, administrador de minimarket orgánico)**
+
+<p align="center">
+  <img src="assets/chapter-03/impact-mapping-bg1.png" alt="Impact Map BG1 de MarketGo en UXPressia" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Map BG1 – Reducción de mermas (UXPressia).</em></p>
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir en 30% las mermas por vencimiento y deterioro de productos orgánicos en los minimarkets que usan MarketGo, durante los primeros 6 meses desde su lanzamiento. | Russell Estrada | Identifica los lotes próximos a vencer sin revisión física del almacén. | Gestión de lotes y control de vencimientos | US006, US007, US008 |
+| | | Actúa antes de perder el producto al ser avisado de forma automática. | Alertas de vencimiento | US009 |
+| | | Reacciona a tiempo ante fallas de refrigeración (pérdida de cadena de frío), incluso de madrugada. | Monitoreo de temperatura y humedad con alertas | US010, US011, US012 |
+| | | Mantiene el stock real sin transcribir datos de WhatsApp a Excel. | Inventario centralizado con búsqueda y filtros | US001, US002, US003, US004, US005 |
+| | | Convierte productos en riesgo en oferta y registra la merma para medir sus pérdidas. | Registro de mermas y ofertas | US013, US014 |
+
+
+**Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
+
+<p align="center">
+  <img src="assets/chapter-03/impact-mapping-bg2.png" alt="Impact Map BG2 de MarketGo en UXPressia" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Map BG2 – Agilización del abastecimiento (UXPressia).</em></p>
+
+| Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
+|---|---|---|---|---|
+| Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
+| | | Solicita abastecimiento con un pedido estructurado en vez de mensajes de chat. | Creación y seguimiento de pedidos | US018, US019 |
+| | | Confirma la recepción y su inventario se actualiza automáticamente, sin errores manuales. | Recepción de órdenes de envío integrada al inventario | US023, US024 |
+| | Marco Antonio Ríos | Publica su catálogo con disponibilidad real en una sola plataforma. | Gestión del catálogo del proveedor | US016, US017 |
+| | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
+| | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
+| | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
+| | Visitante | Conoce la propuesta de valor y los planes de suscripción antes de registrarse, sin necesidad de contactar a un vendedor. | Landing page con planes y formulario de contacto | US031, US032, US033 |
+
+El actor Visitante complementa el BG2 desde la landing page: no corresponde a un User Persona, por lo que se registra en la tabla y no en el mapa de UXPressia. De esta forma, las 33 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
+
 
 ## 3.3. Product Backlog.
 
@@ -235,8 +277,11 @@ El diagrama de Impact Mapping de MarketGo no está disponible entre los archivos
 | 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de negocio relacionadas con roles, permisos, pedidos de abastecimiento, órdenes de envío y actualización automática del inventario para garantizar el funcionamiento correcto de MarketGo. | 3 |
 | 59 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
+| 61 | US-031 | Explorar propuesta de valor | Como visitante, quiero visualizar la información general de MarketGo para entender sus beneficios. | 2 |
+| 62 | US-032 | Consultar planes de suscripción | Como visitante, quiero visualizar los planes de suscripción con sus precios y funcionalidades para elegir el que se adapte a mi negocio antes de registrarme. | 3 |
+| 63 | US-033 | Solicitar información o demo | Como visitante, quiero enviar un formulario de contacto para solicitar información comercial o una prueba del sistema. | 2 |
 
-**Enlace directo al tablero:** 
+**Enlace directo al tablero:**
 **Tablero Sprint 1: Trello**
 [Tablero Sprint 1 en Trello](https://trello.com/b/AyBgUYcT/springbacklog1)
 
