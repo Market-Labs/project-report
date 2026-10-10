@@ -25,7 +25,7 @@
 
 <br>
 
-**Informe de Trabajo Parcial - TB1**
+**Informe de Trabajo Final - TB1**
 
 <br>
 
@@ -70,6 +70,6 @@
 
 <br><br>
 
-**Lima, agosto de 2026**
+**Lima, octubre de 2026**
 
 </div>
