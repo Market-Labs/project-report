@@ -586,18 +586,18 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 </p>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
-  <p><em>Figura: Vista de inicio de sesión del bounded context IAM de MarketGo.</em></p>
+  <img src="assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
+  <p><strong>Figura: Vista de inicio de sesión de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-requisitions.png" alt="Supply Requests View" width="90%">
-  <p><em>Figura: Gestión de pedidos de abastecimiento realizados por administradores de minimarkets.</em></p>
+  <img src="assets/chapter-05/sprint2-requisitions.png" alt="Supply Requests View" width="90%">
+  <p><strong>Figura: Solicitudes de abastecimiento de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
-  <p><em>Figura: Directorio de proveedores orgánicos y catálogo de productos disponibles para abastecimiento.</em></p>
+  <img src="assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
+  <p><strong>Figura: Directorio de proveedores orgánicos de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
 </div>
 
 <div align="center">
@@ -606,8 +606,8 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-inventory.png" alt="Inventory Management" width="90%">
-  <p><em>Figura: Visualización del inventario con información de productos, lotes, existencias y fechas de vencimiento.</em></p>
+  <img src="assets/chapter-05/sprint2-inventory.png" alt="Inventory Management" width="90%">
+  <p><strong>Figura: Inventario de MarketGo con productos, lotes, existencias y vencimientos.</strong><br><em>Nota. Elaboración propia.</em></p>
 </div>
 
 <div align="center">
