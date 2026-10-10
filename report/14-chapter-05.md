@@ -448,17 +448,38 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
-El desarrollo del Sprint 2 se evidencia en el repositorio <code>Market-Labs/front-end</code>. Los siguientes commits, presentes en su rama <code>main</code>, muestran trabajo en flujos por rol, persistencia de datos con Firebase, inventario y abastecimiento. Los mensajes y fechas se transcriben del historial Git del repositorio.
+El siguiente cuadro reúne los 26 commits de <code>Market-Labs/front-end</code> presentes en <code>origin/main</code> desde la planificación del Sprint 2 (26-09-2026) hasta el 09-10-2026. Se usan la fecha y hora de <em>commit</em> registradas por Git, convertidas a la zona horaria de Lima (UTC-5). La columna <code>main</code> indica la rama en la que se verificaron; Git no conserva la rama original en el objeto commit.
 
-| Repositorio | Rama | Commit Id | Commit Message | Committed on |
+| Repositorio | Rama verificada | Commit Id | Commit Message | Fecha y hora (Lima, UTC-5) |
 |---|---|---|---|---|
-| front-end | main | <code>5f67499</code> | feat(frontend): complete role-based workflows and reports | 02-10-2026 |
-| front-end | main | <code>dff02e6</code> | feat(firebase): persist MarketGo data and provision role-scoped users | 05-10-2026 |
-| front-end | main | <code>f5d8415</code> | feat(inventory): track lot expiration and offers | 09-10-2026 |
-| front-end | main | <code>cc66031</code> | fix(requisition): create Firestore documents without denied reads | 09-10-2026 |
-| front-end | main | <code>095849b</code> | fix(procurements): open shipping order form from accepted request | 09-10-2026 |
+| front-end | main | [f5e9d4c](https://github.com/Market-Labs/front-end/commit/f5e9d4cae6213bbae9164b6a0d0d289564ba3c6e) | Refactor alert center for i18n and styling updates | 09-10-2026 18:57 |
+| front-end | main | [da1b357](https://github.com/Market-Labs/front-end/commit/da1b357e892ba7d713eff11644b51d127a11eaa1) | Refactor communication routes with Pinia store | 09-10-2026 18:54 |
+| front-end | main | [fdc4c7a](https://github.com/Market-Labs/front-end/commit/fdc4c7aff65d2e8fca3b9a48354e43b835a019ed) | Refactor MessageAssembler to handle default values | 09-10-2026 18:53 |
+| front-end | main | [b0f1dc4](https://github.com/Market-Labs/front-end/commit/b0f1dc4c60849f8f880342ade104e3c5a19e64ca) | Modify getNotifications to handle supplier alerts | 09-10-2026 18:52 |
+| front-end | main | [6ff080f](https://github.com/Market-Labs/front-end/commit/6ff080f6c64d90d2c7b4d2d7cdda4aeefcdca56b) | Refactor communication store to handle Firebase mode | 09-10-2026 18:51 |
+| front-end | main | [ac5d708](https://github.com/Market-Labs/front-end/commit/ac5d7086332a647849dd1813ce5ea44b04ab0ad3) | Add files via upload | 09-10-2026 18:43 |
+| front-end | main | [2726351](https://github.com/Market-Labs/front-end/commit/27263515c7285c1f86d2ff02ec8f6734f9254034) | docs(iam): add jsdoc comments to access role model | 09-10-2026 18:33 |
+| front-end | main | [095849b](https://github.com/Market-Labs/front-end/commit/095849b03e20098caca93f14ba05d1c243a2c7fe) | fix(procurements): open shipping order form from accepted request | 09-10-2026 08:08 |
+| front-end | main | [cc66031](https://github.com/Market-Labs/front-end/commit/cc66031b67df19746a79b3726f2172f4a63ec7bd) | fix(requisition): create Firestore documents without denied reads | 09-10-2026 06:51 |
+| front-end | main | [1d2cc47](https://github.com/Market-Labs/front-end/commit/1d2cc47dd47779ae993c72bb2a26f13e75312177) | fix(iam): wait for initial route before mounting app | 09-10-2026 05:24 |
+| front-end | main | [04953dd](https://github.com/Market-Labs/front-end/commit/04953dd1450bb59a595f0cfaa6a66ebc9816a263) | fix(shared): use MarketGo logo as favicon | 09-10-2026 05:16 |
+| front-end | main | [f5d8415](https://github.com/Market-Labs/front-end/commit/f5d841505bbbcd72f1a9560d5f70296f400b747b) | feat(inventory): track lot expiration and offers | 09-10-2026 01:39 |
+| front-end | main | [51e6052](https://github.com/Market-Labs/front-end/commit/51e6052b856fba45e5b3d4347a170a15c9e9b84d) | fix(iam): count available organization roles | 09-10-2026 01:00 |
+| front-end | main | [39ef675](https://github.com/Market-Labs/front-end/commit/39ef675dd1f5eb2190841aa01d7c23ae4803cd54) | feat(iam): add administrator and collaborator roles | 09-10-2026 00:57 |
+| front-end | main | [5ae76e1](https://github.com/Market-Labs/front-end/commit/5ae76e12ffdc3c4e7001209c9ad303df51de5236) | fix(iam): validate signup email and explain failures | 08-10-2026 23:51 |
+| front-end | main | [d8e8683](https://github.com/Market-Labs/front-end/commit/d8e868361c5d8e82e03aaefe326da7961e01abaf) | feat(iam): add tenant-scoped Firebase sign-up | 08-10-2026 23:37 |
+| front-end | main | [c08ef33](https://github.com/Market-Labs/front-end/commit/c08ef3329db18501287da641569284718d1fd1df) | feat(suppliers): add sequential IDs and soft removal | 08-10-2026 23:03 |
+| front-end | main | [56f891d](https://github.com/Market-Labs/front-end/commit/56f891dd4385497be6da3db01fcb2efbe33ec393) | feat(frontend): align inventory outputs and supply navigation | 08-10-2026 22:40 |
+| front-end | main | [db37db8](https://github.com/Market-Labs/front-end/commit/db37db8174455672f3ad67d4f624ee7592ae59df) | Update README.md | 05-10-2026 13:27 |
+| front-end | main | [df41d89](https://github.com/Market-Labs/front-end/commit/df41d8981060aeb8448d3702efeaf42f437d0336) | chore: edit frontend contract coverage | 05-10-2026 12:30 |
+| front-end | main | [b91254a](https://github.com/Market-Labs/front-end/commit/b91254a50380098a97657d7aab1a0316f5300429) | chore : add news frontend contract Coverage | 05-10-2026 12:29 |
+| front-end | main | [dff02e6](https://github.com/Market-Labs/front-end/commit/dff02e64ad4ca232f99a05b82538f7cd945dae43) | feat(firebase): persist MarketGo data and provision role-scoped users | 05-10-2026 11:53 |
+| front-end | main | [890f87b](https://github.com/Market-Labs/front-end/commit/890f87bbce5c8810a18471b7781f7c5c9c7a0d19) | feat(shared): add read-only Azure demo mode | 03-10-2026 00:15 |
+| front-end | main | [9705a3d](https://github.com/Market-Labs/front-end/commit/9705a3dc7f0635fb33da9c9c45553b0ba181ea9b) | chore(release): merge develop for Azure deployment | 02-10-2026 23:41 |
+| front-end | main | [46e7f93](https://github.com/Market-Labs/front-end/commit/46e7f939815a71c47dc28dedf02d67fdc3fbd8d2) | docs(server): describe demo API and report endpoints | 02-10-2026 23:36 |
+| front-end | main | [5f67499](https://github.com/Market-Labs/front-end/commit/5f6749987235358371810ed28b12e5b877ed788d) | feat(frontend): complete role-based workflows and reports | 02-10-2026 23:36 |
 
-Las correcciones de la landing page fechadas el 19-09-2026 preceden a la planificación del Sprint 2 (26-09-2026); por ello se documentan como antecedente y no como commits de este sprint.
+Las correcciones de la landing page fechadas el 19-09-2026 preceden a la planificación del Sprint 2; se documentan como antecedente y no como commits de este sprint.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
@@ -470,8 +491,9 @@ Las correcciones de la landing page fechadas el 19-09-2026 preceden a la planifi
   La aplicación fue desarrollada con Vue 3, Vite y Pinia, y organizada
   mediante componentes, servicios y bounded contexts, con interfaces
   diferenciadas para los roles de Administrador de Minimarket y
-  Proveedor. El alcance funcional trabajado durante el Sprint 2
-  comprende los siguientes flujos:
+  Proveedor. El repositorio organiza 12 módulos: 11 áreas
+  funcionales y <strong>Shared</strong> como soporte transversal.
+  El alcance documentado comprende:
 </p>
 
 <ul>
@@ -492,6 +514,11 @@ Las correcciones de la landing page fechadas el 19-09-2026 preceden a la planifi
     Gestión y consulta del directorio de proveedores orgánicos,
     incluyendo información de contacto y productos disponibles
     para el abastecimiento de los minimarkets.
+  </li>
+  <li>
+    <strong>Products:</strong>
+    Catálogo de productos orgánicos con datos de nombre, precio,
+    disponibilidad y características para las operaciones comerciales.
   </li>
   <li>
     <strong>Procurements:</strong>
@@ -518,6 +545,11 @@ Las correcciones de la landing page fechadas el 19-09-2026 preceden a la planifi
     sobre inventario, abastecimiento, productos y alertas.
   </li>
   <li>
+    <strong>Analytics:</strong>
+    Indicadores operativos y generación de reportes sobre inventario,
+    abastecimiento, mermas, conservación y proveedores.
+  </li>
+  <li>
     <strong>Profiles:</strong>
     Gestión de perfiles de usuario asociados a las cuentas
     registradas, incluyendo información personal y datos
@@ -528,6 +560,11 @@ Las correcciones de la landing page fechadas el 19-09-2026 preceden a la planifi
     Visualización de mensajes, notificaciones y alertas
     relacionadas con las operaciones de abastecimiento,
     conservación e inventario.
+  </li>
+  <li>
+    <strong>Shared:</strong>
+    Infraestructura transversal para el layout, rutas, componentes
+    reutilizables, internacionalización y adaptadores de datos.
   </li>
 </ul>
 
