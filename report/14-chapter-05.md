@@ -393,6 +393,63 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
+La matriz LACX organiza el trabajo del primer frontend navegable de MarketGo en cuatro aspectos: diseño responsive, componentes y navegación por rol, contenido e internacionalización, y control de versiones, pruebas y despliegue. La asignación de Líder (L) y Colaborador (C) toma como base los liderazgos documentados en el Sprint 1 y se ajustará a las tareas definitivas del Sprint Backlog 2.
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>UI/UX & Responsive Screens</th>
+      <th>Vue Components & Role Navigation</th>
+      <th>Content & i18n</th>
+      <th>GitFlow, Testing & Deployment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cáceres Pizarro, Albino Florencio</td>
+      <td></td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Huaranga Romero, Matias Daniel</td>
+      <td></td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Merino Ordinola, Winnie Lisbeth</td>
+      <td></td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Quispe Almonacid, Andre Sebastian</td>
+      <td></td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Torres Huaman, Alexis Calin</td>
+      <td></td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.2.3. Sprint Backlog 2.
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
