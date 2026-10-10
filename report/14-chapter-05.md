@@ -391,73 +391,599 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 | Sprint 2 Velocity | 14 Story Points, capacidad inicial estimada a partir de la velocidad registrada en Sprint 1. |
 | Sum of Story Points | 14 Story Points (3 + 5 + 3 + 3) para las historias propuestas. |
 
+**Repositorio Landing Page:** https://github.com/Market-Labs/landign-page.git
+
+**Repositorio Frontend:** https://github.com/Market-Labs/front-end.git
+
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
-La matriz LACX organiza el trabajo del primer frontend navegable de MarketGo en cuatro aspectos: diseño responsive, componentes y navegación por rol, contenido e internacionalización, y control de versiones, pruebas y despliegue. La asignación de Líder (L) y Colaborador (C) toma como base los liderazgos documentados en el Sprint 1 y se ajustará a las tareas definitivas del Sprint Backlog 2.
+Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los bounded contexts implementados en el frontend, más un aspecto transversal de Project Setup (Vue 3 + Vite + Pinia + i18n + json-server) y un aspecto para la versión v2 del Landing Page. La siguiente matriz LACX identifica los aspectos principales del Sprint y asigna responsabilidades (Líder/Colaborador) al equipo de Market-labs, alineadas con las fortalezas técnicas evidenciadas durante el Sprint 1.
 
-<table border="1" cellpadding="4" cellspacing="0" align="center">
+| Team Member | IAM & Project Setup | Requisition & Procurement | Suppliers & Products | Inventory & Conservation | Dashboard & Profiles | Communication | Analytics |
+|---|---|---|---|---|---|---|---|
+| Cáceres Pizarro, Albino Florencio | L | C | C | C | L | C | C |
+| Huaranga Romero, Matias Daniel | C | C | C | C | C | C | C |
+| Merino Ordinola, Winnie Lisbeth | C | L | C | C | C | C | C |
+| Quispe Almonacid, Andre Sebastian | C | L | C | L | C | C | C |
+| Torres Huaman, Alexis Calin | C | C | C | C | L | L | C |
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que corresponden al primer release navegable del Frontend Web Application, organizados por bounded context. Se utilizó Trello Software como herramienta de control de estado.
+
+
+<div align="center">
+  <img src="assets/chapter-05/sprint-backlog-2.png" alt="Tablero Sprint Backlog 2 de MarketGo en Trello" width="100%">
+  <p><strong>Figura: Tablero del Sprint 2 en Trello (Proyecto MarketGo)</strong><br><em>Nota. Elaboración propia.</em></p>
+</div>
+
+| User Story Id | Title | Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-026** | Registrar usuario | T008 | Implementar registro de usuarios | Implementación del formulario de registro de usuarios y validación de los datos ingresados para permitir el acceso controlado a MarketGo. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-027** | Inicio de sesión | T009 | Implementar inicio de sesión | Desarrollo de la interfaz de autenticación y validación de credenciales para permitir el acceso según el rol del usuario. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-026** | Registrar usuario | T010 | Crear perfil asociado al usuario | Implementación de la creación de un perfil vinculado a cada usuario registrado en MarketGo. | 3h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-028** | Gestionar permisos por rol | T011 | Configurar roles y permisos | Configuración de los roles del administrador de minimarket y proveedor, estableciendo los permisos correspondientes. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-029** | Controlar acceso según operación | T012 | Aplicar control de acceso por operación | Implementación de restricciones de acceso a las funcionalidades de pedidos, órdenes de envío e inventario según el rol del usuario. | 4h | Cáceres Pizarro, Albino Florencio | In-Progress |
+| **US-030** | Dashboard general | T013 | Maquetar dashboard por rol | Diseño y desarrollo de la estructura visual del dashboard con información diferenciada para administradores y proveedores. | 4h | Torres Huaman, Alexis Calin | To-Do |
+| **US-030** | Dashboard general | T014 | Definir indicadores iniciales del dashboard | Definición de indicadores operativos para visualizar información relevante sobre inventario, abastecimiento y operaciones según el rol. | 3h | Torres Huaman, Alexis Calin | In-Progress |
+| **US-028** | Gestionar permisos por rol | T016 | Validar criterios de aceptación IAM | Verificación de los criterios de aceptación relacionados con registro, autenticación, roles y permisos de usuarios. | 3h | Cáceres Pizarro, Albino Florencio | To-Review |
+| **US-030** | Dashboard general | T017 | Validar visualización de dashboard por rol | Validación de la información e indicadores mostrados en el dashboard según los permisos del administrador y proveedor. | 3h | Torres Huaman, Alexis Calin | To-Review |
+| **US-033** | Solicitar información o demo | T018 | Documentar flujo de solicitud de demo | Documentación del proceso de solicitud de información o demostración mediante el formulario de contacto de la landing page. | 2h | Huaranga Romero, Matias Daniel | To-Fix |
+| **US-026** | Registrar usuario | — | Definir historia de registro de usuario | Definición de la funcionalidad de registro de usuarios y sus criterios de aceptación para el Sprint 2. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-027** | Inicio de sesión | — | Definir historia de inicio de sesión | Definición de los requisitos de autenticación y acceso a MarketGo según el rol del usuario. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-028** | Gestionar permisos por rol | — | Definir historia de gestión de permisos | Definición de los permisos correspondientes a los diferentes roles del sistema. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-029** | Controlar acceso según operación | — | Definir historia de control de acceso | Definición de restricciones de operaciones según los permisos asociados a cada rol. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-030** | Dashboard general | — | Definir historia del dashboard general | Definición de la visualización de información y los indicadores correspondientes a cada rol. | 2h | Torres Huaman, Alexis Calin | Stories |
+| **US-033** | Solicitar información o demo | — | Definir historia de solicitud de demo | Definición de los requisitos del formulario de contacto para solicitar información sobre MarketGo. | 2h | Huaranga Romero, Matias Daniel | Stories |
+| **Tech** | Requisition Bounded Context | BC-001 | Definir Bounded Context de Requisition | Documentación y delimitación del contexto de pedidos de abastecimiento, sus responsabilidades y relaciones con los demás contextos del sistema. | 3h | Merino Ordinola, Winnie Lisbeth | Done |
+| **Tech** | Procurements Bounded Context | BC-002 | Definir Bounded Context de Procurements | Documentación del contexto de gestión de abastecimiento y órdenes de envío, identificando sus responsabilidades y procesos. | 3h | Quispe Almonacid, Andre Sebastian | Done |
+| **Tech** | Conservation Bounded Context | BC-003 | Definir Bounded Context de Conservation | Definición del contexto encargado del monitoreo de condiciones de almacenamiento, temperatura, humedad y alertas de conservación. | 3h | Quispe Almonacid, Andre Sebastian | Done |
+| **Tech** | Sales Bounded Context | BC-004 | Definir Bounded Context de Sales | Documentación del contexto relacionado con las ofertas de productos y las operaciones comerciales de MarketGo. | 3h | Torres Huaman, Alexis Calin | Done |
+| **Tech** | Dashboard Bounded Context | BC-005 | Definir Bounded Context de Dashboard | Identificación de las responsabilidades e indicadores del dashboard general para administradores y proveedores. | 3h | Torres Huaman, Alexis Calin | Done |
+| **Tech** | Profiles Bounded Context | BC-006 | Definir Bounded Context de Profiles | Documentación del contexto de perfiles de usuario y su relación con IAM y los demás contextos de MarketGo. | 3h | Cáceres Pizarro, Albino Florencio | Done |
+| **Tech** | Communication Bounded Context | BC-007 | Definir Bounded Context de Communication | Definición del contexto de comunicación, notificaciones y alertas relacionadas con las operaciones del sistema. | 3h | Torres Huaman, Alexis Calin | Done |
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+
+<p>
+  Resumen de los commits más relevantes correspondientes a las mejoras
+  solicitadas por el docente para la Landing Page de
+  <strong>MarketGo</strong>, producto desarrollado por
+  <strong>MarketLab</strong>. Las mejoras incluyen la adaptación de
+  las Historias de Usuario al rol Visitante (Visitor) y la incorporación
+  de enlaces interactivos a redes sociales (LinkedIn, X y Facebook).
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
-      <th>Team Member</th>
-      <th>GitHub Username</th>
-      <th>UI/UX & Responsive Screens</th>
-      <th>Vue Components & Role Navigation</th>
-      <th>Content & i18n</th>
-      <th>GitFlow, Testing & Deployment</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Committed on</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Cáceres Pizarro, Albino Florencio</td>
-      <td></td>
-      <td>L</td>
-      <td>C</td>
-      <td>C</td>
-      <td>L</td>
+      <td>feature/marketgo-landing-page</td>
+      <td><code>d49b631</code></td>
+      <td>refactor(landing): improve visitor experience based on instructor feedback</td>
+      <td>19-09-2026</td>
     </tr>
     <tr>
-      <td>Huaranga Romero, Matias Daniel</td>
-      <td></td>
-      <td>C</td>
-      <td>L</td>
-      <td>C</td>
-      <td>C</td>
+      <td>feature/contact-section</td>
+      <td><code>a6446e1</code></td>
+      <td>feat(contact): add LinkedIn, X and Facebook social media links</td>
+      <td>19-09-2026</td>
     </tr>
     <tr>
-      <td>Merino Ordinola, Winnie Lisbeth</td>
-      <td></td>
-      <td>C</td>
-      <td>C</td>
-      <td>L</td>
-      <td>C</td>
+      <td>feature/contact-section</td>
+      <td><code>fbf450a</code></td>
+      <td>fix(contact): enable interactive social media icons and external navigation</td>
+      <td>19-09-2026</td>
     </tr>
     <tr>
-      <td>Quispe Almonacid, Andre Sebastian</td>
-      <td></td>
-      <td>C</td>
-      <td>C</td>
-      <td>C</td>
-      <td>C</td>
+      <td>develop</td>
+      <td><code>1f850de</code></td>
+      <td>fix(landing): align visitor interactions with rubric requirements</td>
+      <td>19-09-2026</td>
     </tr>
     <tr>
-      <td>Torres Huaman, Alexis Calin</td>
-      <td></td>
-      <td>C</td>
-      <td>C</td>
-      <td>C</td>
-      <td>C</td>
+      <td>main</td>
+      <td><code>1f850de</code></td>
+      <td>fix(landing): align visitor interactions with rubric requirements</td>
+      <td>19-09-2026</td>
     </tr>
   </tbody>
 </table>
 
-#### 5.2.2.3. Sprint Backlog 2.
-
-#### 5.2.2.4. Development Evidence for Sprint Review.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+<p>
+  Al cierre del Sprint 2, el equipo de MarketLab presentó los avances
+  funcionales del Frontend Web Application de <strong>MarketGo</strong>,
+  una plataforma orientada a la gestión de inventarios, productos,
+  abastecimiento y conservación de productos orgánicos en minimarkets.
+  La aplicación fue desarrollada utilizando Angular y organizada
+  mediante componentes, servicios y bounded contexts, con interfaces
+  diferenciadas para los roles de Administrador de Minimarket y
+  Proveedor. El alcance funcional trabajado durante el Sprint 2
+  comprende los siguientes flujos:
+</p>
+
+<ul>
+  <li>
+    <strong>IAM (Identity and Access Management):</strong>
+    Registro de usuarios, inicio de sesión, configuración de roles
+    y permisos, y control de acceso a las operaciones del sistema
+    según el tipo de usuario.
+  </li>
+  <li>
+    <strong>Requisition:</strong>
+    Gestión de pedidos de abastecimiento realizados por los
+    administradores de minimarkets, permitiendo crear y consultar
+    solicitudes de productos dirigidas a proveedores.
+  </li>
+  <li>
+    <strong>Suppliers:</strong>
+    Gestión y consulta del directorio de proveedores orgánicos,
+    incluyendo información de contacto y productos disponibles
+    para el abastecimiento de los minimarkets.
+  </li>
+  <li>
+    <strong>Procurements:</strong>
+    Gestión de pedidos y órdenes de envío, permitiendo que los
+    proveedores acepten o rechacen solicitudes y que los
+    administradores confirmen o rechacen la recepción de productos.
+  </li>
+  <li>
+    <strong>Conservation:</strong>
+    Consulta y monitoreo de las condiciones de conservación de
+    productos mediante indicadores de temperatura y humedad,
+    así como alertas relacionadas con condiciones de almacenamiento.
+  </li>
+  <li>
+    <strong>Inventory:</strong>
+    Visualización y administración del inventario de los
+    minimarkets, incluyendo registro de productos, control
+    de lotes, fechas de vencimiento y actualización de existencias.
+  </li>
+  <li>
+    <strong>Dashboard:</strong>
+    Panel general con indicadores operativos adaptados al rol
+    del usuario, permitiendo visualizar información relevante
+    sobre inventario, abastecimiento, productos y alertas.
+  </li>
+  <li>
+    <strong>Profiles:</strong>
+    Gestión de perfiles de usuario asociados a las cuentas
+    registradas, incluyendo información personal y datos
+    correspondientes al administrador o proveedor.
+  </li>
+  <li>
+    <strong>Communication:</strong>
+    Visualización de mensajes, notificaciones y alertas
+    relacionadas con las operaciones de abastecimiento,
+    conservación e inventario.
+  </li>
+</ul>
+
+<p>
+  La aplicación contempla soporte de internacionalización
+  <strong>i18n</strong> (español e inglés), una interfaz basada
+  en Angular y navegación mediante Angular Router. Asimismo,
+  se trabajó en la validación de criterios de aceptación de IAM,
+  la visualización del dashboard por rol y las mejoras de la
+  Landing Page solicitadas por el docente, incluyendo la
+  adaptación de las Historias de Usuario al rol
+  <strong>Visitante (Visitor)</strong> y la incorporación de
+  enlaces interactivos a LinkedIn, X y Facebook.
+  A continuación, se incluyen las capturas representativas
+  del Sprint Review.
+</p>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
+  <p><em>Figura: Vista de inicio de sesión del bounded context IAM de MarketGo.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint2-requisitions.png" alt="Supply Requests View" width="90%">
+  <p><em>Figura: Gestión de pedidos de abastecimiento realizados por administradores de minimarkets.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
+  <p><em>Figura: Directorio de proveedores orgánicos y catálogo de productos disponibles para abastecimiento.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint2-procurement.png" alt="Supply Orders Management" width="90%">
+  <p><em>Figura: Gestión de pedidos de abastecimiento y órdenes de envío entre proveedores y administradores.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint2-inventory.png" alt="Inventory Management" width="90%">
+  <p><em>Figura: Visualización del inventario con información de productos, lotes, existencias y fechas de vencimiento.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint2-dashboard.png" alt="MarketGo Dashboard" width="90%">
+  <p><em>Figura: Dashboard general de MarketGo con indicadores operativos diferenciados según el rol del usuario.</em></p>
+</div>
+
+<h4>Product Navigation Video Evidence</h4>
+
+<p>
+  En esta sección se presenta el video demostrativo de navegación
+  de la plataforma <strong>MarketGo</strong>, desarrollado por
+  <strong>MarketLab</strong> como evidencia del Sprint 2.
+  El propósito de este material audiovisual es mostrar los
+  principales flujos del Frontend Web Application, incluyendo
+  el registro e inicio de sesión, la gestión de perfiles,
+  el acceso diferenciado según el rol, la administración
+  del inventario, la consulta de proveedores, la gestión
+  de pedidos de abastecimiento y órdenes de envío,
+  así como la visualización de indicadores en el dashboard.
+  Asimismo, se busca evidenciar la interacción entre los
+  bounded contexts y la navegación general del sistema
+  para los roles de Administrador de Minimarket y Proveedor.
+  El material audiovisual puede alojarse en la plataforma
+  institucional <strong>Microsoft Stream</strong>.
+</p>
+
+<strong>Nombre del archivo de video:</strong>
+<code>marketgo-productnavigation-sprint-2.mp4</code>
+
+<div align="center">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQADWTad-EyvSqVDDT4XLbUfARe43Rpcn6uBFHpgZRcl68I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GlflNR" target="_blank">
+    <img src="./report/assets/chapter-05/tutorial-marketgo.png" alt="Video Demostrativo MarketGo en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
+  </a>
+  <p><em>Figura: Video demostrativo de navegación de MarketGo en Microsoft Stream.</em></p>
+</div>
+
+Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQADWTad-EyvSqVDDT4XLbUfARe43Rpcn6uBFHpgZRcl68I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GlflNR
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+<p>
+  Durante el Sprint 2 de MarketGo, el equipo de MarketLab trabajó en
+  la integración de las funcionalidades del Frontend Web Application,
+  desarrollado con Vue 3, Vite y Pinia. Para facilitar las pruebas
+  de integración y validar los contratos de API entre los bounded
+  contexts, se contempló el uso de servicios de prueba mediante
+  json-server. Estos servicios permitieron representar las operaciones
+  principales relacionadas con usuarios, productos, inventarios,
+  lotes, proveedores, pedidos de abastecimiento y órdenes de envío.
+  La documentación de estos contratos sirvió como referencia para
+  la integración con los Web Services desarrollados en
+  <strong>ASP.NET Core / C#</strong>.
+</p>
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+<p><strong>URL del Mock API (local):</strong> <code>http://localhost:3000</code></p>
+<p><strong>URL del API (Producción):</strong> Entorno de servicios correspondiente al despliegue de MarketGo.</p>
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Acciones soportadas</th>
+      <th>Ejemplo de Request</th>
+      <th>Ejemplo de Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>/api/v1/auth/sign-in</code></td>
+      <td>POST autenticación de usuarios y validación de credenciales según el rol asignado.</td>
+      <td><code>POST /api/v1/auth/sign-in</code> con <code>{ "email":"admin@marketgo.com", "password":"demo123" }</code></td>
+      <td><code>{ "token":"example-token", "role":"ADMIN", "authenticated":true }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/auth/sign-up</code></td>
+      <td>POST registro de nuevos usuarios en la plataforma.</td>
+      <td><code>POST /api/v1/auth/sign-up</code> con <code>{ "name":"Usuario Demo", "email":"demo@marketgo.com", "password":"demo123", "role":"SUPPLIER" }</code></td>
+      <td><code>{ "id":"USR-001", "name":"Usuario Demo", "role":"SUPPLIER", "status":"ACTIVE" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/users</code></td>
+      <td>GET listado, GET /:id detalle, POST registro y PUT /:id actualización de usuarios.</td>
+      <td><code>GET /api/v1/users</code></td>
+      <td><code>[{ "id":"USR-001", "name":"Usuario Demo", "email":"demo@marketgo.com", "role":"ADMIN" }]</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/profiles</code></td>
+      <td>GET consulta de perfiles y PUT /:id actualización de información del usuario.</td>
+      <td><code>GET /api/v1/profiles/1</code></td>
+      <td><code>{ "id":"1", "userId":"USR-001", "type":"ADMIN", "phone":"999888777" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/products</code></td>
+      <td>GET catálogo, GET /:id detalle, POST creación y PUT /:id actualización de productos.</td>
+      <td><code>POST /api/v1/products</code> con <code>{ "name":"Manzana Orgánica", "category":"Frutas", "price":5.50, "unit":"kg" }</code></td>
+      <td><code>{ "id":"PROD-001", "name":"Manzana Orgánica", "category":"Frutas", "price":5.50 }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/suppliers</code></td>
+      <td>GET listado, GET /:id detalle y POST registro de proveedores.</td>
+      <td><code>GET /api/v1/suppliers</code></td>
+      <td><code>[{ "id":"SUP-001", "name":"Proveedor Orgánico Demo", "status":"ACTIVE" }]</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/inventory</code></td>
+      <td>GET listado, GET /:id detalle, POST registro y PUT /:id actualización de existencias.</td>
+      <td><code>GET /api/v1/minimarkets/1/inventory</code></td>
+      <td><code>[{ "id":"INV-001", "productId":"PROD-001", "stock":50, "unit":"kg" }]</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/lots</code></td>
+      <td>GET listado, GET /:id detalle y POST registro de lotes para trazabilidad de productos.</td>
+      <td><code>POST /api/v1/minimarkets/1/lots</code> con <code>{ "productId":"PROD-001", "quantity":25, "expirationDate":"2026-12-15" }</code></td>
+      <td><code>{ "id":"LOT-001", "productId":"PROD-001", "quantity":25, "expirationDate":"2026-12-15" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/requisitions</code></td>
+      <td>GET listado, POST creación y PUT /:id actualización de pedidos de abastecimiento.</td>
+      <td><code>POST /api/v1/minimarkets/1/requisitions</code> con <code>{ "supplierId":"SUP-001", "productId":"PROD-001", "quantity":30, "status":"PENDING" }</code></td>
+      <td><code>{ "id":"REQ-001", "supplierId":"SUP-001", "quantity":30, "status":"PENDING" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/purchase-orders</code></td>
+      <td>GET listado, POST creación y PATCH /:id aceptación o rechazo de órdenes de envío.</td>
+      <td><code>PATCH /api/v1/minimarkets/1/purchase-orders/PO-001</code> con <code>{ "status":"ACCEPTED" }</code></td>
+      <td><code>{ "id":"PO-001", "requisitionId":"REQ-001", "status":"ACCEPTED" }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/conservation/monitoring</code></td>
+      <td>GET consulta de temperatura, humedad y condiciones de conservación de productos.</td>
+      <td><code>GET /api/v1/minimarkets/1/conservation/monitoring</code></td>
+      <td><code>[{ "id":"MON-001", "temperature":18.5, "humidity":65, "status":"NORMAL" }]</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/communication/messages</code></td>
+      <td>GET listado de mensajes y PATCH /:id actualización del estado de lectura.</td>
+      <td><code>PATCH /api/v1/minimarkets/1/communication/messages/1</code> con <code>{ "isRead":true }</code></td>
+      <td><code>{ "id":"1", "subject":"Pedido de abastecimiento", "isRead":true }</code></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/minimarkets/{minimarketId}/dashboard</code></td>
+      <td>GET indicadores generales de inventario, abastecimiento y alertas según el rol del usuario.</td>
+      <td><code>GET /api/v1/minimarkets/1/dashboard</code></td>
+      <td><code>{ "totalProducts":120, "pendingOrders":5, "activeAlerts":3, "role":"ADMIN" }</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  La documentación <strong>OpenAPI/Swagger</strong> de los
+  Web Services se organizó según los bounded contexts de MarketGo.
+  Esta documentación permitió describir los endpoints, métodos HTTP,
+  estructuras de solicitudes y respuestas, así como los contratos
+  necesarios para la comunicación entre el Frontend Web Application
+  y los servicios desarrollados con ASP.NET Core / C#.
+</p>
+
+<p>
+  <strong>Repositorio del Frontend:</strong>
+  MarketGo Frontend Web Application, desarrollado con Vue 3 y Vite.<br>
+  <strong>Documentación relacionada:</strong>
+  Contratos de API, integración de servicios y funcionalidades
+  organizadas por bounded contexts.
+</p>
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+<p>
+  Durante el Sprint 2 de MarketGo se realizaron actividades de
+  preparación, integración y despliegue de dos componentes principales:
+  la versión mejorada del <strong>Landing Page (v2)</strong>
+  y el <strong>Frontend Web Application</strong>.
+  Estas actividades estuvieron orientadas a facilitar el acceso
+  a la plataforma, validar la navegación entre interfaces y
+  presentar los avances funcionales durante el Sprint Review.
+</p>
+
+<p><strong>Landing Page v2</strong></p>
+<ul>
+  <li>
+    Se incorporaron las correcciones solicitadas por el docente
+    durante la evaluación, especialmente la adaptación de las
+    Historias de Usuario del sitio público para utilizar
+    <strong>Visitante (Visitor)</strong> como rol principal.
+  </li>
+  <li>
+    Se mejoró la sección de contacto mediante la incorporación
+    de íconos interactivos y enlaces directos a cuentas simuladas
+    de <strong>LinkedIn, X y Facebook</strong>, complementando
+    los medios de contacto existentes mediante correo electrónico
+    y WhatsApp.
+  </li>
+  <li>
+    Se revisó la presentación visual, la navegación y la
+    organización de las secciones del Landing Page para mejorar
+    la experiencia de los visitantes y cumplir los criterios
+    establecidos en la rúbrica.
+  </li>
+</ul>
+
+<p><strong>Frontend Web Application (Sprint 2)</strong></p>
+<ul>
+  <li>
+    Se trabajó en el repositorio del Frontend Web Application
+    de MarketGo, utilizando <strong>Vue 3, Vite y Pinia</strong>
+    y una estructura modular organizada por bounded contexts.
+  </li>
+  <li>
+    Se desarrollaron las interfaces y flujos correspondientes
+    a la autenticación de usuarios, gestión de perfiles,
+    navegación por roles, pedidos de abastecimiento,
+    proveedores, inventario y dashboard general.
+  </li>
+  <li>
+    Se estableció la comunicación con los servicios de datos
+    mediante una capa de consumo de API, permitiendo organizar
+    las operaciones utilizadas por los diferentes módulos.
+  </li>
+  <li>
+    Se preparó la aplicación para su publicación como
+    <strong>Single Page Application (SPA)</strong>,
+    considerando la navegación mediante Vue Router,
+    la configuración de entornos y la disponibilidad
+    de los recursos estáticos.
+  </li>
+</ul>
+
+<p><strong>Pasos realizados durante el Sprint:</strong></p>
+<ol>
+  <li>
+    Organización del Frontend Web Application en Vue 3 mediante
+    componentes, vistas, servicios y bounded contexts,
+    siguiendo las responsabilidades funcionales de MarketGo.
+  </li>
+  <li>
+    Definición de los contratos de API y configuración del
+    consumo de servicios para la gestión de usuarios,
+    productos, proveedores, inventarios y abastecimiento.
+  </li>
+  <li>
+    Preparación de la aplicación frontend para su despliegue,
+    incluyendo la generación de archivos de producción
+    mediante <code>npm run build</code>.
+  </li>
+  <li>
+    Actualización del Landing Page con las correcciones
+    solicitadas por el docente, incluyendo la experiencia
+    del visitante y los enlaces interactivos a redes sociales.
+  </li>
+  <li>
+    Revisión de la navegación, visualización de interfaces,
+    permisos según el rol e integración de los módulos
+    considerados dentro del Sprint 2.
+  </li>
+</ol>
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+<p>
+  Durante el Sprint 2, el equipo de <strong>MarketLab</strong>
+  utilizó <strong>Trello</strong> para organizar y supervisar
+  las actividades del desarrollo de MarketGo. El tablero permitió
+  clasificar las tareas en columnas como <em>To-Do</em>,
+  <em>In-Progress</em>, <em>To-Review</em>,
+  <em>To-Fix</em> y <em>Done</em>,
+  facilitando la identificación del estado de cada actividad,
+  el seguimiento del avance y la coordinación entre los integrantes.
+  Esta organización permitió mantener una visión general de
+  las responsabilidades asociadas al Sprint Backlog.
+</p>
+
+<p>
+  El trabajo se organizó por <em>bounded contexts</em>,
+  distribuyendo las responsabilidades entre los cinco integrantes:
+  <strong>Cáceres Pizarro, Albino Florencio</strong>,
+  como líder general del equipo;
+  <strong>Huaranga Romero, Matias Daniel</strong>;
+  <strong>Merino Ordinola, Winnie Lisbeth</strong>;
+  <strong>Quispe Almonacid, Andre Sebastian</strong>;
+  y <strong>Torres Huaman, Alexis Calin</strong>.
+  Esta distribución permitió trabajar en las funcionalidades
+  y la documentación de IAM, Profiles, Requisition,
+  Procurements, Suppliers, Products, Inventory,
+  Conservation, Dashboard y Communication.
+  La coordinación del equipo comprendió la asignación
+  de tareas en Trello, el seguimiento de los avances,
+  la integración de cambios en GitHub y la revisión
+  de los entregables correspondientes al Sprint 2.
+</p>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2 MarketGo" width="90%">
+  <p><em>Figura: Historial de commits de MarketGo en GitHub, correspondiente a los avances realizados durante el Sprint 2.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2 MarketGo" width="90%">
+  <p><em>Figura: Gráfica de Contributors de GitHub Insights que permite visualizar la participación de los integrantes de MarketLab durante el Sprint 2.</em></p>
+</div>
+
+<p><strong>Métricas de colaboración del Sprint 2:</strong></p>
+<ul>
+  <li>
+    <strong>Story Points completados:</strong>
+    Seguimiento de las historias de usuario y tareas técnicas
+    consideradas en el Sprint Backlog de MarketGo.
+  </li>
+  <li>
+    <strong>Total de tareas gestionadas en Trello:</strong>
+    Actividades registradas y distribuidas entre las columnas
+    del tablero del Sprint 2.
+  </li>
+  <li>
+    <strong>Total de Pull Requests:</strong>
+    Integraciones y revisiones realizadas mediante los
+    repositorios GitHub de MarketGo.
+  </li>
+  <li>
+    <strong>Total de commits en el repositorio Frontend:</strong>
+    Cambios registrados durante el desarrollo e integración
+    de las funcionalidades del Sprint 2.
+  </li>
+</ul>
+
+<p><strong>Aciertos del Sprint:</strong></p>
+<ul>
+  <li>
+    La organización del frontend por <em>bounded contexts</em>
+    (<code>iam</code>, <code>profiles</code>,
+    <code>products</code>, <code>suppliers</code>,
+    <code>inventory</code>, <code>requisition</code>,
+    <code>procurements</code>, <code>conservation</code>,
+    <code>dashboard</code> y <code>communication</code>)
+    permitió distribuir las responsabilidades entre
+    los integrantes y mantener una separación clara
+    de las funcionalidades del sistema.
+  </li>
+  <li>
+    La definición de contratos de API y la organización de
+    los servicios facilitaron la integración progresiva del
+    Frontend Web Application con los Web Services,
+    manteniendo la coherencia entre las operaciones
+    de inventario, proveedores y abastecimiento.
+  </li>
+  <li>
+    El uso de Vue 3, Vite y Pinia permitió establecer
+    una arquitectura frontend basada en componentes
+    reutilizables y gestión centralizada del estado.
+    Asimismo, se consideró la internacionalización
+    mediante <strong>i18n</strong> para ofrecer soporte
+    en español e inglés.
+  </li>
+</ul>
+
+<p><strong>Oportunidades de mejora identificadas:</strong></p>
+<ul>
+  <li>
+    Reforzar la validación de formularios y los criterios
+    de aceptación de IAM, especialmente en el registro
+    de usuarios, inicio de sesión y asignación de permisos,
+    para garantizar un comportamiento consistente
+    según el rol.
+  </li>
+  <li>
+    Mejorar la documentación de los componentes,
+    stores de Pinia y servicios de consumo de API,
+    estableciendo convenciones de nombres y
+    responsabilidades claras entre los bounded contexts
+    para facilitar el mantenimiento del código.
+  </li>
+  <li>
+    Incrementar la cobertura de pruebas funcionales
+    y de integración, principalmente en los flujos
+    de pedidos de abastecimiento, órdenes de envío,
+    actualización del inventario y visualización del
+    dashboard según el rol del usuario.
+  </li>
+</ul>
