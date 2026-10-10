@@ -659,7 +659,10 @@ Descripción. El visitante compara planes, consulta Contacto y abre el acceso. E
 **Descripción.** El visitante compara planes, consulta Contacto y abre el acceso. El flujo también señala que el formulario de contacto todavía no confirma el envío.
 
 ## 4.5. Web Applications Prototyping.
-[Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
+
+Web Application Wireframes and Mockups: https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0
+
+Link del prototipo: https://www.figma.com/proto/9xNGPAyqy0cbeCAJyCqyn8/MarketGo?node-id=22-2&starting-point-node-id=22%3A2&t=htS98pieL6dPmidr-1
 
 
 ## 4.6. Domain-Driven Software Architecture.
