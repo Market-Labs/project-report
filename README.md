@@ -27,7 +27,7 @@
 
 <br>
 
-**Informe de Trabajo Final - AV1**
+**Informe de Trabajo Parcial - TB1**
 
 <br>
 
@@ -82,6 +82,7 @@
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
 | 1.0.0 | 20/09/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Almonacid, Andre Sebastian<br>Torres Huaman, Alexis Calin| Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
+| 1.1.0 | 09/10/2026 | Cáceres Pizarro, Albino Florencio<br>Huaranga Romero, Matias Daniel<br>Merino Ordinola, Winnie Lisbeth<br>Quispe Almonacid, Andre Sebastian<br>Torres Huaman, Alexis Calin | Corrección de observaciones de la entrega AV1:<br>Capítulo I: Lean UX Problem Statement con la plantilla oficial, Feature Assumptions y Hypothesis Statements en relación 1 a 1, Lean UX Canvas alineado con los User Personas y diferenciación frente a competidores.<br>Capítulo II: registro de entrevistas con video consolidado en Microsoft Stream y timing (hh:mm:ss) de inicio y duración; User Persona, Empathy Maps y Journey Maps elaborados en UXPressia; User Task Matrix y Ubiquitous Language alineados con el flujo de pedidos y órdenes de envío.<br>Capítulo III: User Stories del rol Visitante (US031–US033); Impact Mapping BG1 y BG2 elaborado en UXPressia; US032 actualizada a consulta de planes de suscripción.<br>Capítulo IV: leyendas de figuras, Wireflows y User Flows con rutas alternativas, EventStorming y diagrama de clases en SVG; eliminación de referencias a donaciones. |
 
 ---
 
@@ -911,7 +912,7 @@ Peru Marketplace facilita la conexión entre compradores y proveedores, pero Mar
 Para afrontar la dependencia de herramientas tradicionales como Excel y aplicaciones de mensajería, MarketGo buscará simplificar las principales operaciones de sus usuarios.
 
 - **Dashboard común:** utilizar una misma interfaz para ambos segmentos, reduciendo la complejidad de aprendizaje.
-- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como la generación de pedidos.
+- **Permisos según rol:** permitir que los administradores de minimarkets cuenten con permisos de lectura y escritura, mientras que los proveedores dispongan de permisos de consulta y acciones específicas como responder pedidos y generar órdenes de envío.
 - **Flujo simplificado:** reducir la cantidad de pasos necesarios para consultar productos, generar pedidos y actualizar el inventario.
 
 #### Estrategia de innovación y escalabilidad
@@ -990,7 +991,9 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 
 **Segmento objetivo: Administradores de Minimarkets**
 
-**Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
+**Video consolidado de entrevistas (Microsoft Stream):** `upc-pre-202620-1asi0730-8130-MarketLabs-needfinding-sprint-1.mp4` (duración total 00:41:46) – <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado</a>
+
+El video consolida las seis entrevistas de ambos segmentos. En cada registro se indica el *timing* (hh:mm:ss) en el que inicia la entrevista dentro del video y su duración.
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
@@ -1030,12 +1033,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 05:04</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:00:00</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:05:05</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 05:04</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQAO_S8vsY7wSLoGXu_zLohnAacAwmkheFzeSivboAvBNEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e0cCTv" target="_blank">Ver Video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:05:05</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:00:00)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1047,7 +1050,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `Entrevista Roly hans Luna.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1087,12 +1089,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 15:00</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:05:05</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:18:43</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 15:00</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQBD3_GD9iQdSaVNcGL-1ry4ATd8dDv7XB3Z7iXLqwA4PUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wlhYtj" target="_blank">Ver Video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:13:38</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:05:05)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1103,7 +1105,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `entrevisa_cesar_appweb - View-only.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1143,12 +1144,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Microsoft Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 07:37</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:18:43</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:26:19</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 07:37</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAtjkovEx1wRr3eMlftO2sFAXlMxG88PDLfCn4uFfxvYMs?e=9CcTbz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:07:36</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:18:43)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1162,7 +1163,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 </table>
 
 **Segmento objetivo: Proveedores**
-**Nombre del archivo de video consolidado:** `Entrevista 04.mp4`
+Las entrevistas de este segmento continúan en el mismo video consolidado (`upc-pre-202620-1asi0730-8130-MarketLabs-needfinding-sprint-1.mp4`), a partir de 00:26:19.
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1202,12 +1203,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 04:06</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:26:19</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:30:40</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 04:06</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCquViaF_SnRquqfLHjWNN6AS7qnx40lGI0g6TNwS0gQzs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hXKRuG" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:04:21</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:26:19)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1218,7 +1219,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `Entrevista 05.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1258,12 +1258,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 03:18</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:30:40</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:33:57</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 03:18</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCwo0q-bj1uQYt69CNCW2yzASlNO3LdQ3uNfi95xgfa4Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JsKV8z" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:03:17</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:30:40)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1274,7 +1274,6 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
   </tbody>
 </table>
 
-**Nombre del archivo de video consolidado:** `segmmento proveedores.mp4`
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1314,12 +1313,12 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Hora de inicio:</strong> 00:00</td>
-      <td colspan="2"><strong>Hora de finalización:</strong> 07:50</td>
+      <td colspan="2"><strong>Inicio en el video (timing):</strong> 00:33:57</td>
+      <td colspan="2"><strong>Fin en el video:</strong> 00:41:46</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 07:50</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410746_upc_edu_pe/IQCMSfrbXtL4RZKFfF1b3BmTAcRfWzPxNyHY7YMTQFX0CTM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BXNBH4" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 00:07:49</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBnGMEhlvAHSY3MOhumatkyATjXF_ceF332mD2498BVd9w?e=J6S7rd" target="_blank">Ver video consolidado (desde 00:33:57)</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1329,8 +1328,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 El proceso de abastecimiento comienza con la recepción de solicitudes de los minimarkets, seguida de la verificación de disponibilidad, confirmación, preparación de productos, revisión de lotes y coordinación del despacho. Cuando existen varios pedidos o modificaciones simultáneas, el seguimiento se vuelve más complejo y pueden producirse inconsistencias, como informar disponibilidad desactualizada o perder cambios realizados mediante conversaciones.
 
 En conclusión, se identifica la necesidad de centralizar la información de productos, lotes, disponibilidad y pedidos. Una plataforma que permita consultar y actualizar estos datos, además de visualizar el estado de cada operación, podría reducir la dependencia de archivos y conversaciones dispersas y facilitar la coordinación entre el proveedor y los minimarkets.
-      </td>
-    </tr>
+</td>
+</tr>
   </tbody>
 </table>
 
@@ -1428,7 +1427,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ### 2.3.2. User Task Matrix.
 
-Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
+Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y responder los pedidos de abastecimiento generando órdenes de envío. El diseño de la plataforma MarketGo se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
 
 **Tasks vs User Personas**
 
@@ -1439,15 +1438,16 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 | Monitorear temperatura y humedad (IoT) | Muy frecuente | Alta | No aplica | No aplica |
 | Controlar lotes y fechas de vencimiento | Muy frecuente | Alta | Frecuente | Alta |
 | Consultar catálogo de proveedores conectados | Frecuente | Alta | No aplica | No aplica |
-| Evaluar (aceptar/rechazar) pedidos entrantes | Frecuente | Alta | No aplica | No aplica |
+| Crear pedidos de abastecimiento | Frecuente | Alta | No aplica | No aplica |
+| Responder pedidos y generar órdenes de envío | No aplica | No aplica | Muy frecuente | Alta |
+| Aceptar o rechazar órdenes de envío | Frecuente | Alta | No aplica | No aplica |
 | Actualizar inventario tras operaciones | Frecuente | Alta | No aplica | No aplica |
 | Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
 | Visualizar dashboard de métricas operativas | Muy frecuente | Alta | Muy frecuente | Alta |
-| Gestionar mermas, pérdidas o donaciones | Ocasional | Media | No aplica | No aplica |
+| Gestionar mermas y ofertas de productos en riesgo | Ocasional | Media | No aplica | No aplica |
 | Comunicarse y resolver incidencias de logística | Ocasional | Alta | Frecuente | Alta |
 
-La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de MarketGo: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
-
+La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la respuesta oportuna a los pedidos recibidos. Estas diferencias reflejan el flujo central de MarketGo: el administrador crea el pedido de abastecimiento; el proveedor lo acepta o rechaza y, si lo acepta, genera la orden de envío; finalmente, el administrador acepta o rechaza esa orden, y solo al aceptarla el inventario del minimarket se actualiza automáticamente.
 ### 2.3.3. User Journey Mapping.
 
 El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de MarketGo, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
@@ -1462,7 +1462,7 @@ El User Journey Map de Russell Estrada ilustra la experiencia actual del segment
 
 ![User Journey Map - Proveedor B2B](report/assets/chapter-02/user-journey-proveedor.png)
 
-El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
+El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la recepción de pedidos y la generación de órdenes de envío, y brinde seguimiento en tiempo real.
 
 ### 2.3.4. Empathy Mapping.
 
@@ -1474,23 +1474,23 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 
 ##### **Segmento 1: Administrador de Minimarket Orgánico**
 
-* **Personaje :** Carlos Mendoza
-* **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
+* **Personaje:** Russell Estrada
+* **Edad / Rol:** 28 años, administrador de un minimarket de productos orgánicos en Lima (arquetipo *Guardian*).
 
-**Mapa de Empatía - Carlos Mendoza**
+**Mapa de Empatía - Russell Estrada**
 
-![Mapa de empatía del administrador Carlos Mendoza](report/assets/chapter-02/empathy-map-administrador.png)
+![Mapa de empatía del administrador Russell Estrada](report/assets/chapter-02/empathy-map-administrador.png)
 
 ---
 
-##### **Segmento 2: Proveedora y Distribuidora Mayorista**
+##### **Segmento 2: Proveedor y Distribuidor B2B**
 
-* **Personaje :** Valeria Ríos
-* **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
+* **Personaje:** Marco Antonio Ríos
+* **Edad / Rol:** 32 años, coordinador comercial de una distribuidora de productos orgánicos en Lurín que abastece a 30 minimarkets.
 
-**Mapa de Empatía - Valeria Ríos**
+**Mapa de Empatía - Marco Antonio Ríos**
 
-![Mapa de empatía de la proveedora Valeria Ríos](report/assets/chapter-02/empathy-map-proveedor.png)
+![Mapa de empatía del proveedor Marco Antonio Ríos](report/assets/chapter-02/empathy-map-proveedor.png)
 
 
 ## 2.4. Big Picture EventStorming.
@@ -1506,8 +1506,8 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 
 | Término | Definición |
 | :--- | :--- |
-| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, aprobar solicitudes de abastecimiento y consultar los indicadores de su negocio dentro de MarketGo. |
-| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, responde solicitudes de abastecimiento y genera órdenes de compra hacia los minimarkets. |
+| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, crear pedidos de abastecimiento, aceptar o rechazar órdenes de envío y consultar los indicadores de su negocio dentro de MarketGo. |
+| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, acepta o rechaza los pedidos de abastecimiento y genera órdenes de envío hacia los minimarkets. |
 | **Perfil de negocio** | Conjunto de datos que identifican a un administrador o proveedor dentro de la plataforma (razón social, RUC, cobertura, datos de contacto). |
 | **Rol** | Nivel de acceso asignado a un usuario (administrador o proveedor) que determina las acciones y vistas disponibles para él dentro del sistema. |
 | **Catálogo orgánico** | Read model que consolida todos los productos orgánicos registrados por un proveedor, con su categoría, precio y fecha de expiración validados. |
@@ -1515,15 +1515,15 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | **Stock mínimo** | Umbral configurado por producto que, al ser alcanzado, dispara el evento de stock bajo detectado y genera una alerta automática. |
 | **Inventario actual** | Read model que muestra en tiempo real la cantidad disponible de cada producto y lote dentro del almacén del minimarket o proveedor. |
 | **Alerta de stock bajo** | Notificación generada automáticamente cuando el inventario de un producto cae por debajo del stock mínimo configurado. |
-| **Solicitud (Requisition)** | Petición de abastecimiento creada por un administrador o proveedor, que puede ser aceptada o rechazada y cuyo estado es notificado a ambas partes. |
-| **Orden de compra (Procurement)** | Documento generado a partir de una solicitud aceptada, que formaliza la compra de productos entre el proveedor y el minimarket. |
-| **Recepción** | Confirmación de la llegada física de una orden de compra, que actualiza el inventario del minimarket solo si es aceptada. |
+| **Solicitud / Pedido de abastecimiento (Requisition)** | Petición de abastecimiento creada únicamente por el administrador del minimarket y dirigida a un proveedor, que este puede aceptar o rechazar; su estado se notifica a ambas partes. |
+| **Orden de envío (Shipping Order)** | Documento que el proveedor genera a partir de un pedido aceptado, con los productos, cantidades y lotes que serán despachados al minimarket. |
+| **Recepción** | Aceptación o rechazo de una orden de envío por parte del administrador; solo si es aceptada se actualiza automáticamente el inventario del minimarket. |
 | **Directorio de proveedores** | Read model que agrupa a todos los proveedores registrados y validados (RUC y cobertura) disponibles para un minimarket. |
 | **Dashboard** | Vista consolidada de indicadores operativos, distinta según el rol del usuario (administrador o proveedor), que resume el estado general del negocio. |
 | **Indicador / KPI** | Métrica operativa calculada por el sistema (por ejemplo, mermas, nivel de stock o pedidos pendientes) y mostrada en el dashboard. |
 | **Reporte operativo** | Documento generado por el módulo de Analytics que resume métricas y variaciones de un periodo determinado. |
 | **Conservación (Conservation)** | Contexto vinculado al monitoreo de condiciones ambientales (temperatura y humedad) que afectan la calidad de los productos orgánicos almacenados. |
-| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de una solicitud o una alerta de inventario). |
+| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de un pedido, de una orden de envío o una alerta de inventario). |
 
 ---
 
@@ -1599,7 +1599,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | US 029 | Controlar acceso según operación | **Como** usuario de MarketGo,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede gestionar sus pedidos e inventario y aceptar o rechazar órdenes de envío, pero no modificar directamente las órdenes creadas por el proveedor.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede a MarketGo,<br>**Entonces** puede consultar y aceptar o rechazar pedidos recibidos y gestionar sus órdenes de envío, pero no modificar directamente el inventario del minimarket. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de MarketGo,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | **Escenario 1: Administrador de minimarket**<br>**Dado** que el usuario tiene rol de administrador de minimarket,<br>**Cuando** accede al dashboard,<br>**Entonces** el sistema muestra información relevante de inventario, conservación, pedidos, órdenes de envío y alertas correspondientes a su operación.<br><br>**Escenario 2: Proveedor**<br>**Dado** que el usuario tiene rol de proveedor,<br>**Cuando** accede al mismo dashboard,<br>**Entonces** el sistema muestra información relevante de productos ofrecidos, pedidos recibidos y órdenes de envío según sus permisos. | EP-07 |
 | US 031 | Explorar propuesta de valor en landing page | **Como** visitante,<br>**Quiero** visualizar la página principal e informativa de MarketGo,<br>**Para** entender la propuesta de valor y los beneficios del sistema antes de registrarme. | **Escenario 1: Navegación pública**<br>**Dado** que un usuario sin sesión activa accede a la URL principal,<br>**Cuando** navega por el sitio,<br>**Entonces** el sistema le despliega la información del servicio, beneficios para minimarkets y proveedores, y accesos visibles para iniciar sesión o registrarse.<br><br>**Escenario 2: Redirección de autenticado**<br>**Dado** que un usuario ya ha iniciado sesión,<br>**Cuando** ingresa a la landing page,<br>**Entonces** el sistema le ofrece un acceso directo al Dashboard. | EP-08 |
-| US 032 | Consultar planes | **Como** visitante,<br>**Quiero** visualizar el directorio de proveedores públicos y sus productos destacados,<br>**Para** evaluar la oferta de productos orgánicos disponibles antes de afiliar mi minimarket. | **Escenario 1: Consulta de directorio**<br>**Dado** que el visitante está en la sección pública de proveedores,<br>**Cuando** examina la lista,<br>**Entonces** el sistema muestra los proveedores verificados y sus categorías de productos sin exponer precios ni datos de contacto directo de la transacción.<br><br>**Escenario 2: Intento de compra o pedido**<br>**Dado** que el visitante intenta realizar un pedido desde la vista pública,<br>**Cuando** presiona el botón de acción,<br>**Entonces** el sistema lo redirige a la pantalla de Inicio de Sesión / Registro indicando que requiere una cuenta activa. | EP-05 / EP-08 |
+| US 032 | Consultar planes de suscripción | **Como** visitante,<br>**Quiero** visualizar los planes de suscripción de MarketGo (Básico, Profesional y Empresarial) con sus precios y funcionalidades incluidas,<br>**Para** elegir el plan que mejor se adapte al tamaño de mi minimarket o distribuidora antes de registrarme. | **Escenario 1: Consulta de planes**<br>**Dado** que el visitante se encuentra en la landing page,<br>**Cuando** accede a la sección de planes,<br>**Entonces** el sistema muestra los planes Básico, Profesional y Empresarial con su precio mensual, las funcionalidades incluidas y el segmento recomendado.<br><br>**Escenario 2: Selección de un plan**<br>**Dado** que el visitante está revisando los planes,<br>**Cuando** presiona el botón de suscripción de un plan,<br>**Entonces** el sistema lo redirige a la pantalla de registro con el plan seleccionado. | EP-08 |
 | US 033 | Solicitar información de registro o demo | **Como** visitante,<br>**Quiero** enviar un formulario de contacto o solicitud de demo,<br>**Para** recibir atención personalizada y evaluar la adopción de MarketGo en mi negocio. | **Escenario 1: Envío con datos válidos**<br>**Dado** que el visitante completa el formulario público (nombre, correo, tipo de negocio y teléfono),<br>**Cuando** confirma el envío,<br>**Entonces** el sistema guarda la solicitud y muestra un mensaje de confirmación.<br><br>**Escenario 2: Formulario incompleto**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema bloquea el envío y resalta los campos requeridos. | EP-06 / EP-08 |
 
 ### Technical Stories
@@ -1703,12 +1703,14 @@ La siguiente matriz consolida los contratos REST utilizados para la primera vers
 ## 3.2. Impact Mapping.
 El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el comportamiento esperado de los User Personas y con las funcionalidades que MarketGo debe entregar. Se definieron dos Business Goals bajo el criterio SMART (específicos, medibles, alcanzables, relevantes y con plazo), uno orientado a la reducción de mermas en el minimarket y otro a la agilización del abastecimiento entre minimarkets y proveedores. Para cada objetivo se identifican los actores (User Personas construidos en la sección 2.3.1), los impactos o cambios de comportamiento que se buscan en ellos, los entregables (deliverables) que los hacen posibles y las User Stories del Product Backlog que los implementan.
 
-<p align="center">
-  <img src="report/assets/chapter-03/impact-mapping.png" alt="Impact Mapping de MarketGo" width="100%">
-</p>
-<p align="center"><em>Figura: Impact Mapping de MarketGo (Business Goals → Personas → Impacts → Deliverables → User Stories).</em></p>
+Ambos Impact Maps fueron elaborados en UXPressia y vinculan directamente las fichas de User Persona de Russell Estrada y Marco Antonio Ríos.
 
 **Business Goal 1 – Reducción de mermas (Persona: Russell Estrada, administrador de minimarket orgánico)**
+
+<p align="center">
+  <img src="report/assets/chapter-03/impact-mapping-bg1.png" alt="Impact Map BG1 de MarketGo en UXPressia" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Map BG1 – Reducción de mermas (UXPressia).</em></p>
 
 | Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
 |---|---|---|---|---|
@@ -1721,6 +1723,11 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 
 **Business Goal 2 – Agilización del abastecimiento (Personas: Russell Estrada y Marco Antonio Ríos, proveedor B2B)**
 
+<p align="center">
+  <img src="report/assets/chapter-03/impact-mapping-bg2.png" alt="Impact Map BG2 de MarketGo en UXPressia" width="100%">
+</p>
+<p align="center"><em>Figura: Impact Map BG2 – Agilización del abastecimiento (UXPressia).</em></p>
+
 | Business Goal (SMART) | Persona | Impact | Deliverable | User Stories |
 |---|---|---|---|---|
 | Reducir de 24 h a menos de 4 h el tiempo promedio entre la creación de un pedido de abastecimiento y la generación de su orden de envío, en el 80% de los pedidos gestionados en MarketGo durante el primer semestre de operación. | Russell Estrada | Consulta el catálogo real de sus proveedores en lugar de PDFs desactualizados. | Catálogo de productos de proveedores | US015 |
@@ -1730,9 +1737,9 @@ El Impact Mapping permite conectar los objetivos de negocio de MarketLabs con el
 | | | Responde pedidos en minutos y despacha sin transcribir a Excel. | Respuesta a pedidos y órdenes de envío | US020, US021, US022 |
 | | | Deja de recibir llamadas de confirmación porque el minimarket ve el estado por sí mismo. | Historial y dashboard común por rol | US025, US030 |
 | | | Opera con confianza sabiendo que no puede alterar el inventario ajeno ni otros acceden a su información. | Acceso seguro con permisos por rol | US026, US027, US028, US029 |
-| Agilización del abastecimiento y captación de clientes | Visitante | Conoce la oferta y los beneficios de la plataforma antes de iniciar la gestión comercial. | Portal de bienvenida y catálogo público demostrativo | US031, US032, US033 |
+| | Visitante | Conoce la propuesta de valor y los planes de suscripción antes de registrarse, sin necesidad de contactar a un vendedor. | Landing page con planes y formulario de contacto | US031, US032, US033 |
 
-De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
+El actor Visitante complementa el BG2 desde la landing page: no corresponde a un User Persona, por lo que se registra en la tabla y no en el mapa de UXPressia. De esta forma, las 33 User Stories del Product Backlog quedan trazadas a al menos un impacto y a un Business Goal medible, lo que justifica su priorización en la sección 3.3.
 
 
 ## 3.3. Product Backlog.
@@ -1800,10 +1807,10 @@ De esta forma, las 30 User Stories del Product Backlog quedan trazadas a al meno
 | 59 | FS-001 | Permisos de pedidos según rol | Como sistema, quiero aplicar permisos diferenciados sobre los pedidos para que el administrador pueda crearlos y gestionarlos mientras el proveedor pueda consultarlos y aceptar o rechazar las solicitudes recibidas. | 3 |
 | 60 | FS-002 | Permisos de órdenes de envío según rol | Como sistema, quiero aplicar permisos diferenciados sobre las órdenes de envío para que el proveedor pueda crearlas y gestionarlas mientras el administrador pueda consultarlas y aceptar o rechazar su recepción. | 3 |
 | 61 | US-031 | Explorar propuesta de valor | Como visitante, quiero visualizar la información general de MarketGo para entender sus beneficios. | 2 |
-| 62 | US-032 | Consultar directorio público | Como visitante, quiero ver planes para conocer los productos disponibles en la plataforma. | 3 |
+| 62 | US-032 | Consultar planes de suscripción | Como visitante, quiero visualizar los planes de suscripción con sus precios y funcionalidades para elegir el que se adapte a mi negocio antes de registrarme. | 3 |
 | 63 | US-033 | Solicitar información o demo | Como visitante, quiero enviar un formulario de contacto para solicitar información comercial o una prueba del sistema. | 2 |
 
-**Enlace directo al tablero:** 
+**Enlace directo al tablero:**
 **Tablero Sprint 1: Trello**
 [Tablero Sprint 1 en Trello](https://trello.com/b/AyBgUYcT/springbacklog1)
 
@@ -1984,8 +1991,8 @@ Tabler Icons (estilo outline/línea), por tres razones:
 | **Abastecimiento y proveedores** | Documento con líneas | Pedido / orden |
 | | Historial / reloj con flecha circular | Historial de abastecimiento |
 | | Insignia con check | Certificación orgánica |
-| **Merma y donación** | Caja tachada o cesto | Registrar merma |
-| | Corazón o mano ofreciendo | Registrar donación |
+| **Merma y ofertas** | Caja tachada o cesto | Registrar merma |
+| | Etiqueta de precio con signo de porcentaje | Registrar oferta |
 
  
 | Propiedad | Valor |
@@ -2086,7 +2093,7 @@ Reglas: sustantivos cortos (1–2 palabras), sin verbos, consistentes con lo ya 
 
 - Botones primarios: "Registrar lote", "Registrar producto", "Aceptar pedido", "Confirmar rechazo", "Guardar lote"
 - Botones secundarios/cancelación: "Cancelar", "Rechazar"
-- Acciones en línea (íconos con tooltip): "Ver detalle", "Editar", "Eliminar", "Registrar merma", "Registrar donación"
+- Acciones en línea (íconos con tooltip): "Ver detalle", "Editar", "Eliminar", "Registrar merma", "Registrar oferta"
 - Acciones de filtrado y búsqueda: "Buscar producto o código de lote", "Filtrar por estado"
 
 **Etiquetas de Estado y Datos (Informational Labels)**
@@ -3318,11 +3325,421 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
   <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo MarketLab.</em></p>
 </div>
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2.
+
+La planificación del Sprint 2 se centró en definir el primer incremento del frontend web de MarketGo y el resultado que el equipo presentará en la revisión del sprint.
+
+| **Sprint Planning Sprint 2** |  |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 2026-09-26 |
+| Time | 10:00 p.m. |
+| Location | Discord / WhatsApp |
+| Prepared By | Albino Florencio Cáceres Pizarro |
+| Attendees | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
+| Sprint 1 Review Summary | En el Sprint 1 se implementó y desplegó la primera versión de la landing page de MarketGo, con las secciones Home, información del producto, videos, planes y contacto. La entrega permitió presentar la propuesta de valor y comprobar la navegación inicial y la adaptación a distintos tamaños de pantalla. Este resultado sirve como punto de partida para construir el frontend de la aplicación web durante el Sprint 2. La evidencia disponible no registra comentarios específicos del Product Owner. |
+| Sprint 1 Retrospective Summary | La documentación del Sprint 1 muestra trabajo incremental mediante ramas feature, commits convencionales y colaboración en diseño, contenido y despliegue. Para el Sprint 2 se propone reforzar la coordinación entre quienes implementan las pantallas, la navegación por roles y la integración visual, y revisar temprano la experiencia responsive antes de la Sprint Review. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 2 Goal** | Our focus is on developing and deploying the first navigable version of the MarketGo frontend web application for minimarket administrators and organic product suppliers. The sprint will translate the approved UX/UI designs into responsive screens, clear navigation for each role, and representative flows for the platform's core operations.<br><br>We believe this will give both user groups a concrete interface for exploring MarketGo's daily workflows and will let the team validate the usability and consistency of the frontend before expanding its integration with services.<br><br>This will be confirmed when the first frontend version is accessible in a deployed environment, its principal screens work on desktop and mobile, and the planned navigation and interaction flows can be demonstrated during the Sprint Review. |
+| User Stories del tablero con puntos definidos | US-026 Registrar usuario (3 SP); US-027 Inicio de sesión (3 SP); US-028 Gestionar permisos por rol (5 SP); US-029 Controlar acceso según operación (5 SP); US-030 Dashboard general (5 SP). US-033 figura en Trello, pero no está estimada en el Product Backlog del capítulo 3. |
+| Velocidad de referencia (Sprint 1) | 14 Story Points; se usa como antecedente, no como velocidad lograda en Sprint 2. |
+| Sum of Story Points | 21 Story Points (3 + 3 + 5 + 5 + 5) para las cinco historias del tablero que tienen estimación en el capítulo 3. US-033 queda pendiente de incorporación y estimación en el Product Backlog. |
+
+**Repositorio Landing Page:** https://github.com/Market-Labs/landign-page.git
+
+**Repositorio Frontend:** https://github.com/Market-Labs/front-end.git
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los bounded contexts implementados en el frontend, más un aspecto transversal de configuración del proyecto (Vue 3, Vite, Pinia e i18n). La siguiente matriz LACX recoge la asignación documentada para el Sprint 2. La captura general de Trello no permite verificar los responsables de todos los aspectos; los liderazgos deben contrastarse con las tarjetas asignadas y los commits de cada integrante.
+
+| Team Member | IAM & Project Setup | Requisition & Procurement | Suppliers & Products | Inventory & Conservation | Dashboard & Profiles | Communication | Analytics |
+|---|---|---|---|---|---|---|---|
+| Cáceres Pizarro, Albino Florencio | L | C | C | C | L | C | C |
+| Huaranga Romero, Matias Daniel | C | C | C | C | C | C | C |
+| Merino Ordinola, Winnie Lisbeth | C | L | C | C | C | C | C |
+| Quispe Almonacid, Andre Sebastian | C | L | C | L | C | C | C |
+| Torres Huaman, Alexis Calin | C | C | C | C | L | L | C |
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que corresponden al primer release navegable del Frontend Web Application, organizados por bounded context. Se utilizó Trello Software como herramienta de control de estado.
+
+
+<div align="center">
+  <img src="report/assets/chapter-05/sprint-backlog-2.png" alt="Tablero Sprint Backlog 2 de MarketGo en Trello" width="100%">
+  <p><strong>Figura: Tablero del Sprint 2 en Trello (Proyecto MarketGo)</strong><br><em>Nota. Elaboración propia.</em></p>
+</div>
+
+| User Story Id | Title | Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-026** | Registrar usuario | T008 | Implementar registro de usuarios | Implementación del formulario de registro de usuarios y validación de los datos ingresados para permitir el acceso controlado a MarketGo. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-027** | Inicio de sesión | T009 | Implementar inicio de sesión | Desarrollo de la interfaz de autenticación y validación de credenciales para permitir el acceso según el rol del usuario. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-026** | Registrar usuario | T010 | Crear perfil asociado al usuario | Implementación de la creación de un perfil vinculado a cada usuario registrado en MarketGo. | 3h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-028** | Gestionar permisos por rol | T011 | Configurar roles y permisos | Configuración de los roles del administrador de minimarket y proveedor, estableciendo los permisos correspondientes. | 4h | Cáceres Pizarro, Albino Florencio | To-Do |
+| **US-029** | Controlar acceso según operación | T012 | Aplicar control de acceso por operación | Implementación de restricciones de acceso a las funcionalidades de pedidos, órdenes de envío e inventario según el rol del usuario. | 4h | Cáceres Pizarro, Albino Florencio | In-Progress |
+| **US-030** | Dashboard general | T013 | Maquetar dashboard por rol | Diseño y desarrollo de la estructura visual del dashboard con información diferenciada para administradores y proveedores. | 4h | Torres Huaman, Alexis Calin | To-Do |
+| **US-030** | Dashboard general | T014 | Definir indicadores iniciales del dashboard | Definición de indicadores operativos para visualizar información relevante sobre inventario, abastecimiento y operaciones según el rol. | 3h | Torres Huaman, Alexis Calin | In-Progress |
+| **US-028** | Gestionar permisos por rol | T016 | Validar criterios de aceptación IAM | Verificación de los criterios de aceptación relacionados con registro, autenticación, roles y permisos de usuarios. | 3h | Cáceres Pizarro, Albino Florencio | To-Review |
+| **US-030** | Dashboard general | T017 | Validar visualización de dashboard por rol | Validación de la información e indicadores mostrados en el dashboard según los permisos del administrador y proveedor. | 3h | Torres Huaman, Alexis Calin | To-Review |
+| **US-033** | Solicitar información o demo | T018 | Documentar flujo de solicitud de demo | Documentación del proceso de solicitud de información o demostración mediante el formulario de contacto de la landing page. | 2h | Huaranga Romero, Matias Daniel | To-Fix |
+| **US-026** | Registrar usuario | — | Definir historia de registro de usuario | Definición de la funcionalidad de registro de usuarios y sus criterios de aceptación para el Sprint 2. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-027** | Inicio de sesión | — | Definir historia de inicio de sesión | Definición de los requisitos de autenticación y acceso a MarketGo según el rol del usuario. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-028** | Gestionar permisos por rol | — | Definir historia de gestión de permisos | Definición de los permisos correspondientes a los diferentes roles del sistema. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-029** | Controlar acceso según operación | — | Definir historia de control de acceso | Definición de restricciones de operaciones según los permisos asociados a cada rol. | 2h | Cáceres Pizarro, Albino Florencio | Stories |
+| **US-030** | Dashboard general | — | Definir historia del dashboard general | Definición de la visualización de información y los indicadores correspondientes a cada rol. | 2h | Torres Huaman, Alexis Calin | Stories |
+| **US-033** | Solicitar información o demo | — | Definir historia de solicitud de demo | Definición de los requisitos del formulario de contacto para solicitar información sobre MarketGo. | 2h | Huaranga Romero, Matias Daniel | Stories |
+| **Tech** | Requisition Bounded Context | BC-001 | Definir Bounded Context de Requisition | Documentación y delimitación del contexto de pedidos de abastecimiento, sus responsabilidades y relaciones con los demás contextos del sistema. | 3h | Merino Ordinola, Winnie Lisbeth | Done |
+| **Tech** | Procurements Bounded Context | BC-002 | Definir Bounded Context de Procurements | Documentación del contexto de gestión de abastecimiento y órdenes de envío, identificando sus responsabilidades y procesos. | 3h | Quispe Almonacid, Andre Sebastian | Done |
+| **Tech** | Conservation Bounded Context | BC-003 | Definir Bounded Context de Conservation | Definición del contexto encargado del monitoreo de condiciones de almacenamiento, temperatura, humedad y alertas de conservación. | 3h | Quispe Almonacid, Andre Sebastian | Done |
+| **Tech** | Sales Bounded Context | BC-004 | Definir Bounded Context de Sales | Documentación del contexto relacionado con las ofertas de productos y las operaciones comerciales de MarketGo. | 3h | Torres Huaman, Alexis Calin | Done |
+| **Tech** | Dashboard Bounded Context | BC-005 | Definir Bounded Context de Dashboard | Identificación de las responsabilidades e indicadores del dashboard general para administradores y proveedores. | 3h | Torres Huaman, Alexis Calin | Done |
+| **Tech** | Profiles Bounded Context | BC-006 | Definir Bounded Context de Profiles | Documentación del contexto de perfiles de usuario y su relación con IAM y los demás contextos de MarketGo. | 3h | Cáceres Pizarro, Albino Florencio | Done |
+| **Tech** | Communication Bounded Context | BC-007 | Definir Bounded Context de Communication | Definición del contexto de comunicación, notificaciones y alertas relacionadas con las operaciones del sistema. | 3h | Torres Huaman, Alexis Calin | Done |
+
+<p><em>Nota de trazabilidad.</em> El tablero de Trello incluye US-033, pero el Product Backlog documentado en el capítulo 3 termina en US-030. Las estimaciones en horas y los responsables de esta tabla requieren contrastarse con el detalle de cada tarjeta; la captura general solo muestra títulos y columnas.</p>
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+El siguiente cuadro reúne los 26 commits de <code>Market-Labs/front-end</code> presentes en <code>origin/main</code> desde la planificación del Sprint 2 (26-09-2026) hasta el 09-10-2026. Se usan la fecha y hora de <em>commit</em> registradas por Git, convertidas a la zona horaria de Lima (UTC-5). La columna <code>main</code> indica la rama en la que se verificaron; Git no conserva la rama original en el objeto commit.
+
+| Repositorio | Rama verificada | Commit Id | Commit Message | Fecha y hora (Lima, UTC-5) |
+|---|---|---|---|---|
+| front-end | main | [f5e9d4c](https://github.com/Market-Labs/front-end/commit/f5e9d4cae6213bbae9164b6a0d0d289564ba3c6e) | Refactor alert center for i18n and styling updates | 09-10-2026 18:57 |
+| front-end | main | [da1b357](https://github.com/Market-Labs/front-end/commit/da1b357e892ba7d713eff11644b51d127a11eaa1) | Refactor communication routes with Pinia store | 09-10-2026 18:54 |
+| front-end | main | [fdc4c7a](https://github.com/Market-Labs/front-end/commit/fdc4c7aff65d2e8fca3b9a48354e43b835a019ed) | Refactor MessageAssembler to handle default values | 09-10-2026 18:53 |
+| front-end | main | [b0f1dc4](https://github.com/Market-Labs/front-end/commit/b0f1dc4c60849f8f880342ade104e3c5a19e64ca) | Modify getNotifications to handle supplier alerts | 09-10-2026 18:52 |
+| front-end | main | [6ff080f](https://github.com/Market-Labs/front-end/commit/6ff080f6c64d90d2c7b4d2d7cdda4aeefcdca56b) | Refactor communication store to handle Firebase mode | 09-10-2026 18:51 |
+| front-end | main | [ac5d708](https://github.com/Market-Labs/front-end/commit/ac5d7086332a647849dd1813ce5ea44b04ab0ad3) | Add files via upload | 09-10-2026 18:43 |
+| front-end | main | [2726351](https://github.com/Market-Labs/front-end/commit/27263515c7285c1f86d2ff02ec8f6734f9254034) | docs(iam): add jsdoc comments to access role model | 09-10-2026 18:33 |
+| front-end | main | [095849b](https://github.com/Market-Labs/front-end/commit/095849b03e20098caca93f14ba05d1c243a2c7fe) | fix(procurements): open shipping order form from accepted request | 09-10-2026 08:08 |
+| front-end | main | [cc66031](https://github.com/Market-Labs/front-end/commit/cc66031b67df19746a79b3726f2172f4a63ec7bd) | fix(requisition): create Firestore documents without denied reads | 09-10-2026 06:51 |
+| front-end | main | [1d2cc47](https://github.com/Market-Labs/front-end/commit/1d2cc47dd47779ae993c72bb2a26f13e75312177) | fix(iam): wait for initial route before mounting app | 09-10-2026 05:24 |
+| front-end | main | [04953dd](https://github.com/Market-Labs/front-end/commit/04953dd1450bb59a595f0cfaa6a66ebc9816a263) | fix(shared): use MarketGo logo as favicon | 09-10-2026 05:16 |
+| front-end | main | [f5d8415](https://github.com/Market-Labs/front-end/commit/f5d841505bbbcd72f1a9560d5f70296f400b747b) | feat(inventory): track lot expiration and offers | 09-10-2026 01:39 |
+| front-end | main | [51e6052](https://github.com/Market-Labs/front-end/commit/51e6052b856fba45e5b3d4347a170a15c9e9b84d) | fix(iam): count available organization roles | 09-10-2026 01:00 |
+| front-end | main | [39ef675](https://github.com/Market-Labs/front-end/commit/39ef675dd1f5eb2190841aa01d7c23ae4803cd54) | feat(iam): add administrator and collaborator roles | 09-10-2026 00:57 |
+| front-end | main | [5ae76e1](https://github.com/Market-Labs/front-end/commit/5ae76e12ffdc3c4e7001209c9ad303df51de5236) | fix(iam): validate signup email and explain failures | 08-10-2026 23:51 |
+| front-end | main | [d8e8683](https://github.com/Market-Labs/front-end/commit/d8e868361c5d8e82e03aaefe326da7961e01abaf) | feat(iam): add tenant-scoped Firebase sign-up | 08-10-2026 23:37 |
+| front-end | main | [c08ef33](https://github.com/Market-Labs/front-end/commit/c08ef3329db18501287da641569284718d1fd1df) | feat(suppliers): add sequential IDs and soft removal | 08-10-2026 23:03 |
+| front-end | main | [56f891d](https://github.com/Market-Labs/front-end/commit/56f891dd4385497be6da3db01fcb2efbe33ec393) | feat(frontend): align inventory outputs and supply navigation | 08-10-2026 22:40 |
+| front-end | main | [db37db8](https://github.com/Market-Labs/front-end/commit/db37db8174455672f3ad67d4f624ee7592ae59df) | Update README.md | 05-10-2026 13:27 |
+| front-end | main | [df41d89](https://github.com/Market-Labs/front-end/commit/df41d8981060aeb8448d3702efeaf42f437d0336) | chore: edit frontend contract coverage | 05-10-2026 12:30 |
+| front-end | main | [b91254a](https://github.com/Market-Labs/front-end/commit/b91254a50380098a97657d7aab1a0316f5300429) | chore : add news frontend contract Coverage | 05-10-2026 12:29 |
+| front-end | main | [dff02e6](https://github.com/Market-Labs/front-end/commit/dff02e64ad4ca232f99a05b82538f7cd945dae43) | feat(firebase): persist MarketGo data and provision role-scoped users | 05-10-2026 11:53 |
+| front-end | main | [890f87b](https://github.com/Market-Labs/front-end/commit/890f87bbce5c8810a18471b7781f7c5c9c7a0d19) | feat(shared): add read-only Azure demo mode | 03-10-2026 00:15 |
+| front-end | main | [9705a3d](https://github.com/Market-Labs/front-end/commit/9705a3dc7f0635fb33da9c9c45553b0ba181ea9b) | chore(release): merge develop for Azure deployment | 02-10-2026 23:41 |
+| front-end | main | [46e7f93](https://github.com/Market-Labs/front-end/commit/46e7f939815a71c47dc28dedf02d67fdc3fbd8d2) | docs(server): describe demo API and report endpoints | 02-10-2026 23:36 |
+| front-end | main | [5f67499](https://github.com/Market-Labs/front-end/commit/5f6749987235358371810ed28b12e5b877ed788d) | feat(frontend): complete role-based workflows and reports | 02-10-2026 23:36 |
+
+Las correcciones de la landing page fechadas el 19-09-2026 preceden a la planificación del Sprint 2; se documentan como antecedente y no como commits de este sprint.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+<p>
+  Durante el Sprint 2, el equipo de MarketLab documentó los avances
+  funcionales del Frontend Web Application de <strong>MarketGo</strong>,
+  una plataforma orientada a la gestión de inventarios, productos,
+  abastecimiento y conservación de productos orgánicos en minimarkets.
+  La aplicación fue desarrollada con Vue 3, Vite y Pinia, y organizada
+  mediante componentes, servicios y bounded contexts, con interfaces
+  diferenciadas para los roles de Administrador de Minimarket y
+  Proveedor. El repositorio organiza 12 módulos: 11 áreas
+  funcionales y <strong>Shared</strong> como soporte transversal.
+  El alcance documentado comprende:
+</p>
+
+<ul>
+  <li>
+    <strong>IAM (Identity and Access Management):</strong>
+    Registro de usuarios, inicio de sesión, configuración de roles
+    y permisos, y control de acceso a las operaciones del sistema
+    según el tipo de usuario.
+  </li>
+  <li>
+    <strong>Requisition:</strong>
+    Gestión de pedidos de abastecimiento realizados por los
+    administradores de minimarkets, permitiendo crear y consultar
+    solicitudes de productos dirigidas a proveedores.
+  </li>
+  <li>
+    <strong>Suppliers:</strong>
+    Gestión y consulta del directorio de proveedores orgánicos,
+    incluyendo información de contacto y productos disponibles
+    para el abastecimiento de los minimarkets.
+  </li>
+  <li>
+    <strong>Products:</strong>
+    Catálogo de productos orgánicos con datos de nombre, precio,
+    disponibilidad y características para las operaciones comerciales.
+  </li>
+  <li>
+    <strong>Procurements:</strong>
+    Gestión de pedidos y órdenes de envío, permitiendo que los
+    proveedores acepten o rechacen solicitudes y que los
+    administradores confirmen o rechacen la recepción de productos.
+  </li>
+  <li>
+    <strong>Conservation:</strong>
+    Consulta y monitoreo de las condiciones de conservación de
+    productos mediante indicadores de temperatura y humedad,
+    así como alertas relacionadas con condiciones de almacenamiento.
+  </li>
+  <li>
+    <strong>Inventory:</strong>
+    Visualización y administración del inventario de los
+    minimarkets, incluyendo registro de productos, control
+    de lotes, fechas de vencimiento y actualización de existencias.
+  </li>
+  <li>
+    <strong>Dashboard:</strong>
+    Panel general con indicadores operativos adaptados al rol
+    del usuario, permitiendo visualizar información relevante
+    sobre inventario, abastecimiento, productos y alertas.
+  </li>
+  <li>
+    <strong>Analytics:</strong>
+    Indicadores operativos y generación de reportes sobre inventario,
+    abastecimiento, mermas, conservación y proveedores.
+  </li>
+  <li>
+    <strong>Profiles:</strong>
+    Gestión de perfiles de usuario asociados a las cuentas
+    registradas, incluyendo información personal y datos
+    correspondientes al administrador o proveedor.
+  </li>
+  <li>
+    <strong>Communication:</strong>
+    Visualización de mensajes, notificaciones y alertas
+    relacionadas con las operaciones de abastecimiento,
+    conservación e inventario.
+  </li>
+  <li>
+    <strong>Shared:</strong>
+    Infraestructura transversal para el layout, rutas, componentes
+    reutilizables, internacionalización y adaptadores de datos.
+  </li>
+</ul>
+
+<p>
+  La aplicación contempla soporte de internacionalización
+  <strong>i18n</strong> (español e inglés), una interfaz basada
+  en Vue 3 y navegación mediante Vue Router. Asimismo,
+  se trabajó en la validación de criterios de aceptación de IAM,
+  la visualización del dashboard por rol y las mejoras de la
+  Landing Page solicitadas por el docente, incluyendo la
+  adaptación de las Historias de Usuario al rol
+  <strong>Visitante (Visitor)</strong> y la incorporación de
+  enlaces interactivos a LinkedIn, X y Facebook.
+  A continuación, se incluyen las capturas representativas
+  del Sprint Review.
+</p>
+
+<div align="center">
+  <img src="report/assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
+  <p><strong>Figura: Vista de inicio de sesión de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
+</div>
+
+<div align="center">
+  <img src="report/assets/chapter-05/sprint2-requisitions.png" alt="Supply Requests View" width="90%">
+  <p><strong>Figura: Solicitudes de abastecimiento de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
+</div>
+
+<div align="center">
+  <img src="report/assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
+  <p><strong>Figura: Directorio de proveedores orgánicos de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
+</div>
+
+<p><em>La captura específica de órdenes de envío aún no se ha adjuntado a esta evidencia del Sprint 2.</em></p>
+
+<div align="center">
+  <img src="report/assets/chapter-05/sprint2-inventory.png" alt="Inventory Management" width="90%">
+  <p><strong>Figura: Inventario de MarketGo con productos, lotes, existencias y vencimientos.</strong><br><em>Nota. Elaboración propia.</em></p>
+</div>
+
+<div align="center">
+  <img src="report/assets/chapter-05/sprint2-dashboard.png" alt="MarketGo Dashboard" width="90%">
+  <p><strong>Figura: Dashboard general de MarketGo con indicadores de inventario, abastecimiento y envíos.</strong><br><em>Nota. Elaboración propia.</em></p>
+</div>
+
+<h4>Product Navigation Video Evidence</h4>
+
+<p>
+  En esta sección se presenta el video demostrativo de navegación
+  de la plataforma <strong>MarketGo</strong>, desarrollado por
+  <strong>MarketLab</strong> como evidencia del Sprint 2.
+  El propósito de este material audiovisual es mostrar los
+  principales flujos del Frontend Web Application, incluyendo
+  el registro e inicio de sesión, la gestión de perfiles,
+  el acceso diferenciado según el rol, la administración
+  del inventario, la consulta de proveedores, la gestión
+  de pedidos de abastecimiento y órdenes de envío,
+  así como la visualización de indicadores en el dashboard.
+  Asimismo, se busca evidenciar la interacción entre los
+  bounded contexts y la navegación general del sistema
+  para los roles de Administrador de Minimarket y Proveedor.
+  El material audiovisual puede alojarse en la plataforma
+  institucional <strong>Microsoft Stream</strong>.
+</p>
+
+<strong>Nombre del archivo de video:</strong>
+<code>marketgo-productnavigation-sprint-2.mp4</code>
+
+<div align="center">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQADWTad-EyvSqVDDT4XLbUfARe43Rpcn6uBFHpgZRcl68I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GlflNR" target="_blank">
+    <img src="report/assets/chapter-05/tutorial-marketgo.png" alt="Video Demostrativo MarketGo en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
+  </a>
+  <p><strong>Figura: Vista del video demostrativo de navegación de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
+</div>
+
+Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQADWTad-EyvSqVDDT4XLbUfARe43Rpcn6uBFHpgZRcl68I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GlflNR
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+El frontend de MarketGo está desarrollado con Vue 3, Vite y Pinia. El repositorio <code>Market-Labs/front-end</code> documenta dos fuentes de datos para validar los flujos de IAM, proveedores, inventario, abastecimiento, órdenes de envío y dashboard:
+
+**Local (interfaz web):** http://localhost:5173/. Con <code>npm run dev:firebase</code> la interfaz utiliza Firebase; con <code>npm run dev:mock</code> utiliza la fake API de <code>json-server</code> en <code>http://localhost:3000</code>. Los dos puertos corresponden a procesos distintos.
+
+| Entorno | Servicio de datos | Evidencia en el repositorio |
+|---|---|---|
+| Desarrollo local | <code>json-server</code> expone una fake API HTTP en <code>http://localhost:3000</code> al ejecutar <code>npm run dev:mock</code>. | <code>server/db.json</code>, <code>server/routes.json</code> y <code>server/README.md</code>. |
+| Frontend publicado en Azure | Firebase Authentication gestiona el inicio de sesión y Cloud Firestore almacena los datos de demostración. La app se compila con <code>VITE_DATA_SOURCE=firebase</code> y usa el SDK de Firebase y un adaptador de Firestore. | <code>firebase.json</code>, <code>src/shared/infrastructure/firebase-client.js</code>, adaptadores de los bounded contexts y el workflow de Azure Static Web Apps. |
+
+La siguiente tabla resume rutas comprobables de la fake API <strong>local</strong>. Son rutas del servidor de prueba; Firebase no publica estas rutas HTTP. Los contratos futuros de ASP.NET Core/C# descritos en el capítulo 3 no constituyen evidencia de un backend desplegado en este sprint.
+
+| Funcionalidad | Ruta de la fake API local | Uso en MarketGo |
+|---|---|---|
+| Autenticación | <code>/api/v1/auth/*</code> | Simular las operaciones de acceso en desarrollo local. |
+| Usuarios | <code>/api/v1/minimarkets/:minimarketId/users</code> | Consultar y administrar usuarios del minimarket. |
+| Productos | <code>/api/v1/products</code> | Consultar y actualizar el catálogo. |
+| Proveedores | <code>/api/v1/suppliers</code> | Consultar el directorio de proveedores. |
+| Inventario | <code>/api/v1/minimarkets/:minimarketId/inventory</code> | Consultar y registrar existencias y lotes. |
+| Solicitudes de abastecimiento | <code>/api/v1/minimarkets/:minimarketId/requisitions</code> | Crear y consultar solicitudes. |
+| Órdenes de envío | <code>/api/v1/minimarkets/:minimarketId/purchase-orders</code> | Consultar y gestionar envíos. |
+| Dashboard | <code>/api/v1/minimarkets/:minimarketId/dashboard</code> | Obtener indicadores para el administrador. |
+
+En el entorno publicado, las operaciones equivalentes se realizan mediante Firebase Authentication y Firestore. El proyecto Firebase configurado en el cliente es <code>marketgo-d9c75</code>; no existe una URL pública de API REST de MarketGo que corresponda a la tabla local. La documentación de OpenAPI/Swagger pertenece al backend ASP.NET Core/C# planificado y no se presenta como servicio implementado en Sprint 2.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+El Frontend Web Application de MarketGo se aloja en Azure Static Web Apps y utiliza Firebase Authentication y Cloud Firestore como servicios de datos de demostración. La aplicación es una SPA de Vue 3, Vite, Pinia y Vue Router. La fake API de <code>json-server</code> se ejecuta solo en desarrollo local; no es el servicio publicado en Azure ni un servidor alojado en Firebase.
+
+| Componente | Configuración comprobada | Propósito |
+|---|---|---|
+| Frontend | El workflow <code>.github/workflows/azure-static-web-apps-ambitious-field-08f658810.yml</code> del repositorio <code>front-end</code> se ejecuta al hacer push a <code>main</code>, usa Azure Static Web Apps y publica la salida <code>dist</code>. | Alojar la interfaz web de MarketGo en Azure. |
+| Datos de demostración | El workflow establece <code>VITE_DATA_SOURCE=firebase</code>; el cliente inicializa Firebase Authentication y Cloud Firestore para el proyecto <code>marketgo-d9c75</code>. | Autenticar usuarios y persistir los datos mostrados por el frontend desplegado. |
+| Frontend local | <code>npm run dev</code> o <code>npm run dev:firebase</code> sirven la interfaz con Vite en <code>http://localhost:5173/</code>. | Revisar la aplicación desde el navegador durante el desarrollo. |
+| Fake API local | <code>npm run dev:mock</code> inicia Vite en <code>http://localhost:5173/</code> y <code>json-server</code> en <code>http://localhost:3000</code>. | Probar la interfaz y los contratos HTTP sin el entorno publicado. |
+
+El repositorio contiene además reglas de Firestore en <code>firestore.rules</code> y la configuración <code>firebase.json</code>. El workflow usa un secreto de GitHub para el token de Azure; su valor y el resultado de cada ejecución no pueden verificarse a partir de los archivos locales.
+
+**URLs públicas del proyecto (comprobadas con respuesta HTTP 200 el 09-10-2026):**
+
+- **Frontend Web Application:** https://ambitious-field-08f658810.2.azurestaticapps.net/
+- **Landing page:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
+
+La landing page enlaza al inicio de sesión del frontend desde sus botones de acceso y demostración. El código de <code>HomeSection.vue</code> y <code>TheHeader.vue</code> usa la URL del frontend con la ruta <code>/login?redirect=/home</code>. Para completar la evidencia visual del despliegue queda por adjuntar una captura o enlace de la ejecución correcta del workflow de Azure y, si se requiere, una captura de la configuración de Firebase.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+<p>
+  Durante el Sprint 2, el equipo de <strong>MarketLab</strong>
+  utilizó <strong>Trello</strong> para organizar y supervisar
+  las actividades del desarrollo de MarketGo. El tablero permitió
+  clasificar las tareas en columnas como <em>To-Do</em>,
+  <em>In-Progress</em>, <em>To-Review</em>,
+  <em>To-Fix</em> y <em>Done</em>,
+  facilitando la identificación del estado de cada actividad,
+  el seguimiento del avance y la coordinación entre los integrantes.
+  Esta organización permitió mantener una visión general de
+  las responsabilidades asociadas al Sprint Backlog.
+</p>
+
+<p>
+  El trabajo se organizó por <em>bounded contexts</em>,
+  distribuyendo las responsabilidades entre los cinco integrantes:
+  <strong>Cáceres Pizarro, Albino Florencio</strong>,
+  como líder general del equipo;
+  <strong>Huaranga Romero, Matias Daniel</strong>;
+  <strong>Merino Ordinola, Winnie Lisbeth</strong>;
+  <strong>Quispe Almonacid, Andre Sebastian</strong>;
+  y <strong>Torres Huaman, Alexis Calin</strong>.
+  Esta distribución permitió trabajar en las funcionalidades
+  y la documentación de IAM, Profiles, Requisition,
+  Procurements, Suppliers, Products, Inventory,
+  Conservation, Dashboard y Communication.
+  La coordinación del equipo comprendió la asignación
+  de tareas en Trello, el seguimiento de los avances,
+  la integración de cambios en GitHub y la revisión
+  de los entregables correspondientes al Sprint 2.
+</p>
+
+<p><em>Evidencia gráfica pendiente:</em> capturas del historial de commits y de GitHub Insights / Contributors correspondientes al Sprint 2. No se insertan imágenes hasta contar con los archivos verificables.</p>
+
+<p>Las métricas de Story Points completados, tarjetas de Trello, Pull Requests y commits del frontend se consignarán con cantidades y fechas cuando se obtengan las capturas y los datos verificables del Sprint 2.</p>
+
+<p><strong>Aciertos del Sprint:</strong></p>
+<ul>
+  <li>
+    La organización del frontend por <em>bounded contexts</em>
+    (<code>iam</code>, <code>profiles</code>,
+    <code>products</code>, <code>suppliers</code>,
+    <code>inventory</code>, <code>requisition</code>,
+    <code>procurements</code>, <code>conservation</code>,
+    <code>dashboard</code> y <code>communication</code>)
+    permitió distribuir las responsabilidades entre
+    los integrantes y mantener una separación clara
+    de las funcionalidades del sistema.
+  </li>
+  <li>
+    La organización de los adaptadores de datos facilitó el uso
+    de Firebase Authentication y Firestore en el frontend publicado,
+    junto con la fake API HTTP de desarrollo local,
+    manteniendo la coherencia entre las operaciones
+    de inventario, proveedores y abastecimiento.
+  </li>
+  <li>
+    El uso de Vue 3, Vite y Pinia permitió establecer
+    una arquitectura frontend basada en componentes
+    reutilizables y gestión centralizada del estado.
+    Asimismo, se consideró la internacionalización
+    mediante <strong>i18n</strong> para ofrecer soporte
+    en español e inglés.
+  </li>
+</ul>
+
+<p><strong>Oportunidades de mejora identificadas:</strong></p>
+<ul>
+  <li>
+    Reforzar la validación de formularios y los criterios
+    de aceptación de IAM, especialmente en el registro
+    de usuarios, inicio de sesión y asignación de permisos,
+    para garantizar un comportamiento consistente
+    según el rol.
+  </li>
+  <li>
+    Mejorar la documentación de los componentes,
+    stores de Pinia y adaptadores de Firebase y de la fake API local,
+    estableciendo convenciones de nombres y
+    responsabilidades claras entre los bounded contexts
+    para facilitar el mantenimiento del código.
+  </li>
+  <li>
+    Incrementar la cobertura de pruebas funcionales
+    y de integración, principalmente en los flujos
+    de pedidos de abastecimiento, órdenes de envío,
+    actualización del inventario y visualización del
+    dashboard según el rol del usuario.
+  </li>
+</ul>
+
 ---
 
 # Conclusiones
-
-## Conclusiones y recomendaciones.
 
 **Conclusiones***
 
@@ -3363,8 +3780,7 @@ Automatizar la integración y el despliegue. Configurar GitHub Actions para ejec
 
 4. Escribir pruebas desde el inicio. Convertir los escenarios Gherkin de las User Stories en pruebas automatizadas, empezando por las reglas críticas: solo el administrador modifica el inventario y la aceptación de una orden de envío no puede aplicarse dos veces.
 
-5. Documentar las decisiones del equipo. Registrar en el repositorio (por ejemplo, en el README o en una carpeta docs) por qué se eligieron Vue, .NET 10 y Azure, para que cualquier integrante pueda justificarlas.
-Validar con usuarios reales. Compartir la landing page con los administradores y proveedores entrevistados en el Capítulo II y medir si entienden la propuesta de valor y si completan el formulario de contacto.
+5. Validar con usuarios reales. Compartir la landing page con los administradores y proveedores entrevistados en el Capítulo II y medir si entienden la propuesta de valor y si completan el formulario de contacto.
 
 ---
 

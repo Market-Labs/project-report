@@ -1,7 +1,5 @@
 # Conclusiones
 
-## Conclusiones y recomendaciones.
-
 **Conclusiones***
 
 1. El análisis del Capítulo I permitió identificar que la gestión de productos orgánicos en minimarkets presenta una problemática real y medible: las pérdidas alimentarias en el Perú alcanzan el 47,6% de la oferta anual, y se agravan por el uso de procesos manuales y herramientas fragmentadas (hojas de cálculo, libretas y mensajería). Mediante la técnica 5W+2H y el análisis competitivo, concluimos que FreshTracker, ShelfLife y Peru Marketplace cubren solo una parte del proceso (conservación, inventario o conexión B2B).
@@ -41,5 +39,4 @@ Automatizar la integración y el despliegue. Configurar GitHub Actions para ejec
 
 4. Escribir pruebas desde el inicio. Convertir los escenarios Gherkin de las User Stories en pruebas automatizadas, empezando por las reglas críticas: solo el administrador modifica el inventario y la aceptación de una orden de envío no puede aplicarse dos veces.
 
-5. Documentar las decisiones del equipo. Registrar en el repositorio (por ejemplo, en el README o en una carpeta docs) por qué se eligieron Vue, .NET 10 y Azure, para que cualquier integrante pueda justificarlas.
-Validar con usuarios reales. Compartir la landing page con los administradores y proveedores entrevistados en el Capítulo II y medir si entienden la propuesta de valor y si completan el formulario de contacto.
+5. Validar con usuarios reales. Compartir la landing page con los administradores y proveedores entrevistados en el Capítulo II y medir si entienden la propuesta de valor y si completan el formulario de contacto.
