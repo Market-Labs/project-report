@@ -611,8 +611,8 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-dashboard.png" alt="MarketGo Dashboard" width="90%">
-  <p><em>Figura: Dashboard general de MarketGo con indicadores operativos diferenciados según el rol del usuario.</em></p>
+  <img src="assets/chapter-05/sprint2-dashboard.png" alt="MarketGo Dashboard" width="90%">
+  <p><strong>Figura: Dashboard general de MarketGo con indicadores de inventario, abastecimiento y envíos.</strong><br><em>Nota. Elaboración propia.</em></p>
 </div>
 
 <h4>Product Navigation Video Evidence</h4>
@@ -640,9 +640,9 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 
 <div align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQADWTad-EyvSqVDDT4XLbUfARe43Rpcn6uBFHpgZRcl68I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GlflNR" target="_blank">
-    <img src="./report/assets/chapter-05/tutorial-marketgo.png" alt="Video Demostrativo MarketGo en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
+    <img src="assets/chapter-05/tutorial-marketgo.png" alt="Video Demostrativo MarketGo en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
   </a>
-  <p><em>Figura: Video demostrativo de navegación de MarketGo en Microsoft Stream.</em></p>
+  <p><strong>Figura: Vista del video demostrativo de navegación de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
 </div>
 
 Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQADWTad-EyvSqVDDT4XLbUfARe43Rpcn6uBFHpgZRcl68I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GlflNR
