@@ -387,9 +387,9 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 | Sprint 1 Retrospective Summary | La documentación del Sprint 1 muestra trabajo incremental mediante ramas feature, commits convencionales y colaboración en diseño, contenido y despliegue. Para el Sprint 2 se propone reforzar la coordinación entre quienes implementan las pantallas, la navegación por roles y la integración visual, y revisar temprano la experiencia responsive antes de la Sprint Review. |
 | **Sprint Goal & User Stories** |  |
 | **Sprint 2 Goal** | Our focus is on developing and deploying the first navigable version of the MarketGo frontend web application for minimarket administrators and organic product suppliers. The sprint will translate the approved UX/UI designs into responsive screens, clear navigation for each role, and representative flows for the platform's core operations.<br><br>We believe this will give both user groups a concrete interface for exploring MarketGo's daily workflows and will let the team validate the usability and consistency of the frontend before expanding its integration with services.<br><br>This will be confirmed when the first frontend version is accessible in a deployed environment, its principal screens work on desktop and mobile, and the planned navigation and interaction flows can be demonstrated during the Sprint Review. |
-| Proposed User Stories | US-027 Inicio de sesión (3 SP); US-002 Visualizar inventario (5 SP); US-017 Consultar productos ofrecidos (3 SP); US-019 Consultar pedidos de abastecimiento (3 SP). Esta selección propone un primer incremento navegable del frontend para ambos roles. |
-| Sprint 2 Velocity | 14 Story Points, capacidad inicial estimada a partir de la velocidad registrada en Sprint 1. |
-| Sum of Story Points | 14 Story Points (3 + 5 + 3 + 3) para las historias propuestas. |
+| User Stories del tablero con puntos definidos | US-026 Registrar usuario (3 SP); US-027 Inicio de sesión (3 SP); US-028 Gestionar permisos por rol (5 SP); US-029 Controlar acceso según operación (5 SP); US-030 Dashboard general (5 SP). US-033 figura en Trello, pero no está estimada en el Product Backlog del capítulo 3. |
+| Velocidad de referencia (Sprint 1) | 14 Story Points; se usa como antecedente, no como velocidad lograda en Sprint 2. |
+| Sum of Story Points | 21 Story Points (3 + 3 + 5 + 5 + 5) para las cinco historias del tablero que tienen estimación en el capítulo 3. US-033 queda pendiente de incorporación y estimación en el Product Backlog. |
 
 **Repositorio Landing Page:** https://github.com/Market-Labs/landign-page.git
 
@@ -397,7 +397,7 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
-Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los bounded contexts implementados en el frontend, más un aspecto transversal de Project Setup (Vue 3 + Vite + Pinia + i18n + json-server) y un aspecto para la versión v2 del Landing Page. La siguiente matriz LACX identifica los aspectos principales del Sprint y asigna responsabilidades (Líder/Colaborador) al equipo de Market-labs, alineadas con las fortalezas técnicas evidenciadas durante el Sprint 1.
+Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los bounded contexts implementados en el frontend, más un aspecto transversal de configuración del proyecto (Vue 3, Vite, Pinia e i18n). La siguiente matriz LACX recoge la asignación documentada para el Sprint 2. La captura general de Trello no permite verificar los responsables de todos los aspectos; los liderazgos deben contrastarse con las tarjetas asignadas y los commits de cada integrante.
 
 | Team Member | IAM & Project Setup | Requisition & Procurement | Suppliers & Products | Inventory & Conservation | Dashboard & Profiles | Communication | Analytics |
 |---|---|---|---|---|---|---|---|
@@ -443,71 +443,31 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 | **Tech** | Profiles Bounded Context | BC-006 | Definir Bounded Context de Profiles | Documentación del contexto de perfiles de usuario y su relación con IAM y los demás contextos de MarketGo. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 | **Tech** | Communication Bounded Context | BC-007 | Definir Bounded Context de Communication | Definición del contexto de comunicación, notificaciones y alertas relacionadas con las operaciones del sistema. | 3h | Torres Huaman, Alexis Calin | Done |
 
+<p><em>Nota de trazabilidad.</em> El tablero de Trello incluye US-033, pero el Product Backlog documentado en el capítulo 3 termina en US-030. Las estimaciones en horas y los responsables de esta tabla requieren contrastarse con el detalle de cada tarjeta; la captura general solo muestra títulos y columnas.</p>
+
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
+El desarrollo del Sprint 2 se evidencia en el repositorio <code>Market-Labs/front-end</code>. Los siguientes commits, presentes en su rama <code>main</code>, muestran trabajo en flujos por rol, persistencia de datos con Firebase, inventario y abastecimiento. Los mensajes y fechas se transcriben del historial Git del repositorio.
 
-<p>
-  Resumen de los commits más relevantes correspondientes a las mejoras
-  solicitadas por el docente para la Landing Page de
-  <strong>MarketGo</strong>, producto desarrollado por
-  <strong>MarketLab</strong>. Las mejoras incluyen la adaptación de
-  las Historias de Usuario al rol Visitante (Visitor) y la incorporación
-  de enlaces interactivos a redes sociales (LinkedIn, X y Facebook).
-</p>
+| Repositorio | Rama | Commit Id | Commit Message | Committed on |
+|---|---|---|---|---|
+| front-end | main | <code>5f67499</code> | feat(frontend): complete role-based workflows and reports | 02-10-2026 |
+| front-end | main | <code>dff02e6</code> | feat(firebase): persist MarketGo data and provision role-scoped users | 05-10-2026 |
+| front-end | main | <code>f5d8415</code> | feat(inventory): track lot expiration and offers | 09-10-2026 |
+| front-end | main | <code>cc66031</code> | fix(requisition): create Firestore documents without denied reads | 09-10-2026 |
+| front-end | main | <code>095849b</code> | fix(procurements): open shipping order form from accepted request | 09-10-2026 |
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Branch</th>
-      <th>Commit Id</th>
-      <th>Commit Message</th>
-      <th>Committed on</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>feature/marketgo-landing-page</td>
-      <td><code>d49b631</code></td>
-      <td>refactor(landing): improve visitor experience based on instructor feedback</td>
-      <td>19-09-2026</td>
-    </tr>
-    <tr>
-      <td>feature/contact-section</td>
-      <td><code>a6446e1</code></td>
-      <td>feat(contact): add LinkedIn, X and Facebook social media links</td>
-      <td>19-09-2026</td>
-    </tr>
-    <tr>
-      <td>feature/contact-section</td>
-      <td><code>fbf450a</code></td>
-      <td>fix(contact): enable interactive social media icons and external navigation</td>
-      <td>19-09-2026</td>
-    </tr>
-    <tr>
-      <td>develop</td>
-      <td><code>1f850de</code></td>
-      <td>fix(landing): align visitor interactions with rubric requirements</td>
-      <td>19-09-2026</td>
-    </tr>
-    <tr>
-      <td>main</td>
-      <td><code>1f850de</code></td>
-      <td>fix(landing): align visitor interactions with rubric requirements</td>
-      <td>19-09-2026</td>
-    </tr>
-  </tbody>
-</table>
-
+Las correcciones de la landing page fechadas el 19-09-2026 preceden a la planificación del Sprint 2 (26-09-2026); por ello se documentan como antecedente y no como commits de este sprint.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 <p>
-  Al cierre del Sprint 2, el equipo de MarketLab presentó los avances
+  Durante el Sprint 2, el equipo de MarketLab documentó los avances
   funcionales del Frontend Web Application de <strong>MarketGo</strong>,
   una plataforma orientada a la gestión de inventarios, productos,
   abastecimiento y conservación de productos orgánicos en minimarkets.
-  La aplicación fue desarrollada utilizando Angular y organizada
+  La aplicación fue desarrollada con Vue 3, Vite y Pinia, y organizada
   mediante componentes, servicios y bounded contexts, con interfaces
   diferenciadas para los roles de Administrador de Minimarket y
   Proveedor. El alcance funcional trabajado durante el Sprint 2
@@ -574,7 +534,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 <p>
   La aplicación contempla soporte de internacionalización
   <strong>i18n</strong> (español e inglés), una interfaz basada
-  en Angular y navegación mediante Angular Router. Asimismo,
+  en Vue 3 y navegación mediante Vue Router. Asimismo,
   se trabajó en la validación de criterios de aceptación de IAM,
   la visualización del dashboard por rol y las mejoras de la
   Landing Page solicitadas por el docente, incluyendo la
@@ -600,10 +560,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   <p><strong>Figura: Directorio de proveedores orgánicos de MarketGo.</strong><br><em>Nota. Elaboración propia.</em></p>
 </div>
 
-<div align="center">
-  <img src="docs/assets/chapter-05/sprint2-procurement.png" alt="Supply Orders Management" width="90%">
-  <p><em>Figura: Gestión de pedidos de abastecimiento y órdenes de envío entre proveedores y administradores.</em></p>
-</div>
+<p><em>La captura específica de órdenes de envío aún no se ha adjuntado a esta evidencia del Sprint 2.</em></p>
 
 <div align="center">
   <img src="assets/chapter-05/sprint2-inventory.png" alt="Inventory Management" width="90%">
@@ -649,223 +606,42 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-<p>
-  Durante el Sprint 2 de MarketGo, el equipo de MarketLab trabajó en
-  la integración de las funcionalidades del Frontend Web Application,
-  desarrollado con Vue 3, Vite y Pinia. Para facilitar las pruebas
-  de integración y validar los contratos de API entre los bounded
-  contexts, se contempló el uso de servicios de prueba mediante
-  json-server. Estos servicios permitieron representar las operaciones
-  principales relacionadas con usuarios, productos, inventarios,
-  lotes, proveedores, pedidos de abastecimiento y órdenes de envío.
-  La documentación de estos contratos sirvió como referencia para
-  la integración con los Web Services desarrollados en
-  <strong>ASP.NET Core / C#</strong>.
-</p>
 
-<p><strong>URL del Mock API (local):</strong> <code>http://localhost:3000</code></p>
-<p><strong>URL del API (Producción):</strong> Entorno de servicios correspondiente al despliegue de MarketGo.</p>
+El frontend de MarketGo está desarrollado con Vue 3, Vite y Pinia. El repositorio <code>Market-Labs/front-end</code> documenta dos fuentes de datos para validar los flujos de IAM, proveedores, inventario, abastecimiento, órdenes de envío y dashboard:
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Endpoint</th>
-      <th>Acciones soportadas</th>
-      <th>Ejemplo de Request</th>
-      <th>Ejemplo de Response</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>/api/v1/auth/sign-in</code></td>
-      <td>POST autenticación de usuarios y validación de credenciales según el rol asignado.</td>
-      <td><code>POST /api/v1/auth/sign-in</code> con <code>{ "email":"admin@marketgo.com", "password":"demo123" }</code></td>
-      <td><code>{ "token":"example-token", "role":"ADMIN", "authenticated":true }</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/auth/sign-up</code></td>
-      <td>POST registro de nuevos usuarios en la plataforma.</td>
-      <td><code>POST /api/v1/auth/sign-up</code> con <code>{ "name":"Usuario Demo", "email":"demo@marketgo.com", "password":"demo123", "role":"SUPPLIER" }</code></td>
-      <td><code>{ "id":"USR-001", "name":"Usuario Demo", "role":"SUPPLIER", "status":"ACTIVE" }</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/users</code></td>
-      <td>GET listado, GET /:id detalle, POST registro y PUT /:id actualización de usuarios.</td>
-      <td><code>GET /api/v1/users</code></td>
-      <td><code>[{ "id":"USR-001", "name":"Usuario Demo", "email":"demo@marketgo.com", "role":"ADMIN" }]</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/profiles</code></td>
-      <td>GET consulta de perfiles y PUT /:id actualización de información del usuario.</td>
-      <td><code>GET /api/v1/profiles/1</code></td>
-      <td><code>{ "id":"1", "userId":"USR-001", "type":"ADMIN", "phone":"999888777" }</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/products</code></td>
-      <td>GET catálogo, GET /:id detalle, POST creación y PUT /:id actualización de productos.</td>
-      <td><code>POST /api/v1/products</code> con <code>{ "name":"Manzana Orgánica", "category":"Frutas", "price":5.50, "unit":"kg" }</code></td>
-      <td><code>{ "id":"PROD-001", "name":"Manzana Orgánica", "category":"Frutas", "price":5.50 }</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/suppliers</code></td>
-      <td>GET listado, GET /:id detalle y POST registro de proveedores.</td>
-      <td><code>GET /api/v1/suppliers</code></td>
-      <td><code>[{ "id":"SUP-001", "name":"Proveedor Orgánico Demo", "status":"ACTIVE" }]</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/minimarkets/{minimarketId}/inventory</code></td>
-      <td>GET listado, GET /:id detalle, POST registro y PUT /:id actualización de existencias.</td>
-      <td><code>GET /api/v1/minimarkets/1/inventory</code></td>
-      <td><code>[{ "id":"INV-001", "productId":"PROD-001", "stock":50, "unit":"kg" }]</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/minimarkets/{minimarketId}/lots</code></td>
-      <td>GET listado, GET /:id detalle y POST registro de lotes para trazabilidad de productos.</td>
-      <td><code>POST /api/v1/minimarkets/1/lots</code> con <code>{ "productId":"PROD-001", "quantity":25, "expirationDate":"2026-12-15" }</code></td>
-      <td><code>{ "id":"LOT-001", "productId":"PROD-001", "quantity":25, "expirationDate":"2026-12-15" }</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/minimarkets/{minimarketId}/requisitions</code></td>
-      <td>GET listado, POST creación y PUT /:id actualización de pedidos de abastecimiento.</td>
-      <td><code>POST /api/v1/minimarkets/1/requisitions</code> con <code>{ "supplierId":"SUP-001", "productId":"PROD-001", "quantity":30, "status":"PENDING" }</code></td>
-      <td><code>{ "id":"REQ-001", "supplierId":"SUP-001", "quantity":30, "status":"PENDING" }</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/minimarkets/{minimarketId}/purchase-orders</code></td>
-      <td>GET listado, POST creación y PATCH /:id aceptación o rechazo de órdenes de envío.</td>
-      <td><code>PATCH /api/v1/minimarkets/1/purchase-orders/PO-001</code> con <code>{ "status":"ACCEPTED" }</code></td>
-      <td><code>{ "id":"PO-001", "requisitionId":"REQ-001", "status":"ACCEPTED" }</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/minimarkets/{minimarketId}/conservation/monitoring</code></td>
-      <td>GET consulta de temperatura, humedad y condiciones de conservación de productos.</td>
-      <td><code>GET /api/v1/minimarkets/1/conservation/monitoring</code></td>
-      <td><code>[{ "id":"MON-001", "temperature":18.5, "humidity":65, "status":"NORMAL" }]</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/minimarkets/{minimarketId}/communication/messages</code></td>
-      <td>GET listado de mensajes y PATCH /:id actualización del estado de lectura.</td>
-      <td><code>PATCH /api/v1/minimarkets/1/communication/messages/1</code> con <code>{ "isRead":true }</code></td>
-      <td><code>{ "id":"1", "subject":"Pedido de abastecimiento", "isRead":true }</code></td>
-    </tr>
-    <tr>
-      <td><code>/api/v1/minimarkets/{minimarketId}/dashboard</code></td>
-      <td>GET indicadores generales de inventario, abastecimiento y alertas según el rol del usuario.</td>
-      <td><code>GET /api/v1/minimarkets/1/dashboard</code></td>
-      <td><code>{ "totalProducts":120, "pendingOrders":5, "activeAlerts":3, "role":"ADMIN" }</code></td>
-    </tr>
-  </tbody>
-</table>
+| Entorno | Servicio de datos | Evidencia en el repositorio |
+|---|---|---|
+| Desarrollo local | <code>json-server</code> expone una fake API HTTP en <code>http://localhost:3000</code> al ejecutar <code>npm run dev:mock</code>. | <code>server/db.json</code>, <code>server/routes.json</code> y <code>server/README.md</code>. |
+| Frontend publicado en Azure | Firebase Authentication gestiona el inicio de sesión y Cloud Firestore almacena los datos de demostración. La app se compila con <code>VITE_DATA_SOURCE=firebase</code> y usa el SDK de Firebase y un adaptador de Firestore. | <code>firebase.json</code>, <code>src/shared/infrastructure/firebase-client.js</code>, adaptadores de los bounded contexts y el workflow de Azure Static Web Apps. |
 
-<p>
-  La documentación <strong>OpenAPI/Swagger</strong> de los
-  Web Services se organizó según los bounded contexts de MarketGo.
-  Esta documentación permitió describir los endpoints, métodos HTTP,
-  estructuras de solicitudes y respuestas, así como los contratos
-  necesarios para la comunicación entre el Frontend Web Application
-  y los servicios desarrollados con ASP.NET Core / C#.
-</p>
+La siguiente tabla resume rutas comprobables de la fake API <strong>local</strong>. Son rutas del servidor de prueba; Firebase no publica estas rutas HTTP. Los contratos futuros de ASP.NET Core/C# descritos en el capítulo 3 no constituyen evidencia de un backend desplegado en este sprint.
 
-<p>
-  <strong>Repositorio del Frontend:</strong>
-  MarketGo Frontend Web Application, desarrollado con Vue 3 y Vite.<br>
-  <strong>Documentación relacionada:</strong>
-  Contratos de API, integración de servicios y funcionalidades
-  organizadas por bounded contexts.
-</p>
+| Funcionalidad | Ruta de la fake API local | Uso en MarketGo |
+|---|---|---|
+| Autenticación | <code>/api/v1/auth/*</code> | Simular las operaciones de acceso en desarrollo local. |
+| Usuarios | <code>/api/v1/minimarkets/:minimarketId/users</code> | Consultar y administrar usuarios del minimarket. |
+| Productos | <code>/api/v1/products</code> | Consultar y actualizar el catálogo. |
+| Proveedores | <code>/api/v1/suppliers</code> | Consultar el directorio de proveedores. |
+| Inventario | <code>/api/v1/minimarkets/:minimarketId/inventory</code> | Consultar y registrar existencias y lotes. |
+| Solicitudes de abastecimiento | <code>/api/v1/minimarkets/:minimarketId/requisitions</code> | Crear y consultar solicitudes. |
+| Órdenes de envío | <code>/api/v1/minimarkets/:minimarketId/purchase-orders</code> | Consultar y gestionar envíos. |
+| Dashboard | <code>/api/v1/minimarkets/:minimarketId/dashboard</code> | Obtener indicadores para el administrador. |
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+En el entorno publicado, las operaciones equivalentes se realizan mediante Firebase Authentication y Firestore. El proyecto Firebase configurado en el cliente es <code>marketgo-d9c75</code>; no existe una URL pública de API REST de MarketGo que corresponda a la tabla local. La documentación de OpenAPI/Swagger pertenece al backend ASP.NET Core/C# planificado y no se presenta como servicio implementado en Sprint 2.
 
-<p>
-  Durante el Sprint 2 de MarketGo se realizaron actividades de
-  preparación, integración y despliegue de dos componentes principales:
-  la versión mejorada del <strong>Landing Page (v2)</strong>
-  y el <strong>Frontend Web Application</strong>.
-  Estas actividades estuvieron orientadas a facilitar el acceso
-  a la plataforma, validar la navegación entre interfaces y
-  presentar los avances funcionales durante el Sprint Review.
-</p>
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-<p><strong>Landing Page v2</strong></p>
-<ul>
-  <li>
-    Se incorporaron las correcciones solicitadas por el docente
-    durante la evaluación, especialmente la adaptación de las
-    Historias de Usuario del sitio público para utilizar
-    <strong>Visitante (Visitor)</strong> como rol principal.
-  </li>
-  <li>
-    Se mejoró la sección de contacto mediante la incorporación
-    de íconos interactivos y enlaces directos a cuentas simuladas
-    de <strong>LinkedIn, X y Facebook</strong>, complementando
-    los medios de contacto existentes mediante correo electrónico
-    y WhatsApp.
-  </li>
-  <li>
-    Se revisó la presentación visual, la navegación y la
-    organización de las secciones del Landing Page para mejorar
-    la experiencia de los visitantes y cumplir los criterios
-    establecidos en la rúbrica.
-  </li>
-</ul>
+El Frontend Web Application de MarketGo se aloja en Azure Static Web Apps y utiliza Firebase Authentication y Cloud Firestore como servicios de datos de demostración. La aplicación es una SPA de Vue 3, Vite, Pinia y Vue Router. La fake API de <code>json-server</code> se ejecuta solo en desarrollo local; no es el servicio publicado en Azure ni un servidor alojado en Firebase.
 
-<p><strong>Frontend Web Application (Sprint 2)</strong></p>
-<ul>
-  <li>
-    Se trabajó en el repositorio del Frontend Web Application
-    de MarketGo, utilizando <strong>Vue 3, Vite y Pinia</strong>
-    y una estructura modular organizada por bounded contexts.
-  </li>
-  <li>
-    Se desarrollaron las interfaces y flujos correspondientes
-    a la autenticación de usuarios, gestión de perfiles,
-    navegación por roles, pedidos de abastecimiento,
-    proveedores, inventario y dashboard general.
-  </li>
-  <li>
-    Se estableció la comunicación con los servicios de datos
-    mediante una capa de consumo de API, permitiendo organizar
-    las operaciones utilizadas por los diferentes módulos.
-  </li>
-  <li>
-    Se preparó la aplicación para su publicación como
-    <strong>Single Page Application (SPA)</strong>,
-    considerando la navegación mediante Vue Router,
-    la configuración de entornos y la disponibilidad
-    de los recursos estáticos.
-  </li>
-</ul>
+| Componente | Configuración comprobada | Propósito |
+|---|---|---|
+| Frontend | El workflow <code>.github/workflows/azure-static-web-apps-ambitious-field-08f658810.yml</code> del repositorio <code>front-end</code> se ejecuta al hacer push a <code>main</code>, usa Azure Static Web Apps y publica la salida <code>dist</code>. | Alojar la interfaz web de MarketGo en Azure. |
+| Datos de demostración | El workflow establece <code>VITE_DATA_SOURCE=firebase</code>; el cliente inicializa Firebase Authentication y Cloud Firestore para el proyecto <code>marketgo-d9c75</code>. | Autenticar usuarios y persistir los datos mostrados por el frontend desplegado. |
+| Fake API local | <code>npm run dev:mock</code> inicia Vite y <code>json-server</code> en <code>http://localhost:3000</code>. | Probar contratos HTTP y flujos sin el entorno publicado. |
 
-<p><strong>Pasos realizados durante el Sprint:</strong></p>
-<ol>
-  <li>
-    Organización del Frontend Web Application en Vue 3 mediante
-    componentes, vistas, servicios y bounded contexts,
-    siguiendo las responsabilidades funcionales de MarketGo.
-  </li>
-  <li>
-    Definición de los contratos de API y configuración del
-    consumo de servicios para la gestión de usuarios,
-    productos, proveedores, inventarios y abastecimiento.
-  </li>
-  <li>
-    Preparación de la aplicación frontend para su despliegue,
-    incluyendo la generación de archivos de producción
-    mediante <code>npm run build</code>.
-  </li>
-  <li>
-    Actualización del Landing Page con las correcciones
-    solicitadas por el docente, incluyendo la experiencia
-    del visitante y los enlaces interactivos a redes sociales.
-  </li>
-  <li>
-    Revisión de la navegación, visualización de interfaces,
-    permisos según el rol e integración de los módulos
-    considerados dentro del Sprint 2.
-  </li>
-</ol>
+El repositorio contiene además reglas de Firestore en <code>firestore.rules</code> y la configuración <code>firebase.json</code>. El workflow usa un secreto de GitHub para el token de Azure; su valor y el resultado de cada ejecución no pueden verificarse a partir de los archivos locales. Para completar la evidencia de Sprint Review deben consignarse la URL pública del frontend y una captura o enlace de la ejecución correcta del despliegue. La landing page cuenta con una URL Azure documentada en el Sprint 1, distinta de la aplicación frontend de este sprint.
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 <p>
   Durante el Sprint 2, el equipo de <strong>MarketLab</strong>
@@ -899,39 +675,9 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc
   de los entregables correspondientes al Sprint 2.
 </p>
 
-<div align="center">
-  <img src="docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2 MarketGo" width="90%">
-  <p><em>Figura: Historial de commits de MarketGo en GitHub, correspondiente a los avances realizados durante el Sprint 2.</em></p>
-</div>
+<p><em>Evidencia gráfica pendiente:</em> capturas del historial de commits y de GitHub Insights / Contributors correspondientes al Sprint 2. No se insertan imágenes hasta contar con los archivos verificables.</p>
 
-<div align="center">
-  <img src="docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2 MarketGo" width="90%">
-  <p><em>Figura: Gráfica de Contributors de GitHub Insights que permite visualizar la participación de los integrantes de MarketLab durante el Sprint 2.</em></p>
-</div>
-
-<p><strong>Métricas de colaboración del Sprint 2:</strong></p>
-<ul>
-  <li>
-    <strong>Story Points completados:</strong>
-    Seguimiento de las historias de usuario y tareas técnicas
-    consideradas en el Sprint Backlog de MarketGo.
-  </li>
-  <li>
-    <strong>Total de tareas gestionadas en Trello:</strong>
-    Actividades registradas y distribuidas entre las columnas
-    del tablero del Sprint 2.
-  </li>
-  <li>
-    <strong>Total de Pull Requests:</strong>
-    Integraciones y revisiones realizadas mediante los
-    repositorios GitHub de MarketGo.
-  </li>
-  <li>
-    <strong>Total de commits en el repositorio Frontend:</strong>
-    Cambios registrados durante el desarrollo e integración
-    de las funcionalidades del Sprint 2.
-  </li>
-</ul>
+<p>Las métricas de Story Points completados, tarjetas de Trello, Pull Requests y commits del frontend se consignarán con cantidades y fechas cuando se obtengan las capturas y los datos verificables del Sprint 2.</p>
 
 <p><strong>Aciertos del Sprint:</strong></p>
 <ul>
@@ -947,9 +693,9 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc
     de las funcionalidades del sistema.
   </li>
   <li>
-    La definición de contratos de API y la organización de
-    los servicios facilitaron la integración progresiva del
-    Frontend Web Application con los Web Services,
+    La organización de los adaptadores de datos facilitó el uso
+    de Firebase Authentication y Firestore en el frontend publicado,
+    junto con la fake API HTTP de desarrollo local,
     manteniendo la coherencia entre las operaciones
     de inventario, proveedores y abastecimiento.
   </li>
@@ -974,7 +720,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc
   </li>
   <li>
     Mejorar la documentación de los componentes,
-    stores de Pinia y servicios de consumo de API,
+    stores de Pinia y adaptadores de Firebase y de la fake API local,
     estableciendo convenciones de nombres y
     responsabilidades claras entre los bounded contexts
     para facilitar el mantenimiento del código.
