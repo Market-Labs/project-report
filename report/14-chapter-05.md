@@ -722,9 +722,19 @@ La landing page enlaza al inicio de sesión del frontend desde sus botones de ac
   de los entregables correspondientes al Sprint 2.
 </p>
 
-<p><em>Evidencia gráfica pendiente:</em> capturas del historial de commits y de GitHub Insights / Contributors correspondientes al Sprint 2. No se insertan imágenes hasta contar con los archivos verificables.</p>
+<p>Como evidencia de colaboración, la vista <em>Pulse</em> de GitHub Insights del repositorio <code>Market-Labs/front-end</code> muestra el periodo del 2 al 9 de octubre de 2026. En esa ventana, cuatro autores registraron 26 commits en <code>main</code> y 46 commits en todas las ramas, excluidos los merges. GitHub también registra 100 archivos modificados en <code>main</code>, con 8&nbsp;663 adiciones y 807 eliminaciones, además de una versión publicada. La captura indica cero pull requests fusionados o abiertos y cero issues nuevos o cerrados durante ese periodo. Los cuatro autores con commits no representan necesariamente a todos los cinco integrantes que participaron en el Sprint 2; la colaboración en tareas y documentación se registra por separado en Trello y en la matriz LACX.</p>
 
-<p>Las métricas de Story Points completados, tarjetas de Trello, Pull Requests y commits del frontend se consignarán con cantidades y fechas cuando se obtengan las capturas y los datos verificables del Sprint 2.</p>
+<div align="center">
+  <img src="assets/chapter-05/sprint2-collaboration-insights.png" alt="GitHub Insights Pulse del repositorio front-end entre el 2 y el 9 de octubre de 2026" width="90%">
+  <p><strong>Figura: Actividad de colaboración y commits del repositorio front-end durante el Sprint 2.</strong><br><em>Nota. Captura de GitHub Insights / Pulse del repositorio Market-Labs/front-end.</em></p>
+</div>
+
+<p>La vista <em>Traffic</em> del mismo repositorio muestra, para la ventana de 14 días indicada en la captura, 76 clonaciones realizadas por 40 clonadores únicos y 27 visualizaciones del repositorio por cuatro visitantes únicos. Estas métricas describen el acceso al repositorio de GitHub; no miden usuarios de MarketGo ni visitas a la aplicación o a la landing page. Tampoco permiten calcular Story Points completados.</p>
+
+<div align="center">
+  <img src="assets/chapter-05/sprint2-repository-traffic.png" alt="GitHub Insights Traffic con clonaciones y visitas del repositorio front-end" width="90%">
+  <p><strong>Figura: Tráfico del repositorio front-end, con clonaciones y visualizaciones registradas por GitHub.</strong><br><em>Nota. Captura de GitHub Insights / Traffic del repositorio Market-Labs/front-end.</em></p>
+</div>
 
 <p><strong>Aciertos del Sprint:</strong></p>
 <ul>
