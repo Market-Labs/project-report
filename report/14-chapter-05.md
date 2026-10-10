@@ -609,6 +609,8 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc
 
 El frontend de MarketGo está desarrollado con Vue 3, Vite y Pinia. El repositorio <code>Market-Labs/front-end</code> documenta dos fuentes de datos para validar los flujos de IAM, proveedores, inventario, abastecimiento, órdenes de envío y dashboard:
 
+**Local (interfaz web):** http://localhost:5173/. Con <code>npm run dev:firebase</code> la interfaz utiliza Firebase; con <code>npm run dev:mock</code> utiliza la fake API de <code>json-server</code> en <code>http://localhost:3000</code>. Los dos puertos corresponden a procesos distintos.
+
 | Entorno | Servicio de datos | Evidencia en el repositorio |
 |---|---|---|
 | Desarrollo local | <code>json-server</code> expone una fake API HTTP en <code>http://localhost:3000</code> al ejecutar <code>npm run dev:mock</code>. | <code>server/db.json</code>, <code>server/routes.json</code> y <code>server/README.md</code>. |
@@ -637,7 +639,8 @@ El Frontend Web Application de MarketGo se aloja en Azure Static Web Apps y util
 |---|---|---|
 | Frontend | El workflow <code>.github/workflows/azure-static-web-apps-ambitious-field-08f658810.yml</code> del repositorio <code>front-end</code> se ejecuta al hacer push a <code>main</code>, usa Azure Static Web Apps y publica la salida <code>dist</code>. | Alojar la interfaz web de MarketGo en Azure. |
 | Datos de demostración | El workflow establece <code>VITE_DATA_SOURCE=firebase</code>; el cliente inicializa Firebase Authentication y Cloud Firestore para el proyecto <code>marketgo-d9c75</code>. | Autenticar usuarios y persistir los datos mostrados por el frontend desplegado. |
-| Fake API local | <code>npm run dev:mock</code> inicia Vite y <code>json-server</code> en <code>http://localhost:3000</code>. | Probar contratos HTTP y flujos sin el entorno publicado. |
+| Frontend local | <code>npm run dev</code> o <code>npm run dev:firebase</code> sirven la interfaz con Vite en <code>http://localhost:5173/</code>. | Revisar la aplicación desde el navegador durante el desarrollo. |
+| Fake API local | <code>npm run dev:mock</code> inicia Vite en <code>http://localhost:5173/</code> y <code>json-server</code> en <code>http://localhost:3000</code>. | Probar la interfaz y los contratos HTTP sin el entorno publicado. |
 
 El repositorio contiene además reglas de Firestore en <code>firestore.rules</code> y la configuración <code>firebase.json</code>. El workflow usa un secreto de GitHub para el token de Azure; su valor y el resultado de cada ejecución no pueden verificarse a partir de los archivos locales.
 
