@@ -639,7 +639,14 @@ El Frontend Web Application de MarketGo se aloja en Azure Static Web Apps y util
 | Datos de demostración | El workflow establece <code>VITE_DATA_SOURCE=firebase</code>; el cliente inicializa Firebase Authentication y Cloud Firestore para el proyecto <code>marketgo-d9c75</code>. | Autenticar usuarios y persistir los datos mostrados por el frontend desplegado. |
 | Fake API local | <code>npm run dev:mock</code> inicia Vite y <code>json-server</code> en <code>http://localhost:3000</code>. | Probar contratos HTTP y flujos sin el entorno publicado. |
 
-El repositorio contiene además reglas de Firestore en <code>firestore.rules</code> y la configuración <code>firebase.json</code>. El workflow usa un secreto de GitHub para el token de Azure; su valor y el resultado de cada ejecución no pueden verificarse a partir de los archivos locales. Para completar la evidencia de Sprint Review deben consignarse la URL pública del frontend y una captura o enlace de la ejecución correcta del despliegue. La landing page cuenta con una URL Azure documentada en el Sprint 1, distinta de la aplicación frontend de este sprint.
+El repositorio contiene además reglas de Firestore en <code>firestore.rules</code> y la configuración <code>firebase.json</code>. El workflow usa un secreto de GitHub para el token de Azure; su valor y el resultado de cada ejecución no pueden verificarse a partir de los archivos locales.
+
+**URLs públicas del proyecto (comprobadas con respuesta HTTP 200 el 09-10-2026):**
+
+- **Frontend Web Application:** https://ambitious-field-08f658810.2.azurestaticapps.net/
+- **Landing page:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
+
+La landing page enlaza al inicio de sesión del frontend desde sus botones de acceso y demostración. El código de <code>HomeSection.vue</code> y <code>TheHeader.vue</code> usa la URL del frontend con la ruta <code>/login?redirect=/home</code>. Para completar la evidencia visual del despliegue queda por adjuntar una captura o enlace de la ejecución correcta del workflow de Azure y, si se requiere, una captura de la configuración de Firebase.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
