@@ -585,7 +585,6 @@ Los wireflows muestran la secuencia de pantallas y acciones para seis recorridos
 </div>
 
 ### 4.4.4. Web Applications User Flow Diagrams.
-
 Los User Flows detallan los objetivos del visitante, el administrador y el proveedor. Además de la ruta principal, las figuras muestran decisiones y resultados alternativos cuando corresponde.
 
 <div align="center">
@@ -595,6 +594,7 @@ Los User Flows detallan los objetivos del visitante, el administrador y el prove
 <small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
+**User Goal (Russell Estrada, administrador de minimarket, y Marco Antonio Ríos, proveedor):** Registrar una cuenta nueva en la plataforma e ingresar exitosamente al sistema.
 **Descripción.** El camino principal registra la cuenta y abre Inicio; la ruta alternativa muestra un correo ya registrado y permite corregirlo antes de continuar.
 
 <div align="center">
@@ -604,6 +604,7 @@ Los User Flows detallan los objetivos del visitante, el administrador y el prove
 <small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
+**User Goal (Russell Estrada, administrador de minimarket, y Marco Antonio Ríos, proveedor):** Autenticarse de forma segura en la plataforma utilizando credenciales válidas.
 **Descripción.** Las credenciales válidas conducen al panel de Inicio. Si son incorrectas, el formulario muestra el error y permite volver a intentar.
 
 <div align="center">
@@ -613,6 +614,7 @@ Los User Flows detallan los objetivos del visitante, el administrador y el prove
 <small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
+**User Goal (Russell Estrada, administrador de minimarket):** Generar un pedido de abastecimiento hacia un proveedor y confirmar la recepción de los productos.
 **Descripción.** El administrador registra la solicitud y confirma la recepción. Si faltan campos, el formulario permanece abierto hasta que se corrijan.
 
 <div align="center">
@@ -622,6 +624,7 @@ Los User Flows detallan los objetivos del visitante, el administrador y el prove
 <small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
+**User Goal (Russell Estrada, administrador de minimarket):** Registrar una oferta comercial para productos o lotes que están próximos a vencer, minimizando así las pérdidas de inventario.
 **Descripción.** El administrador activa una oferta válida; cantidades, precios o fechas incorrectos abren la ruta de corrección antes de guardar.
 
 <div align="center">
@@ -631,6 +634,7 @@ Los User Flows detallan los objetivos del visitante, el administrador y el prove
 <small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
+**User Goal (Marco Antonio Ríos, proveedor):** Evaluar y responder a las solicitudes de abastecimiento recibidas por parte de los minimarkets.
 **Descripción.** El proveedor puede aceptar la solicitud y crear la orden de envío o rechazarla, dejando constancia de ambos resultados.
 
 <div align="center">
@@ -640,6 +644,7 @@ Los User Flows detallan los objetivos del visitante, el administrador y el prove
 <small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
+**User Goal (Russell Estrada, administrador de minimarket):** Atender las alertas generadas por alteraciones en las condiciones de conservación (temperatura/humedad) y tomar acciones correctivas.
 **Descripción.** El administrador revisa y marca la alerta como leída; después verifica si la condición volvió al rango normal o si el riesgo persiste y requiere intervención.
 
 <div align="center">
@@ -649,10 +654,15 @@ Los User Flows detallan los objetivos del visitante, el administrador y el prove
 <small><em>Nota.</em> Elaboración propia.</small>
 </div>
 
+**User Goal (visitante de la landing page):** Explorar los planes y beneficios de MarketGo en la landing page para suscribirse al servicio o solicitar contacto.
+**Descripción.** El visitante compara planes, consulta Contacto y abre el acceso. El flujo también señala que el formulario de contacto todavía no confirma el envío.
 **Descripción.** El visitante compara planes, consulta Contacto y abre el acceso. El flujo también señala que el formulario de contacto todavía no confirma el envío.
 
 ## 4.5. Web Applications Prototyping.
-[Web Application Protoyping link](https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0)
+
+Web Application Wireframes and Mockups: https://www.figma.com/design/HPzyjpUMoorZ8JsJUYhdqk/MarketGo-Platform?t=HFQ6xMlDHy9YW7Vq-0
+
+Link del prototipo: https://www.figma.com/proto/9xNGPAyqy0cbeCAJyCqyn8/MarketGo?node-id=22-2&starting-point-node-id=22%3A2&t=htS98pieL6dPmidr-1
 
 
 ## 4.6. Domain-Driven Software Architecture.
