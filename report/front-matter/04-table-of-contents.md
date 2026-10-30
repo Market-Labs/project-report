@@ -1,3 +1,5 @@
+<div style="page-break-after: always;"></div>
+
 # Contenido
 
 - [Carátula](https://github.com/Market-Labs/project-report/blob/main/report/front-matter/01-title-page.md)
