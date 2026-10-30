@@ -50,7 +50,7 @@ Se establecen los repositorios oficiales de la solución MarketGo para garantiza
     </tr>
     <tr>
       <td>Landing Page</td>
-      <td><a href="https://github.com/Market-Labs/landign-page">https://github.com/Market-Labs/landign-page</a></td>
+      <td><a href="https://github.com/Market-Labs/landing-page">https://github.com/Market-Labs/landing-page</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application</td>
@@ -153,8 +153,8 @@ El despliegue de la landing page se documenta mediante la siguiente URL de Azure
 
 <p>
   <strong>Repositorio:</strong>
-  <a href="https://github.com/Market-Labs/landign-page">
-    https://github.com/Market-Labs/landign-page
+  <a href="https://github.com/Market-Labs/landing-page">
+    https://github.com/Market-Labs/landing-page
   </a>
 </p>
 
@@ -391,7 +391,7 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 | Velocidad de referencia (Sprint 1) | 14 Story Points; se usa como antecedente, no como velocidad lograda en Sprint 2. |
 | Sum of Story Points | 21 Story Points (3 + 3 + 5 + 5 + 5) para las cinco historias del tablero que tienen estimación en el capítulo 3. US-033 queda pendiente de incorporación y estimación en el Product Backlog. |
 
-**Repositorio Landing Page:** https://github.com/Market-Labs/landign-page.git
+**Repositorio Landing Page:** https://github.com/Market-Labs/landing-page.git
 
 **Repositorio Frontend:** https://github.com/Market-Labs/front-end.git
 
