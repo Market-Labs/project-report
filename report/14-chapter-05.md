@@ -961,7 +961,6 @@ Los nombres y datos de perfil que siguen proceden de las entrevistas iniciales d
     <tr><td><strong>Ubicación</strong></td><td>José Leonardo Ortiz, Chiclayo, Lambayeque</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Dispositivo principal</strong></td><td>Celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
     <tr><td><strong>Herramientas previas</strong></td><td>Excel en Google Drive, POS básico, WhatsApp Business y correo</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
   </tbody>
 </table>
@@ -977,7 +976,6 @@ Los nombres y datos de perfil que siguen proceden de las entrevistas iniciales d
     <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono celular</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
     <tr><td><strong>Herramientas previas</strong></td><td>Excel en Google Drive y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
   </tbody>
 </table>
@@ -993,7 +991,6 @@ Los nombres y datos de perfil que siguen proceden de las entrevistas iniciales d
     <tr><td><strong>Ubicación</strong></td><td>Santiago de Surco, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
     <tr><td><strong>Herramientas previas</strong></td><td>Microsoft Excel, WhatsApp y llamadas telefónicas</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
   </tbody>
 </table>
@@ -1009,7 +1006,6 @@ Los nombres y datos de perfil que siguen proceden de las entrevistas iniciales d
     <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Dispositivo principal</strong></td><td>Laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
     <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
   </tbody>
 </table>
@@ -1025,7 +1021,6 @@ Los nombres y datos de perfil que siguen proceden de las entrevistas iniciales d
     <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
     <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
   </tbody>
 </table>
@@ -1041,7 +1036,6 @@ Los nombres y datos de perfil que siguen proceden de las entrevistas iniciales d
     <tr><td><strong>Ubicación</strong></td><td>Cerro Colorado, Arequipa</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Dispositivo principal</strong></td><td>Celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
     <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
   </tbody>
 </table>
