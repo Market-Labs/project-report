@@ -795,26 +795,289 @@ La landing page enlaza al inicio de sesión del frontend desde sus botones de ac
 
 #### 5.2.3.1. Spring Planning 3.
 
+La planificación del Sprint 3 toma como punto de partida la aplicación web presentada en el Sprint 2 y la base compartida del repositorio `Market-Labs/backend`. El objetivo del siguiente incremento es desarrollar y desplegar la primera versión de los Web Services de MarketGo para iniciar la sustitución de los datos de demostración por servicios propios. La base existente aún requiere compilación y pruebas en un entorno con el SDK de .NET 10; los bounded contexts tienen sus carpetas preparadas, pero todavía no contienen lógica de negocio.
+
+| **Sprint Planning Sprint 3** |  |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | Pendiente de registrar |
+| Time | Pendiente de registrar |
+| Location | Pendiente de registrar |
+| Prepared By | Albino Florencio Cáceres Pizarro, team leader |
+| Equipo considerado para la planificación | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
+| Sprint 2 Review Summary | El Sprint 2 dejó una aplicación frontend navegable para administradores de minimarkets y proveedores. El frontend se publicó en Azure Static Web Apps y utiliza Firebase Authentication y Firestore para el acceso y los datos de demostración. La fake API de `json-server` se utilizó en desarrollo local. El Sprint 2 no entregó Web Services propios de MarketGo. |
+| Sprint 2 Retrospective Summary | Para integrar el frontend con servicios propios será necesario acordar contratos de datos, responsabilidades por bounded context y criterios de aceptación verificables antes de reemplazar los adaptadores de demostración. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 3 Goal** | Nuestro objetivo es implementar y desplegar la primera versión de los Web Services de MarketGo sobre la base ASP.NET Core preparada, priorizando autenticación y los servicios necesarios para conectar los flujos de productos, inventario y abastecimiento con el frontend. El incremento se considerará demostrable cuando la solución compile, los primeros endpoints de negocio respondan con datos persistidos, sus contratos estén documentados y exista evidencia de una prueba de integración con la aplicación web. |
+| Historias y trabajos técnicos de referencia | US-026 a US-029 (acceso y permisos), US-001 a US-008 (productos, inventario y lotes), US-018 a US-024 (solicitudes y órdenes de envío); Technical Stories TS-IAM, TS-PROD, TS-INV, TS-LOT y TS-ORD, junto con IMP-BE-001 a IMP-BE-003 del capítulo III. El alcance final se ajustará al Sprint Backlog registrado por el equipo. |
+| Story Points comprometidos | Pendiente de confirmar a partir de las historias seleccionadas para el Sprint 3; las estimaciones en horas del cuadro de tareas no equivalen a Story Points. |
+
+La base compartida verificada contiene `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, convenciones de nombres, configuración CORS, OpenAPI/Scalar y `GET /api/v1/health`. En la consulta de ramas realizada para este apartado, el commit `8e71264` estaba en `develop` y en las ramas `feature/...` del backend; `origin/main` apuntaba a una versión anterior. No se presenta la base como compilada ni como un backend de negocio desplegado.
+
 #### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Albino Florencio Cáceres Pizarro coordina el Sprint 3 como team leader y preparó la base compartida del backend. La siguiente matriz distribuye los bounded contexts para la planificación del trabajo pendiente. `L` identifica al líder planificado y `C` a un colaborador; fuera de la base compartida, estas asignaciones no constituyen evidencia de implementación completada.
+
+| Team Member | Shared / API | Iam | Organizations | CatalogInventory | ConservationQuality | ProcurementOrders | AlertsNotifications | CommercialContact |
+|---|---|---|---|---|---|---|---|---|
+| Cáceres Pizarro, Albino Florencio | L | L | C | C | C | C | C | C |
+| Huaranga Romero, Matias Daniel | C | C | L | C | C | C | C | L |
+| Merino Ordinola, Winnie Lisbeth | C | C | C | C | C | L | C | C |
+| Quispe Almonacid, Andre Sebastian | C | C | C | L | L | C | C | C |
+| Torres Huaman, Alexis Calin | C | C | C | C | C | C | L | C |
 
 #### 5.2.3.3. Sprint Backlog 3.
 
+El cuadro relaciona el trabajo técnico de Sprint 3 con las historias y Technical Stories del capítulo III. Los responsables y las horas son una **planificación inicial**; deberán contrastarse con las tarjetas del tablero. `Base preparada` describe únicamente el código compartido que ya existe. `Por implementar` no afirma que los servicios de negocio estén terminados.
+
+| User Story / Technical Story Id | Title | Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| IMP-BE-001 | Backend foundations | S3-T01 | Preparar base compartida de la API | Organizar la solución ASP.NET Core, `Shared`, configuración común, persistencia base, documentación OpenAPI/Scalar y endpoint de salud. | Por estimar | Cáceres Pizarro, Albino Florencio | Base preparada; compilación pendiente |
+| IMP-BE-001 / TS-IAM-001 / TS-IAM-002 | Acceso de usuarios | S3-T02 | Implementar Iam | Construir registro e inicio de sesión en Web Services propios, con validaciones y permisos acordes con los roles del frontend. | 8 h (estimación inicial) | Cáceres Pizarro, Albino Florencio | Por implementar |
+| TS-PROF-001 / TS-SUP-001 | Perfiles y organizaciones | S3-T03 | Implementar Organizations | Modelar minimarkets, proveedores y sus perfiles; definir acceso a los datos de cada organización. | 8 h (estimación inicial) | Huaranga Romero, Matias Daniel | Por implementar |
+| TS-PROD-001 / TS-INV-001 / TS-LOT-001 | Catálogo, inventario y lotes | S3-T04 | Implementar CatalogInventory | Exponer productos, existencias, lotes y vencimientos mediante contratos REST y persistencia revisados. | 12 h (estimación inicial) | Quispe Almonacid, Andre Sebastian | Por implementar |
+| TS-CON-001 / TS-CON-002 | Conservación y alertas | S3-T05 | Implementar ConservationQuality | Definir registros de condiciones de almacenamiento y alertas; distinguir datos reales de cualquier simulación utilizada en pruebas. | 6 h (estimación inicial) | Quispe Almonacid, Andre Sebastian | Por implementar |
+| TS-ORD-001 a TS-ORD-004 | Solicitudes y órdenes de envío | S3-T06 | Implementar ProcurementOrders | Exponer creación y consulta de solicitudes, respuesta del proveedor, órdenes de envío y recepción por el minimarket. | 12 h (estimación inicial) | Merino Ordinola, Winnie Lisbeth | Por implementar |
+| TS-DASH-002 | Alertas y notificaciones | S3-T07 | Implementar AlertsNotifications | Definir los eventos y consultas de notificaciones pertinentes para cada rol. | 6 h (estimación inicial) | Torres Huaman, Alexis Calin | Por implementar |
+| US-033 | Solicitud de información o demo | S3-T08 | Implementar CommercialContact | Definir el contrato para solicitudes comerciales recibidas desde la landing page y su validación. | 4 h (estimación inicial) | Huaranga Romero, Matias Daniel | Por implementar |
+| IMP-BE-002 | Persistencia, migraciones y datos de prueba | S3-T09 | Completar persistencia | Incorporar entidades, configuraciones EF Core, migraciones y datos de prueba para los contextos seleccionados. | 8 h (estimación inicial) | Cáceres Pizarro, Albino Florencio | Por implementar |
+| IMP-BE-003 | Integración y reglas de negocio | S3-T10 | Verificar flujo integrado | Probar permisos y el flujo solicitud → respuesta → orden de envío → recepción → inventario con los servicios implementados. | 8 h (estimación inicial) | Merino Ordinola, Winnie Lisbeth; Quispe Almonacid, Andre Sebastian | Por implementar |
+| IMP-BE-003 | Preparación del incremento | S3-T11 | Compilar, probar y documentar | Verificar la compilación con .NET 10, ejecutar pruebas, documentar contratos y reunir evidencias para la Sprint Review. | 6 h (estimación inicial) | Torres Huaman, Alexis Calin; Cáceres Pizarro, Albino Florencio | Pendiente de verificación |
+
 #### 5.2.3.4. Development Evidence for Sprint Review.
+
+Esta tabla se completará con commits verificables de los repositorios backend y frontend. La rama indicada deberá corresponder a la referencia donde se compruebe cada commit; la fecha y el mensaje se transcribirán del historial Git. La base compartida se documentará separadamente de los Web Services de negocio cuando se seleccione la evidencia del sprint.
+
+| Repositorio | Rama verificada | Commit Id | Commit Message | Fecha y hora | Funcionalidad evidenciada |
+|---|---|---|---|---|---|
+| Backend | Por registrar | Por registrar | Por registrar | Por registrar | Base compartida y compilación |
+| Backend | Por registrar | Por registrar | Por registrar | Por registrar | Primeros servicios de negocio |
+| Frontend | Por registrar | Por registrar | Por registrar | Por registrar | Integración con los servicios propios |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
+Se registrarán capturas y resultados de ejecución únicamente después de probar el incremento. Cada evidencia deberá indicar el entorno, la acción realizada, el resultado observado y el enlace o archivo de respaldo.
+
+| Escenario por verificar | Resultado esperado | Resultado observado | Evidencia |
+|---|---|---|---|
+| Inicio de la API y `GET /api/v1/health` | El servicio inicia y responde al control de salud. | Pendiente de ejecución | Pendiente de captura |
+| Documentación OpenAPI/Scalar | El documento muestra solo los endpoints implementados y sus contratos reales. | Pendiente de ejecución | Pendiente de captura |
+| Primer endpoint de negocio | La solicitud válida responde con datos persistidos y la inválida devuelve un error controlado. | Pendiente de implementación y ejecución | Pendiente de captura |
+| Integración con el frontend | La aplicación consulta un servicio propio y muestra la respuesta correspondiente. | Pendiente de implementación y ejecución | Pendiente de captura |
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+El documento del capítulo III describe contratos **previstos**; este apartado registrará únicamente los Web Services que se implementen y se comprueben durante Sprint 3. La presencia de una ruta en el Product Backlog no constituye evidencia de que exista en el backend.
+
+| Servicio implementado | Método y ruta comprobados | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
+|---|---|---|---|---|
+| Control de salud de la base API | `GET /api/v1/health` (definido en `Program.cs`; ejecución pendiente de verificar) | Público; no requiere datos de negocio | Pendiente de prueba | Pendiente |
+| Primer servicio de negocio | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
+| Servicio de integración frontend | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
+El frontend y la landing page ya tienen despliegues documentados en Sprint 2. En este apartado se incorporará la evidencia de la nueva versión de ambos productos y del primer despliegue de Web Services cuando esté disponible. La configuración local de MySQL y el endpoint de salud no demuestran, por sí solos, un backend desplegado.
+
+| Componente | Plataforma | URL / configuración de Sprint 3 | Evidencia de publicación | Estado verificado |
+|---|---|---|---|---|
+| Landing page | Azure Static Web Apps | Pendiente de revalidar URL y versión | Pendiente de captura o ejecución del workflow | Pendiente |
+| Frontend Web Application | Azure Static Web Apps | Pendiente de revalidar URL y versión | Pendiente de captura o ejecución del workflow | Pendiente |
+| Backend Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
+| Base de datos de los Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+La matriz de líderes anterior expresa una distribución planificada. Los resultados de colaboración del Sprint 3 se completarán con evidencia del periodo correspondiente y se distinguirán de la actividad del Sprint 2.
+
+| Evidencia | Periodo | Resultado verificable | Fuente o captura |
+|---|---|---|---|
+| Tarjetas asignadas y revisadas | Pendiente | Pendiente | Pendiente |
+| Commits por integrante y rama | Pendiente | Pendiente | Pendiente |
+| Pull requests y revisiones | Pendiente | Pendiente | Pendiente |
+| Acuerdos, dificultades y mejoras de coordinación | Pendiente | Pendiente | Pendiente |
 
 ## 5.3. Validation Interviews.
 
+Las entrevistas de validación se diseñan para que administradores de minimarkets y proveedores de productos orgánicos interactúen con la landing page y con la aplicación web de MarketGo. El registro de respuestas y observaciones se completará después de cada sesión. La evaluación heurística utilizará el formato indicado en el statement del proyecto.
+
 ### 5.3.1. Diseño de Entrevistas.
+
+| Elemento | Diseño de la validación |
+|---|---|
+| Objetivo | Evaluar si la propuesta de valor de la landing page se entiende y si los flujos de la aplicación ofrecen información útil para inventario, abastecimiento y atención de pedidos. |
+| Participantes previstos | Tres administradores de minimarkets y tres proveedores de productos orgánicos entrevistados previamente durante el Needfinding. |
+| Modalidad prevista | Sesión moderada con interacción del participante en la landing page y en la aplicación web; se observarán las tareas antes de formular las preguntas de cierre. |
+| Duración estimada | 20 a 30 minutos por participante; la duración real se registrará en cada entrevista. |
+| Instrumento | Guía de 12 preguntas por segmento, observación de acciones y dificultades, y registro de respuestas. |
+| Evidencia prevista | Capturas de interacción con landing page y aplicación, fecha, duración y enlace de grabación cuando se disponga de ellos. |
+
+**Recorrido para administradores:** explorar Inicio, información del producto, videos, planes y contacto de la landing; entrar en la aplicación con una cuenta de prueba de administrador; revisar dashboard, inventario, proveedores, solicitudes de abastecimiento y recepción.
+
+**Preguntas para administradores de minimarkets**
+
+1. Después de recorrer la landing page, ¿entendiste qué problema busca resolver MarketGo?
+2. ¿La información del producto y los videos te ayudaron a comprender cómo podrías usarlo en tu minimarket?
+3. Al revisar los planes, ¿te parece clara la información sobre sus costos y beneficios? ¿Qué explicarías mejor?
+4. ¿Te resultó claro cómo pasar de la landing page al inicio de sesión de la aplicación?
+5. Al entrar al dashboard, ¿entendiste qué representan los indicadores de inventario, solicitudes y envíos?
+6. Al revisar el inventario, ¿pudiste identificar qué lotes tienen bajo stock o una fecha de vencimiento que requiere atención?
+7. ¿La información de producto, lote, stock y vencimiento fue suficiente para decidir qué acción tomarías?
+8. Al revisar la actividad reciente y las alertas, ¿pudiste reconocer qué situación atenderías primero?
+9. ¿La información del directorio de proveedores te resultó útil para elegir a quién solicitar productos?
+10. Después de crear una solicitud de abastecimiento, ¿quedó claro qué información se registró y cómo consultarías su estado?
+11. Después de probar la aplicación, ¿qué tan fácil te resultó usarla para revisar inventario, proveedores y pedidos? ¿Qué partes fueron intuitivas y cuáles te generaron dudas?
+12. Después de probar MarketGo, ¿la usarías para gestionar tu inventario y tus pedidos de abastecimiento? ¿Por qué?
+
+**Recorrido para proveedores:** explorar la propuesta, videos, planes y contacto de la landing; entrar en la aplicación con una cuenta de prueba de proveedor; revisar dashboard, productos, inventario, solicitudes y órdenes de envío.
+
+**Preguntas para proveedores de productos orgánicos**
+
+1. Después de recorrer la landing page, ¿entendiste qué ofrece MarketGo a un proveedor?
+2. ¿La información del producto y los videos explicaron con claridad cómo se relacionaría tu negocio con los minimarkets?
+3. Al revisar los planes, ¿te parece clara la información sobre sus costos y beneficios? ¿Qué explicarías mejor?
+4. ¿Te resultó claro cómo pasar de la landing page al registro o inicio de sesión de la aplicación?
+5. Al entrar al dashboard, ¿entendiste qué información se muestra sobre solicitudes, órdenes y productos?
+6. ¿La vista de productos te permitió comprender cómo consultar o mantener actualizado tu catálogo?
+7. Al revisar el inventario, ¿la información de lotes y stock te ayudaría a confirmar la disponibilidad de un producto?
+8. Al abrir una solicitud de abastecimiento, ¿contabas con la información necesaria para decidir si podías atenderla?
+9. ¿Te resultaron claros los estados y las acciones para aceptar o rechazar una solicitud?
+10. Al preparar una orden de envío, ¿la aplicación mostró los datos que necesitarías para coordinar el despacho?
+11. Después de probar la aplicación, ¿qué tan fácil te resultó usarla? ¿Qué partes te parecieron intuitivas y cuáles te generaron dudas?
+12. Después de probar MarketGo, ¿la usarías para gestionar las solicitudes y pedidos de tus clientes? ¿Por qué?
 
 ### 5.3.2. Registro de Entrevistas.
 
+Los nombres y datos de perfil que siguen proceden de las entrevistas iniciales del apartado 2.2.2. Las fechas, respuestas, grabaciones y capturas de **validación** se incorporarán después de las nuevas sesiones. Las referencias a imágenes pendientes se mantienen como texto para no generar enlaces rotos en el README.
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 1: Rodrigo Guevara</strong></td></tr>
+    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Rodrigo Guevara</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Segmento</strong></td><td>Administrador de minimarket</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Edad</strong></td><td>26 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador general (3 años de experiencia)</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>José Leonardo Ortiz, Chiclayo, Lambayeque</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Dispositivo principal</strong></td><td>Celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Herramientas previas</strong></td><td>Excel en Google Drive, POS básico, WhatsApp Business y correo</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 2: Roly Hans Luna</strong></td></tr>
+    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Roly Hans Luna</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Segmento</strong></td><td>Administrador de minimarket</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Edad</strong></td><td>28 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador de minimarket orgánico</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono celular</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Herramientas previas</strong></td><td>Excel en Google Drive y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 3: María Fernanda Rojas Castillo</strong></td></tr>
+    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>María Fernanda Rojas Castillo</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Segmento</strong></td><td>Administradora de minimarket</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Edad</strong></td><td>38 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administradora de minimarket (7 años de experiencia)</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Santiago de Surco, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Herramientas previas</strong></td><td>Microsoft Excel, WhatsApp y llamadas telefónicas</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 4: Álvaro Chojaga</strong></td></tr>
+    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Álvaro Chojaga</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Segmento</strong></td><td>Proveedor de productos orgánicos</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Edad</strong></td><td>54 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador / jefe de operaciones y ventas</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Dispositivo principal</strong></td><td>Laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 5: Luz Rojas</strong></td></tr>
+    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Luz Rojas</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Segmento</strong></td><td>Proveedora de productos orgánicos</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Edad</strong></td><td>47 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Comerciante / mayorista de productos orgánicos</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 6: Anita Gamboa</strong></td></tr>
+    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Anita Gamboa</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Segmento</strong></td><td>Proveedora de productos orgánicos</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Edad</strong></td><td>32 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Proveedora de productos orgánicos</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Cerro Colorado, Arequipa</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Dispositivo principal</strong></td><td>Celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
+    <tr><td colspan="4"><strong>Tareas observadas en landing page y aplicación:</strong> Pendiente de realizar y registrar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+  </tbody>
+</table>
+
 ### 5.3.3. Evaluaciones según heurísticas.
+
+La evaluación se completará después de observar la interacción con la landing page y la aplicación. Se seguirá la estructura del Anexo D del statement: identificación de la sesión, tareas dentro y fuera del alcance, escala de severidad, tabla resumen y descripción de cada problema con evidencia y recomendación. No se consignan problemas o correcciones antes de realizar la evaluación.
+
+**UX Heuristics & Principles Evaluation — Usability, Inclusive Design, Information Architecture**
+
+| Campo | Valor |
+|---|---|
+| Carrera | Ingeniería de Software |
+| Curso | Aplicaciones Web |
+| Sección | 8130 |
+| Profesores | Por registrar |
+| Auditor | MarketLabs |
+| Cliente(s) | Por registrar según los participantes de la sesión |
+| Fecha | Pendiente |
+| Site o app a evaluar | Landing page y Frontend Web Application de MarketGo |
+
+**Tareas previstas dentro del alcance:** comprender la propuesta de valor y los planes de la landing page; acceder a la aplicación; consultar el dashboard y el inventario; crear o revisar una solicitud de abastecimiento; responder a una solicitud y revisar una orden de envío según el rol.
+
+**Tareas fuera del alcance de esta evaluación:** administración de Web Services de negocio aún no implementados y comprobación de integraciones que no estén disponibles durante la sesión.
+
+| Nivel | Descripción de severidad |
+|---|---|
+| 1 | Problema superficial que se supera fácilmente o aparece rara vez. |
+| 2 | Problema menor que dificulta una tarea y puede corregirse en una iteración posterior. |
+| 3 | Problema mayor, frecuente o difícil de superar, que requiere prioridad alta. |
+| 4 | Problema grave que impide continuar y debe corregirse antes del lanzamiento. |
+
+| # | Problema | Escala de severidad | Heurística o principio violado |
+|---|---|---|---|
+| Pendiente | Pendiente de evaluación | Pendiente | Pendiente |
+
+**Descripción de problemas:** por cada problema identificado se registrarán pantalla y tarea, severidad, heurística o principio, descripción, captura que lo ilustre, recomendación y estado de la corrección.
 
 ## 5.4. Video About-the-Product.
