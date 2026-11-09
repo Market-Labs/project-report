@@ -790,3 +790,400 @@ La landing page enlaza al inicio de sesión del frontend desde sus botones de ac
     dashboard según el rol del usuario.
   </li>
 </ul>
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Spring Planning 3.
+
+La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026 a las 9:00 p. m. El equipo tomó como base la aplicación web presentada en el Sprint 2 y la estructura compartida del repositorio `Market-Labs/backend`. Se acordó trabajar los módulos de negocio mostrados en el tablero Sprint Backlog 3. La base existente aún requiere compilación y pruebas en un entorno con el SDK de .NET 10; los bounded contexts tienen sus carpetas preparadas, pero todavía no contienen lógica de negocio en la evidencia documentada.
+
+| **Sprint Planning Sprint 3** |  |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 7 de noviembre de 2026 |
+| Time | 9:00 p. m. (hora de Lima) |
+| Location | Videollamada |
+| Prepared By | Albino Florencio Cáceres Pizarro, team leader |
+| Equipo considerado para la planificación | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
+| Sprint 2 Review Summary | El Sprint 2 dejó una aplicación frontend navegable para administradores de minimarkets y proveedores. El frontend se publicó en Azure Static Web Apps y utiliza Firebase Authentication y Firestore para el acceso y los datos de demostración. La fake API de `json-server` se utilizó en desarrollo local. El Sprint 2 no entregó Web Services propios de MarketGo. |
+| Sprint 2 Retrospective Summary | Para integrar el frontend con servicios propios será necesario acordar contratos de datos, responsabilidades por bounded context y criterios de aceptación verificables antes de reemplazar los adaptadores de demostración. |
+| **Sprint Goal & Technical Stories** |  |
+| **Sprint 3 Goal** | Desarrollar sobre la base compartida del backend los Web Services de inventario, catálogo y productos de proveedores, pedidos de abastecimiento, órdenes de envío y recepción, conservación, alertas y ofertas. El incremento se verificará mediante endpoints implementados, persistencia, pruebas y evidencia de integración con el frontend. |
+| Technical Stories seleccionadas | TS-INV-001, TS-PROD-001, TS-SUP-002, TS-ORD-001, TS-ORD-003, TS-ORD-004, TS-CON-001, TS-CON-002 y TS-MER-001 del Product Backlog del capítulo III. La captura del tablero muestra la priorización funcional; este cuadro usa únicamente IDs `TS-*`. |
+| Story Points de Technical Stories | **27 Story Points** (nueve historias de 3 puntos cada una), según el Product Backlog del capítulo III. Es una estimación técnica planificada, no un total completado ni el total de todas las tarjetas del tablero. |
+
+La base compartida verificada contiene `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, convenciones de nombres, configuración CORS, OpenAPI/Scalar y `GET /api/v1/health`. En la consulta de ramas realizada para este apartado, el commit `8e71264` estaba en `develop` y en las ramas `feature/...` del backend; `origin/main` apuntaba a una versión anterior. No se presenta la base como compilada ni como un backend de negocio desplegado.
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Albino Florencio Cáceres Pizarro coordina el Sprint 3 como team leader y preparó la base compartida del backend. La siguiente matriz distribuye los bounded contexts para la planificación del trabajo pendiente. `L` identifica al líder planificado y `C` a un colaborador; fuera de la base compartida, estas asignaciones no constituyen evidencia de implementación completada.
+
+| Team Member | Shared / API | Iam | Organizations | CatalogInventory | ConservationQuality | ProcurementOrders | AlertsNotifications | CommercialContact |
+|---|---|---|---|---|---|---|---|---|
+| Cáceres Pizarro, Albino Florencio | L | L | C | C | C | C | C | C |
+| Huaranga Romero, Matias Daniel | C | C | L | C | C | C | C | L |
+| Merino Ordinola, Winnie Lisbeth | C | C | C | C | C | L | C | C |
+| Quispe Almonacid, Andre Sebastian | C | C | C | L | L | C | C | C |
+| Torres Huaman, Alexis Calin | C | C | C | C | C | C | L | C |
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+La captura del Sprint Backlog 3 muestra ocho tarjetas de alcance funcional. Para documentar el trabajo de Web Services se usan exclusivamente las Technical Stories con ID `TS-*` del Product Backlog del capítulo III. Sus puntos se suman una sola vez, sin volver a sumar las historias de usuario que motivan los servicios. Las responsabilidades por bounded context se describen en 5.2.3.2 y se contrastarán con las asignaciones del tablero.
+
+<div align="center">
+  <img src="assets/chapter-05/sprint-backlog-3.png" alt="Tablero Trello Sprint Backlog 3 de MarketGo" width="75%">
+  <p><strong>Figura: Tablero Sprint Backlog 3 con la meta y las ocho tarjetas seleccionadas.</strong><br><em>Nota. Captura del tablero Trello de MarketGo.</em></p>
+</div>
+
+| Technical Story | Story Points | Alcance técnico planificado | Responsable(s) propuesto(s) según matriz LACX |
+|---|---:|---|---|
+| TS-INV-001 | 3 | Listar y registrar productos en el inventario del minimarket. | Andre Sebastian Quispe Almonacid |
+| TS-PROD-001 | 3 | Consultar y gestionar el catálogo de productos orgánicos. | Andre Sebastian Quispe Almonacid |
+| TS-SUP-002 | 3 | Consultar los productos ofrecidos por los proveedores. | Matias Daniel Huaranga Romero; Andre Sebastian Quispe Almonacid |
+| TS-ORD-001 | 3 | Listar y crear pedidos de abastecimiento. | Winnie Lisbeth Merino Ordinola |
+| TS-ORD-003 | 3 | Listar y crear órdenes de envío vinculadas a pedidos aceptados. | Winnie Lisbeth Merino Ordinola |
+| TS-ORD-004 | 3 | Procesar la recepción de órdenes de envío y actualizar el inventario cuando corresponda. | Winnie Lisbeth Merino Ordinola; Andre Sebastian Quispe Almonacid |
+| TS-CON-001 | 3 | Consultar registros de temperatura y humedad para monitorear la conservación. | Andre Sebastian Quispe Almonacid |
+| TS-CON-002 | 3 | Exponer alertas por condiciones de conservación riesgosas. | Andre Sebastian Quispe Almonacid; Alexis Calin Torres Huaman |
+| TS-MER-001 | 3 | Registrar mermas y gestionar información de productos en oferta. | Andre Sebastian Quispe Almonacid |
+| **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** | **Asignación propuesta; pendiente de contrastar con Trello.** |
+
+Las tarjetas de base compartida y de solicitud de información o demo no tienen una Technical Story con ID `TS-*` en el capítulo III. Permanecen en la captura del tablero, pero no se incluyen en los 27 puntos de esta tabla técnica.
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+Esta tabla se completará con commits verificables de los repositorios backend y frontend. La rama indicada deberá corresponder a la referencia donde se compruebe cada commit; la fecha y el mensaje se transcribirán del historial Git. La base compartida se documentará separadamente de los Web Services de negocio cuando se seleccione la evidencia del sprint.
+
+| Repositorio | Rama verificada | Commit Id | Commit Message | Fecha y hora | Funcionalidad evidenciada |
+|---|---|---|---|---|---|
+| Backend | Por registrar | Por registrar | Por registrar | Por registrar | Base compartida y compilación |
+| Backend | Por registrar | Por registrar | Por registrar | Por registrar | Primeros servicios de negocio |
+| Frontend | Por registrar | Por registrar | Por registrar | Por registrar | Integración con los servicios propios |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+Se registrarán capturas y resultados de ejecución únicamente después de probar el incremento. Cada evidencia deberá indicar el entorno, la acción realizada, el resultado observado y el enlace o archivo de respaldo.
+
+| Escenario por verificar | Resultado esperado | Resultado observado | Evidencia |
+|---|---|---|---|
+| Inicio de la API y `GET /api/v1/health` | El servicio inicia y responde al control de salud. | Pendiente de ejecución | Pendiente de captura |
+| Documentación OpenAPI/Scalar | El documento muestra solo los endpoints implementados y sus contratos reales. | Pendiente de ejecución | Pendiente de captura |
+| Primer endpoint de negocio | La solicitud válida responde con datos persistidos y la inválida devuelve un error controlado. | Pendiente de implementación y ejecución | Pendiente de captura |
+| Integración con el frontend | La aplicación consulta un servicio propio y muestra la respuesta correspondiente. | Pendiente de implementación y ejecución | Pendiente de captura |
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+El documento del capítulo III describe contratos **previstos**; este apartado registrará únicamente los Web Services que se implementen y se comprueben durante Sprint 3. La presencia de una ruta en el Product Backlog no constituye evidencia de que exista en el backend.
+
+| Servicio implementado | Método y ruta comprobados | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
+|---|---|---|---|---|
+| Control de salud de la base API | `GET /api/v1/health` (definido en `Program.cs`; ejecución pendiente de verificar) | Público; no requiere datos de negocio | Pendiente de prueba | Pendiente |
+| Primer servicio de negocio | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
+| Servicio de integración frontend | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+El frontend y la landing page ya tienen despliegues documentados en Sprint 2. En este apartado se incorporará la evidencia de la nueva versión de ambos productos y del primer despliegue de Web Services cuando esté disponible. La configuración local de MySQL y el endpoint de salud no demuestran, por sí solos, un backend desplegado.
+
+| Componente | Plataforma | URL / configuración de Sprint 3 | Evidencia de publicación | Estado verificado |
+|---|---|---|---|---|
+| Landing page | Azure Static Web Apps | Pendiente de revalidar URL y versión | Pendiente de captura o ejecución del workflow | Pendiente |
+| Frontend Web Application | Azure Static Web Apps | Pendiente de revalidar URL y versión | Pendiente de captura o ejecución del workflow | Pendiente |
+| Backend Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
+| Base de datos de los Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+La matriz de líderes anterior expresa una distribución planificada. Los resultados de colaboración del Sprint 3 se completarán con evidencia del periodo correspondiente y se distinguirán de la actividad del Sprint 2.
+
+| Evidencia | Periodo | Resultado verificable | Fuente o captura |
+|---|---|---|---|
+| Tarjetas asignadas y revisadas | Pendiente | Pendiente | Pendiente |
+| Commits por integrante y rama | Pendiente | Pendiente | Pendiente |
+| Pull requests y revisiones | Pendiente | Pendiente | Pendiente |
+| Acuerdos, dificultades y mejoras de coordinación | Pendiente | Pendiente | Pendiente |
+
+## 5.3. Validation Interviews.
+
+Las entrevistas de validación permitieron recoger las opiniones de administradores de minimarkets y proveedores de productos orgánicos después de interactuar con la landing page y la aplicación web de MarketGo. Sus respuestas se resumen en 5.3.2. La evaluación heurística de la interfaz se documenta por separado en 5.3.3, con el formato indicado en el statement del proyecto.
+
+### 5.3.1. Diseño de Entrevistas.
+
+| Elemento | Diseño de la validación |
+|---|---|
+| Objetivo | Evaluar si la propuesta de valor de la landing page se entiende y si los flujos de la aplicación ofrecen información útil para inventario, abastecimiento y atención de pedidos. |
+| Participantes | Tres administradores de minimarkets y tres proveedores de productos orgánicos entrevistados previamente durante el Needfinding. |
+| Modalidad | Interacción con la landing page y la aplicación web, seguida de preguntas sobre claridad, utilidad y facilidad de uso. |
+| Duración | La duración de cada entrevista aún está por registrar. |
+| Instrumento | Guía de 12 preguntas por segmento, observación de acciones y dificultades, y registro de respuestas. |
+| Evidencia | Respuestas transcritas y resumidas en 5.3.2; capturas, duración y enlaces de grabación en proceso de incorporación. |
+
+**Recorrido para administradores:** explorar Inicio, información del producto, videos, planes y contacto de la landing; entrar en la aplicación con una cuenta de prueba de administrador; revisar dashboard, inventario, proveedores, solicitudes de abastecimiento y recepción.
+
+**Preguntas para administradores de minimarkets**
+
+1. Después de recorrer la landing page, ¿entendiste qué problema busca resolver MarketGo?
+2. ¿La información del producto y los videos te ayudaron a comprender cómo podrías usarlo en tu minimarket?
+3. Al revisar los planes, ¿te parece clara la información sobre sus costos y beneficios? ¿Qué explicarías mejor?
+4. ¿Te resultó claro cómo pasar de la landing page al inicio de sesión de la aplicación?
+5. Al entrar al dashboard, ¿entendiste qué representan los indicadores de inventario, solicitudes y envíos?
+6. Al revisar el inventario, ¿pudiste identificar qué lotes tienen bajo stock o una fecha de vencimiento que requiere atención?
+7. ¿La información de producto, lote, stock y vencimiento fue suficiente para decidir qué acción tomarías?
+8. Al revisar la actividad reciente y las alertas, ¿pudiste reconocer qué situación atenderías primero?
+9. ¿La información del directorio de proveedores te resultó útil para elegir a quién solicitar productos?
+10. Después de crear una solicitud de abastecimiento, ¿quedó claro qué información se registró y cómo consultarías su estado?
+11. Después de probar la aplicación, ¿qué tan fácil te resultó usarla para revisar inventario, proveedores y pedidos? ¿Qué partes fueron intuitivas y cuáles te generaron dudas?
+12. Después de probar MarketGo, ¿la usarías para gestionar tu inventario y tus pedidos de abastecimiento? ¿Por qué?
+
+**Recorrido para proveedores:** explorar la propuesta, videos, planes y contacto de la landing; entrar en la aplicación con una cuenta de prueba de proveedor; revisar dashboard, productos, inventario, solicitudes y órdenes de envío.
+
+**Preguntas para proveedores de productos orgánicos**
+
+1. Después de recorrer la landing page, ¿entendiste qué ofrece MarketGo a un proveedor?
+2. ¿La información del producto y los videos explicaron con claridad cómo se relacionaría tu negocio con los minimarkets?
+3. Al revisar los planes, ¿te parece clara la información sobre sus costos y beneficios? ¿Qué explicarías mejor?
+4. ¿Te resultó claro cómo pasar de la landing page al registro o inicio de sesión de la aplicación?
+5. Al entrar al dashboard, ¿entendiste qué información se muestra sobre solicitudes, órdenes y productos?
+6. ¿La vista de productos te permitió comprender cómo consultar o mantener actualizado tu catálogo?
+7. Al revisar el inventario, ¿la información de lotes y stock te ayudaría a confirmar la disponibilidad de un producto?
+8. Al abrir una solicitud de abastecimiento, ¿contabas con la información necesaria para decidir si podías atenderla?
+9. ¿Te resultaron claros los estados y las acciones para aceptar o rechazar una solicitud?
+10. Al preparar una orden de envío, ¿la aplicación mostró los datos que necesitarías para coordinar el despacho?
+11. Después de probar la aplicación, ¿qué tan fácil te resultó usarla? ¿Qué partes te parecieron intuitivas y cuáles te generaron dudas?
+12. Después de probar MarketGo, ¿la usarías para gestionar las solicitudes y pedidos de tus clientes? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas.
+
+Las seis entrevistas de validación se realizaron con los participantes del Needfinding (apartado 2.2.2) el 9 de noviembre de 2026. Los resúmenes siguientes sintetizan las respuestas de las transcripciones proporcionadas para cada participante. Las capturas, duraciones y URL de grabación están en proceso de incorporación.
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Rodrigo Guevara</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket</td></tr>
+    <tr><td><strong>Edad</strong></td><td>26 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>José Leonardo Ortiz, Chiclayo, Lambayeque</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador general</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Rodrigo comprendió la propuesta de centralizar inventario y pedidos y encontró claro el acceso desde la landing page. Los videos, el dashboard, la información de lotes y vencimientos, el directorio de proveedores y el seguimiento de solicitudes le resultaron útiles para reducir las revisiones manuales y la dispersión entre Excel, POS, libreta y WhatsApp. Señaló que convendría explicar mejor qué funciones incluye cada plan, mostrar cómo registrar un producto, añadir la fecha de ingreso de cada lote y ordenar las alertas por prioridad. También pidió acceso directo desde los indicadores, tiempos de entrega de proveedores y avisos cuando cambie el estado de una solicitud. Le tomó tiempo distinguir entre solicitudes y envíos; indicó que usaría la plataforma para gestionar inventario y abastecimiento.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Roly Hans Luna</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket orgánico</td></tr>
+    <tr><td><strong>Edad</strong></td><td>28 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador de minimarket orgánico</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Roly identificó la utilidad de MarketGo para controlar productos perecibles, existencias y pedidos. Valoró la lectura rápida del dashboard, los lotes y vencimientos, las alertas y el estado de las solicitudes; consideró especialmente importante recibir avisos de conservación y vencimiento en el celular. Solicitó mayor claridad sobre los límites de cada plan y demostraciones de uso móvil. Propuso mostrar condiciones de conservación junto al lote, destacar productos próximos a vencer, informar precios, disponibilidad y tiempos de entrega de proveedores, y contemplar recepciones parciales y correcciones de cantidades. Consideraría usar la aplicación si mantiene una experiencia cómoda desde el teléfono y reduce el trabajo manual con Excel y WhatsApp.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>María Fernanda Rojas Castillo</td><td><strong>Segmento objetivo</strong></td><td>Administradora de minimarket</td></tr>
+    <tr><td><strong>Edad</strong></td><td>38 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Santiago de Surco, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administradora de minimarket</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>María Fernanda entendió la propuesta de organizar inventario y abastecimiento en una sola plataforma y encontró claro el paso de la landing page al inicio de sesión. Valoró el dashboard, la consulta de lotes, el directorio de proveedores y los estados de las solicitudes para dar seguimiento a varios pedidos. Solicitó precisar las funciones y posibles costos adicionales de los planes, añadir un ejemplo completo de recepción y explicar brevemente los indicadores. También sugirió mostrar el historial de movimientos de cada lote y de pedidos por proveedor, diferenciar alertas urgentes y aclarar cómo corregir una solicitud ya enviada. Indicó que evaluaría adoptar MarketGo si la gestión resulta sencilla y confiable.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Álvaro Chojaga</td><td><strong>Segmento objetivo</strong></td><td>Proveedor de productos orgánicos</td></tr>
+    <tr><td><strong>Edad</strong></td><td>54 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador / jefe de operaciones y ventas</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Álvaro comprendió que MarketGo permite organizar el catálogo y coordinar solicitudes de minimarkets, funciones que hoy gestiona con Excel y WhatsApp. Le resultaron claros el acceso, el dashboard, el catálogo, la consulta de stock y las acciones principales de las solicitudes. Pidió un video del flujo completo, límites de productos y clientes por plan, actualización sencilla de precios y cantidades, y avisos cuando el stock no alcance. Para coordinar entregas sugirió registrar la fecha solicitada, el destino y observaciones de transporte. También pidió confirmar antes de rechazar, registrar el motivo del rechazo y explicar mejor la diferencia entre solicitud aceptada y orden de envío. Consideraría utilizar la plataforma para ordenar sus operaciones.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 5</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Luz Rojas</td><td><strong>Segmento objetivo</strong></td><td>Proveedora de productos orgánicos</td></tr>
+    <tr><td><strong>Edad</strong></td><td>47 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Comerciante / mayorista de productos orgánicos</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Luz entendió la utilidad de organizar productos y pedidos en MarketGo y valoró poder consultar solicitudes sin depender de conversaciones de WhatsApp. Consideró claros el acceso, el dashboard, el catálogo, el inventario y las acciones de aceptar o rechazar, especialmente para trabajar desde el teléfono. Solicitó ejemplos breves para explicar los planes, acceso móvil visible, identificación de pedidos recientes y edición rápida de precios. Propuso resumir cantidades antes de confirmar solicitudes, explicar el motivo de un rechazo y mostrar dirección y teléfono de contacto para el despacho. Tuvo dudas sobre cómo modificar una orden cuando cambia la cantidad pedida; indicó que usaría la aplicación si puede gestionar esas operaciones fácilmente desde el celular.</td></tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tbody>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 6</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Anita Gamboa</td><td><strong>Segmento objetivo</strong></td><td>Proveedora de productos orgánicos</td></tr>
+    <tr><td><strong>Edad</strong></td><td>32 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Cerro Colorado, Arequipa</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Proveedora de productos orgánicos</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Anita comprendió la propuesta de centralizar catálogo, disponibilidad y seguimiento de pedidos. Valoró los videos, el dashboard, el inventario y la vista de solicitudes para reducir verificaciones repetidas entre Excel y WhatsApp. Pidió aclarar las diferencias entre planes y los roles de registro, filtrar productos por disponibilidad y señalar cuando una solicitud supere el stock. También sugirió conservar el historial de cambios, mostrar pedidos pendientes de despacho y registrar destino y fecha de entrega en las órdenes. La sección de solicitudes le resultó intuitiva, aunque tuvo dudas sobre cambios posteriores a la aceptación. Consideró útil MarketGo para coordinar mejor los pedidos si mantiene actualizados sus datos.</td></tr>
+  </tbody>
+</table>
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+**Evaluación de User Experience según heurísticas — MarketGo**
+
+**UX Heuristics & Principles Evaluation**
+**Usabilidad · Diseño inclusivo · Arquitectura de información**
+
+| Dato | Valor |
+|---|---|
+| Carrera | Ingeniería de Software |
+| Curso | Aplicaciones Web |
+| Sección | 8130 |
+| Profesores | Oscar Ivan Villafuerte Bazan |
+| Auditor | Grupo 3 (MarketLabs) |
+| Cliente(s) | Rodrigo Guevara, Roly Hans Luna y María Fernanda Rojas Castillo |
+| Fecha de evaluación | 9 de noviembre de 2026 |
+
+#### Sitio o aplicación a evaluar
+
+**MarketGo**, sistema web para la gestión de productos orgánicos: [ambitious-field-08f658810.2.azurestaticapps.net](https://ambitious-field-08f658810.2.azurestaticapps.net/home). La revisión se realizó con una cuenta de administrador proporcionada para esta evaluación. No se incluyen credenciales en este informe.
+
+#### Tareas a evaluar
+
+El alcance de esta evaluación incluye la revisión exploratoria de las siguientes tareas:
+
+1. Iniciar sesión y consultar el estado general del negocio en el panel principal.
+2. Consultar existencias, lotes, fechas de vencimiento y estados del inventario.
+3. Localizar productos y reconocer su categoría, precio y disponibilidad.
+4. Consultar solicitudes de abastecimiento y abrir el formulario de nueva solicitud, sin enviarlo.
+5. Consultar el listado y estado de las entregas.
+6. Revisar registros de temperatura y humedad en Conservación.
+7. Revisar las alertas y cambiar la interfaz al español.
+
+No se incluyen en esta versión las siguientes tareas:
+
+1. Crear, editar o eliminar productos, stock, proveedores, usuarios o roles.
+2. Enviar solicitudes, aceptar o rechazar entregas, o marcar alertas como leídas.
+3. Evaluar procesos con otros perfiles de usuario o validar la interfaz mediante sesiones observadas con participantes.
+
+**Método y alcance.** Auditoría heurística exploratoria de la interfaz visible en escritorio, con navegación de lectura y capturas de pantalla. Los hallazgos describen lo observado el 9 de noviembre de 2026; no son resultados de pruebas con usuarios ni de una auditoría técnica completa de accesibilidad. Esta versión del informe presenta únicamente problemas de severidad 2, conforme al alcance solicitado.
+
+#### Escala de severidad
+
+| Nivel | Descripción |
+|---|---|
+| 1 | **Problema superficial.** Se supera con facilidad o aparece muy rara vez; puede corregirse cuando haya tiempo disponible. |
+| 2 | **Problema menor.** Aparece con cierta frecuencia o requiere esfuerzo adicional; prioridad baja para la siguiente versión. |
+| 3 | **Problema mayor.** Aparece con frecuencia o dificulta seriamente la tarea; prioridad alta de corrección. |
+| 4 | **Problema muy grave.** Impide continuar utilizando la herramienta; debe corregirse antes del lanzamiento. |
+
+#### Tabla resumen
+
+| # | Problema | Escala de severidad | Heurística o principio vulnerado |
+|---|---|---:|---|
+| 1 | El brócoli aparece clasificado como fruta en el catálogo. | 2 | Arquitectura de información: ¿es encontrable? y ¿es comprensible? |
+| 2 | El listado de abastecimiento utiliza identificadores largos y formatos distintos para la misma clase de solicitud. | 2 | Arquitectura de información: ¿es usable?; usabilidad: reconocimiento antes que recuerdo. |
+| 3 | El indicador “87 % estado general” no explica qué mide ni cómo se calcula. | 2 | Usabilidad: visibilidad del estado del sistema; ayuda y documentación. |
+| 4 | Los botones de estrella de Alertas no comunican su función mediante un nombre accesible. | 2 | Diseño inclusivo: proporcionar experiencias comparables. |
+| 5 | Alertas combina formatos de fecha distintos para registros del mismo listado. | 2 | Usabilidad: consistencia y estándares. |
+
+#### Descripción de problemas
+
+**Problema #1: categoría incorrecta para el brócoli**
+
+**Severidad:** 2
+**Principio vulnerado:** Arquitectura de información — ¿es encontrable? y ¿es comprensible?
+
+**Problema.** En [Productos](https://ambitious-field-08f658810.2.azurestaticapps.net/products), el producto **“Brocoli”** con código **FRT-00003** aparece bajo la categoría **FRUTAS**, mientras **“Brocoli orgánico”** aparece en **VEGETALES**. Esta clasificación contradictoria dificulta localizar y comparar productos de la misma familia y puede inducir errores al organizar el catálogo.
+
+**Captura:** catálogo de Productos.
+
+<div align="center">
+  <img src="assets/chapter-05/evidencias-heuristicas/03-productos.png" alt="Catálogo de productos orgánicos y clasificación del brócoli" width="55%">
+  <p><strong>Figura: Catálogo de productos orgánicos y clasificación del brócoli.</strong><br><em>Nota. Captura de MarketGo; elaboración propia.</em></p>
+</div>
+
+**Recomendación.** Corregir la categoría del registro y validar la taxonomía al crear o editar productos. Revisar posibles duplicados semánticos antes de ofrecerlos en búsquedas o filtros.
+
+**Problema #2: identificadores de solicitudes poco legibles e inconsistentes**
+
+**Severidad:** 2
+**Principio vulnerado:** Arquitectura de información — ¿es usable?; usabilidad — reconocimiento antes que recuerdo.
+
+**Problema.** En [Abastecimiento](https://ambitious-field-08f658810.2.azurestaticapps.net/requisition), la columna “Solicitud” mezcla identificadores breves como **req-1** con otros de longitud UUID, como **req-0ac09682-9dbd-4b9d-b0a0-52818478338e**. Los identificadores largos ocupan gran parte de la fila y son difíciles de recordar, comparar o comunicar verbalmente. La tabla no muestra una referencia corta equivalente para esas solicitudes.
+
+**Captura:** tabla de Abastecimiento.
+
+<div align="center">
+  <img src="assets/chapter-05/evidencias-heuristicas/04-abastecimiento.png" alt="Listado de solicitudes de abastecimiento con identificadores de distintos formatos" width="80%">
+  <p><strong>Figura: Listado de solicitudes de abastecimiento con identificadores de distintos formatos.</strong><br><em>Nota. Captura de MarketGo; elaboración propia.</em></p>
+</div>
+
+**Recomendación.** Mostrar un número de solicitud uniforme, corto y único como referencia principal. Conservar el identificador técnico en el detalle o como dato copiable, junto con fecha de creación y proveedor para facilitar la distinción entre solicitudes.
+
+**Problema #3: porcentaje de estado general sin significado explícito**
+
+**Severidad:** 2
+**Heurística vulnerada:** Usabilidad — visibilidad del estado del sistema; ayuda y documentación.
+
+**Problema.** El [Dashboard](https://ambitious-field-08f658810.2.azurestaticapps.net/home) destaca **“87 % estado general”**, pero no indica qué dimensiones, período ni fórmula componen ese porcentaje. Un administrador no puede interpretar si representa inventario, abastecimiento, conservación o una combinación de ellos, ni entender qué acción lo mejoraría.
+
+**Captura:** indicador de estado general.
+
+<div align="center">
+  <img src="assets/chapter-05/evidencias-heuristicas/01-dashboard.png" alt="Dashboard de MarketGo con indicador de estado general" width="80%">
+  <p><strong>Figura: Dashboard de MarketGo con indicador de estado general.</strong><br><em>Nota. Captura de MarketGo; elaboración propia.</em></p>
+</div>
+
+**Recomendación.** Definir el indicador junto al valor, con un desglose de componentes y fecha de cálculo. Si no existe una métrica validada, evitar presentar un porcentaje que sugiera precisión sin contexto.
+
+**Problema #4: botones de estrella sin nombre accesible**
+
+**Severidad:** 2
+**Principio vulnerado:** Diseño inclusivo — proporcionar experiencias comparables.
+
+**Problema.** En el [Centro de alertas](https://ambitious-field-08f658810.2.azurestaticapps.net/communication), cada tarjeta contiene un botón representado visualmente por una estrella. En el árbol de accesibilidad, estos botones se exponen solo con el glifo del icono, sin un nombre que indique la acción. Esto obliga a quien utiliza un lector de pantalla a adivinar la función de un control secundario. La captura ilustra la ubicación de los botones; la falta de nombre se verificó en la representación de accesibilidad del navegador.
+
+**Captura:** botones de estrella de Alertas.
+
+<div align="center">
+  <img src="assets/chapter-05/evidencias-heuristicas/06-alertas.png" alt="Centro de alertas de MarketGo con botones de estrella y formatos de fecha" width="55%">
+  <p><strong>Figura: Centro de alertas de MarketGo con botones de estrella y formatos de fecha.</strong><br><em>Nota. Captura de MarketGo; elaboración propia.</em></p>
+</div>
+
+**Recomendación.** Asignar a cada botón un nombre accesible que describa su función real y actualizarlo cuando cambie su estado. Comprobarlo con navegación por teclado y lector de pantalla.
+
+**Problema #5: formatos de fecha mezclados en Alertas**
+
+**Severidad:** 2
+**Heurística vulnerada:** Usabilidad — consistencia y estándares.
+
+**Problema.** En el mismo [Centro de alertas](https://ambitious-field-08f658810.2.azurestaticapps.net/communication), las alertas antiguas muestran fechas como **2026-09-18 09:35**, mientras las de vencimiento muestran **9/11/2026, 12:46:40 p. m.**. La mezcla de formato ISO y fecha numérica local dificulta comparar la cronología y puede volver ambiguo el orden día/mes para lectores de distintas regiones.
+
+**Captura:** fechas del Centro de alertas.
+
+La figura del Centro de alertas incluida en el problema #4 también muestra los formatos de fecha descritos aquí.
+
+**Recomendación.** Usar un formato único y localizado en todo el listado, por ejemplo “9 nov 2026, 12:46”, e incluir la zona horaria si las alertas pueden proceder de ubicaciones distintas.
+
+#### Prioridad de corrección
+
+1. Corregir la categoría del brócoli y normalizar las referencias de solicitudes.
+2. Explicar el indicador de estado general, dar nombre accesible a los botones de estrella y unificar los formatos de fecha en Alertas.
+
+## 5.4. Video About-the-Product.
+
+En esta sección se presentará el video de MarketGo para mostrar la propuesta de valor, el recorrido por la landing page y las funciones principales de la aplicación web para administradores de minimarkets y proveedores. El enlace y la evidencia del video se incorporarán cuando esté disponible.
