@@ -65,7 +65,7 @@
     </tr>
     <tr>
       <td align="center">U20241G152</td>
-      <td align="left">Torres Huaman, Alexis Calin</td>
+      <td align="left">Torres Huaman, Alexis Calinn</td>
     </tr>
   </tbody>
 </table>
