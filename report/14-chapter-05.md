@@ -802,7 +802,7 @@ La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026
 | **Sprint Planning Background** |  |
 | Date | 7 de noviembre de 2026 |
 | Time | 9:00 p. m. (hora de Lima) |
-| Location | Pendiente de registrar |
+| Location | Videollamada |
 | Prepared By | Albino Florencio Cáceres Pizarro, team leader |
 | Equipo considerado para la planificación | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
 | Sprint 2 Review Summary | El Sprint 2 dejó una aplicación frontend navegable para administradores de minimarkets y proveedores. El frontend se publicó en Azure Static Web Apps y utiliza Firebase Authentication y Firestore para el acceso y los datos de demostración. La fake API de `json-server` se utilizó en desarrollo local. El Sprint 2 no entregó Web Services propios de MarketGo. |
