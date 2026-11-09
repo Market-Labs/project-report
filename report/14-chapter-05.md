@@ -1036,36 +1036,134 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
-La evaluación se completará después de observar la interacción con la landing page y la aplicación. Se seguirá la estructura del Anexo D del statement: identificación de la sesión, tareas dentro y fuera del alcance, escala de severidad, tabla resumen y descripción de cada problema con evidencia y recomendación. No se consignan problemas o correcciones antes de realizar la evaluación.
+**Evaluación de User Experience según heurísticas — MarketGo**
 
-**UX Heuristics & Principles Evaluation — Usability, Inclusive Design, Information Architecture**
+**UX Heuristics & Principles Evaluation**
+**Usabilidad · Diseño inclusivo · Arquitectura de información**
 
-| Campo | Valor |
+| Dato | Valor |
 |---|---|
 | Carrera | Ingeniería de Software |
 | Curso | Aplicaciones Web |
 | Sección | 8130 |
-| Profesores | Por registrar |
-| Auditor | MarketLabs |
-| Cliente(s) | Por registrar según los participantes de la sesión |
-| Fecha | Pendiente |
-| Site o app a evaluar | Landing page y Frontend Web Application de MarketGo |
+| Profesores | Todos |
+| Auditor | Grupo 3 (MarketLabs) |
+| Cliente(s) | Rodrigo Guevara, Roly Hans Luna y María Fernanda Rojas Castillo |
+| Fecha de evaluación | 9 de noviembre de 2026 |
 
-**Tareas previstas dentro del alcance:** comprender la propuesta de valor y los planes de la landing page; acceder a la aplicación; consultar el dashboard y el inventario; crear o revisar una solicitud de abastecimiento; responder a una solicitud y revisar una orden de envío según el rol.
+#### Sitio o aplicación a evaluar
 
-**Tareas fuera del alcance de esta evaluación:** administración de Web Services de negocio aún no implementados y comprobación de integraciones que no estén disponibles durante la sesión.
+**MarketGo**, sistema web para la gestión de productos orgánicos: [ambitious-field-08f658810.2.azurestaticapps.net](https://ambitious-field-08f658810.2.azurestaticapps.net/home). La revisión se realizó con una cuenta de administrador proporcionada para esta evaluación. No se incluyen credenciales en este informe.
 
-| Nivel | Descripción de severidad |
+#### Tareas a evaluar
+
+El alcance de esta evaluación incluye la revisión exploratoria de las siguientes tareas:
+
+1. Iniciar sesión y consultar el estado general del negocio en el panel principal.
+2. Consultar existencias, lotes, fechas de vencimiento y estados del inventario.
+3. Localizar productos y reconocer su categoría, precio y disponibilidad.
+4. Consultar solicitudes de abastecimiento y abrir el formulario de nueva solicitud, sin enviarlo.
+5. Consultar el listado y estado de las entregas.
+6. Revisar registros de temperatura y humedad en Conservación.
+7. Revisar las alertas y cambiar la interfaz al español.
+
+No se incluyen en esta versión las siguientes tareas:
+
+1. Crear, editar o eliminar productos, stock, proveedores, usuarios o roles.
+2. Enviar solicitudes, aceptar o rechazar entregas, o marcar alertas como leídas.
+3. Evaluar procesos con otros perfiles de usuario o validar la interfaz mediante sesiones observadas con participantes.
+
+**Método y alcance.** Auditoría heurística exploratoria de la interfaz visible en escritorio, con navegación de lectura y capturas de pantalla. Los hallazgos describen lo observado el 9 de noviembre de 2026; no son resultados de pruebas con usuarios ni de una auditoría técnica completa de accesibilidad. Esta versión del informe presenta únicamente problemas de severidad 2, conforme al alcance solicitado.
+
+#### Escala de severidad
+
+| Nivel | Descripción |
 |---|---|
-| 1 | Problema superficial que se supera fácilmente o aparece rara vez. |
-| 2 | Problema menor que dificulta una tarea y puede corregirse en una iteración posterior. |
-| 3 | Problema mayor, frecuente o difícil de superar, que requiere prioridad alta. |
-| 4 | Problema grave que impide continuar y debe corregirse antes del lanzamiento. |
+| 1 | **Problema superficial.** Se supera con facilidad o aparece muy rara vez; puede corregirse cuando haya tiempo disponible. |
+| 2 | **Problema menor.** Aparece con cierta frecuencia o requiere esfuerzo adicional; prioridad baja para la siguiente versión. |
+| 3 | **Problema mayor.** Aparece con frecuencia o dificulta seriamente la tarea; prioridad alta de corrección. |
+| 4 | **Problema muy grave.** Impide continuar utilizando la herramienta; debe corregirse antes del lanzamiento. |
 
-| # | Problema | Escala de severidad | Heurística o principio violado |
-|---|---|---|---|
-| Pendiente | Pendiente de evaluación | Pendiente | Pendiente |
+#### Tabla resumen
 
-**Descripción de problemas:** por cada problema identificado se registrarán pantalla y tarea, severidad, heurística o principio, descripción, captura que lo ilustre, recomendación y estado de la corrección.
+| # | Problema | Escala de severidad | Heurística o principio vulnerado |
+|---|---|---:|---|
+| 1 | El brócoli aparece clasificado como fruta en el catálogo. | 2 | Arquitectura de información: ¿es encontrable? y ¿es comprensible? |
+| 2 | El listado de abastecimiento utiliza identificadores largos y formatos distintos para la misma clase de solicitud. | 2 | Arquitectura de información: ¿es usable?; usabilidad: reconocimiento antes que recuerdo. |
+| 3 | El indicador “87 % estado general” no explica qué mide ni cómo se calcula. | 2 | Usabilidad: visibilidad del estado del sistema; ayuda y documentación. |
+| 4 | Los botones de estrella de Alertas no comunican su función mediante un nombre accesible. | 2 | Diseño inclusivo: proporcionar experiencias comparables. |
+| 5 | Alertas combina formatos de fecha distintos para registros del mismo listado. | 2 | Usabilidad: consistencia y estándares. |
+
+#### Descripción de problemas
+
+**Problema #1: categoría incorrecta para el brócoli**
+
+**Severidad:** 2
+**Principio vulnerado:** Arquitectura de información — ¿es encontrable? y ¿es comprensible?
+
+**Problema.** En [Productos](https://ambitious-field-08f658810.2.azurestaticapps.net/products), el producto **“Brocoli”** con código **FRT-00003** aparece bajo la categoría **FRUTAS**, mientras **“Brocoli orgánico”** aparece en **VEGETALES**. Esta clasificación contradictoria dificulta localizar y comparar productos de la misma familia y puede inducir errores al organizar el catálogo.
+
+**Captura:** catálogo de Productos.
+
+*Archivo de captura pendiente de incorporar: 03-productos.png.*
+
+**Recomendación.** Corregir la categoría del registro y validar la taxonomía al crear o editar productos. Revisar posibles duplicados semánticos antes de ofrecerlos en búsquedas o filtros.
+
+**Problema #2: identificadores de solicitudes poco legibles e inconsistentes**
+
+**Severidad:** 2
+**Principio vulnerado:** Arquitectura de información — ¿es usable?; usabilidad — reconocimiento antes que recuerdo.
+
+**Problema.** En [Abastecimiento](https://ambitious-field-08f658810.2.azurestaticapps.net/requisition), la columna “Solicitud” mezcla identificadores breves como **req-1** con otros de longitud UUID, como **req-0ac09682-9dbd-4b9d-b0a0-52818478338e**. Los identificadores largos ocupan gran parte de la fila y son difíciles de recordar, comparar o comunicar verbalmente. La tabla no muestra una referencia corta equivalente para esas solicitudes.
+
+**Captura:** tabla de Abastecimiento.
+
+*Archivo de captura pendiente de incorporar: 04-abastecimiento.png.*
+
+**Recomendación.** Mostrar un número de solicitud uniforme, corto y único como referencia principal. Conservar el identificador técnico en el detalle o como dato copiable, junto con fecha de creación y proveedor para facilitar la distinción entre solicitudes.
+
+**Problema #3: porcentaje de estado general sin significado explícito**
+
+**Severidad:** 2
+**Heurística vulnerada:** Usabilidad — visibilidad del estado del sistema; ayuda y documentación.
+
+**Problema.** El [Dashboard](https://ambitious-field-08f658810.2.azurestaticapps.net/home) destaca **“87 % estado general”**, pero no indica qué dimensiones, período ni fórmula componen ese porcentaje. Un administrador no puede interpretar si representa inventario, abastecimiento, conservación o una combinación de ellos, ni entender qué acción lo mejoraría.
+
+**Captura:** indicador de estado general.
+
+*Archivo de captura pendiente de incorporar: 01-dashboard.png.*
+
+**Recomendación.** Definir el indicador junto al valor, con un desglose de componentes y fecha de cálculo. Si no existe una métrica validada, evitar presentar un porcentaje que sugiera precisión sin contexto.
+
+**Problema #4: botones de estrella sin nombre accesible**
+
+**Severidad:** 2
+**Principio vulnerado:** Diseño inclusivo — proporcionar experiencias comparables.
+
+**Problema.** En el [Centro de alertas](https://ambitious-field-08f658810.2.azurestaticapps.net/communication), cada tarjeta contiene un botón representado visualmente por una estrella. En el árbol de accesibilidad, estos botones se exponen solo con el glifo del icono, sin un nombre que indique la acción. Esto obliga a quien utiliza un lector de pantalla a adivinar la función de un control secundario. La captura ilustra la ubicación de los botones; la falta de nombre se verificó en la representación de accesibilidad del navegador.
+
+**Captura:** botones de estrella de Alertas.
+
+*Archivo de captura pendiente de incorporar: 06-alertas.png.*
+
+**Recomendación.** Asignar a cada botón un nombre accesible que describa su función real y actualizarlo cuando cambie su estado. Comprobarlo con navegación por teclado y lector de pantalla.
+
+**Problema #5: formatos de fecha mezclados en Alertas**
+
+**Severidad:** 2
+**Heurística vulnerada:** Usabilidad — consistencia y estándares.
+
+**Problema.** En el mismo [Centro de alertas](https://ambitious-field-08f658810.2.azurestaticapps.net/communication), las alertas antiguas muestran fechas como **2026-09-18 09:35**, mientras las de vencimiento muestran **9/11/2026, 12:46:40 p. m.**. La mezcla de formato ISO y fecha numérica local dificulta comparar la cronología y puede volver ambiguo el orden día/mes para lectores de distintas regiones.
+
+**Captura:** fechas del Centro de alertas.
+
+*Archivo de captura pendiente de incorporar: 06-alertas.png.*
+
+**Recomendación.** Usar un formato único y localizado en todo el listado, por ejemplo “9 nov 2026, 12:46”, e incluir la zona horaria si las alertas pueden proceder de ubicaciones distintas.
+
+#### Prioridad de corrección
+
+1. Corregir la categoría del brócoli y normalizar las referencias de solicitudes.
+2. Explicar el indicador de estado general, dar nombre accesible a los botones de estrella y unificar los formatos de fecha en Alertas.
 
 ## 5.4. Video About-the-Product.
