@@ -283,7 +283,7 @@ Para los proveedores, permite gestionar su catálogo de productos, disponibilida
 
 Cuando el proveedor genera una orden de envío, el administrador la revisa y puede aceptarla o rechazarla. Si la orden es aceptada, los productos y lotes recibidos se incorporan automáticamente al inventario; si es rechazada, el inventario permanece sin cambios.
 
-La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. Durante la implementación, los datos de los sensores podrán ser simulados para validar los flujos de monitoreo y alertas sin depender de dispositivos físicos.
+La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. Durante la implementación, los datos de los sensores podrán ser simulados para validar los flujos de monitoreo y alertas sin depender de dispositivos físicos
 
 De esta manera, MarketGo busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados, bajo el principio de que **el proveedor atiende y despacha los pedidos, pero solamente el administrador del minimarket puede modificar su inventario**.
 
