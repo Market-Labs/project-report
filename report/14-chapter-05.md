@@ -835,18 +835,18 @@ La captura del Sprint Backlog 3 muestra ocho tarjetas de alcance funcional. Para
   <p><strong>Figura: Tablero Sprint Backlog 3 con la meta y las ocho tarjetas seleccionadas.</strong><br><em>Nota. Captura del tablero Trello de MarketGo.</em></p>
 </div>
 
-| Technical Story | Story Points | Alcance técnico planificado |
-|---|---:|---|
-| TS-INV-001 | 3 | Listar y registrar productos en el inventario del minimarket. |
-| TS-PROD-001 | 3 | Consultar y gestionar el catálogo de productos orgánicos. |
-| TS-SUP-002 | 3 | Consultar los productos ofrecidos por los proveedores. |
-| TS-ORD-001 | 3 | Listar y crear pedidos de abastecimiento. |
-| TS-ORD-003 | 3 | Listar y crear órdenes de envío vinculadas a pedidos aceptados. |
-| TS-ORD-004 | 3 | Procesar la recepción de órdenes de envío y actualizar el inventario cuando corresponda. |
-| TS-CON-001 | 3 | Consultar registros de temperatura y humedad para monitorear la conservación. |
-| TS-CON-002 | 3 | Exponer alertas por condiciones de conservación riesgosas. |
-| TS-MER-001 | 3 | Registrar mermas y gestionar información de productos en oferta. |
-| **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** |
+| Technical Story | Story Points | Alcance técnico planificado | Responsable(s) propuesto(s) según matriz LACX |
+|---|---:|---|---|
+| TS-INV-001 | 3 | Listar y registrar productos en el inventario del minimarket. | Andre Sebastian Quispe Almonacid |
+| TS-PROD-001 | 3 | Consultar y gestionar el catálogo de productos orgánicos. | Andre Sebastian Quispe Almonacid |
+| TS-SUP-002 | 3 | Consultar los productos ofrecidos por los proveedores. | Matias Daniel Huaranga Romero; Andre Sebastian Quispe Almonacid |
+| TS-ORD-001 | 3 | Listar y crear pedidos de abastecimiento. | Winnie Lisbeth Merino Ordinola |
+| TS-ORD-003 | 3 | Listar y crear órdenes de envío vinculadas a pedidos aceptados. | Winnie Lisbeth Merino Ordinola |
+| TS-ORD-004 | 3 | Procesar la recepción de órdenes de envío y actualizar el inventario cuando corresponda. | Winnie Lisbeth Merino Ordinola; Andre Sebastian Quispe Almonacid |
+| TS-CON-001 | 3 | Consultar registros de temperatura y humedad para monitorear la conservación. | Andre Sebastian Quispe Almonacid |
+| TS-CON-002 | 3 | Exponer alertas por condiciones de conservación riesgosas. | Andre Sebastian Quispe Almonacid; Alexis Calin Torres Huaman |
+| TS-MER-001 | 3 | Registrar mermas y gestionar información de productos en oferta. | Andre Sebastian Quispe Almonacid |
+| **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** | **Asignación propuesta; pendiente de contrastar con Trello.** |
 
 Las tarjetas de base compartida y de solicitud de información o demo no tienen una Technical Story con ID `TS-*` en el capítulo III. Permanecen en la captura del tablero, pero no se incluyen en los 27 puntos de esta tabla técnica.
 
