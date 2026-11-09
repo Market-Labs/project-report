@@ -807,10 +807,10 @@ La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026
 | Equipo considerado para la planificación | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
 | Sprint 2 Review Summary | El Sprint 2 dejó una aplicación frontend navegable para administradores de minimarkets y proveedores. El frontend se publicó en Azure Static Web Apps y utiliza Firebase Authentication y Firestore para el acceso y los datos de demostración. La fake API de `json-server` se utilizó en desarrollo local. El Sprint 2 no entregó Web Services propios de MarketGo. |
 | Sprint 2 Retrospective Summary | Para integrar el frontend con servicios propios será necesario acordar contratos de datos, responsabilidades por bounded context y criterios de aceptación verificables antes de reemplazar los adaptadores de demostración. |
-| **Sprint Goal & User Stories** |  |
-| **Sprint 3 Goal** | Desarrollar los módulos de negocio de MarketGo sobre la base compartida del backend: inventario, productos de proveedores, pedidos de abastecimiento, órdenes de envío y recepción, conservación, alertas, ofertas y contacto comercial. El incremento se verificará mediante endpoints implementados, persistencia, pruebas y evidencia de integración con el frontend. |
-| Historias y trabajos técnicos acordados | TECH 001 (base compartida; corresponde a IMP-BE-001 del capítulo III); US-001, US-002, US-010, US-011, US-012, US-014, US-015, US-016, US-018, US-019, US-021, US-023 y US-033. Se agrupan en las ocho tarjetas visibles del tablero Sprint Backlog 3. |
-| Story Points comprometidos | **59 Story Points**, suma de las historias y del trabajo técnico seleccionados en el tablero Sprint Backlog 3 según las estimaciones del Product Backlog del capítulo III. Es una estimación planificada, no un total completado. |
+| **Sprint Goal & Technical Stories** |  |
+| **Sprint 3 Goal** | Desarrollar sobre la base compartida del backend los Web Services de inventario, catálogo y productos de proveedores, pedidos de abastecimiento, órdenes de envío y recepción, conservación, alertas y ofertas. El incremento se verificará mediante endpoints implementados, persistencia, pruebas y evidencia de integración con el frontend. |
+| Technical Stories seleccionadas | TS-INV-001, TS-PROD-001, TS-SUP-002, TS-ORD-001, TS-ORD-003, TS-ORD-004, TS-CON-001, TS-CON-002 y TS-MER-001 del Product Backlog del capítulo III. La captura del tablero muestra la priorización funcional; este cuadro usa únicamente IDs `TS-*`. |
+| Story Points de Technical Stories | **27 Story Points** (nueve historias de 3 puntos cada una), según el Product Backlog del capítulo III. Es una estimación técnica planificada, no un total completado ni el total de todas las tarjetas del tablero. |
 
 La base compartida verificada contiene `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, convenciones de nombres, configuración CORS, OpenAPI/Scalar y `GET /api/v1/health`. En la consulta de ramas realizada para este apartado, el commit `8e71264` estaba en `develop` y en las ramas `feature/...` del backend; `origin/main` apuntaba a una versión anterior. No se presenta la base como compilada ni como un backend de negocio desplegado.
 
@@ -828,24 +828,27 @@ Albino Florencio Cáceres Pizarro coordina el Sprint 3 como team leader y prepar
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-La reunión seleccionó ocho tarjetas para el Sprint Backlog 3. La captura del tablero identifica las historias; los Story Points se toman del Product Backlog del capítulo III. La suma expresa el trabajo planificado y no acredita su implementación. Las responsabilidades por bounded context se describen en 5.2.3.2 y se contrastarán con las asignaciones del tablero.
+La captura del Sprint Backlog 3 muestra ocho tarjetas de alcance funcional. Para documentar el trabajo de Web Services se usan exclusivamente las Technical Stories con ID `TS-*` del Product Backlog del capítulo III. Sus puntos se suman una sola vez, sin volver a sumar las historias de usuario que motivan los servicios. Las responsabilidades por bounded context se describen en 5.2.3.2 y se contrastarán con las asignaciones del tablero.
 
 <div align="center">
   <img src="assets/chapter-05/sprint-backlog-3.png" alt="Tablero Trello Sprint Backlog 3 de MarketGo" width="75%">
   <p><strong>Figura: Tablero Sprint Backlog 3 con la meta y las ocho tarjetas seleccionadas.</strong><br><em>Nota. Captura del tablero Trello de MarketGo.</em></p>
 </div>
 
-| Tarjeta del tablero | Referencia en el capítulo III | Story Points | Alcance planificado |
-|---|---|---:|---|
-| TECH 001: Base compartida del backend | IMP-BE-001 | 3 | Preparar la estructura compartida y la configuración inicial de los Web Services. |
-| US-001 y US-002: Registrar y visualizar inventario | US-001 (5) + US-002 (5) | 10 | Registrar productos en inventario y consultar sus existencias. |
-| US-015 y US-016: Productos de proveedores | US-015 (5) + US-016 (5) | 10 | Consultar productos de proveedores y registrar los productos ofrecidos. |
-| US-018 y US-019: Pedidos de abastecimiento | US-018 (5) + US-019 (3) | 8 | Crear y consultar pedidos de abastecimiento. |
-| US-021 y US-023: Órdenes de envío y recepción | US-021 (5) + US-023 (5) | 10 | Crear órdenes de envío y aceptar su recepción para actualizar el inventario. |
-| US-010 a US-012: Conservación y alertas | US-010 (3) + US-011 (5) + US-012 (5) | 13 | Consultar condiciones de conservación, monitorear temperatura y humedad y generar alertas de riesgo. |
-| US-014: Registrar ofertas de productos | US-014 (3) | 3 | Registrar ofertas de productos disponibles. |
-| US-033: Solicitar información o demo | US-033 (2) | 2 | Recibir solicitudes comerciales desde la landing page. |
-| **Total planificado** | **Ocho tarjetas** | **59** | **Story Points del Product Backlog del capítulo III.** |
+| Technical Story | Story Points | Alcance técnico planificado |
+|---|---:|---|
+| TS-INV-001 | 3 | Listar y registrar productos en el inventario del minimarket. |
+| TS-PROD-001 | 3 | Consultar y gestionar el catálogo de productos orgánicos. |
+| TS-SUP-002 | 3 | Consultar los productos ofrecidos por los proveedores. |
+| TS-ORD-001 | 3 | Listar y crear pedidos de abastecimiento. |
+| TS-ORD-003 | 3 | Listar y crear órdenes de envío vinculadas a pedidos aceptados. |
+| TS-ORD-004 | 3 | Procesar la recepción de órdenes de envío y actualizar el inventario cuando corresponda. |
+| TS-CON-001 | 3 | Consultar registros de temperatura y humedad para monitorear la conservación. |
+| TS-CON-002 | 3 | Exponer alertas por condiciones de conservación riesgosas. |
+| TS-MER-001 | 3 | Registrar mermas y gestionar información de productos en oferta. |
+| **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** |
+
+Las tarjetas de base compartida y de solicitud de información o demo no tienen una Technical Story con ID `TS-*` en el capítulo III. Permanecen en la captura del tablero, pero no se incluyen en los 27 puntos de esta tabla técnica.
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
