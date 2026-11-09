@@ -948,95 +948,89 @@ Las entrevistas de validación se diseñan para que administradores de minimarke
 
 ### 5.3.2. Registro de Entrevistas.
 
-Los nombres y datos de perfil que siguen proceden de las entrevistas iniciales del apartado 2.2.2. Las fechas, respuestas, grabaciones y capturas de **validación** se incorporarán después de las nuevas sesiones. Las referencias a imágenes pendientes se mantienen como texto para no generar enlaces rotos en el README.
+Las seis entrevistas de validación se realizaron con los participantes del Needfinding (apartado 2.2.2). Los resúmenes siguientes sintetizan las respuestas de las transcripciones proporcionadas para cada participante. Las capturas, fechas, duraciones y URL de grabación quedan pendientes de incorporar.
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 1: Rodrigo Guevara</strong></td></tr>
-    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>Rodrigo Guevara</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Segmento</strong></td><td>Administrador de minimarket</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Edad</strong></td><td>26 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Administrador general (3 años de experiencia)</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>José Leonardo Ortiz, Chiclayo, Lambayeque</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Dispositivo principal</strong></td><td>Celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Herramientas previas</strong></td><td>Excel en Google Drive, POS básico, WhatsApp Business y correo</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Rodrigo Guevara</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket</td></tr>
+    <tr><td><strong>Edad</strong></td><td>26 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>José Leonardo Ortiz, Chiclayo, Lambayeque</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador general</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Rodrigo comprendió la propuesta de centralizar inventario y pedidos y encontró claro el acceso desde la landing page. Los videos, el dashboard, la información de lotes y vencimientos, el directorio de proveedores y el seguimiento de solicitudes le resultaron útiles para reducir las revisiones manuales y la dispersión entre Excel, POS, libreta y WhatsApp. Señaló que convendría explicar mejor qué funciones incluye cada plan, mostrar cómo registrar un producto, añadir la fecha de ingreso de cada lote y ordenar las alertas por prioridad. También pidió acceso directo desde los indicadores, tiempos de entrega de proveedores y avisos cuando cambie el estado de una solicitud. Le tomó tiempo distinguir entre solicitudes y envíos; indicó que usaría la plataforma para gestionar inventario y abastecimiento.</td></tr>
   </tbody>
 </table>
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 2: Roly Hans Luna</strong></td></tr>
-    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>Roly Hans Luna</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Segmento</strong></td><td>Administrador de minimarket</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Edad</strong></td><td>28 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Administrador de minimarket orgánico</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono celular</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Herramientas previas</strong></td><td>Excel en Google Drive y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Roly Hans Luna</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket orgánico</td></tr>
+    <tr><td><strong>Edad</strong></td><td>28 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador de minimarket orgánico</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Roly identificó la utilidad de MarketGo para controlar productos perecibles, existencias y pedidos. Valoró la lectura rápida del dashboard, los lotes y vencimientos, las alertas y el estado de las solicitudes; consideró especialmente importante recibir avisos de conservación y vencimiento en el celular. Solicitó mayor claridad sobre los límites de cada plan y demostraciones de uso móvil. Propuso mostrar condiciones de conservación junto al lote, destacar productos próximos a vencer, informar precios, disponibilidad y tiempos de entrega de proveedores, y contemplar recepciones parciales y correcciones de cantidades. Consideraría usar la aplicación si mantiene una experiencia cómoda desde el teléfono y reduce el trabajo manual con Excel y WhatsApp.</td></tr>
   </tbody>
 </table>
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 3: María Fernanda Rojas Castillo</strong></td></tr>
-    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>María Fernanda Rojas Castillo</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Segmento</strong></td><td>Administradora de minimarket</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Edad</strong></td><td>38 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Administradora de minimarket (7 años de experiencia)</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>Santiago de Surco, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Herramientas previas</strong></td><td>Microsoft Excel, WhatsApp y llamadas telefónicas</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>María Fernanda Rojas Castillo</td><td><strong>Segmento objetivo</strong></td><td>Administradora de minimarket</td></tr>
+    <tr><td><strong>Edad</strong></td><td>38 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Santiago de Surco, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administradora de minimarket</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>María Fernanda entendió la propuesta de organizar inventario y abastecimiento en una sola plataforma y encontró claro el paso de la landing page al inicio de sesión. Valoró el dashboard, la consulta de lotes, el directorio de proveedores y los estados de las solicitudes para dar seguimiento a varios pedidos. Solicitó precisar las funciones y posibles costos adicionales de los planes, añadir un ejemplo completo de recepción y explicar brevemente los indicadores. También sugirió mostrar el historial de movimientos de cada lote y de pedidos por proveedor, diferenciar alertas urgentes y aclarar cómo corregir una solicitud ya enviada. Indicó que evaluaría adoptar MarketGo si la gestión resulta sencilla y confiable.</td></tr>
   </tbody>
 </table>
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 4: Álvaro Chojaga</strong></td></tr>
-    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>Álvaro Chojaga</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Segmento</strong></td><td>Proveedor de productos orgánicos</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Edad</strong></td><td>54 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Administrador / jefe de operaciones y ventas</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Dispositivo principal</strong></td><td>Laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Álvaro Chojaga</td><td><strong>Segmento objetivo</strong></td><td>Proveedor de productos orgánicos</td></tr>
+    <tr><td><strong>Edad</strong></td><td>54 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador / jefe de operaciones y ventas</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Álvaro comprendió que MarketGo permite organizar el catálogo y coordinar solicitudes de minimarkets, funciones que hoy gestiona con Excel y WhatsApp. Le resultaron claros el acceso, el dashboard, el catálogo, la consulta de stock y las acciones principales de las solicitudes. Pidió un video del flujo completo, límites de productos y clientes por plan, actualización sencilla de precios y cantidades, y avisos cuando el stock no alcance. Para coordinar entregas sugirió registrar la fecha solicitada, el destino y observaciones de transporte. También pidió confirmar antes de rechazar, registrar el motivo del rechazo y explicar mejor la diferencia entre solicitud aceptada y orden de envío. Consideraría utilizar la plataforma para ordenar sus operaciones.</td></tr>
   </tbody>
 </table>
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 5: Luz Rojas</strong></td></tr>
-    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>Luz Rojas</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Segmento</strong></td><td>Proveedora de productos orgánicos</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Edad</strong></td><td>47 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Comerciante / mayorista de productos orgánicos</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Dispositivo principal</strong></td><td>Teléfono</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 5</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Luz Rojas</td><td><strong>Segmento objetivo</strong></td><td>Proveedora de productos orgánicos</td></tr>
+    <tr><td><strong>Edad</strong></td><td>47 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Comerciante / mayorista de productos orgánicos</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Luz entendió la utilidad de organizar productos y pedidos en MarketGo y valoró poder consultar solicitudes sin depender de conversaciones de WhatsApp. Consideró claros el acceso, el dashboard, el catálogo, el inventario y las acciones de aceptar o rechazar, especialmente para trabajar desde el teléfono. Solicitó ejemplos breves para explicar los planes, acceso móvil visible, identificación de pedidos recientes y edición rápida de precios. Propuso resumir cantidades antes de confirmar solicitudes, explicar el motivo de un rechazo y mostrar dirección y teléfono de contacto para el despacho. Tuvo dudas sobre cómo modificar una orden cuando cambia la cantidad pedida; indicó que usaría la aplicación si puede gestionar esas operaciones fácilmente desde el celular.</td></tr>
   </tbody>
 </table>
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista de validación N.° 6: Anita Gamboa</strong></td></tr>
-    <tr><td colspan="2" align="center"><strong>Datos de perfil de la entrevista inicial</strong></td><td colspan="2" align="center"><strong>Registro de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>Anita Gamboa</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Segmento</strong></td><td>Proveedora de productos orgánicos</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Edad</strong></td><td>32 años</td><td><strong>Inicio en video</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Proveedora de productos orgánicos</td><td><strong>URL de grabación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>Cerro Colorado, Arequipa</td><td><strong>Modalidad</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Dispositivo principal</strong></td><td>Celular y laptop</td><td><strong>Captura de landing page</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td><strong>Herramientas previas</strong></td><td>Excel y WhatsApp</td><td><strong>Captura de aplicación</strong></td><td>Pendiente de incorporar</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista de validación:</strong> Pendiente de completar con las respuestas y observaciones de esta nueva sesión.</td></tr>
+    <tr><td colspan="4" align="center"><strong>Entrevista N.° 6</strong></td></tr>
+    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Anita Gamboa</td><td><strong>Segmento objetivo</strong></td><td>Proveedora de productos orgánicos</td></tr>
+    <tr><td><strong>Edad</strong></td><td>32 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>Cerro Colorado, Arequipa</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Proveedora de productos orgánicos</td><td><strong>Fecha</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Anita comprendió la propuesta de centralizar catálogo, disponibilidad y seguimiento de pedidos. Valoró los videos, el dashboard, el inventario y la vista de solicitudes para reducir verificaciones repetidas entre Excel y WhatsApp. Pidió aclarar las diferencias entre planes y los roles de registro, filtrar productos por disponibilidad y señalar cuando una solicitud supere el stock. También sugirió conservar el historial de cambios, mostrar pedidos pendientes de despacho y registrar destino y fecha de entrega en las órdenes. La sección de solicitudes le resultó intuitiva, aunque tuvo dudas sobre cambios posteriores a la aceptación. Consideró útil MarketGo para coordinar mejor los pedidos si mantiene actualizados sus datos.</td></tr>
   </tbody>
 </table>
 
