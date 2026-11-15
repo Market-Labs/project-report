@@ -129,6 +129,7 @@ En esta sección se establecen las convenciones de estilo y nomenclatura adoptad
 | Gherkin | [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/) (Cucumber, s. f.) |
 
 Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de la landing page y la plataforma MarketGo, manteniendo nombres claros, consistentes y alineados al producto.
+
 | Elemento                     | Convención             | Ejemplo                                             |
 | :--------------------------- | :--------------------- | :-------------------------------------------------- |
 | Componentes Vue              | PascalCase             | `HomeSection.vue`, `PricingSection.vue`             |
