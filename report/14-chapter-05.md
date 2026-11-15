@@ -1248,3 +1248,4 @@ La figura del Centro de alertas incluida en el problema #4 también muestra los 
 ## 5.4. Video About-the-Product.
 
 En esta sección se presentará el video de MarketGo para mostrar la propuesta de valor, el recorrido por la landing page y las funciones principales de la aplicación web para administradores de minimarkets y proveedores. El enlace y la evidencia del video se incorporarán cuando esté disponible.
+
