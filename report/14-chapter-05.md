@@ -966,13 +966,13 @@ El documento del capítulo III describe contratos **previstos**. Swagger UI mues
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-El frontend y la landing page cuentan con URLs públicas en Vercel. Las capturas de Enzonic muestran la instancia `marketgo-sql` de MySQL 8.4 primero en estado «Durmiendo» y luego «Activa». El panel marca como completados los pasos de conexión de una app y primera consulta. La prueba de `sign-up` se realizó en la API local `localhost:5262`.
+El frontend, la landing page y el backend cuentan con despliegues en Vercel. El panel del backend muestra el despliegue de producción en estado `Ready`, el dominio `marketgo-backend.vercel.app` y el commit `7bd5c1c` de la rama `main`. Las capturas de Enzonic muestran la instancia `marketgo-sql` de MySQL 8.4 primero en estado «Durmiendo» y luego «Activa». El panel marca como completados los pasos de conexión de una app y primera consulta. La prueba de `sign-up` se realizó en la API local `localhost:5262`.
 
 | Componente | Plataforma | URL / configuración de Sprint 3 | Evidencia de publicación | Estado verificado |
 |---|---|---|---|---|
 | Landing page | Vercel | https://landing-page-tawny-gamma-97.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
 | Frontend Web Application | Vercel | https://front-end-tan-kappa-94.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
-| Backend Web Services | Ejecución local con Kestrel | `http://localhost:5262/` | Captura de `POST /api/v1/auth/sign-up` con respuesta `201 Created` | API operativa en entorno local |
+| Backend Web Services | Vercel; ejecución local con Kestrel | https://marketgo-backend.vercel.app/; `http://localhost:5262/` | Panel de producción de Vercel y captura local de `POST /api/v1/auth/sign-up` con respuesta `201 Created` | Despliegue de producción `Ready` desde `main` (`7bd5c1c`) |
 | Base de datos de los Web Services | Enzonic Databases (MySQL 8.4) | Instancia `marketgo-sql` visible en el panel | Capturas de estados «Durmiendo» y «Activa» incluidas debajo | Instancia `marketgo-sql` activa en la nueva captura |
 
 <div align="center">
@@ -983,6 +983,11 @@ El frontend y la landing page cuentan con URLs públicas en Vercel. Las capturas
 <div align="center">
   <img src="assets/chapter-05/sprint3-mysql-enzonic-active.png" alt="Panel de Enzonic Databases con la instancia marketgo-sql activa" width="90%">
   <p><strong>Figura: Instancia MySQL de MarketGo activa en Enzonic Databases.</strong><br><em>Nota. Captura proporcionada por el equipo. El panel muestra `marketgo-sql` en estado «Activa».</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/chapter-05/sprint3-backend-vercel-deployment.png" alt="Panel de despliegue de producción del backend MarketGo en Vercel" width="90%">
+  <p><strong>Figura: Despliegue de producción del backend MarketGo en Vercel.</strong><br><em>El panel muestra el estado Ready, el dominio marketgo-backend.vercel.app y el origen en main, commit 7bd5c1c.</em></p>
 </div>
 
 
