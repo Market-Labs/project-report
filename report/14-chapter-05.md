@@ -405,7 +405,7 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 </p>
 
 <div align="center">
-  <img src="assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
+  <img src="assets/chapter-05/commit-history-sprint1.png" loading="lazy" alt="Commit History Evidence" width="90%">
   <p><em>Figura: Historial de commits demostrando el avance incremental de la landing page de MarketGo.</em></p>
 </div>
 
