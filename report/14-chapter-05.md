@@ -849,7 +849,7 @@ La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026
 | Sprint 2 Retrospective Summary | Para integrar el frontend con servicios propios será necesario acordar contratos de datos, responsabilidades por bounded context y criterios de aceptación verificables antes de reemplazar los adaptadores de demostración. |
 | **Sprint Goal & Technical Stories** |  |
 | **Sprint 3 Goal** | Desarrollar sobre la base compartida del backend los Web Services de inventario, catálogo y productos de proveedores, pedidos de abastecimiento, órdenes de envío y recepción, conservación, alertas y ofertas. El incremento se verificará mediante endpoints implementados, persistencia, pruebas y evidencia de integración con el frontend. |
-| Technical Stories seleccionadas | TS-INV-001, TS-PROD-001, TS-SUP-002, TS-ORD-001, TS-ORD-003, TS-ORD-004, TS-CON-001, TS-CON-002 y TS-MER-001 del Product Backlog del capítulo III. Los IDs y puntos de este cuadro proceden del capítulo III; la captura de Trello muestra la vista general del tablero y su meta de Sprint 3. |
+| Technical Stories seleccionadas | TS-INV-001, TS-PROD-001, TS-SUP-002, TS-ORD-001, TS-ORD-003, TS-ORD-004, TS-CON-001, TS-CON-002 y TS-MER-001 del Product Backlog del capítulo III. El tablero Sprint Backlog 3 agrupa nueve tarjetas en Stories; la estimación de tres puntos por historia se contrasta con el Product Backlog. |
 | Story Points de Technical Stories | **27 Story Points** (nueve historias de 3 puntos cada una), según el Product Backlog del capítulo III. Es una estimación técnica planificada, no un total completado ni el total de todas las tarjetas del tablero. |
 
 La base compartida aportó `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, configuración CORS y OpenAPI/Scalar. Durante el Sprint 3 se integraron en `main` del backend los bounded contexts de Suppliers, Products, Inventory, Requisition, Procurements, Conservation, Communication, Dashboard y Analytics, además de la migración inicial de MySQL y la configuración de despliegue. Swagger UI en `localhost:5262` registró respuestas `201` para el registro IAM y la creación de un proveedor. El panel de Vercel muestra el backend de producción en estado `Ready`, y el panel de Enzonic muestra la instancia `marketgo-sql` activa. Los commits y capturas correspondientes se detallan en 5.2.3.4 a 5.2.3.7.
@@ -870,11 +870,11 @@ Albino Florencio Cáceres Pizarro coordina el Sprint 3 como team leader y prepar
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-La captura muestra la meta «Sprint 3 Goal - Backend MarketGo» y las columnas de seguimiento del tablero Trello. El alcance técnico de Web Services se documenta con las Technical Stories `TS-*` del Product Backlog del capítulo III; sus puntos se suman una sola vez. Las responsabilidades por bounded context se describen en 5.2.3.2.
+La captura muestra la meta «Sprint 3 Goal | Módulos de negocio de MarketGo», nueve tarjetas en Stories y tareas técnicas en Done. Las Technical Stories `TS-*` del Product Backlog del capítulo III se detallan en la tabla siguiente; sus puntos se suman una sola vez. Las responsabilidades por bounded context se describen en 5.2.3.2.
 
 <div align="center">
-  <img src="assets/chapter-05/sprint3-trello-board-backend-goal.png" alt="Tablero Trello Sprint Backlog 3 con meta Backend MarketGo" width="100%">
-  <p><strong>Figura: Vista general del tablero Sprint Backlog 3 con la meta de desarrollo del backend y las columnas de estado.</strong></p>
+  <img src="assets/chapter-05/sprint3-trello-technical-stories.png" alt="Tablero Trello Sprint Backlog 3 con nueve Technical Stories y tareas completadas" width="100%">
+  <p><strong>Figura: Tablero Sprint Backlog 3 con la meta de módulos de negocio, nueve Technical Stories y tareas completadas.</strong></p>
 </div>
 
 | Technical Story | Story Points | Alcance técnico planificado | Responsable(s) propuesto(s) según matriz LACX |
@@ -888,9 +888,7 @@ La captura muestra la meta «Sprint 3 Goal - Backend MarketGo» y las columnas d
 | TS-CON-001 | 3 | Consultar registros de temperatura y humedad para monitorear la conservación. | Andre Sebastian Quispe Almonacid |
 | TS-CON-002 | 3 | Exponer alertas por condiciones de conservación riesgosas. | Andre Sebastian Quispe Almonacid; Alexis Calin Torres Huaman |
 | TS-MER-001 | 3 | Registrar mermas y gestionar información de productos en oferta. | Andre Sebastian Quispe Almonacid |
-| **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** | **Asignación propuesta; pendiente de contrastar con Trello.** |
-
-Las tarjetas de base compartida y de solicitud de información o demo no tienen una Technical Story con ID `TS-*` en el capítulo III. Permanecen en la captura del tablero, pero no se incluyen en los 27 puntos de esta tabla técnica.
+| **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** | **Responsables propuestos según la matriz LACX de 5.2.3.2.** |
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
