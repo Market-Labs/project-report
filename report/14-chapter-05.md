@@ -48,6 +48,7 @@ Se establecen los repositorios oficiales de la solución MarketGo para garantiza
 
 
 #### Repositorios del Proyecto
+<!-- Repositories Table -->
 <table>
   <thead>
     <tr>
