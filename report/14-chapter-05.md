@@ -877,6 +877,11 @@ La captura del Sprint Backlog 3 muestra ocho tarjetas de alcance funcional. Para
   <p><strong>Figura: Tablero Sprint Backlog 3 con la meta y las ocho tarjetas seleccionadas.</strong><br><em>Nota. Captura del tablero Trello de MarketGo.</em></p>
 </div>
 
+<div align="center">
+  <img src="assets/chapter-05/sprint3-board-status-view.png" alt="Vista de columnas de estado del tablero titulado Sprint Backlog 3 de MarketGo" width="90%">
+  <p><strong>Figura: Vista de las columnas de estado del tablero Sprint Backlog 3.</strong><br><em>Nota. Captura de Trello proporcionada por el equipo. Esta vista incluye tarjetas de IAM y dashboard, y una tarjeta rotulada «Sprint Backlog 2»; no acredita por sí sola el avance de las Technical Stories TS-* de la tabla.</em></p>
+</div>
+
 | Technical Story | Story Points | Alcance técnico planificado | Responsable(s) propuesto(s) según matriz LACX |
 |---|---:|---|---|
 | TS-INV-001 | 3 | Listar y registrar productos en el inventario del minimarket. | Andre Sebastian Quispe Almonacid |
@@ -906,37 +911,47 @@ Esta tabla se completará con commits verificables de los repositorios backend y
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Se registrarán capturas y resultados de ejecución únicamente después de probar el incremento. Cada evidencia deberá indicar el entorno, la acción realizada, el resultado observado y el enlace o archivo de respaldo.
+La captura disponible muestra Swagger UI del backend en el entorno local. Permite observar el documento OpenAPI y las rutas listadas, pero no muestra una solicitud ejecutada ni su respuesta. Las pruebas de cada endpoint se registrarán por separado con la acción y el resultado observado.
 
 | Escenario por verificar | Resultado esperado | Resultado observado | Evidencia |
 |---|---|---|---|
 | Inicio de la API y `GET /api/v1/health` | El servicio inicia y responde al control de salud. | Pendiente de ejecución | Pendiente de captura |
-| Documentación OpenAPI/Scalar | El documento muestra solo los endpoints implementados y sus contratos reales. | Pendiente de ejecución | Pendiente de captura |
-| Primer endpoint de negocio | La solicitud válida responde con datos persistidos y la inválida devuelve un error controlado. | Pendiente de implementación y ejecución | Pendiente de captura |
+| Documentación OpenAPI/Swagger | Swagger UI muestra `MarketGo API v1`, `GET /api/v1/health` y rutas de Suppliers en `http://localhost:5262/`. | Catálogo de rutas visible; ejecución de operaciones no evidenciada | Captura de Swagger UI incluida debajo |
+| Primer endpoint de negocio (Suppliers) | Una solicitud válida responde con datos persistidos y una inválida devuelve un error controlado. | Rutas visibles en Swagger; ejecución y respuestas pendientes de verificar | Pendiente de captura de solicitud y respuesta |
 | Integración con el frontend | La aplicación consulta un servicio propio y muestra la respuesta correspondiente. | Pendiente de implementación y ejecución | Pendiente de captura |
+
+<div align="center">
+  <img src="assets/chapter-05/sprint3-swagger-local.png" alt="Swagger UI local de MarketGo API v1 con control de salud y rutas de proveedores" width="90%">
+  <p><strong>Figura: Documentación OpenAPI del backend de MarketGo en Swagger UI local.</strong><br><em>Nota. Captura proporcionada por el equipo. Se observan el servidor localhost:5262, el control de salud y las rutas de Suppliers; no se muestran respuestas de los endpoints.</em></p>
+</div>
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-El documento del capítulo III describe contratos **previstos**; este apartado registrará únicamente los Web Services que se implementen y se comprueben durante Sprint 3. La presencia de una ruta en el Product Backlog no constituye evidencia de que exista en el backend.
+El documento del capítulo III describe contratos **previstos**. La captura de Swagger UI del entorno local muestra rutas de control de salud y de Suppliers publicadas en el documento OpenAPI de MarketGo. Esto acredita la disponibilidad de la documentación local, pero no prueba la ejecución exitosa, la autorización ni la persistencia de cada operación.
 
-| Servicio implementado | Método y ruta comprobados | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
+| Servicio documentado | Método y ruta visibles | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
 |---|---|---|---|---|
-| Control de salud de la base API | `GET /api/v1/health` (definido en `Program.cs`; ejecución pendiente de verificar) | Público; no requiere datos de negocio | Pendiente de prueba | Pendiente |
-| Primer servicio de negocio | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
+| Control de salud de la base API | `GET /api/v1/health` visible en Swagger UI | Público; no requiere datos de negocio | Respuesta no mostrada en la captura | Captura de Swagger UI en 5.2.3.5 |
+| Suppliers | `GET /api/v1/suppliers`, `POST /api/v1/suppliers`, `GET /api/v1/suppliers/{id}` y `PATCH /api/v1/suppliers/{id}` visibles en Swagger UI | La interfaz muestra candados de autorización; datos de solicitud no desplegados | Respuestas y persistencia pendientes de verificar | Captura de Swagger UI en 5.2.3.5 |
 | Servicio de integración frontend | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-El frontend y la landing page ya tienen despliegues documentados en Sprint 2. En este apartado se incorporará la evidencia de la nueva versión de ambos productos y del primer despliegue de Web Services cuando esté disponible. La configuración local de MySQL y el endpoint de salud no demuestran, por sí solos, un backend desplegado.
+El frontend y la landing page cuentan con URLs públicas en Vercel. La captura de Enzonic muestra una instancia `marketgo-sql` de MySQL 8.4 y su estado «Durmiendo». Esta evidencia corresponde al alojamiento de la base de datos; no demuestra que la migración se haya aplicado allí, que la API se conecte a ella ni que los Web Services estén desplegados públicamente.
 
 | Componente | Plataforma | URL / configuración de Sprint 3 | Evidencia de publicación | Estado verificado |
 |---|---|---|---|---|
 | Landing page | Vercel | https://landing-page-tawny-gamma-97.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
 | Frontend Web Application | Vercel | https://front-end-tan-kappa-94.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
 | Backend Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
-| Base de datos de los Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
+| Base de datos de los Web Services | Enzonic Databases (MySQL 8.4) | Instancia `marketgo-sql` visible en el panel | Captura del panel de Enzonic incluida debajo | Instancia visible y en estado «Durmiendo»; conexión y migración pendientes de verificar |
+
+<div align="center">
+  <img src="assets/chapter-05/sprint3-mysql-enzonic.png" alt="Panel de Enzonic Databases con instancia marketgo-sql de MySQL 8.4" width="90%">
+  <p><strong>Figura: Instancia MySQL de MarketGo en Enzonic Databases.</strong><br><em>Nota. Captura proporcionada por el equipo. El panel muestra `marketgo-sql` en estado «Durmiendo»; no acredita la conexión de la API ni la ejecución de migraciones.</em></p>
+</div>
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
