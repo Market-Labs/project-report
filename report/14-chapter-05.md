@@ -1,4 +1,4 @@
-<img width="930" height="399" alt="image" src="https://github.com/user-attachments/assets/608c7753-5802-4e53-b9ef-79f418e795b5" /># Capítulo V: Product Implementation, Validation & Deployment
+Capítulo V: Product Implementation, Validation & Deployment
 
 
 ## 5.1. Software Configuration Management.
