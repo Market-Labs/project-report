@@ -278,6 +278,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
   Resumen de los commits más relevantes en el repositorio de la Landing Page de <strong>MarketGo</strong>, producto desarrollado por <strong>MarketLab</strong>.
 </p>
 
+<!-- Commits Summary Table -->
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
