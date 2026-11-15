@@ -3808,6 +3808,7 @@ La landing page incluye botones de acceso y demostración. La ruta de acceso pre
 #### 5.2.3.1. Spring Planning 3.
 
 La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026 a las 9:00 p. m. El equipo tomó como punto de partida la aplicación web del Sprint 2 y la base compartida del repositorio `Market-Labs/backend`. Se acordó desarrollar Web Services para los módulos de negocio de MarketGo, organizar el trabajo por bounded contexts y comprobar las operaciones desde Swagger UI. Las secciones 5.2.3.4 a 5.2.3.7 presentan el avance posterior a la reunión: commits de implementación, ejecución local de IAM y Suppliers, y evidencias de despliegue del backend y de la instancia MySQL.
+La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026 a las 9:00 p. m. El equipo tomó como base la aplicación web presentada en el Sprint 2 y la estructura compartida del repositorio `Market-Labs/backend`. Se acordó trabajar los módulos de negocio mostrados en el tablero Sprint Backlog 3. La base existente aún requiere compilación y pruebas en un entorno con el SDK de .NET 10; los bounded contexts tienen sus carpetas preparadas, pero todavía no contienen lógica de negocio en la evidencia documentada.
 
 | **Sprint Planning Sprint 3** |  |
 |---|---|
@@ -3825,6 +3826,10 @@ La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026
 | Story Points de Technical Stories | **27 Story Points** (nueve historias de 3 puntos cada una), según el Product Backlog del capítulo III. Es una estimación técnica planificada, no un total completado ni el total de todas las tarjetas del tablero. |
 
 La base compartida aportó `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, configuración CORS y OpenAPI/Scalar. Durante el Sprint 3 se integraron en `main` del backend los bounded contexts de Suppliers, Products, Inventory, Requisition, Procurements, Conservation, Communication, Dashboard y Analytics, además de la migración inicial de MySQL y la configuración de despliegue. Swagger UI en `localhost:5262` registró respuestas `201` para el registro IAM y la creación de un proveedor. El panel de Vercel muestra el backend de producción en estado `Ready`, y el panel de Enzonic muestra la instancia `marketgo-sql` activa. Los commits y capturas correspondientes se detallan en 5.2.3.4 a 5.2.3.7.
+| Technical Stories seleccionadas | TS-INV-001, TS-PROD-001, TS-SUP-002, TS-ORD-001, TS-ORD-003, TS-ORD-004, TS-CON-001, TS-CON-002 y TS-MER-001 del Product Backlog del capítulo III. La captura del tablero muestra la priorización funcional; este cuadro usa únicamente IDs `TS-*`. |
+| Story Points de Technical Stories | **27 Story Points** (nueve historias de 3 puntos cada una), según el Product Backlog del capítulo III. Es una estimación técnica planificada, no un total completado ni el total de todas las tarjetas del tablero. |
+
+La base compartida verificada contiene `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, convenciones de nombres, configuración CORS, OpenAPI/Scalar y `GET /api/v1/health`. En la consulta de ramas realizada para este apartado, el commit `8e71264` estaba en `develop` y en las ramas `feature/...` del backend; `origin/main` apuntaba a una versión anterior. No se presenta la base como compilada ni como un backend de negocio desplegado.
 
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
@@ -3847,6 +3852,11 @@ La captura muestra la meta «Sprint 3 Goal | Módulos de negocio de MarketGo», 
 <div align="center">
   <img src="report/assets/chapter-05/sprint3-trello-technical-stories.png" alt="Tablero Trello Sprint Backlog 3 con nueve Technical Stories y tareas completadas" width="100%">
   <p><strong>Figura: Tablero Sprint Backlog 3 con la meta de módulos de negocio, nueve Technical Stories y tareas completadas.</strong></p>
+La captura del Sprint Backlog 3 muestra ocho tarjetas de alcance funcional. Para documentar el trabajo de Web Services se usan exclusivamente las Technical Stories con ID `TS-*` del Product Backlog del capítulo III. Sus puntos se suman una sola vez, sin volver a sumar las historias de usuario que motivan los servicios. Las responsabilidades por bounded context se describen en 5.2.3.2 y se contrastarán con las asignaciones del tablero.
+
+<div align="center">
+  <img src="report/assets/chapter-05/sprint-backlog-3.png" alt="Tablero Trello Sprint Backlog 3 de MarketGo" width="75%">
+  <p><strong>Figura: Tablero Sprint Backlog 3 con la meta y las ocho tarjetas seleccionadas.</strong><br><em>Nota. Captura del tablero Trello de MarketGo.</em></p>
 </div>
 
 | Technical Story | Story Points | Alcance técnico planificado | Responsable(s) propuesto(s) según matriz LACX |
@@ -3861,6 +3871,9 @@ La captura muestra la meta «Sprint 3 Goal | Módulos de negocio de MarketGo», 
 | TS-CON-002 | 3 | Exponer alertas por condiciones de conservación riesgosas. | Andre Sebastian Quispe Almonacid; Alexis Calin Torres Huaman |
 | TS-MER-001 | 3 | Registrar mermas y gestionar información de productos en oferta. | Andre Sebastian Quispe Almonacid |
 | **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** | **Responsables propuestos según la matriz LACX de 5.2.3.2.** |
+| **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** | **Asignación propuesta; pendiente de contrastar con Trello.** |
+
+Las tarjetas de base compartida y de solicitud de información o demo no tienen una Technical Story con ID `TS-*` en el capítulo III. Permanecen en la captura del tablero, pero no se incluyen en los 27 puntos de esta tabla técnica.
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
@@ -3887,6 +3900,13 @@ La tabla registra los 16 commits sin merge del repositorio `Market-Labs/backend`
 | backend | `origin/main` | [a8ae420](https://github.com/Market-Labs/backend/commit/a8ae42055f1dcc98e97ef725ee9de2a8aeec26d6) | feat(suppliers): add supplier directory bounded context | 14-11-2026 03:18:00 | Bounded context Suppliers para el directorio de proveedores. |
 
 La identidad de autor configurada en estos commits es `Lil Doggy`; el historial no permite atribuir cada cambio a un integrante distinto. Los commits documentan la implementación de los bounded contexts, la migración inicial de MySQL y la preparación del contenedor del backend.
+Esta tabla se completará con commits verificables de los repositorios backend y frontend. La rama indicada deberá corresponder a la referencia donde se compruebe cada commit; la fecha y el mensaje se transcribirán del historial Git. La base compartida se documentará separadamente de los Web Services de negocio cuando se seleccione la evidencia del sprint.
+
+| Repositorio | Rama verificada | Commit Id | Commit Message | Fecha y hora | Funcionalidad evidenciada |
+|---|---|---|---|---|---|
+| Backend | Por registrar | Por registrar | Por registrar | Por registrar | Base compartida y compilación |
+| Backend | Por registrar | Por registrar | Por registrar | Por registrar | Primeros servicios de negocio |
+| Frontend | Por registrar | Por registrar | Por registrar | Por registrar | Integración con los servicios propios |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
@@ -3936,12 +3956,31 @@ El documento del capítulo III describe los contratos previstos. Swagger UI mues
 | Control de salud de la base API | `GET /api/v1/health` visible en Swagger UI | Público; no requiere datos de negocio | Respuesta no mostrada en la captura | Captura de Swagger UI en 5.2.3.5 |
 | Suppliers | `GET /api/v1/suppliers`, `POST /api/v1/suppliers`, `GET /api/v1/suppliers/{id}` y `PATCH /api/v1/suppliers/{id}` visibles en Swagger UI | `POST` con nombre comercial, RUC, correo, teléfono, dirección, especialidad, cobertura e ID de organización proveedora | `POST` respondió `201` con el proveedor creado y estado `active` | Capturas de solicitud y respuesta en 5.2.3.5 |
 | IAM: registro | `POST /api/v1/auth/sign-up` ejecutado en Swagger UI local | Solicitud de tipo `supplier` con nombre, correo, contraseña y aceptación de términos; contraseña oculta en la imagen | `201 Created` con usuario y token; token oculto en la imagen | Capturas de solicitud y respuesta en 5.2.3.5 |
+Se registrarán capturas y resultados de ejecución únicamente después de probar el incremento. Cada evidencia deberá indicar el entorno, la acción realizada, el resultado observado y el enlace o archivo de respaldo.
+
+| Escenario por verificar | Resultado esperado | Resultado observado | Evidencia |
+|---|---|---|---|
+| Inicio de la API y `GET /api/v1/health` | El servicio inicia y responde al control de salud. | Pendiente de ejecución | Pendiente de captura |
+| Documentación OpenAPI/Scalar | El documento muestra solo los endpoints implementados y sus contratos reales. | Pendiente de ejecución | Pendiente de captura |
+| Primer endpoint de negocio | La solicitud válida responde con datos persistidos y la inválida devuelve un error controlado. | Pendiente de implementación y ejecución | Pendiente de captura |
+| Integración con el frontend | La aplicación consulta un servicio propio y muestra la respuesta correspondiente. | Pendiente de implementación y ejecución | Pendiente de captura |
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+El documento del capítulo III describe contratos **previstos**; este apartado registrará únicamente los Web Services que se implementen y se comprueben durante Sprint 3. La presencia de una ruta en el Product Backlog no constituye evidencia de que exista en el backend.
+
+| Servicio implementado | Método y ruta comprobados | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
+|---|---|---|---|---|
+| Control de salud de la base API | `GET /api/v1/health` (definido en `Program.cs`; ejecución pendiente de verificar) | Público; no requiere datos de negocio | Pendiente de prueba | Pendiente |
+| Primer servicio de negocio | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
 | Servicio de integración frontend | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 El frontend, la landing page y el backend cuentan con despliegues en Vercel. El panel del backend muestra el despliegue de producción en estado `Ready`, el dominio `marketgo-backend.vercel.app` y el commit `7bd5c1c` de la rama `main`. Las capturas de Enzonic muestran la instancia `marketgo-sql` de MySQL 8.4 primero en estado «Durmiendo» y luego «Activa». El panel marca como completados los pasos de conexión de una app y primera consulta. La prueba de `sign-up` se realizó en la API local `localhost:5262`.
+El frontend y la landing page ya tienen despliegues documentados en Sprint 2. En este apartado se incorporará la evidencia de la nueva versión de ambos productos y del primer despliegue de Web Services cuando esté disponible. La configuración local de MySQL y el endpoint de salud no demuestran, por sí solos, un backend desplegado.
 
 | Componente | Plataforma | URL / configuración de Sprint 3 | Evidencia de publicación | Estado verificado |
 |---|---|---|---|---|
@@ -3964,6 +4003,8 @@ El frontend, la landing page y el backend cuentan con despliegues en Vercel. El 
   <img src="report/assets/chapter-05/sprint3-backend-vercel-deployment.png" alt="Panel de despliegue de producción del backend MarketGo en Vercel" width="90%">
   <p><strong>Figura: Despliegue de producción del backend MarketGo en Vercel.</strong><br><em>El panel muestra el estado Ready, el dominio marketgo-backend.vercel.app y el origen en main, commit 7bd5c1c.</em></p>
 </div>
+| Backend Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
+| Base de datos de los Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
@@ -4057,6 +4098,13 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
     <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Cargo</strong></td><td>Administrador de minimarket orgánico</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
     <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4" align="center"> <img src="report/assets/chapter-05/interview_roly_.png" alt="Interview evidence" width="40%"></td></tr>
+    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
+    <tr><td><strong>Nombre completo</strong></td><td>Roly Hans Luna</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket orgánico</td></tr>
+    <tr><td><strong>Edad</strong></td><td>28 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Duración</strong></td><td>8:00m</td></tr>
+    <tr><td><strong>Cargo</strong></td><td>Administrador de minimarket orgánico</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQDZBOmLa_eIR4mQ4dPi7ROaAcEHAY0buLgJNTCoFkZAWvA?e=fQLSqG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Roly identificó la utilidad de MarketGo para controlar productos perecibles, existencias y pedidos. Valoró la lectura rápida del dashboard, los lotes y vencimientos, las alertas y el estado de las solicitudes; consideró especialmente importante recibir avisos de conservación y vencimiento en el celular. Solicitó mayor claridad sobre los límites de cada plan y demostraciones de uso móvil. Propuso mostrar condiciones de conservación junto al lote, destacar productos próximos a vencer, informar precios, disponibilidad y tiempos de entrega de proveedores, y contemplar recepciones parciales y correcciones de cantidades. Consideraría usar la aplicación si mantiene una experiencia cómoda desde el teléfono y reduce el trabajo manual con Excel y WhatsApp.</td></tr>
   </tbody>
 </table>
@@ -4113,6 +4161,7 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
     <tr><td><strong>Ubicación</strong></td><td>Cerro Colorado, Arequipa</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Cargo</strong></td><td>Proveedora de productos orgánicos</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
     <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong>https://youtu.be/L14E6LWej44</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Anita comprendió la propuesta de centralizar catálogo, disponibilidad y seguimiento de pedidos. Valoró los videos, el dashboard, el inventario y la vista de solicitudes para reducir verificaciones repetidas entre Excel y WhatsApp. Pidió aclarar las diferencias entre planes y los roles de registro, filtrar productos por disponibilidad y señalar cuando una solicitud supere el stock. También sugirió conservar el historial de cambios, mostrar pedidos pendientes de despacho y registrar destino y fecha de entrega en las órdenes. La sección de solicitudes le resultó intuitiva, aunque tuvo dudas sobre cambios posteriores a la aceptación. Consideró útil MarketGo para coordinar mejor los pedidos si mantiene actualizados sus datos.</td></tr>
   </tbody>
 </table>
