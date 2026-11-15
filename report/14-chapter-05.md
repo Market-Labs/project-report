@@ -873,7 +873,7 @@ Albino Florencio Cáceres Pizarro coordina el Sprint 3 como team leader y prepar
 La captura muestra las columnas y tarjetas del tablero Trello titulado Sprint Backlog 3. El alcance técnico de Web Services se documenta con las Technical Stories `TS-*` del Product Backlog del capítulo III. Sus puntos se suman una sola vez. Las responsabilidades por bounded context se describen en 5.2.3.2.
 
 <div align="center">
-  <img src="assets/chapter-05/sprint-backlog-3.png" alt="Vista general del tablero Trello Sprint Backlog 3 de MarketGo" width="90%">
+  <img src="assets/chapter-05/sprint3-trello-board-overview.png" alt="Vista general del tablero Trello Sprint Backlog 3 de MarketGo" width="100%">
   <p><strong>Figura: Vista general del tablero Sprint Backlog 3 y sus columnas de estado.</strong></p>
 </div>
 
