@@ -166,6 +166,7 @@ El despliegue de la landing page se documenta mediante la siguiente URL de Azure
 ### 5.2.1. Sprint 1.
 
 
+<!-- 5.2.1.1 Planning -->
 #### 5.2.1.1. Sprint Planning 1.
 
 | **Sprint Planning Sprint 1** |  |
