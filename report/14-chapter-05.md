@@ -1,4 +1,4 @@
-# Capítulo V: Product Implementation, Validation & Deployment
+<img width="930" height="399" alt="image" src="https://github.com/user-attachments/assets/608c7753-5802-4e53-b9ef-79f418e795b5" /># Capítulo V: Product Implementation, Validation & Deployment
 
 
 ## 5.1. Software Configuration Management.
@@ -1078,7 +1078,7 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr><td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td></tr>
-    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="4" align="center"><img src="./report/assets/chapter-05/evidencias-heuristicas/Interview-Roly.png" alt="Entrevista N.° 2 - Roly Hans Luna" width="600"></td></tr>
     <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
     <tr><td><strong>Nombre completo</strong></td><td>Roly Hans Luna</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket orgánico</td></tr>
     <tr><td><strong>Edad</strong></td><td>28 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
