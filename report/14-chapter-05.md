@@ -5,6 +5,7 @@
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **Market-Labs** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **MarketGo**. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue orientada a la nube.
 
+
 ### 5.1.1. Software Development Environment Configuration.
 
 Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de MarketGo.
@@ -32,6 +33,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 * **Swagger / OpenAPI:** Generación de documentación interactiva para que el equipo de Frontend pueda consumir los servicios de pedidos y proveedores de forma eficiente.
 
 ---
+
 ### 5.1.2. Source Code Management.
 
 Se establecen los repositorios oficiales de la solución MarketGo para garantizar la integridad del código fuente.
@@ -96,6 +98,7 @@ Ejemplos:
 - `refactor(landing): align Vue sections with mockups`
 - `docs(readme): update GitFlow workflow`
 
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto MarketGo: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio de inventario y abastecimiento.
@@ -127,6 +130,7 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 * Las llaves de apertura en C# se colocan en una nueva línea (Estilo Allman), mientras que en TS/JS van en la misma línea (Estilo K&R).
 
 ---
+
 ### 5.1.4. Software Deployment Configuration.
 
 Se especifica la configuración de despliegue para los entornos de MarketGo, garantizando alta disponibilidad para usuarios de la plataforma.
@@ -136,6 +140,7 @@ El despliegue de la landing page se documenta mediante la siguiente URL de Azure
 * **URL:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
 
 ## 5.2. Landing Page, Services & Applications Implementation.
+
 
 ### 5.2.1. Sprint 1.
 
@@ -370,6 +375,7 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
   <img src="assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph" width="90%">
   <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo MarketLab.</em></p>
 </div>
+
 
 ### 5.2.2. Sprint 2
 
@@ -793,6 +799,7 @@ La landing page enlaza al inicio de sesión del frontend desde sus botones de ac
   </li>
 </ul>
 
+
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Spring Planning 3.
@@ -910,6 +917,7 @@ La matriz de líderes anterior expresa una distribución planificada. Los result
 
 Las entrevistas de validación permitieron recoger las opiniones de administradores de minimarkets y proveedores de productos orgánicos después de interactuar con la landing page y la aplicación web de MarketGo. Sus respuestas se resumen en 5.3.2. La evaluación heurística de la interfaz se documenta por separado en 5.3.3, con el formato indicado en el statement del proyecto.
 
+
 ### 5.3.1. Diseño de Entrevistas.
 
 | Elemento | Diseño de la validación |
@@ -954,6 +962,7 @@ Las entrevistas de validación permitieron recoger las opiniones de administrado
 10. Al preparar una orden de envío, ¿la aplicación mostró los datos que necesitarías para coordinar el despacho?
 11. Después de probar la aplicación, ¿qué tan fácil te resultó usarla? ¿Qué partes te parecieron intuitivas y cuáles te generaron dudas?
 12. Después de probar MarketGo, ¿la usarías para gestionar las solicitudes y pedidos de tus clientes? ¿Por qué?
+
 
 ### 5.3.2. Registro de Entrevistas.
 
@@ -1042,6 +1051,7 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
     <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Anita comprendió la propuesta de centralizar catálogo, disponibilidad y seguimiento de pedidos. Valoró los videos, el dashboard, el inventario y la vista de solicitudes para reducir verificaciones repetidas entre Excel y WhatsApp. Pidió aclarar las diferencias entre planes y los roles de registro, filtrar productos por disponibilidad y señalar cuando una solicitud supere el stock. También sugirió conservar el historial de cambios, mostrar pedidos pendientes de despacho y registrar destino y fecha de entrega en las órdenes. La sección de solicitudes le resultó intuitiva, aunque tuvo dudas sobre cambios posteriores a la aceptación. Consideró útil MarketGo para coordinar mejor los pedidos si mantiene actualizados sus datos.</td></tr>
   </tbody>
 </table>
+
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
