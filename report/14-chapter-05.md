@@ -271,6 +271,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 | **US00** | GitFlow Setup | T007 | Configuración de ramas y commits | Organización de ramas feature, integración en develop y actualización de main aplicando Conventional Commits. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 
 
+<!-- 5.2.1.4 Dev Evidence -->
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
