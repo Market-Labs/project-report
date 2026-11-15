@@ -870,16 +870,11 @@ Albino Florencio Cáceres Pizarro coordina el Sprint 3 como team leader y prepar
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-La captura del Sprint Backlog 3 muestra ocho tarjetas de alcance funcional. Para documentar el trabajo de Web Services se usan exclusivamente las Technical Stories con ID `TS-*` del Product Backlog del capítulo III. Sus puntos se suman una sola vez, sin volver a sumar las historias de usuario que motivan los servicios. Las responsabilidades por bounded context se describen en 5.2.3.2 y se contrastarán con las asignaciones del tablero.
+La captura muestra las columnas y tarjetas del tablero Trello titulado Sprint Backlog 3. El alcance técnico de Web Services se documenta con las Technical Stories `TS-*` del Product Backlog del capítulo III. Sus puntos se suman una sola vez. Las responsabilidades por bounded context se describen en 5.2.3.2.
 
 <div align="center">
-  <img src="assets/chapter-05/sprint-backlog-3.png" alt="Tablero Trello Sprint Backlog 3 de MarketGo" width="75%">
-  <p><strong>Figura: Tablero Sprint Backlog 3 con la meta y las ocho tarjetas seleccionadas.</strong><br><em>Nota. Captura del tablero Trello de MarketGo.</em></p>
-</div>
-
-<div align="center">
-  <img src="assets/chapter-05/sprint3-board-status-view.png" alt="Vista de columnas de estado del tablero titulado Sprint Backlog 3 de MarketGo" width="90%">
-  <p><strong>Figura: Vista de las columnas de estado del tablero Sprint Backlog 3.</strong><br><em>Nota. Captura de Trello proporcionada por el equipo. Esta vista incluye tarjetas de IAM y dashboard, y una tarjeta rotulada «Sprint Backlog 2»; no acredita por sí sola el avance de las Technical Stories TS-* de la tabla.</em></p>
+  <img src="assets/chapter-05/sprint-backlog-3.png" alt="Vista general del tablero Trello Sprint Backlog 3 de MarketGo" width="90%">
+  <p><strong>Figura: Vista general del tablero Sprint Backlog 3 y sus columnas de estado.</strong></p>
 </div>
 
 | Technical Story | Story Points | Alcance técnico planificado | Responsable(s) propuesto(s) según matriz LACX |
