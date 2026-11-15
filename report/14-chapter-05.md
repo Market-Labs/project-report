@@ -41,6 +41,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 
 ---
 
+<!-- Subsection 5.1.2 -->
 ### 5.1.2. Source Code Management.
 
 Se establecen los repositorios oficiales de la solución MarketGo para garantizar la integridad del código fuente.
