@@ -3391,9 +3391,9 @@ La planificación del Sprint 2 se centró en definir el primer incremento del fr
 | Sprint 1 Retrospective Summary | La documentación del Sprint 1 muestra trabajo incremental mediante ramas feature, commits convencionales y colaboración en diseño, contenido y despliegue. Para el Sprint 2 se propone reforzar la coordinación entre quienes implementan las pantallas, la navegación por roles y la integración visual, y revisar temprano la experiencia responsive antes de la Sprint Review. |
 | **Sprint Goal & User Stories** |  |
 | **Sprint 2 Goal** | Our focus is on developing and deploying the first navigable version of the MarketGo frontend web application for minimarket administrators and organic product suppliers. The sprint will translate the approved UX/UI designs into responsive screens, clear navigation for each role, and representative flows for the platform's core operations.<br><br>We believe this will give both user groups a concrete interface for exploring MarketGo's daily workflows and will let the team validate the usability and consistency of the frontend before expanding its integration with services.<br><br>This will be confirmed when the first frontend version is accessible in a deployed environment, its principal screens work on desktop and mobile, and the planned navigation and interaction flows can be demonstrated during the Sprint Review. |
-| User Stories del tablero con puntos definidos | US-026 Registrar usuario (3 SP); US-027 Inicio de sesión (3 SP); US-028 Gestionar permisos por rol (5 SP); US-029 Controlar acceso según operación (5 SP); US-030 Dashboard general (5 SP). US-033 figura en Trello, pero no está estimada en el Product Backlog del capítulo 3. |
+| User Stories del tablero con puntos definidos | US-026 Registrar usuario (3 SP); US-027 Inicio de sesión (3 SP); US-028 Gestionar permisos por rol (5 SP); US-029 Controlar acceso según operación (5 SP); US-030 Dashboard general (5 SP). |
 | Velocidad de referencia (Sprint 1) | 14 Story Points; se usa como antecedente, no como velocidad lograda en Sprint 2. |
-| Sum of Story Points | 21 Story Points (3 + 3 + 5 + 5 + 5) para las cinco historias del tablero que tienen estimación en el capítulo 3. US-033 queda pendiente de incorporación y estimación en el Product Backlog. |
+| Sum of Story Points | 21 Story Points (3 + 3 + 5 + 5 + 5) para las cinco historias del tablero con estimación en el capítulo 3. |
 
 **Repositorio Landing Page:** https://github.com/Market-Labs/landign-page.git
 
@@ -3807,7 +3807,7 @@ La landing page incluye botones de acceso y demostración. La ruta de acceso pre
 
 #### 5.2.3.1. Spring Planning 3.
 
-La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026 a las 9:00 p. m. El equipo tomó como base la aplicación web presentada en el Sprint 2 y la estructura compartida del repositorio `Market-Labs/backend`. Se acordó trabajar los módulos de negocio mostrados en el tablero Sprint Backlog 3. La base existente aún requiere compilación y pruebas en un entorno con el SDK de .NET 10; los bounded contexts tienen sus carpetas preparadas, pero todavía no contienen lógica de negocio en la evidencia documentada.
+La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026 a las 9:00 p. m. El equipo tomó como punto de partida la aplicación web del Sprint 2 y la base compartida del repositorio `Market-Labs/backend`. Se acordó desarrollar Web Services para los módulos de negocio de MarketGo, organizar el trabajo por bounded contexts y comprobar las operaciones desde Swagger UI. Las secciones 5.2.3.4 a 5.2.3.7 presentan el avance posterior a la reunión: commits de implementación, ejecución local de IAM y Suppliers, y evidencias de despliegue del backend y de la instancia MySQL.
 
 | **Sprint Planning Sprint 3** |  |
 |---|---|
@@ -3821,10 +3821,10 @@ La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026
 | Sprint 2 Retrospective Summary | Para integrar el frontend con servicios propios será necesario acordar contratos de datos, responsabilidades por bounded context y criterios de aceptación verificables antes de reemplazar los adaptadores de demostración. |
 | **Sprint Goal & Technical Stories** |  |
 | **Sprint 3 Goal** | Desarrollar sobre la base compartida del backend los Web Services de inventario, catálogo y productos de proveedores, pedidos de abastecimiento, órdenes de envío y recepción, conservación, alertas y ofertas. El incremento se verificará mediante endpoints implementados, persistencia, pruebas y evidencia de integración con el frontend. |
-| Technical Stories seleccionadas | TS-INV-001, TS-PROD-001, TS-SUP-002, TS-ORD-001, TS-ORD-003, TS-ORD-004, TS-CON-001, TS-CON-002 y TS-MER-001 del Product Backlog del capítulo III. La captura del tablero muestra la priorización funcional; este cuadro usa únicamente IDs `TS-*`. |
+| Technical Stories seleccionadas | TS-INV-001, TS-PROD-001, TS-SUP-002, TS-ORD-001, TS-ORD-003, TS-ORD-004, TS-CON-001, TS-CON-002 y TS-MER-001 del Product Backlog del capítulo III. Los IDs y puntos de este cuadro proceden del capítulo III; la captura de Trello muestra la vista general del tablero y su meta de Sprint 3. |
 | Story Points de Technical Stories | **27 Story Points** (nueve historias de 3 puntos cada una), según el Product Backlog del capítulo III. Es una estimación técnica planificada, no un total completado ni el total de todas las tarjetas del tablero. |
 
-La base compartida verificada contiene `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, convenciones de nombres, configuración CORS, OpenAPI/Scalar y `GET /api/v1/health`. En la consulta de ramas realizada para este apartado, el commit `8e71264` estaba en `develop` y en las ramas `feature/...` del backend; `origin/main` apuntaba a una versión anterior. No se presenta la base como compilada ni como un backend de negocio desplegado.
+La base compartida aportó `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, configuración CORS y OpenAPI/Scalar. Durante el Sprint 3 se integraron en `main` del backend los bounded contexts de Suppliers, Products, Inventory, Requisition, Procurements, Conservation, Communication, Dashboard y Analytics, además de la migración inicial de MySQL y la configuración de despliegue. Swagger UI en `localhost:5262` registró respuestas `201` para el registro IAM y la creación de un proveedor. El panel de Vercel muestra el backend de producción en estado `Ready`, y el panel de Enzonic muestra la instancia `marketgo-sql` activa. Los commits y capturas correspondientes se detallan en 5.2.3.4 a 5.2.3.7.
 
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
@@ -3842,11 +3842,11 @@ Albino Florencio Cáceres Pizarro coordina el Sprint 3 como team leader y prepar
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-La captura muestra las columnas y tarjetas del tablero Trello titulado Sprint Backlog 3. El alcance técnico de Web Services se documenta con las Technical Stories `TS-*` del Product Backlog del capítulo III. Sus puntos se suman una sola vez. Las responsabilidades por bounded context se describen en 5.2.3.2.
+La captura muestra la meta «Sprint 3 Goal - Backend MarketGo» y las columnas de seguimiento del tablero Trello. El alcance técnico de Web Services se documenta con las Technical Stories `TS-*` del Product Backlog del capítulo III; sus puntos se suman una sola vez. Las responsabilidades por bounded context se describen en 5.2.3.2.
 
 <div align="center">
-  <img src="report/assets/chapter-05/sprint3-trello-board-overview.png" alt="Vista general del tablero Trello Sprint Backlog 3 de MarketGo" width="100%">
-  <p><strong>Figura: Vista general del tablero Sprint Backlog 3 y sus columnas de estado.</strong></p>
+  <img src="report/assets/chapter-05/sprint3-trello-board-backend-goal.png" alt="Tablero Trello Sprint Backlog 3 con meta Backend MarketGo" width="100%">
+  <p><strong>Figura: Vista general del tablero Sprint Backlog 3 con la meta de desarrollo del backend y las columnas de estado.</strong></p>
 </div>
 
 | Technical Story | Story Points | Alcance técnico planificado | Responsable(s) propuesto(s) según matriz LACX |
