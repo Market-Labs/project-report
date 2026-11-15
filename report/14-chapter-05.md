@@ -162,6 +162,7 @@ El despliegue de la landing page se documenta mediante la siguiente URL de Azure
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 
+<!-- Subsection 5.2.1: Sprint 1 -->
 ### 5.2.1. Sprint 1.
 
 
