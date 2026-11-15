@@ -369,7 +369,7 @@ Se desarrolló la sección de planes comerciales, presentando las alternativas *
 Se implementó la sección de contacto, incluyendo información de correo, WhatsApp, horario de atención y un formulario para que los minimarkets interesados puedan solicitar más información o agendar una demostración. Esta sección cumple el objetivo de facilitar la comunicación directa con el equipo de **MarketLab**.
 
 <div align="center">
-  <img src="assets/chapter-05/execution-contact.png" alt="Contact Section Evidence" width="90%">
+  <img src="assets/chapter-05/execution-contact.png" loading="lazy" alt="Contact Section Evidence" width="90%">
   <p><em>Figura: Sección de contacto para solicitar información sobre MarketGo.</em></p>
 </div>
 
