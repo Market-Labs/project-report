@@ -959,13 +959,13 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr><td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td></tr>
-    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="4" align="center"><img src="assets/chapter-05/interview_rodrigo.png" alt="Captura de la entrevista de validación con Rodrigo Guevara" width="40%"></td></tr>
     <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
     <tr><td><strong>Nombre completo</strong></td><td>Rodrigo Guevara</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket</td></tr>
     <tr><td><strong>Edad</strong></td><td>26 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>José Leonardo Ortiz, Chiclayo, Lambayeque</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>José Leonardo Ortiz, Chiclayo, Lambayeque</td><td><strong>Duración</strong></td><td>7 min 17 s (00:07:17)</td></tr>
     <tr><td><strong>Cargo</strong></td><td>Administrador general</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
-    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g152_upc_edu_pe/IQBMeKKBPStQTLnZa0tYsur2AVNLA_lj9zCQaGlynYErxkA?e=7EjUeM">Entrevista de validación con Rodrigo Guevara</a></td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Rodrigo comprendió la propuesta de centralizar inventario y pedidos y encontró claro el acceso desde la landing page. Los videos, el dashboard, la información de lotes y vencimientos, el directorio de proveedores y el seguimiento de solicitudes le resultaron útiles para reducir las revisiones manuales y la dispersión entre Excel, POS, libreta y WhatsApp. Señaló que convendría explicar mejor qué funciones incluye cada plan, mostrar cómo registrar un producto, añadir la fecha de ingreso de cada lote y ordenar las alertas por prioridad. También pidió acceso directo desde los indicadores, tiempos de entrega de proveedores y avisos cuando cambie el estado de una solicitud. Le tomó tiempo distinguir entre solicitudes y envíos; indicó que usaría la plataforma para gestionar inventario y abastecimiento.</td></tr>
   </tbody>
 </table>
