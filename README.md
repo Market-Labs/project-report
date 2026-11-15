@@ -3120,9 +3120,9 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 Se especifica la configuración de despliegue para los entornos de MarketGo, garantizando alta disponibilidad para usuarios de la plataforma.
 
 
-#### Landing Page - Azure
-El despliegue de la landing page se documenta mediante la siguiente URL de Azure Static Web Apps (Microsoft, 2024).
-* **URL:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
+#### Landing Page - Vercel
+La URL pública vigente de la landing page, proporcionada por el equipo el 15-11-2026, es la siguiente:
+* **URL:** https://landing-page-tawny-gamma-97.vercel.app/
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
@@ -3340,9 +3340,9 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
-  <strong>URL de Producción:</strong>
-  <a href="https://agreeable-meadow-0a900b010.3.azurestaticapps.net/">
-    https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
+  <strong>URL vigente de producción:</strong>
+  <a href="https://landing-page-tawny-gamma-97.vercel.app/">
+    https://landing-page-tawny-gamma-97.vercel.app/
   </a>
 </p>
 
@@ -3660,7 +3660,7 @@ El frontend de MarketGo está desarrollado con Vue 3, Vite y Pinia. El repositor
 | Entorno | Servicio de datos | Evidencia en el repositorio |
 |---|---|---|
 | Desarrollo local | <code>json-server</code> expone una fake API HTTP en <code>http://localhost:3000</code> al ejecutar <code>npm run dev:mock</code>. | <code>server/db.json</code>, <code>server/routes.json</code> y <code>server/README.md</code>. |
-| Frontend publicado en Azure | Firebase Authentication gestiona el inicio de sesión y Cloud Firestore almacena los datos de demostración. La app se compila con <code>VITE_DATA_SOURCE=firebase</code> y usa el SDK de Firebase y un adaptador de Firestore. | <code>firebase.json</code>, <code>src/shared/infrastructure/firebase-client.js</code>, adaptadores de los bounded contexts y el workflow de Azure Static Web Apps. |
+| Frontend publicado en Vercel | Firebase Authentication gestiona el inicio de sesión y Cloud Firestore almacena los datos de demostración. La app se compila con <code>VITE_DATA_SOURCE=firebase</code> y usa el SDK de Firebase y un adaptador de Firestore. | <code>firebase.json</code>, <code>src/shared/infrastructure/firebase-client.js</code>, adaptadores de los bounded contexts. |
 
 La siguiente tabla resume rutas comprobables de la fake API <strong>local</strong>. Son rutas del servidor de prueba; Firebase no publica estas rutas HTTP. Los contratos futuros de ASP.NET Core/C# descritos en el capítulo 3 no constituyen evidencia de un backend desplegado en este sprint.
 
@@ -3679,23 +3679,23 @@ En el entorno publicado, las operaciones equivalentes se realizan mediante Fireb
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-El Frontend Web Application de MarketGo se aloja en Azure Static Web Apps y utiliza Firebase Authentication y Cloud Firestore como servicios de datos de demostración. La aplicación es una SPA de Vue 3, Vite, Pinia y Vue Router. La fake API de <code>json-server</code> se ejecuta solo en desarrollo local; no es el servicio publicado en Azure ni un servidor alojado en Firebase.
+El Frontend Web Application de MarketGo se aloja actualmente en Vercel y utiliza Firebase Authentication y Cloud Firestore como servicios de datos de demostración. La aplicación es una SPA de Vue 3, Vite, Pinia y Vue Router. La fake API de <code>json-server</code> se ejecuta solo en desarrollo local; no es el servicio publicado en Vercel ni un servidor alojado en Firebase.
 
 | Componente | Configuración comprobada | Propósito |
 |---|---|---|
-| Frontend | El workflow <code>.github/workflows/azure-static-web-apps-ambitious-field-08f658810.yml</code> del repositorio <code>front-end</code> se ejecuta al hacer push a <code>main</code>, usa Azure Static Web Apps y publica la salida <code>dist</code>. | Alojar la interfaz web de MarketGo en Azure. |
-| Datos de demostración | El workflow establece <code>VITE_DATA_SOURCE=firebase</code>; el cliente inicializa Firebase Authentication y Cloud Firestore para el proyecto <code>marketgo-d9c75</code>. | Autenticar usuarios y persistir los datos mostrados por el frontend desplegado. |
+| Frontend | URL pública vigente proporcionada por el equipo: <code>https://front-end-tan-kappa-94.vercel.app/</code>. | Alojar la interfaz web de MarketGo en Vercel. |
+| Datos de demostración | El cliente utiliza <code>VITE_DATA_SOURCE=firebase</code> e inicializa Firebase Authentication y Cloud Firestore para el proyecto <code>marketgo-d9c75</code>. | Autenticar usuarios y persistir los datos mostrados por el frontend desplegado. |
 | Frontend local | <code>npm run dev</code> o <code>npm run dev:firebase</code> sirven la interfaz con Vite en <code>http://localhost:5173/</code>. | Revisar la aplicación desde el navegador durante el desarrollo. |
 | Fake API local | <code>npm run dev:mock</code> inicia Vite en <code>http://localhost:5173/</code> y <code>json-server</code> en <code>http://localhost:3000</code>. | Probar la interfaz y los contratos HTTP sin el entorno publicado. |
 
-El repositorio contiene además reglas de Firestore en <code>firestore.rules</code> y la configuración <code>firebase.json</code>. El workflow usa un secreto de GitHub para el token de Azure; su valor y el resultado de cada ejecución no pueden verificarse a partir de los archivos locales.
+El repositorio contiene además reglas de Firestore en <code>firestore.rules</code> y la configuración <code>firebase.json</code>. El despliegue anterior en Azure utilizaba un secreto de GitHub; esta referencia se conserva como antecedente del Sprint 2 y no describe el alojamiento vigente.
 
-**URLs públicas del proyecto (comprobadas con respuesta HTTP 200 el 09-10-2026):**
+**URLs públicas vigentes proporcionadas por el equipo el 15-11-2026 (sin verificación HTTP en esta actualización):**
 
-- **Frontend Web Application:** https://ambitious-field-08f658810.2.azurestaticapps.net/
-- **Landing page:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
+- **Frontend Web Application:** https://front-end-tan-kappa-94.vercel.app/
+- **Landing page:** https://landing-page-tawny-gamma-97.vercel.app/
 
-La landing page enlaza al inicio de sesión del frontend desde sus botones de acceso y demostración. El código de <code>HomeSection.vue</code> y <code>TheHeader.vue</code> usa la URL del frontend con la ruta <code>/login?redirect=/home</code>. Para completar la evidencia visual del despliegue queda por adjuntar una captura o enlace de la ejecución correcta del workflow de Azure y, si se requiere, una captura de la configuración de Firebase.
+La landing page incluye botones de acceso y demostración. La ruta de acceso prevista al frontend es <code>/login?redirect=/home</code>. Queda por verificar que esos botones apunten al dominio vigente de Vercel y por adjuntar evidencias del nuevo despliegue.
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
@@ -3905,8 +3905,8 @@ El frontend y la landing page ya tienen despliegues documentados en Sprint 2. En
 
 | Componente | Plataforma | URL / configuración de Sprint 3 | Evidencia de publicación | Estado verificado |
 |---|---|---|---|---|
-| Landing page | Azure Static Web Apps | Pendiente de revalidar URL y versión | Pendiente de captura o ejecución del workflow | Pendiente |
-| Frontend Web Application | Azure Static Web Apps | Pendiente de revalidar URL y versión | Pendiente de captura o ejecución del workflow | Pendiente |
+| Landing page | Vercel | https://landing-page-tawny-gamma-97.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
+| Frontend Web Application | Vercel | https://front-end-tan-kappa-94.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
 | Backend Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
 | Base de datos de los Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
 
@@ -4083,7 +4083,7 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
 
 #### Sitio o aplicación a evaluar
 
-**MarketGo**, sistema web para la gestión de productos orgánicos: [ambitious-field-08f658810.2.azurestaticapps.net](https://ambitious-field-08f658810.2.azurestaticapps.net/home). La revisión se realizó con una cuenta de administrador proporcionada para esta evaluación. No se incluyen credenciales en este informe.
+**MarketGo**, sistema web para la gestión de productos orgánicos: [front-end-tan-kappa-94.vercel.app](https://front-end-tan-kappa-94.vercel.app/home). La revisión se realizó con una cuenta de administrador proporcionada para esta evaluación. No se incluyen credenciales en este informe.
 
 
 #### Tareas a evaluar
@@ -4135,7 +4135,7 @@ No se incluyen en esta versión las siguientes tareas:
 **Severidad:** 2
 **Principio vulnerado:** Arquitectura de información — ¿es encontrable? y ¿es comprensible?
 
-**Problema.** En [Productos](https://ambitious-field-08f658810.2.azurestaticapps.net/products), el producto **“Brocoli”** con código **FRT-00003** aparece bajo la categoría **FRUTAS**, mientras **“Brocoli orgánico”** aparece en **VEGETALES**. Esta clasificación contradictoria dificulta localizar y comparar productos de la misma familia y puede inducir errores al organizar el catálogo.
+**Problema.** En [Productos](https://front-end-tan-kappa-94.vercel.app/products), el producto **“Brocoli”** con código **FRT-00003** aparece bajo la categoría **FRUTAS**, mientras **“Brocoli orgánico”** aparece en **VEGETALES**. Esta clasificación contradictoria dificulta localizar y comparar productos de la misma familia y puede inducir errores al organizar el catálogo.
 
 **Captura:** catálogo de Productos.
 
@@ -4151,7 +4151,7 @@ No se incluyen en esta versión las siguientes tareas:
 **Severidad:** 2
 **Principio vulnerado:** Arquitectura de información — ¿es usable?; usabilidad — reconocimiento antes que recuerdo.
 
-**Problema.** En [Abastecimiento](https://ambitious-field-08f658810.2.azurestaticapps.net/requisition), la columna “Solicitud” mezcla identificadores breves como **req-1** con otros de longitud UUID, como **req-0ac09682-9dbd-4b9d-b0a0-52818478338e**. Los identificadores largos ocupan gran parte de la fila y son difíciles de recordar, comparar o comunicar verbalmente. La tabla no muestra una referencia corta equivalente para esas solicitudes.
+**Problema.** En [Abastecimiento](https://front-end-tan-kappa-94.vercel.app/requisition), la columna “Solicitud” mezcla identificadores breves como **req-1** con otros de longitud UUID, como **req-0ac09682-9dbd-4b9d-b0a0-52818478338e**. Los identificadores largos ocupan gran parte de la fila y son difíciles de recordar, comparar o comunicar verbalmente. La tabla no muestra una referencia corta equivalente para esas solicitudes.
 
 **Captura:** tabla de Abastecimiento.
 
@@ -4167,7 +4167,7 @@ No se incluyen en esta versión las siguientes tareas:
 **Severidad:** 2
 **Heurística vulnerada:** Usabilidad — visibilidad del estado del sistema; ayuda y documentación.
 
-**Problema.** El [Dashboard](https://ambitious-field-08f658810.2.azurestaticapps.net/home) destaca **“87 % estado general”**, pero no indica qué dimensiones, período ni fórmula componen ese porcentaje. Un administrador no puede interpretar si representa inventario, abastecimiento, conservación o una combinación de ellos, ni entender qué acción lo mejoraría.
+**Problema.** El [Dashboard](https://front-end-tan-kappa-94.vercel.app/home) destaca **“87 % estado general”**, pero no indica qué dimensiones, período ni fórmula componen ese porcentaje. Un administrador no puede interpretar si representa inventario, abastecimiento, conservación o una combinación de ellos, ni entender qué acción lo mejoraría.
 
 **Captura:** indicador de estado general.
 
@@ -4183,7 +4183,7 @@ No se incluyen en esta versión las siguientes tareas:
 **Severidad:** 2
 **Principio vulnerado:** Diseño inclusivo — proporcionar experiencias comparables.
 
-**Problema.** En el [Centro de alertas](https://ambitious-field-08f658810.2.azurestaticapps.net/communication), cada tarjeta contiene un botón representado visualmente por una estrella. En el árbol de accesibilidad, estos botones se exponen solo con el glifo del icono, sin un nombre que indique la acción. Esto obliga a quien utiliza un lector de pantalla a adivinar la función de un control secundario. La captura ilustra la ubicación de los botones; la falta de nombre se verificó en la representación de accesibilidad del navegador.
+**Problema.** En el [Centro de alertas](https://front-end-tan-kappa-94.vercel.app/communication), cada tarjeta contiene un botón representado visualmente por una estrella. En el árbol de accesibilidad, estos botones se exponen solo con el glifo del icono, sin un nombre que indique la acción. Esto obliga a quien utiliza un lector de pantalla a adivinar la función de un control secundario. La captura ilustra la ubicación de los botones; la falta de nombre se verificó en la representación de accesibilidad del navegador.
 
 **Captura:** botones de estrella de Alertas.
 
@@ -4199,7 +4199,7 @@ No se incluyen en esta versión las siguientes tareas:
 **Severidad:** 2
 **Heurística vulnerada:** Usabilidad — consistencia y estándares.
 
-**Problema.** En el mismo [Centro de alertas](https://ambitious-field-08f658810.2.azurestaticapps.net/communication), las alertas antiguas muestran fechas como **2026-09-18 09:35**, mientras las de vencimiento muestran **9/11/2026, 12:46:40 p. m.**. La mezcla de formato ISO y fecha numérica local dificulta comparar la cronología y puede volver ambiguo el orden día/mes para lectores de distintas regiones.
+**Problema.** En el mismo [Centro de alertas](https://front-end-tan-kappa-94.vercel.app/communication), las alertas antiguas muestran fechas como **2026-09-18 09:35**, mientras las de vencimiento muestran **9/11/2026, 12:46:40 p. m.**. La mezcla de formato ISO y fecha numérica local dificulta comparar la cronología y puede volver ambiguo el orden día/mes para lectores de distintas regiones.
 
 **Captura:** fechas del Centro de alertas.
 
