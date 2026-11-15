@@ -921,14 +921,14 @@ La identidad de autor configurada en estos commits es `Lil Doggy`; el historial 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Las capturas muestran Swagger UI en `http://localhost:5262/`. Además del catálogo OpenAPI, se documenta la ejecución local de `POST /api/v1/auth/sign-up` para una cuenta de proveedor: la respuesta visible fue `201 Created` e incluyó el usuario creado. La contraseña y el token se ocultaron en las copias incorporadas al informe.
+Las capturas muestran Swagger UI en `http://localhost:5262/`. Se documenta la ejecución local de `POST /api/v1/auth/sign-up`, que devolvió `201 Created` con el usuario registrado, y de `POST /api/v1/suppliers`, que devolvió `201` con los datos del proveedor creado. La contraseña y el token se ocultaron en las capturas de registro incorporadas al informe.
 
 | Escenario | Resultado esperado | Resultado observado | Evidencia |
 |---|---|---|---|
 | Inicio de la API y `GET /api/v1/health` | El servicio inicia y responde al control de salud. | La API local atendió `sign-up`; la respuesta de `health` no aparece en las capturas. | Pendiente de captura de `health` |
-| Documentación OpenAPI/Swagger | Swagger UI muestra `MarketGo API v1`, `GET /api/v1/health`, rutas de Suppliers y `POST /api/v1/auth/sign-up` en `http://localhost:5262/`. | Catálogo visible y ejecución de `sign-up` con respuesta `201`; las demás operaciones no se prueban con estas capturas. | Capturas incluidas debajo |
+| Documentación OpenAPI/Swagger | Swagger UI muestra `MarketGo API v1`, `GET /api/v1/health`, rutas de Suppliers y `POST /api/v1/auth/sign-up` en `http://localhost:5262/`. | Catálogo visible; `sign-up` y creación de proveedor ejecutados con respuesta `201`. | Capturas incluidas debajo |
 | Registro IAM (`sign-up`) | Un registro válido crea la cuenta y devuelve `201 Created`. | Respuesta `201` con datos del usuario y token oculto en la evidencia. | Capturas de solicitud y respuesta incluidas debajo |
-| Endpoint de negocio (Suppliers) | Una solicitud válida responde con datos persistidos y una inválida devuelve un error controlado. | Rutas visibles en Swagger; ejecución y respuestas pendientes de verificar. | Pendiente de captura de solicitud y respuesta |
+| Endpoint de negocio (Suppliers) | `POST /api/v1/suppliers` recibe los datos de un proveedor y crea el recurso. | La ejecución local devolvió `201` y un JSON con identificador, organización, datos comerciales y estado `active`. | Capturas de solicitud y respuesta incluidas debajo |
 | Integración con el frontend | La aplicación consulta un servicio propio y muestra la respuesta correspondiente. | Pendiente de implementación y ejecución | Pendiente de captura |
 
 <div align="center">
@@ -946,15 +946,25 @@ Las capturas muestran Swagger UI en `http://localhost:5262/`. Además del catál
   <p><strong>Figura: Respuesta `201 Created` del registro de proveedor en Swagger UI local.</strong><br><em>Nota. Copia editada de la captura proporcionada por el equipo; se ocultaron la contraseña y el token. La respuesta muestra los datos del usuario registrado.</em></p>
 </div>
 
+<div align="center">
+  <img src="assets/chapter-05/sprint3-suppliers-post-request.png" alt="Solicitud POST de creación de proveedor en Swagger UI local" width="90%">
+  <p><strong>Figura: Datos enviados para crear un proveedor mediante `POST /api/v1/suppliers`.</strong></p>
+</div>
+
+<div align="center">
+  <img src="assets/chapter-05/sprint3-suppliers-post-201.png" alt="Respuesta 201 de creación de proveedor en Swagger UI local" width="90%">
+  <p><strong>Figura: Respuesta `201` de la API con los datos del proveedor creado.</strong></p>
+</div>
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-El documento del capítulo III describe contratos **previstos**. Swagger UI muestra rutas de control de salud, Suppliers e IAM en el entorno local. Las nuevas capturas evidencian una respuesta `201 Created` de `POST /api/v1/auth/sign-up` y muestran el contrato de registro de proveedores.
+El documento del capítulo III describe los contratos previstos. Swagger UI muestra rutas de control de salud, Suppliers e IAM en el entorno local. Las capturas registran respuestas `201` de `POST /api/v1/auth/sign-up` y `POST /api/v1/suppliers`.
 
 | Servicio documentado | Método y ruta visibles | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
 |---|---|---|---|---|
 | Control de salud de la base API | `GET /api/v1/health` visible en Swagger UI | Público; no requiere datos de negocio | Respuesta no mostrada en la captura | Captura de Swagger UI en 5.2.3.5 |
-| Suppliers | `GET /api/v1/suppliers`, `POST /api/v1/suppliers`, `GET /api/v1/suppliers/{id}` y `PATCH /api/v1/suppliers/{id}` visibles en Swagger UI | La interfaz muestra candados de autorización; datos de solicitud no desplegados | Respuestas y persistencia pendientes de verificar | Captura de Swagger UI en 5.2.3.5 |
+| Suppliers | `GET /api/v1/suppliers`, `POST /api/v1/suppliers`, `GET /api/v1/suppliers/{id}` y `PATCH /api/v1/suppliers/{id}` visibles en Swagger UI | `POST` con nombre comercial, RUC, correo, teléfono, dirección, especialidad, cobertura e ID de organización proveedora | `POST` respondió `201` con el proveedor creado y estado `active` | Capturas de solicitud y respuesta en 5.2.3.5 |
 | IAM: registro | `POST /api/v1/auth/sign-up` ejecutado en Swagger UI local | Solicitud de tipo `supplier` con nombre, correo, contraseña y aceptación de términos; contraseña oculta en la imagen | `201 Created` con usuario y token; token oculto en la imagen | Capturas de solicitud y respuesta en 5.2.3.5 |
 | Servicio de integración frontend | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
 
