@@ -323,6 +323,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 </table>
 
 
+<!-- 5.2.1.5 Execution Evidence -->
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la Landing Page estática de **MarketGo**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas:
