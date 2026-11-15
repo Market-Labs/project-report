@@ -1,6 +1,7 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 
 
+<!-- Section 5.1: SCM -->
 ## 5.1. Software Configuration Management.
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **Market-Labs** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **MarketGo**. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue orientada a la nube.
