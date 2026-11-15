@@ -1,13 +1,11 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 
 
-<!-- Section 5.1: SCM -->
 ## 5.1. Software Configuration Management.
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **Market-Labs** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **MarketGo**. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue orientada a la nube.
 
 
-<!-- Subsection 5.1.1 -->
 ### 5.1.1. Software Development Environment Configuration.
 
 Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de MarketGo.
@@ -41,14 +39,12 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 
 ---
 
-<!-- Subsection 5.1.2 -->
 ### 5.1.2. Source Code Management.
 
 Se establecen los repositorios oficiales de la solución MarketGo para garantizar la integridad del código fuente.
 
 
 #### Repositorios del Proyecto
-<!-- Repositories Table -->
 <table>
   <thead>
     <tr>
@@ -111,7 +107,6 @@ Ejemplos:
 - `docs(readme): update GitFlow workflow`
 
 
-<!-- Subsection 5.1.3 -->
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto MarketGo: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio de inventario y abastecimiento.
@@ -148,7 +143,6 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 
 ---
 
-<!-- Subsection 5.1.4 -->
 ### 5.1.4. Software Deployment Configuration.
 
 Se especifica la configuración de despliegue para los entornos de MarketGo, garantizando alta disponibilidad para usuarios de la plataforma.
@@ -158,15 +152,12 @@ Se especifica la configuración de despliegue para los entornos de MarketGo, gar
 El despliegue de la landing page se documenta mediante la siguiente URL de Azure Static Web Apps (Microsoft, 2024).
 * **URL:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
 
-<!-- Section 5.2: Implementation -->
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 
-<!-- Subsection 5.2.1: Sprint 1 -->
 ### 5.2.1. Sprint 1.
 
 
-<!-- 5.2.1.1 Planning -->
 #### 5.2.1.1. Sprint Planning 1.
 
 
@@ -190,14 +181,12 @@ El despliegue de la landing page se documenta mediante la siguiente URL de Azure
 </p>
 
 
-<!-- 5.2.1.2 LACX Matrix -->
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
 <p>
 Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo de <strong>MarketLab</strong> durante el desarrollo de la landing page de <strong>MarketGo</strong>.
 </p>
 
-<!-- LACX Table -->
 <table border="1" cellpadding="4" cellspacing="0" align="center">
   <thead>
     <tr>
@@ -248,14 +237,12 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 </table>
 
 
-<!-- 5.2.1.3 Backlog -->
 #### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **MarketGo**, producto de **MarketLab** orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
 <div align="center">
-  <!-- Sprint 1 Board -->
-  <img src="assets/chapter-05/sprintb1.png" alt="Sprint 1 Board Screenshot" width="100%">
+    <img src="assets/chapter-05/sprintb1.png" alt="Sprint 1 Board Screenshot" width="100%">
   <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto MarketGo)</em></p>
 </div>
 
@@ -271,14 +258,12 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 | **US00** | GitFlow Setup | T007 | Configuración de ramas y commits | Organización de ramas feature, integración en develop y actualización de main aplicando Conventional Commits. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 
 
-<!-- 5.2.1.4 Dev Evidence -->
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
   Resumen de los commits más relevantes en el repositorio de la Landing Page de <strong>MarketGo</strong>, producto desarrollado por <strong>MarketLab</strong>.
 </p>
 
-<!-- Commits Summary Table -->
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
@@ -323,7 +308,6 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 </table>
 
 
-<!-- 5.2.1.5 Execution Evidence -->
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la Landing Page estática de **MarketGo**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas:
@@ -374,7 +358,6 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 </div>
 
 
-<!-- 5.2.1.6 Services Docs -->
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 <p>
@@ -382,7 +365,6 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 </p>
 
 
-<!-- 5.2.1.7 Deployment Evidence -->
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
@@ -393,7 +375,6 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 </p>
 
 
-<!-- 5.2.1.8 Collaboration Insights -->
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 <p>
