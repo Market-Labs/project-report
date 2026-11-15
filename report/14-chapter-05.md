@@ -1023,7 +1023,7 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr><td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td></tr>
-    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="4" align="center"> <img src="assets/chapter-05/interview_roly_.png" alt="Interview evidence" width="90%"></td></tr>
     <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
     <tr><td><strong>Nombre completo</strong></td><td>Roly Hans Luna</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket orgánico</td></tr>
     <tr><td><strong>Edad</strong></td><td>28 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
