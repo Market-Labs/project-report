@@ -83,6 +83,7 @@ Para asegurar una colaboración organizada, evitar conflictos en el código y ma
 
 La estrategia de colaboración se define de la siguiente manera:
 
+
 - **main:** Rama que contiene la versión estable y lista para producción de la landing page. Solo recibe integraciones finales desde `develop` cuando los cambios han sido revisados, probados y aprobados.
 
 - **develop:** Rama principal de integración. En esta rama se unifican las funcionalidades terminadas antes de ser promovidas a `main`.
