@@ -900,13 +900,28 @@ Las tarjetas de base compartida y de solicitud de información o demo no tienen 
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
-Esta tabla se completará con commits verificables de los repositorios backend y frontend. La rama indicada deberá corresponder a la referencia donde se compruebe cada commit; la fecha y el mensaje se transcribirán del historial Git. La base compartida se documentará separadamente de los Web Services de negocio cuando se seleccione la evidencia del sprint.
+La tabla registra los 16 commits sin merge del repositorio `Market-Labs/backend` fechados el 14 de noviembre de 2026 y verificados en `origin/main`. Las horas corresponden al registro de commit de Git en Lima (UTC-5). Se omiten los commits de merge para no duplicar la evidencia de las funcionalidades integradas.
 
-| Repositorio | Rama verificada | Commit Id | Commit Message | Fecha y hora | Funcionalidad evidenciada |
+| Repositorio | Rama verificada | Commit Id | Commit Message | Fecha y hora (Lima, UTC-5) | Funcionalidad evidenciada |
 |---|---|---|---|---|---|
-| Backend | Por registrar | Por registrar | Por registrar | Por registrar | Base compartida y compilación |
-| Backend | Por registrar | Por registrar | Por registrar | Por registrar | Primeros servicios de negocio |
-| Frontend | Por registrar | Por registrar | Por registrar | Por registrar | Integración con los servicios propios |
+| backend | `origin/main` | [7bd5c1c](https://github.com/Market-Labs/backend/commit/7bd5c1c537467466dc0152bde726f81ea21d6737) | feat(backend): complete inventory receipts and organization messaging | 14-11-2026 09:42:46 | Recepción de inventario y mensajería entre organizaciones. |
+| backend | `origin/main` | [71b0531](https://github.com/Market-Labs/backend/commit/71b05317229c1ab369f2f4213db3f31a9d76d7ad) | fix(security): align supplier identity and tenant-safe catalog | 14-11-2026 06:55:59 | Seguridad de identidad del proveedor y aislamiento del catálogo por organización. |
+| backend | `origin/main` | [7cf81bd](https://github.com/Market-Labs/backend/commit/7cf81bda10aba5305312bc28dfeb53c461d33382) | chore(deploy): add Vercel container Dockerfile | 14-11-2026 04:26:32 | Dockerfile para preparar un contenedor de despliegue en Vercel. |
+| backend | `origin/main` | [67f6608](https://github.com/Market-Labs/backend/commit/67f66080503d0cb080e3e70ca0243e500a6a3f53) | docs: record local migration and signup verification | 14-11-2026 04:23:27 | Documentación de la migración local y de la verificación de registro. |
+| backend | `origin/main` | [1a9872d](https://github.com/Market-Labs/backend/commit/1a9872d142fc50f7ca27c4786482a0c40613a2bb) | chore(config): add production settings template | 14-11-2026 03:29:27 | Plantilla de configuración para producción. |
+| backend | `origin/main` | [a1e7713](https://github.com/Market-Labs/backend/commit/a1e7713d3c793af601c5b8e06af85f7f159b6ffc) | feat(database): add initial MySQL migration | 14-11-2026 03:26:25 | Migración inicial de EF Core para MySQL. |
+| backend | `origin/main` | [3b84f87](https://github.com/Market-Labs/backend/commit/3b84f872c04c7cf06a96377d3da1b3ce11979c20) | docs: describe business contexts and add smoke coverage | 14-11-2026 03:18:09 | Documentación de contextos de negocio y pruebas de humo. |
+| backend | `origin/main` | [064b658](https://github.com/Market-Labs/backend/commit/064b6587f71e9123761975044b0efb21bf243b69) | feat(analytics): add business reporting bounded context | 14-11-2026 03:18:09 | Bounded context Analytics para reportes de negocio. |
+| backend | `origin/main` | [772d962](https://github.com/Market-Labs/backend/commit/772d9621a748a2966060ee8e9320a2c2c84b2a3a) | feat(dashboard): add operational dashboard bounded context | 14-11-2026 03:18:08 | Bounded context Dashboard para el panel operativo. |
+| backend | `origin/main` | [1867b3c](https://github.com/Market-Labs/backend/commit/1867b3ce89cba7bee8c0b1b11d0d2a912afc86c8) | feat(communication): add alerts and messages bounded context | 14-11-2026 03:18:07 | Bounded context Communication para alertas y mensajes. |
+| backend | `origin/main` | [33b2aad](https://github.com/Market-Labs/backend/commit/33b2aad8dd00d697bf913e59b171ca2ce3355326) | feat(conservation): add condition monitoring bounded context | 14-11-2026 03:18:06 | Bounded context Conservation para el monitoreo de condiciones. |
+| backend | `origin/main` | [f9d584a](https://github.com/Market-Labs/backend/commit/f9d584a05c5b5b4cb97528fbf3454b378a30e45d) | feat(procurements): add purchase order bounded context | 14-11-2026 03:18:04 | Bounded context Procurements para órdenes de compra. |
+| backend | `origin/main` | [283583c](https://github.com/Market-Labs/backend/commit/283583c501141a2ef74a0e01521f5dd643fa12e8) | feat(requisition): add supply request bounded context | 14-11-2026 03:18:03 | Bounded context Requisition para solicitudes de abastecimiento. |
+| backend | `origin/main` | [0e3120f](https://github.com/Market-Labs/backend/commit/0e3120fb9a9d19737d769d48025b96b4179b952a) | feat(inventory): add stock management bounded context | 14-11-2026 03:18:02 | Bounded context Inventory para gestión de existencias. |
+| backend | `origin/main` | [c964c09](https://github.com/Market-Labs/backend/commit/c964c098a12efef4c40b026c3dbdb0c40a1bcc53) | feat(products): add product catalog bounded context | 14-11-2026 03:18:01 | Bounded context Products para el catálogo. |
+| backend | `origin/main` | [a8ae420](https://github.com/Market-Labs/backend/commit/a8ae42055f1dcc98e97ef725ee9de2a8aeec26d6) | feat(suppliers): add supplier directory bounded context | 14-11-2026 03:18:00 | Bounded context Suppliers para el directorio de proveedores. |
+
+La identidad de autor configurada en estos commits es `Lil Doggy`; el historial no permite atribuir cada cambio a un integrante distinto. El Dockerfile y la migración inicial son evidencia de preparación técnica, no de despliegue del backend ni de migración aplicada en Enzonic. Estos commits tampoco acreditan integración del frontend con la API.
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
