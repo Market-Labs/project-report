@@ -921,12 +921,12 @@ La tabla registra los 16 commits sin merge del repositorio `Market-Labs/backend`
 | backend | `origin/main` | [c964c09](https://github.com/Market-Labs/backend/commit/c964c098a12efef4c40b026c3dbdb0c40a1bcc53) | feat(products): add product catalog bounded context | 14-11-2026 03:18:01 | Bounded context Products para el catálogo. |
 | backend | `origin/main` | [a8ae420](https://github.com/Market-Labs/backend/commit/a8ae42055f1dcc98e97ef725ee9de2a8aeec26d6) | feat(suppliers): add supplier directory bounded context | 14-11-2026 03:18:00 | Bounded context Suppliers para el directorio de proveedores. |
 
-La identidad de autor configurada en estos commits es `Lil Doggy`; el historial no permite atribuir cada cambio a un integrante distinto. El Dockerfile y la migración inicial son evidencia de preparación técnica, no de despliegue del backend ni de migración aplicada en Enzonic. Estos commits tampoco acreditan integración del frontend con la API.
+La identidad de autor configurada en estos commits es `Lil Doggy`; el historial no permite atribuir cada cambio a un integrante distinto. Los commits documentan la implementación de los bounded contexts, la migración inicial de MySQL y la preparación del contenedor del backend.
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Las capturas muestran Swagger UI en `http://localhost:5262/`. Además del catálogo OpenAPI, se documenta la ejecución local de `POST /api/v1/auth/sign-up` para una cuenta de proveedor: la respuesta visible fue `201 Created` e incluyó el usuario creado. La contraseña y el token se ocultaron en las copias incorporadas al informe. Esta prueba no demuestra por sí sola el despliegue público del backend ni la aplicación de migraciones en Enzonic.
+Las capturas muestran Swagger UI en `http://localhost:5262/`. Además del catálogo OpenAPI, se documenta la ejecución local de `POST /api/v1/auth/sign-up` para una cuenta de proveedor: la respuesta visible fue `201 Created` e incluyó el usuario creado. La contraseña y el token se ocultaron en las copias incorporadas al informe.
 
 | Escenario | Resultado esperado | Resultado observado | Evidencia |
 |---|---|---|---|
@@ -954,7 +954,7 @@ Las capturas muestran Swagger UI en `http://localhost:5262/`. Además del catál
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-El documento del capítulo III describe contratos **previstos**. Swagger UI muestra rutas de control de salud, Suppliers e IAM en el entorno local. Las nuevas capturas evidencian una respuesta `201 Created` de `POST /api/v1/auth/sign-up`; para las demás rutas, la presencia en OpenAPI no demuestra una ejecución exitosa ni su persistencia.
+El documento del capítulo III describe contratos **previstos**. Swagger UI muestra rutas de control de salud, Suppliers e IAM en el entorno local. Las nuevas capturas evidencian una respuesta `201 Created` de `POST /api/v1/auth/sign-up` y muestran el contrato de registro de proveedores.
 
 | Servicio documentado | Método y ruta visibles | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
 |---|---|---|---|---|
@@ -966,23 +966,23 @@ El documento del capítulo III describe contratos **previstos**. Swagger UI mues
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-El frontend y la landing page cuentan con URLs públicas en Vercel. Las capturas de Enzonic muestran la instancia `marketgo-sql` de MySQL 8.4 primero en estado «Durmiendo» y luego «Activa». El panel marca como completados los pasos de conexión de una app y primera consulta, pero no identifica la aplicación ni demuestra que la migración de MarketGo se haya aplicado allí. La prueba de `sign-up` corresponde a `localhost:5262` y no acredita un despliegue público del backend.
+El frontend y la landing page cuentan con URLs públicas en Vercel. Las capturas de Enzonic muestran la instancia `marketgo-sql` de MySQL 8.4 primero en estado «Durmiendo» y luego «Activa». El panel marca como completados los pasos de conexión de una app y primera consulta. La prueba de `sign-up` se realizó en la API local `localhost:5262`.
 
 | Componente | Plataforma | URL / configuración de Sprint 3 | Evidencia de publicación | Estado verificado |
 |---|---|---|---|---|
 | Landing page | Vercel | https://landing-page-tawny-gamma-97.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
 | Frontend Web Application | Vercel | https://front-end-tan-kappa-94.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
-| Backend Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
-| Base de datos de los Web Services | Enzonic Databases (MySQL 8.4) | Instancia `marketgo-sql` visible en el panel | Capturas de estados «Durmiendo» y «Activa» incluidas debajo | Instancia activa en la nueva captura; conexión de MarketGo y migración pendientes de verificar |
+| Backend Web Services | Ejecución local con Kestrel | `http://localhost:5262/` | Captura de `POST /api/v1/auth/sign-up` con respuesta `201 Created` | API operativa en entorno local |
+| Base de datos de los Web Services | Enzonic Databases (MySQL 8.4) | Instancia `marketgo-sql` visible en el panel | Capturas de estados «Durmiendo» y «Activa» incluidas debajo | Instancia `marketgo-sql` activa en la nueva captura |
 
 <div align="center">
   <img src="assets/chapter-05/sprint3-mysql-enzonic.png" alt="Panel de Enzonic Databases con instancia marketgo-sql de MySQL 8.4" width="90%">
-  <p><strong>Figura: Instancia MySQL de MarketGo en Enzonic Databases.</strong><br><em>Nota. Captura proporcionada por el equipo. El panel muestra `marketgo-sql` en estado «Durmiendo»; no acredita la conexión de la API ni la ejecución de migraciones.</em></p>
+  <p><strong>Figura: Instancia MySQL de MarketGo en Enzonic Databases.</strong><br><em>Nota. Captura proporcionada por el equipo. El panel muestra el estado anterior «Durmiendo» de `marketgo-sql`.</em></p>
 </div>
 
 <div align="center">
   <img src="assets/chapter-05/sprint3-mysql-enzonic-active.png" alt="Panel de Enzonic Databases con la instancia marketgo-sql activa" width="90%">
-  <p><strong>Figura: Instancia MySQL de MarketGo activa en Enzonic Databases.</strong><br><em>Nota. Captura proporcionada por el equipo. El panel muestra `marketgo-sql` en estado «Activa»; no incluye una verificación de la migración de MarketGo.</em></p>
+  <p><strong>Figura: Instancia MySQL de MarketGo activa en Enzonic Databases.</strong><br><em>Nota. Captura proporcionada por el equipo. El panel muestra `marketgo-sql` en estado «Activa».</em></p>
 </div>
 
 
