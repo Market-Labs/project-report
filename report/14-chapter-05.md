@@ -360,7 +360,7 @@ Se implementó una sección dedicada a presentar al equipo y mostrar el funciona
 Se desarrolló la sección de planes comerciales, presentando las alternativas **Básico**, **Profesional** y **Empresarial**. Cada plan comunica de manera ordenada sus beneficios principales, permitiendo que los minimarkets identifiquen la opción más adecuada según su tamaño y necesidades operativas.
 
 <div align="center">
-  <img src="assets/chapter-05/execution-pricing.png" alt="Pricing Section Evidence" width="90%">
+  <img src="assets/chapter-05/execution-pricing.png" loading="lazy" alt="Pricing Section Evidence" width="90%">
   <p><em>Figura: Sección de planes disponibles para los usuarios de MarketGo.</em></p>
 </div>
 
