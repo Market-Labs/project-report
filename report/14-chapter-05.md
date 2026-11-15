@@ -393,6 +393,7 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 </p>
 
 
+<!-- 5.2.1.8 Collaboration Insights -->
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 <p>
