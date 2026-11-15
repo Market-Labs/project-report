@@ -119,6 +119,7 @@ En esta sección se establecen las convenciones de estilo y nomenclatura adoptad
 
 #### Referencias de Guías de Estilo Adoptadas
 
+
 | Lenguaje/Tecnología | Guía de Estilo |
 | :--- | :--- |
 | HTML/CSS | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) (Google, s. f.-a) |
