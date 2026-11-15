@@ -926,13 +926,14 @@ La identidad de autor configurada en estos commits es `Lil Doggy`; el historial 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-La captura disponible muestra Swagger UI del backend en el entorno local. Permite observar el documento OpenAPI y las rutas listadas, pero no muestra una solicitud ejecutada ni su respuesta. Las pruebas de cada endpoint se registrarán por separado con la acción y el resultado observado.
+Las capturas muestran Swagger UI en `http://localhost:5262/`. Además del catálogo OpenAPI, se documenta la ejecución local de `POST /api/v1/auth/sign-up` para una cuenta de proveedor: la respuesta visible fue `201 Created` e incluyó el usuario creado. La contraseña y el token se ocultaron en las copias incorporadas al informe. Esta prueba no demuestra por sí sola el despliegue público del backend ni la aplicación de migraciones en Enzonic.
 
-| Escenario por verificar | Resultado esperado | Resultado observado | Evidencia |
+| Escenario | Resultado esperado | Resultado observado | Evidencia |
 |---|---|---|---|
-| Inicio de la API y `GET /api/v1/health` | El servicio inicia y responde al control de salud. | Pendiente de ejecución | Pendiente de captura |
-| Documentación OpenAPI/Swagger | Swagger UI muestra `MarketGo API v1`, `GET /api/v1/health` y rutas de Suppliers en `http://localhost:5262/`. | Catálogo de rutas visible; ejecución de operaciones no evidenciada | Captura de Swagger UI incluida debajo |
-| Primer endpoint de negocio (Suppliers) | Una solicitud válida responde con datos persistidos y una inválida devuelve un error controlado. | Rutas visibles en Swagger; ejecución y respuestas pendientes de verificar | Pendiente de captura de solicitud y respuesta |
+| Inicio de la API y `GET /api/v1/health` | El servicio inicia y responde al control de salud. | La API local atendió `sign-up`; la respuesta de `health` no aparece en las capturas. | Pendiente de captura de `health` |
+| Documentación OpenAPI/Swagger | Swagger UI muestra `MarketGo API v1`, `GET /api/v1/health`, rutas de Suppliers y `POST /api/v1/auth/sign-up` en `http://localhost:5262/`. | Catálogo visible y ejecución de `sign-up` con respuesta `201`; las demás operaciones no se prueban con estas capturas. | Capturas incluidas debajo |
+| Registro IAM (`sign-up`) | Un registro válido crea la cuenta y devuelve `201 Created`. | Respuesta `201` con datos del usuario y token oculto en la evidencia. | Capturas de solicitud y respuesta incluidas debajo |
+| Endpoint de negocio (Suppliers) | Una solicitud válida responde con datos persistidos y una inválida devuelve un error controlado. | Rutas visibles en Swagger; ejecución y respuestas pendientes de verificar. | Pendiente de captura de solicitud y respuesta |
 | Integración con el frontend | La aplicación consulta un servicio propio y muestra la respuesta correspondiente. | Pendiente de implementación y ejecución | Pendiente de captura |
 
 <div align="center">
@@ -940,32 +941,48 @@ La captura disponible muestra Swagger UI del backend en el entorno local. Permit
   <p><strong>Figura: Documentación OpenAPI del backend de MarketGo en Swagger UI local.</strong><br><em>Nota. Captura proporcionada por el equipo. Se observan el servidor localhost:5262, el control de salud y las rutas de Suppliers; no se muestran respuestas de los endpoints.</em></p>
 </div>
 
+<div align="center">
+  <img src="assets/chapter-05/sprint3-iam-signup-request-redacted.png" alt="Solicitud de registro de proveedor en Swagger UI local con contraseña oculta" width="90%">
+  <p><strong>Figura: Solicitud de registro de proveedor en la API local de MarketGo.</strong><br><em>Nota. Copia editada de la captura proporcionada por el equipo; se ocultó la contraseña. Se observan la ruta `POST /api/v1/auth/sign-up` y los campos de la solicitud.</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/chapter-05/sprint3-iam-signup-201-redacted.png" alt="Respuesta 201 de registro de proveedor en Swagger UI local con token oculto" width="90%">
+  <p><strong>Figura: Respuesta `201 Created` del registro de proveedor en Swagger UI local.</strong><br><em>Nota. Copia editada de la captura proporcionada por el equipo; se ocultaron la contraseña y el token. La respuesta muestra los datos del usuario registrado.</em></p>
+</div>
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-El documento del capítulo III describe contratos **previstos**. La captura de Swagger UI del entorno local muestra rutas de control de salud y de Suppliers publicadas en el documento OpenAPI de MarketGo. Esto acredita la disponibilidad de la documentación local, pero no prueba la ejecución exitosa, la autorización ni la persistencia de cada operación.
+El documento del capítulo III describe contratos **previstos**. Swagger UI muestra rutas de control de salud, Suppliers e IAM en el entorno local. Las nuevas capturas evidencian una respuesta `201 Created` de `POST /api/v1/auth/sign-up`; para las demás rutas, la presencia en OpenAPI no demuestra una ejecución exitosa ni su persistencia.
 
 | Servicio documentado | Método y ruta visibles | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
 |---|---|---|---|---|
 | Control de salud de la base API | `GET /api/v1/health` visible en Swagger UI | Público; no requiere datos de negocio | Respuesta no mostrada en la captura | Captura de Swagger UI en 5.2.3.5 |
 | Suppliers | `GET /api/v1/suppliers`, `POST /api/v1/suppliers`, `GET /api/v1/suppliers/{id}` y `PATCH /api/v1/suppliers/{id}` visibles en Swagger UI | La interfaz muestra candados de autorización; datos de solicitud no desplegados | Respuestas y persistencia pendientes de verificar | Captura de Swagger UI en 5.2.3.5 |
+| IAM: registro | `POST /api/v1/auth/sign-up` ejecutado en Swagger UI local | Solicitud de tipo `supplier` con nombre, correo, contraseña y aceptación de términos; contraseña oculta en la imagen | `201 Created` con usuario y token; token oculto en la imagen | Capturas de solicitud y respuesta en 5.2.3.5 |
 | Servicio de integración frontend | Pendiente de implementación | Pendiente | Pendiente | Pendiente |
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-El frontend y la landing page cuentan con URLs públicas en Vercel. La captura de Enzonic muestra una instancia `marketgo-sql` de MySQL 8.4 y su estado «Durmiendo». Esta evidencia corresponde al alojamiento de la base de datos; no demuestra que la migración se haya aplicado allí, que la API se conecte a ella ni que los Web Services estén desplegados públicamente.
+El frontend y la landing page cuentan con URLs públicas en Vercel. Las capturas de Enzonic muestran la instancia `marketgo-sql` de MySQL 8.4 primero en estado «Durmiendo» y luego «Activa». El panel marca como completados los pasos de conexión de una app y primera consulta, pero no identifica la aplicación ni demuestra que la migración de MarketGo se haya aplicado allí. La prueba de `sign-up` corresponde a `localhost:5262` y no acredita un despliegue público del backend.
 
 | Componente | Plataforma | URL / configuración de Sprint 3 | Evidencia de publicación | Estado verificado |
 |---|---|---|---|---|
 | Landing page | Vercel | https://landing-page-tawny-gamma-97.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
 | Frontend Web Application | Vercel | https://front-end-tan-kappa-94.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
 | Backend Web Services | Pendiente de definir | Pendiente | Pendiente | No se ha documentado despliegue |
-| Base de datos de los Web Services | Enzonic Databases (MySQL 8.4) | Instancia `marketgo-sql` visible en el panel | Captura del panel de Enzonic incluida debajo | Instancia visible y en estado «Durmiendo»; conexión y migración pendientes de verificar |
+| Base de datos de los Web Services | Enzonic Databases (MySQL 8.4) | Instancia `marketgo-sql` visible en el panel | Capturas de estados «Durmiendo» y «Activa» incluidas debajo | Instancia activa en la nueva captura; conexión de MarketGo y migración pendientes de verificar |
 
 <div align="center">
   <img src="assets/chapter-05/sprint3-mysql-enzonic.png" alt="Panel de Enzonic Databases con instancia marketgo-sql de MySQL 8.4" width="90%">
   <p><strong>Figura: Instancia MySQL de MarketGo en Enzonic Databases.</strong><br><em>Nota. Captura proporcionada por el equipo. El panel muestra `marketgo-sql` en estado «Durmiendo»; no acredita la conexión de la API ni la ejecución de migraciones.</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/chapter-05/sprint3-mysql-enzonic-active.png" alt="Panel de Enzonic Databases con la instancia marketgo-sql activa" width="90%">
+  <p><strong>Figura: Instancia MySQL de MarketGo activa en Enzonic Databases.</strong><br><em>Nota. Captura proporcionada por el equipo. El panel muestra `marketgo-sql` en estado «Activa»; no incluye una verificación de la migración de MarketGo.</em></p>
 </div>
 
 
