@@ -382,6 +382,7 @@ Se implementó la sección de contacto, incluyendo información de correo, Whats
 </p>
 
 
+<!-- 5.2.1.7 Deployment Evidence -->
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
