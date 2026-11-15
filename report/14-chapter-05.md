@@ -333,7 +333,7 @@ Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maqueta
 Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de **MarketGo**: controlar el inventario antes de que sea tarde mediante alertas de vencimiento, condiciones de conservación y pedidos de abastecimiento para minimarkets orgánicos. La navegación superior permite acceder a las secciones principales de la landing page y el diseño respeta los lineamientos *responsive* para dispositivos móviles.
 
 <div align="center">
-  <img src="assets/chapter-05/execution-home.png" alt="Home Section Evidence" width="90%">
+  <img src="assets/chapter-05/execution-home.png" loading="lazy" alt="Home Section Evidence" width="90%">
   <p><em>Figura: Vista principal de MarketGo desplegada en la Landing Page.</em></p>
 </div>
 
