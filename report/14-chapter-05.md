@@ -351,7 +351,7 @@ Se maquetó la sección informativa donde se presentan las principales capacidad
 Se implementó una sección dedicada a presentar al equipo y mostrar el funcionamiento general de **MarketGo** mediante contenido audiovisual. Esta sección permite reforzar la confianza del usuario y explicar visualmente el propósito de la solución.
 
 <div align="center">
-  <img src="assets/chapter-05/execution-videos.png" alt="Videos Section Evidence" width="90%">
+  <img src="assets/chapter-05/execution-videos.png" loading="lazy" alt="Videos Section Evidence" width="90%">
   <p><em>Figura: Sección de videos para presentación del equipo y demostración del producto.</em></p>
 </div>
 
