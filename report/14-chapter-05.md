@@ -111,6 +111,7 @@ Ejemplos:
 - `docs(readme): update GitFlow workflow`
 
 
+<!-- Subsection 5.1.3 -->
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto MarketGo: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio de inventario y abastecimiento.
