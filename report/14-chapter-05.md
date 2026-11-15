@@ -148,6 +148,7 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 
 ---
 
+<!-- Subsection 5.1.4 -->
 ### 5.1.4. Software Deployment Configuration.
 
 Se especifica la configuración de despliegue para los entornos de MarketGo, garantizando alta disponibilidad para usuarios de la plataforma.
