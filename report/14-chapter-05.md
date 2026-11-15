@@ -1,5 +1,6 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 
+
 ## 5.1. Software Configuration Management.
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **Market-Labs** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **MarketGo**. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue orientada a la nube.
@@ -133,6 +134,7 @@ Se especifica la configuración de despliegue para los entornos de MarketGo, gar
 #### Landing Page - Azure
 El despliegue de la landing page se documenta mediante la siguiente URL de Azure Static Web Apps (Microsoft, 2024).
 * **URL:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1.
@@ -903,6 +905,7 @@ La matriz de líderes anterior expresa una distribución planificada. Los result
 | Pull requests y revisiones | Pendiente | Pendiente | Pendiente |
 | Acuerdos, dificultades y mejoras de coordinación | Pendiente | Pendiente | Pendiente |
 
+
 ## 5.3. Validation Interviews.
 
 Las entrevistas de validación permitieron recoger las opiniones de administradores de minimarkets y proveedores de productos orgánicos después de interactuar con la landing page y la aplicación web de MarketGo. Sus respuestas se resumen en 5.3.2. La evaluación heurística de la interfaz se documenta por separado en 5.3.3, con el formato indicado en el statement del proyecto.
@@ -1183,6 +1186,7 @@ La figura del Centro de alertas incluida en el problema #4 también muestra los 
 
 1. Corregir la categoría del brócoli y normalizar las referencias de solicitudes.
 2. Explicar el indicador de estado general, dar nombre accesible a los botones de estrella y unificar los formatos de fecha en Alertas.
+
 
 ## 5.4. Video About-the-Product.
 
