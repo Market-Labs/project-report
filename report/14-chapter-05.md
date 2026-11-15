@@ -197,6 +197,7 @@ El despliegue de la landing page se documenta mediante la siguiente URL de Azure
 Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo de <strong>MarketLab</strong> durante el desarrollo de la landing page de <strong>MarketGo</strong>.
 </p>
 
+<!-- LACX Table -->
 <table border="1" cellpadding="4" cellspacing="0" align="center">
   <thead>
     <tr>
