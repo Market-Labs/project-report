@@ -248,6 +248,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 </table>
 
 
+<!-- 5.2.1.3 Backlog -->
 #### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **MarketGo**, producto de **MarketLab** orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
