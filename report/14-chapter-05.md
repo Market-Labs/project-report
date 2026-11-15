@@ -972,8 +972,8 @@ El frontend, la landing page y el backend cuentan con despliegues en Vercel. El 
 |---|---|---|---|---|
 | Landing page | Vercel | https://landing-page-tawny-gamma-97.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
 | Frontend Web Application | Vercel | https://front-end-tan-kappa-94.vercel.app/ | Pendiente de captura del despliegue | URL proporcionada por el equipo; pendiente de verificación técnica |
-| Backend Web Services | Vercel; ejecución local con Kestrel | https://marketgo-backend.vercel.app/; `http://localhost:5262/` | Panel de producción de Vercel y captura local de `POST /api/v1/auth/sign-up` con respuesta `201 Created` | Despliegue de producción `Ready` desde `main` (`7bd5c1c`) |
-| Base de datos de los Web Services | Enzonic Databases (MySQL 8.4) | Instancia `marketgo-sql` visible en el panel | Capturas de estados «Durmiendo» y «Activa» incluidas debajo | Instancia `marketgo-sql` activa en la nueva captura |
+| Backend Web Services | Vercel; ejecución local con Kestrel | https://marketgo-backend.vercel.app/; `http://localhost:5262/` | [Panel de producción en Vercel](https://vercel.com/acme-758f/marketgo-backend) y captura local de `POST /api/v1/auth/sign-up` con respuesta `201 Created` | Despliegue de producción `Ready` desde `main` (`7bd5c1c`) |
+| Base de datos de los Web Services | Enzonic Databases (MySQL 8.4) | Instancia `marketgo-sql` visible en el panel | [Panel de la base de datos en Enzonic](https://databases.enzonic.com/databases/01m7cr20728r84jnh69x8t32nr) y capturas de estados «Durmiendo» y «Activa» | Instancia `marketgo-sql` activa en la nueva captura |
 
 <div align="center">
   <img src="assets/chapter-05/sprint3-mysql-enzonic.png" alt="Panel de Enzonic Databases con instancia marketgo-sql de MySQL 8.4" width="90%">
