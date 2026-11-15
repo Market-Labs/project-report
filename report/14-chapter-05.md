@@ -158,6 +158,7 @@ Se especifica la configuración de despliegue para los entornos de MarketGo, gar
 El despliegue de la landing page se documenta mediante la siguiente URL de Azure Static Web Apps (Microsoft, 2024).
 * **URL:** https://agreeable-meadow-0a900b010.3.azurestaticapps.net/
 
+<!-- Section 5.2: Implementation -->
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 
