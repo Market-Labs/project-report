@@ -2970,7 +2970,8 @@ El diagrama de base de datos muestra las entidades principales de MarketGo, sus 
 
 ---
 
-# Capítulo V: Product Implementation, Validation & Deployment
+Capítulo V: Product Implementation, Validation & Deployment
+
 
 
 ## 5.1. Software Configuration Management.
@@ -3132,6 +3133,7 @@ La URL pública vigente de la landing page, proporcionada por el equipo el 15-11
 
 #### 5.2.1.1. Sprint Planning 1.
 
+F
 
 | **Sprint Planning Sprint 1** |  |
 |---|---|
@@ -3827,6 +3829,7 @@ La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026
 La base compartida aportó `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, configuración CORS y OpenAPI/Scalar. Durante el Sprint 3 se integraron en `main` del backend los bounded contexts de Suppliers, Products, Inventory, Requisition, Procurements, Conservation, Communication, Dashboard y Analytics, además de la migración inicial de MySQL y la configuración de despliegue. Swagger UI en `localhost:5262` registró respuestas `201` para el registro IAM y la creación de un proveedor. El panel de Vercel muestra el backend de producción en estado `Ready`, y el panel de Enzonic muestra la instancia `marketgo-sql` activa. Los commits y capturas correspondientes se detallan en 5.2.3.4 a 5.2.3.7.
 
 
+
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
 Albino Florencio Cáceres Pizarro coordina el Sprint 3 como team leader y preparó la base compartida del backend. La siguiente matriz distribuye los bounded contexts para la planificación del trabajo pendiente. `L` identifica al líder planificado y `C` a un colaborador; fuera de la base compartida, estas asignaciones no constituyen evidencia de implementación completada.
@@ -3863,6 +3866,7 @@ La captura muestra la meta «Sprint 3 Goal | Módulos de negocio de MarketGo», 
 | **Total de Technical Stories** | **27** | **Nueve historias técnicas del Product Backlog del capítulo III.** | **Responsables propuestos según la matriz LACX de 5.2.3.2.** |
 
 
+
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
 La tabla registra los 16 commits sin merge del repositorio `Market-Labs/backend` fechados el 14 de noviembre de 2026 y verificados en `origin/main`. Las horas corresponden al registro de commit de Git en Lima (UTC-5). Se omiten los commits de merge para no duplicar la evidencia de las funcionalidades integradas.
@@ -3889,9 +3893,10 @@ La tabla registra los 16 commits sin merge del repositorio `Market-Labs/backend`
 La identidad de autor configurada en estos commits es `Lil Doggy`; el historial no permite atribuir cada cambio a un integrante distinto. Los commits documentan la implementación de los bounded contexts, la migración inicial de MySQL y la preparación del contenedor del backend.
 
 
+
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Las capturas muestran Swagger UI en `http://localhost:5262/`. Se documenta la ejecución local de `POST /api/v1/auth/sign-up`, que devolvió `201 Created` con el usuario registrado, y de `POST /api/v1/suppliers`, que devolvió `201` con los datos del proveedor creado. La contraseña y el token se ocultaron en las capturas de registro incorporadas al informe.
+Las capturas muestran Swagger UI en `http://localhost:5262/`. Se documenta la ejecución local de `POST /api/v1/auth/sign-up`, que devolvió `201 Created` con el usuario registrado, y de `POST /api/v1/suppliers`, que devolvió `201` con los datos del proveedor creado. La contraseña y el token se ocultaron en las capturas de registro incorporadas al informe. También se muestra el dashboard de una cuenta nueva de minimarket, sin productos ni solicitudes registrados.
 
 | Escenario | Resultado esperado | Resultado observado | Evidencia |
 |---|---|---|---|
@@ -3899,7 +3904,7 @@ Las capturas muestran Swagger UI en `http://localhost:5262/`. Se documenta la ej
 | Documentación OpenAPI/Swagger | Swagger UI muestra `MarketGo API v1`, `GET /api/v1/health`, rutas de Suppliers y `POST /api/v1/auth/sign-up` en `http://localhost:5262/`. | Catálogo visible; `sign-up` y creación de proveedor ejecutados con respuesta `201`. | Capturas incluidas debajo |
 | Registro IAM (`sign-up`) | Un registro válido crea la cuenta y devuelve `201 Created`. | Respuesta `201` con datos del usuario y token oculto en la evidencia. | Capturas de solicitud y respuesta incluidas debajo |
 | Endpoint de negocio (Suppliers) | `POST /api/v1/suppliers` recibe los datos de un proveedor y crea el recurso. | La ejecución local devolvió `201` y un JSON con identificador, organización, datos comerciales y estado `active`. | Capturas de solicitud y respuesta incluidas debajo |
-| Integración con el frontend | La aplicación consulta un servicio propio y muestra la respuesta correspondiente. | Pendiente de implementación y ejecución | Pendiente de captura |
+| Integración con el frontend | El dashboard presenta los datos de la cuenta de minimarket. | La cuenta nueva aparece sin productos registrados: 0 unidades disponibles, 0 solicitudes de abastecimiento y 0 envíos pendientes. | Captura del dashboard incluida debajo |
 
 <div align="center">
   <img src="report/assets/chapter-05/sprint3-swagger-local.png" alt="Swagger UI local de MarketGo API v1 con control de salud y rutas de proveedores" width="90%">
@@ -3924,6 +3929,11 @@ Las capturas muestran Swagger UI en `http://localhost:5262/`. Se documenta la ej
 <div align="center">
   <img src="report/assets/chapter-05/sprint3-suppliers-post-201.png" alt="Respuesta 201 de creación de proveedor en Swagger UI local" width="90%">
   <p><strong>Figura: Respuesta `201` de la API con los datos del proveedor creado.</strong></p>
+</div>
+
+<div align="center">
+  <img src="report/assets/chapter-05/sprint3-frontend-new-client-dashboard.png" alt="Dashboard de MarketGo para una cuenta nueva de minimarket sin productos registrados" width="90%">
+  <p><strong>Figura: Dashboard de una cuenta nueva de minimarket con inventario, abastecimiento y envíos en cero.</strong></p>
 </div>
 
 
@@ -3964,6 +3974,7 @@ El frontend, la landing page y el backend cuentan con despliegues en Vercel. El 
   <img src="report/assets/chapter-05/sprint3-backend-vercel-deployment.png" alt="Panel de despliegue de producción del backend MarketGo en Vercel" width="90%">
   <p><strong>Figura: Despliegue de producción del backend MarketGo en Vercel.</strong><br><em>El panel muestra el estado Ready, el dominio marketgo-backend.vercel.app y el origen en main, commit 7bd5c1c.</em></p>
 </div>
+
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
@@ -4036,7 +4047,7 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr><td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td></tr>
-    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+    <tr><td colspan="4" align="center"></td></tr>
     <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
     <tr><td><strong>Nombre completo</strong></td><td>Rodrigo Guevara</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket</td></tr>
     <tr><td><strong>Edad</strong></td><td>26 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
@@ -4050,13 +4061,15 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr><td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td></tr>
-    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
+     <tr><td colspan="4" align="center"><img src="report/assets/chapter-05/evidencias-heuristicas/Interview-Roly.png" alt="Entrevista N.° 2 - Roly Hans Luna" width="600">.</td></tr>
+    <tr><td colspan="4" align="center"> <img src="report/assets/chapter-05/interview_roly_.png" alt="Interview evidence" width="40%"></td></tr>
     <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
     <tr><td><strong>Nombre completo</strong></td><td>Roly Hans Luna</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket orgánico</td></tr>
     <tr><td><strong>Edad</strong></td><td>28 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
+    <tr><td><strong>Ubicación</strong></td><td>San Isidro, Lima</td><td><strong>Duración</strong></td><td>8:00m</td></tr>
     <tr><td><strong>Cargo</strong></td><td>Administrador de minimarket orgánico</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
-    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> https://youtu.be/yIRWC9GHges</td></tr>
+    <tr><td colspan="4"><strong>URL de grabación:</strong> https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQDZBOmLa_eIR4mQ4dPi7ROaAcEHAY0buLgJNTCoFkZAWvA?e=fQLSqG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Roly identificó la utilidad de MarketGo para controlar productos perecibles, existencias y pedidos. Valoró la lectura rápida del dashboard, los lotes y vencimientos, las alertas y el estado de las solicitudes; consideró especialmente importante recibir avisos de conservación y vencimiento en el celular. Solicitó mayor claridad sobre los límites de cada plan y demostraciones de uso móvil. Propuso mostrar condiciones de conservación junto al lote, destacar productos próximos a vencer, informar precios, disponibilidad y tiempos de entrega de proveedores, y contemplar recepciones parciales y correcciones de cantidades. Consideraría usar la aplicación si mantiene una experiencia cómoda desde el teléfono y reduce el trabajo manual con Excel y WhatsApp.</td></tr>
   </tbody>
 </table>
@@ -4112,7 +4125,7 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
     <tr><td><strong>Edad</strong></td><td>32 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
     <tr><td><strong>Ubicación</strong></td><td>Cerro Colorado, Arequipa</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
     <tr><td><strong>Cargo</strong></td><td>Proveedora de productos orgánicos</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
-    <tr><td colspan="4"><strong>URL de grabación:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQC4Lmw86yHuTJeJlgS-jSZ2AfCtarTQDivNuB4scpenoYE?e=5jklRg&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver entrevista de Anita Gamboa</a></td></tr>
+<tr><td colspan="4"><strong>URL de grabación:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQC4Lmw86yHuTJeJlgS-jSZ2AfCtarTQDivNuB4scpenoYE?e=5jklRg&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver entrevista en SharePoint</a> · <a href="https://youtu.be/L14E6LWej44">Ver entrevista en YouTube</a></td></tr>
     <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Anita comprendió la propuesta de centralizar catálogo, disponibilidad y seguimiento de pedidos. Valoró los videos, el dashboard, el inventario y la vista de solicitudes para reducir verificaciones repetidas entre Excel y WhatsApp. Pidió aclarar las diferencias entre planes y los roles de registro, filtrar productos por disponibilidad y señalar cuando una solicitud supere el stock. También sugirió conservar el historial de cambios, mostrar pedidos pendientes de despacho y registrar destino y fecha de entrega en las órdenes. La sección de solicitudes le resultó intuitiva, aunque tuvo dudas sobre cambios posteriores a la aceptación. Consideró útil MarketGo para coordinar mejor los pedidos si mantiene actualizados sus datos.</td></tr>
   </tbody>
 </table>
