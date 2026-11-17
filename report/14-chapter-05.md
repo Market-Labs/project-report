@@ -1027,7 +1027,7 @@ Las entrevistas de validación permitieron recoger las opiniones de administrado
 | Elemento | Diseño de la validación |
 |---|---|
 | Objetivo | Evaluar si la propuesta de valor de la landing page se entiende y si los flujos de la aplicación ofrecen información útil para inventario, abastecimiento y atención de pedidos. |
-| Participantes | Tres administradores de minimarkets y tres proveedores de productos orgánicos entrevistados previamente durante el Needfinding. |
+| Participantes | Un administrador de minimarket y una proveedora de productos orgánicos entrevistados previamente durante el Needfinding. |
 | Modalidad | Interacción con la landing page y la aplicación web, seguida de preguntas sobre claridad, utilidad y facilidad de uso. |
 | Duración | La duración de cada entrevista aún está por registrar. |
 | Instrumento | Guía de 12 preguntas por segmento, observación de acciones y dificultades, y registro de respuestas. |
@@ -1070,21 +1070,7 @@ Las entrevistas de validación permitieron recoger las opiniones de administrado
 
 ### 5.3.2. Registro de Entrevistas.
 
-Las seis entrevistas de validación se realizaron con los participantes del Needfinding (apartado 2.2.2) el 9 de noviembre de 2026. Los resúmenes siguientes sintetizan las respuestas de las transcripciones proporcionadas para cada participante. Las capturas, duraciones y URL de grabación están en proceso de incorporación.
-
-<table style="width:100%; border-collapse:collapse;" border="1">
-  <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td></tr>
-    <tr><td colspan="4" align="center"></td></tr>
-    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>Rodrigo Guevara</td><td><strong>Segmento objetivo</strong></td><td>Administrador de minimarket</td></tr>
-    <tr><td><strong>Edad</strong></td><td>26 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>José Leonardo Ortiz, Chiclayo, Lambayeque</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Administrador general</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
-    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Rodrigo comprendió la propuesta de centralizar inventario y pedidos y encontró claro el acceso desde la landing page. Los videos, el dashboard, la información de lotes y vencimientos, el directorio de proveedores y el seguimiento de solicitudes le resultaron útiles para reducir las revisiones manuales y la dispersión entre Excel, POS, libreta y WhatsApp. Señaló que convendría explicar mejor qué funciones incluye cada plan, mostrar cómo registrar un producto, añadir la fecha de ingreso de cada lote y ordenar las alertas por prioridad. También pidió acceso directo desde los indicadores, tiempos de entrega de proveedores y avisos cuando cambie el estado de una solicitud. Le tomó tiempo distinguir entre solicitudes y envíos; indicó que usaría la plataforma para gestionar inventario y abastecimiento.</td></tr>
-  </tbody>
-</table>
+Se registran dos entrevistas de validación realizadas con participantes del Needfinding (apartado 2.2.2) el 9 de noviembre de 2026. Los resúmenes siguientes sintetizan sus respuestas. Los números originales de las entrevistas se mantienen para identificar las grabaciones y capturas correspondientes.
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
@@ -1104,48 +1090,6 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td></tr>
-    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
-    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>María Fernanda Rojas Castillo</td><td><strong>Segmento objetivo</strong></td><td>Administradora de minimarket</td></tr>
-    <tr><td><strong>Edad</strong></td><td>38 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>Santiago de Surco, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Administradora de minimarket</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
-    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>María Fernanda entendió la propuesta de organizar inventario y abastecimiento en una sola plataforma y encontró claro el paso de la landing page al inicio de sesión. Valoró el dashboard, la consulta de lotes, el directorio de proveedores y los estados de las solicitudes para dar seguimiento a varios pedidos. Solicitó precisar las funciones y posibles costos adicionales de los planes, añadir un ejemplo completo de recepción y explicar brevemente los indicadores. También sugirió mostrar el historial de movimientos de cada lote y de pedidos por proveedor, diferenciar alertas urgentes y aclarar cómo corregir una solicitud ya enviada. Indicó que evaluaría adoptar MarketGo si la gestión resulta sencilla y confiable.</td></tr>
-  </tbody>
-</table>
-
-<table style="width:100%; border-collapse:collapse;" border="1">
-  <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td></tr>
-    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
-    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>Álvaro Chojaga</td><td><strong>Segmento objetivo</strong></td><td>Proveedor de productos orgánicos</td></tr>
-    <tr><td><strong>Edad</strong></td><td>54 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Administrador / jefe de operaciones y ventas</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
-    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Álvaro comprendió que MarketGo permite organizar el catálogo y coordinar solicitudes de minimarkets, funciones que hoy gestiona con Excel y WhatsApp. Le resultaron claros el acceso, el dashboard, el catálogo, la consulta de stock y las acciones principales de las solicitudes. Pidió un video del flujo completo, límites de productos y clientes por plan, actualización sencilla de precios y cantidades, y avisos cuando el stock no alcance. Para coordinar entregas sugirió registrar la fecha solicitada, el destino y observaciones de transporte. También pidió confirmar antes de rechazar, registrar el motivo del rechazo y explicar mejor la diferencia entre solicitud aceptada y orden de envío. Consideraría utilizar la plataforma para ordenar sus operaciones.</td></tr>
-  </tbody>
-</table>
-
-<table style="width:100%; border-collapse:collapse;" border="1">
-  <tbody>
-    <tr><td colspan="4" align="center"><strong>Entrevista N.° 5</strong></td></tr>
-    <tr><td colspan="4" align="center">Captura de la entrevista pendiente de incorporar.</td></tr>
-    <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
-    <tr><td><strong>Nombre completo</strong></td><td>Luz Rojas</td><td><strong>Segmento objetivo</strong></td><td>Proveedora de productos orgánicos</td></tr>
-    <tr><td><strong>Edad</strong></td><td>47 años</td><td><strong>Producto validado</strong></td><td>Landing page y Frontend Web Application de MarketGo</td></tr>
-    <tr><td><strong>Ubicación</strong></td><td>Miraflores, Lima</td><td><strong>Duración</strong></td><td>Pendiente de registrar</td></tr>
-    <tr><td><strong>Cargo</strong></td><td>Comerciante / mayorista de productos orgánicos</td><td><strong>Fecha</strong></td><td>9 de noviembre de 2026</td></tr>
-    <tr><td colspan="4"><strong>URL de grabación:</strong> Pendiente de incorporar.</td></tr>
-    <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Luz entendió la utilidad de organizar productos y pedidos en MarketGo y valoró poder consultar solicitudes sin depender de conversaciones de WhatsApp. Consideró claros el acceso, el dashboard, el catálogo, el inventario y las acciones de aceptar o rechazar, especialmente para trabajar desde el teléfono. Solicitó ejemplos breves para explicar los planes, acceso móvil visible, identificación de pedidos recientes y edición rápida de precios. Propuso resumir cantidades antes de confirmar solicitudes, explicar el motivo de un rechazo y mostrar dirección y teléfono de contacto para el despacho. Tuvo dudas sobre cómo modificar una orden cuando cambia la cantidad pedida; indicó que usaría la aplicación si puede gestionar esas operaciones fácilmente desde el celular.</td></tr>
-  </tbody>
-</table>
-
-<table style="width:100%; border-collapse:collapse;" border="1">
-  <tbody>
     <tr><td colspan="4" align="center"><strong>Entrevista N.° 6</strong></td></tr>
     <tr><td colspan="4" align="center"><img src="assets/chapter-05/validation-interview-06-anita-gamboa.png" alt="Entrevista de validación con Anita Gamboa y vista de órdenes de envío de MarketGo" width="90%"><br><strong>Figura: Entrevista de validación con Anita Gamboa y vista de órdenes de envío de MarketGo.</strong></td></tr>
     <tr><td colspan="2" align="center"><strong>Información del entrevistado</strong></td><td colspan="2" align="center"><strong>Contexto de validación</strong></td></tr>
@@ -1157,7 +1101,6 @@ Las seis entrevistas de validación se realizaron con los participantes del Need
     <tr><td colspan="4"><strong>Resumen de la entrevista</strong><br><br>Anita comprendió la propuesta de centralizar catálogo, disponibilidad y seguimiento de pedidos. Valoró los videos, el dashboard, el inventario y la vista de solicitudes para reducir verificaciones repetidas entre Excel y WhatsApp. Pidió aclarar las diferencias entre planes y los roles de registro, filtrar productos por disponibilidad y señalar cuando una solicitud supere el stock. También sugirió conservar el historial de cambios, mostrar pedidos pendientes de despacho y registrar destino y fecha de entrega en las órdenes. La sección de solicitudes le resultó intuitiva, aunque tuvo dudas sobre cambios posteriores a la aceptación. Consideró útil MarketGo para coordinar mejor los pedidos si mantiene actualizados sus datos.</td></tr>
   </tbody>
 </table>
-
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
@@ -1312,4 +1255,9 @@ La figura del Centro de alertas incluida en el problema #4 también muestra los 
 
 ## 5.4. Video About-the-Product.
 
-En esta sección se presentará el video de MarketGo para mostrar la propuesta de valor, el recorrido por la landing page y las funciones principales de la aplicación web para administradores de minimarkets y proveedores. El enlace y la evidencia del video se incorporarán cuando esté disponible.
+La landing page de MarketGo presenta los videos **About the Team** y **About the Product**. El primero presenta a los integrantes de MarketLabs; el segundo muestra el funcionamiento de la plataforma, incluido el inventario, los lotes, la conservación y el abastecimiento.
+
+<div align="center"><img src="assets/chapter-05/about-the-product-and-team.png" alt="Sección de videos About the Team y About the Product en la landing page de MarketGo" width="90%"><br><em>Figura: Videos About the Team y About the Product publicados en la landing page de MarketGo.</em></div>
+
+- **About the Team:** [Ver video](https://www.youtube.com/watch?v=LbMoNAv3fP4).
+- **About the Product:** [Ver video](https://www.youtube.com/watch?v=D0y_F9tcJrs&t=1s).

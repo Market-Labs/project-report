@@ -24,7 +24,7 @@
 
 10. Se configuró un entorno común con GitHub, GitFlow (main, develop, feature y hotfix), Pull Requests y Conventional Commits. También se definieron guías de estilo por lenguaje (Vue, C#, HTML/CSS, Gherkin) y convenciones de nomenclatura en inglés alineadas al Ubiquitous Language. Aprendimos que acordar estas reglas desde el inicio facilita la trazabilidad y reduce conflictos cuando cinco personas trabajan en paralelo.
 
-11. El Sprint 1 cumplió su objetivo: se implementó la landing page con las secciones Home, Producto, Videos, Planes y Contacto. Las siete tareas planificadas (14 Story Points) quedaron en Done. Esto demostró que dividir el trabajo por secciones y por aspectos (diseño, estructura Vue, contenido y despliegue) permite avanzar sin bloqueos y mostrar valor desde el primer sprint.}
+11. El Sprint 1 cumplió su objetivo: se implementó la landing page con las secciones Home, Producto, Videos, Planes y Contacto. Las siete tareas planificadas (14 Story Points) quedaron en Done. Esto demostró que dividir el trabajo por secciones y por aspectos (diseño, estructura Vue, contenido y despliegue) permite avanzar sin bloqueos y mostrar valor desde el primer sprint.
 
 12. La landing page se desplegó en Azure Static Web Apps, y el avance quedó respaldado por el historial de commits, el tablero del sprint y capturas de ejecución. Publicar desde el primer sprint permite validar el producto con usuarios reales y deja una base de despliegue lista para los sprints siguientes, donde se integrarán el frontend, el backend en .NET y la persistencia.
 
