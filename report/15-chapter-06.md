@@ -16,7 +16,7 @@
 
 6. Las 33 User Stories, las Technical Stories y las Functional Stories se organizaron en 8 épicas. Cada una responde a un hallazgo de las entrevistas, como el control de lotes, las alertas y el seguimiento de pedidos. El Impact Mapping las vinculó con dos objetivos SMART: reducir 30% las mermas y bajar de 24 h a menos de 4 h el tiempo entre pedido y orden de envío. Aprendimos que cada requisito debe poder justificarse con un objetivo de negocio medible.
 
-7. El Product Backlog priorizó 63 ítems con Story Points, y la matriz de endpoints REST (/api/v1/...) conecta cada contrato con su historia de origen. Las mejoras de backend (ASP.NET Core, EF Core, migraciones, Swagger) permiten avanzar con una API documentada y persistencia real. Aprendimos que definir los contratos antes de programar facilita la coordinación entre frontend y backend.
+7. El Product Backlog ayudó a relacionar las historias con los servicios que necesitaba la aplicación. En el Sprint 3 avanzamos con una API en ASP.NET Core, persistencia en MySQL y documentación en Swagger. Las pruebas locales de registro y proveedores mostraron que acordar los datos entre frontend y backend antes de integrarlos evita confusiones y retrabajo.
 
 8. Se definió una guía de estilo con paleta (azules, naranja de acento y neutros), tipografía Arimo, espaciado, iconografía Tabler y rejilla responsive. Con ello, el landing y la aplicación comparten una misma identidad. La arquitectura de información (sidebar con cuatro grupos, etiquetas cortas, estados con color y navegación según el rol) se validó con wireframes, mock-ups, wireflows y user flows. Aprendimos que diseñar con base en las tareas reales de Russell y Marco reduce la complejidad de la interfaz.
 
@@ -26,9 +26,15 @@
 
 11. El Sprint 1 cumplió su objetivo: se implementó la landing page con las secciones Home, Producto, Videos, Planes y Contacto. Las siete tareas planificadas (14 Story Points) quedaron en Done. Esto demostró que dividir el trabajo por secciones y por aspectos (diseño, estructura Vue, contenido y despliegue) permite avanzar sin bloqueos y mostrar valor desde el primer sprint.
 
-12. La landing page se desplegó en Azure Static Web Apps, y el avance quedó respaldado por el historial de commits, el tablero del sprint y capturas de ejecución. Publicar desde el primer sprint permite validar el producto con usuarios reales y deja una base de despliegue lista para los sprints siguientes, donde se integrarán el frontend, el backend en .NET y la persistencia.
+12. La landing page se publicó primero en Azure Static Web Apps y después pasó a Vercel, donde también se aloja el frontend actual. Tener ambas páginas disponibles permitió mostrar el producto y facilitar el acceso a la aplicación durante las entrevistas de validación.
 
-13. El Sprint 2 cumplió su objetivo de desplegar la primera versión navegable del Frontend Web Application. Desarrollada con Vue 3, Vite, Pinia y PrimeVue, la aplicación se publicó en Azure Static Web Apps con vistas diferenciadas para el administrador de minimarket y el proveedor, y los bounded contexts del capítulo IV se tradujeron en módulos navegables. Comprobamos que organizar el código por bounded context facilita repartir el trabajo y mantener la coherencia con la arquitectura documentada.
+13. En el Sprint 2 desarrollamos la primera versión navegable del frontend con Vue 3, Vite, Pinia y PrimeVue. Las vistas para administradores de minimarkets y proveedores organizaron funciones de inventario, productos, abastecimiento y pedidos según el rol. Este trabajo nos ayudó a convertir el diseño del capítulo IV en pantallas que los usuarios pudieron recorrer y comentar.
+
+14. En el Sprint 3 se implementaron servicios del backend para los módulos de MarketGo y se preparó la base de datos MySQL. Swagger permitió revisar las rutas y comprobar en local el registro de usuarios y la creación de proveedores. El panel de Vercel muestra el despliegue del backend; estas evidencias nos ayudaron a pasar de una aplicación de demostración a una integración con servicios propios.
+
+15. Al registrar una cuenta nueva de minimarket, el dashboard del frontend mostró correctamente el estado inicial sin productos, solicitudes ni envíos. Esta prueba fue útil porque confirmó que la interfaz puede presentar datos de una cuenta recién creada sin inventar actividad. Todavía conviene revisar los flujos completos entre módulos para que la experiencia sea consistente en todos los casos.
+
+16. Las entrevistas de validación y la evaluación heurística nos dieron una mirada distinta a la del equipo de desarrollo. Los usuarios valoraron tener inventario y pedidos en un mismo lugar, pero también señalaron dudas sobre los planes, la disponibilidad de productos y algunos mensajes de la interfaz. Estos hallazgos nos sirven para priorizar mejoras concretas en vez de guiarnos solo por nuestras propias suposiciones.
 
 **Recomendaciones**
 
@@ -42,8 +48,8 @@
 
 5. Mantener una sola terminología. Usar los mismos términos del Ubiquitous Language en la documentación, el código y la interfaz: "pedido" (requisitions) y "orden de envío" (purchase-orders), y el nombre del equipo "Market-Labs".
 
-6. Automatizar la integración y el despliegue. Configurar GitHub Actions para ejecutar lint y build en cada PR, y para desplegar automáticamente a Azure al integrar en main.
+6. Automatizar las verificaciones antes de desplegar. Conviene ejecutar la compilación y las pruebas del frontend y del backend en cada cambio importante, y comprobar que las versiones publicadas en Vercel correspondan al código revisado.
 
-7. Escribir pruebas desde el inicio. Convertir los escenarios Gherkin de las User Stories en pruebas automatizadas, empezando por las reglas críticas: solo el administrador modifica el inventario y la aceptación de una orden de envío no puede aplicarse dos veces.
+7. Probar los flujos completos entre frontend, API y base de datos. Empezar por registro e inicio de sesión, creación de proveedores, inventario y seguimiento de pedidos, incluyendo los permisos de cada rol y los mensajes cuando ocurre un error.
 
-8. Validar con usuarios reales. Compartir la landing page con los administradores y proveedores entrevistados en el Capítulo II y medir si entienden la propuesta de valor y si completan el formulario de contacto.
+8. Aplicar las mejoras encontradas en las entrevistas y la evaluación heurística. Aclarar las diferencias entre planes, facilitar el filtro de productos disponibles, advertir cuando una solicitud supera el stock y unificar las fechas y mensajes que ve cada usuario.
