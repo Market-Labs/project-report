@@ -3828,7 +3828,7 @@ La reunión de planificación del Sprint 3 se realizó el 7 de noviembre de 2026
 | Technical Stories seleccionadas | TS-INV-001, TS-PROD-001, TS-SUP-002, TS-ORD-001, TS-ORD-003, TS-ORD-004, TS-CON-001, TS-CON-002 y TS-MER-001 del Product Backlog del capítulo III. El tablero Sprint Backlog 3 agrupa nueve tarjetas en Stories; la estimación de tres puntos por historia se contrasta con el Product Backlog. |
 | Story Points de Technical Stories | **27 Story Points** (nueve historias de 3 puntos cada una), según el Product Backlog del capítulo III. Es una estimación técnica planificada, no un total completado ni el total de todas las tarjetas del tablero. |
 
-La base compartida aportó `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, configuración CORS y OpenAPI/Scalar. Durante el Sprint 3 se integraron en `main` del backend los bounded contexts de Suppliers, Products, Inventory, Requisition, Procurements, Conservation, Communication, Dashboard y Analytics, además de la migración inicial de MySQL y la configuración de despliegue. Swagger UI en `localhost:5262` registró respuestas `201` para el registro IAM y la creación de un proveedor. El panel de Vercel muestra el backend de producción en estado `Ready`, y el panel de Enzonic muestra la instancia `marketgo-sql` activa. Los commits y capturas correspondientes se detallan en 5.2.3.4 a 5.2.3.7.
+La base compartida aportó `Result`, contratos de repositorio y unidad de trabajo, `AppDbContext`, repositorios base, auditoría automática, configuración CORS y OpenAPI/Scalar. Durante el Sprint 3 se integraron en `main` del backend los bounded contexts de Suppliers, Products, Inventory, Requisition, Procurements, Conservation, Communication, Dashboard y Analytics, además de la migración inicial de MySQL y la configuración de despliegue. Scalar en `localhost:5262` registró respuestas `200 OK` para el control de salud, el inicio de sesión IAM y la consulta autenticada de productos. El panel de Vercel muestra el backend de producción en estado `Ready`, y el panel de Enzonic muestra la instancia `marketgo-sql` activa. Los commits y capturas correspondientes se detallan en 5.2.3.4 a 5.2.3.7.
 
 
 
@@ -3898,57 +3898,57 @@ La identidad de autor configurada en estos commits es `Lil Doggy`; el historial 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Las capturas muestran Swagger UI en `http://localhost:5262/`. Se documenta la ejecución local de `POST /api/v1/auth/sign-up`, que devolvió `201 Created` con el usuario registrado, y de `POST /api/v1/suppliers`, que devolvió `201` con los datos del proveedor creado. La contraseña y el token se ocultaron en las capturas de registro incorporadas al informe. También se muestra el dashboard de una cuenta nueva de minimarket, sin productos ni solicitudes registrados.
+Las capturas de Scalar en `http://localhost:5262/scalar/v1` muestran la documentación de MarketGo API v1 y tres pruebas locales: `GET /api/v1/health`, `POST /api/v1/auth/sign-in` y `GET /api/v1/products`. Las tres solicitudes respondieron `200 OK`. La consulta de productos se realizó con autenticación Bearer y devolvió registros del catálogo. También se muestra el dashboard del administrador de minimarket en el frontend alojado en Vercel, con indicadores de inventario, abastecimiento y envíos.
 
 | Escenario | Resultado esperado | Resultado observado | Evidencia |
 |---|---|---|---|
-| Inicio de la API y `GET /api/v1/health` | El servicio inicia y responde al control de salud. | La API local atendió `sign-up`; la respuesta de `health` no aparece en las capturas. | Pendiente de captura de `health` |
-| Documentación OpenAPI/Swagger | Swagger UI muestra `MarketGo API v1`, `GET /api/v1/health`, rutas de Suppliers y `POST /api/v1/auth/sign-up` en `http://localhost:5262/`. | Catálogo visible; `sign-up` y creación de proveedor ejecutados con respuesta `201`. | Capturas incluidas debajo |
-| Registro IAM (`sign-up`) | Un registro válido crea la cuenta y devuelve `201 Created`. | Respuesta `201` con datos del usuario y token oculto en la evidencia. | Capturas de solicitud y respuesta incluidas debajo |
-| Endpoint de negocio (Suppliers) | `POST /api/v1/suppliers` recibe los datos de un proveedor y crea el recurso. | La ejecución local devolvió `201` y un JSON con identificador, organización, datos comerciales y estado `active`. | Capturas de solicitud y respuesta incluidas debajo |
-| Integración con el frontend | El dashboard presenta los datos de la cuenta de minimarket. | La cuenta nueva aparece sin productos registrados: 0 unidades disponibles, 0 solicitudes de abastecimiento y 0 envíos pendientes. | Captura del dashboard incluida debajo |
+| Inicio de la API y `GET /api/v1/health` | El servicio responde al control de salud. | `200 OK` con `status: Healthy` y `service: MarketGo API`. | Captura de Scalar incluida debajo |
+| Documentación OpenAPI/Scalar | Scalar presenta MarketGo API v1 y las rutas de la API local. | Se observa el catálogo de endpoints y el servidor `localhost:5262`. | Captura de introducción incluida debajo |
+| Inicio de sesión IAM | `POST /api/v1/auth/sign-in` autentica al usuario. | `200 OK` con los datos del administrador de minimarket y un token. | Capturas antes y después del envío incluidas debajo |
+| Endpoint de negocio (Products) | `GET /api/v1/products` consulta el catálogo con autenticación. | `200 OK` con una lista de productos, entre ellos avena y brócoli orgánicos. | Captura de la consulta incluida debajo |
+| Integración con el frontend | El dashboard presenta los datos de la cuenta de minimarket. | El dashboard muestra 401 unidades disponibles, 7 solicitudes de abastecimiento y 1 envío pendiente de recepción. | Captura del dashboard incluida debajo |
 
 <div align="center">
-  <img src="report/assets/chapter-05/sprint3-swagger-local.png" alt="Swagger UI local de MarketGo API v1 con control de salud y rutas de proveedores" width="90%">
-  <p><strong>Figura: Documentación OpenAPI del backend de MarketGo en Swagger UI local.</strong><br><em>Nota. Captura proporcionada por el equipo. Se observan el servidor localhost:5262, el control de salud y las rutas de Suppliers; no se muestran respuestas de los endpoints.</em></p>
+  <img src="report/assets/chapter-05/sprint3-scalar-introduction.png" alt="Introducción de Scalar con MarketGo API v1 y servidor local" width="90%">
+  <p><strong>Figura: Documentación de MarketGo API v1 en Scalar.</strong><br><em>Se observa el servidor local y el catálogo de servicios.</em></p>
 </div>
 
 <div align="center">
-  <img src="report/assets/chapter-05/sprint3-iam-signup-request-redacted.png" alt="Solicitud de registro de proveedor en Swagger UI local con contraseña oculta" width="90%">
-  <p><strong>Figura: Solicitud de registro de proveedor en la API local de MarketGo.</strong><br><em>Nota. Copia editada de la captura proporcionada por el equipo; se ocultó la contraseña. Se observan la ruta `POST /api/v1/auth/sign-up` y los campos de la solicitud.</em></p>
+  <img src="report/assets/chapter-05/sprint3-scalar-health-200.png" alt="Respuesta 200 OK del control de salud en Scalar" width="90%">
+  <p><strong>Figura: Control de salud de la API.</strong><br><em>GET /api/v1/health responde 200 OK con estado Healthy.</em></p>
 </div>
 
 <div align="center">
-  <img src="report/assets/chapter-05/sprint3-iam-signup-201-redacted.png" alt="Respuesta 201 de registro de proveedor en Swagger UI local con token oculto" width="90%">
-  <p><strong>Figura: Respuesta `201 Created` del registro de proveedor en Swagger UI local.</strong><br><em>Nota. Copia editada de la captura proporcionada por el equipo; se ocultaron la contraseña y el token. La respuesta muestra los datos del usuario registrado.</em></p>
+  <img src="report/assets/chapter-05/sprint3-scalar-signin-request.png" alt="Formulario vacío de inicio de sesión en Scalar" width="90%">
+  <p><strong>Figura: Solicitud de inicio de sesión antes de completar los datos.</strong><br><em>Scalar muestra los campos email y password de POST /api/v1/auth/sign-in.</em></p>
 </div>
 
 <div align="center">
-  <img src="report/assets/chapter-05/sprint3-suppliers-post-request.png" alt="Solicitud POST de creación de proveedor en Swagger UI local" width="90%">
-  <p><strong>Figura: Datos enviados para crear un proveedor mediante `POST /api/v1/suppliers`.</strong></p>
+  <img src="report/assets/chapter-05/sprint3-scalar-signin-200.png" alt="Respuesta 200 OK del inicio de sesión del administrador en Scalar" width="90%">
+  <p><strong>Figura: Inicio de sesión del administrador de minimarket.</strong><br><em>La API responde 200 OK y muestra los datos de la cuenta autenticada.</em></p>
 </div>
 
 <div align="center">
-  <img src="report/assets/chapter-05/sprint3-suppliers-post-201.png" alt="Respuesta 201 de creación de proveedor en Swagger UI local" width="90%">
-  <p><strong>Figura: Respuesta `201` de la API con los datos del proveedor creado.</strong></p>
+  <img src="report/assets/chapter-05/sprint3-scalar-products-200.png" alt="Respuesta 200 OK de productos con autenticación Bearer en Scalar" width="90%">
+  <p><strong>Figura: Consulta autenticada del catálogo de productos.</strong><br><em>GET /api/v1/products responde 200 OK y devuelve productos orgánicos.</em></p>
 </div>
 
 <div align="center">
-  <img src="report/assets/chapter-05/sprint3-frontend-new-client-dashboard.png" alt="Dashboard de MarketGo para una cuenta nueva de minimarket sin productos registrados" width="90%">
-  <p><strong>Figura: Dashboard de una cuenta nueva de minimarket con inventario, abastecimiento y envíos en cero.</strong></p>
+  <img src="report/assets/chapter-05/sprint3-frontend-dashboard-vercel.png" alt="Dashboard del administrador de MarketGo en el frontend de Vercel con indicadores de inventario, abastecimiento y envíos" width="90%">
+  <p><strong>Figura: Dashboard del administrador de MarketGo desplegado en Vercel con 401 unidades disponibles, 7 solicitudes de abastecimiento y 1 envío pendiente.</strong></p>
 </div>
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-El documento del capítulo III describe los contratos previstos. Swagger UI muestra rutas de control de salud, Suppliers e IAM en el entorno local. Las capturas registran respuestas `201` de `POST /api/v1/auth/sign-up` y `POST /api/v1/suppliers`.
+El documento del capítulo III describe los contratos previstos. Scalar presenta las rutas de la API local. Las capturas muestran respuestas `200 OK` para el control de salud, el inicio de sesión y la consulta autenticada del catálogo de productos.
 
 | Servicio documentado | Método y ruta visibles | Autorización y datos | Respuesta y error verificados | Enlace o captura de documentación |
 |---|---|---|---|---|
-| Control de salud de la base API | `GET /api/v1/health` visible en Swagger UI | Público; no requiere datos de negocio | Respuesta no mostrada en la captura | Captura de Swagger UI en 5.2.3.5 |
-| Suppliers | `GET /api/v1/suppliers`, `POST /api/v1/suppliers`, `GET /api/v1/suppliers/{id}` y `PATCH /api/v1/suppliers/{id}` visibles en Swagger UI | `POST` con nombre comercial, RUC, correo, teléfono, dirección, especialidad, cobertura e ID de organización proveedora | `POST` respondió `201` con el proveedor creado y estado `active` | Capturas de solicitud y respuesta en 5.2.3.5 |
-| IAM: registro | `POST /api/v1/auth/sign-up` ejecutado en Swagger UI local | Solicitud de tipo `supplier` con nombre, correo, contraseña y aceptación de términos; contraseña oculta en la imagen | `201 Created` con usuario y token; token oculto en la imagen | Capturas de solicitud y respuesta en 5.2.3.5 |
-| Servicio de integración frontend | Implementado en el frontend: `POST /api/v1/auth/sign-up` para registrar la cuenta y `GET /api/v1/minimarkets/{organizationId}/dashboard` para consultar los indicadores. | Se creó un usuario nuevo con rol de administrador de minimarket. El registro envía nombre, correo, contraseña, organización, tipo de cuenta `minimarket` y aceptación de términos; la consulta del dashboard usa su sesión autenticada. | El dashboard de la cuenta nueva muestra 0 unidades disponibles, 0 solicitudes y 0 envíos pendientes. Mensaje definido en el frontend ante un fallo de registro: “Could not create your account. Please try again.” | Captura del dashboard de la cuenta nueva en 5.2.3.5; implementación en `IamApi.signUp` y `DashboardOverviewApi.getOverview`. |
+| Control de salud de la base API | `GET /api/v1/health` ejecutado en Scalar | Público; no requiere datos de negocio | `200 OK` con `Healthy` y `MarketGo API` | Captura de respuesta en 5.2.3.5 |
+| IAM: inicio de sesión | `POST /api/v1/auth/sign-in` ejecutado en Scalar | Correo y contraseña de un administrador de minimarket | `200 OK` con datos del usuario y token | Capturas de solicitud y respuesta en 5.2.3.5 |
+| Products | `GET /api/v1/products` ejecutado en Scalar | Autenticación Bearer | `200 OK` con productos del catálogo | Captura de respuesta en 5.2.3.5 |
+| Servicio de integración frontend | Implementado en el frontend: `POST /api/v1/auth/sign-up` para registrar la cuenta y `GET /api/v1/minimarkets/{organizationId}/dashboard` para consultar los indicadores. | Se creó un usuario nuevo con rol de administrador de minimarket. El registro envía nombre, correo, contraseña, organización, tipo de cuenta `minimarket` y aceptación de términos; la consulta del dashboard usa su sesión autenticada. | El dashboard del administrador muestra 401 unidades disponibles, 7 solicitudes y 1 envío pendiente de recepción. Mensaje definido en el frontend ante un fallo de registro: “Could not create your account. Please try again.” | Captura del dashboard del administrador en Vercel en 5.2.3.5; implementación en `IamApi.signUp` y `DashboardOverviewApi.getOverview`. |
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
